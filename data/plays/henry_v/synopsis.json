@@ -1,0 +1,59 @@
+{
+  "play": "henry_v",
+  "overview": "Shakespeare's great war play follows the transformed Prince Hal — now the eloquent, formidable King Henry V — as he presses a dynastic claim to the throne of France and leads a small, sick army to an astonishing victory at Agincourt. A Chorus steps before each act to apologize for the bare stage and beg the audience to supply with imagination the fleets, horses, and 'vasty fields of France' the theatre cannot hold. Around the King's public triumph the play sets darker and comic counter-voices: the hanging of his old tavern friend Bardolph, a common soldier's challenge to the justice of the war on the eve of battle, the cowardly braggart Pistol, and the squabbling captains of four nations. It ends not in blood but in courtship, as Henry woos the French princess Katharine to seal an uneasy peace — which the Epilogue reminds us his infant son will swiftly lose.",
+  "acts": [
+    {
+      "number": 1,
+      "summary": "A Chorus calls for 'a Muse of fire'; the Church backs the King's claim to France, and the Dauphin's insult hardens him to war.",
+      "scenes": [
+        { "number": 1, "summary": "The Chorus opens, wishing for a Muse of fire and a kingdom for a stage, and asks the audience to 'piece out our imperfections' with their thoughts. Then the Archbishop of Canterbury and Bishop of Ely plot to head off a bill that would seize the Church's lands by financing — and morally underwriting — a war on France.", "themes": ["theatre", "church_and_state", "war"] },
+        { "number": 2, "summary": "Before the court Canterbury unspools the labyrinthine Salic-law argument that Henry's claim to the French crown is just. Urged on by his lords, the King resolves on war — and the French Ambassador arrives with the Dauphin's mocking gift of tennis balls, which Henry answers with a cold promise of cannon-fire.", "themes": ["political_legitimacy", "war", "honor"] }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "England arms while three traitors are bought; the Southampton plot is exposed, and old Falstaff dies offstage.",
+      "scenes": [
+        { "number": 1, "summary": "The Chorus tells how all the youth of England now arm for France, and how three lords — Cambridge, Scroop, and Grey — are bribed by French gold to kill the King. In Eastcheap, Nym and Pistol, rivals over the Hostess (whom Pistol has married), are barely kept from blows by Bardolph as word comes that Falstaff lies gravely sick.", "themes": ["nationhood", "treason", "comedy"] },
+        { "number": 2, "summary": "At Southampton the King springs his trap: he invites the three conspirators to condemn a small offense, then reveals he knows their plot to murder him. Wounded most by Scroop's betrayed friendship — 'a kind of second fall of man' — he sends all three to execution and embarks for France.", "themes": ["treason", "betrayal", "justice"] },
+        { "number": 3, "summary": "In Eastcheap the Hostess gives her famous, fumbling account of the death of Falstaff — how 'a' babbled of green fields' — and Pistol, Nym, Bardolph, and the Boy set off for the wars.", "themes": ["death", "comedy", "elegy"] },
+        { "number": 4, "summary": "At the French court King Charles VI urges caution, remembering Crécy and Poitiers, while the scornful Dauphin makes light of the English. Exeter arrives with Henry's demand for the crown and a personal defiance to the Dauphin.", "themes": ["war", "pride", "diplomacy"] }
+      ]
+    },
+    {
+      "number": 3,
+      "summary": "Harfleur is stormed and yielded; the captains squabble, Katharine learns English, and Bardolph hangs as the armies near Agincourt.",
+      "scenes": [
+        { "number": 1, "summary": "The Chorus carries the fleet to France and the siege of Harfleur. At the breach the King rallies his faltering men with the great cry 'Once more unto the breach, dear friends, once more.'", "themes": ["war", "leadership", "rhetoric"] },
+        { "number": 2, "summary": "The cowardly Pistol, Nym, and Bardolph hang back from the assault until the Boy and Fluellen drive them on. The four captains — Welsh Fluellen, English Gower, Scots Jamy, and Irish Macmorris — wrangle over the mines and the conduct of the siege.", "themes": ["comedy", "nationhood", "war"] },
+        { "number": 3, "summary": "Before the walls Henry warns the Governor of Harfleur in terrifying terms of the rape and slaughter a sack would bring; with no French relief in sight, the Governor yields the town.", "themes": ["war_atrocity", "siege", "power"] },
+        { "number": 4, "summary": "In a scene entirely in French, Princess Katharine takes an English lesson from her gentlewoman Alice, blushing as the new words sound like French obscenities — a comic preparation to meet her conqueror.", "themes": ["language", "comedy", "bawdy"] },
+        { "number": 5, "summary": "At the French court the King and his nobles, shamed that the ragged English have marched so far, name a long roll of great lords and send the herald Montjoy to demand Henry's ransom.", "themes": ["pride", "war", "honor"] },
+        { "number": 6, "summary": "In the English camp Fluellen praises a bridge's defence, then must report that Bardolph is condemned to hang for robbing a church — a sentence the King upholds without mercy. Montjoy delivers France's demand for ransom, and Henry answers with weary, resolute defiance.", "themes": ["justice", "war", "mercy"] },
+        { "number": 7, "summary": "In the French camp the overconfident Constable, Dauphin, Orleans, and Rambures pass the night before battle boasting of their horses and armour and despising the starved English.", "themes": ["pride", "war", "irony"] }
+      ]
+    },
+    {
+      "number": 4,
+      "summary": "The night-walk before Agincourt, the St. Crispin's Day speech, and a miraculous victory against crushing odds.",
+      "scenes": [
+        { "number": 1, "summary": "The Chorus paints the still night before Agincourt and the 'little touch of Harry in the night.' Disguised in a borrowed cloak, the King walks among his soldiers and argues with the blunt Williams over whether a king answers for the souls of those who die in his cause; they exchange gloves to quarrel by later. Alone, Henry meditates on the heavy 'ceremony' that is all a king has above other men.", "themes": ["kingship", "conscience", "war"] },
+        { "number": 2, "summary": "In the French camp the lords arm joyfully, certain the vast odds make victory a formality, almost pitying the doomed English.", "themes": ["pride", "war", "irony"] },
+        { "number": 3, "summary": "Told how few they are, Henry answers with the St. Crispin's Day speech — 'We few, we happy few, we band of brothers' — turning the long odds into glory, and refuses Montjoy's last offer of ransom.", "themes": ["rhetoric", "honor", "brotherhood"] },
+        { "number": 4, "summary": "On the field the braggart Pistol captures a French soldier, Monsieur Le Fer, and — through the Boy's interpreting — spares him for the promise of two hundred crowns, while the Boy notes how cowards thrive as braver men die.", "themes": ["comedy", "war", "cowardice"] },
+        { "number": 5, "summary": "As the unthinkable rout begins, the French lords cry out in shame and rush back to die rather than outlive their disgrace.", "themes": ["shame", "war", "reversal"] },
+        { "number": 6, "summary": "Exeter tells through tears of the deaths of York and Suffolk, embracing in death; hearing a fresh French alarm, the King orders the prisoners killed.", "themes": ["death", "war_atrocity", "war"] },
+        { "number": 7, "summary": "Fluellen and Gower rage at the French slaughter of the unarmed boys guarding the luggage; Fluellen compares Henry to Alexander, and the King, learning the day is won, plants the soldier Williams's glove in Fluellen's cap to renew the night's quarrel as a jest.", "themes": ["war_atrocity", "comedy", "honor"] },
+        { "number": 8, "summary": "The glove quarrel is unravelled and Williams pardoned and rewarded; Montjoy brings the count — some ten thousand French dead against a bare handful of English — and Henry gives all the glory to God.", "themes": ["providence", "war", "reconciliation"] }
+      ]
+    },
+    {
+      "number": 5,
+      "summary": "Pistol is humbled, peace is made, and Henry woos Katharine — as the Epilogue looks ahead to the loss of all he won.",
+      "scenes": [
+        { "number": 1, "summary": "The Chorus leaps over Henry's triumphant London welcome and back to France. Fluellen, mocked by Pistol over his Welsh leek, beats him into eating it skin and all; the friendless Pistol, his wife dead, resolves to slink home to England and turn cutpurse.", "themes": ["comedy", "nationhood", "humiliation"] },
+        { "number": 2, "summary": "At the French court the dukes make peace; while the terms are settled, Henry woos Princess Katharine in blunt soldier's English. Burgundy laments war-ravaged France, the marriage is agreed, and Henry is named heir to the French crown. The Epilogue recalls that this fragile union would be undone under his son Henry VI, who 'lost France and made his England bleed.'", "themes": ["peace", "courtship", "nationhood"] }
+      ]
+    }
+  ]
+}

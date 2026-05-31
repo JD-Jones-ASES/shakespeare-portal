@@ -57,7 +57,9 @@ if (existsSync(CATALOG_PATH)) {
 }
 
 // ---- patterns ----
-const ACT_HEADER = /^\s*ACT\s+(?<num>[IVXLC]+|\d+)\.?\s*$/i;
+// Act headers: roman ("ACT I."), arabic ("ACT 1."), or a spelled-out ordinal
+// ("ACT FIRST.") — Henry V's edition mixes ordinal-word odd acts with roman even acts.
+const ACT_HEADER = /^\s*ACT\s+(?<num>[IVXLC]+|\d+|FIRST|SECOND|THIRD|FOURTH|FIFTH|SIXTH|SEVENTH|EIGHTH|NINTH|TENTH)\.?\s*$/i;
 const SCENE_HEADER = /^\s*Scene\s+(?<num>[IVXLC]+|\d+)\.?\s*(?<setting>.*)$/i;
 // Song / verse section markers (e.g. "SONG.", "CHORUS.", "I.", "II.") that appear
 // inside lyric passages and must NOT be misread as speaker labels.
@@ -72,9 +74,35 @@ const PROLOGUE_HEADER = /^\s*THE\s+PROLOGUE\.?\s*$/i;
 // A scene setting that wraps onto a second physical line ends on a dangling
 // function word (e.g. "...overlooking the" + "Garden."); used to rejoin them.
 const SETTING_DANGLES = /\b(?:the|a|an|of|to|and|in|on|at|with|from|for|by|near|before)$/i;
+
+// --- framing-speech support (Chorus prologues, Inductions, Epilogues) ---
+// Each new behavior below is GATED on the play defining the relevant speaker in
+// characters.json, so plays without a Chorus/Rumour stay byte-identical. Henry V uses an
+// uppercase CHORUS. speaker and a bare "PROLOGUE." header (no leading "THE") before every
+// act; Romeo and Juliet uses a title-case Chorus and a "THE PROLOGUE" header, so the
+// bare-prologue rule never fires for it. Henry IV Part 2 opens with an "INDUCTION" spoken
+// by RUMOUR. "EPILOGUE." is handled where SONG_HEADER is tested (it is aliased to a
+// Chorus/Dancer in those two plays so it reads as speech, not a stage direction).
+const hasUpperChorus = aliasToChar.has('CHORUS.');
+const hasRumour = aliasToChar.has('RUMOUR.');
+const BARE_PROLOGUE_HEADER = /^\s*PROLOGUE\.?\s*$/i;
+const INDUCTION_HEADER = /^\s*INDUCTION\.?\s*$/i;
+function isFramingHeader(t: string): boolean {
+  if (PROLOGUE_HEADER.test(t)) return true; // "THE PROLOGUE" (Romeo and Juliet)
+  if (hasUpperChorus && BARE_PROLOGUE_HEADER.test(t)) return true; // "PROLOGUE." before every act (Henry V)
+  if (hasRumour && INDUCTION_HEADER.test(t)) return true; // "INDUCTION" (Henry IV Part 2)
+  return false;
+}
+
 const ROMAN: Record<string, number> = { I: 1, II: 2, III: 3, IV: 4, V: 5, VI: 6, VII: 7, VIII: 8, IX: 9, X: 10 };
+const ORDINAL_WORDS: Record<string, number> = {
+  FIRST: 1, SECOND: 2, THIRD: 3, FOURTH: 4, FIFTH: 5,
+  SIXTH: 6, SEVENTH: 7, EIGHTH: 8, NINTH: 9, TENTH: 10,
+};
 function toInt(s: string): number {
-  return /^\d+$/.test(s) ? Number(s) : (ROMAN[s.toUpperCase()] ?? 0);
+  if (/^\d+$/.test(s)) return Number(s);
+  const up = s.toUpperCase();
+  return ORDINAL_WORDS[up] ?? ROMAN[up] ?? 0;
 }
 
 const STOPWORDS = new Set([
@@ -139,9 +167,12 @@ let curSpeaker: { id?: string; name: string } | null = null;
 let curSpeakerRaw: string | null = null;
 let expectSpeaker = false;
 let lastSceneNum = 0;
-// A Chorus prologue is buffered here and prepended to the first scene of the act
-// it introduces. Only ever populated when a `chorus` speaker / "Enter Chorus"
-// direction is present (i.e. Romeo and Juliet) — other plays are unaffected.
+// A Chorus prologue / Induction is buffered here and prepended to the first scene of
+// the act it introduces. Re-armable: each framing trigger reopens the buffer and
+// pushScene flushes-then-clears it, so a Chorus before every act (Henry V) lands at the
+// head of each act in turn. Only populated when a framing speaker / direction is present
+// (Romeo and Juliet's Chorus, Henry V's Chorus, Henry IV Part 2's Rumour) — other plays
+// are unaffected.
 let inPrologue = false;
 let pendingPrologue: DraftLine[] | null = null;
 
@@ -183,14 +214,16 @@ function pushScene(num: number, setting: string | undefined) {
   }
 }
 
-// find content start: the first ACT header, or an earlier PROLOGUE header if one
-// precedes it (Romeo and Juliet's Act 1 Chorus prologue). Plays with no leading
-// prologue are unaffected — the ACT header is still the first match.
+// find content start: the first ACT header, or an earlier framing header (a Chorus
+// prologue or an Induction) if one precedes it. Plays with no leading framing speech
+// are unaffected — the ACT header is still the first match (isFramingHeader reduces to
+// the gated "THE PROLOGUE" check). Henry V also needs this because its first ACT header
+// is the ordinal-word "ACT FIRST.", now matched by ACT_HEADER.
 const firstActIdx = allLines.findIndex((l) => ACT_HEADER.test(l.trim()));
-const firstPrologueIdx = allLines.findIndex((l) => PROLOGUE_HEADER.test(l.trim()));
+const firstFramingIdx = allLines.findIndex((l) => isFramingHeader(l.trim()));
 let i =
-  firstPrologueIdx >= 0 && (firstActIdx < 0 || firstPrologueIdx < firstActIdx)
-    ? firstPrologueIdx
+  firstFramingIdx >= 0 && (firstActIdx < 0 || firstFramingIdx < firstActIdx)
+    ? firstFramingIdx
     : firstActIdx;
 if (i < 0) {
   console.error('no "ACT ..." header found; cannot parse this file shape.');
@@ -227,10 +260,11 @@ for (; i < allLines.length; i++) {
       continue;
     }
   }
-  // "THE PROLOGUE" — open a Chorus prologue buffer (flushed to the head of the
-  // next scene). Guarded against an aliased speaker label, and a no-op for plays
-  // without such a header.
-  if (PROLOGUE_HEADER.test(trimmed) && !aliasToChar.has(trimmed)) {
+  // A framing-section header ("THE PROLOGUE" / bare "PROLOGUE." / "INDUCTION") opens a
+  // Chorus/Induction buffer flushed to the head of the next scene. Gated (isFramingHeader)
+  // so plays without a Chorus/Rumour are byte-identical, and guarded against an aliased
+  // speaker label so a real "PROLOGUE." speaker is never hijacked.
+  if (isFramingHeader(trimmed) && !aliasToChar.has(trimmed)) {
     startPrologue();
     continue;
   }
@@ -256,9 +290,11 @@ for (; i < allLines.length; i++) {
     handleBracketed(s);
     continue;
   }
-  // Song / verse section markers ("SONG.", "I.", "II.", "CHORUS.") sit inside
-  // lyric passages; render them as stage directions and don't break the speaker.
-  if (SONG_HEADER.test(trimmed) || VERSE_NUMERAL.test(trimmed)) {
+  // Song / verse section markers ("SONG.", "I.", "II.") sit inside lyric passages;
+  // render them as stage directions and don't break the speaker. EXCEPTION: if the token
+  // is a defined speaker alias, fall through to the speaker path — Henry V / Henry IV
+  // Part 2 alias "EPILOGUE." to a Chorus/Dancer so the epilogue reads as speech.
+  if ((SONG_HEADER.test(trimmed) || VERSE_NUMERAL.test(trimmed)) && !aliasToChar.has(trimmed)) {
     emitSD(trimmed);
     continue;
   }
@@ -279,6 +315,13 @@ for (; i < allLines.length; i++) {
     curSpeakerRaw = trimmed;
     curSpeaker = canonical(trimmed);
     expectSpeaker = false;
+    continue;
+  }
+  // A performance rubric on a framing speech (e.g. "Spoken by a Dancer." under Henry IV
+  // Part 2's Epilogue) is a stage direction, not dialogue. Gated to framing plays so the
+  // shipped plays are byte-identical.
+  if ((hasUpperChorus || hasRumour) && /^(?:spoken|sung|said) by\b/i.test(trimmed)) {
+    emitSD(trimmed);
     continue;
   }
   emitDialogue(trimmed);
@@ -308,7 +351,7 @@ function emitSD(text: string) {
   if (text.trim() === '') return;
   // An "Enter Chorus" direction opens a prologue/chorus passage we buffer and
   // prepend to the next scene of the act it introduces.
-  if (!inPrologue && /enter\s+chorus/i.test(text)) startPrologue();
+  if (!inPrologue && /enter\s+(?:chorus|rumour)/i.test(text)) startPrologue();
   const sink = currentSink();
   if (!sink) return;
   sink.push({ kind: 'stage_direction', stage_directions: [text.trim()] });

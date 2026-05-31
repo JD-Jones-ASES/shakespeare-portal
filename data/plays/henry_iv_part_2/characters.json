@@ -1,0 +1,530 @@
+[
+  {
+    "id": "rumour",
+    "name": "Rumour",
+    "aliases": ["RUMOUR."],
+    "role": "chorus",
+    "description": "The Presenter who speaks the Induction, a figure 'painted full of tongues' who personifies false report. He boasts of spreading the lie that Hotspur beat the King at Shrewsbury, setting the play in motion on a current of misinformation.",
+    "color": "#7a6a9a"
+  },
+  {
+    "id": "king",
+    "name": "King Henry IV",
+    "aliases": ["KING.", "KING HENRY."],
+    "role": "major",
+    "description": "Henry Bolingbroke, now aging, sleepless, and sick at heart, haunted by how he won the crown and by his son's wildness. He longs for rest and for the Holy Land he will never reach, and dies in the Jerusalem Chamber, reconciled at last with Prince Hal.",
+    "relationships": [
+      { "other_id": "prince_hal", "relation": "father of" },
+      { "other_id": "prince_john", "relation": "father of" },
+      { "other_id": "chief_justice", "relation": "appointed" }
+    ],
+    "color": "#8a6d3b"
+  },
+  {
+    "id": "prince_hal",
+    "name": "Prince Hal",
+    "aliases": ["PRINCE.", "PRINCE HENRY.", "PRINCE HAL."],
+    "role": "protagonist",
+    "description": "Henry, Prince of Wales, still drifting between the court and the Eastcheap tavern as his father lies dying. Mistaking the sleeping King for dead, he takes the crown; reconciled, he inherits it as Henry V, casts off Falstaff at his coronation, and embraces the rule of law under the Chief Justice.",
+    "relationships": [
+      { "other_id": "king", "relation": "son of" },
+      { "other_id": "falstaff", "relation": "former companion, who rejects" },
+      { "other_id": "poins", "relation": "friend of" },
+      { "other_id": "chief_justice", "relation": "reconciled with, embraces" }
+    ],
+    "color": "#b08a2e"
+  },
+  {
+    "id": "falstaff",
+    "name": "Sir John Falstaff",
+    "aliases": ["FALSTAFF.", "SIR JOHN.", "FAL."],
+    "role": "deuteragonist",
+    "description": "The fat old knight at the height of his fame after Shrewsbury, trading on his reputation, dodging his debts to the Hostess, and recruiting ragged soldiers for bribes. Witty, self-loving, and increasingly aware of his age, he dreams of the favours Hal will shower on him as king, only to be publicly cast off: 'I know thee not, old man.'",
+    "relationships": [
+      { "other_id": "prince_hal", "relation": "companion of, rejected by" },
+      { "other_id": "chief_justice", "relation": "sparring adversary of" },
+      { "other_id": "hostess", "relation": "debtor of" },
+      { "other_id": "doll", "relation": "lover of" },
+      { "other_id": "shallow", "relation": "creditor and exploiter of" }
+    ],
+    "color": "#a0522d"
+  },
+  {
+    "id": "chief_justice",
+    "name": "Lord Chief Justice",
+    "aliases": ["CHIEF JUSTICE."],
+    "role": "major",
+    "description": "The Lord Chief Justice of the King's Bench, the embodiment of law, order, and sober public duty, who once committed Prince Hal to prison. Falstaff's great foil, he stands for everything the tavern is not — and the new King Henry V confirms him in office as 'a father to my youth.'",
+    "relationships": [
+      { "other_id": "falstaff", "relation": "rebukes and restrains" },
+      { "other_id": "prince_hal", "relation": "former adversary, then trusted by" }
+    ],
+    "color": "#3f6f8a"
+  },
+  {
+    "id": "prince_john",
+    "name": "Prince John of Lancaster",
+    "aliases": ["LANCASTER.", "PRINCE JOHN.", "JOHN."],
+    "role": "supporting",
+    "description": "The King's cold, capable younger son, who ends the northern rebellion at Gaultree Forest not by battle but by a calculated trick — promising the rebel lords redress, then arresting them for treason once their armies disperse. Falstaff judges him sober and humourless, a man who never laughs.",
+    "relationships": [
+      { "other_id": "king", "relation": "son of" },
+      { "other_id": "prince_hal", "relation": "brother of" },
+      { "other_id": "archbishop", "relation": "outwits and condemns" }
+    ],
+    "color": "#7a8a5a"
+  },
+  {
+    "id": "gloucester",
+    "name": "Humphrey, Duke of Gloucester",
+    "aliases": ["GLOUCESTER."],
+    "role": "minor",
+    "description": "Prince Humphrey of Gloucester, a younger son of King Henry IV, who attends his dying father and his brothers as the crown passes to Hal.",
+    "relationships": [
+      { "other_id": "king", "relation": "son of" },
+      { "other_id": "prince_hal", "relation": "brother of" }
+    ],
+    "color": "#8a7a4a"
+  },
+  {
+    "id": "clarence",
+    "name": "Thomas, Duke of Clarence",
+    "aliases": ["CLARENCE."],
+    "role": "minor",
+    "description": "Thomas, Duke of Clarence, another younger son of the King, urged by his dying father to cherish his brother Hal and so keep the royal family united.",
+    "relationships": [
+      { "other_id": "king", "relation": "son of" },
+      { "other_id": "prince_hal", "relation": "brother of" }
+    ],
+    "color": "#9a8a4a"
+  },
+  {
+    "id": "warwick",
+    "name": "Earl of Warwick",
+    "aliases": ["WARWICK."],
+    "role": "supporting",
+    "description": "A wise and loyal counsellor to King Henry IV, who comforts the sleepless King and reads in Prince Hal's wildness a discipline that will one day turn to wisdom.",
+    "relationships": [
+      { "other_id": "king", "relation": "counsellor to" }
+    ],
+    "color": "#4a7a9a"
+  },
+  {
+    "id": "westmoreland",
+    "name": "Earl of Westmoreland",
+    "aliases": ["WESTMORELAND."],
+    "role": "supporting",
+    "description": "A loyal earl of the royal party who confronts the rebels at Gaultree, carrying Prince John's terms and helping to spring the trap that ends the revolt without a battle.",
+    "relationships": [
+      { "other_id": "prince_john", "relation": "ally of" },
+      { "other_id": "archbishop", "relation": "negotiates with" }
+    ],
+    "color": "#4e8a7a"
+  },
+  {
+    "id": "northumberland",
+    "name": "Earl of Northumberland",
+    "aliases": ["NORTHUMBERLAND."],
+    "role": "supporting",
+    "description": "Henry Percy, Earl of Northumberland, Hotspur's father, who again pleads sickness and fails his allies — this time fleeing to Scotland and leaving the Archbishop's rebellion to collapse, just as he abandoned his son at Shrewsbury.",
+    "relationships": [
+      { "other_id": "lady_percy", "relation": "father-in-law of" },
+      { "other_id": "lady_northumberland", "relation": "husband of" },
+      { "other_id": "archbishop", "relation": "fails as ally of" }
+    ],
+    "color": "#4e7a8b"
+  },
+  {
+    "id": "lady_northumberland",
+    "name": "Lady Northumberland",
+    "aliases": ["LADY NORTHUMBERLAND."],
+    "role": "minor",
+    "description": "Northumberland's wife, who joins her daughter-in-law Lady Percy in urging the earl to flee to Scotland rather than risk himself in a second doomed rebellion.",
+    "relationships": [
+      { "other_id": "northumberland", "relation": "wife of" }
+    ],
+    "color": "#b56a9a"
+  },
+  {
+    "id": "lady_percy",
+    "name": "Lady Percy",
+    "aliases": ["LADY PERCY.", "LADY P."],
+    "role": "supporting",
+    "description": "Kate, Hotspur's widow, who in a searing speech shames Northumberland for abandoning her husband at Shrewsbury and begs him not to march now for lesser men than the son he failed.",
+    "relationships": [
+      { "other_id": "northumberland", "relation": "daughter-in-law of" }
+    ],
+    "color": "#c2557a"
+  },
+  {
+    "id": "archbishop",
+    "name": "Archbishop of York",
+    "aliases": ["ARCHBISHOP.", "SCROOP.", "ARCH."],
+    "role": "supporting",
+    "description": "Richard Scroop, Archbishop of York, who lends the rebellion the sanctity of the Church and leads the northern lords at Gaultree. Persuaded to disband his army on Prince John's promise of redress, he is immediately arrested and sent to execution.",
+    "relationships": [
+      { "other_id": "mowbray", "relation": "fellow rebel of" },
+      { "other_id": "hastings", "relation": "fellow rebel of" },
+      { "other_id": "prince_john", "relation": "betrayed and condemned by" }
+    ],
+    "color": "#6b5b95"
+  },
+  {
+    "id": "mowbray",
+    "name": "Lord Mowbray",
+    "aliases": ["MOWBRAY."],
+    "role": "supporting",
+    "description": "Thomas Mowbray, the Earl Marshal and son of the Duke of Norfolk banished in Richard II, who joins the Archbishop's rising still nursing his family's old grievance and is condemned with the other rebel leaders at Gaultree.",
+    "relationships": [
+      { "other_id": "archbishop", "relation": "fellow rebel of" },
+      { "other_id": "hastings", "relation": "fellow rebel of" }
+    ],
+    "color": "#5a6f9a"
+  },
+  {
+    "id": "hastings",
+    "name": "Lord Hastings",
+    "aliases": ["HASTINGS."],
+    "role": "supporting",
+    "description": "A rebel lord who tallies the Archbishop's forces and trusts Prince John's word at Gaultree, only to be arrested for high treason the moment the rebel army melts away.",
+    "relationships": [
+      { "other_id": "archbishop", "relation": "fellow rebel of" },
+      { "other_id": "mowbray", "relation": "fellow rebel of" }
+    ],
+    "color": "#6a5f9a"
+  },
+  {
+    "id": "lord_bardolph",
+    "name": "Lord Bardolph",
+    "aliases": ["LORD BARDOLPH."],
+    "role": "supporting",
+    "description": "A rebel nobleman (entirely distinct from Falstaff's follower Bardolph) who brings Northumberland the false report of victory at Shrewsbury and later counsels caution, warning the rebels not to build their hopes on forces they do not yet command.",
+    "relationships": [
+      { "other_id": "northumberland", "relation": "ally of" },
+      { "other_id": "archbishop", "relation": "fellow rebel of" }
+    ],
+    "color": "#7a5f8a"
+  },
+  {
+    "id": "travers",
+    "name": "Travers",
+    "aliases": ["TRAVERS."],
+    "role": "minor",
+    "description": "Northumberland's retainer, who brings the earl an early, garbled report of the battle at Shrewsbury before Morton arrives with the bitter truth.",
+    "relationships": [
+      { "other_id": "northumberland", "relation": "servant of" }
+    ],
+    "color": "#6a7a8a"
+  },
+  {
+    "id": "morton",
+    "name": "Morton",
+    "aliases": ["MORTON."],
+    "role": "minor",
+    "description": "A retainer who carries the true news of Shrewsbury to Northumberland — that Hotspur is dead and the King victorious — and urges the grieving earl toward the Archbishop's new rebellion.",
+    "relationships": [
+      { "other_id": "northumberland", "relation": "servant of" }
+    ],
+    "color": "#5a7a8a"
+  },
+  {
+    "id": "gower",
+    "name": "Gower",
+    "aliases": ["GOWER."],
+    "role": "minor",
+    "description": "A messenger and officer of the royal party, who brings the Chief Justice news of the King and the northern campaign while Falstaff tries in vain to draw him into dinner.",
+    "color": "#5a8a8a"
+  },
+  {
+    "id": "harcourt",
+    "name": "Harcourt",
+    "aliases": ["HARCOURT."],
+    "role": "minor",
+    "description": "A messenger who brings the King the welcome news that the Sheriff of Yorkshire has defeated Northumberland and his Scottish allies, ending the last of the rebellion.",
+    "color": "#6a8a9a"
+  },
+  {
+    "id": "colevile",
+    "name": "Sir John Colevile",
+    "aliases": ["COLEVILE."],
+    "role": "minor",
+    "description": "Sir John Colevile of the Dale, a rebel knight who surrenders to Falstaff in Gaultree Forest without a blow — letting the fat knight claim a captive's glory — and is sent off to execution.",
+    "relationships": [
+      { "other_id": "falstaff", "relation": "surrenders to" }
+    ],
+    "color": "#7a6f8a"
+  },
+  {
+    "id": "shallow",
+    "name": "Justice Shallow",
+    "aliases": ["SHALLOW.", "Shallow."],
+    "role": "supporting",
+    "description": "A doddering old country justice of Gloucestershire who endlessly recalls his wild student days at Clement's Inn — most of them invented — and the friends now 'all dead.' He lends Falstaff a thousand pounds and welcomes the favour he expects when Hal is king.",
+    "relationships": [
+      { "other_id": "silence", "relation": "cousin of" },
+      { "other_id": "falstaff", "relation": "host and creditor of" },
+      { "other_id": "davy", "relation": "master of" }
+    ],
+    "color": "#6a8a3a"
+  },
+  {
+    "id": "silence",
+    "name": "Justice Silence",
+    "aliases": ["SILENCE."],
+    "role": "supporting",
+    "description": "Shallow's quiet cousin and fellow justice, normally tongue-tied but, once drunk at Shallow's table, suddenly bursting into snatches of old drinking songs.",
+    "relationships": [
+      { "other_id": "shallow", "relation": "cousin of" }
+    ],
+    "color": "#7a9a4a"
+  },
+  {
+    "id": "davy",
+    "name": "Davy",
+    "aliases": ["DAVY."],
+    "role": "minor",
+    "description": "Justice Shallow's all-purpose servant — cook, bailiff, and steward in one — who runs the household, angles a favour for a friend in a lawsuit, and bustles about the welcome for Falstaff.",
+    "relationships": [
+      { "other_id": "shallow", "relation": "servant of" }
+    ],
+    "color": "#8a9a5a"
+  },
+  {
+    "id": "hostess",
+    "name": "Mistress Quickly",
+    "aliases": ["HOSTESS."],
+    "role": "supporting",
+    "description": "The warm, garbling hostess of the Boar's Head in Eastcheap, perpetually owed money by Falstaff, who sweet-talks her out of her plate and her purse with a promise of marriage. She has him arrested for debt, then forgives him over supper.",
+    "relationships": [
+      { "other_id": "falstaff", "relation": "creditor of" },
+      { "other_id": "doll", "relation": "friend and employer of" }
+    ],
+    "color": "#aa7a9a"
+  },
+  {
+    "id": "doll",
+    "name": "Doll Tearsheet",
+    "aliases": ["DOLL."],
+    "role": "supporting",
+    "description": "A sharp-tongued tavern companion of Falstaff's, by turns abusive and tender, who quarrels with the bully Pistol and shares the knight's last carefree evening before he is summoned to court and she to the lock-up.",
+    "relationships": [
+      { "other_id": "falstaff", "relation": "lover of" },
+      { "other_id": "pistol", "relation": "enemy of" }
+    ],
+    "color": "#c25a8a"
+  },
+  {
+    "id": "pistol",
+    "name": "Pistol",
+    "aliases": ["PISTOL."],
+    "role": "supporting",
+    "description": "Falstaff's swaggering, bombastic ensign, who talks in scraps of mangled stage-play bombast, is thrown out of the tavern for brawling, and carries to Gloucestershire the news of the old King's death — Falstaff's cue to ride for London and his ruin.",
+    "relationships": [
+      { "other_id": "falstaff", "relation": "follower of" },
+      { "other_id": "doll", "relation": "enemy of" }
+    ],
+    "color": "#b5552e"
+  },
+  {
+    "id": "bardolph",
+    "name": "Bardolph",
+    "aliases": ["BARDOLPH."],
+    "role": "supporting",
+    "description": "Falstaff's red-nosed, fiery-faced follower (not to be confused with the rebel Lord Bardolph), who helps recruit and fleece soldiers in Gloucestershire and rides with his master to the coronation that ends in disgrace.",
+    "relationships": [
+      { "other_id": "falstaff", "relation": "follower of" }
+    ],
+    "color": "#9a6b3a"
+  },
+  {
+    "id": "poins",
+    "name": "Poins",
+    "aliases": ["POINS."],
+    "role": "supporting",
+    "description": "Prince Hal's tavern friend, who joins him in spying on Falstaff disguised as drawers to catch the old knight slandering them, even as Hal half-confesses he is weary of the low company.",
+    "relationships": [
+      { "other_id": "prince_hal", "relation": "friend of" },
+      { "other_id": "falstaff", "relation": "prankster against" }
+    ],
+    "color": "#5f8a5a"
+  },
+  {
+    "id": "peto",
+    "name": "Peto",
+    "aliases": ["PETO."],
+    "role": "minor",
+    "description": "A companion of Hal and Falstaff who brings the Prince word of the King's illness and the gathering troubles in the north.",
+    "relationships": [
+      { "other_id": "prince_hal", "relation": "companion of" }
+    ],
+    "color": "#7a6a5a"
+  },
+  {
+    "id": "page",
+    "name": "Page",
+    "aliases": ["PAGE."],
+    "role": "minor",
+    "description": "The diminutive page given by Prince Hal to wait on Falstaff, a small boy whose quick wit makes a comic contrast with his enormous master.",
+    "relationships": [
+      { "other_id": "falstaff", "relation": "page to" }
+    ],
+    "color": "#c2914a"
+  },
+  {
+    "id": "fang",
+    "name": "Fang",
+    "aliases": ["FANG."],
+    "role": "minor",
+    "description": "A sheriff's sergeant engaged by the Hostess to arrest Falstaff for debt, who scuffles with the knight and his men in the Eastcheap street.",
+    "relationships": [
+      { "other_id": "hostess", "relation": "officer for" }
+    ],
+    "color": "#7a8a6a"
+  },
+  {
+    "id": "snare",
+    "name": "Snare",
+    "aliases": ["SNARE."],
+    "role": "minor",
+    "description": "Fang's nervous fellow officer, wary of Falstaff's reputation for violence as they try to serve the writ for the Hostess's debt.",
+    "relationships": [
+      { "other_id": "fang", "relation": "fellow officer of" }
+    ],
+    "color": "#6a8a6a"
+  },
+  {
+    "id": "mouldy",
+    "name": "Ralph Mouldy",
+    "aliases": ["MOULDY."],
+    "role": "minor",
+    "description": "One of the country recruits mustered before Falstaff at Shallow's; he protests that his old mother has no one else to do her work, then buys his way out of service.",
+    "relationships": [
+      { "other_id": "falstaff", "relation": "recruited and released by" }
+    ],
+    "color": "#9a9a5a"
+  },
+  {
+    "id": "shadow",
+    "name": "Simon Shadow",
+    "aliases": ["SHADOW."],
+    "role": "minor",
+    "description": "A thin recruit chosen by Falstaff for his very insubstantiality — a 'shadow' to fill a name on the muster-roll and draw a dead man's pay.",
+    "relationships": [
+      { "other_id": "falstaff", "relation": "recruited by" }
+    ],
+    "color": "#8a9a6a"
+  },
+  {
+    "id": "wart",
+    "name": "Thomas Wart",
+    "aliases": ["WART."],
+    "role": "minor",
+    "description": "A ragged, tattered recruit whom Falstaff keeps on the roll precisely because his clothes hang in pins and patches, mocking him as he handles his weapon.",
+    "relationships": [
+      { "other_id": "falstaff", "relation": "recruited by" }
+    ],
+    "color": "#9a8a5a"
+  },
+  {
+    "id": "feeble",
+    "name": "Francis Feeble",
+    "aliases": ["FEEBLE."],
+    "role": "minor",
+    "description": "A woman's tailor pressed as a recruit, who alone among the conscripts faces service with quiet courage: 'we owe God a death,' and no man dies but once.",
+    "relationships": [
+      { "other_id": "falstaff", "relation": "recruited by" }
+    ],
+    "color": "#7a9a5a"
+  },
+  {
+    "id": "bullcalf",
+    "name": "Peter Bullcalf",
+    "aliases": ["BULLCALF.", "Bullcalf."],
+    "role": "minor",
+    "description": "A strapping recruit who feigns a cold to dodge the wars and, like Mouldy, pays Bardolph three pounds to be let off, leaving only the feeblest men to march.",
+    "relationships": [
+      { "other_id": "falstaff", "relation": "recruited and released by" }
+    ],
+    "color": "#6a9a5a"
+  },
+  {
+    "id": "first_drawer",
+    "name": "First Drawer",
+    "aliases": ["FIRST DRAWER."],
+    "role": "minor",
+    "description": "A tapster at the Boar's Head, busy fetching wine and arranging the room for Falstaff's supper with Doll.",
+    "color": "#8a7a5a"
+  },
+  {
+    "id": "second_drawer",
+    "name": "Second Drawer",
+    "aliases": ["SECOND DRAWER."],
+    "role": "minor",
+    "description": "A second tavern drawer, who proposes smuggling in the disguised Prince and Poins to overhear Falstaff.",
+    "color": "#7a7a5a"
+  },
+  {
+    "id": "porter",
+    "name": "Porter",
+    "aliases": ["PORTER."],
+    "role": "minor",
+    "description": "Northumberland's gatekeeper at Warkworth Castle, who admits Lord Bardolph with his news.",
+    "color": "#6a7a7a"
+  },
+  {
+    "id": "beadle",
+    "name": "Beadle",
+    "aliases": ["FIRST BEADLE.", "BEADLE.", "SECOND BEADLE."],
+    "role": "minor",
+    "description": "A parish officer who hauls the Hostess and Doll Tearsheet off to prison after a man is beaten to death in their company.",
+    "color": "#8a6a6a"
+  },
+  {
+    "id": "first_groom",
+    "name": "First Groom",
+    "aliases": ["FIRST GROOM."],
+    "role": "minor",
+    "description": "One of the grooms strewing rushes in the street to prepare the way for the new King's coronation procession.",
+    "color": "#7a8a7a"
+  },
+  {
+    "id": "second_groom",
+    "name": "Second Groom",
+    "aliases": ["SECOND GROOM."],
+    "role": "minor",
+    "description": "A second groom readying the coronation route as the trumpets sound for King Henry V's return from the Abbey.",
+    "color": "#6a8a7a"
+  },
+  {
+    "id": "servant",
+    "name": "Servant",
+    "aliases": ["SERVANT."],
+    "role": "minor",
+    "description": "A servant of the Chief Justice (and other masters) who carries messages and attends on the nobles.",
+    "color": "#888888"
+  },
+  {
+    "id": "messenger",
+    "name": "Messenger",
+    "aliases": ["MESSENGER."],
+    "role": "minor",
+    "description": "A bearer of news among the rebel and royal camps as the campaign in the north unfolds.",
+    "color": "#7a8a8a"
+  },
+  {
+    "id": "princes",
+    "name": "The Princes",
+    "aliases": ["PRINCES."],
+    "role": "ensemble",
+    "description": "The new King's brothers — Clarence, Gloucester, and the rest — answering together as one when Henry V reassures them, fearful at first, that he will be 'your father and your brother too.'",
+    "color": "#9a8a5a"
+  },
+  {
+    "id": "epilogue",
+    "name": "Epilogue (a Dancer)",
+    "aliases": ["EPILOGUE."],
+    "role": "chorus",
+    "description": "A dancer who speaks the Epilogue, begging the audience's pardon, promising that the story will continue 'with Sir John in it,' and pointedly distinguishing the comic Falstaff from the historical Lollard martyr Sir John Oldcastle.",
+    "color": "#6a6a8a"
+  }
+]

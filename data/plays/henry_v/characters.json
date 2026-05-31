@@ -1,0 +1,477 @@
+[
+  {
+    "id": "chorus",
+    "name": "Chorus",
+    "aliases": ["CHORUS.", "EPILOGUE."],
+    "role": "chorus",
+    "description": "The single speaker who frames the play, entering before every act and again for the Epilogue. He apologizes for the bare stage's inability to hold 'the vasty fields of France' and begs the audience to 'piece out our imperfections with your thoughts,' carrying the action across the Channel and through the years.",
+    "color": "#7a6a9a"
+  },
+  {
+    "id": "king_henry",
+    "name": "King Henry V",
+    "aliases": ["KING HENRY.", "KING.", "HENRY."],
+    "role": "protagonist",
+    "description": "The former wild Prince Hal, now a sober, eloquent, and formidable king who revives England's claim to France, foils the Southampton traitors, takes Harfleur, and against crushing odds wins Agincourt. By turns warm, ruthless, and self-questioning, he walks his camp in disguise the night before battle and woos the French princess Katharine in blunt soldier's prose.",
+    "relationships": [
+      { "other_id": "exeter", "relation": "nephew of" },
+      { "other_id": "katharine", "relation": "wooer of" },
+      { "other_id": "french_king", "relation": "claimant against, then heir to" }
+    ],
+    "color": "#b08a2e"
+  },
+  {
+    "id": "exeter",
+    "name": "Duke of Exeter",
+    "aliases": ["EXETER."],
+    "role": "supporting",
+    "description": "The King's uncle and trusted lieutenant, who delivers Henry's defiance to the French court, holds Harfleur, and reports through tears the deaths of York and Suffolk at Agincourt.",
+    "relationships": [
+      { "other_id": "king_henry", "relation": "uncle of" }
+    ],
+    "color": "#4a6f9a"
+  },
+  {
+    "id": "canterbury",
+    "name": "Archbishop of Canterbury",
+    "aliases": ["CANTERBURY."],
+    "role": "supporting",
+    "description": "Henry Chichele, Archbishop of Canterbury, who — to deflect a bill that would strip the Church of half its lands — assures the young King that his claim to France is just, and unspools the labyrinthine Salic-law genealogy that becomes the war's legal pretext.",
+    "relationships": [
+      { "other_id": "king_henry", "relation": "advises to war" },
+      { "other_id": "ely", "relation": "ally of" }
+    ],
+    "color": "#5a5a9a"
+  },
+  {
+    "id": "ely",
+    "name": "Bishop of Ely",
+    "aliases": ["ELY."],
+    "role": "minor",
+    "description": "Canterbury's fellow churchman, who seconds the Archbishop's arguments and presses the King to claim his French inheritance with the courage of his great-grandfather Edward III.",
+    "relationships": [
+      { "other_id": "canterbury", "relation": "ally of" }
+    ],
+    "color": "#6a6a9a"
+  },
+  {
+    "id": "ambassador",
+    "name": "French Ambassador",
+    "aliases": ["AMBASSADOR.", "FIRST AMBASSADOR."],
+    "role": "minor",
+    "description": "The envoy who delivers the Dauphin's mocking gift of tennis balls, drawing from Henry the cold promise that the jest will be answered with cannon-fire and a France not yet born will curse the Dauphin's scorn.",
+    "relationships": [
+      { "other_id": "dauphin", "relation": "envoy of" }
+    ],
+    "color": "#4a6a9a"
+  },
+  {
+    "id": "gloucester",
+    "name": "Duke of Gloucester",
+    "aliases": ["GLOUCESTER."],
+    "role": "minor",
+    "description": "Humphrey, Duke of Gloucester, the King's youngest brother, who attends Henry through the campaign and commands at his side at Agincourt.",
+    "relationships": [
+      { "other_id": "king_henry", "relation": "brother of" }
+    ],
+    "color": "#8a7a4a"
+  },
+  {
+    "id": "bedford",
+    "name": "Duke of Bedford",
+    "aliases": ["BEDFORD."],
+    "role": "minor",
+    "description": "John, Duke of Bedford, another of the King's brothers, a steady presence among the English commanders before Harfleur and Agincourt.",
+    "relationships": [
+      { "other_id": "king_henry", "relation": "brother of" }
+    ],
+    "color": "#9a8a4a"
+  },
+  {
+    "id": "york",
+    "name": "Duke of York",
+    "aliases": ["YORK."],
+    "role": "minor",
+    "description": "The King's cousin, who begs the honour of leading the vanguard at Agincourt and dies there beside his kinsman Suffolk, the two embracing in death as Exeter movingly recounts.",
+    "relationships": [
+      { "other_id": "king_henry", "relation": "cousin of" }
+    ],
+    "color": "#7a5a3a"
+  },
+  {
+    "id": "salisbury",
+    "name": "Earl of Salisbury",
+    "aliases": ["SALISBURY."],
+    "role": "minor",
+    "description": "An English commander who takes his leave of the King before Agincourt, heartened to fight against such fearful odds.",
+    "color": "#5a7a9a"
+  },
+  {
+    "id": "westmoreland",
+    "name": "Earl of Westmoreland",
+    "aliases": ["WESTMORELAND."],
+    "role": "supporting",
+    "description": "A leading English lord who wishes aloud for 'but one ten thousand of those men in England that do no work today' — prompting the King's great St. Crispin's Day reply that he would not have one man more.",
+    "relationships": [
+      { "other_id": "king_henry", "relation": "follower of" }
+    ],
+    "color": "#4e8a7a"
+  },
+  {
+    "id": "warwick",
+    "name": "Earl of Warwick",
+    "aliases": ["WARWICK."],
+    "role": "minor",
+    "description": "An English lord whom the King sends, with Gloucester, to forestall the quarrel he has mischievously set between Fluellen and Williams over the exchanged gloves.",
+    "color": "#4a7a9a"
+  },
+  {
+    "id": "erpingham",
+    "name": "Sir Thomas Erpingham",
+    "aliases": ["ERPINGHAM."],
+    "role": "minor",
+    "description": "A grave old knight in Henry's army whose cloak the King borrows to walk unrecognized among his soldiers on the night before Agincourt.",
+    "relationships": [
+      { "other_id": "king_henry", "relation": "officer of" }
+    ],
+    "color": "#6a7a8a"
+  },
+  {
+    "id": "cambridge",
+    "name": "Earl of Cambridge",
+    "aliases": ["CAMBRIDGE."],
+    "role": "supporting",
+    "description": "Richard, Earl of Cambridge, one of the three traitors bribed by France to murder the King at Southampton; unmasked by Henry, he confesses a deeper motive and goes to his execution.",
+    "relationships": [
+      { "other_id": "scroop", "relation": "fellow conspirator of" },
+      { "other_id": "king_henry", "relation": "would-be assassin of" }
+    ],
+    "color": "#6a4a5a"
+  },
+  {
+    "id": "scroop",
+    "name": "Lord Scroop",
+    "aliases": ["SCROOP."],
+    "role": "supporting",
+    "description": "Henry, Lord Scroop of Masham, the King's intimate friend and bedfellow, whose part in the Southampton assassination plot wounds Henry as the blackest of ingratitudes — 'a kind of second fall of man.'",
+    "relationships": [
+      { "other_id": "cambridge", "relation": "fellow conspirator of" },
+      { "other_id": "king_henry", "relation": "false friend and betrayer of" }
+    ],
+    "color": "#7a4a5a"
+  },
+  {
+    "id": "grey",
+    "name": "Sir Thomas Grey",
+    "aliases": ["GREY."],
+    "role": "minor",
+    "description": "The third of the Southampton conspirators, condemned with Cambridge and Scroop by the very justice they had urged the King to show others.",
+    "relationships": [
+      { "other_id": "scroop", "relation": "fellow conspirator of" }
+    ],
+    "color": "#5a4a5a"
+  },
+  {
+    "id": "fluellen",
+    "name": "Fluellen",
+    "aliases": ["FLUELLEN."],
+    "role": "supporting",
+    "description": "A peppery, pedantic Welsh captain who measures all war against 'the disciplines of the Roman wars,' compares Henry to Alexander, and makes Pistol eat a leek for mocking his nation. Brave, loyal, and endlessly disputatious, he is the play's great comic voice.",
+    "relationships": [
+      { "other_id": "gower", "relation": "friend and foil of" },
+      { "other_id": "pistol", "relation": "humiliates" },
+      { "other_id": "williams", "relation": "quarrels with over the glove" }
+    ],
+    "color": "#2e8a6a"
+  },
+  {
+    "id": "gower",
+    "name": "Gower",
+    "aliases": ["GOWER."],
+    "role": "supporting",
+    "description": "A level-headed English captain, Fluellen's friend and straight man, who admires the Welshman's courage and helps expose Pistol as a cowardly braggart.",
+    "relationships": [
+      { "other_id": "fluellen", "relation": "friend of" }
+    ],
+    "color": "#5a8a8a"
+  },
+  {
+    "id": "jamy",
+    "name": "Captain Jamy",
+    "aliases": ["JAMY."],
+    "role": "minor",
+    "description": "A Scottish captain in Henry's army, given to broad dialect, who joins Fluellen and Macmorris in their wrangle over the conduct of the siege at Harfleur.",
+    "color": "#5a6a8a"
+  },
+  {
+    "id": "macmorris",
+    "name": "Captain Macmorris",
+    "aliases": ["MACMORRIS."],
+    "role": "minor",
+    "description": "An Irish captain, hot-tempered and impatient to get on with the mining of Harfleur's walls, who bristles when Fluellen mentions 'your nation.'",
+    "color": "#6a8a5a"
+  },
+  {
+    "id": "williams",
+    "name": "Michael Williams",
+    "aliases": ["WILLIAMS."],
+    "role": "supporting",
+    "description": "A plain-spoken common soldier who, not knowing he addresses the King, argues on the night before Agincourt that the dead of an unjust war are charged to the king's own soul. He and the disguised Henry exchange gloves as a pledge to quarrel later.",
+    "relationships": [
+      { "other_id": "king_henry", "relation": "unwitting debater with" },
+      { "other_id": "bates", "relation": "fellow soldier of" }
+    ],
+    "color": "#7a6a5a"
+  },
+  {
+    "id": "bates",
+    "name": "John Bates",
+    "aliases": ["BATES."],
+    "role": "minor",
+    "description": "A weary English soldier on the eve of Agincourt who would rather be back in the Thames than facing the French, and doubts a subject can ever truly judge his king's cause.",
+    "relationships": [
+      { "other_id": "williams", "relation": "fellow soldier of" }
+    ],
+    "color": "#6a6a5a"
+  },
+  {
+    "id": "court",
+    "name": "Alexander Court",
+    "aliases": ["COURT."],
+    "role": "minor",
+    "description": "The third of the three soldiers the disguised King meets in the dark before Agincourt, who notes the day breaking that few of them will live to see end.",
+    "color": "#7a7a6a"
+  },
+  {
+    "id": "pistol",
+    "name": "Pistol",
+    "aliases": ["PISTOL."],
+    "role": "supporting",
+    "description": "The blustering ancient, now married to the Hostess, who talks in tatters of stage-bombast, takes a French prisoner for ransom at Agincourt, and is beaten into eating a leek by Fluellen. Stripped of his friends and his wife, he resolves to slink home to England and turn cutpurse.",
+    "relationships": [
+      { "other_id": "hostess", "relation": "husband of" },
+      { "other_id": "fluellen", "relation": "humiliated by" },
+      { "other_id": "nym", "relation": "rival and companion of" }
+    ],
+    "color": "#b5552e"
+  },
+  {
+    "id": "nym",
+    "name": "Corporal Nym",
+    "aliases": ["NYM.", "Corporal Nym."],
+    "role": "supporting",
+    "description": "A laconic corporal whose every other phrase is 'that's the humour of it,' once betrothed to the Hostess and so Pistol's rival. He goes to the French wars to thieve, and is hanged for it.",
+    "relationships": [
+      { "other_id": "pistol", "relation": "rival of" },
+      { "other_id": "bardolph", "relation": "fellow thief of" }
+    ],
+    "color": "#8a7a5a"
+  },
+  {
+    "id": "bardolph",
+    "name": "Bardolph",
+    "aliases": ["BARDOLPH."],
+    "role": "minor",
+    "description": "Falstaff's old red-nosed follower, now a soldier in France, who tries to make peace between Nym and Pistol and is hanged for robbing a church — a sentence the King upholds without mercy.",
+    "relationships": [
+      { "other_id": "pistol", "relation": "companion of" }
+    ],
+    "color": "#9a6b3a"
+  },
+  {
+    "id": "boy",
+    "name": "Boy",
+    "aliases": ["BOY."],
+    "role": "supporting",
+    "description": "Falstaff's former page, now servant to the three thieves Pistol, Nym, and Bardolph, whose clear-eyed soliloquy sees through their cowardice and pilfering. He is among the boys guarding the luggage when the French slaughter them.",
+    "relationships": [
+      { "other_id": "pistol", "relation": "servant of" }
+    ],
+    "color": "#c2914a"
+  },
+  {
+    "id": "hostess",
+    "name": "Hostess (Mistress Quickly)",
+    "aliases": ["HOSTESS.", "QUICKLY."],
+    "role": "minor",
+    "description": "Mistress Quickly, the Eastcheap hostess now married to Pistol, who gives the play's most famous prose set-piece: the tender, fumbling account of the death of Falstaff, 'a' babbled of green fields.'",
+    "relationships": [
+      { "other_id": "pistol", "relation": "wife of" }
+    ],
+    "color": "#aa7a9a"
+  },
+  {
+    "id": "french_king",
+    "name": "King Charles VI",
+    "aliases": ["FRENCH KING."],
+    "role": "supporting",
+    "description": "Charles VI of France, a cautious, ailing king who, remembering Crécy and Poitiers, takes the English threat more seriously than his rash nobles. He yields at last, granting Henry his daughter and naming him heir to the French crown.",
+    "relationships": [
+      { "other_id": "dauphin", "relation": "father of" },
+      { "other_id": "katharine", "relation": "father of" },
+      { "other_id": "king_henry", "relation": "adversary, then father-in-law of" }
+    ],
+    "color": "#4a5a9a"
+  },
+  {
+    "id": "dauphin",
+    "name": "The Dauphin",
+    "aliases": ["DAUPHIN."],
+    "role": "supporting",
+    "description": "Lewis, the heir of France, arrogant and contemptuous of Henry's youth, who sends the new king a mocking gift of tennis balls and boasts through the night before Agincourt of his horse and his armour. The battle wipes the scorn from France's face.",
+    "relationships": [
+      { "other_id": "french_king", "relation": "son of" },
+      { "other_id": "king_henry", "relation": "scornful adversary of" }
+    ],
+    "color": "#7a4a9a"
+  },
+  {
+    "id": "constable",
+    "name": "Constable of France",
+    "aliases": ["CONSTABLE."],
+    "role": "supporting",
+    "description": "Charles d'Albret, Constable and commander of the French host, who scorns the starved English army on the eve of Agincourt and is killed in the rout he was so sure would be a massacre the other way.",
+    "relationships": [
+      { "other_id": "dauphin", "relation": "fellow commander of" }
+    ],
+    "color": "#5a7a9a"
+  },
+  {
+    "id": "orleans",
+    "name": "Duke of Orleans",
+    "aliases": ["ORLEANS."],
+    "role": "supporting",
+    "description": "A French duke who trades boasts and jests with the Constable and the Dauphin through the long night before the battle, confident to the last that numbers must tell.",
+    "color": "#4a8a9a"
+  },
+  {
+    "id": "bourbon",
+    "name": "Duke of Bourbon",
+    "aliases": ["BOURBON."],
+    "role": "minor",
+    "description": "A French lord who, when the unthinkable rout begins at Agincourt, cries out in shame and rushes back to die rather than live to see France so disgraced.",
+    "color": "#6a5a8a"
+  },
+  {
+    "id": "rambures",
+    "name": "Rambures",
+    "aliases": ["RAMBURES."],
+    "role": "minor",
+    "description": "A French lord in the Constable's company before Agincourt, joining the idle, overconfident banter of the French camp.",
+    "color": "#5a6a7a"
+  },
+  {
+    "id": "grandpre",
+    "name": "Grandpre",
+    "aliases": ["GRANDPRE."],
+    "role": "minor",
+    "description": "A French lord who paints a vivid, contemptuous picture of the ragged, beaten-looking English army drawn up at Agincourt — moments before that army destroys his own.",
+    "color": "#4a7a7a"
+  },
+  {
+    "id": "montjoy",
+    "name": "Montjoy",
+    "aliases": ["MONTJOY.", "Montjoy."],
+    "role": "supporting",
+    "description": "The French herald who twice carries the enemy's demands to Henry — first offering ransom in place of certain defeat, then, after Agincourt, coming humbly to beg leave to count and bury the French dead.",
+    "relationships": [
+      { "other_id": "king_henry", "relation": "herald to" }
+    ],
+    "color": "#3a5a7a"
+  },
+  {
+    "id": "governor",
+    "name": "Governor of Harfleur",
+    "aliases": ["GOVERNOR."],
+    "role": "minor",
+    "description": "The governor who yields the town of Harfleur to Henry once it is clear the promised French relief will not come.",
+    "color": "#6a7a9a"
+  },
+  {
+    "id": "french_soldier",
+    "name": "French Soldier (Le Fer)",
+    "aliases": ["FRENCH SOLDIER."],
+    "role": "minor",
+    "description": "Monsieur Le Fer, a French soldier captured at Agincourt by Pistol, who pleads in French for his life through the Boy's interpreting and is spared for the promise of two hundred crowns' ransom.",
+    "relationships": [
+      { "other_id": "pistol", "relation": "prisoner of" }
+    ],
+    "color": "#8a8aaa"
+  },
+  {
+    "id": "herald",
+    "name": "Herald",
+    "aliases": ["HERALD."],
+    "role": "minor",
+    "description": "An English herald who brings the King the written tally of the dead after Agincourt, naming the astonishingly lopsided count of French and English slain.",
+    "color": "#6a8a9a"
+  },
+  {
+    "id": "queen_isabel",
+    "name": "Queen Isabel",
+    "aliases": ["QUEEN ISABEL."],
+    "role": "supporting",
+    "description": "Isabel, queen of France, who joins the final peace conference praying that the marriage of Henry and her daughter Katharine will knit England and France in lasting Christian love.",
+    "relationships": [
+      { "other_id": "katharine", "relation": "mother of" },
+      { "other_id": "french_king", "relation": "wife of" }
+    ],
+    "color": "#b56a9a"
+  },
+  {
+    "id": "katharine",
+    "name": "Princess Katharine",
+    "aliases": ["KATHARINE."],
+    "role": "supporting",
+    "description": "The French king's daughter, who in a charming, bawdily mistranslated English lesson with her gentlewoman prepares to meet her conqueror, and is wooed in blunt soldier's terms by Henry to seal the peace between the kingdoms.",
+    "relationships": [
+      { "other_id": "alice", "relation": "mistress of" },
+      { "other_id": "king_henry", "relation": "wooed by" },
+      { "other_id": "french_king", "relation": "daughter of" }
+    ],
+    "color": "#c27a9a"
+  },
+  {
+    "id": "alice",
+    "name": "Alice",
+    "aliases": ["ALICE."],
+    "role": "minor",
+    "description": "Katharine's lady-in-waiting, who has 'been in England' and so coaches the princess through her comic first English words, blushing at the ones that sound like French obscenities.",
+    "relationships": [
+      { "other_id": "katharine", "relation": "attendant of" }
+    ],
+    "color": "#b58aaa"
+  },
+  {
+    "id": "burgundy",
+    "name": "Duke of Burgundy",
+    "aliases": ["BURGUNDY."],
+    "role": "supporting",
+    "description": "The duke who brokers the final peace, pleading for it in a great lament for war-ravaged France — her vineyards untended, her children untaught — that all may once again 'put on her ordinary livery' of peace.",
+    "color": "#5a7a6a"
+  },
+  {
+    "id": "messenger",
+    "name": "Messenger",
+    "aliases": ["MESSENGER."],
+    "role": "minor",
+    "description": "A bearer of news in the French and English camps as the armies close on Agincourt.",
+    "color": "#7a8a8a"
+  },
+  {
+    "id": "lords",
+    "name": "Lords",
+    "aliases": ["LORDS."],
+    "role": "ensemble",
+    "description": "French lords answering together in the closing court scene.",
+    "color": "#888a9a"
+  },
+  {
+    "id": "all",
+    "name": "All",
+    "aliases": ["ALL."],
+    "role": "ensemble",
+    "description": "A group speaking in unison.",
+    "color": "#8a8a8a"
+  }
+]

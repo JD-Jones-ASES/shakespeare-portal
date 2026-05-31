@@ -21,13 +21,14 @@ export const meta = {
 const input = typeof args === 'string' ? JSON.parse(args) : args
 const slug = input && input.slug
 const acts = input && input.acts
+const guidance = input && input.guidance // optional play-specific instruction appended to every lexicographer prompt
 if (!slug || !Array.isArray(acts) || !acts.length) {
   throw new Error('Workflow args must be { slug: string, acts: [[actNumber, [sceneNumbers]], ...] }')
 }
 const D = `data/plays/${slug}/_candidates`
 const PLAY = slug.replace(/_/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase())
 
-function glossPrompt(act, sceneNums) {
+function glossPrompt(act, sceneNums, guidance) {
   const files = sceneNums.map((s) => `${D}/scene-${act}-${s}.txt`).join('\n  - ')
   return [
     `You are a lexicographer building a hover-glossary for students reading ${PLAY}. Produce the archaic / difficult-word glossary for ACT ${act} (scenes ${sceneNums.join(', ')}).`,
@@ -38,6 +39,7 @@ function glossPrompt(act, sceneNums) {
     'TASK: extract every word or short phrase a modern high-school reader would NOT understand at sight, and give a SHORT plain-English gloss of the sense USED IN THIS TEXT.',
     'INCLUDE: archaic words (wherefore, hie, sirrah, anon, marry, prithee, ere, fain, beseech); archaic SENSES of familiar words / false friends (still=always, want=lack, prevent=forestall, owe=own, envy=malice, rude=rough, sad=serious, presently=at once); contractions ("o\'er", "\'tis", "ne\'er", "\'gainst", "e\'en"); short idioms and oaths.',
     'EXCLUDE: proper nouns (people, places) and ordinary modern words whose meaning is unchanged. Anything needing more than a phrase belongs in the annotation layer, not here.',
+    ...(guidance ? ['', `PLAY-SPECIFIC GUIDANCE: ${guidance}`] : []),
     '',
     'STYLE for each definition:',
     '- 12 words or fewer, plain modern English; <=140 characters hard cap.',
@@ -58,7 +60,7 @@ function glossPrompt(act, sceneNums) {
 log(`${PLAY} glossary: ${acts.length} act(s)`)
 const counts = await parallel(
   acts.map(([act, sceneNums]) => () =>
-    agent(glossPrompt(act, sceneNums), { label: `glossary act ${act}`, phase: 'Glossary', model: 'sonnet' })),
+    agent(glossPrompt(act, sceneNums, guidance), { label: `glossary act ${act}`, phase: 'Glossary', model: 'sonnet' })),
 )
 log(`glossary candidates written for ${counts.filter(Boolean).length}/${acts.length} acts. Next: merge-glossary.ts ${slug} ${acts.length}`)
 return { acts: acts.length }

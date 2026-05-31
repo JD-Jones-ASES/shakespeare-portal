@@ -28,13 +28,14 @@ export const meta = {
 const input = typeof args === 'string' ? JSON.parse(args) : args
 const slug = input && input.slug
 const scenes = input && input.scenes
+const guidance = input && input.guidance // optional play-specific instruction appended to every annotator prompt
 if (!slug || !Array.isArray(scenes) || !scenes.length) {
   throw new Error('Workflow args must be { slug: string, scenes: [[act,scene,target], ...] }')
 }
 const D = `data/plays/${slug}/_candidates`
 const PLAY = slug.replace(/_/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase())
 
-function annotatePrompt(a, s, n) {
+function annotatePrompt(a, s, n, guidance) {
   return [
     `You are a Shakespeare scholar-annotator for a student study portal. Annotate ${PLAY}, Act ${a} Scene ${s}.`,
     '',
@@ -46,6 +47,7 @@ function annotatePrompt(a, s, n) {
     'VOICE (project content standards): basic notes 1-2 sentences; scholar up to 4. Neutral, concrete, source-cited. Use characters’ names. American spelling. NO emoji. No condescension ("as you know") or filler ("it is interesting that"). Annotate only what a smart, unprepared 10th-grader would stumble on: archaic vocabulary, biblical/classical/mythological allusion, historical/topical context, rhetorical devices that carry meaning, wordplay/puns, comprehension-blocking syntax. Do NOT annotate the obvious, plot recap, or atmosphere. Bawdy/innuendo only when meaning is otherwise lost: type bawdy_pun, depth scholar.',
     '',
     `TARGET about ${n} strong annotations (fewer is fine on a thin scene; quality over quantity).`,
+    ...(guidance ? ['', `PLAY-SPECIFIC GUIDANCE: ${guidance}`] : []),
     '',
     `OUTPUT: use the Write tool to write a JSON array to ${D}/${a}-${s}.json. Each element:`,
     '{',
@@ -104,7 +106,7 @@ function judgePrompt(kind, a, s) {
 log(`${PLAY}: annotating + fact-checking ${scenes.length} scene(s)`)
 const results = await pipeline(
   scenes,
-  ([a, s, n]) => agent(annotatePrompt(a, s, n), { label: `annotate ${a}.${s}`, phase: 'Annotate', model: 'sonnet' }),
+  ([a, s, n]) => agent(annotatePrompt(a, s, n, guidance), { label: `annotate ${a}.${s}`, phase: 'Annotate', model: 'sonnet' }),
   (_r, [a, s]) => parallel([
     () => agent(judgePrompt('source', a, s), { label: `source ${a}.${s}`, phase: 'Fact-check', model: 'sonnet' }),
     () => agent(judgePrompt('interp', a, s), { label: `interp ${a}.${s}`, phase: 'Fact-check', model: 'sonnet' }),

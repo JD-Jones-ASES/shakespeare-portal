@@ -73,6 +73,7 @@ const CLASSICAL_ALLOWLIST = new Set([
   'Aesop',
   'Quintilian',
   'Lucretius',
+  'Galen',           // 2nd-c. Greek physician; Falstaff cites him in 2 Henry IV 1.2
 ]);
 
 // A classical allusion may instead be grounded in a recognized reference work or

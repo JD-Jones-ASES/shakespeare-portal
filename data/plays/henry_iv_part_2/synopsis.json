@@ -1,0 +1,55 @@
+{
+  "play": "henry_iv_part_2",
+  "overview": "The second half of Prince Hal's story is a darker, autumnal play of sickness, aging, and the price of power. King Henry IV, worn down by guilt and insomnia, struggles to put down a fresh rebellion led by the Archbishop of York while despairing of his tavern-haunting heir. Falstaff, now famous after Shrewsbury and visibly growing old, dodges his creditors and milks the war for profit in the country shires. The revolt is ended not by battle but by Prince John's cold trick at Gaultree Forest; the King dies reconciled with his son; and the newly crowned Henry V, embracing law and order, publicly casts off Falstaff: 'I know thee not, old man.' Framed by the figure of Rumour and closed by a dancer's epilogue, it is a play about time, decay, and the loneliness of the crown.",
+  "acts": [
+    {
+      "number": 1,
+      "summary": "False rumour of a rebel victory gives way to the truth of Hotspur's death, and a new rebellion gathers in the north as Falstaff trades on his fame.",
+      "scenes": [
+        { "number": 1, "summary": "Rumour, a figure 'painted full of tongues,' opens the play boasting how he spreads false report. At Warkworth, the Earl of Northumberland hears first a garbled tale of victory, then the bitter truth from Morton: his son Hotspur is dead and the King triumphant at Shrewsbury. His grief hardens into resolve to join the Archbishop's revolt.", "themes": ["rumor", "rebellion", "grief"] },
+        { "number": 2, "summary": "In a London street the fat knight Falstaff, basking in his Shrewsbury reputation, spars with the Lord Chief Justice, who warns him not to presume on the Prince's favour and rebukes his dissolute life. Falstaff turns every charge into a joke.", "themes": ["comedy", "justice", "reputation"] },
+        { "number": 3, "summary": "At York the Archbishop Scroop, Mowbray, Hastings, and Lord Bardolph weigh their chances, counting on Northumberland's aid and debating whether to rise before their strength is certain.", "themes": ["rebellion", "political_legitimacy", "deliberation"] }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "Comic disorder in Eastcheap — an arrest for debt, a tavern feast spied upon — set against the persuading of Northumberland to flee.",
+      "scenes": [
+        { "number": 1, "summary": "The Hostess has Falstaff arrested for debt by the officers Fang and Snare; the Chief Justice intervenes, and Falstaff wheedles her not only into dropping the suit but into lending him still more and pawning her plate.", "themes": ["comedy", "debt", "law"] },
+        { "number": 2, "summary": "Prince Hal, weary and half-ashamed of his low company, jokes with Poins and reads aloud a presumptuous letter from Falstaff. The two resolve to disguise themselves as tavern drawers to catch the old knight at his slanders.", "themes": ["youth_vs_age", "performance", "friendship"] },
+        { "number": 3, "summary": "At Warkworth, Lady Percy — Hotspur's widow — shames Northumberland for failing her husband at Shrewsbury, and she and Lady Northumberland persuade the earl to abandon the rebels and flee to Scotland.", "themes": ["grief", "honor", "persuasion"] },
+        { "number": 4, "summary": "At the Boar's Head, Falstaff feasts with Doll Tearsheet, quarrels with the swaggering ensign Pistol (thrown out for brawling), and is overheard by the disguised Hal and Poins disparaging them — until the drum of war summons him away to court.", "themes": ["comedy", "bawdy", "disorder"] }
+      ]
+    },
+    {
+      "number": 3,
+      "summary": "The sleepless King broods on history and mortality while Falstaff musters ragged recruits in Gloucestershire.",
+      "scenes": [
+        { "number": 1, "summary": "Sleepless at midnight, King Henry envies the rest of his humblest subjects — 'uneasy lies the head that wears a crown' — and with Warwick reflects on the strange turns of history and the rebellion's reported strength.", "themes": ["kingship", "mortality", "insomnia"] },
+        { "number": 2, "summary": "In Gloucestershire the doddering Justices Shallow and Silence reminisce about a wild youth mostly invented, as Falstaff arrives to levy soldiers. He lets the able men buy their release and keeps the feeblest, pocketing the bribes and marvelling at how old his friends have grown.", "themes": ["comedy", "corruption", "mortality"] }
+      ]
+    },
+    {
+      "number": 4,
+      "summary": "The northern revolt is ended by a cold trick at Gaultree, and the dying King is reconciled with his heir.",
+      "scenes": [
+        { "number": 1, "summary": "In Gaultree Forest the Archbishop and the rebel lords lay out their grievances to the Earl of Westmoreland and Prince John of Lancaster, who hears them and seems to offer redress.", "themes": ["rebellion", "negotiation", "political_legitimacy"] },
+        { "number": 2, "summary": "Prince John swears the rebels' wrongs will be amended and persuades them to disband their army; the instant it scatters he arrests the leaders for high treason — a lawful, conscienceless trick that crushes the revolt without a battle.", "themes": ["betrayal", "justice", "statecraft"] },
+        { "number": 3, "summary": "Falstaff takes the surrender of the rebel knight Sir John Colevile, who yields without a blow, and claims the bloodless capture as proof of his valour while mocking the humourless Prince John in a soliloquy in praise of sack.", "themes": ["comedy", "honor", "war"] },
+        { "number": 4, "summary": "In the Jerusalem Chamber the gravely ill King, gathered with his younger sons, grieves over the wildness of his heir and the divided realm he must leave, and is overcome by sickness.", "themes": ["mortality", "fatherhood", "kingship"] },
+        { "number": 5, "summary": "Believing his father dead, Hal takes up the crown and withdraws; the King wakes, bitterly rebukes him, then is movingly reconciled, counselling him to 'busy giddy minds with foreign quarrels.' Told he lies in the chamber named Jerusalem, where it was prophesied he would die, the King is carried there to his end.", "themes": ["reconciliation", "kingship", "death"] }
+      ]
+    },
+    {
+      "number": 5,
+      "summary": "Country comedy and the news of the King's death carry Falstaff to London — and to his public rejection by the new King.",
+      "scenes": [
+        { "number": 1, "summary": "At Shallow's house Falstaff watches the old justice and his factotum Davy bustle over country business, storing up the absurdities he will retail to make Prince Hal laugh.", "themes": ["comedy", "country_life", "observation"] },
+        { "number": 2, "summary": "At court the new King Henry V calms his fearful brothers and the Lord Chief Justice — whom, as Prince, he had once struck — confirming the judge in his office and pledging to rule by law rather than by appetite.", "themes": ["kingship", "justice", "order"] },
+        { "number": 3, "summary": "In Shallow's orchard, amid the drunken Silence's snatches of song, Pistol bursts in with news that the old King is dead and Hal crowned. Falstaff, exultant, vows the laws of England are at his command and rides at once for London.", "themes": ["comedy", "reversal", "ambition"] },
+        { "number": 4, "summary": "Beadles drag the Hostess and Doll Tearsheet off to prison, a man having been beaten to death in their company.", "themes": ["disorder", "law", "comedy"] },
+        { "number": 5, "summary": "As the coronation procession passes, Falstaff hails the new King — who rejects him utterly: 'I know thee not, old man.' Banished ten miles from his person and left a pension, the stunned knight is committed to the Fleet by the Chief Justice. An Epilogue, spoken by a dancer, begs the audience's pardon, promises the story will continue 'with Sir John in it,' and is careful to part the comic Falstaff from the martyr Oldcastle.", "themes": ["rejection", "kingship", "mortality"] }
+      ]
+    }
+  ]
+}
