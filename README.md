@@ -19,7 +19,7 @@ Most online Shakespeare editions hand you the text and a glossary. This portal l
 
 **Live at <https://jd-jones-ases.github.io/shakespeare-portal/>** — deployed from `main` via GitHub Actions.
 
-**Four plays fully annotated and shipping**: *Hamlet* (356 annotations, 813-entry glossary), *A Midsummer Night's Dream* (189, 724), *Julius Caesar* (202, 1030), and *Romeo and Juliet* (287, 1004) — **1,034 annotations** wired to **55 source-cited reference cards**, every claim through a three-judge fact-check. The remaining 39 works appear in the catalog as reading texts pending annotation backfill.
+**Six plays fully annotated and shipping**: *Hamlet* (356 annotations, 813-entry glossary), *A Midsummer Night's Dream* (189, 724), *Julius Caesar* (202, 1030), *Romeo and Juliet* (287, 1004), *Richard II* (238, 891), and *Henry IV, Part 1* (335, 1044) — **1,607 annotations** wired to **66 source-cited reference cards**, every claim through a three-judge fact-check. Richard II and Henry IV, Part 1 are the first two English history plays, built around a shared "spine" of reusable historical reference cards (Edward III's sons, the king's two bodies, Holinshed's Chronicles, the great chain of being, trial by combat). The remaining 37 works appear in the catalog as reading texts pending annotation backfill.
 
 The content pipeline (ingest → annotate → fact-check → validate → build) is proven and repeatable. To build another play, an agent follows [docs/BUILD_A_PLAY.md](docs/BUILD_A_PLAY.md) — the step-by-step runbook.
 

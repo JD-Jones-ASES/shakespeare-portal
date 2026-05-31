@@ -1,0 +1,618 @@
+[
+  {
+    "id": "prince_hal",
+    "name": "Prince Hal",
+    "aliases": [
+      "PRINCE.",
+      "PRINCE HENRY.",
+      "P. HEN."
+    ],
+    "role": "protagonist",
+    "description": "Henry, Prince of Wales, the King's wayward eldest son, who idles in the Eastcheap taverns with Falstaff and the thieves. In a private soliloquy he reveals his idleness is a calculated performance: he means to throw off his 'loose behaviour' and shine all the brighter. At Shrewsbury he redeems himself, saving his father's life and killing Hotspur in single combat.",
+    "relationships": [
+      {
+        "other_id": "king",
+        "relation": "son of"
+      },
+      {
+        "other_id": "falstaff",
+        "relation": "companion of, and judge of"
+      },
+      {
+        "other_id": "hotspur",
+        "relation": "rival of, and slayer of"
+      },
+      {
+        "other_id": "poins",
+        "relation": "friend of"
+      }
+    ],
+    "color": "#b08a2e"
+  },
+  {
+    "id": "king",
+    "name": "King Henry IV",
+    "aliases": [
+      "KING.",
+      "KING HENRY."
+    ],
+    "role": "major",
+    "description": "Henry Bolingbroke, who seized the crown from Richard II and now reigns as Henry IV, careworn and guilt-ridden, his realm torn by the rebellion of the very nobles who helped him to power. He grieves that his dissolute son is so unlike the gallant Hotspur, until Hal proves himself at Shrewsbury.",
+    "relationships": [
+      {
+        "other_id": "prince_hal",
+        "relation": "father of"
+      },
+      {
+        "other_id": "prince_john",
+        "relation": "father of"
+      },
+      {
+        "other_id": "worcester",
+        "relation": "former ally, now enemy of"
+      },
+      {
+        "other_id": "hotspur",
+        "relation": "adversary of"
+      }
+    ],
+    "color": "#8a6d3b"
+  },
+  {
+    "id": "falstaff",
+    "name": "Sir John Falstaff",
+    "aliases": [
+      "FAL.",
+      "FALSTAFF.",
+      "SIR JOHN."
+    ],
+    "role": "major",
+    "description": "A fat, witty, cowardly old knight, Prince Hal's drinking companion and the play's great comic engine. A liar, a glutton, and a sponge on the commonwealth, he is also gloriously alive — mocking honor as a mere 'word' on the battlefield, faking his own death, and claiming credit for killing the dead Hotspur.",
+    "relationships": [
+      {
+        "other_id": "prince_hal",
+        "relation": "companion of"
+      },
+      {
+        "other_id": "bardolph",
+        "relation": "master of"
+      },
+      {
+        "other_id": "hostess",
+        "relation": "debtor of"
+      },
+      {
+        "other_id": "poins",
+        "relation": "fellow reveller with"
+      }
+    ],
+    "color": "#a0522d"
+  },
+  {
+    "id": "hotspur",
+    "name": "Hotspur",
+    "aliases": [
+      "HOT.",
+      "HOTSPUR.",
+      "PERCY."
+    ],
+    "role": "deuteragonist",
+    "description": "Harry Percy, called Hotspur for his fiery temper, son of Northumberland and the very model of martial honor — quick, brave, witty, and impatient to the point of folly. The King wishes Hal were more like him. He leads the rebellion and is killed by Prince Hal at Shrewsbury, his great appetite for honor undone.",
+    "relationships": [
+      {
+        "other_id": "northumberland",
+        "relation": "son of"
+      },
+      {
+        "other_id": "worcester",
+        "relation": "nephew of"
+      },
+      {
+        "other_id": "lady_percy",
+        "relation": "husband of"
+      },
+      {
+        "other_id": "prince_hal",
+        "relation": "rival of, killed by"
+      }
+    ],
+    "color": "#b5402e"
+  },
+  {
+    "id": "worcester",
+    "name": "Earl of Worcester",
+    "aliases": [
+      "WOR.",
+      "WORCESTER."
+    ],
+    "role": "major",
+    "description": "Thomas Percy, Earl of Worcester, Hotspur's calculating uncle and the cold political brain of the rebellion. Distrusting the King's offer of pardon, he conceals it from Hotspur and so sends his nephew to his death; he is executed after Shrewsbury.",
+    "relationships": [
+      {
+        "other_id": "hotspur",
+        "relation": "uncle of"
+      },
+      {
+        "other_id": "northumberland",
+        "relation": "brother of"
+      },
+      {
+        "other_id": "king",
+        "relation": "enemy of"
+      }
+    ],
+    "color": "#7a4a5a"
+  },
+  {
+    "id": "northumberland",
+    "name": "Earl of Northumberland",
+    "aliases": [
+      "NORTH.",
+      "NORTHUMBERLAND."
+    ],
+    "role": "supporting",
+    "description": "Henry Percy, Earl of Northumberland, Hotspur's father and a leader of the Percy rebellion, who pleads sickness and fails to bring his army to Shrewsbury, fatally weakening his son's cause.",
+    "relationships": [
+      {
+        "other_id": "hotspur",
+        "relation": "father of"
+      },
+      {
+        "other_id": "worcester",
+        "relation": "brother of"
+      }
+    ],
+    "color": "#4e7a8b"
+  },
+  {
+    "id": "mortimer",
+    "name": "Edmund Mortimer",
+    "aliases": [
+      "MORT.",
+      "MORTIMER."
+    ],
+    "role": "supporting",
+    "description": "Edmund Mortimer, Earl of March, taken prisoner by the Welsh rebel Glendower and then married to Glendower's daughter. Through his claim to the throne (as Richard II's designated heir) he becomes the rebels' figurehead, though he never reaches the battle.",
+    "relationships": [
+      {
+        "other_id": "glendower",
+        "relation": "son-in-law of"
+      },
+      {
+        "other_id": "lady_mortimer",
+        "relation": "husband of"
+      },
+      {
+        "other_id": "hotspur",
+        "relation": "brother-in-law and ally of"
+      }
+    ],
+    "color": "#5a8f6a"
+  },
+  {
+    "id": "glendower",
+    "name": "Owen Glendower",
+    "aliases": [
+      "GLEND.",
+      "GLENDOWER.",
+      "OWEN GLENDOWER."
+    ],
+    "role": "supporting",
+    "description": "The Welsh rebel chieftain, learned, proud, and steeped in mysticism, who claims the earth shook at his birth and that he can 'call spirits from the vasty deep.' Hotspur mocks his magic; his failure to bring his forces to Shrewsbury helps doom the rebellion.",
+    "relationships": [
+      {
+        "other_id": "mortimer",
+        "relation": "father-in-law of"
+      },
+      {
+        "other_id": "lady_mortimer",
+        "relation": "father of"
+      },
+      {
+        "other_id": "hotspur",
+        "relation": "uneasy ally of"
+      }
+    ],
+    "color": "#3f7c5a"
+  },
+  {
+    "id": "douglas",
+    "name": "Earl of Douglas",
+    "aliases": [
+      "DOUG.",
+      "DOUGLAS.",
+      "ARCHIBALD."
+    ],
+    "role": "supporting",
+    "description": "Archibald, Earl of Douglas, the fierce Scottish warrior who joins the Percy rebellion. Brave to a fault, he kills the King's decoys at Shrewsbury, mistaking them for Henry himself, and is captured and freed by Prince Hal.",
+    "relationships": [
+      {
+        "other_id": "hotspur",
+        "relation": "ally of"
+      },
+      {
+        "other_id": "king",
+        "relation": "enemy of"
+      }
+    ],
+    "color": "#6a6a8a"
+  },
+  {
+    "id": "vernon",
+    "name": "Sir Richard Vernon",
+    "aliases": [
+      "VER.",
+      "VERNON."
+    ],
+    "role": "supporting",
+    "description": "A rebel knight who brings reports to Hotspur's camp and, with Worcester, hears the King's offer of pardon. He urges restraint but is overruled, and is executed after the battle.",
+    "relationships": [
+      {
+        "other_id": "hotspur",
+        "relation": "ally of"
+      },
+      {
+        "other_id": "worcester",
+        "relation": "companion of"
+      }
+    ],
+    "color": "#5b7a95"
+  },
+  {
+    "id": "blunt",
+    "name": "Sir Walter Blunt",
+    "aliases": [
+      "BLUNT."
+    ],
+    "role": "minor",
+    "description": "A loyal nobleman in the King's service, sent as an envoy to the rebels. He dies at Shrewsbury fighting in the King's coat as one of several decoys drawing the enemy's blows from the real Henry.",
+    "relationships": [
+      {
+        "other_id": "king",
+        "relation": "loyal to"
+      }
+    ],
+    "color": "#5a6f8a"
+  },
+  {
+    "id": "westmoreland",
+    "name": "Earl of Westmoreland",
+    "aliases": [
+      "WEST.",
+      "WESTMORELAND."
+    ],
+    "role": "minor",
+    "description": "A loyal earl and the King's kinsman, who brings the first news of the Percys' revolt and commands part of the royal army at Shrewsbury.",
+    "relationships": [
+      {
+        "other_id": "king",
+        "relation": "loyal to"
+      }
+    ],
+    "color": "#4e8a7a"
+  },
+  {
+    "id": "prince_john",
+    "name": "Prince John of Lancaster",
+    "aliases": [
+      "LAN.",
+      "PRINCE JOHN.",
+      "JOHN."
+    ],
+    "role": "minor",
+    "description": "The King's younger son and Hal's brother, who fights with credit at Shrewsbury despite his youth, earning his brother's praise.",
+    "relationships": [
+      {
+        "other_id": "king",
+        "relation": "son of"
+      },
+      {
+        "other_id": "prince_hal",
+        "relation": "brother of"
+      }
+    ],
+    "color": "#7a8a5a"
+  },
+  {
+    "id": "archbishop",
+    "name": "Archbishop of York",
+    "aliases": [
+      "ARCH.",
+      "ARCHBISHOP.",
+      "SCROOP."
+    ],
+    "role": "minor",
+    "description": "Richard Scroop, Archbishop of York, a clerical ally of the rebels who, fearing the King's revenge after Shrewsbury, sets about preparing further resistance.",
+    "relationships": [
+      {
+        "other_id": "hotspur",
+        "relation": "ally of"
+      }
+    ],
+    "color": "#6b5b95"
+  },
+  {
+    "id": "michael",
+    "name": "Sir Michael",
+    "aliases": [
+      "SIR M.",
+      "MICHAEL."
+    ],
+    "role": "minor",
+    "description": "A friend or follower of the Archbishop of York, who carries his urgent letters as the rebellion falters.",
+    "relationships": [
+      {
+        "other_id": "archbishop",
+        "relation": "follower of"
+      }
+    ],
+    "color": "#7a7a8a"
+  },
+  {
+    "id": "lady_percy",
+    "name": "Lady Percy",
+    "aliases": [
+      "LADY.",
+      "LADY P.",
+      "LADY PERCY."
+    ],
+    "role": "supporting",
+    "description": "Kate, Hotspur's spirited wife and Mortimer's sister, who teases and worries over her distracted husband and begs to know the secret that keeps him from her bed and his rest.",
+    "relationships": [
+      {
+        "other_id": "hotspur",
+        "relation": "wife of"
+      },
+      {
+        "other_id": "mortimer",
+        "relation": "sister of"
+      }
+    ],
+    "color": "#c2557a"
+  },
+  {
+    "id": "lady_mortimer",
+    "name": "Lady Mortimer",
+    "aliases": [
+      "LADY MORTIMER.",
+      "LADY M."
+    ],
+    "role": "minor",
+    "description": "Glendower's daughter and Mortimer's bride, who speaks and sings only in Welsh; she and her husband can share love but not a language, and her father must interpret between them. (Her part is given in Welsh stage directions rather than spoken English lines.)",
+    "relationships": [
+      {
+        "other_id": "mortimer",
+        "relation": "wife of"
+      },
+      {
+        "other_id": "glendower",
+        "relation": "daughter of"
+      }
+    ],
+    "color": "#b5689a"
+  },
+  {
+    "id": "hostess",
+    "name": "Mistress Quickly",
+    "aliases": [
+      "HOST.",
+      "HOSTESS."
+    ],
+    "role": "supporting",
+    "description": "Mistress Quickly, the good-natured, malaprop-prone hostess of the Boar's Head tavern in Eastcheap, perpetually owed money by Falstaff and the butt and source of much bawdy joking.",
+    "relationships": [
+      {
+        "other_id": "falstaff",
+        "relation": "creditor of"
+      },
+      {
+        "other_id": "prince_hal",
+        "relation": "host to"
+      }
+    ],
+    "color": "#aa7a9a"
+  },
+  {
+    "id": "poins",
+    "name": "Poins",
+    "aliases": [
+      "POINTZ.",
+      "POINS.",
+      "POINT."
+    ],
+    "role": "supporting",
+    "description": "Edward Poins, Prince Hal's quick-witted tavern companion, who devises the Gad's Hill prank of robbing Falstaff of his stolen loot to expose the fat knight's lies.",
+    "relationships": [
+      {
+        "other_id": "prince_hal",
+        "relation": "friend of"
+      },
+      {
+        "other_id": "falstaff",
+        "relation": "prankster against"
+      }
+    ],
+    "color": "#5f8a5a"
+  },
+  {
+    "id": "gadshill",
+    "name": "Gadshill",
+    "aliases": [
+      "GADS.",
+      "GADSHILL."
+    ],
+    "role": "minor",
+    "description": "The 'setter' of the gang who scouts out the wealthy travellers to be robbed at Gad's Hill and arranges the ambush, named for the very place of the robbery.",
+    "relationships": [
+      {
+        "other_id": "falstaff",
+        "relation": "accomplice of"
+      }
+    ],
+    "color": "#8a8a5a"
+  },
+  {
+    "id": "bardolph",
+    "name": "Bardolph",
+    "aliases": [
+      "BARD.",
+      "BARDOLPH."
+    ],
+    "role": "minor",
+    "description": "One of Falstaff's disreputable followers, famous for his fiery red, carbuncled nose and inflamed face, the butt of Falstaff's endless jokes about drink and damnation.",
+    "relationships": [
+      {
+        "other_id": "falstaff",
+        "relation": "follower of"
+      }
+    ],
+    "color": "#9a6b3a"
+  },
+  {
+    "id": "peto",
+    "name": "Peto",
+    "aliases": [
+      "PETO."
+    ],
+    "role": "minor",
+    "description": "One of Falstaff's companions in the Gad's Hill robbery and the Eastcheap tavern, who reports on Falstaff's doctored tavern bill and rides with the troops toward Shrewsbury.",
+    "relationships": [
+      {
+        "other_id": "falstaff",
+        "relation": "follower of"
+      }
+    ],
+    "color": "#7a6a5a"
+  },
+  {
+    "id": "francis",
+    "name": "Francis",
+    "aliases": [
+      "FRAN.",
+      "FRANCIS."
+    ],
+    "role": "minor",
+    "description": "A young apprentice drawer (tapster) at the Boar's Head, whom Hal and Poins torment by calling him from two directions at once so he can only stammer 'Anon, anon, sir!'",
+    "relationships": [
+      {
+        "other_id": "prince_hal",
+        "relation": "teased by"
+      }
+    ],
+    "color": "#8a7a6a"
+  },
+  {
+    "id": "vintner",
+    "name": "Vintner",
+    "aliases": [
+      "VINT.",
+      "VINTNER."
+    ],
+    "role": "minor",
+    "description": "The keeper of the Boar's Head tavern, who announces visitors and keeps a wary eye on his unruly noble guests.",
+    "color": "#7a8a6a"
+  },
+  {
+    "id": "sheriff",
+    "name": "Sheriff",
+    "aliases": [
+      "SHER.",
+      "SHERIFF."
+    ],
+    "role": "minor",
+    "description": "The officer who comes to the tavern hunting the Gad's Hill robbers; Hal sends him away with a promise to answer for Falstaff, who has meanwhile fallen asleep behind the arras.",
+    "relationships": [
+      {
+        "other_id": "prince_hal",
+        "relation": "answered by"
+      }
+    ],
+    "color": "#6a7a8a"
+  },
+  {
+    "id": "first_carrier",
+    "name": "First Carrier",
+    "aliases": [
+      "1. CAR.",
+      "1 CAR.",
+      "FIRST CARRIER."
+    ],
+    "role": "minor",
+    "description": "One of two carriers in the inn-yard at Rochester before dawn, grumbling about the fleas, the bad oats, and the decline of the stables, whose talk Gadshill overhears.",
+    "color": "#7a8a7a"
+  },
+  {
+    "id": "second_carrier",
+    "name": "Second Carrier",
+    "aliases": [
+      "2. CAR.",
+      "2 CAR.",
+      "SECOND CARRIER."
+    ],
+    "role": "minor",
+    "description": "The second of the two carriers loading their pack-horses in the inn-yard at Rochester, wary of strangers and reluctant to lend a lantern.",
+    "color": "#6a8a7a"
+  },
+  {
+    "id": "chamberlain",
+    "name": "Chamberlain",
+    "aliases": [
+      "CHAM.",
+      "CHAMBERLAIN."
+    ],
+    "role": "minor",
+    "description": "The inn's chamberlain, secretly in league with the thieves, who tips off Gadshill about a rich franklin carrying three hundred marks in gold.",
+    "relationships": [
+      {
+        "other_id": "gadshill",
+        "relation": "informant for"
+      }
+    ],
+    "color": "#8a7a7a"
+  },
+  {
+    "id": "ostler",
+    "name": "Ostler",
+    "aliases": [
+      "OST.",
+      "OSTLER."
+    ],
+    "role": "minor",
+    "description": "A stable-hand at the Rochester inn, called for to saddle the horses in the small hours.",
+    "color": "#7a7a6a"
+  },
+  {
+    "id": "traveller",
+    "name": "Traveller",
+    "aliases": [
+      "FIRST TRAVELLER.",
+      "SECOND TRAVELLER.",
+      "TRAVELLER."
+    ],
+    "role": "minor",
+    "description": "One of the well-to-do travellers set upon and robbed by Falstaff's gang on the highway at Gad's Hill.",
+    "color": "#8a8a7a"
+  },
+  {
+    "id": "servant",
+    "name": "Servant",
+    "aliases": [
+      "SERV.",
+      "SERVANT."
+    ],
+    "role": "minor",
+    "description": "A servant who attends the nobles and carries word between them, including the messenger who brings Hotspur his horse and news.",
+    "color": "#888888"
+  },
+  {
+    "id": "messenger",
+    "name": "Messenger",
+    "aliases": [
+      "MESS.",
+      "MESSENGER."
+    ],
+    "role": "minor",
+    "description": "A bearer of news to Hotspur's camp and the King's, reporting the movements of armies as Shrewsbury approaches.",
+    "color": "#7a8a8a"
+  }
+]

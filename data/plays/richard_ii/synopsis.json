@@ -1,0 +1,55 @@
+{
+  "play": "richard_ii",
+  "overview": "King Richard II, an eloquent but wasteful ruler who believes his crown is sacred and untouchable, banishes his cousin Henry Bolingbroke and then seizes Bolingbroke's inheritance to pay for a war in Ireland. That theft turns the nobility against him. Bolingbroke returns in arms, gathers the disaffected lords, and forces Richard to give up the crown. The play follows Richard's fall from absolute king to murdered prisoner, and Bolingbroke's troubled rise as King Henry IV, asking throughout what a king is once the power is gone and whether a crown taken by force can ever sit easy.",
+  "acts": [
+    {
+      "number": 1,
+      "summary": "A quarrel between two noblemen exposes the rot at the center of Richard's reign, and the King's mishandling of it sets his own downfall in motion.",
+      "scenes": [
+        { "number": 1, "summary": "At court, Henry Bolingbroke accuses Thomas Mowbray of treason and of a part in the murder of the Duke of Gloucester. Neither man will back down, so Richard sets a trial by combat at Coventry.", "themes": ["honor", "political_legitimacy", "justice"] },
+        { "number": 2, "summary": "John of Gaunt and the widowed Duchess of Gloucester grieve her murdered husband. She begs Gaunt to avenge him; Gaunt answers that the killing was the King's doing and only God may judge God's anointed deputy.", "themes": ["divine_right", "vengeance", "kinship"] },
+        { "number": 3, "summary": "At the Coventry lists, just as the combat begins, Richard halts it and banishes both men: Bolingbroke for ten years (then six), Mowbray for life. Gaunt mourns the loss of his son.", "themes": ["kingship", "exile", "honor"] },
+        { "number": 4, "summary": "Richard mocks Bolingbroke's popularity with the common people. Told that Gaunt is dying, he coldly plans to seize the old man's wealth to fund his Irish wars, having already 'farmed out' the realm to favourites.", "themes": ["kingship", "flattery", "misrule"] }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "Gaunt's death and Richard's seizure of his estate trigger Bolingbroke's return; as the King sails for Ireland, England slides toward him.",
+      "scenes": [
+        { "number": 1, "summary": "The dying Gaunt delivers his 'sceptred isle' lament for England and rebukes Richard to his face. When he dies, Richard seizes his lands, disinheriting Bolingbroke. York protests in vain, then the northern lords reveal Bolingbroke is already sailing home.", "themes": ["england_nationhood", "divine_right", "inheritance"] },
+        { "number": 2, "summary": "The Queen is gripped by nameless dread. News arrives that Bolingbroke has landed with the nobles flocking to him. York, left as regent, is overwhelmed, and Richard's favourites scatter for safety.", "themes": ["fate", "premonition", "political_legitimacy"] },
+        { "number": 3, "summary": "Marching through Gloucestershire, Bolingbroke gathers Northumberland, Percy, Ross, and Willoughby. York confronts him for breaking his banishment but, lacking the force to stop him, stands aside.", "themes": ["rebellion", "loyalty", "power"] },
+        { "number": 4, "summary": "In Wales, the Captain disbands Salisbury's army, frightened off by evil omens and a rumour that the King is dead.", "themes": ["fate", "omens", "loss_of_power"] }
+      ]
+    },
+    {
+      "number": 3,
+      "summary": "Richard returns to a kingdom already lost, and his fall accelerates from defiance to despair to surrender.",
+      "scenes": [
+        { "number": 1, "summary": "At Bristol, Bolingbroke condemns the favourites Bushy and Green to death as the corrupters of King and commonwealth.", "themes": ["justice", "favourites", "power"] },
+        { "number": 2, "summary": "Landing from Ireland, Richard greets English soil and trusts in his divine right, only to learn blow by blow that the Welsh have fled, his favourites are dead, and York has joined Bolingbroke. He sinks into despair over the deaths of kings.", "themes": ["divine_right", "despair", "mortality"] },
+        { "number": 3, "summary": "At Flint Castle, Bolingbroke parleys while professing loyalty. Richard appears on the walls in glory, then descends to the 'base court' and effectively yields himself into his cousin's power.", "themes": ["kingship", "submission", "language"] },
+        { "number": 4, "summary": "In the Duke of York's garden, a gardener compares the neglected, overgrown garden to the misgoverned realm. The hidden Queen overhears that Richard is doomed.", "themes": ["order_and_degree", "allegory", "misrule"] }
+      ]
+    },
+    {
+      "number": 4,
+      "summary": "In Westminster Hall the crown changes hands, and a bishop's warning foretells the bloody century the deposition will unleash.",
+      "scenes": [
+        { "number": 1, "summary": "Lords hurl down their gages accusing Aumerle of Gloucester's murder. The Bishop of Carlisle condemns the deposing of an anointed king and prophesies civil war; he is arrested. Richard is brought in to surrender the crown in the mirror scene, and a plot to restore him quietly begins.", "themes": ["divine_right", "deposition", "prophecy"] }
+      ]
+    },
+    {
+      "number": 5,
+      "summary": "Richard is parted from his queen and murdered in prison, while the new king's reign opens under the shadow of the blood that bought it.",
+      "scenes": [
+        { "number": 1, "summary": "On the way to the Tower, Richard and the Queen take an anguished farewell. Northumberland orders Richard north to Pomfret and the Queen home to France.", "themes": ["grief", "separation", "loss_of_power"] },
+        { "number": 2, "summary": "York describes Richard's humiliating ride into London behind Bolingbroke. He then discovers his son Aumerle's part in a conspiracy against the new king and rides off to denounce him.", "themes": ["loyalty", "kinship", "betrayal"] },
+        { "number": 3, "summary": "Aumerle reaches the King first to beg pardon; York demands his son's death for treason while the Duchess of York pleads for his life. King Henry pardons Aumerle.", "themes": ["mercy", "kinship", "kingship"] },
+        { "number": 4, "summary": "Sir Pierce of Exton seizes on the King's brooding wish to be rid of 'this living fear' and takes it as an order to kill the imprisoned Richard.", "themes": ["regicide", "ambition", "language"] },
+        { "number": 5, "summary": "Alone at Pomfret, Richard meditates on prison, time, and identity. A loyal groom and the keeper visit him; then Exton and his men break in. Richard fights and kills two before Exton strikes him down, and he dies prophesying ruin.", "themes": ["identity", "mortality", "kingship"] },
+        { "number": 6, "summary": "Henry receives news that the rebellions are crushed. Exton brings in Richard's coffin expecting thanks; the King disowns the murder, banishes Exton, and vows a pilgrimage to the Holy Land to wash the guilt from his hands.", "themes": ["guilt", "political_legitimacy", "atonement"] }
+      ]
+    }
+  ]
+}

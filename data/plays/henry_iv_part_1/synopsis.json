@@ -1,0 +1,55 @@
+{
+  "play": "henry_iv_part_1",
+  "overview": "Henry IV, who took the crown from Richard II, now rules an England torn by rebellion: the powerful Percy family, once his allies, turn against him, led by the fiery young warrior Hotspur. Meanwhile the King despairs of his own son, Prince Hal, who wastes his days drinking and joking in the Eastcheap taverns with the fat, witty rogue Sir John Falstaff. The play braids these worlds together — court, rebel camp, and tavern — and drives toward the Battle of Shrewsbury, where Hal at last casts off his loose reputation, saves his father, and kills Hotspur. It is a study of honor, kingship, and growing up, anchored by one of the greatest comic characters ever written.",
+  "acts": [
+    {
+      "number": 1,
+      "summary": "The kingdom is unsettled by rebellion and by the King's worry over his wayward heir; the Percys begin to plot.",
+      "scenes": [
+        { "number": 1, "summary": "The careworn King Henry, longing to lead a crusade, instead hears of war on his borders: Mortimer captured by the Welsh rebel Glendower, and young Hotspur victorious over the Scots but refusing to surrender his prisoners. He envies Northumberland so gallant a son and grieves over his own.", "themes": ["kingship", "honor", "civil_strife"] },
+        { "number": 2, "summary": "Prince Hal trades jokes with Falstaff, and Poins plots the Gad's Hill robbery and a prank to expose Falstaff's lies. Left alone, Hal reveals in soliloquy ('I know you all') that his idleness is a deliberate act he will one day cast off to dazzle the world.", "themes": ["youth_vs_age", "performance", "redemption"] },
+        { "number": 3, "summary": "The King confronts Hotspur and the Percys over the prisoners; Hotspur rages about the perfumed courtier who demanded them. After the King leaves, Worcester unfolds the plan of rebellion, allying the Percys with Mortimer, Glendower, Douglas, and the Archbishop of York.", "themes": ["honor", "rebellion", "political_legitimacy"] }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "The Gad's Hill robbery and its comic unmasking unfold against the gathering of the rebellion.",
+      "scenes": [
+        { "number": 1, "summary": "Before dawn in a Rochester inn-yard, two carriers grumble about the lodging while Gadshill and the corrupt Chamberlain arrange the robbery of wealthy travellers.", "themes": ["disorder", "comedy", "crime"] },
+        { "number": 2, "summary": "On the highway at Gad's Hill, Falstaff and his gang rob the travellers; the disguised Hal and Poins then rob the robbers, sending Falstaff running and roaring.", "themes": ["comedy", "deception", "honor"] },
+        { "number": 3, "summary": "At Warkworth, Hotspur reads a lukewarm letter from a lord who declines to join the revolt; his wife, Lady Percy, presses him about the secret cares that rob him of sleep and of her.", "themes": ["honor", "marriage", "rebellion"] },
+        { "number": 4, "summary": "At the Boar's Head tavern, Hal torments the drawer Francis, then traps Falstaff in ever-growing lies about the robbery. The two stage a mock interview between King and Prince, and a sheriff arrives hunting the thieves.", "themes": ["performance", "comedy", "kingship"] }
+      ]
+    },
+    {
+      "number": 3,
+      "summary": "The rebels divide the kingdom in advance, while at court father and son are reconciled.",
+      "scenes": [
+        { "number": 1, "summary": "In Wales the rebels carve up a map of England; Hotspur needles Glendower over his boasts of magic and haggles over his share, then teases his wife as Lady Mortimer sings in Welsh to her English husband.", "themes": ["rebellion", "pride", "language"] },
+        { "number": 2, "summary": "The King bitterly rebukes Hal for his low company, comparing him to Richard II and Hotspur to himself. Hal vows to redeem every shame on Hotspur's head, and the King gives him a command.", "themes": ["kingship", "redemption", "fatherhood"] },
+        { "number": 3, "summary": "At the tavern Falstaff quarrels with the Hostess over his debts and a supposedly picked pocket. Hal returns, reveals he has repaid the robbery money, and gives Falstaff a charge of foot soldiers for the coming war.", "themes": ["comedy", "honor", "war"] }
+      ]
+    },
+    {
+      "number": 4,
+      "summary": "The rebel cause weakens as the armies converge on Shrewsbury.",
+      "scenes": [
+        { "number": 1, "summary": "In the rebel camp Hotspur learns that his father's army will not come and that the Archbishop's strength is doubtful, yet greets each blow with reckless cheer as the King's forces approach. Vernon's glowing account of Prince Hal stings him.", "themes": ["honor", "rebellion", "fate"] },
+        { "number": 2, "summary": "Marching toward Shrewsbury, Falstaff confesses in soliloquy how he has abused the King's press, filling his ranks with ragged, doomed conscripts — 'food for powder.'", "themes": ["war", "corruption", "comedy"] },
+        { "number": 3, "summary": "The rebels debate whether to fight at once; Sir Walter Blunt brings the King's offer of pardon and a hearing of grievances, and Hotspur recites the Percys' long list of wrongs.", "themes": ["rebellion", "honor", "negotiation"] },
+        { "number": 4, "summary": "At York the Archbishop, fearing the rebels are too weak, sends urgent letters to ready a second line of resistance should Shrewsbury be lost.", "themes": ["rebellion", "foreboding"] }
+      ]
+    },
+    {
+      "number": 5,
+      "summary": "At Shrewsbury, Hal comes of age, Hotspur falls, and Falstaff survives by playing dead.",
+      "scenes": [
+        { "number": 1, "summary": "In the King's camp Worcester comes to parley; the King offers pardon and Hal offers to settle the war in single combat with Hotspur. Left alone, Falstaff delivers his catechism on honor — a mere 'word,' 'air,' that does the dead no good.", "themes": ["honor", "kingship", "war"] },
+        { "number": 2, "summary": "Worcester hides the King's offer of pardon from Hotspur, certain the Percys will never again be trusted, and the rebels rouse themselves for battle with fierce speeches.", "themes": ["betrayal", "honor", "war"] },
+        { "number": 3, "summary": "Battle is joined. The valiant Douglas kills Sir Walter Blunt, one of several decoys dressed in the King's coat. Falstaff, finding the dead Blunt, muses on honor and offers Hal a bottle of sack in place of a pistol.", "themes": ["war", "honor", "comedy"] },
+        { "number": 4, "summary": "Hal saves the King from Douglas, then meets and kills Hotspur in single combat. Falstaff, feigning death to escape Douglas, rises, stabs the dead Hotspur, and claims the kill; Hal, amused, lets him keep the lie.", "themes": ["honor", "redemption", "death"] },
+        { "number": 5, "summary": "Victorious, the King condemns Worcester and Vernon to death for betraying the offered peace, frees the captured Douglas at Hal's request, and divides his forces to crush the remaining rebels in the north and in Wales.", "themes": ["justice", "kingship", "mercy"] }
+      ]
+    }
+  ]
+}

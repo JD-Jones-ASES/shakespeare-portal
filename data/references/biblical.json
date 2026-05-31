@@ -76,6 +76,53 @@
       "related_plays": [
         "hamlet"
       ]
+    },
+    {
+      "id": "pilate-washing-hands",
+      "kind": "biblical",
+      "title": "Pilate washing his hands",
+      "source": {
+        "name": "Geneva Bible 1599",
+        "citation": "Matthew 27:24 (Geneva 1599): Pilate 'tooke water, and washed his handes before the multitude, saying, I am innocent of the blood of this just man.'"
+      },
+      "summary_basic": "When the crowd bayed for Jesus's death, the Roman governor Pontius Pilate publicly washed his hands to disown responsibility for the killing he was about to allow. At his deposition Richard flings the gesture back at the lords who claim clean hands in his fall: 'Though some of you, with Pilate, wash your hands, / Showing an outward pity; yet you Pilates / Have here deliver'd me to my sour cross' (4.1) — casting himself as a Christ betrayed and condemned.",
+      "detail_scholar": "Richard repeatedly likens his fall to Christ's Passion: he speaks of being sold by 'Judases' (the favourites, and Northumberland), of finding 'in twelve thousand none' faithful, and here of his 'sour cross.' The Pilate allusion turns the deposing lords into participants in a sacrilege — washing the hands cannot wash away the guilt of delivering up an anointed king. The futility of hand-washing as a cleansing of blood-guilt returns powerfully in Macbeth.",
+      "related_plays": [
+        "richard_ii",
+        "macbeth"
+      ]
+    },
+    {
+      "id": "the-prodigal-son",
+      "kind": "biblical",
+      "title": "The Prodigal Son",
+      "source": {
+        "name": "Geneva Bible 1599",
+        "citation": "Luke 15:11-32 (Geneva 1599); the husks the prodigal envies the swine at Luke 15:16."
+      },
+      "summary_basic": "Jesus's parable of a younger son who demands his inheritance early, squanders it abroad in 'riotous living,' is reduced to feeding pigs and longing to eat their husks, then returns home in shame — where his father joyfully forgives him and kills the fatted calf to feast. The arc shadows Prince Hal, who seems to waste his youth among tavern thieves before returning to his royal father; Falstaff jokes that his ragged recruits look like 'prodigals lately come from swine-keeping, from eating draff and husks' (4.2).",
+      "detail_scholar": "Hal's soliloquy 'I know you all' (1.2) recasts his riot as a deliberate, temporary fall he will redeem — a planned prodigal's return staged for maximum effect. The parable was a stock subject of the painted cloths that hung in taverns and inns (Falstaff alludes to such hangings), making it doubly apt for the Eastcheap world. Shakespeare develops the prodigal motif further in Henry IV Part 2 and the rejection of Falstaff.",
+      "related_plays": [
+        "henry_iv_part_1",
+        "henry_iv_part_2"
+      ]
+    },
+    {
+      "id": "dives-and-lazarus",
+      "kind": "biblical",
+      "title": "Dives and Lazarus",
+      "source": {
+        "name": "Geneva Bible 1599",
+        "citation": "Luke 16:19-31 (Geneva 1599); the rich man in purple and the beggar Lazarus whose sores the dogs licked."
+      },
+      "summary_basic": "Jesus's parable of a rich man (traditionally called Dives, Latin for 'rich,' clothed in purple and feasting every day) and a starving beggar, Lazarus, covered in sores that dogs licked at the rich man's gate. Both die: Lazarus is carried to Abraham's bosom, the rich man to torment in hell-fire. Falstaff invokes both figures — his tattered conscripts are 'as ragged as Lazarus in the painted cloth, where the glutton's dogs licked his sores' (4.2), and he mocks Bardolph's fiery-red face as a reminder of 'Dives that lived in purple; for there he is in his robes, burning, burning' (3.3).",
+      "detail_scholar": "Like the Prodigal Son, the story was a common subject of cheap 'painted cloth' wall-hangings, which Falstaff repeatedly references; the joke assumes the audience can picture the standard image. Bardolph's flaming complexion as a memento mori of hell-fire is one of the play's running gags. 'Dives' is not a name in the Geneva text but the long-standing nickname for the rich man.",
+      "related_plays": [
+        "henry_iv_part_1"
+      ],
+      "see_also": [
+        { "kind": "biblical", "card_id": "the-prodigal-son" }
+      ]
     }
   ]
 }

@@ -1,0 +1,390 @@
+[
+  {
+    "id": "richard",
+    "name": "King Richard II",
+    "aliases": ["KING RICHARD."],
+    "role": "protagonist",
+    "description": "King of England, grandson of Edward III and son of the Black Prince, crowned as a boy. Eloquent, capricious, and convinced of his sacred right to rule, he banishes Bolingbroke, seizes Gaunt's estate to fund an Irish war, and is undone by it; deposed and imprisoned, he meets his death at Pomfret meditating on what a king becomes once the crown is gone.",
+    "relationships": [
+      { "other_id": "gaunt", "relation": "nephew of" },
+      { "other_id": "york", "relation": "nephew of" },
+      { "other_id": "bolingbroke", "relation": "cousin to, and supplanted by" },
+      { "other_id": "queen", "relation": "husband of" },
+      { "other_id": "aumerle", "relation": "cousin and favourite of" }
+    ],
+    "color": "#b08a2e"
+  },
+  {
+    "id": "bolingbroke",
+    "name": "Henry Bolingbroke",
+    "aliases": ["BOLINGBROKE."],
+    "role": "deuteragonist",
+    "description": "Henry Bolingbroke, Duke of Hereford, son of John of Gaunt and cousin to the King. Banished after his quarrel with Mowbray and then disinherited, he returns in arms to reclaim his lands, gathers the discontented nobles, and rises to seize the crown as King Henry IV, haunted from the first by how he came to it.",
+    "relationships": [
+      { "other_id": "gaunt", "relation": "son of" },
+      { "other_id": "richard", "relation": "cousin to, and usurper of" },
+      { "other_id": "york", "relation": "nephew of" },
+      { "other_id": "northumberland", "relation": "chief ally of" },
+      { "other_id": "mowbray", "relation": "accuser of" }
+    ],
+    "color": "#3f7cac"
+  },
+  {
+    "id": "gaunt",
+    "name": "John of Gaunt",
+    "aliases": ["GAUNT."],
+    "role": "major",
+    "description": "John of Gaunt, Duke of Lancaster, son of Edward III and uncle to the King. The dying voice of an older England, he delivers the 'this royal throne of kings, this sceptred isle' speech lamenting Richard's misrule, then dies; his confiscated inheritance is the spark that brings his son Bolingbroke back in rebellion.",
+    "relationships": [
+      { "other_id": "bolingbroke", "relation": "father of" },
+      { "other_id": "richard", "relation": "uncle of" },
+      { "other_id": "york", "relation": "brother of" },
+      { "other_id": "duchess_of_gloucester", "relation": "brother-in-law of" }
+    ],
+    "color": "#7a6a8a"
+  },
+  {
+    "id": "york",
+    "name": "Duke of York",
+    "aliases": ["YORK."],
+    "role": "major",
+    "description": "Edmund of Langley, Duke of York, son of Edward III and uncle to the King. Left as regent when Richard sails for Ireland, he is torn between his oath to the crown and the justice of Bolingbroke's cause; he submits to the new order, then turns informer against his own son Aumerle to prove his loyalty.",
+    "relationships": [
+      { "other_id": "aumerle", "relation": "father of" },
+      { "other_id": "duchess_of_york", "relation": "husband of" },
+      { "other_id": "richard", "relation": "uncle of" },
+      { "other_id": "gaunt", "relation": "brother of" },
+      { "other_id": "bolingbroke", "relation": "uncle of" }
+    ],
+    "color": "#2e8b74"
+  },
+  {
+    "id": "queen",
+    "name": "Queen Isabel",
+    "aliases": ["QUEEN."],
+    "role": "supporting",
+    "description": "Richard's young queen, who senses coming grief before she knows its cause, overhears the gardeners report her husband's fall, and takes a last sorrowful leave of him on his way to the Tower before she is sent back to France.",
+    "relationships": [
+      { "other_id": "richard", "relation": "wife of" }
+    ],
+    "color": "#c2557a"
+  },
+  {
+    "id": "aumerle",
+    "name": "Duke of Aumerle",
+    "aliases": ["AUMERLE."],
+    "role": "supporting",
+    "description": "Edward, Duke of Aumerle, son of the Duke of York and a loyal favourite of Richard. After the deposition he is drawn into a plot against the new king; his father discovers it and denounces him, and only his mother's frantic pleading wins him King Henry's pardon.",
+    "relationships": [
+      { "other_id": "york", "relation": "son of" },
+      { "other_id": "duchess_of_york", "relation": "son of" },
+      { "other_id": "richard", "relation": "cousin and follower of" }
+    ],
+    "color": "#5a8f6a"
+  },
+  {
+    "id": "mowbray",
+    "name": "Thomas Mowbray",
+    "aliases": ["MOWBRAY."],
+    "role": "supporting",
+    "description": "Thomas Mowbray, Duke of Norfolk, accused by Bolingbroke of treason and of a hand in the Duke of Gloucester's murder. Denied trial by combat when Richard halts the duel, he is banished for life and dies abroad, having fought in the Crusades.",
+    "relationships": [
+      { "other_id": "bolingbroke", "relation": "accused by" },
+      { "other_id": "richard", "relation": "subject of" }
+    ],
+    "color": "#9a6b3a"
+  },
+  {
+    "id": "northumberland",
+    "name": "Earl of Northumberland",
+    "aliases": ["NORTHUMBERLAND."],
+    "role": "supporting",
+    "description": "Henry Percy, Earl of Northumberland, the most powerful of the nobles who rally to Bolingbroke. Cold and efficient, he manages Richard's surrender and deposition; his rough handling of the fallen king earns Richard's prophecy that the new reign will turn on its makers.",
+    "relationships": [
+      { "other_id": "bolingbroke", "relation": "chief ally of" },
+      { "other_id": "percy", "relation": "father of" },
+      { "other_id": "richard", "relation": "captor of" }
+    ],
+    "color": "#4e7a8b"
+  },
+  {
+    "id": "percy",
+    "name": "Henry Percy (Hotspur)",
+    "aliases": ["PERCY.", "HENRY PERCY."],
+    "role": "minor",
+    "description": "The young Harry Percy, son of Northumberland, who joins his father in Bolingbroke's service and offers the returning duke his sword. (He grows into the fiery Hotspur of Henry IV, Part 1.)",
+    "relationships": [
+      { "other_id": "northumberland", "relation": "son of" },
+      { "other_id": "bolingbroke", "relation": "follower of" }
+    ],
+    "color": "#b5623a"
+  },
+  {
+    "id": "ross",
+    "name": "Lord Ross",
+    "aliases": ["ROSS."],
+    "role": "minor",
+    "description": "One of the northern lords who, with Willoughby, hears Northumberland out and rides to join Bolingbroke at Ravenspurgh, angered by Richard's taxes and the seizure of Gaunt's estate.",
+    "relationships": [
+      { "other_id": "northumberland", "relation": "ally of" },
+      { "other_id": "bolingbroke", "relation": "supporter of" }
+    ],
+    "color": "#6a8a5a"
+  },
+  {
+    "id": "willoughby",
+    "name": "Lord Willoughby",
+    "aliases": ["WILLOUGHBY."],
+    "role": "minor",
+    "description": "A northern lord who joins Ross and Northumberland in defecting to Bolingbroke when the banished duke lands to reclaim his confiscated inheritance.",
+    "relationships": [
+      { "other_id": "ross", "relation": "companion of" },
+      { "other_id": "bolingbroke", "relation": "supporter of" }
+    ],
+    "color": "#7a9b5d"
+  },
+  {
+    "id": "duchess_of_gloucester",
+    "name": "Duchess of Gloucester",
+    "aliases": ["DUCHESS."],
+    "role": "minor",
+    "description": "Widow of Thomas of Woodstock, Duke of Gloucester, Edward III's murdered youngest son. In an early scene she begs Gaunt to avenge her husband's death, then yields to his faith that vengeance belongs to God; word of her own death follows soon after.",
+    "relationships": [
+      { "other_id": "gaunt", "relation": "sister-in-law of" }
+    ],
+    "color": "#8a5f7a"
+  },
+  {
+    "id": "duchess_of_york",
+    "name": "Duchess of York",
+    "aliases": [],
+    "role": "supporting",
+    "description": "Wife of the Duke of York and mother of Aumerle. When her husband rides to betray their son's part in a conspiracy, she races after him to the new king and on her knees out-pleads York himself, winning Aumerle's life.",
+    "relationships": [
+      { "other_id": "york", "relation": "wife of" },
+      { "other_id": "aumerle", "relation": "mother of" }
+    ],
+    "color": "#b5689a"
+  },
+  {
+    "id": "bushy",
+    "name": "Bushy",
+    "aliases": ["BUSHY."],
+    "role": "minor",
+    "description": "One of King Richard's intimate favourites and flatterers, blamed by the commons for the realm's misgovernment. Captured at Bristol when Bolingbroke lands, he is condemned and executed alongside Green.",
+    "relationships": [
+      { "other_id": "richard", "relation": "favourite of" }
+    ],
+    "color": "#a07a4a"
+  },
+  {
+    "id": "bagot",
+    "name": "Bagot",
+    "aliases": ["BAGOT."],
+    "role": "minor",
+    "description": "One of Richard's favourites. Parting from the others as Bolingbroke advances, he survives to accuse Aumerle of the Duke of Gloucester's murder in the gage-throwing quarrel after Richard's fall.",
+    "relationships": [
+      { "other_id": "richard", "relation": "favourite of" }
+    ],
+    "color": "#8a8a5a"
+  },
+  {
+    "id": "green",
+    "name": "Green",
+    "aliases": ["GREEN."],
+    "role": "minor",
+    "description": "One of Richard's favourites, denounced by Bolingbroke as a caterpillar of the commonwealth who has misled the King. He is taken at Bristol and put to death with Bushy.",
+    "relationships": [
+      { "other_id": "richard", "relation": "favourite of" }
+    ],
+    "color": "#5f8a5a"
+  },
+  {
+    "id": "carlisle",
+    "name": "Bishop of Carlisle",
+    "aliases": ["CARLISLE."],
+    "role": "minor",
+    "description": "A loyal churchman who boldly warns the assembled lords that deposing God's anointed king will bring civil bloodshed on England for generations. Arrested for treason, he is later spared by Bolingbroke for the nobility of his conscience.",
+    "relationships": [
+      { "other_id": "richard", "relation": "defender of" },
+      { "other_id": "bolingbroke", "relation": "opponent of" }
+    ],
+    "color": "#6b5b95"
+  },
+  {
+    "id": "scroop",
+    "name": "Sir Stephen Scroop",
+    "aliases": ["SCROOP."],
+    "role": "minor",
+    "description": "The messenger who brings Richard the cascade of bad news on his return from Ireland: the whole realm has risen for Bolingbroke, and his favourites Bushy and Green are dead.",
+    "relationships": [
+      { "other_id": "richard", "relation": "servant of" }
+    ],
+    "color": "#5b7a95"
+  },
+  {
+    "id": "salisbury",
+    "name": "Earl of Salisbury",
+    "aliases": ["SALISBURY."],
+    "role": "minor",
+    "description": "A loyal supporter of Richard who tries to hold the Welsh army together for the King, but they disperse on a rumour of his death; he remains faithful to the end.",
+    "relationships": [
+      { "other_id": "richard", "relation": "loyal to" }
+    ],
+    "color": "#5a6f8a"
+  },
+  {
+    "id": "fitzwater",
+    "name": "Lord Fitzwater",
+    "aliases": ["FITZWATER."],
+    "role": "minor",
+    "description": "One of the lords who throws down his gage in the quarrel over the Duke of Gloucester's death, swearing he heard Aumerle boast of arranging the murder.",
+    "relationships": [
+      { "other_id": "aumerle", "relation": "accuser of" }
+    ],
+    "color": "#7a8a5a"
+  },
+  {
+    "id": "surrey",
+    "name": "Duke of Surrey",
+    "aliases": ["SURREY."],
+    "role": "minor",
+    "description": "A young lord who takes Aumerle's side in the gage-throwing quarrel, giving Fitzwater the lie and pledging his own honour against the accusation.",
+    "relationships": [
+      { "other_id": "aumerle", "relation": "defender of" }
+    ],
+    "color": "#6a8a7a"
+  },
+  {
+    "id": "berkeley",
+    "name": "Lord Berkeley",
+    "aliases": ["BERKELEY."],
+    "role": "minor",
+    "description": "A nobleman sent by the Duke of York to parley with Bolingbroke when the banished duke first lands in arms in the north.",
+    "relationships": [
+      { "other_id": "york", "relation": "messenger of" }
+    ],
+    "color": "#7a7a8a"
+  },
+  {
+    "id": "exton",
+    "name": "Sir Pierce of Exton",
+    "aliases": ["EXTON."],
+    "role": "minor",
+    "description": "An ambitious knight who, taking King Henry's brooding wish to be rid of 'this living fear' as a command, murders the imprisoned Richard at Pomfret, only to be disowned and cursed for the deed.",
+    "relationships": [
+      { "other_id": "richard", "relation": "murderer of" },
+      { "other_id": "bolingbroke", "relation": "would-be servant of" }
+    ],
+    "color": "#8a5a5a"
+  },
+  {
+    "id": "abbot",
+    "name": "Abbot of Westminster",
+    "aliases": ["ABBOT."],
+    "role": "minor",
+    "description": "The Abbot of Westminster, who after the deposition gathers Aumerle, Carlisle and others into a conspiracy to restore Richard and unseat the new king.",
+    "relationships": [
+      { "other_id": "aumerle", "relation": "fellow conspirator with" }
+    ],
+    "color": "#777f8c"
+  },
+  {
+    "id": "marshal",
+    "name": "Lord Marshal",
+    "aliases": ["MARSHAL."],
+    "role": "minor",
+    "description": "The officer who presides over the formal trial by combat at Coventry, marshalling Bolingbroke and Mowbray to the lists before Richard stops the duel.",
+    "relationships": [
+      { "other_id": "richard", "relation": "officer of" }
+    ],
+    "color": "#8c7a6b"
+  },
+  {
+    "id": "gardener",
+    "name": "Gardener",
+    "aliases": ["GARDENER."],
+    "role": "minor",
+    "description": "The head gardener whose tending of an overgrown garden becomes an extended allegory for the misgoverned kingdom; overheard by the Queen, he reports that Richard is in Bolingbroke's power.",
+    "relationships": [
+      { "other_id": "queen", "relation": "overheard by" }
+    ],
+    "color": "#5f7a4a"
+  },
+  {
+    "id": "servant",
+    "name": "Servant",
+    "aliases": ["SERVANT."],
+    "role": "minor",
+    "description": "A serving-man of the Duke of York's household and one of the gardener's men, voicing the small domestic and working life set against the great quarrels of the nobles.",
+    "color": "#888888"
+  },
+  {
+    "id": "keeper",
+    "name": "Keeper",
+    "aliases": ["KEEPER."],
+    "role": "minor",
+    "description": "The keeper of the prison at Pomfret Castle who brings Richard his food and, forbidden to taste it first, triggers the struggle in which the deposed king is killed.",
+    "relationships": [
+      { "other_id": "richard", "relation": "gaoler of" }
+    ],
+    "color": "#7a7a6a"
+  },
+  {
+    "id": "groom",
+    "name": "Groom",
+    "aliases": ["GROOM."],
+    "role": "minor",
+    "description": "A humble groom of Richard's stable who visits the fallen king in prison to tell him how his own horse, roan Barbary, bore the new king proudly at the coronation.",
+    "relationships": [
+      { "other_id": "richard", "relation": "servant of" }
+    ],
+    "color": "#9a8a7a"
+  },
+  {
+    "id": "captain",
+    "name": "Welsh Captain",
+    "aliases": ["CAPTAIN."],
+    "role": "minor",
+    "description": "Captain of the Welsh forces gathered for Richard. Reading dire omens and believing the King dead, he disperses his men, fatally weakening Richard's cause before he even returns from Ireland.",
+    "relationships": [
+      { "other_id": "salisbury", "relation": "abandons" }
+    ],
+    "color": "#6a7a5a"
+  },
+  {
+    "id": "first_herald",
+    "name": "First Herald",
+    "aliases": ["FIRST HERALD."],
+    "role": "minor",
+    "description": "A herald who formally proclaims Bolingbroke's name and cause at the trial by combat at Coventry.",
+    "color": "#8a7a6a"
+  },
+  {
+    "id": "second_herald",
+    "name": "Second Herald",
+    "aliases": ["SECOND HERALD."],
+    "role": "minor",
+    "description": "A herald who formally proclaims Mowbray's name and cause at the trial by combat at Coventry.",
+    "color": "#7a8a6a"
+  },
+  {
+    "id": "lord",
+    "name": "A Lord",
+    "aliases": ["ANOTHER LORD."],
+    "role": "minor",
+    "description": "A nobleman of the court who speaks in the proceedings after Richard's fall, joining the renewed quarrel over the Duke of Gloucester's death.",
+    "color": "#808080"
+  },
+  {
+    "id": "lady",
+    "name": "Lady",
+    "aliases": ["LADY."],
+    "role": "minor",
+    "description": "A lady attending the Queen, who tries to lighten her mistress's sorrow with talk of games and song in the garden.",
+    "relationships": [
+      { "other_id": "queen", "relation": "attends" }
+    ],
+    "color": "#aa7a9a"
+  }
+]
