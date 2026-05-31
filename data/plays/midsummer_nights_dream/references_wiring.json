@@ -1,0 +1,26 @@
+{
+  "_comment": "Maps annotation id -> reference cards to attach. Applied by scripts/generate/wire-references.ts. Kept as a record of card links for A Midsummer Night's Dream.",
+
+  "midsummer_nights_dream-264-lamentable-comedy": [{ "kind": "classical", "card_id": "pyramus-thisbe" }],
+  "midsummer_nights_dream-781-pyramus-thisby": [{ "kind": "classical", "card_id": "pyramus-thisbe" }],
+  "midsummer_nights_dream-1743-tedious-brief": [{ "kind": "classical", "card_id": "pyramus-thisbe" }],
+  "midsummer_nights_dream-1882-limander": [{ "kind": "classical", "card_id": "pyramus-thisbe" }],
+
+  "midsummer_nights_dream-17-wooed-with-sword": [{ "kind": "classical", "card_id": "theseus-plutarch" }],
+  "midsummer_nights_dream-416-bouncing-amazon": [{ "kind": "classical", "card_id": "theseus-plutarch" }],
+  "midsummer_nights_dream-424-perigenia-aegle": [{ "kind": "classical", "card_id": "theseus-plutarch" }],
+
+  "midsummer_nights_dream-2051-triple-hecate": [{ "kind": "classical", "card_id": "triple-hecate" }],
+
+  "midsummer_nights_dream-172-cupids-golden-arrow": [{ "kind": "classical", "card_id": "cupid-arrows" }],
+  "midsummer_nights_dream-505-cupid-all-armd": [{ "kind": "classical", "card_id": "cupid-arrows" }],
+  "midsummer_nights_dream-1409-cupid-knavish-lad": [{ "kind": "classical", "card_id": "cupid-arrows" }],
+
+  "midsummer_nights_dream-631-philomel": [{ "kind": "classical", "card_id": "philomela" }],
+
+  "midsummer_nights_dream-378-robin-goodfellow": [{ "kind": "historical", "card_id": "robin-goodfellow" }],
+  "midsummer_nights_dream-2056-broom-before": [{ "kind": "historical", "card_id": "robin-goodfellow" }],
+  "midsummer_nights_dream-2105-give-me-your-hands": [{ "kind": "historical", "card_id": "robin-goodfellow" }],
+
+  "midsummer_nights_dream-1543-hercules-cadmus-crete": [{ "kind": "classical", "card_id": "hercules" }]
+}

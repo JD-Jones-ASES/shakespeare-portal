@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shakespeare-portal/schemas/character.schema.json",
+  "title": "CharacterList",
+  "description": "Character roster for a single play. data/plays/<slug>/characters.json is an array of Character.",
+  "type": "array",
+  "items": { "$ref": "#/$defs/character" },
+  "$defs": {
+    "character": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "role"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$",
+          "description": "Stable character slug, lowercase underscore."
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Canonical display name."
+        },
+        "aliases": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Alternative speaker labels in the source text (e.g. 'Ber.', 'Bernardo'). Used by the ingest parser to canonicalize speaker labels."
+        },
+        "role": {
+          "type": "string",
+          "enum": [
+            "protagonist",
+            "antagonist",
+            "deuteragonist",
+            "major",
+            "supporting",
+            "minor",
+            "chorus",
+            "ensemble"
+          ]
+        },
+        "description": {
+          "type": "string",
+          "maxLength": 600,
+          "description": "1-3 sentence role description shown on the play landing page."
+        },
+        "color": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "Optional hex color for the character reading system (speaker stripe/legend). Mid-tone, legible on both light and dark themes."
+        },
+        "relationships": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["other_id", "relation"],
+            "properties": {
+              "other_id": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]*$"
+              },
+              "relation": {
+                "type": "string",
+                "description": "Free-form, e.g. 'son of', 'wife of', 'sworn enemy of'."
+              }
+            }
+          }
+        },
+        "first_appearance": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["act", "scene", "tln"],
+          "properties": {
+            "act": { "type": "integer", "minimum": 1 },
+            "scene": { "type": "integer", "minimum": 1 },
+            "tln": { "type": "integer", "minimum": 1 }
+          }
+        },
+        "speech_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "key_lines": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["tln", "text", "why"],
+            "properties": {
+              "tln": { "type": "integer", "minimum": 1 },
+              "text": { "type": "string", "minLength": 1 },
+              "why": {
+                "type": "string",
+                "maxLength": 240,
+                "description": "Brief editorial note on the line's significance."
+              }
+            }
+          },
+          "maxItems": 5
+        }
+      }
+    }
+  }
+}

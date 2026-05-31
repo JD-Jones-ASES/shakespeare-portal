@@ -1,0 +1,84 @@
+---
+import type { Scene, Annotation, GlossaryEntry } from '../data/types.ts';
+import { buildGlossary, glossarize } from '../data/glossary.ts';
+interface Props {
+  scene: Scene;
+  annotations: Annotation[];
+  speakerColors?: Record<string, string>;
+  glossary?: GlossaryEntry[];
+}
+const { scene, annotations, speakerColors = {}, glossary = [] } = Astro.props;
+const glossLookup = buildGlossary(glossary);
+
+const annsByTln = new Map<number, Annotation[]>();
+for (const a of annotations) {
+  if (!annsByTln.has(a.tln_start)) annsByTln.set(a.tln_start, []);
+  annsByTln.get(a.tln_start)!.push(a);
+}
+
+// Show the speaker name only when it changes; continuation lines (and lines after a
+// stage direction or blank) leave the name column empty, as in a printed edition.
+let _prevSpeaker: string | null = null;
+const showSpeaker = scene.lines.map((line) => {
+  if (line.kind === 'spoken') {
+    const show = line.speaker !== _prevSpeaker;
+    _prevSpeaker = line.speaker ?? null;
+    return show;
+  }
+  _prevSpeaker = null;
+  return false;
+});
+---
+<ol class="scene-text" start={scene.lines.find((l) => l.kind === 'spoken')?.tln ?? 1}>
+  {scene.lines.map((line, i) => {
+    if (line.kind === 'stage_direction') {
+      return (
+        <li class="stage-direction" role="note">
+          [{(line.stage_directions ?? []).join(' / ')}]
+        </li>
+      );
+    }
+    if (line.kind === 'blank') return <li class="blank" aria-hidden="true" />;
+    if (line.kind !== 'spoken' || line.tln === undefined) return null;
+    const anns = annsByTln.get(line.tln) ?? [];
+    const speakerVar = `--speaker-color: ${speakerColors[line.speaker_id ?? ''] ?? 'transparent'};`;
+    return (
+      <Fragment>
+        {showSpeaker[i] && (
+          <li
+            class="speaker-row"
+            data-speaker-id={line.speaker_id ?? ''}
+            style={speakerVar}
+          >
+            {line.speaker}
+          </li>
+        )}
+        <li
+          class="play-line"
+          id={`tln-${line.tln}`}
+          data-tln={line.tln}
+          data-speaker-id={line.speaker_id ?? ''}
+          data-has-annotation={anns.length > 0 ? 'true' : 'false'}
+          style={speakerVar}
+        >
+          <span class="line-number">{line.tln}</span>
+          <span class="line-text">{glossarize(line.text ?? '', glossLookup).map((seg) => (seg.t === 'g' ? <span class="gloss-term" tabindex="0" data-def={seg.d}>{seg.v}</span> : seg.v))}</span>
+          {anns.length > 0 && (
+            <span class="annotation-markers">
+              {anns.map((a) => (
+                <button
+                  type="button"
+                  class={`ann-marker ann-${a.type} ann-${a.depth}`}
+                  data-annotation-id={a.id}
+                  data-anndepth={a.depth}
+                  data-anntype={a.type}
+                  aria-label={`Show annotation: ${a.summary.slice(0, 60)}`}
+                >·</button>
+              ))}
+            </span>
+          )}
+        </li>
+      </Fragment>
+    );
+  })}
+</ol>

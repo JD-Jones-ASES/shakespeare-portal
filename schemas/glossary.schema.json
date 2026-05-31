@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shakespeare-portal/schemas/glossary.schema.json",
+  "title": "Glossary",
+  "description": "Flat archaic-vocabulary glossary for a play, powering instant hover/tap definitions. data/plays/<slug>/glossary.json. Separate from the rich annotation layer.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["play", "entries"],
+  "properties": {
+    "play": {
+      "type": "string",
+      "description": "Play slug."
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["surface", "normalized", "definition"],
+        "properties": {
+          "surface": {
+            "type": "string",
+            "description": "Headword/phrase as a reader would look it up (lowercase, apostrophes kept)."
+          },
+          "normalized": {
+            "type": "string",
+            "description": "Lowercased, punctuation-trimmed match key used by the reader tokenizer."
+          },
+          "definition": {
+            "type": "string",
+            "maxLength": 140,
+            "description": "Short plain-English definition (tooltip-length)."
+          },
+          "pos": {
+            "type": "string",
+            "description": "Optional part of speech."
+          }
+        }
+      }
+    }
+  }
+}

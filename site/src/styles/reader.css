@@ -1,0 +1,194 @@
+/* Shakespeare Portal — scene reader layout. */
+
+.reading-shell { max-width: none; }
+
+.scene-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.5rem 0 1rem;
+  border-bottom: 1px solid var(--color-rule);
+  font-size: 0.95rem;
+}
+.scene-nav .scene-label { font-weight: 600; }
+.scene-nav-bottom { border-bottom: none; border-top: 1px solid var(--color-rule); margin-top: 2rem; padding-top: 1rem; }
+
+.reading-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 22rem;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 60rem) {
+  .reading-grid { grid-template-columns: 1fr; }
+  .gloss-column { border-top: 1px solid var(--color-rule); padding-top: 1rem; position: static; max-height: none; overflow: visible; }
+}
+
+.scene-column { max-width: var(--max-line); }
+.scene-header h1 { font-family: var(--font-serif); font-size: 1.5rem; margin: 0 0 0.25rem; }
+.scene-header .setting { font-style: italic; color: var(--color-muted); margin: 0 0 1rem; }
+
+.scene-text { list-style: none; padding: 0; margin: 0; font-family: var(--font-serif); font-size: 1.16rem; line-height: 1.72; }
+
+/* Speaker name printed once, above the speech (Folger/Arden style). */
+.scene-text .speaker-row {
+  font-variant: small-caps;
+  letter-spacing: 0.06em;
+  font-weight: 600;
+  color: var(--color-accent);
+  margin: 0.85rem 0 0.1rem;
+  padding-left: 0.6rem;
+  border-left: 3px solid var(--speaker-color, transparent);
+}
+.scene-text .play-line {
+  display: grid;
+  grid-template-columns: 2.6rem 1fr auto;
+  column-gap: 0.5rem;
+  align-items: baseline;
+  padding: 0.04rem 0.5rem 0.04rem 0;
+  border-left: 3px solid var(--speaker-color, transparent);
+  border-radius: 0 0.2rem 0.2rem 0;
+  scroll-margin-top: 4rem;
+}
+.scene-text .line-number { color: var(--color-muted); font-size: 0.72rem; font-family: var(--font-sans); text-align: right; user-select: none; padding-top: 0.3em; }
+.scene-text .line-text { white-space: pre-wrap; padding-left: 0.6rem; }
+.scene-text .play-line[data-has-annotation="true"] .line-text { border-bottom: 1px dotted color-mix(in srgb, var(--color-accent) 45%, var(--color-rule)); }
+.scene-text .stage-direction {
+  font-style: italic;
+  color: var(--color-muted);
+  margin: 0.55rem 0 0.55rem 3.2rem;
+  font-family: var(--font-serif);
+}
+.scene-text .blank { height: 0.35rem; }
+.scene-text .annotation-markers { white-space: nowrap; }
+.scene-text .ann-marker {
+  border: none; background: none; color: var(--color-accent);
+  font-size: 1.3rem; line-height: 1; cursor: pointer; padding: 0 0.15rem; opacity: 0.65;
+}
+.scene-text .ann-marker:hover, .scene-text .ann-marker:focus-visible { opacity: 1; }
+
+/* Glossary: instant hover/tap definitions for archaic words. */
+.scene-text .gloss-term { border-bottom: 1px dotted color-mix(in srgb, var(--color-muted) 50%, transparent); cursor: help; position: relative; }
+.scene-text .gloss-term:hover, .scene-text .gloss-term:focus-visible { background: color-mix(in srgb, var(--color-accent) 10%, transparent); outline: none; }
+.scene-text .gloss-term::after {
+  content: attr(data-def);
+  position: absolute; left: 50%; bottom: calc(100% + 0.4rem); transform: translateX(-50%);
+  background: var(--color-text); color: var(--color-bg);
+  font-family: var(--font-sans); font-size: 0.78rem; line-height: 1.35; font-variant: normal; letter-spacing: normal; font-weight: 400; white-space: normal;
+  width: max-content; max-width: 15rem; padding: 0.3rem 0.55rem; border-radius: 0.3rem; box-shadow: var(--shadow);
+  opacity: 0; visibility: hidden; transition: opacity 0.12s; z-index: 60; pointer-events: none;
+}
+.scene-text .gloss-term:hover::after, .scene-text .gloss-term:focus-visible::after { opacity: 1; visibility: visible; }
+
+body[data-wordhelp="off"] .scene-text .gloss-term { border-bottom: none; cursor: inherit; }
+body[data-wordhelp="off"] .scene-text .gloss-term:hover { background: none; }
+body[data-wordhelp="off"] .scene-text .gloss-term::after { display: none; }
+
+/* Character reading modes — ReadingControls sets body[data-charmode] + .is-selected. */
+.scene-text .play-line, .scene-text .speaker-row { transition: opacity 0.15s, background 0.15s, border-color 0.15s; }
+
+/* Color speakers: tint every speaker name + left stripe by character. */
+body[data-charmode="color"] .scene-text .play-line,
+body[data-charmode="color"] .scene-text .speaker-row { border-left-color: var(--speaker-color); }
+body[data-charmode="color"] .scene-text .speaker-row { color: color-mix(in srgb, var(--speaker-color) 78%, var(--color-text)); }
+
+/* Highlight: selected speakers tinted in their colour; others untouched. */
+body[data-charmode="highlight"] .scene-text .play-line.is-selected,
+body[data-charmode="highlight"] .scene-text .speaker-row.is-selected { border-left-color: var(--speaker-color); background: color-mix(in srgb, var(--speaker-color) 13%, transparent); }
+body[data-charmode="highlight"] .scene-text .speaker-row.is-selected { color: color-mix(in srgb, var(--speaker-color) 78%, var(--color-text)); }
+
+/* Focus: dim everyone except the selected characters. */
+body[data-charmode="focus"] .scene-text .play-line:not(.is-selected),
+body[data-charmode="focus"] .scene-text .speaker-row:not(.is-selected) { opacity: 0.3; }
+body[data-charmode="focus"] .scene-text .play-line.is-selected,
+body[data-charmode="focus"] .scene-text .speaker-row.is-selected { border-left-color: var(--speaker-color); }
+
+/* Focus also powers "read my part": the cue buttons step through .is-selected lines. */
+
+/* Two-way gloss linking: a focused line and a flashed note. */
+.scene-text .play-line { scroll-margin-top: 4rem; border-radius: 0.2rem; }
+.scene-text .play-line.line-focused { background: color-mix(in srgb, var(--color-accent) 14%, transparent); }
+.gloss-item { scroll-margin-top: 0.5rem; transition: background 0.4s; }
+.gloss-item.flash { background: color-mix(in srgb, var(--color-accent) 16%, transparent); }
+
+.depth-toggle {
+  border: 1px solid var(--color-rule);
+  border-radius: 9999px;
+  padding: 0.15rem;
+  display: inline-flex;
+  font-size: 0.85rem;
+}
+.depth-toggle legend { display: none; }
+.depth-toggle label {
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  cursor: pointer;
+  color: var(--color-muted);
+}
+.depth-toggle label.active { background: var(--color-accent); color: #fff; }
+:root[data-theme="dark"] .depth-toggle label.active { color: #17140f; }
+.depth-toggle input { position: absolute; opacity: 0; pointer-events: none; }
+
+/* Read mode hides advanced/bawdy/textual markers; Off hides all markers + underline. */
+body[data-depth="read"] .scene-text .ann-marker[data-anntype="bawdy_pun"],
+body[data-depth="read"] .scene-text .ann-marker[data-anntype="textual_variant"],
+body[data-depth="read"] .scene-text .ann-marker[data-anndepth="scholar"] { display: none; }
+body[data-depth="off"] .scene-text .annotation-markers { display: none; }
+body[data-depth="off"] .scene-text .play-line[data-has-annotation="true"] .line-text { border-bottom: none; }
+
+/* Reference card shown collapsed as a chip in Read mode. */
+.gloss-item .ref-chip { display: inline-block; font-size: 0.75rem; margin: 0.35rem 0.35rem 0 0; padding: 0.12rem 0.45rem; border: 1px solid var(--color-rule); border-radius: 0.25rem; color: var(--color-muted); }
+.gloss-item .ref-chip .ref-kind { color: var(--color-accent); text-transform: uppercase; font-size: 0.62rem; letter-spacing: 0.06em; margin-right: 0.25rem; }
+
+.gloss-column {
+  font-size: 0.95rem;
+  position: sticky;
+  top: 1rem;
+  align-self: start;
+  max-height: calc(100vh - 2rem);
+  overflow-y: auto;
+}
+.gloss-list h2 { font-family: var(--font-serif); margin: 0 0 0.5rem; font-size: 1.1rem; }
+.gloss-list ol { list-style: none; padding: 0; margin: 0; }
+.gloss-item {
+  padding: 0.75rem 0.85rem;
+  border-left: 3px solid var(--color-rule);
+  margin-bottom: 0.75rem;
+  background: var(--color-card);
+  border-radius: 0 0.25rem 0.25rem 0;
+}
+.gloss-item.focused { border-left-color: var(--color-accent); }
+.gloss-item header { display: flex; justify-content: space-between; gap: 0.5rem; font-size: 0.75rem; color: var(--color-muted); margin-bottom: 0.25rem; }
+.gloss-item .gloss-type { text-transform: uppercase; letter-spacing: 0.05em; }
+.gloss-item .anchor { font-family: var(--font-serif); font-style: italic; margin: 0.25rem 0; }
+.gloss-item .summary { margin: 0.25rem 0; }
+.gloss-item .detail { margin: 0.5rem 0; font-size: 0.9rem; color: var(--color-text); }
+.gloss-item .ref-card { margin: 0.5rem 0; border: 1px solid var(--color-rule); border-radius: 0.3rem; background: var(--color-bg); padding: 0.35rem 0.5rem; }
+.gloss-item .ref-card summary { cursor: pointer; font-size: 0.85rem; font-weight: 600; }
+.gloss-item .ref-card .ref-kind { text-transform: uppercase; font-size: 0.65rem; letter-spacing: 0.06em; color: var(--color-accent); border: 1px solid var(--color-accent); border-radius: 0.2rem; padding: 0 0.25rem; margin-right: 0.3rem; }
+.gloss-item .ref-card .ref-summary { font-size: 0.85rem; margin: 0.4rem 0 0.25rem; }
+.gloss-item .ref-card .ref-detail { font-size: 0.82rem; margin: 0.25rem 0; color: var(--color-text); }
+.gloss-item .ref-card .ref-source { font-size: 0.72rem; color: var(--color-muted); margin: 0.25rem 0 0; }
+.gloss-item .sources { display: flex; flex-wrap: wrap; gap: 0.5rem; font-size: 0.75rem; color: var(--color-muted); margin-top: 0.5rem; }
+.gloss-item .sources .source { padding: 0.05rem 0.4rem; background: var(--color-bg); border: 1px solid var(--color-rule); border-radius: 0.2rem; }
+.gloss-empty { color: var(--color-muted); font-style: italic; padding: 1rem 0; }
+
+/* (header search styles live in base.css — search is global) */
+
+.reading-controls { margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid var(--color-rule); }
+.reading-controls h3 { font-family: var(--font-serif); font-size: 1rem; margin: 0 0 0.5rem; }
+.reading-controls .mode-row { display: flex; flex-wrap: wrap; gap: 0.3rem; }
+.reading-controls .mode-row button { font-size: 0.78rem; background: var(--color-bg); border: 1px solid var(--color-rule); border-radius: 0.25rem; padding: 0.2rem 0.5rem; color: var(--color-text); cursor: pointer; }
+.reading-controls .mode-row button.active { background: var(--color-accent); color: #fff; border-color: var(--color-accent); }
+:root[data-theme="dark"] .reading-controls .mode-row button.active { color: #17140f; }
+.reading-controls .mode-help { font-size: 0.8rem; color: var(--color-muted); margin: 0.5rem 0 0.25rem; }
+.reading-controls .char-legend { list-style: none; padding: 0; margin: 0.5rem 0 0; }
+.reading-controls .char-legend li { padding: 0.08rem 0; }
+.reading-controls .char-legend label { display: flex; align-items: center; gap: 0.4rem; font-size: 0.88rem; cursor: pointer; }
+.reading-controls .chip { width: 0.8rem; height: 0.8rem; border-radius: 50%; display: inline-block; flex: none; border: 1px solid rgba(0,0,0,0.2); }
+.reading-controls .cue-nav { display: flex; gap: 0.4rem; margin-top: 0.6rem; }
+.reading-controls .cue-nav button, .reading-controls .clear-btn { font-size: 0.8rem; background: none; border: 1px solid var(--color-rule); border-radius: 0.25rem; padding: 0.2rem 0.55rem; color: var(--color-text); cursor: pointer; }
+.reading-controls .clear-btn { margin-top: 0.6rem; }
+.reading-controls .wordhelp-toggle { display: flex; align-items: center; gap: 0.4rem; margin-top: 0.85rem; padding-top: 0.7rem; border-top: 1px solid var(--color-rule); font-size: 0.85rem; cursor: pointer; }

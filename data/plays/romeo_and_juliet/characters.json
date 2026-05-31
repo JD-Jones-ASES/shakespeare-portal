@@ -1,0 +1,382 @@
+[
+  {
+    "id": "romeo",
+    "name": "Romeo",
+    "aliases": ["Romeo."],
+    "role": "protagonist",
+    "description": "The only son of Montague, a passionate young man who pines for Rosaline until he meets Juliet at the Capulet feast and falls instantly, wholly in love. He marries her in secret, is banished for killing Tybalt, and kills himself at her tomb believing her dead.",
+    "relationships": [
+      { "other_id": "juliet", "relation": "husband of" },
+      { "other_id": "montague", "relation": "son of" },
+      { "other_id": "mercutio", "relation": "close friend of" },
+      { "other_id": "benvolio", "relation": "cousin and friend of" },
+      { "other_id": "friar_lawrence", "relation": "confessor and ally of" },
+      { "other_id": "tybalt", "relation": "kills, avenging Mercutio" }
+    ],
+    "color": "#3f7cac"
+  },
+  {
+    "id": "juliet",
+    "name": "Juliet",
+    "aliases": ["Juliet."],
+    "role": "protagonist",
+    "description": "Capulet's only daughter, not yet fourteen, who grows from an obedient child into a resolute young woman in the space of a few days. She secretly marries Romeo, defies her father's plan to wed Paris, takes a sleeping potion to escape it, and stabs herself when she wakes to find Romeo dead.",
+    "relationships": [
+      { "other_id": "romeo", "relation": "wife of" },
+      { "other_id": "capulet", "relation": "daughter of" },
+      { "other_id": "lady_capulet", "relation": "daughter of" },
+      { "other_id": "nurse", "relation": "raised and confided in by" },
+      { "other_id": "tybalt", "relation": "cousin of" },
+      { "other_id": "paris", "relation": "betrothed against her will to" }
+    ],
+    "color": "#c2557a"
+  },
+  {
+    "id": "mercutio",
+    "name": "Mercutio",
+    "aliases": ["Mercutio."],
+    "role": "major",
+    "description": "A kinsman of Prince Escalus and Romeo's quick-witted, mercurial friend, famous for the fanciful Queen Mab speech and a torrent of bawdy puns. Neither Montague nor Capulet, he is drawn into the feud and slain by Tybalt under Romeo's arm, cursing 'a plague o' both your houses.'",
+    "relationships": [
+      { "other_id": "romeo", "relation": "close friend of" },
+      { "other_id": "prince", "relation": "kinsman of" },
+      { "other_id": "benvolio", "relation": "friend of" },
+      { "other_id": "tybalt", "relation": "killed by" }
+    ],
+    "color": "#8e44ad"
+  },
+  {
+    "id": "benvolio",
+    "name": "Benvolio",
+    "aliases": ["Benvolio."],
+    "role": "supporting",
+    "description": "Montague's nephew and Romeo's level-headed cousin, a peacemaker who tries to stop the opening brawl and to coax Romeo out of his lovesickness. He reports the deaths in the street fight truthfully to the Prince, then disappears from the play.",
+    "relationships": [
+      { "other_id": "romeo", "relation": "cousin and friend of" },
+      { "other_id": "montague", "relation": "nephew of" },
+      { "other_id": "mercutio", "relation": "friend of" }
+    ],
+    "color": "#2e8b74"
+  },
+  {
+    "id": "tybalt",
+    "name": "Tybalt",
+    "aliases": ["Tybalt."],
+    "role": "antagonist",
+    "description": "Lady Capulet's nephew, a hot-tempered swordsman who treats the feud as a point of honour. He spots Romeo at the feast and burns to fight him; the next day he kills Mercutio and is killed by Romeo, the act that gets Romeo banished and sets the tragedy in motion.",
+    "relationships": [
+      { "other_id": "lady_capulet", "relation": "nephew of" },
+      { "other_id": "juliet", "relation": "cousin of" },
+      { "other_id": "mercutio", "relation": "kills" },
+      { "other_id": "romeo", "relation": "killed by" }
+    ],
+    "color": "#b03a3a"
+  },
+  {
+    "id": "nurse",
+    "name": "Nurse",
+    "aliases": ["Nurse."],
+    "role": "major",
+    "description": "Juliet's wet-nurse and lifelong companion, earthy, talkative, and bawdy. She acts as go-between for the lovers and helps arrange the secret marriage, but loses Juliet's trust when she advises her to forget the banished Romeo and marry Paris instead.",
+    "relationships": [
+      { "other_id": "juliet", "relation": "nurse and confidante of" },
+      { "other_id": "peter", "relation": "attended by servant" },
+      { "other_id": "capulet", "relation": "servant in the household of" }
+    ],
+    "color": "#c98a4b"
+  },
+  {
+    "id": "friar_lawrence",
+    "name": "Friar Lawrence",
+    "aliases": ["Friar.", "Friar Lawrence."],
+    "role": "major",
+    "description": "A Franciscan friar and herbalist who is Romeo's confessor. Hoping to reconcile the two houses, he secretly marries Romeo and Juliet and devises the sleeping-potion plan; when his letter to Romeo miscarries, the scheme ends in both lovers' deaths.",
+    "relationships": [
+      { "other_id": "romeo", "relation": "confessor and ally of" },
+      { "other_id": "juliet", "relation": "secretly marries and counsels" },
+      { "other_id": "friar_john", "relation": "fellow friar, entrusts the letter to" }
+    ],
+    "color": "#5a8f6a"
+  },
+  {
+    "id": "capulet",
+    "name": "Capulet",
+    "aliases": ["Capulet."],
+    "role": "major",
+    "description": "The head of the house of Capulet and Juliet's father. Genial host at the feast, he at first counsels patience over the marriage, but turns tyrannical when Juliet refuses Paris, threatening to disown her. He is reconciled with Montague over their children's bodies.",
+    "relationships": [
+      { "other_id": "juliet", "relation": "father of" },
+      { "other_id": "lady_capulet", "relation": "husband of" },
+      { "other_id": "tybalt", "relation": "uncle by marriage of" },
+      { "other_id": "paris", "relation": "promises Juliet to" },
+      { "other_id": "montague", "relation": "feuding rival of" }
+    ],
+    "color": "#b5623a"
+  },
+  {
+    "id": "lady_capulet",
+    "name": "Lady Capulet",
+    "aliases": ["Lady Capulet."],
+    "role": "supporting",
+    "description": "Juliet's mother, cooler and more distant than the Nurse, who urges the match with Paris and, after Tybalt's death, demands Romeo's life. She is unable to soften her husband when he turns on their daughter.",
+    "relationships": [
+      { "other_id": "juliet", "relation": "mother of" },
+      { "other_id": "capulet", "relation": "wife of" },
+      { "other_id": "tybalt", "relation": "aunt of" }
+    ],
+    "color": "#b5689a"
+  },
+  {
+    "id": "paris",
+    "name": "Paris",
+    "aliases": ["Paris."],
+    "role": "supporting",
+    "description": "A young count and kinsman of the Prince who seeks Juliet's hand with Capulet's blessing. Courteous and sincere, he mourns at her tomb, where he fights and is killed by Romeo, asking with his last breath to be laid beside her.",
+    "relationships": [
+      { "other_id": "juliet", "relation": "suitor of" },
+      { "other_id": "capulet", "relation": "favoured by" },
+      { "other_id": "prince", "relation": "kinsman of" },
+      { "other_id": "romeo", "relation": "killed by" }
+    ],
+    "color": "#9a7ab5"
+  },
+  {
+    "id": "prince",
+    "name": "Prince Escalus",
+    "aliases": ["Prince."],
+    "role": "supporting",
+    "description": "The Prince of Verona, who tries to keep civil peace between the warring houses. He decrees death for further brawling, banishes Romeo rather than executing him, and pronounces the play's closing judgment that 'all are punish'd.'",
+    "relationships": [
+      { "other_id": "mercutio", "relation": "kinsman of" },
+      { "other_id": "paris", "relation": "kinsman of" },
+      { "other_id": "capulet", "relation": "rules over" },
+      { "other_id": "montague", "relation": "rules over" }
+    ],
+    "color": "#4a5a8a"
+  },
+  {
+    "id": "montague",
+    "name": "Montague",
+    "aliases": ["Montague."],
+    "role": "supporting",
+    "description": "The head of the house of Montague and Romeo's father, worried over his son's secret melancholy early in the play. He reports that grief over Romeo's banishment has killed his wife, and vows to raise a golden statue of Juliet in reconciliation.",
+    "relationships": [
+      { "other_id": "romeo", "relation": "father of" },
+      { "other_id": "lady_montague", "relation": "husband of" },
+      { "other_id": "benvolio", "relation": "uncle of" },
+      { "other_id": "capulet", "relation": "feuding rival of" }
+    ],
+    "color": "#4a6fa5"
+  },
+  {
+    "id": "lady_montague",
+    "name": "Lady Montague",
+    "aliases": ["Lady Montague.", "Lady  Montague."],
+    "role": "minor",
+    "description": "Romeo's mother, who appears only briefly to stay her husband from the opening brawl and to ask after her son. Montague later reports that she has died of grief at Romeo's exile.",
+    "relationships": [
+      { "other_id": "romeo", "relation": "mother of" },
+      { "other_id": "montague", "relation": "wife of" }
+    ],
+    "color": "#6a8fc5"
+  },
+  {
+    "id": "sampson",
+    "name": "Sampson",
+    "aliases": ["Sampson."],
+    "role": "minor",
+    "description": "A swaggering servant of the Capulets who, with Gregory, starts the street brawl that opens the play by biting his thumb at the Montague men. His talk is full of bluster and bawdy jokes about Montague maids.",
+    "relationships": [
+      { "other_id": "gregory", "relation": "fellow Capulet servant with" },
+      { "other_id": "capulet", "relation": "serves" }
+    ],
+    "color": "#9a6b3a"
+  },
+  {
+    "id": "gregory",
+    "name": "Gregory",
+    "aliases": ["Gregory."],
+    "role": "minor",
+    "description": "A servant of the Capulets who trades quibbles with Sampson and helps provoke the opening fight with the house of Montague.",
+    "relationships": [
+      { "other_id": "sampson", "relation": "fellow Capulet servant with" },
+      { "other_id": "capulet", "relation": "serves" }
+    ],
+    "color": "#8a7a4a"
+  },
+  {
+    "id": "abraham",
+    "name": "Abraham",
+    "aliases": ["Abraham."],
+    "role": "minor",
+    "description": "A servant of the Montagues who confronts Sampson and Gregory in the opening scene, demanding whether they bite their thumb at him.",
+    "relationships": [
+      { "other_id": "montague", "relation": "serves" }
+    ],
+    "color": "#6a9b8d"
+  },
+  {
+    "id": "balthasar",
+    "name": "Balthasar",
+    "aliases": ["Balthasar."],
+    "role": "minor",
+    "description": "Romeo's faithful servant, who brings him the false news in Mantua that Juliet is dead and lies buried in the Capulet vault, then accompanies him to the tomb.",
+    "relationships": [
+      { "other_id": "romeo", "relation": "servant of" }
+    ],
+    "color": "#5f8a7a"
+  },
+  {
+    "id": "peter",
+    "name": "Peter",
+    "aliases": ["Peter."],
+    "role": "minor",
+    "description": "A comic servant attending the Nurse, who carries her fan, fails to defend her from Mercutio's mockery, and banters with the musicians after Juliet is found apparently dead.",
+    "relationships": [
+      { "other_id": "nurse", "relation": "attends" },
+      { "other_id": "capulet", "relation": "serves the household of" }
+    ],
+    "color": "#c2a05a"
+  },
+  {
+    "id": "second_capulet",
+    "name": "Second Capulet",
+    "aliases": ["2 Capulet."],
+    "role": "minor",
+    "description": "An elderly kinsman of Capulet (the 'cousin Capulet' and old uncle of the cast list) who sits with him at the feast reminiscing about how many years it has been since they last wore a masker's costume.",
+    "relationships": [
+      { "other_id": "capulet", "relation": "cousin of" }
+    ],
+    "color": "#9a7b5a"
+  },
+  {
+    "id": "friar_john",
+    "name": "Friar John",
+    "aliases": ["Friar John."],
+    "role": "minor",
+    "description": "A Franciscan of the same order as Friar Lawrence, sent to carry the crucial letter to Romeo in Mantua. Quarantined in a plague-sealed house, he never delivers it, and the failure dooms the lovers' plan.",
+    "relationships": [
+      { "other_id": "friar_lawrence", "relation": "fellow friar of" }
+    ],
+    "color": "#7a9b6a"
+  },
+  {
+    "id": "apothecary",
+    "name": "Apothecary",
+    "aliases": ["Apothecary."],
+    "role": "minor",
+    "description": "A poor, gaunt druggist of Mantua who, against the law and his own conscience, sells Romeo the deadly poison because his poverty leaves him no choice.",
+    "relationships": [
+      { "other_id": "romeo", "relation": "sells poison to" }
+    ],
+    "color": "#6a7a5a"
+  },
+  {
+    "id": "chorus",
+    "name": "Chorus",
+    "aliases": ["Chor.", "Chorus."],
+    "role": "chorus",
+    "description": "A single speaker who delivers the two sonnet-form prologues, to Act 1 ('Two households, both alike in dignity...') and Act 2, framing the action and announcing the 'pair of star-cross'd lovers' before the story begins.",
+    "color": "#8a7f9a"
+  },
+  {
+    "id": "page",
+    "name": "Page",
+    "aliases": ["Page.", "Boy."],
+    "role": "minor",
+    "description": "Count Paris's young page, who keeps watch at the churchyard, whistles a warning when Romeo approaches, and runs to fetch the watch after the fatal fight at the tomb.",
+    "relationships": [
+      { "other_id": "paris", "relation": "page to" }
+    ],
+    "color": "#c98a6a"
+  },
+  {
+    "id": "first_citizen",
+    "name": "First Citizen",
+    "aliases": ["1 Citizen."],
+    "role": "minor",
+    "description": "An officer of the watch and citizen of Verona who rouses the townsfolk against the brawling households with the cry 'Clubs, bills, and partisans!' and later helps secure the scene of the killings.",
+    "color": "#7a7a6a"
+  },
+  {
+    "id": "first_musician",
+    "name": "First Musician",
+    "aliases": ["1 Musician."],
+    "role": "minor",
+    "description": "One of the musicians hired for Juliet's wedding, left idle when the celebration becomes a funeral; he trades jokes with Peter about a doleful tune and a dinner.",
+    "color": "#7a8a9a"
+  },
+  {
+    "id": "second_musician",
+    "name": "Second Musician",
+    "aliases": ["2 Musician."],
+    "role": "minor",
+    "description": "A wedding musician who banters with Peter and the other players after Juliet is discovered as if dead.",
+    "color": "#8a8a7a"
+  },
+  {
+    "id": "third_musician",
+    "name": "Third Musician",
+    "aliases": ["3 Musician."],
+    "role": "minor",
+    "description": "The third of the wedding musicians dismissed when Juliet's marriage feast is turned to mourning.",
+    "color": "#9a8a8a"
+  },
+  {
+    "id": "servant",
+    "name": "Servant",
+    "aliases": ["Servant."],
+    "role": "minor",
+    "description": "Various unnamed serving-men of the Capulet household. One, unable to read, asks Romeo to decipher the guest list and so unwittingly invites him to the feast; others prepare the hall and run errands.",
+    "relationships": [
+      { "other_id": "capulet", "relation": "serves" }
+    ],
+    "color": "#888888"
+  },
+  {
+    "id": "first_servant",
+    "name": "First Servant",
+    "aliases": ["1 Servant."],
+    "role": "minor",
+    "description": "A Capulet serving-man clearing the great hall after the feast, calling for help to take away the plate and stools.",
+    "relationships": [
+      { "other_id": "capulet", "relation": "serves" }
+    ],
+    "color": "#8a8a8a"
+  },
+  {
+    "id": "second_servant",
+    "name": "Second Servant",
+    "aliases": ["2 Servant."],
+    "role": "minor",
+    "description": "A second Capulet serving-man, busy with the bustle of the household before the feast and the aborted wedding.",
+    "relationships": [
+      { "other_id": "capulet", "relation": "serves" }
+    ],
+    "color": "#7a7a7a"
+  },
+  {
+    "id": "first_watch",
+    "name": "First Watchman",
+    "aliases": ["1 Watch."],
+    "role": "minor",
+    "description": "The chief watchman who discovers the bodies at the Capulet tomb, takes Balthasar and Friar Lawrence into custody, and summons the Prince.",
+    "color": "#6a7a8a"
+  },
+  {
+    "id": "second_watch",
+    "name": "Second Watchman",
+    "aliases": ["2 Watch."],
+    "role": "minor",
+    "description": "A watchman who helps secure the churchyard after the deaths at the tomb.",
+    "color": "#7a8a7a"
+  },
+  {
+    "id": "third_watch",
+    "name": "Third Watchman",
+    "aliases": ["3 Watch."],
+    "role": "minor",
+    "description": "A watchman who helps guard the churchyard and the captured friar in the play's final scene.",
+    "color": "#8a7a7a"
+  }
+]

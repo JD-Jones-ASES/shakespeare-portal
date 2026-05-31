@@ -1,0 +1,56 @@
+{
+  "play": "hamlet",
+  "overview": "Prince Hamlet of Denmark returns home to find his father dead, his uncle Claudius crowned king, and his mother Gertrude remarried to that uncle within two months. His father's ghost reveals that Claudius committed the murder and demands revenge. Hamlet feigns madness, agonizes over whether and when to act, and sets in motion a chain of killings that ends with the deaths of almost everyone at court, including himself.",
+  "acts": [
+    {
+      "number": 1,
+      "summary": "The Ghost of the dead king appears to the night watch and then to Hamlet, revealing that Claudius murdered him. Hamlet swears revenge and resolves to feign madness. Meanwhile Polonius and Laertes warn Ophelia away from Hamlet's courtship.",
+      "scenes": [
+        { "number": 1, "summary": "On the castle battlements at midnight, the officers Bernardo and Marcellus show the skeptical scholar Horatio the Ghost of the late King Hamlet, armored and silent. Horatio reads it as an omen of crisis: young Fortinbras of Norway threatens war, and the kingdom is uneasy.", "themes": ["mortality", "prophecy", "political_legitimacy"] },
+        { "number": 2, "summary": "Claudius holds his first court, dispatching ambassadors to Norway and denying Laertes nothing while chiding Hamlet for excessive grief. Alone, Hamlet voices his disgust at his mother's hasty remarriage ('O that this too too solid flesh'). Horatio tells him of the Ghost, and Hamlet resolves to watch that night.", "themes": ["grief", "corruption", "appearance_vs_reality", "family"] },
+        { "number": 3, "summary": "Laertes, leaving for France, warns Ophelia against trusting Hamlet's love; Polonius adds a sheaf of maxims ('to thine own self be true') and then forbids Ophelia to see Hamlet at all.", "themes": ["family", "gender", "deception"] },
+        { "number": 4, "summary": "Waiting on the cold platform, Hamlet hears Claudius's revelry and condemns it. The Ghost appears and beckons him aside; Marcellus observes that 'something is rotten in the state of Denmark.'", "themes": ["corruption", "mortality"] },
+        { "number": 5, "summary": "The Ghost reveals that Claudius poisoned him and seduced Gertrude, and commands Hamlet to avenge the murder but leave his mother to heaven. Shaken, Hamlet swears his companions to secrecy on his sword and warns he may 'put an antic disposition on.'", "themes": ["revenge", "mortality", "performance"] }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "Weeks pass. Hamlet's strange behavior alarms the court. Claudius recruits Hamlet's old schoolfellows Rosencrantz and Guildenstern to spy on him, and Polonius proposes that thwarted love is the cause. A troupe of players arrives, and Hamlet conceives a plan to test the Ghost's word.",
+      "scenes": [
+        { "number": 1, "summary": "Polonius sends his servant Reynaldo to Paris to spy on Laertes. Ophelia reports a disturbing, wordless visit from a disheveled Hamlet, which Polonius takes as proof of lovesickness.", "themes": ["deception", "madness", "family"] },
+        { "number": 2, "summary": "Claudius sets Rosencrantz and Guildenstern to spy on Hamlet. The ambassadors report Norway pacified. Hamlet mocks Polonius ('fishmonger'), spars with his old friends, and greets the players, asking for the speech on Hecuba. Alone, he berates himself ('rogue and peasant slave') and plans 'The Mousetrap' to catch Claudius's conscience.", "themes": ["performance", "revenge", "deception", "language"] }
+      ]
+    },
+    {
+      "number": 3,
+      "summary": "Hamlet's most famous reflection on suicide and action precedes his cruel rejection of Ophelia. The play-within-the-play confirms Claudius's guilt, but Hamlet spares the king at prayer and instead kills Polonius by accident while confronting his mother.",
+      "scenes": [
+        { "number": 1, "summary": "Spied on by Claudius and Polonius, Hamlet delivers the 'To be or not to be' soliloquy and then savagely dismisses Ophelia ('Get thee to a nunnery'). Unconvinced it is love, Claudius resolves to send Hamlet to England.", "themes": ["mortality", "appearance_vs_reality", "gender", "madness"] },
+        { "number": 2, "summary": "The players stage 'The Mousetrap,' miming a poisoning that mirrors the murder; Claudius rises in alarm, confirming his guilt to Hamlet and Horatio. Hamlet, summoned to his mother, steels himself to be cruel but not unnatural.", "themes": ["performance", "revenge", "appearance_vs_reality"] },
+        { "number": 3, "summary": "Claudius, alone, tries and fails to pray away his guilt. Hamlet finds him kneeling but refuses to kill him in prayer, fearing it would send the murderer's soul to heaven.", "themes": ["revenge", "religion", "mortality"] },
+        { "number": 4, "summary": "In Gertrude's chamber Hamlet stabs the eavesdropping Polonius through the arras, then forces his mother to confront her remarriage. The Ghost returns to whet Hamlet's 'almost blunted purpose'; Gertrude, who cannot see it, fears her son is mad.", "themes": ["family", "revenge", "madness", "grief"] }
+      ]
+    },
+    {
+      "number": 4,
+      "summary": "Claudius ships Hamlet to England with a secret order for his execution. Ophelia, mad with grief over her father's death, drowns; Laertes returns in a fury and is steered by Claudius toward a rigged duel. Hamlet, having escaped, sends word that he is returning.",
+      "scenes": [
+        { "number": 1, "summary": "Gertrude tells Claudius that Hamlet has killed Polonius. Claudius, alarmed for his own safety, resolves to send Hamlet away at once.", "themes": ["corruption", "family"] },
+        { "number": 2, "summary": "Hamlet, having hidden Polonius's body, taunts Rosencrantz and Guildenstern, calling Rosencrantz a 'sponge' that soaks up the king's favors.", "themes": ["deception", "corruption"] },
+        { "number": 3, "summary": "Brought before Claudius, Hamlet jokes grimly about worms and death ('your worm is your only emperor for diet') before being dispatched to England, where Claudius has arranged his murder.", "themes": ["mortality", "deception", "corruption"] },
+        { "number": 4, "summary": "Crossing a plain, Hamlet meets a captain in Fortinbras's army marching to fight over a worthless scrap of Poland. The example of men dying for honor shames Hamlet's delay ('How all occasions do inform against me').", "themes": ["honor", "revenge", "war"] },
+        { "number": 5, "summary": "Ophelia, driven mad by her father's death, sings fragmentary songs and distributes flowers. Laertes storms the castle at the head of a mob, demanding vengeance; Claudius begins to turn that rage toward Hamlet.", "themes": ["madness", "grief", "revenge", "family"] },
+        { "number": 6, "summary": "Sailors bring Horatio a letter: Hamlet's ship was taken by pirates, and he has returned to Denmark.", "themes": ["fate"] },
+        { "number": 7, "summary": "Claudius convinces Laertes that Hamlet is to blame and together they plot a fencing match with an unbated, poisoned blade and a poisoned cup as backup. Gertrude enters to report that Ophelia has drowned.", "themes": ["revenge", "deception", "death"] }
+      ]
+    },
+    {
+      "number": 5,
+      "summary": "In a graveyard Hamlet meditates on death over the skull of the jester Yorick before discovering it is Ophelia's funeral. At court, the rigged duel turns lethal: the poison meant for Hamlet kills Gertrude, Laertes, Claudius, and finally Hamlet himself. Fortinbras arrives to claim the ruined kingdom.",
+      "scenes": [
+        { "number": 1, "summary": "Two grave-diggers joke about Ophelia's questionable burial. Hamlet contemplates mortality over the skull of Yorick, the old court jester, then realizes the approaching funeral is Ophelia's and grapples with Laertes in her grave.", "themes": ["mortality", "grief", "class"] },
+        { "number": 2, "summary": "Hamlet tells Horatio how he turned Claudius's death order back on Rosencrantz and Guildenstern. The fencing match begins; Gertrude drinks the poisoned cup, Laertes and Hamlet are both cut by the envenomed blade, and Hamlet kills Claudius before dying himself, leaving Horatio to tell his story as Fortinbras takes the throne.", "themes": ["revenge", "death", "fate", "political_legitimacy"] }
+      ]
+    }
+  ]
+}

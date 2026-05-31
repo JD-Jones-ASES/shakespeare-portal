@@ -1,0 +1,147 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shakespeare-portal/schemas/catalog-entry.schema.json",
+  "title": "CatalogEntry",
+  "description": "Play-level metadata. data/catalog/works.json is an array of these.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "playId",
+    "title",
+    "title_short",
+    "genre",
+    "date_written",
+    "act_count",
+    "scene_count"
+  ],
+  "properties": {
+    "playId": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_]*$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Canonical (Folio or Quarto) title used for citation."
+    },
+    "title_short": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Common short title for UI."
+    },
+    "genre": {
+      "type": "string",
+      "enum": [
+        "Tragedy",
+        "Comedy",
+        "History",
+        "Romance",
+        "Tragicomedy",
+        "Poem",
+        "Sonnet_Sequence"
+      ]
+    },
+    "subgenre": {
+      "type": "string"
+    },
+    "date_written": {
+      "type": "string",
+      "description": "Year or year-range using en-dash (e.g. '1600–1601')."
+    },
+    "date_first_performed": {
+      "type": "string"
+    },
+    "date_published": {
+      "type": "string"
+    },
+    "act_count": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "scene_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "line_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "characters_major": {
+      "type": "array",
+      "items": { "type": "string" },
+      "maxItems": 15
+    },
+    "primary_sources": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "setting": {
+      "type": "string"
+    },
+    "themes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]*$"
+      }
+    },
+    "difficulty_rating": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "curriculum_grade_level": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 5,
+        "maximum": 16
+      },
+      "description": "US grade levels; 13+ = college years."
+    },
+    "common_in_curriculum": {
+      "type": "boolean"
+    },
+    "content_warning": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "violence",
+          "suicide",
+          "intimate_partner_violence",
+          "sexual_assault",
+          "sexual_coercion",
+          "infanticide",
+          "child_abuse",
+          "elder_abuse",
+          "mutilation",
+          "racism",
+          "antisemitism",
+          "misogyny",
+          "religious_persecution",
+          "enslavement",
+          "war_atrocity",
+          "mental_health_crisis"
+        ]
+      }
+    },
+    "synopsis_short": {
+      "type": "string",
+      "maxLength": 400
+    },
+    "folger_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "mit_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "wikipedia_url": {
+      "type": "string",
+      "format": "uri"
+    }
+  }
+}

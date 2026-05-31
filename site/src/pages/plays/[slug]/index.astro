@@ -1,0 +1,113 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { getPlay, listPlays } from '../../../data/loader.ts';
+import { withBase } from '../../../utils/url.ts';
+
+export function getStaticPaths() {
+  return listPlays().map((p) => ({ params: { slug: p.slug } }));
+}
+
+const { slug } = Astro.params;
+const bundle = getPlay(slug as string);
+if (!bundle) return Astro.redirect('/404');
+const cat = bundle.catalog;
+const title = cat?.title_short ?? bundle.slug;
+const syn = bundle.synopsis;
+
+// scene summary lookup: "act-scene" -> summary
+const sceneSummary = new Map<string, string>();
+for (const a of syn?.acts ?? []) {
+  for (const s of a.scenes) sceneSummary.set(`${a.number}-${s.number}`, s.summary);
+}
+const actSummary = new Map<number, string>();
+for (const a of syn?.acts ?? []) actSummary.set(a.number, a.summary);
+---
+<Base title={title} description={cat?.synopsis_short}>
+  <article class="play-landing">
+    <header>
+      <h1>{cat?.title ?? title}</h1>
+      {cat?.subgenre && <p class="meta">{cat.subgenre}</p>}
+      {cat && (
+        <dl class="meta-grid">
+          <dt>Genre</dt><dd>{cat.genre.replace('_', ' ')}</dd>
+          <dt>Written</dt><dd>{cat.date_written}</dd>
+          {cat.date_first_performed && <><dt>First performed</dt><dd>{cat.date_first_performed}</dd></>}
+          {cat.setting && <><dt>Setting</dt><dd>{cat.setting}</dd></>}
+          {cat.difficulty_rating && <><dt>Difficulty</dt><dd>{cat.difficulty_rating} / 5</dd></>}
+        </dl>
+      )}
+      {cat?.content_warning?.length ? (
+        <aside class="content-warning">
+          <h2>Content notes</h2>
+          <ul>
+            {cat.content_warning.map((w) => <li>{w.replace(/_/g, ' ')}</li>)}
+          </ul>
+        </aside>
+      ) : null}
+    </header>
+
+    {syn?.overview && (
+      <section class="synopsis-overview">
+        <h2>Synopsis</h2>
+        <p>{syn.overview}</p>
+      </section>
+    )}
+
+    {bundle.text ? (
+      <section>
+        <h2>Read</h2>
+        <ol class="scene-toc">
+          {bundle.text.acts.map((act) => (
+            <li>
+              <h3>{act.title ?? `Act ${act.number}`}</h3>
+              {actSummary.get(act.number) && <p class="act-summary">{actSummary.get(act.number)}</p>}
+              <ol>
+                {act.scenes.map((scene) => (
+                  <li>
+                    <a href={withBase(`/plays/${bundle.slug}/${act.number}/${scene.number}/`)}>
+                      <span class="scene-name">Scene {scene.number}{scene.setting ? ` — ${scene.setting}` : ''}</span>
+                    </a>
+                    {sceneSummary.get(`${act.number}-${scene.number}`) && (
+                      <p class="scene-summary">{sceneSummary.get(`${act.number}-${scene.number}`)}</p>
+                    )}
+                  </li>
+                ))}
+              </ol>
+            </li>
+          ))}
+        </ol>
+      </section>
+    ) : (
+      <section>
+        <h2>Reading text pending</h2>
+        <p>This work is in the catalog but has not yet been ingested into the structured reader. Annotation will follow.</p>
+      </section>
+    )}
+
+    {bundle.characters.length > 0 && (
+      <section>
+        <h2>Characters</h2>
+        <ul class="character-list">
+          {bundle.characters.map((c) => (
+            <li>
+              <strong>{c.name}</strong>
+              <span class="role">{c.role}</span>
+              {c.description && <p>{c.description}</p>}
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {(cat?.folger_url || cat?.mit_url || cat?.wikipedia_url) && (
+      <section>
+        <h2>Cross-references</h2>
+        <ul class="cross-refs">
+          {cat?.folger_url && <li><a href={cat.folger_url} rel="noopener">Folger Shakespeare</a></li>}
+          {cat?.mit_url && <li><a href={cat.mit_url} rel="noopener">MIT plain text</a></li>}
+          {cat?.wikipedia_url && <li><a href={cat.wikipedia_url} rel="noopener">Wikipedia</a></li>}
+        </ul>
+      </section>
+    )}
+  </article>
+</Base>

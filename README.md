@@ -1,0 +1,55 @@
+# Shakespeare Portal
+
+A reading portal for Shakespeare's plays and poems, built for students who haven't yet absorbed the biblical, classical, and historical context the texts assume.
+
+## What makes it different
+
+Most online Shakespeare editions hand you the text and a glossary. This portal layers:
+
+- **Archaic vocabulary** glossed in the margin (not pop-ups — the research is unkind to pop-ups)
+- **Biblical allusions** with Geneva Bible 1599 citations
+- **Classical and mythological** references with their source (Ovid, Plutarch, Virgil, Homer)
+- **Historical and topical** context for the history plays and Elizabethan in-jokes
+- **Sexual puns and wordplay** that modern readers miss
+- **Rhetorical devices** named and explained when they carry the meaning
+
+…with a **depth toggle** so advanced readers can hide everything and read the play clean.
+
+## Status
+
+**Four plays fully annotated and shipping**: *Hamlet* (324 annotations, 813-entry glossary), *A Midsummer Night's Dream* (183, 724), *Julius Caesar* (168, 1030), and *Romeo and Juliet* (262, 1004). The remaining 38 works appear in the catalog as plain reading texts pending annotation backfill.
+
+The content pipeline (ingest → annotate → fact-check → validate → build) is proven and repeatable. To build another play, an agent follows [docs/BUILD_A_PLAY.md](docs/BUILD_A_PLAY.md) — the step-by-step runbook.
+
+## Run locally
+
+```
+cd site
+npm install
+npm run dev
+```
+
+Then open `http://localhost:4321`.
+
+To validate data against schemas:
+
+```
+cd scripts
+npm install
+npm run validate
+```
+
+## Repo layout
+
+See [CLAUDE.md](CLAUDE.md#repo-map) for the directory tour.
+
+## Contribute
+
+Annotation writing is the bulk of the work. The pipeline is documented in [docs/PIPELINE.md](docs/PIPELINE.md). The voice and standards are in [docs/CONTENT_STANDARDS.md](docs/CONTENT_STANDARDS.md). Every annotation needs at least one source citation; we use a 3-judge adversarial fact-check before anything ships.
+
+## License
+
+- **Code** (scripts, site, build tooling): [MIT](LICENSE-CODE)
+- **Original annotations, metadata, and reference cards**: [CC-BY-SA-4.0](LICENSE-CONTENT)
+- **Vendored source texts** (Project Gutenberg, Moby): public domain
+- **Open Shakespeare materials** in [shakespeare-material-master/](shakespeare-material-master/): CC-BY-3.0, attribution preserved in [docs/LICENSING.md](docs/LICENSING.md)

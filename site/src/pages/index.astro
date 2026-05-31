@@ -1,0 +1,148 @@
+---
+import Base from '../layouts/Base.astro';
+import { listPlays, referenceCards } from '../data/loader.ts';
+import { withBase } from '../utils/url.ts';
+
+const plays = listPlays();
+const live = plays.filter((p) => p.text && p.annotations.length > 0);
+const comingSoon = plays.filter((p) => !(p.text && p.annotations.length > 0));
+
+// Build-time aggregate stats (no runtime work).
+const totalWorks = plays.length;
+const nLive = live.length;
+const pct = Math.round((nLive / totalWorks) * 100);
+const totalAnnotations = live.reduce((s, p) => s + p.annotations.length, 0);
+const totalGlossary = live.reduce((s, p) => s + (p.glossary?.entries.length ?? 0), 0);
+const totalLines = live.reduce((s, p) => s + (p.text?.tln_count ?? p.catalog?.line_count ?? 0), 0);
+const totalRefCards = referenceCards.length;
+const nf = (n: number) => n.toLocaleString('en-US');
+
+// Live plays, easiest first (a gentle on-ramp for new readers).
+const liveSorted = [...live].sort((a, b) => {
+  const da = a.catalog?.difficulty_rating ?? 3;
+  const db = b.catalog?.difficulty_rating ?? 3;
+  if (da !== db) return da - db;
+  return (a.catalog?.title_short ?? a.slug).localeCompare(b.catalog?.title_short ?? b.slug);
+});
+
+function gradeBand(grades?: number[]): string | null {
+  if (!grades || grades.length === 0) return null;
+  const school = grades.filter((g) => g <= 12);
+  const src = school.length ? school : grades;
+  const lo = Math.min(...src);
+  const hi = Math.max(...src);
+  const tail = grades.some((g) => g > 12) ? '+' : '';
+  return lo === hi ? `Grade ${lo}` : `Grades ${lo}–${hi}${tail}`;
+}
+
+const GENRE_ORDER = ['Tragedy', 'History', 'Comedy', 'Romance', 'Tragicomedy', 'Poem', 'Sonnet_Sequence'] as const;
+const byGenre = new Map<string, typeof comingSoon>();
+for (const p of comingSoon) {
+  if (!p.catalog) continue;
+  const g = p.catalog.genre;
+  if (!byGenre.has(g)) byGenre.set(g, []);
+  byGenre.get(g)!.push(p);
+}
+
+const stats = [
+  { n: nf(totalAnnotations), label: 'annotations' },
+  { n: nf(totalGlossary), label: 'glossary entries' },
+  { n: nf(totalRefCards), label: 'source cards' },
+  { n: nf(totalLines), label: 'lines, line-numbered' },
+];
+---
+<Base title="Read Shakespeare with the context built in" description={`Every play and poem of Shakespeare, annotated for first-time readers. ${nLive} fully annotated and open to read now; the rest of the canon is on the way.`}>
+  <section class="hero">
+    <p class="kicker">A reading edition for first-timers</p>
+    <h1>Every line of Shakespeare, explained.</h1>
+    <p class="lede">
+      Most editions hand you the text and wish you luck. This one fills in what the plays quietly
+      assume you already know &mdash; the archaic words, the Bible and the myth, the Tudor politics,
+      the jokes &mdash; in margins you can turn up or switch off. Sourced, fact-checked, and built for
+      students meeting Shakespeare for the first time.
+    </p>
+
+    <div class="progress" role="group" aria-label="Project progress">
+      <div class="progress-head">
+        <span><strong>{nLive}</strong> of {totalWorks} works fully annotated &amp; open to read</span>
+        <span class="progress-pct">{pct}%</span>
+      </div>
+      <div class="progress-bar"><span class="progress-fill" style={`width:${pct}%`}></span></div>
+      <p class="progress-note">We&rsquo;re working straight through the complete canon &mdash; new plays land as they clear fact-checking.</p>
+    </div>
+
+    <dl class="stat-band">
+      {stats.map((s) => (
+        <div class="stat"><dt>{s.label}</dt><dd>{s.n}</dd></div>
+      ))}
+    </dl>
+  </section>
+
+  <section class="shelf">
+    <div class="section-head">
+      <h2>Now open</h2>
+      <p>Four plays, fully annotated and ready to read.</p>
+    </div>
+    <ul class="play-grid shelf-grid">
+      {liveSorted.map((p) => {
+        const c = p.catalog;
+        const lines = p.text?.tln_count ?? c?.line_count ?? 0;
+        const band = gradeBand(c?.curriculum_grade_level);
+        return (
+          <li class="play-card live">
+            <a href={withBase(`/plays/${p.slug}/`)}>
+              <div class="card-top">
+                <h3>{c?.title_short ?? p.slug}</h3>
+                <span class="badge">Open</span>
+              </div>
+              <p class="meta">{c?.genre.replace('_', ' ')}{c?.date_written ? ` · ${c.date_written}` : ''}</p>
+              {c?.synopsis_short && <p class="synopsis">{c.synopsis_short}</p>}
+              <dl class="card-stats">
+                <div><dt>lines</dt><dd>{nf(lines)}</dd></div>
+                <div><dt>notes</dt><dd>{nf(p.annotations.length)}</dd></div>
+                <div><dt>glossary</dt><dd>{nf(p.glossary?.entries.length ?? 0)}</dd></div>
+              </dl>
+              <div class="card-tags">
+                {c?.difficulty_rating && <span class="tag">Difficulty {c.difficulty_rating}/5</span>}
+                {band && <span class="tag">{band}</span>}
+                {c?.common_in_curriculum && <span class="tag tag-soft">Commonly taught</span>}
+              </div>
+              {c?.content_warning?.length ? (
+                <p class="card-cw">Content notes: {c.content_warning.map((w) => w.replace(/_/g, ' ')).join(', ')}</p>
+              ) : null}
+              <span class="read-cta">Read now &rarr;</span>
+            </a>
+          </li>
+        );
+      })}
+    </ul>
+  </section>
+
+  <section class="coming">
+    <div class="section-head">
+      <h2>In the wings</h2>
+      <p>The rest of the canon &mdash; in the catalog now, annotation on the way. {comingSoon.length} works.</p>
+    </div>
+    {GENRE_ORDER.map((genre) => {
+      const items = byGenre.get(genre);
+      if (!items || items.length === 0) return null;
+      return (
+        <div class="genre-section">
+          <h3>{genre.replace('_', ' ')}</h3>
+          <ul class="play-grid">
+            {items.map((p) => (
+              <li class="play-card is-coming">
+                <a href={withBase(`/plays/${p.slug}/`)}>
+                  <h3>{p.catalog!.title_short}</h3>
+                  {p.catalog!.date_written && <p class="meta">{p.catalog!.date_written}</p>}
+                  {p.catalog!.synopsis_short && <p class="synopsis">{p.catalog!.synopsis_short}</p>}
+                  <span class="status">Annotation coming soon</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      );
+    })}
+  </section>
+</Base>

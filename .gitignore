@@ -1,0 +1,63 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build output
+dist/
+build/
+.astro/
+.next/
+.output/
+.cache/
+
+# Astro / Vite
+*.tsbuildinfo
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+
+# Logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+*.log
+logs/
+
+# Editor and OS
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json.example
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Annotation pipeline intermediates (regenerable) — match these dirs anywhere
+_candidates/
+_review_queue/
+data/_drafts/
+scripts/.cache/
+
+# Generated client search index (rebuilt in CI before the Astro build)
+site/public/search-index.json
+
+# Local agent / editor config (not part of the product)
+.claude/
+
+# Test output
+coverage/
+.nyc_output/
+
+# Temporary files
+tmp/
+temp/
+*.tmp

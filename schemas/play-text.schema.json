@@ -1,0 +1,159 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shakespeare-portal/schemas/play-text.schema.json",
+  "title": "PlayText",
+  "description": "Structured text of a single play or poem with Through-Line Numbers.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["play", "title", "acts"],
+  "properties": {
+    "play": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_]*$",
+      "description": "Play slug. Matches data/catalog/works.json playId."
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["edition", "file"],
+      "properties": {
+        "edition": {
+          "type": "string",
+          "description": "e.g. 'Project Gutenberg modern spelling'."
+        },
+        "file": {
+          "type": "string",
+          "description": "Relative path of source file in shakespeare-material-master/."
+        },
+        "ingested_at": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "tln_count": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Total spoken lines (TLN). Filled by normalize-tln.ts."
+    },
+    "acts": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/act" }
+    }
+  },
+  "$defs": {
+    "act": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "number", "scenes"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*-[0-9]+$",
+          "description": "Stable act id, e.g. 'hamlet-1'."
+        },
+        "number": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "title": {
+          "type": "string",
+          "description": "Header text as printed (e.g. 'ACT I.')."
+        },
+        "scenes": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/scene" }
+        }
+      }
+    },
+    "scene": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "number", "lines"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*-[0-9]+-[0-9]+$",
+          "description": "Stable scene id, e.g. 'hamlet-1-5'."
+        },
+        "number": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "title": {
+          "type": "string"
+        },
+        "setting": {
+          "type": "string",
+          "description": "Header location text (e.g. 'Elsinore. A platform before the Castle.')."
+        },
+        "tln_start": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "tln_end": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "lines": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/line" }
+        }
+      }
+    },
+    "line": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind"],
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": ["spoken", "stage_direction", "scene_header", "blank"],
+          "description": "Only 'spoken' lines have a TLN."
+        },
+        "tln": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Present iff kind == 'spoken'."
+        },
+        "speaker": {
+          "type": "string",
+          "description": "Canonical speaker name (resolved against characters.json when present)."
+        },
+        "speaker_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$",
+          "description": "Character id from characters.json, when the speaker label was canonicalized."
+        },
+        "speaker_raw": {
+          "type": "string",
+          "description": "Original speaker label as printed in source (e.g. 'Ber.')."
+        },
+        "text": {
+          "type": "string"
+        },
+        "stage_directions": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Inline stage directions on a spoken line, or the full content when kind == 'stage_direction'."
+        }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "kind": { "const": "spoken" } } },
+          "then": { "required": ["tln", "speaker", "text"] }
+        },
+        {
+          "if": { "properties": { "kind": { "const": "stage_direction" } } },
+          "then": { "required": ["stage_directions"] }
+        }
+      ]
+    }
+  }
+}

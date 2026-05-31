@@ -1,0 +1,465 @@
+[
+  {
+    "id": "brutus",
+    "name": "Marcus Brutus",
+    "aliases": ["BRUTUS."],
+    "role": "protagonist",
+    "description": "A respected senator, Stoic philosopher, and friend of Caesar, descended from the Brutus who expelled Rome's last king. Persuaded that Caesar's ambition endangers the Republic, he joins the conspiracy and strikes the man he loves for the sake of an idea, then watches his cause unravel.",
+    "relationships": [
+      { "other_id": "caesar", "relation": "friend of, and assassin of" },
+      { "other_id": "cassius", "relation": "brother-in-law and co-conspirator with" },
+      { "other_id": "portia", "relation": "husband of" },
+      { "other_id": "antony", "relation": "adversary of" },
+      { "other_id": "octavius", "relation": "adversary of" },
+      { "other_id": "lucius", "relation": "master of" }
+    ],
+    "color": "#3f7cac"
+  },
+  {
+    "id": "cassius",
+    "name": "Caius Cassius",
+    "aliases": ["CASSIUS."],
+    "role": "deuteragonist",
+    "description": "The lean, sharp-eyed senator who first organizes the conspiracy and recruits Brutus to lend it honor. Shrewd at reading other men's motives, he repeatedly defers to Brutus's worse judgment, and dies at Philippi on a misreading of the battle.",
+    "relationships": [
+      { "other_id": "brutus", "relation": "co-conspirator and brother-in-law of" },
+      { "other_id": "caesar", "relation": "resents and conspires against" },
+      { "other_id": "pindarus", "relation": "master of" },
+      { "other_id": "titinius", "relation": "friend and officer of" }
+    ],
+    "color": "#2e8b74"
+  },
+  {
+    "id": "caesar",
+    "name": "Julius Caesar",
+    "aliases": ["CAESAR."],
+    "role": "major",
+    "description": "Rome's most powerful man, home in triumph and publicly offered a crown he three times refuses. Proud, superstitious yet dismissive of the omens that surround him, he is assassinated at the Capitol; his spirit then haunts the play and the conspirators to the end.",
+    "relationships": [
+      { "other_id": "calpurnia", "relation": "husband of" },
+      { "other_id": "antony", "relation": "patron and friend of" },
+      { "other_id": "octavius", "relation": "great-uncle and adoptive father of" },
+      { "other_id": "brutus", "relation": "friend of, killed by" },
+      { "other_id": "ghost", "relation": "appears after death as" }
+    ],
+    "color": "#b08a2e"
+  },
+  {
+    "id": "antony",
+    "name": "Mark Antony",
+    "aliases": ["ANTONY."],
+    "role": "major",
+    "description": "Caesar's devoted friend, athlete, and a brilliant, unscrupulous orator. After the murder he secures safe conduct, then turns the Roman crowd against the conspirators with his funeral oration over Caesar's body, and joins the Triumvirate that destroys them.",
+    "relationships": [
+      { "other_id": "caesar", "relation": "loyal friend of" },
+      { "other_id": "octavius", "relation": "ally of, later rival" },
+      { "other_id": "lepidus", "relation": "fellow triumvir with" },
+      { "other_id": "brutus", "relation": "adversary of" }
+    ],
+    "color": "#8e44ad"
+  },
+  {
+    "id": "octavius",
+    "name": "Octavius Caesar",
+    "aliases": ["OCTAVIUS."],
+    "role": "supporting",
+    "description": "Caesar's young great-nephew and named heir, who arrives in Rome to claim his place. Cold, composed, and quietly assertive, he forms the Second Triumvirate with Antony and Lepidus and shares command of the victorious army at Philippi.",
+    "relationships": [
+      { "other_id": "caesar", "relation": "heir of" },
+      { "other_id": "antony", "relation": "ally of, later rival" },
+      { "other_id": "lepidus", "relation": "fellow triumvir with" }
+    ],
+    "color": "#b5623a"
+  },
+  {
+    "id": "lepidus",
+    "name": "Lepidus",
+    "aliases": ["LEPIDUS."],
+    "role": "minor",
+    "description": "The third member of the ruling Triumvirate, used by Antony to mark off the men to be killed in the proscriptions. Antony dismisses him to Octavius as a 'slight, unmeritable man, meet to be sent on errands.'",
+    "color": "#9a6b3a"
+  },
+  {
+    "id": "casca",
+    "name": "Casca",
+    "aliases": ["CASCA."],
+    "role": "supporting",
+    "description": "A blunt, sardonic senator who gives the sour eyewitness account of Caesar refusing the crown and of Cicero speaking Greek. Unnerved by the night's prodigies, he strikes the first blow against Caesar.",
+    "relationships": [
+      { "other_id": "cassius", "relation": "co-conspirator with" },
+      { "other_id": "brutus", "relation": "co-conspirator with" }
+    ],
+    "color": "#4e8aa0"
+  },
+  {
+    "id": "decius",
+    "name": "Decius Brutus",
+    "aliases": ["DECIUS."],
+    "role": "minor",
+    "description": "The conspirator who promises he can flatter Caesar to the Capitol, reinterpreting Calpurnia's bloody dream as a vision of Rome's renewal and playing on Caesar's vanity about the crown.",
+    "relationships": [
+      { "other_id": "caesar", "relation": "flatters and betrays" },
+      { "other_id": "brutus", "relation": "co-conspirator with" }
+    ],
+    "color": "#5a8f6a"
+  },
+  {
+    "id": "cinna",
+    "name": "Cinna",
+    "aliases": ["CINNA."],
+    "role": "minor",
+    "description": "A conspirator who helps Cassius win Brutus over, planting forged petitions where Brutus will find them. (This edition gives the same speech-prefix to Cinna the poet, who is torn apart by the mob in Act 3.)",
+    "relationships": [
+      { "other_id": "cassius", "relation": "co-conspirator with" },
+      { "other_id": "brutus", "relation": "co-conspirator with" }
+    ],
+    "color": "#6a9b5d"
+  },
+  {
+    "id": "metellus",
+    "name": "Metellus Cimber",
+    "aliases": ["METELLUS."],
+    "role": "minor",
+    "description": "The conspirator whose suit to recall his banished brother gives the assassins their pretext to press around Caesar at the Capitol.",
+    "relationships": [
+      { "other_id": "caesar", "relation": "petitions and betrays" },
+      { "other_id": "brutus", "relation": "co-conspirator with" }
+    ],
+    "color": "#4e7a8b"
+  },
+  {
+    "id": "trebonius",
+    "name": "Trebonius",
+    "aliases": ["TREBONIUS."],
+    "role": "minor",
+    "description": "The conspirator who draws Mark Antony out of the way while the others kill Caesar, sparing Antony at Brutus's insistence.",
+    "relationships": [
+      { "other_id": "brutus", "relation": "co-conspirator with" }
+    ],
+    "color": "#5f8a5a"
+  },
+  {
+    "id": "ligarius",
+    "name": "Caius Ligarius",
+    "aliases": ["LIGARIUS."],
+    "role": "minor",
+    "description": "A sick senator who throws off his illness to follow Brutus, whom he reveres, into the conspiracy.",
+    "relationships": [
+      { "other_id": "brutus", "relation": "follows" }
+    ],
+    "color": "#7a9b4d"
+  },
+  {
+    "id": "calpurnia",
+    "name": "Calpurnia",
+    "aliases": ["CALPURNIA."],
+    "role": "supporting",
+    "description": "Caesar's wife, whose nightmare of his statue running blood and whose dread of the day's omens nearly keep him home. Decius's flattery overrides her warning, and Caesar goes to his death.",
+    "relationships": [
+      { "other_id": "caesar", "relation": "wife of" }
+    ],
+    "color": "#b5689a"
+  },
+  {
+    "id": "portia",
+    "name": "Portia",
+    "aliases": ["PORTIA."],
+    "role": "supporting",
+    "description": "Brutus's wife and the daughter of Cato. Stoic and strong-willed, she gives herself a voluntary wound in the thigh to prove she can be trusted with his secret; in his absence she dies by swallowing fire.",
+    "relationships": [
+      { "other_id": "brutus", "relation": "wife of" }
+    ],
+    "color": "#c2557a"
+  },
+  {
+    "id": "soothsayer",
+    "name": "Soothsayer",
+    "aliases": ["SOOTHSAYER."],
+    "role": "minor",
+    "description": "The seer who calls out of the crowd to 'beware the ides of March,' and meets Caesar again on the day itself to warn that the ides are come but not gone.",
+    "relationships": [
+      { "other_id": "caesar", "relation": "warns" }
+    ],
+    "color": "#6b5b95"
+  },
+  {
+    "id": "artemidorus",
+    "name": "Artemidorus",
+    "aliases": ["ARTEMIDORUS."],
+    "role": "minor",
+    "description": "A teacher of rhetoric who writes Caesar a letter naming the conspirators and tries, too late, to press it on him on the way to the Capitol.",
+    "relationships": [
+      { "other_id": "caesar", "relation": "tries to warn" }
+    ],
+    "color": "#5b7a95"
+  },
+  {
+    "id": "cicero",
+    "name": "Cicero",
+    "aliases": ["CICERO."],
+    "role": "minor",
+    "description": "A famous senator and orator who comments wryly on the storm and speaks Greek at the games. The conspirators consider and reject recruiting him; he is later killed in the proscriptions.",
+    "color": "#777f8c"
+  },
+  {
+    "id": "publius",
+    "name": "Publius",
+    "aliases": ["PUBLIUS."],
+    "role": "minor",
+    "description": "An elderly senator who comes with the others to escort Caesar and is left stunned and trembling in the aftermath of the assassination.",
+    "color": "#8c7a6b"
+  },
+  {
+    "id": "popilius",
+    "name": "Popilius Lena",
+    "aliases": ["POPILIUS."],
+    "role": "minor",
+    "description": "A senator who terrifies Cassius moments before the killing by wishing that his 'enterprise today may thrive,' seeming for an instant to have betrayed the plot.",
+    "color": "#9a8c5a"
+  },
+  {
+    "id": "flavius",
+    "name": "Flavius",
+    "aliases": ["FLAVIUS."],
+    "role": "minor",
+    "description": "A tribune who, with Marullus, scolds the commoners for celebrating Caesar's triumph and strips the festival decorations from his statues; the two are later 'put to silence.'",
+    "relationships": [
+      { "other_id": "marullus", "relation": "fellow tribune with" }
+    ],
+    "color": "#4a8a7a"
+  },
+  {
+    "id": "marullus",
+    "name": "Marullus",
+    "aliases": ["MARULLUS."],
+    "role": "minor",
+    "description": "A tribune who rebukes the fickle crowd for cheering Caesar when they had once loved Pompey, whom Caesar has just defeated.",
+    "relationships": [
+      { "other_id": "flavius", "relation": "fellow tribune with" }
+    ],
+    "color": "#6a6a4a"
+  },
+  {
+    "id": "lucius",
+    "name": "Lucius",
+    "aliases": ["LUCIUS."],
+    "role": "minor",
+    "description": "Brutus's young servant boy, gentle and loyal, who plays the lute for his sleepless master and dozes over the instrument on the eve of Philippi.",
+    "relationships": [
+      { "other_id": "brutus", "relation": "serves" }
+    ],
+    "color": "#c98a4b"
+  },
+  {
+    "id": "lucilius",
+    "name": "Lucilius",
+    "aliases": ["LUCILIUS."],
+    "role": "minor",
+    "description": "An officer loyal to Brutus who, captured at Philippi, claims to be Brutus to protect him and is spared by an admiring Antony.",
+    "relationships": [
+      { "other_id": "brutus", "relation": "officer of" }
+    ],
+    "color": "#5f8a5a"
+  },
+  {
+    "id": "titinius",
+    "name": "Titinius",
+    "aliases": ["TITINIUS."],
+    "role": "minor",
+    "description": "Cassius's trusted officer and friend. Mistakenly reported captured, he is the cause of Cassius's despairing suicide, and kills himself with Cassius's sword beside the body.",
+    "relationships": [
+      { "other_id": "cassius", "relation": "officer and friend of" }
+    ],
+    "color": "#8a5f5a"
+  },
+  {
+    "id": "messala",
+    "name": "Messala",
+    "aliases": ["MESSALA."],
+    "role": "minor",
+    "description": "An officer in the republican army who reports the proscriptions and Portia's death, and who finds Cassius dead on the field at Philippi.",
+    "relationships": [
+      { "other_id": "brutus", "relation": "officer of" }
+    ],
+    "color": "#5a6f8a"
+  },
+  {
+    "id": "pindarus",
+    "name": "Pindarus",
+    "aliases": ["PINDARUS."],
+    "role": "minor",
+    "description": "Cassius's bondman, brought from Parthia. At Cassius's order he runs him through with his own sword, then flees to freedom.",
+    "relationships": [
+      { "other_id": "cassius", "relation": "bondman of" }
+    ],
+    "color": "#7a6a8a"
+  },
+  {
+    "id": "varro",
+    "name": "Varro",
+    "aliases": ["VARRO."],
+    "role": "minor",
+    "description": "A servant of Brutus who sleeps in his tent the night the Ghost appears before Philippi.",
+    "color": "#7a7a5a"
+  },
+  {
+    "id": "claudius",
+    "name": "Claudius",
+    "aliases": ["CLAUDIUS."],
+    "role": "minor",
+    "description": "A servant of Brutus who, with Varro, lies in his master's tent on the night of the Ghost; not to be confused with the king in Hamlet.",
+    "color": "#6a8a5a"
+  },
+  {
+    "id": "clitus",
+    "name": "Clitus",
+    "aliases": ["CLITUS."],
+    "role": "minor",
+    "description": "A follower of Brutus at Philippi who refuses, like the others, to hold the sword for his master's suicide.",
+    "relationships": [
+      { "other_id": "brutus", "relation": "serves" }
+    ],
+    "color": "#8a6a7a"
+  },
+  {
+    "id": "dardanius",
+    "name": "Dardanius",
+    "aliases": ["DARDANIUS."],
+    "role": "minor",
+    "description": "A follower of Brutus who, like Clitus, cannot bring himself to kill his master when asked.",
+    "relationships": [
+      { "other_id": "brutus", "relation": "serves" }
+    ],
+    "color": "#6a8a7a"
+  },
+  {
+    "id": "volumnius",
+    "name": "Volumnius",
+    "aliases": ["VOLUMNIUS."],
+    "role": "minor",
+    "description": "An old schoolfellow of Brutus who declines his friend's quiet request to hold the sword on which Brutus means to die.",
+    "relationships": [
+      { "other_id": "brutus", "relation": "friend of" }
+    ],
+    "color": "#5a8a8a"
+  },
+  {
+    "id": "strato",
+    "name": "Strato",
+    "aliases": ["STRATO."],
+    "role": "minor",
+    "description": "The follower who at last holds the sword steady so that Brutus can run upon it, then enters Octavius's service.",
+    "relationships": [
+      { "other_id": "brutus", "relation": "holds the sword for the death of" }
+    ],
+    "color": "#7a8a5a"
+  },
+  {
+    "id": "young_cato",
+    "name": "Young Cato",
+    "aliases": ["CATO."],
+    "role": "minor",
+    "description": "Son of Marcus Cato and brother of Portia, who proclaims his name aloud and is killed fighting in the republican cause at Philippi.",
+    "color": "#8a7a4a"
+  },
+  {
+    "id": "ghost",
+    "name": "Ghost of Caesar",
+    "aliases": ["GHOST."],
+    "role": "supporting",
+    "description": "The spirit of the murdered Caesar, who appears to Brutus in his tent before Philippi as his 'evil spirit' and promises to meet him on the battlefield.",
+    "relationships": [
+      { "other_id": "brutus", "relation": "appears to" },
+      { "other_id": "caesar", "relation": "spirit of" }
+    ],
+    "color": "#9aa0a8"
+  },
+  {
+    "id": "first_citizen",
+    "name": "First Citizen",
+    "aliases": ["FIRST CITIZEN."],
+    "role": "minor",
+    "description": "A commoner of Rome. In Act 1 a carpenter rebuked by the tribunes; in Act 3 one of the plebeians swayed back and forth by Brutus's and Antony's funeral speeches.",
+    "color": "#8a7a6a"
+  },
+  {
+    "id": "second_citizen",
+    "name": "Second Citizen",
+    "aliases": ["SECOND CITIZEN."],
+    "role": "minor",
+    "description": "A commoner of Rome. In Act 1 the quick-witted cobbler who jokes with the tribunes; in Act 3 a plebeian moved by Antony to mutiny.",
+    "color": "#7a8a6a"
+  },
+  {
+    "id": "third_citizen",
+    "name": "Third Citizen",
+    "aliases": ["THIRD CITIZEN."],
+    "role": "minor",
+    "description": "One of the Roman plebeians who hear the funeral orations and turn against the conspirators.",
+    "color": "#6a7a8a"
+  },
+  {
+    "id": "fourth_citizen",
+    "name": "Fourth Citizen",
+    "aliases": ["FOURTH CITIZEN."],
+    "role": "minor",
+    "description": "One of the Roman plebeians at Caesar's funeral, roused by Antony's reading of the will.",
+    "color": "#8a6a7a"
+  },
+  {
+    "id": "citizens",
+    "name": "Citizens",
+    "aliases": ["CITIZENS."],
+    "role": "ensemble",
+    "description": "The Roman crowd speaking as one, by turns cheering the conspirators and then howling for their blood after Antony's oration.",
+    "color": "#808080"
+  },
+  {
+    "id": "first_soldier",
+    "name": "First Soldier",
+    "aliases": ["FIRST SOLDIER."],
+    "role": "minor",
+    "description": "A soldier in the armies at Philippi.",
+    "color": "#7a8a7a"
+  },
+  {
+    "id": "second_soldier",
+    "name": "Second Soldier",
+    "aliases": ["SECOND SOLDIER."],
+    "role": "minor",
+    "description": "A soldier in the armies at Philippi.",
+    "color": "#6a7a7a"
+  },
+  {
+    "id": "third_soldier",
+    "name": "Third Soldier",
+    "aliases": ["THIRD SOLDIER."],
+    "role": "minor",
+    "description": "A soldier in the armies at Philippi.",
+    "color": "#7a7a8a"
+  },
+  {
+    "id": "messenger",
+    "name": "Messenger",
+    "aliases": ["MESSENGER."],
+    "role": "minor",
+    "description": "A messenger who reports the approach of the enemy army to the field at Philippi.",
+    "color": "#9a8a7a"
+  },
+  {
+    "id": "poet",
+    "name": "Poet",
+    "aliases": ["POET."],
+    "role": "minor",
+    "description": "A self-appointed peacemaker who bursts into the generals' tent to reconcile the quarreling Brutus and Cassius, and is mocked out again.",
+    "color": "#8a8a5a"
+  },
+  {
+    "id": "servant",
+    "name": "Servant",
+    "aliases": ["SERVANT."],
+    "role": "minor",
+    "description": "One of several servants who carry messages between their masters — Caesar, Antony, and Octavius — at the play's turning points.",
+    "color": "#888888"
+  }
+]

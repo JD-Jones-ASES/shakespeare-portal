@@ -1,0 +1,341 @@
+[
+  {
+    "id": "theseus",
+    "name": "Theseus",
+    "aliases": ["THESEUS", "THESEUS.", "Theseus.", "The."],
+    "role": "major",
+    "description": "Duke of Athens, the play's voice of ducal authority. Betrothed to Hippolyta after defeating her Amazons in war, he opens and closes the play by presiding over weddings and revels.",
+    "relationships": [
+      { "other_id": "hippolyta", "relation": "betrothed to" },
+      { "other_id": "egeus", "relation": "judges the petition of" },
+      { "other_id": "hermia", "relation": "rules on the marriage of" },
+      { "other_id": "philostrate", "relation": "master of revels to" }
+    ],
+    "color": "#6f3aa3"
+  },
+  {
+    "id": "hippolyta",
+    "name": "Hippolyta",
+    "aliases": ["HIPPOLYTA", "HIPPOLYTA.", "Hippolyta.", "Hip."],
+    "role": "supporting",
+    "description": "Queen of the Amazons, betrothed to Theseus after he 'wooed her with his sword.' Watches the Athenian lovers' confusion and the mechanicals' play with a more sympathetic eye than her duke.",
+    "relationships": [
+      { "other_id": "theseus", "relation": "betrothed to" }
+    ],
+    "color": "#a13b6a"
+  },
+  {
+    "id": "egeus",
+    "name": "Egeus",
+    "aliases": ["EGEUS", "EGEUS.", "Egeus.", "Ege."],
+    "role": "supporting",
+    "description": "Hermia's father, who demands the 'ancient privilege of Athens' to marry her to Demetrius or have her put to death. His will is the engine that drives the lovers into the wood.",
+    "relationships": [
+      { "other_id": "hermia", "relation": "father of" },
+      { "other_id": "demetrius", "relation": "favors as son-in-law" },
+      { "other_id": "lysander", "relation": "opposes" }
+    ],
+    "color": "#8c6a3e"
+  },
+  {
+    "id": "hermia",
+    "name": "Hermia",
+    "aliases": ["HERMIA", "HERMIA.", "Hermia.", "Her."],
+    "role": "protagonist",
+    "description": "Daughter to Egeus, in love with Lysander. Small in stature and fierce in spirit, she defies her father and flees with Lysander into the wood, where she is briefly abandoned and learns Helena has been her rival.",
+    "relationships": [
+      { "other_id": "lysander", "relation": "in love with" },
+      { "other_id": "demetrius", "relation": "pursued by, refuses" },
+      { "other_id": "helena", "relation": "childhood friend of, then rival" },
+      { "other_id": "egeus", "relation": "daughter of" }
+    ],
+    "color": "#c44a6a"
+  },
+  {
+    "id": "lysander",
+    "name": "Lysander",
+    "aliases": ["LYSANDER", "LYSANDER.", "Lysander.", "Lys."],
+    "role": "major",
+    "description": "An Athenian youth in love with Hermia. Elopes with her into the wood; falls under Puck's love-juice and pursues Helena instead; restored at dawn by Oberon's antidote.",
+    "relationships": [
+      { "other_id": "hermia", "relation": "in love with" },
+      { "other_id": "helena", "relation": "courts under enchantment" },
+      { "other_id": "demetrius", "relation": "rival to" }
+    ],
+    "color": "#2a7ab0"
+  },
+  {
+    "id": "demetrius",
+    "name": "Demetrius",
+    "aliases": ["DEMETRIUS", "DEMETRIUS.", "Demetrius.", "Dem."],
+    "role": "major",
+    "description": "An Athenian youth claiming Hermia by her father's gift, though he had previously courted Helena. Anointed by Oberon to undo his earlier wrong, he wakes restored to Helena.",
+    "relationships": [
+      { "other_id": "hermia", "relation": "courts, is refused by" },
+      { "other_id": "helena", "relation": "jilted, then restored to" },
+      { "other_id": "lysander", "relation": "rival to" },
+      { "other_id": "egeus", "relation": "favored by" }
+    ],
+    "color": "#b5462f"
+  },
+  {
+    "id": "helena",
+    "name": "Helena",
+    "aliases": ["HELENA", "HELENA.", "Helena.", "Hel."],
+    "role": "major",
+    "description": "Daughter of Nedar, in love with Demetrius and tormented by his neglect. Tall where Hermia is short, she follows Demetrius into the wood and ends the night courted by both men, sure she is mocked.",
+    "relationships": [
+      { "other_id": "demetrius", "relation": "in love with" },
+      { "other_id": "hermia", "relation": "childhood friend of" },
+      { "other_id": "lysander", "relation": "courted by, under enchantment" }
+    ],
+    "color": "#2e8b6f"
+  },
+  {
+    "id": "philostrate",
+    "name": "Philostrate",
+    "aliases": ["PHILOSTRATE", "PHILOSTRATE.", "Philostrate.", "Phi."],
+    "role": "minor",
+    "description": "Theseus's Master of the Revels, who brings the list of available entertainments before the duke chooses 'Pyramus and Thisbe.'",
+    "relationships": [
+      { "other_id": "theseus", "relation": "servant of" }
+    ],
+    "color": "#7a7a7a"
+  },
+  {
+    "id": "oberon",
+    "name": "Oberon",
+    "aliases": ["OBERON", "OBERON.", "Oberon.", "Obe."],
+    "role": "major",
+    "description": "King of the Fairies, quarreling with Titania over a changeling boy. Commands Puck to fetch the love-in-idleness flower whose juice drives the lovers' confusion, then sets all to rights.",
+    "relationships": [
+      { "other_id": "titania", "relation": "estranged husband of" },
+      { "other_id": "puck", "relation": "master of" }
+    ],
+    "color": "#1f5a8f"
+  },
+  {
+    "id": "titania",
+    "name": "Titania",
+    "aliases": ["TITANIA", "TITANIA.", "Titania.", "Tit."],
+    "role": "major",
+    "description": "Queen of the Fairies, estranged from Oberon over a mortal child she has sworn to raise. Enchanted by the love-juice, she dotes on the ass-headed Bottom until Oberon releases her.",
+    "relationships": [
+      { "other_id": "oberon", "relation": "estranged wife of" },
+      { "other_id": "bottom", "relation": "dotes on, under enchantment" }
+    ],
+    "color": "#8aa84a"
+  },
+  {
+    "id": "puck",
+    "name": "Puck",
+    "aliases": ["PUCK", "PUCK.", "Puck.", "Robin", "Robin Goodfellow", "Robin Goodfellow."],
+    "role": "major",
+    "description": "Oberon's mischievous spirit, also known as Robin Goodfellow. Mistakes Lysander for Demetrius when applying the love-juice, sets the night's confusion in motion, and delivers the play's final apology to the audience.",
+    "relationships": [
+      { "other_id": "oberon", "relation": "servant of" }
+    ],
+    "color": "#3d8e6f"
+  },
+  {
+    "id": "fairy",
+    "name": "A Fairy",
+    "aliases": ["FAIRY", "FAIRY.", "Fairy.", "Fai."],
+    "role": "minor",
+    "description": "An unnamed servant of Titania who meets Puck at the start of Act 2 and provides the audience's first glimpse of the fairy world.",
+    "color": "#a4c66a"
+  },
+  {
+    "id": "peasblossom",
+    "name": "Peasblossom",
+    "aliases": ["PEASBLOSSOM", "PEASBLOSSOM.", "Peasblossom.", "Peas."],
+    "role": "minor",
+    "description": "One of Titania's four named attendant fairies (with Cobweb, Moth, and Mustardseed), assigned to wait on Bottom.",
+    "color": "#c6a86a"
+  },
+  {
+    "id": "cobweb",
+    "name": "Cobweb",
+    "aliases": ["COBWEB", "COBWEB.", "Cobweb.", "Cob."],
+    "role": "minor",
+    "description": "One of Titania's four named attendant fairies, sent by Bottom to fetch the honey-bag of a bee.",
+    "color": "#9aa6a0"
+  },
+  {
+    "id": "moth",
+    "name": "Moth",
+    "aliases": ["MOTH", "MOTH.", "Moth."],
+    "role": "minor",
+    "description": "One of Titania's four named attendant fairies. In Elizabethan English 'moth' was pronounced like 'mote,' a speck of dust.",
+    "color": "#7d8a99"
+  },
+  {
+    "id": "mustardseed",
+    "name": "Mustardseed",
+    "aliases": ["MUSTARDSEED", "MUSTARDSEED.", "Mustardseed.", "Must."],
+    "role": "minor",
+    "description": "One of Titania's four named attendant fairies, summoned by Bottom to help Cobweb scratch his ass-eared head.",
+    "color": "#c89a3a"
+  },
+  {
+    "id": "first_fairy",
+    "name": "First Fairy",
+    "aliases": ["FIRST FAIRY", "FIRST FAIRY.", "First Fairy."],
+    "role": "minor",
+    "description": "An unnamed fairy of Titania's train who sings her to sleep and answers Puck's call during the night's enchantments.",
+    "color": "#b8d878"
+  },
+  {
+    "id": "second_fairy",
+    "name": "Second Fairy",
+    "aliases": ["SECOND FAIRY", "SECOND FAIRY.", "Second Fairy."],
+    "role": "minor",
+    "description": "An unnamed fairy of Titania's train, joining the lullaby and answering Puck's call.",
+    "color": "#9ccc5a"
+  },
+  {
+    "id": "third_fairy",
+    "name": "Third Fairy",
+    "aliases": ["THIRD FAIRY", "THIRD FAIRY.", "Third Fairy."],
+    "role": "minor",
+    "description": "An unnamed fairy of Titania's train, joining the lullaby and answering Puck's call.",
+    "color": "#82be3e"
+  },
+  {
+    "id": "fourth_fairy",
+    "name": "Fourth Fairy",
+    "aliases": ["FOURTH FAIRY", "FOURTH FAIRY.", "Fourth Fairy."],
+    "role": "minor",
+    "description": "An unnamed fairy of Titania's train, joining the lullaby and answering Puck's call.",
+    "color": "#68a832"
+  },
+  {
+    "id": "quince",
+    "name": "Quince",
+    "aliases": ["QUINCE", "QUINCE.", "Quince.", "Qui."],
+    "role": "major",
+    "description": "Peter Quince the carpenter, the put-upon director and scriptwriter of the mechanicals' play 'Pyramus and Thisbe.' Speaks the Prologue at the wedding.",
+    "relationships": [
+      { "other_id": "bottom", "relation": "casts and contends with" }
+    ],
+    "color": "#a06642"
+  },
+  {
+    "id": "bottom",
+    "name": "Bottom",
+    "aliases": ["BOTTOM", "BOTTOM.", "Bottom.", "Bot."],
+    "role": "major",
+    "description": "Nick Bottom the weaver, a confident amateur actor cast as Pyramus. Given an ass's head by Puck, he is briefly adored by Titania, and remembers it on waking as 'a most rare vision.'",
+    "relationships": [
+      { "other_id": "quince", "relation": "actor for, rival to" },
+      { "other_id": "titania", "relation": "is doted upon by, under enchantment" }
+    ],
+    "color": "#c98a2b"
+  },
+  {
+    "id": "flute",
+    "name": "Flute",
+    "aliases": ["FLUTE", "FLUTE.", "Flute.", "Flu."],
+    "role": "supporting",
+    "description": "Francis Flute the bellows-mender, cast as Thisbe over his protests about his beard ('I have a beard coming').",
+    "color": "#7a96b8"
+  },
+  {
+    "id": "snug",
+    "name": "Snug",
+    "aliases": ["SNUG", "SNUG.", "Snug.", "Snu."],
+    "role": "supporting",
+    "description": "Snug the joiner, 'slow of study,' cast as Lion. Famous for breaking character to reassure the ladies that he is not a real lion.",
+    "color": "#8e7a4a"
+  },
+  {
+    "id": "snout",
+    "name": "Snout",
+    "aliases": ["SNOUT", "SNOUT.", "Snout.", "Sno."],
+    "role": "supporting",
+    "description": "Tom Snout the tinker, cast as Pyramus's father and then reassigned to play Wall in the production.",
+    "color": "#8a8a6a"
+  },
+  {
+    "id": "starveling",
+    "name": "Starveling",
+    "aliases": ["STARVELING", "STARVELING.", "Starveling.", "Sta."],
+    "role": "supporting",
+    "description": "Robin Starveling the tailor, cast as Thisbe's mother and then reassigned to play Moonshine, lantern and dog in hand.",
+    "color": "#94886a"
+  },
+  {
+    "id": "all",
+    "name": "All",
+    "aliases": ["ALL", "ALL.", "CHORUS", "CHORUS."],
+    "role": "chorus",
+    "description": "A choric line spoken in unison — by the assembled mechanicals, or by the chorus of fairies during Titania's lullaby.",
+    "color": "#6a6a6a"
+  },
+  {
+    "id": "prologue",
+    "name": "Prologue (Quince)",
+    "aliases": ["PROLOGUE", "PROLOGUE.", "Prologue.", "Pro."],
+    "role": "minor",
+    "description": "Quince, in character as the Prologue, introducing the mechanicals' play before the Athenian court.",
+    "relationships": [
+      { "other_id": "quince", "relation": "in-play role of" }
+    ],
+    "color": "#a06642"
+  },
+  {
+    "id": "pyramus",
+    "name": "Pyramus (Bottom)",
+    "aliases": ["PYRAMUS", "PYRAMUS.", "Pyramus.", "Pyr."],
+    "role": "minor",
+    "description": "Bottom in character as the doomed lover Pyramus in the mechanicals' interlude. The role he has dreamed of since Act 1 Scene 2.",
+    "relationships": [
+      { "other_id": "bottom", "relation": "in-play role of" }
+    ],
+    "color": "#c98a2b"
+  },
+  {
+    "id": "thisbe",
+    "name": "Thisbe (Flute)",
+    "aliases": ["THISBE", "THISBE.", "Thisbe.", "This."],
+    "role": "minor",
+    "description": "Flute in character as Pyramus's beloved Thisbe in the mechanicals' interlude.",
+    "relationships": [
+      { "other_id": "flute", "relation": "in-play role of" }
+    ],
+    "color": "#7a96b8"
+  },
+  {
+    "id": "wall",
+    "name": "Wall (Snout)",
+    "aliases": ["WALL", "WALL.", "Wall."],
+    "role": "minor",
+    "description": "Snout in character as the Wall that divides the lovers in the mechanicals' interlude.",
+    "relationships": [
+      { "other_id": "snout", "relation": "in-play role of" }
+    ],
+    "color": "#8a8a6a"
+  },
+  {
+    "id": "moonshine",
+    "name": "Moonshine (Starveling)",
+    "aliases": ["MOON", "MOON.", "Moon.", "MOONSHINE", "MOONSHINE.", "Moonshine."],
+    "role": "minor",
+    "description": "Starveling in character as Moonshine in the mechanicals' interlude, carrying a lantern, thornbush, and dog.",
+    "relationships": [
+      { "other_id": "starveling", "relation": "in-play role of" }
+    ],
+    "color": "#94886a"
+  },
+  {
+    "id": "lion",
+    "name": "Lion (Snug)",
+    "aliases": ["LION", "LION.", "Lion."],
+    "role": "minor",
+    "description": "Snug in character as the Lion in the mechanicals' interlude, careful to assure the ladies he is not really fierce.",
+    "relationships": [
+      { "other_id": "snug", "relation": "in-play role of" }
+    ],
+    "color": "#8e7a4a"
+  }
+]

@@ -1,0 +1,62 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="About" description="What Shakespeare Portal is and how it's built.">
+  <article class="prose">
+    <h1>About Shakespeare Portal</h1>
+
+    <p>
+      Shakespeare Portal is a free, open-source reading edition of Shakespeare's plays and poems,
+      built for students who haven't yet absorbed the biblical, classical, and historical context
+      the texts assume.
+    </p>
+
+    <h2>What you get</h2>
+    <ul>
+      <li><strong>Archaic vocabulary</strong> glossed where modern meaning shifts (no pop-ups — they hurt comprehension).</li>
+      <li><strong>Biblical allusions</strong> with Geneva Bible 1599 citations, the bible Shakespeare quoted.</li>
+      <li><strong>Classical references</strong> to Ovid, Plutarch, Virgil, Homer, with their sources.</li>
+      <li><strong>Historical context</strong> for the history plays and topical Elizabethan jokes.</li>
+      <li><strong>Sexual puns and wordplay</strong> when the joke would otherwise vanish.</li>
+      <li><strong>Rhetorical devices</strong> named when they carry the argument.</li>
+    </ul>
+
+    <p>
+      All annotation sits behind a <strong>depth toggle</strong>: <strong>Read</strong> mode keeps the
+      page clean with plain-English glosses only; <strong>Study</strong> mode opens the full apparatus
+      &mdash; source citations, reference cards, deeper bawdy and textual notes.
+    </p>
+
+    <h2>How it's made</h2>
+    <p>
+      Original annotation drafted by AI subagents, then run through a three-judge
+      adversarial fact-check (source / anchor / interpretation) before publication.
+      Every annotation cites at least one source. Anything that can't be sourced
+      doesn't ship at default depth.
+    </p>
+
+    <p>
+      Plain text is sourced from the Project Gutenberg / Open Shakespeare modern-spelling editions
+      (public domain), with structural cleanup. Scholarly references are drawn from
+      public-domain works (Onions 1911, Schmidt 1902, Geneva Bible) plus citation
+      of modern scholarship.
+    </p>
+
+    <h2>Status</h2>
+    <p>
+      Four plays are fully annotated and open to read &mdash; <em>A Midsummer Night's Dream</em>,
+      <em>Romeo and Juliet</em>, <em>Julius Caesar</em>, and <em>Hamlet</em> &mdash; together carrying
+      more than 1,000 annotations, a 3,500-entry glossary, and 55 cross-referenced source cards. The
+      rest of the canon is in the catalog and being annotated play by play; a work marked
+      &ldquo;Annotation coming soon&rdquo; already has its catalog entry, and its reading text follows
+      as each play is ingested.
+    </p>
+
+    <h2>License</h2>
+    <p>
+      Source code is MIT-licensed. Original annotations, synopses, and reference cards
+      are CC-BY-SA-4.0 — you can copy, adapt, and share, including in classrooms,
+      as long as you attribute and keep derivatives open.
+    </p>
+  </article>
+</Base>

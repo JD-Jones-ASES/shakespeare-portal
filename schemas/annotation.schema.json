@@ -1,0 +1,201 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shakespeare-portal/schemas/annotation.schema.json",
+  "title": "Annotation",
+  "description": "A single annotation anchored to a Through-Line Number + word span in a play.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "play",
+    "tln_start",
+    "tln_end",
+    "word_start",
+    "word_end",
+    "anchor_text",
+    "type",
+    "depth",
+    "summary",
+    "sources",
+    "confidence",
+    "generated_by",
+    "fact_checked"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_]*-\\d+-[a-z0-9-]+$",
+      "description": "Stable annotation id: <play_slug>-<tln_start>-<short-kebab>."
+    },
+    "play": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_]*$",
+      "description": "Play slug matching data/catalog/works.json playId."
+    },
+    "tln_start": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "tln_end": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "word_start": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "word_end": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "anchor_text": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Exact substring at [word_start..word_end] on tln_start (or spanning to tln_end). Validator confirms presence."
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "archaic_vocab",
+        "biblical_allusion",
+        "classical_allusion",
+        "historical_topical",
+        "bawdy_pun",
+        "rhetorical_device",
+        "wordplay",
+        "syntax_grammar",
+        "stage_direction_note",
+        "textual_variant",
+        "parallel_passage",
+        "cultural_context"
+      ]
+    },
+    "depth": {
+      "type": "string",
+      "enum": ["basic", "scholar"]
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 600,
+      "description": "1-2 sentences for basic depth, up to ~4 for scholar."
+    },
+    "detail": {
+      "type": "string",
+      "maxLength": 2000,
+      "description": "Optional longer prose; required when summary is insufficient at scholar depth."
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["kind", "card_id"],
+        "properties": {
+          "kind": {
+            "type": "string",
+            "enum": ["biblical", "classical", "historical"]
+          },
+          "card_id": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          }
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "citation"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Short label, e.g. 'OED s.v. fishmonger'."
+          },
+          "citation": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Full bibliographic citation or scripture reference."
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      }
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["high", "medium", "uncertain"]
+    },
+    "generated_by": {
+      "type": "string",
+      "description": "Model id (e.g. claude-sonnet-4-6) or 'human'."
+    },
+    "fact_checked": {
+      "type": "boolean"
+    },
+    "fact_checked_by": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 3,
+      "maxItems": 3,
+      "description": "Three model ids: [source_judge, anchor_judge, interpretation_judge]."
+    },
+    "fact_checked_at": {
+      "type": "string",
+      "format": "date"
+    },
+    "fact_check_verdicts": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["judge", "model", "verdict", "note"],
+        "properties": {
+          "judge": {
+            "type": "string",
+            "enum": ["source", "anchor", "interpretation"]
+          },
+          "model": { "type": "string" },
+          "verdict": {
+            "type": "string",
+            "enum": ["verified", "refuted", "uncertain"]
+          },
+          "note": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 500
+          }
+        }
+      }
+    },
+    "note_internal": {
+      "type": "string",
+      "description": "Editorial note not rendered to readers."
+    }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "fact_checked": { "const": true } } },
+      "then": {
+        "required": ["fact_check_verdicts", "fact_checked_by", "fact_checked_at"]
+      }
+    },
+    {
+      "if": { "properties": { "depth": { "const": "basic" } } },
+      "then": {
+        "properties": {
+          "confidence": { "enum": ["high", "medium"] }
+        },
+        "required": ["fact_checked"]
+      }
+    }
+  ]
+}

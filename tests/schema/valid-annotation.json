@@ -1,0 +1,49 @@
+[
+  {
+    "id": "hamlet-723-fishmonger",
+    "play": "hamlet",
+    "tln_start": 723,
+    "tln_end": 723,
+    "word_start": 4,
+    "word_end": 4,
+    "anchor_text": "fishmonger",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "Elizabethan slang for a pimp; Hamlet's insult feigns madness while accusing Polonius of using Ophelia as bait.",
+    "sources": [
+      {
+        "name": "Partridge, Shakespeare's Bawdy",
+        "citation": "Partridge, E. (1968). Shakespeare's Bawdy. Routledge. p. 121."
+      },
+      {
+        "name": "OED s.v. fishmonger",
+        "citation": "OED s.v. fishmonger n. 2.a (slang, obsolete): a procurer."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": ["claude-sonnet-4-6", "claude-sonnet-4-6", "claude-opus-4-7"],
+    "fact_checked_at": "2026-05-30",
+    "fact_check_verdicts": [
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Partridge and OED both confirm the procurer sense."
+      },
+      {
+        "judge": "anchor",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Word 'fishmonger' located at TLN 723."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-opus-4-7",
+        "verdict": "verified",
+        "note": "Standard reading since Theobald; no major dissent."
+      }
+    ]
+  }
+]

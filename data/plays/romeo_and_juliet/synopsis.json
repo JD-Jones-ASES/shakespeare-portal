@@ -1,0 +1,156 @@
+{
+  "play": "romeo_and_juliet",
+  "overview": "In Verona, two great families, the Montagues and the Capulets, have nursed an ancient feud that keeps breaking into street violence. Romeo, the Montague heir, gatecrashes a Capulet feast and falls instantly in love with Capulet's daughter Juliet; within a day the Friar marries them in secret, hoping the match will reconcile the houses. Instead the feud destroys them: Romeo kills Juliet's cousin Tybalt and is banished, Juliet's father forces a marriage to Count Paris, and a desperate sleeping-potion scheme miscarries when a letter fails to reach Romeo. Believing Juliet dead, Romeo poisons himself at her tomb; waking to find him gone, Juliet stabs herself. The play frames their whole story in a sonnet spoken by the Chorus before it begins — 'a pair of star-cross'd lovers' whose deaths at last bury their parents' strife.",
+  "acts": [
+    {
+      "number": 1,
+      "summary": "The Chorus's prologue announces the lovers' fate. A street brawl between the households is broken up by the Prince, who threatens death for any new fighting. Romeo, lovesick for Rosaline, is persuaded to slip into a Capulet feast, where he and Juliet meet, fall in love at once, and then each discover the other belongs to the enemy house.",
+      "scenes": [
+        {
+          "number": 1,
+          "summary": "After the Chorus's opening sonnet, a quarrel between Capulet and Montague servants erupts into a brawl; Benvolio tries to keep the peace while Tybalt inflames it. Prince Escalus stops the fighting and decrees death for further violence. Benvolio then learns from the melancholy Romeo that he pines hopelessly for a cold mistress, Rosaline.",
+          "themes": ["feud", "violence", "love", "social_order"]
+        },
+        {
+          "number": 2,
+          "summary": "Capulet tells Count Paris he may court Juliet and invites guests to a feast that night. An illiterate servant, unable to read the guest list, asks Romeo to decipher it, and so unwittingly invites him. Benvolio urges Romeo to come and compare Rosaline against Verona's other beauties.",
+          "themes": ["marriage", "family", "fate", "love"]
+        },
+        {
+          "number": 3,
+          "summary": "Lady Capulet, helped by the garrulous, bawdy Nurse, tells the not-yet-fourteen Juliet that Paris seeks her hand. Juliet, dutiful but unmoved, promises only to 'look to like' him no more than her mother approves.",
+          "themes": ["marriage", "family", "youth_vs_age", "gender"]
+        },
+        {
+          "number": 4,
+          "summary": "On the way to the feast, the masked Romeo voices a sense of foreboding. Mercutio mocks his lovesickness and spins the fantastical Queen Mab speech about the fairy who gallops through sleepers' dreams, before Romeo's dread of 'some consequence yet hanging in the stars.'",
+          "themes": ["fate", "imagination", "language", "desire"]
+        },
+        {
+          "number": 5,
+          "summary": "At the feast Romeo sees Juliet and forgets Rosaline at once. Tybalt recognizes the Montague voice and is furious, but Capulet forbids any disturbance. Romeo and Juliet share their first words in the form of a sonnet and kiss; only afterward does each learn, with dismay, that the other is a sworn enemy.",
+          "themes": ["love", "feud", "desire", "fate"]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "A second Chorus sonnet marks the turn from Rosaline to Juliet. Romeo lingers beneath Juliet's window; in the balcony scene the two exchange vows and resolve to marry. Friar Lawrence agrees to wed them, hoping to end the feud, and with the Nurse as go-between the secret marriage is arranged and performed.",
+      "scenes": [
+        {
+          "number": 1,
+          "summary": "After the Chorus's second prologue, Romeo gives his friends the slip and leaps the orchard wall. Mercutio comically 'conjures' for him with bawdy jokes about Rosaline, then he and Benvolio give up and go home.",
+          "themes": ["love", "desire", "friendship", "language"]
+        },
+        {
+          "number": 2,
+          "summary": "The balcony scene: overhearing Juliet confess her love to the night ('wherefore art thou Romeo'), Romeo reveals himself. The two trade vows, worry at how sudden it all is, and agree that Juliet will send to him next day to arrange their marriage; they part with 'sweet sorrow.'",
+          "themes": ["love", "marriage", "language", "haste"]
+        },
+        {
+          "number": 3,
+          "summary": "Friar Lawrence, gathering herbs and musing on how the same plant can heal or kill, is surprised by Romeo's new love. Doubtful of such a swift change of heart, he nonetheless agrees to marry the pair, hoping the union will turn the households' rancour to pure love.",
+          "themes": ["fate", "religion", "youth_vs_age", "love"]
+        },
+        {
+          "number": 4,
+          "summary": "Mercutio and Benvolio report that Tybalt has sent Romeo a challenge, then trade quick-fire wit with the newly cheerful Romeo. The Nurse arrives on her errand and is teased mercilessly by Mercutio; Romeo sends word that Juliet should come to Friar Lawrence's cell to be married.",
+          "themes": ["honor", "language", "marriage", "desire"]
+        },
+        {
+          "number": 5,
+          "summary": "Juliet frets through the long wait for the Nurse, who, returning footsore, teases her with delays and complaints before finally delivering the happy news: Juliet is to go to the cell that afternoon to become Romeo's wife.",
+          "themes": ["love", "youth_vs_age", "time", "marriage"]
+        },
+        {
+          "number": 6,
+          "summary": "At the cell Friar Lawrence warns that 'these violent delights have violent ends' and counsels moderation. Romeo and Juliet, impatient with joy, are led away to be married.",
+          "themes": ["marriage", "love", "fate", "haste"]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "summary": "The tragedy turns. Tybalt kills Mercutio, Romeo kills Tybalt, and the Prince banishes Romeo on pain of death. The newlyweds spend a single night together before Romeo flees to Mantua; meanwhile Capulet, to lift his daughter's supposed grief for Tybalt, suddenly commands her to marry Paris, and when she refuses he turns on her violently.",
+      "scenes": [
+        {
+          "number": 1,
+          "summary": "Tybalt seeks Romeo, who — now secretly his kinsman — refuses to fight. Mercutio draws in his place and is fatally stabbed under Romeo's arm, cursing 'a plague o' both your houses.' Enraged, Romeo kills Tybalt and flees; the Prince banishes him rather than execute him.",
+          "themes": ["violence", "honor", "feud", "death"]
+        },
+        {
+          "number": 2,
+          "summary": "Longing for night and her husband, Juliet instead hears from the Nurse that Romeo has killed Tybalt and is banished. Torn between grief for her cousin and love for Romeo, she chooses Romeo, and sends the Nurse with a ring to bring him to her that night.",
+          "themes": ["love", "grief", "loyalty", "language"]
+        },
+        {
+          "number": 3,
+          "summary": "Hidden in the Friar's cell, Romeo rages that banishment is worse than death. The Friar rebukes his despair and lays out a plan: Romeo will spend the night with Juliet, then live in Mantua until the marriage can be revealed and a pardon won.",
+          "themes": ["grief", "exile", "fate", "youth_vs_age"]
+        },
+        {
+          "number": 4,
+          "summary": "Late at night, Capulet abruptly promises Juliet to Paris and fixes the wedding for Thursday, certain it will comfort her supposed mourning for Tybalt.",
+          "themes": ["marriage", "family", "haste", "fate"]
+        },
+        {
+          "number": 5,
+          "summary": "At dawn the lovers part after their wedding night, debating whether it is the lark or the nightingale they hear. Lady Capulet then brings news of the Paris match; when Juliet refuses, Capulet flies into a rage and threatens to disown her. Even the Nurse advises her to forget Romeo and marry Paris, and Juliet resolves to seek the Friar's help.",
+          "themes": ["love", "family", "marriage", "gender"]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "summary": "Desperate to avoid the marriage to Paris, Juliet gets from Friar Lawrence a potion that will make her seem dead for forty-two hours, so that she can be laid in the family tomb and wake to escape with Romeo. She drinks it alone in terror; the next morning her family find her apparently dead, and the wedding preparations become a funeral.",
+      "scenes": [
+        {
+          "number": 1,
+          "summary": "Paris arranges the wedding at the cell as Juliet arrives. Alone with her, the Friar gives her a vial: drink it the night before the wedding, and she will fall into a death-like sleep, to wake in the Capulet vault where Romeo will be waiting.",
+          "themes": ["marriage", "deception", "death", "fate"]
+        },
+        {
+          "number": 2,
+          "summary": "Juliet returns seemingly repentant and submits to the match, delighting her father, who in his joy moves the wedding forward a day, to Wednesday — tightening the scheme's timing.",
+          "themes": ["deception", "family", "haste", "marriage"]
+        },
+        {
+          "number": 3,
+          "summary": "Alone at night, Juliet steels herself against her fears — that the potion will fail, or that she will wake too early among the bones of her ancestors and the fresh corpse of Tybalt — and drinks it, calling on Romeo.",
+          "themes": ["fear", "death", "love", "resolve"]
+        },
+        {
+          "number": 4,
+          "summary": "The Capulet household stays up through the night in a bustle of cooking and errands as Capulet, merry and sleepless, hurries the servants to ready the wedding feast.",
+          "themes": ["family", "haste", "time"]
+        },
+        {
+          "number": 5,
+          "summary": "The Nurse finds Juliet cold in her bed, and the household breaks into grief; the wedding flowers and music are turned to a funeral. A brief comic exchange between Peter and the hired musicians closes the scene.",
+          "themes": ["death", "grief", "family", "irony"]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "summary": "In Mantua Romeo hears only that Juliet is dead — the Friar's explanatory letter never arrives — and buys poison to die beside her. At the tomb he kills the mourning Paris, drinks the poison, and dies; Juliet wakes moments later, finds him dead, and stabs herself. Over the bodies of their children, and with the Friar's confession, the Montagues and Capulets are at last reconciled.",
+      "scenes": [
+        {
+          "number": 1,
+          "summary": "Cheered by a hopeful dream, Romeo is met in Mantua by his man Balthasar with the news that Juliet lies dead in the Capulet tomb. Resolving to lie with her that night, Romeo bullies a poverty-stricken Apothecary into selling him a fast, deadly poison.",
+          "themes": ["fate", "death", "love", "poverty"]
+        },
+        {
+          "number": 2,
+          "summary": "Friar Lawrence learns that Friar John, sent with the crucial letter to Romeo, was shut up in a plague-quarantined house and never delivered it. Realizing Romeo does not know the truth, Lawrence hurries to the tomb to be there when Juliet wakes.",
+          "themes": ["fate", "chance", "death"]
+        },
+        {
+          "number": 3,
+          "summary": "Paris comes to mourn at Juliet's tomb and is killed fighting the intruding Romeo, who then takes his last look at Juliet, drinks the poison, and dies. Juliet wakes to find him dead and stabs herself with his dagger. The Friar's confession reveals the secret marriage; grief-stricken, Capulet and Montague clasp hands, and the Prince closes with 'never was a story of more woe.'",
+          "themes": ["death", "love", "fate", "feud"]
+        }
+      ]
+    }
+  ]
+}

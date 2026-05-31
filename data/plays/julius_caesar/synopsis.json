@@ -1,0 +1,126 @@
+{
+  "play": "julius_caesar",
+  "overview": "Rome's most powerful man returns in triumph and is offered a crown. A group of senators, fearing he means to make himself king and end the Republic, draw the honorable Marcus Brutus into a conspiracy and stab Caesar to death at the Capitol on the ides of March. Mark Antony turns the Roman crowd against the assassins with a single funeral speech, and the city collapses into civil war. The play is less about Caesar, who dies halfway through, than about Brutus — the idealist who kills a friend to save an idea, and is destroyed by the consequences.",
+  "acts": [
+    {
+      "number": 1,
+      "summary": "Rome celebrates Caesar's victory over the sons of his rival Pompey. The tribunes resent it, and Cassius begins quietly building a conspiracy, working above all to win the respected Brutus to the cause. Strange portents trouble the night.",
+      "scenes": [
+        {
+          "number": 1,
+          "summary": "The tribunes Flavius and Marullus drive the celebrating commoners off the streets and strip the festival decorations from Caesar's statues, uneasy at how fast the crowd's love has shifted from Pompey to Caesar.",
+          "themes": ["class", "political_legitimacy", "loyalty"]
+        },
+        {
+          "number": 2,
+          "summary": "At the feast of Lupercal a Soothsayer warns Caesar to 'beware the ides of March.' Cassius sounds out Brutus, arguing that Caesar has grown dangerously god-like, while Casca describes Caesar publicly refusing a crown three times and then fainting.",
+          "themes": ["ambition", "political_legitimacy", "honor", "appearance_vs_reality"]
+        },
+        {
+          "number": 3,
+          "summary": "A night of supernatural portents shakes Rome. Casca and Cassius read the storm as a warning about Caesar; Cassius gathers the conspirators and plans to forge letters that will commit Brutus to the plot.",
+          "themes": ["prophecy", "order_vs_chaos", "fate"]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "Brutus, alone in his orchard, talks himself into the murder and takes charge of the conspiracy, overruling Cassius on its conduct. Despite his wife's pleas, omens, and his own wife Calpurnia's terror, Caesar is flattered into going to the Senate.",
+      "scenes": [
+        {
+          "number": 1,
+          "summary": "Brutus resolves that Caesar must die before he can abuse power. The conspirators meet at his house; he persuades them to swear no oath and to spare Antony. Portia begs to be trusted with his secret.",
+          "themes": ["honor", "deception", "loyalty", "political_legitimacy"]
+        },
+        {
+          "number": 2,
+          "summary": "Frightened by Calpurnia's dream of his statue running blood, Caesar decides to stay home — until Decius reinterprets the dream as a sign of Rome's renewal and shames him with the prospect of the crown.",
+          "themes": ["prophecy", "fate", "appearance_vs_reality"]
+        },
+        {
+          "number": 3,
+          "summary": "Artemidorus reads aloud the letter naming the conspirators that he hopes to hand Caesar in the street.",
+          "themes": ["fate", "loyalty"]
+        },
+        {
+          "number": 4,
+          "summary": "Portia, frantic with the secret she now shares, sends young Lucius toward the Capitol, while the Soothsayer waits to make one last attempt to warn Caesar.",
+          "themes": ["fate", "loyalty", "prophecy"]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "summary": "Caesar is assassinated at the Capitol. Antony, pretending reconciliation, secures permission to speak at the funeral and uses it to turn the people against the conspirators, plunging Rome into chaos.",
+      "scenes": [
+        {
+          "number": 1,
+          "summary": "At the Capitol the conspirators surround Caesar over Metellus's petition and stab him; he dies recognizing Brutus ('Et tu, Brute?'). Antony shakes their bloody hands, then, alone over the body, vows to 'cry havoc' and let slip the dogs of war.",
+          "themes": ["betrayal", "power", "political_legitimacy", "death"]
+        },
+        {
+          "number": 2,
+          "summary": "In the Forum Brutus explains the murder and wins the crowd; then Antony's oration ('Friends, Romans, countrymen'), the sight of Caesar's wounds, and the reading of his will turn the people to mutiny against the assassins.",
+          "themes": ["language", "performance", "power", "appearance_vs_reality"]
+        },
+        {
+          "number": 3,
+          "summary": "The inflamed mob seizes Cinna the poet and tears him apart simply for sharing a conspirator's name.",
+          "themes": ["order_vs_chaos", "identity"]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "summary": "Antony, Octavius, and Lepidus divide power and mark out enemies to be killed. In the camp near Sardis, Brutus and Cassius quarrel bitterly and reconcile; Brutus reveals Portia is dead, and the Ghost of Caesar appears to him.",
+      "scenes": [
+        {
+          "number": 1,
+          "summary": "The new Triumvirate coldly checks off the names of those who must die, and Antony dismisses Lepidus as a mere errand-runner while planning the war against Brutus and Cassius.",
+          "themes": ["power", "corruption", "betrayal", "death"]
+        },
+        {
+          "number": 2,
+          "summary": "At the camp near Sardis, Brutus greets a noticeably cooler Cassius and draws him aside to air their grievances in private.",
+          "themes": ["loyalty", "honor"]
+        },
+        {
+          "number": 3,
+          "summary": "Brutus and Cassius quarrel furiously, then reconcile. Brutus reveals Portia has killed herself, and the two agree to march to Philippi. That night the Ghost of Caesar appears, promising to meet Brutus on the battlefield.",
+          "themes": ["honor", "grief", "fate", "prophecy"]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "summary": "The armies meet on the plains of Philippi. Through misjudgment and bad news, Cassius and then Brutus take their own lives in the Roman fashion, and Antony and Octavius are left masters of Rome.",
+      "scenes": [
+        {
+          "number": 1,
+          "summary": "Before the battle the leaders trade insults across the field. Cassius, on his birthday and newly fearful of omens, exchanges solemn farewells with Brutus in case they never meet again.",
+          "themes": ["fate", "honor", "war"]
+        },
+        {
+          "number": 2,
+          "summary": "Sensing weakness in Octavius's wing, Brutus sends Messala with orders for a sudden attack.",
+          "themes": ["war"]
+        },
+        {
+          "number": 3,
+          "summary": "Wrongly told that Titinius has been captured, Cassius has his bondman Pindarus kill him with the same sword that struck Caesar. Titinius, returning crowned with victory, finds Cassius dead and kills himself beside him.",
+          "themes": ["fate", "death", "honor"]
+        },
+        {
+          "number": 4,
+          "summary": "In the thick of battle Young Cato is killed proclaiming his name, and Lucilius, pretending to be Brutus, is captured and spared by an admiring Antony.",
+          "themes": ["honor", "loyalty", "war"]
+        },
+        {
+          "number": 5,
+          "summary": "His cause lost, Brutus asks his friends to hold his sword and at last runs upon it with Strato's help. Antony pronounces him 'the noblest Roman of them all,' and Octavius orders him buried with honor.",
+          "themes": ["honor", "death", "mortality"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shakespeare-portal/schemas/reference-card.schema.json",
+  "title": "ReferenceCardCollection",
+  "description": "Reusable reference cards (biblical, classical, historical) linked from annotations.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["kind", "cards"],
+  "properties": {
+    "kind": {
+      "type": "string",
+      "enum": ["biblical", "classical", "historical"]
+    },
+    "cards": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/card" }
+    }
+  },
+  "$defs": {
+    "card": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "kind", "title", "source", "summary_basic"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-]*$",
+          "description": "Stable card id, kebab-case. Annotations reference this via references[].card_id."
+        },
+        "kind": {
+          "type": "string",
+          "enum": ["biblical", "classical", "historical"]
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["name", "citation"],
+          "properties": {
+            "name": {
+              "type": "string",
+              "description": "Short label (e.g. 'Geneva Bible 1599')."
+            },
+            "citation": {
+              "type": "string",
+              "description": "Full reference (book chapter:verse, work book.line, etc.)."
+            },
+            "url": {
+              "type": "string",
+              "format": "uri"
+            }
+          }
+        },
+        "summary_basic": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 600,
+          "description": "Default-depth explanation. 1-3 sentences."
+        },
+        "detail_scholar": {
+          "type": "string",
+          "maxLength": 1500,
+          "description": "Scholar-depth elaboration. Optional."
+        },
+        "related_plays": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "description": "Slugs of plays where this card recurs."
+        },
+        "see_also": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["kind", "card_id"],
+            "properties": {
+              "kind": {
+                "type": "string",
+                "enum": ["biblical", "classical", "historical"]
+              },
+              "card_id": {
+                "type": "string",
+                "pattern": "^[a-z0-9-]+$"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

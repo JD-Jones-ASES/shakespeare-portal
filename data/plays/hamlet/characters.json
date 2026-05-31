@@ -1,0 +1,470 @@
+[
+  {
+    "id": "hamlet",
+    "name": "Hamlet",
+    "aliases": [
+      "Ham."
+    ],
+    "role": "protagonist",
+    "description": "Prince of Denmark, son of the late King Hamlet and Queen Gertrude, nephew to the new King Claudius. A student at Wittenberg called home by his father's death, he is charged by his father's ghost with revenge — and spends the play thinking, feigning madness, and delaying.",
+    "relationships": [
+      {
+        "other_id": "ghost",
+        "relation": "son of (the dead King Hamlet)"
+      },
+      {
+        "other_id": "gertrude",
+        "relation": "son of"
+      },
+      {
+        "other_id": "claudius",
+        "relation": "nephew and stepson of"
+      },
+      {
+        "other_id": "ophelia",
+        "relation": "courts / rejects"
+      },
+      {
+        "other_id": "horatio",
+        "relation": "closest friend of"
+      },
+      {
+        "other_id": "laertes",
+        "relation": "kills, and is killed by"
+      }
+    ],
+    "color": "#2a7ab0"
+  },
+  {
+    "id": "claudius",
+    "name": "King Claudius",
+    "aliases": [
+      "King.",
+      "King"
+    ],
+    "role": "antagonist",
+    "description": "The new King of Denmark, who has murdered his brother (Hamlet's father), seized the throne, and married the widowed queen. Outwardly a capable, smooth-talking ruler; inwardly guilt-ridden and increasingly murderous.",
+    "relationships": [
+      {
+        "other_id": "gertrude",
+        "relation": "husband of"
+      },
+      {
+        "other_id": "hamlet",
+        "relation": "uncle and stepfather of; murdered the father of"
+      },
+      {
+        "other_id": "ghost",
+        "relation": "murdered (his brother)"
+      }
+    ],
+    "color": "#b5462f"
+  },
+  {
+    "id": "gertrude",
+    "name": "Queen Gertrude",
+    "aliases": [
+      "Queen."
+    ],
+    "role": "major",
+    "description": "Queen of Denmark, Hamlet's mother, who married Claudius within two months of her first husband's death — the 'o'erhasty marriage' that disgusts her son.",
+    "relationships": [
+      {
+        "other_id": "hamlet",
+        "relation": "mother of"
+      },
+      {
+        "other_id": "claudius",
+        "relation": "wife of"
+      }
+    ],
+    "color": "#b25fa3"
+  },
+  {
+    "id": "polonius",
+    "name": "Polonius",
+    "aliases": [
+      "Pol."
+    ],
+    "role": "major",
+    "description": "Lord Chamberlain, chief counselor to Claudius, and father of Laertes and Ophelia. A long-winded, self-satisfied schemer whose meddling gets him stabbed through a curtain.",
+    "relationships": [
+      {
+        "other_id": "laertes",
+        "relation": "father of"
+      },
+      {
+        "other_id": "ophelia",
+        "relation": "father of"
+      },
+      {
+        "other_id": "claudius",
+        "relation": "counselor to"
+      },
+      {
+        "other_id": "reynaldo",
+        "relation": "master of"
+      }
+    ],
+    "color": "#9c7a4d"
+  },
+  {
+    "id": "ophelia",
+    "name": "Ophelia",
+    "aliases": [
+      "Oph."
+    ],
+    "role": "major",
+    "description": "Daughter of Polonius, sister of Laertes, and the object of Hamlet's courtship. Pressured by the men around her, rejected by Hamlet, and bereaved of her father, she goes mad and drowns.",
+    "relationships": [
+      {
+        "other_id": "polonius",
+        "relation": "daughter of"
+      },
+      {
+        "other_id": "laertes",
+        "relation": "sister of"
+      },
+      {
+        "other_id": "hamlet",
+        "relation": "courted and rejected by"
+      }
+    ],
+    "color": "#2e8b6f"
+  },
+  {
+    "id": "horatio",
+    "name": "Horatio",
+    "aliases": [
+      "Hor."
+    ],
+    "role": "major",
+    "description": "Hamlet's friend and fellow scholar, level-headed and loyal. He is the witness Hamlet trusts, and the one left alive to 'tell my story.'",
+    "relationships": [
+      {
+        "other_id": "hamlet",
+        "relation": "loyal friend of"
+      }
+    ],
+    "color": "#4f9dd1"
+  },
+  {
+    "id": "laertes",
+    "name": "Laertes",
+    "aliases": [
+      "Laer."
+    ],
+    "role": "major",
+    "description": "Son of Polonius, brother of Ophelia. Hot-blooded where Hamlet is reflective, he returns from France to avenge his father and sister, and is manipulated by Claudius into the fatal duel.",
+    "relationships": [
+      {
+        "other_id": "polonius",
+        "relation": "son of"
+      },
+      {
+        "other_id": "ophelia",
+        "relation": "brother of"
+      },
+      {
+        "other_id": "hamlet",
+        "relation": "kills, and is killed by"
+      }
+    ],
+    "color": "#c98a2b"
+  },
+  {
+    "id": "ghost",
+    "name": "Ghost of Hamlet's Father",
+    "aliases": [
+      "Ghost."
+    ],
+    "role": "supporting",
+    "description": "The spirit of the dead King Hamlet, who reveals that he was murdered by Claudius and commands his son to avenge him while sparing Gertrude.",
+    "relationships": [
+      {
+        "other_id": "hamlet",
+        "relation": "father of"
+      },
+      {
+        "other_id": "claudius",
+        "relation": "murdered by"
+      }
+    ],
+    "color": "#7b76c4"
+  },
+  {
+    "id": "rosencrantz",
+    "name": "Rosencrantz",
+    "aliases": [
+      "Ros."
+    ],
+    "role": "supporting",
+    "description": "A former schoolfellow of Hamlet, summoned by Claudius to spy on him. Paired almost inseparably with Guildenstern.",
+    "relationships": [
+      {
+        "other_id": "guildenstern",
+        "relation": "paired with"
+      },
+      {
+        "other_id": "claudius",
+        "relation": "recruited by"
+      }
+    ],
+    "color": "#8a9a3c"
+  },
+  {
+    "id": "guildenstern",
+    "name": "Guildenstern",
+    "aliases": [
+      "Guil."
+    ],
+    "role": "supporting",
+    "description": "A former schoolfellow of Hamlet, recruited with Rosencrantz to spy on him, and sent with him to England carrying their own death warrant.",
+    "relationships": [
+      {
+        "other_id": "rosencrantz",
+        "relation": "paired with"
+      },
+      {
+        "other_id": "claudius",
+        "relation": "recruited by"
+      }
+    ],
+    "color": "#a96fb0"
+  },
+  {
+    "id": "osric",
+    "name": "Osric",
+    "aliases": [
+      "Osr."
+    ],
+    "role": "minor",
+    "description": "An affected, foppish courtier who brings Hamlet the challenge to the duel with Laertes.",
+    "color": "#b0903a"
+  },
+  {
+    "id": "marcellus",
+    "name": "Marcellus",
+    "aliases": [
+      "Mar."
+    ],
+    "role": "supporting",
+    "description": "An officer of the watch who, with Bernardo, first sees the Ghost and brings Horatio to witness it. Speaker of 'Something is rotten in the state of Denmark.'",
+    "color": "#a84e72"
+  },
+  {
+    "id": "bernardo",
+    "name": "Bernardo",
+    "aliases": [
+      "Ber."
+    ],
+    "role": "minor",
+    "description": "An officer of the watch who has seen the Ghost on the previous nights and helps persuade Horatio it is real.",
+    "color": "#4f9e57"
+  },
+  {
+    "id": "francisco",
+    "name": "Francisco",
+    "aliases": [
+      "Fran."
+    ],
+    "role": "minor",
+    "description": "A soldier on guard at the play's opening, 'sick at heart,' relieved by Bernardo.",
+    "color": "#cf7a33"
+  },
+  {
+    "id": "reynaldo",
+    "name": "Reynaldo",
+    "aliases": [
+      "Rey."
+    ],
+    "role": "minor",
+    "description": "Polonius's servant, sent to Paris to spy on Laertes and spread useful rumors about him.",
+    "color": "#5a8f8f"
+  },
+  {
+    "id": "fortinbras",
+    "name": "Fortinbras",
+    "aliases": [
+      "Fort.",
+      "For."
+    ],
+    "role": "supporting",
+    "description": "Prince of Norway, whose father was killed by Hamlet's father. His decisive pursuit of honor and his army marching across Denmark are a foil to Hamlet's delay; he inherits the Danish throne at the end.",
+    "color": "#3fa395"
+  },
+  {
+    "id": "voltimand",
+    "name": "Voltimand",
+    "aliases": [
+      "Volt."
+    ],
+    "role": "minor",
+    "description": "A Danish courtier sent as ambassador to Norway to check Fortinbras's threatened invasion.",
+    "color": "#7a8fb5"
+  },
+  {
+    "id": "cornelius",
+    "name": "Cornelius",
+    "aliases": [
+      "Corn."
+    ],
+    "role": "minor",
+    "description": "A Danish courtier sent with Voltimand as ambassador to Norway.",
+    "color": "#8a7fb0"
+  },
+  {
+    "id": "first_player",
+    "name": "First Player",
+    "aliases": [
+      "I Play.",
+      "I Player."
+    ],
+    "role": "minor",
+    "description": "The lead actor of the travelling troupe, who delivers the Hecuba speech and plays in 'The Mousetrap.'",
+    "color": "#6a6fd0"
+  },
+  {
+    "id": "player_king",
+    "name": "Player King",
+    "aliases": [
+      "P. King."
+    ],
+    "role": "minor",
+    "description": "The king in 'The Mousetrap,' the play-within-the-play staged to catch Claudius's conscience.",
+    "color": "#c0795a"
+  },
+  {
+    "id": "player_queen",
+    "name": "Player Queen",
+    "aliases": [
+      "P. Queen."
+    ],
+    "role": "minor",
+    "description": "The queen in 'The Mousetrap,' whose protests of eternal fidelity prompt Gertrude's line 'The lady doth protest too much.'",
+    "color": "#b06a8a"
+  },
+  {
+    "id": "gravedigger_1",
+    "name": "First Gravedigger",
+    "aliases": [
+      "1 Clown."
+    ],
+    "role": "supporting",
+    "description": "The chief grave-digger ('Clown'), whose grim wit and riddles open Act 5 and who unearths the skull of Yorick.",
+    "color": "#b85ca0"
+  },
+  {
+    "id": "gravedigger_2",
+    "name": "Second Gravedigger",
+    "aliases": [
+      "2 Clown."
+    ],
+    "role": "minor",
+    "description": "The grave-digger's companion, straight man to the First Gravedigger's jokes.",
+    "color": "#6a9a8a"
+  },
+  {
+    "id": "priest",
+    "name": "Priest",
+    "aliases": [
+      "1 Priest."
+    ],
+    "role": "minor",
+    "description": "The cleric who conducts Ophelia's truncated funeral rites, hinting at the suspicion that she died by suicide.",
+    "color": "#8c7f5f"
+  },
+  {
+    "id": "captain",
+    "name": "Captain",
+    "aliases": [
+      "Capt."
+    ],
+    "role": "minor",
+    "description": "A Norwegian captain in Fortinbras's army who tells Hamlet that thousands will die over a worthless patch of Polish ground.",
+    "color": "#9a7b3f"
+  },
+  {
+    "id": "sailor",
+    "name": "Sailor",
+    "aliases": [
+      "Sailor.",
+      "I Sailor."
+    ],
+    "role": "minor",
+    "description": "A sailor who delivers Hamlet's letter to Horatio reporting his escape from the ship to England.",
+    "color": "#5f9c79"
+  },
+  {
+    "id": "messenger",
+    "name": "Messenger",
+    "aliases": [
+      "Mess."
+    ],
+    "role": "minor",
+    "description": "A messenger who brings news to the court, including Laertes's return at the head of a mob.",
+    "color": "#a0784f"
+  },
+  {
+    "id": "gentleman",
+    "name": "Gentleman",
+    "aliases": [
+      "Gent."
+    ],
+    "role": "minor",
+    "description": "A courtier who describes the mad Ophelia before her entrance in Act 4.",
+    "color": "#7f9c5a"
+  },
+  {
+    "id": "lord",
+    "name": "Lord",
+    "aliases": [
+      "Lord."
+    ],
+    "role": "minor",
+    "description": "A courtier who confirms the arrangements for the duel between Hamlet and Laertes.",
+    "color": "#9a6f8f"
+  },
+  {
+    "id": "ambassador",
+    "name": "First Ambassador",
+    "aliases": [
+      "1 Ambassador.",
+      "2 Ambassador.",
+      "Ambassador."
+    ],
+    "role": "minor",
+    "description": "An English ambassador who arrives at the play's end to report that Rosencrantz and Guildenstern have been put to death.",
+    "color": "#7f7faa"
+  },
+  {
+    "id": "prologue",
+    "name": "Prologue",
+    "aliases": [
+      "Pro."
+    ],
+    "role": "minor",
+    "description": "The speaker of the brief rhymed prologue to 'The Mousetrap,' the play-within-the-play.",
+    "color": "#9a8f4a"
+  },
+  {
+    "id": "lucianus",
+    "name": "Lucianus",
+    "aliases": [
+      "Luc."
+    ],
+    "role": "minor",
+    "description": "The poisoner in 'The Mousetrap,' 'nephew to the king' — a role that pointedly mirrors Hamlet's own threatened revenge on Claudius.",
+    "color": "#aa6f6a"
+  },
+  {
+    "id": "servant",
+    "name": "Servant",
+    "aliases": [
+      "Servant."
+    ],
+    "role": "minor",
+    "description": "A servant who announces the sailors bringing Hamlet's letter to Horatio.",
+    "color": "#7a8f4a"
+  }
+]

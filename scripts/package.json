@@ -1,0 +1,33 @@
+{
+  "name": "shakespeare-portal-scripts",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Ingest, generate, fact-check, validate, and build pipeline for Shakespeare Portal.",
+  "scripts": {
+    "validate": "tsx validate/schema-check.ts && tsx validate/anchor-check.ts && tsx validate/citation-check.ts",
+    "validate:schema": "tsx validate/schema-check.ts",
+    "validate:anchors": "tsx validate/anchor-check.ts",
+    "validate:citations": "tsx validate/citation-check.ts",
+    "ingest:gutenberg": "tsx ingest/parse-gutenberg.ts",
+    "ingest:tln": "tsx ingest/normalize-tln.ts",
+    "generate:annotate": "tsx generate/annotate-scene.ts",
+    "generate:factcheck": "tsx generate/fact-check.ts",
+    "build:index": "tsx build-index.ts"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  },
+  "optionalDependencies": {
+    "@anthropic-ai/sdk": "^0.30.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

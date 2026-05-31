@@ -1,0 +1,83 @@
+---
+import ReadingLayout from '../../../../layouts/ReadingLayout.astro';
+import { getPlay, listPlays, annotationsForScene, referenceCards } from '../../../../data/loader.ts';
+import SceneReader from '../../../../components/SceneReader.astro';
+import GlossSidebar from '../../../../components/GlossSidebar.tsx';
+import DepthToggle from '../../../../components/DepthToggle.tsx';
+import ReadingControls from '../../../../components/ReadingControls.tsx';
+import ReaderInteractions from '../../../../components/ReaderInteractions.astro';
+import { withBase } from '../../../../utils/url.ts';
+
+export function getStaticPaths() {
+  const paths: { params: { slug: string; act: string; scene: string } }[] = [];
+  for (const bundle of listPlays()) {
+    if (!bundle.text) continue;
+    for (const act of bundle.text.acts) {
+      for (const scene of act.scenes) {
+        paths.push({
+          params: {
+            slug: bundle.slug,
+            act: String(act.number),
+            scene: String(scene.number),
+          },
+        });
+      }
+    }
+  }
+  return paths;
+}
+
+const { slug, act: actStr, scene: sceneStr } = Astro.params;
+const bundle = getPlay(slug as string);
+if (!bundle?.text) return Astro.redirect('/404');
+const actNum = Number(actStr);
+const sceneNum = Number(sceneStr);
+const act = bundle.text.acts.find((a) => a.number === actNum);
+const scene = act?.scenes.find((s) => s.number === sceneNum);
+if (!act || !scene) return Astro.redirect(`/plays/${slug}/`);
+
+const annotations = annotationsForScene(slug as string, actNum, sceneNum);
+
+// characters who actually speak in this scene (for the filter)
+const speakerIds = new Set<string>();
+for (const l of scene.lines) if (l.kind === 'spoken' && l.speaker_id) speakerIds.add(l.speaker_id);
+const sceneCharacters = bundle.characters.filter((c) => speakerIds.has(c.id));
+const speakerColors: Record<string, string> = Object.fromEntries(
+  bundle.characters.filter((c) => c.color).map((c) => [c.id, c.color as string]),
+);
+
+const allScenes = bundle.text.acts.flatMap((a) =>
+  a.scenes.map((s) => ({ act: a.number, scene: s.number })),
+);
+const idx = allScenes.findIndex((p) => p.act === actNum && p.scene === sceneNum);
+const prev = idx > 0 ? allScenes[idx - 1] : undefined;
+const next = idx < allScenes.length - 1 ? allScenes[idx + 1] : undefined;
+const title = `${bundle.catalog?.title_short ?? bundle.slug} — Act ${actNum} Scene ${sceneNum}`;
+---
+<ReadingLayout title={title}>
+  <nav class="scene-nav">
+    <a href={withBase(`/plays/${slug}/`)}>&larr; {bundle.catalog?.title_short ?? slug}</a>
+    <span class="scene-label">Act {actNum} · Scene {sceneNum}</span>
+    <DepthToggle client:idle initial="read" />
+  </nav>
+
+  <div class="reading-grid">
+    <article class="scene-column">
+      <header class="scene-header">
+        <h1>Act {actNum}, Scene {sceneNum}</h1>
+        {scene.setting && <p class="setting">{scene.setting}</p>}
+      </header>
+      <SceneReader scene={scene} annotations={annotations} speakerColors={speakerColors} glossary={bundle.glossary?.entries ?? []} />
+      <nav class="scene-nav scene-nav-bottom">
+        {prev ? <a href={withBase(`/plays/${slug}/${prev.act}/${prev.scene}/`)}>&larr; Previous scene</a> : <span />}
+        {next ? <a href={withBase(`/plays/${slug}/${next.act}/${next.scene}/`)}>Next scene &rarr;</a> : <span />}
+      </nav>
+    </article>
+
+    <aside class="gloss-column">
+      {sceneCharacters.length > 1 && <ReadingControls client:idle characters={sceneCharacters} />}
+      <GlossSidebar client:idle annotations={annotations} cards={referenceCards} />
+    </aside>
+  </div>
+  <ReaderInteractions />
+</ReadingLayout>
