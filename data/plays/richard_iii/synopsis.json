@@ -1,0 +1,61 @@
+{
+  "play": "richard_iii",
+  "overview": "Shakespeare's portrait of a monster who is also a master manipulator. Richard, Duke of Gloucester — physically deformed and morally bottomless — opens the play resolved to 'prove a villain' and to claw his way to a throne with several lives between him and it. With dazzling, self-delighting hypocrisy he has his brother Clarence murdered, woos the Lady Anne over the coffin of a man he killed, destroys the queen's kindred, and tricks the city into begging him to be king. Crowned, he has the two young princes smothered in the Tower — but the murders curdle his support, his ally Buckingham revolts, and the curses of the women he has wronged close in. On the eve of the battle of Bosworth the ghosts of his victims promise him despair; the next day the Earl of Richmond kills him, ends the Wars of the Roses, and founds the Tudor line. The play fuses chronicle history with the morality-play Vice and the de casibus fall of princes.",
+  "acts": [
+    {
+      "number": 1,
+      "summary": "Richard declares himself a villain and sets his brothers against each other; he woos Lady Anne over a corpse; Margaret curses the court; and Clarence is murdered in the Tower.",
+      "scenes": [
+        { "number": 1, "summary": "Alone, Richard declares that since he cannot enjoy this 'weak piping time of peace,' he is determined to prove a villain. He has already turned King Edward against their brother Clarence, who is led to the Tower on a prophecy about the letter 'G,' and he resolves to marry Lady Anne for his own dark purposes.", "themes": ["ambition", "villainy", "deception"] },
+        { "number": 2, "summary": "Richard intercepts the funeral procession of Henry VI and, in an astonishing display of nerve, woos the dead king's daughter-in-law Lady Anne — whose husband and father-in-law he killed — over the very corpse, and wins her.", "themes": ["seduction", "hypocrisy", "power"] },
+        { "number": 3, "summary": "At court Richard plays the wronged honest man among the queen's faction. Old Queen Margaret, the last Lancastrian, breaks in to curse Richard and all who pulled down her house, foretelling the deaths to come. Richard then sets two hired murderers on Clarence.", "themes": ["faction", "prophecy", "hypocrisy"] },
+        { "number": 4, "summary": "In the Tower, Clarence recounts a terrifying dream of drowning and of judgment in hell. The murderers enter — the second wavering with conscience — and they stab Clarence and drown him in a butt of malmsey wine.", "themes": ["conscience", "murder", "guilt"] }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "The dying Edward's forced reconciliation collapses at news of Clarence's death; the court mourns the king; citizens dread the future; and the queen flees to sanctuary as her kindred are seized.",
+      "scenes": [
+        { "number": 1, "summary": "The dying King Edward stages a reconciliation among his quarrelling courtiers. Richard arrives and announces that Clarence is dead — the king's pardon came too late — shattering Edward and loading the guilt onto the queen's kin.", "themes": ["false_reconciliation", "guilt", "death"] },
+        { "number": 2, "summary": "The old Duchess of York and Clarence's orphaned children grieve; news comes of King Edward's death; the widowed queen laments. Richard and Buckingham arrange to fetch the young prince to London with a small escort.", "themes": ["grief", "mourning", "succession"] },
+        { "number": 3, "summary": "Ordinary citizens in the street exchange dark forebodings about a realm left to a child king and 'full of danger.'", "themes": ["foreboding", "commonwealth", "instability"] },
+        { "number": 4, "summary": "Word reaches the queen that her brother Rivers and son Grey have been seized and sent to Pomfret. Terrified, she flees with her younger son into sanctuary.", "themes": ["fear", "refuge", "tyranny"] }
+      ]
+    },
+    {
+      "number": 3,
+      "summary": "The princes are lodged in the Tower; Hastings ignores the warnings and is beheaded; the queen's kin are executed at Pomfret; and Buckingham stages the show that makes Richard king.",
+      "scenes": [
+        { "number": 1, "summary": "The young Prince Edward arrives, and his quick-witted little brother York teases their uncle about his shoulders. Richard lodges the boys 'for safety' in the Tower, and Buckingham wins Catesby to sound out Lord Hastings.", "themes": ["deception", "innocence", "power"] },
+        { "number": 2, "summary": "Warned by Stanley's ominous dream of the boar and by other omens, Lord Hastings brushes the danger aside — confident in Richard's favour — and goes cheerfully to the fatal council.", "themes": ["dramatic_irony", "complacency", "fate"] },
+        { "number": 3, "summary": "At Pomfret Castle the queen's kindred — Rivers, Grey, and Vaughan — are led to execution, each recalling that Margaret's curse is now falling upon them.", "themes": ["revenge", "prophecy", "death"] },
+        { "number": 4, "summary": "At the council Richard suddenly accuses Hastings of treason, displays his withered arm and blames the queen and Mistress Shore for it, and has Hastings beheaded on the spot.", "themes": ["tyranny", "betrayal", "terror"] },
+        { "number": 5, "summary": "Richard and Buckingham, in rusty borrowed armour, gull the Lord Mayor into believing Hastings a dangerous traitor justly killed, then set about smearing the dead king's children as bastards.", "themes": ["manipulation", "propaganda", "deception"] },
+        { "number": 6, "summary": "A scrivener observes that the indictment of Hastings was fair-copied hours before the man was even accused — the whole world can see the fraud, yet none dares speak of it.", "themes": ["injustice", "complicity", "tyranny"] },
+        { "number": 7, "summary": "Buckingham stages a piece of political theatre: Richard appears aloft between two bishops, prayer-book in hand, piously 'refusing' the crown until the Mayor and citizens are induced to beg him to take it.", "themes": ["hypocrisy", "performance", "ambition"] }
+      ]
+    },
+    {
+      "number": 4,
+      "summary": "The women are barred from the princes; Richard is crowned, has the boys murdered, and casts off Buckingham; the bereaved queens curse him as he courts a new bride and Richmond's invasion gathers.",
+      "scenes": [
+        { "number": 1, "summary": "The queen, the Duchess of York, and Anne are turned away from the Tower. Anne is summoned to be crowned Richard's queen and laments the day she yielded to him, foreseeing her own swift death.", "themes": ["downfall", "marriage", "lament"] },
+        { "number": 2, "summary": "King Richard, crowned, sounds out Buckingham about murdering the princes; when Buckingham hesitates, Richard freezes him out and hires the assassin Tyrrel, while plotting to be rid of Anne and marry his own niece.", "themes": ["tyranny", "paranoia", "ambition"] },
+        { "number": 3, "summary": "Tyrrel reports the pitiful smothering of the two princes. Richard, his wife now conveniently dead, plans to woo young Elizabeth — but news arrives that Ely has fled to Richmond and Buckingham is in arms.", "themes": ["murder", "remorse", "rebellion"] },
+        { "number": 4, "summary": "In the play's great lamentation the three bereaved queens heap curses on Richard. He then tries to win Queen Elizabeth's daughter through her mother in a long duel of wits, seeming to prevail, as messengers pour in with news of Richmond's fleet and risings across the land.", "themes": ["grief", "persuasion", "nemesis"] },
+        { "number": 5, "summary": "Lord Stanley secretly sends word of support to Richmond, though his son George is held hostage by Richard.", "themes": ["loyalty", "risk", "resistance"] }
+      ]
+    },
+    {
+      "number": 5,
+      "summary": "Buckingham is executed; Richmond advances; on Bosworth eve the ghosts of Richard's victims curse him and bless Richmond; Richard dies in battle and Richmond unites the roses as Henry VII.",
+      "scenes": [
+        { "number": 1, "summary": "The captured Buckingham is led to execution on All Souls' Day, acknowledging that Margaret's curse has fallen squarely on his own head.", "themes": ["retribution", "prophecy", "conscience"] },
+        { "number": 2, "summary": "Richmond, marching through England with a swelling army, rallies his followers against 'the wretched, bloody, and usurping boar.'", "themes": ["deliverance", "war", "political_legitimacy"] },
+        { "number": 3, "summary": "On the eve of Bosworth the two camps pitch their tents. The ghosts of Richard's eleven victims rise in turn to bid him 'despair and die' and to bless the sleeping Richmond. Richard wakes from nightmare to find his own conscience accusing him, while Richmond rises refreshed.", "themes": ["conscience", "providence", "the_supernatural"] },
+        { "number": 4, "summary": "In the thick of the battle the unhorsed Richard rages across the field crying 'A horse! a horse! my kingdom for a horse!' as he hunts for Richmond.", "themes": ["desperation", "war", "downfall"] },
+        { "number": 5, "summary": "Richmond kills Richard, takes the crown, pardons his enemies, and pledges to unite the white rose and the red by marrying Elizabeth of York — ending the long civil wars of England.", "themes": ["restoration", "reconciliation", "providence"] }
+      ]
+    }
+  ]
+}

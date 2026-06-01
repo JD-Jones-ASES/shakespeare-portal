@@ -233,6 +233,15 @@ function pushScene(num: number, setting: string | undefined) {
 // after a setting-less SCENE header, the scene's setting).
 const HENRY_VI_SLUGS = new Set(['henry_vi_part_1', 'henry_vi_part_2', 'henry_vi_part_3']);
 
+// Whether to suppress speaker-detection on text that trails an inline stage direction
+// (see dispatchText). GATED on the Henry VI edition, whose dense asides produce lines like
+// "[Aside.] Not I." (Richard, 3 Henry VI 4.1) where the short reply "Not I." would otherwise
+// be misread as a speaker. The eight earlier plays predate this guard and must re-ingest
+// byte-identical — notably Hamlet's Ghost cries "[Beneath.] Swear." (1.5), which the generic
+// path still folds into a no-op speaker; correcting those would shift Hamlet's TLNs and break
+// its shipped annotation anchors, so the guard is intentionally scoped to the Henry VI slugs.
+const INLINE_SD_GUARD = HENRY_VI_SLUGS.has(slug);
+
 // High-confidence stage-direction openers — words that begin a stage direction but
 // essentially never begin a line of dialogue. A non-speaker-led block is wrapped as an
 // unbracketed stage direction ONLY when its first line matches this; otherwise it is left
@@ -456,34 +465,41 @@ function emitSD(text: string) {
 function handleBracketed(s: string) {
   let rest = s;
   let lastWasSD = false;
+  let seenSD = false; // an inline SD has already appeared earlier on this physical line
   while (rest.length) {
     const open = rest.indexOf('[');
     if (open < 0) {
       const txt = rest.trim();
-      if (txt) { dispatchText(txt); lastWasSD = false; }
+      if (txt) { dispatchText(txt, seenSD); lastWasSD = false; }
       break;
     }
     if (open > 0) {
       const txt = rest.slice(0, open).trim();
-      if (txt) { dispatchText(txt); lastWasSD = false; }
+      if (txt) { dispatchText(txt, seenSD); lastWasSD = false; }
     }
     const close = rest.indexOf(']', open);
     if (close < 0) {
       emitSD(rest.slice(open + 1).trim());
-      lastWasSD = true;
+      lastWasSD = true; seenSD = true;
       break;
     }
     emitSD(rest.slice(open + 1, close).trim());
-    lastWasSD = true;
+    lastWasSD = true; seenSD = true;
     rest = rest.slice(close + 1);
   }
   // expectSpeaker is true iff the line ended on a stage direction
   expectSpeaker = lastWasSD;
 }
 
-/** A text segment of a bracketed line: a speaker label if we're expecting one, else dialogue. */
-function dispatchText(txt: string) {
-  if (expectSpeaker && looksLikeSpeaker(txt)) {
+/** A text segment of a bracketed line: a speaker label if we're expecting one, else
+ *  dialogue. When INLINE_SD_GUARD is on, text that follows an inline stage direction on the
+ *  SAME physical line (afterSD) is always dialogue — an inline "[Aside.] Not I." must not let
+ *  the short reply "Not I." (which happens to look like a speech prefix) be read as a new
+ *  speaker (emitSD sets expectSpeaker, so without this guard the trailing words are
+ *  mis-attributed and the line is lost). Only the leading segment, before any bracket, can be
+ *  a speaker. The guard is gated (see INLINE_SD_GUARD) so the earlier plays stay byte-identical. */
+function dispatchText(txt: string, afterSD = false) {
+  if ((!afterSD || !INLINE_SD_GUARD) && expectSpeaker && looksLikeSpeaker(txt)) {
     curSpeakerRaw = txt;
     curSpeaker = canonical(txt);
     expectSpeaker = false;

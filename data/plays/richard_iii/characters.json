@@ -1,0 +1,464 @@
+[
+  {
+    "id": "richard",
+    "name": "Richard, Duke of Gloucester (Richard III)",
+    "aliases": ["GLOSTER.", "GLOSTER", "KING RICHARD."],
+    "role": "protagonist",
+    "description": "Richard, Duke of Gloucester — deformed, brilliant, and conscienceless — who in the opening soliloquy ('Now is the winter of our discontent') resolves to prove a villain and schemes his way to the crown over the bodies of his brother Clarence, the young princes, his own wife, and every ally who served him. The title role; he dies at Bosworth crying 'A horse! a horse! my kingdom for a horse!' Labelled GLOSTER until his coronation, KING RICHARD after.",
+    "relationships": [
+      { "other_id": "clarence", "relation": "brother and murderer of" },
+      { "other_id": "king_edward", "relation": "brother of" },
+      { "other_id": "buckingham", "relation": "accomplice of" },
+      { "other_id": "anne", "relation": "husband of" },
+      { "other_id": "richmond", "relation": "killed by" }
+    ],
+    "color": "#a83232"
+  },
+  {
+    "id": "buckingham",
+    "name": "Duke of Buckingham",
+    "aliases": ["BUCKINGHAM."],
+    "role": "major",
+    "description": "Henry Stafford, Duke of Buckingham, Richard's chief accomplice, who stage-manages his rise — coaching the citizens and the Mayor to 'beg' Richard to take the crown. When he hesitates at murdering the princes and is denied his promised earldom, Richard casts him off; he is captured in revolt and executed, recalling Margaret's curse.",
+    "relationships": [
+      { "other_id": "richard", "relation": "accomplice of" }
+    ],
+    "color": "#8a5a3a"
+  },
+  {
+    "id": "queen_elizabeth",
+    "name": "Queen Elizabeth",
+    "aliases": ["QUEEN ELIZABETH."],
+    "role": "major",
+    "description": "Elizabeth Woodville, widow of Edward IV, who watches Richard destroy her brother, her sons by her first marriage, and at last the two young princes. In a long verbal duel she seems to yield her daughter to Richard's suit, but turns the girl instead toward Richmond.",
+    "relationships": [
+      { "other_id": "king_edward", "relation": "wife of" },
+      { "other_id": "prince", "relation": "mother of" },
+      { "other_id": "young_york", "relation": "mother of" },
+      { "other_id": "rivers", "relation": "sister of" }
+    ],
+    "color": "#b06a8a"
+  },
+  {
+    "id": "margaret",
+    "name": "Queen Margaret",
+    "aliases": ["QUEEN MARGARET."],
+    "role": "major",
+    "description": "The widowed queen of the murdered Henry VI, an old woman haunting the Yorkist court, who curses Richard and all who wronged the house of Lancaster with prophecies that come true one by one. She is the play's avenging chorus. (Historically Margaret had died in France years before; Shakespeare keeps her on stage for her dramatic power.)",
+    "relationships": [
+      { "other_id": "richard", "relation": "curser of" }
+    ],
+    "color": "#8a3a6a"
+  },
+  {
+    "id": "anne",
+    "name": "Lady Anne",
+    "aliases": ["ANNE."],
+    "role": "major",
+    "description": "Lady Anne Neville, widow of the Lancastrian Prince Edward, whom Richard woos over the corpse of Henry VI — and wins, though he murdered both her husband and her father-in-law. She becomes his queen, laments the day she yielded, and is quietly murdered once Richard needs a new bride.",
+    "relationships": [
+      { "other_id": "richard", "relation": "wife of" }
+    ],
+    "color": "#c98aa8"
+  },
+  {
+    "id": "duchess",
+    "name": "Duchess of York",
+    "aliases": ["DUCHESS."],
+    "role": "supporting",
+    "description": "Cecily, Duchess of York, mother of Edward IV, Clarence, and Richard, who comes to loathe the monstrous youngest son she bore and curses him to his face as he marches to Bosworth, praying that her enemies' souls may vanquish him.",
+    "relationships": [
+      { "other_id": "richard", "relation": "mother of" }
+    ],
+    "color": "#7a5a6a"
+  },
+  {
+    "id": "clarence",
+    "name": "George, Duke of Clarence",
+    "aliases": ["CLARENCE."],
+    "role": "supporting",
+    "description": "Richard's elder brother, imprisoned in the Tower on a prophecy that 'G' will murder Edward's heirs. He recounts a terrifying dream of drowning, then is stabbed and drowned in a butt of malmsey wine by hired murderers — trusting to the last that Richard loves him and will save him.",
+    "relationships": [
+      { "other_id": "richard", "relation": "brother, murdered by" },
+      { "other_id": "king_edward", "relation": "brother of" }
+    ],
+    "color": "#b5894a"
+  },
+  {
+    "id": "king_edward",
+    "name": "King Edward IV",
+    "aliases": ["KING EDWARD."],
+    "role": "supporting",
+    "description": "Edward IV, dying, who strains on his deathbed to reconcile his feuding court. His fragile peace shatters when Richard reveals that Clarence — whose pardon Edward had countermanded too late — is already dead, and the broken king soon follows.",
+    "relationships": [
+      { "other_id": "queen_elizabeth", "relation": "husband of" }
+    ],
+    "color": "#c08a3a"
+  },
+  {
+    "id": "hastings",
+    "name": "Lord Hastings",
+    "aliases": ["HASTINGS."],
+    "role": "supporting",
+    "description": "William, Lord Hastings, Lord Chamberlain, loyal to the dead Edward's sons. Refusing to support Richard's claim, he is abruptly accused of treason at a council and beheaded on the spot — having brushed aside every warning, including Stanley's dream of the boar.",
+    "color": "#5f7090"
+  },
+  {
+    "id": "stanley",
+    "name": "Lord Stanley (Derby)",
+    "aliases": ["STANLEY."],
+    "role": "supporting",
+    "description": "Thomas, Lord Stanley, Earl of Derby, who survives by trimming between factions. Forced to leave his son George as Richard's hostage, he nonetheless slips word to his stepson Richmond and withholds his troops at Bosworth, sealing the tyrant's fall.",
+    "relationships": [
+      { "other_id": "richmond", "relation": "stepfather of" }
+    ],
+    "color": "#4a7a8a"
+  },
+  {
+    "id": "richmond",
+    "name": "Earl of Richmond (Henry VII)",
+    "aliases": ["RICHMOND."],
+    "role": "major",
+    "description": "Henry Tudor, Earl of Richmond, the Lancastrian claimant who lands from exile, rallies the realm against the tyrant, is blessed by the ghosts of Richard's victims, and kills Richard at Bosworth to reign as Henry VII — ending the Wars of the Roses by marrying Edward IV's daughter and uniting the white and red roses.",
+    "relationships": [
+      { "other_id": "richard", "relation": "kills" },
+      { "other_id": "stanley", "relation": "stepson of" }
+    ],
+    "color": "#3f8a5a"
+  },
+  {
+    "id": "prince",
+    "name": "Edward, Prince of Wales",
+    "aliases": ["PRINCE."],
+    "role": "minor",
+    "description": "Edward V, the elder of the two young princes, sharp and unafraid, who debates history with his uncle and is lodged 'for safety' in the Tower — where he is smothered. NOT to be confused with the Lancastrian Prince Edward of the Henry VI plays.",
+    "relationships": [
+      { "other_id": "king_edward", "relation": "son of" },
+      { "other_id": "young_york", "relation": "brother of" }
+    ],
+    "color": "#6a8ab0"
+  },
+  {
+    "id": "young_york",
+    "name": "Richard, Duke of York (the young prince)",
+    "aliases": ["YORK."],
+    "role": "minor",
+    "description": "The younger of the two princes, a quick, teasing child who jests with his murderous uncle about his own small size and Richard's shoulders. Shut in the Tower with his brother and killed. NOT the long-dead Duke of York of the Henry VI plays.",
+    "relationships": [
+      { "other_id": "prince", "relation": "brother of" }
+    ],
+    "color": "#8aa0c0"
+  },
+  {
+    "id": "catesby",
+    "name": "Sir William Catesby",
+    "aliases": ["CATESBY."],
+    "role": "minor",
+    "description": "Richard's smooth political agent, who sounds out Hastings, works the citizens, and serves his master loyally to the end at Bosworth.",
+    "color": "#7a4a4a"
+  },
+  {
+    "id": "ratcliff",
+    "name": "Sir Richard Ratcliff",
+    "aliases": ["RATCLIFF."],
+    "role": "minor",
+    "description": "One of Richard's hard instruments, who oversees the executions of the queen's kindred at Pomfret and attends the king through his last, ghost-haunted night.",
+    "color": "#8a5a5a"
+  },
+  {
+    "id": "tyrrel",
+    "name": "Sir James Tyrrel",
+    "aliases": ["TYRREL."],
+    "role": "minor",
+    "description": "The 'discontented gentleman' Richard hires to murder the princes; he procures the deed through two underlings and reports it with unexpected horror and remorse.",
+    "color": "#6a3a3a"
+  },
+  {
+    "id": "lovel",
+    "name": "Lord Lovel",
+    "aliases": ["LOVEL."],
+    "role": "minor",
+    "description": "One of Richard's followers, who with Ratcliff brings in the severed head of Hastings.",
+    "color": "#7a5a5a"
+  },
+  {
+    "id": "rivers",
+    "name": "Earl Rivers",
+    "aliases": ["RIVERS."],
+    "role": "minor",
+    "description": "Anthony Woodville, Earl Rivers, the queen's brother, arrested with Grey and Vaughan and executed at Pomfret Castle — a death Margaret had foretold.",
+    "relationships": [
+      { "other_id": "queen_elizabeth", "relation": "brother of" }
+    ],
+    "color": "#7a6a9a"
+  },
+  {
+    "id": "dorset",
+    "name": "Marquess of Dorset",
+    "aliases": ["DORSET."],
+    "role": "minor",
+    "description": "The queen's elder son by her first marriage; warned by his mother that Richard's favour is deadly, he flees abroad to join Richmond.",
+    "relationships": [
+      { "other_id": "queen_elizabeth", "relation": "son of" }
+    ],
+    "color": "#8a7aaa"
+  },
+  {
+    "id": "grey",
+    "name": "Lord Grey",
+    "aliases": ["GREY."],
+    "role": "minor",
+    "description": "Another of the queen's sons by her first marriage, seized and beheaded at Pomfret with Rivers and Vaughan.",
+    "relationships": [
+      { "other_id": "queen_elizabeth", "relation": "son of" }
+    ],
+    "color": "#9a7a9a"
+  },
+  {
+    "id": "brakenbury",
+    "name": "Sir Robert Brakenbury",
+    "aliases": ["BRAKENBURY."],
+    "role": "minor",
+    "description": "Lieutenant of the Tower, a reluctant keeper who surrenders his keys to Clarence's murderers rather than knowingly share their guilt.",
+    "color": "#5f6f7a"
+  },
+  {
+    "id": "norfolk",
+    "name": "Duke of Norfolk",
+    "aliases": ["NORFOLK."],
+    "role": "minor",
+    "description": "John Howard, Duke of Norfolk, Richard's loyal general at Bosworth, who finds the taunting note: 'Jockey of Norfolk, be not too bold, / For Dickon thy master is bought and sold.'",
+    "color": "#c98a4a"
+  },
+  {
+    "id": "surrey",
+    "name": "Earl of Surrey",
+    "aliases": ["SURREY."],
+    "role": "minor",
+    "description": "Norfolk's son, who stands with Richard's army on the field at Bosworth.",
+    "color": "#b58a5a"
+  },
+  {
+    "id": "oxford",
+    "name": "Earl of Oxford",
+    "aliases": ["OXFORD."],
+    "role": "minor",
+    "description": "A veteran Lancastrian commander in Richmond's invading army.",
+    "color": "#4f7a8a"
+  },
+  {
+    "id": "blunt",
+    "name": "Sir James Blunt",
+    "aliases": ["BLUNT."],
+    "role": "minor",
+    "description": "An officer in Richmond's camp on the eve of Bosworth.",
+    "color": "#5a8a6a"
+  },
+  {
+    "id": "herbert",
+    "name": "Sir Walter Herbert",
+    "aliases": ["HERBERT."],
+    "role": "minor",
+    "description": "A supporter who joins Richmond's march to Bosworth.",
+    "color": "#6a8a5a"
+  },
+  {
+    "id": "christopher",
+    "name": "Christopher Urswick",
+    "aliases": ["CHRISTOPHER."],
+    "role": "minor",
+    "description": "A priest who carries secret messages between Lord Stanley and Richmond.",
+    "color": "#6a7a8a"
+  },
+  {
+    "id": "vaughan",
+    "name": "Sir Thomas Vaughan",
+    "aliases": ["VAUGHAN."],
+    "role": "minor",
+    "description": "Taken with Rivers and Grey and beheaded at Pomfret; his ghost joins the others that curse Richard at Bosworth.",
+    "color": "#7a6a7a"
+  },
+  {
+    "id": "archbishop",
+    "name": "Archbishop of York",
+    "aliases": ["ARCHBISHOP."],
+    "role": "minor",
+    "description": "Thomas Rotherham, Archbishop of York, who first shelters the queen and her younger son in sanctuary and gives her the Great Seal.",
+    "color": "#7a6a8a"
+  },
+  {
+    "id": "cardinal",
+    "name": "Cardinal Bourchier",
+    "aliases": ["CARDINAL."],
+    "role": "minor",
+    "description": "The Archbishop of Canterbury, persuaded by Buckingham to violate sanctuary and fetch the young Duke of York from his mother.",
+    "color": "#8a6a9a"
+  },
+  {
+    "id": "ely",
+    "name": "Bishop of Ely",
+    "aliases": ["ELY."],
+    "role": "minor",
+    "description": "John Morton, Bishop of Ely, present at the fatal council, whom Richard sends for strawberries moments before destroying Hastings; he later escapes to join Richmond.",
+    "color": "#6a5a8a"
+  },
+  {
+    "id": "mayor",
+    "name": "Lord Mayor of London",
+    "aliases": ["MAYOR."],
+    "role": "minor",
+    "description": "The Lord Mayor, maneuvered by Richard and Buckingham into endorsing Richard's title to the crown before the citizens.",
+    "color": "#6c6a64"
+  },
+  {
+    "id": "first_murderer",
+    "name": "First Murderer",
+    "aliases": ["FIRST MURDERER."],
+    "role": "minor",
+    "description": "The harder of the two killers Richard sends to the Tower; he stabs Clarence and drowns him in the malmsey-butt.",
+    "color": "#5f5555"
+  },
+  {
+    "id": "second_murderer",
+    "name": "Second Murderer",
+    "aliases": ["SECOND MURDERER."],
+    "role": "minor",
+    "description": "Clarence's other assassin, whose conscience wavers and finally revolts — he wants no part of the reward.",
+    "color": "#5a5050"
+  },
+  {
+    "id": "both_murderers",
+    "name": "Both Murderers",
+    "aliases": ["BOTH MURDERERS."],
+    "role": "minor",
+    "color": "#565050"
+  },
+  {
+    "id": "son",
+    "name": "Clarence's Son",
+    "aliases": ["SON."],
+    "role": "minor",
+    "description": "One of Clarence's orphaned children, deceived by Richard into thinking the king, not their uncle, was to blame for their father's death.",
+    "color": "#b5a06a"
+  },
+  {
+    "id": "daughter",
+    "name": "Clarence's Daughter",
+    "aliases": ["DAUGHTER."],
+    "role": "minor",
+    "description": "Clarence's small daughter, who with her brother mourns their murdered father.",
+    "color": "#c0a0a0"
+  },
+  {
+    "id": "children",
+    "name": "Clarence's Children",
+    "aliases": ["CHILDREN."],
+    "role": "minor",
+    "color": "#b0a080"
+  },
+  {
+    "id": "first_citizen",
+    "name": "First Citizen",
+    "aliases": ["FIRST CITIZEN."],
+    "role": "minor",
+    "color": "#6d6d6d"
+  },
+  {
+    "id": "second_citizen",
+    "name": "Second Citizen",
+    "aliases": ["SECOND CITIZEN."],
+    "role": "minor",
+    "color": "#717171"
+  },
+  {
+    "id": "third_citizen",
+    "name": "Third Citizen",
+    "aliases": ["THIRD CITIZEN."],
+    "role": "minor",
+    "description": "One of the ordinary Londoners who exchange dark forebodings about the realm now that Edward IV is dead and the princes are in their uncle's power.",
+    "color": "#757575"
+  },
+  {
+    "id": "first_gentleman",
+    "name": "First Gentleman",
+    "aliases": ["FIRST GENTLEMAN."],
+    "role": "minor",
+    "description": "One of the gentlemen bearing Henry VI's corpse, halted at sword-point by Richard as Lady Anne follows the bier.",
+    "color": "#67707a"
+  },
+  {
+    "id": "gentlemen",
+    "name": "Gentlemen",
+    "aliases": ["GENTLEMEN."],
+    "role": "ensemble",
+    "color": "#6c757e"
+  },
+  {
+    "id": "pursuivant",
+    "name": "Pursuivant",
+    "aliases": ["PURSUIVANT."],
+    "role": "minor",
+    "description": "A pursuivant (himself named Hastings) whom the doomed Lord Hastings greets cheerfully on his way to the council that will kill him.",
+    "color": "#6a6c70"
+  },
+  {
+    "id": "scrivener",
+    "name": "Scrivener",
+    "aliases": ["SCRIVENER."],
+    "role": "minor",
+    "description": "A clerk who has fair-copied the indictment of Hastings and observes that the whole proceeding is a transparent sham — yet no one dares say so.",
+    "color": "#6a6a64"
+  },
+  {
+    "id": "page",
+    "name": "Page",
+    "aliases": ["PAGE."],
+    "role": "minor",
+    "description": "Richard's page, who names Tyrrel as a discontented gentleman fit to be hired for murder.",
+    "color": "#7a7060"
+  },
+  {
+    "id": "sheriff",
+    "name": "Sheriff",
+    "aliases": ["SHERIFF."],
+    "role": "minor",
+    "description": "The sheriff escorting the captured Buckingham to his execution.",
+    "color": "#6a6e6a"
+  },
+  {
+    "id": "priest",
+    "name": "Priest",
+    "aliases": ["PRIEST."],
+    "role": "minor",
+    "color": "#6a6a7a"
+  },
+  {
+    "id": "messenger",
+    "name": "Messenger",
+    "aliases": ["MESSENGER.", "SECOND MESSENGER.", "THIRD MESSENGER.", "FOURTH MESSENGER."],
+    "role": "minor",
+    "color": "#6e6e6e"
+  },
+  {
+    "id": "ghost",
+    "name": "Ghosts",
+    "aliases": ["GHOST.", "GHOSTS.", "ALL THREE."],
+    "role": "minor",
+    "description": "The ghosts of Richard's victims — Henry VI, Prince Edward, Clarence, the murdered princes, his wife Anne, and the lords he killed — who rise on the eve of Bosworth to cry 'Despair and die!' over the sleeping tyrant and to bless Richmond.",
+    "color": "#8a8a9a"
+  },
+  {
+    "id": "lords",
+    "name": "Lords",
+    "aliases": ["LORDS."],
+    "role": "ensemble",
+    "color": "#6a6a72"
+  },
+  {
+    "id": "all",
+    "name": "All",
+    "aliases": ["ALL."],
+    "role": "ensemble",
+    "color": "#5f5f5f"
+  }
+]

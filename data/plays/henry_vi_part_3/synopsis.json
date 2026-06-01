@@ -1,0 +1,64 @@
+{
+  "play": "henry_vi_part_3",
+  "overview": "The cycle's third panel plunges into the Wars of the Roses themselves. After the Yorkist victory at St Albans, the Duke of York presses his claim, and King Henry — to keep his crown for life — agrees to disinherit his own son and make York his heir. Queen Margaret takes up the war her gentle husband will not fight: York is run down at Wakefield, mocked with a paper crown, and killed. His sons — Edward, George, and the deformed Richard — avenge him, and Edward is crowned Edward IV. But Edward's impulsive marriage to Lady Grey insults the mighty Earl of Warwick, who defects to Lancaster, frees Henry, and is destroyed at Barnet. The Yorkists annihilate the Lancastrians at Tewkesbury, where Margaret's son is butchered before her; and Richard of Gloucester, already dreaming of a crown for himself, murders the saintly Henry in the Tower. The play charts civil war's descent into pure savagery — fathers killing sons, oaths broken, mercy gone — and sets the stage for Richard III.",
+  "acts": [
+    {
+      "number": 1,
+      "summary": "The Yorkists seize Parliament; Henry buys his life by disinheriting his son; Margaret takes the field, and York is captured and murdered at Wakefield after his child Rutland is slaughtered.",
+      "scenes": [
+        { "number": 1, "summary": "The victorious Yorkists storm the Parliament-house and Warwick sets York in the throne. Confronted, King Henry cannot deny York's title and — to his lords' fury — agrees to keep the crown for life but entail it to York's house after his death, disinheriting his own son. Margaret and Prince Edward burst in to disown the king and raise an army.", "themes": ["political_legitimacy", "succession", "kingship"] },
+        { "number": 2, "summary": "At Sandal Castle, York's sons Edward and Richard argue that an oath sworn to a usurper cannot bind; Richard persuades his father to break his vow and seize the crown at once. Word comes that Margaret's army is already upon them.", "themes": ["ambition", "oath_breaking", "persuasion"] },
+        { "number": 3, "summary": "Fleeing the lost field, York's youngest son — the child Rutland — is overtaken by Lord Clifford, who butchers him in cold blood to avenge his own father, deaf to the boy's and his tutor's pleas.", "themes": ["revenge", "murder", "innocence"] },
+        { "number": 4, "summary": "Captured at Wakefield, York is taunted by Margaret with a napkin dipped in Rutland's blood and crowned with paper. He answers with a towering curse — 'She-wolf of France' — and weeps before Margaret and Clifford stab him to death.", "themes": ["cruelty", "downfall", "revenge"] }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "Warwick rallies York's sons; Edward is hailed as heir; at Towton, amid the emblem of a son and father who have killed each other, the Yorkists win, Clifford dies, and Edward is proclaimed king.",
+      "scenes": [
+        { "number": 1, "summary": "Seeing a vision of three suns in the sky, Edward and Richard learn of their father's death; Warwick brings news of his own defeat but rallies them, hailing Edward as Duke of York and marching to make him king.", "themes": ["grief", "omen", "resolve"] },
+        { "number": 2, "summary": "Before the walls of York the armies parley: Margaret shows Henry the city gates adorned with York's severed head, and the leaders trade venomous insults before joining battle.", "themes": ["war", "defiance", "faction"] },
+        { "number": 3, "summary": "At Towton, Warwick — despairing as the battle turns against him — kills his own horse and swears to fight on foot to the death; the brothers renew their resolve.", "themes": ["war", "resolve", "sacrifice"] },
+        { "number": 4, "summary": "Richard seeks out Clifford in the press to avenge his father and Rutland, but his enemy is borne away in the tumult.", "themes": ["revenge", "war"] },
+        { "number": 5, "summary": "As the battle rages, King Henry sits apart on a molehill and longs for a shepherd's quiet life. He watches a son who has unknowingly killed his father and a father who has killed his son mourn over the corpses — the play's central emblem of civil war's horror.", "themes": ["civil_war", "kingship", "lament"] },
+        { "number": 6, "summary": "The dying Clifford is found by the Yorkist lords, who revile his corpse. Edward is proclaimed king and creates his brothers Richard Duke of Gloucester and George Duke of Clarence.", "themes": ["revenge", "death", "kingship"] }
+      ]
+    },
+    {
+      "number": 3,
+      "summary": "The wandering Henry is captured; Edward courts Lady Grey and Richard reveals his own designs on the crown; insulted over the marriage, Warwick turns Lancastrian at the French court.",
+      "scenes": [
+        { "number": 1, "summary": "Two gamekeepers capture the disguised, deposed Henry as he steals home from exile; he muses on the fickleness of crowns and of subjects as they carry him off to the Tower.", "themes": ["deposition", "fortune", "loyalty"] },
+        { "number": 2, "summary": "King Edward, hearing the widow Lady Grey sue for her dead husband's lands, is smitten and woos her to be his queen. Left alone, the deformed Richard unfolds in a great soliloquy his resolve to hack his way to the crown, vowing to outdo Machiavel himself.", "themes": ["ambition", "desire", "villainy"] },
+        { "number": 3, "summary": "At the French court Margaret begs King Lewis for aid; Warwick arrives to negotiate Lady Bona's hand for Edward — until news of Edward's marriage shames them all, and the enraged Warwick switches sides, pledging his daughter and his sword to Lancaster.", "themes": ["betrayal", "diplomacy", "marriage"] }
+      ]
+    },
+    {
+      "number": 4,
+      "summary": "Edward's marriage splits his house; Warwick and Clarence invade, capture Edward, and restore Henry; Edward escapes abroad, returns, retakes the crown, and seizes Henry again.",
+      "scenes": [
+        { "number": 1, "summary": "Edward's brothers and lords chafe at his marriage and the favours heaped on the queen's kin. Slighted, Clarence announces he will join Warwick and marry his other daughter, and departs with Somerset; Richard stays behind, biding his time.", "themes": ["faction", "marriage", "ambition"] },
+        { "number": 2, "summary": "Warwick and the turncoat Clarence, landed with French troops, embrace their new alliance and plan a night assault on the unguarded Edward.", "themes": ["betrayal", "war", "alliance"] },
+        { "number": 3, "summary": "Warwick's men surprise King Edward in his tent — his watchmen overrun — and take him prisoner, stripping him of the crown to set Henry back on the throne.", "themes": ["reversal", "war", "fortune"] },
+        { "number": 4, "summary": "Hearing of Edward's capture, the pregnant Queen Elizabeth resolves to flee into sanctuary to save her unborn heir.", "themes": ["fortune", "refuge", "motherhood"] },
+        { "number": 5, "summary": "Richard, Hastings, and Stanley spring the loosely-guarded Edward during a hunt and spirit him across the sea to Flanders.", "themes": ["rescue", "loyalty", "escape"] },
+        { "number": 6, "summary": "The freed Henry hands the rule to Warwick and Clarence as joint protectors. He blesses the young Earl of Richmond as England's future hope, then learns Edward has escaped abroad.", "themes": ["kingship", "prophecy", "providence"] },
+        { "number": 7, "summary": "Edward returns to England, claims at first only his dukedom of York to gain entry to the city, then proclaims himself king again and marches on the captured Henry.", "themes": ["ambition", "war", "kingship"] },
+        { "number": 8, "summary": "Warwick musters his allies' forces at Coventry as Edward advances on London to seize Henry once more.", "themes": ["war", "faction"] }
+      ]
+    },
+    {
+      "number": 5,
+      "summary": "Clarence rejoins his brothers; Warwick falls at Barnet; the Lancastrians are destroyed at Tewkesbury and Prince Edward killed; Richard murders Henry in the Tower as Edward celebrates a fragile peace.",
+      "scenes": [
+        { "number": 1, "summary": "At Coventry Warwick awaits his allies, but the arriving Clarence dramatically tears off the red rose and rejoins his brothers, leaving Warwick outnumbered.", "themes": ["betrayal", "reconciliation", "war"] },
+        { "number": 2, "summary": "At the battle of Barnet the mortally wounded Warwick reflects on the vanity of all his greatness — parks, walls, and titles worth nothing now — and dies.", "themes": ["death", "fortune", "ambition"] },
+        { "number": 3, "summary": "Victorious, Edward learns that Margaret and her son have landed with fresh forces, and marches to meet them at Tewkesbury.", "themes": ["war", "resolve"] },
+        { "number": 4, "summary": "Margaret rallies her dispirited troops with the image of a pilot who must weather the storm rather than abandon the ship, before the final battle.", "themes": ["courage", "war", "leadership"] },
+        { "number": 5, "summary": "The Lancastrians are crushed. The captured Prince Edward defies his captors and is stabbed to death by Edward, Richard, and Clarence together; Richard slips away toward the Tower to kill Henry.", "themes": ["cruelty", "downfall", "revenge"] },
+        { "number": 6, "summary": "In the Tower, Richard murders the prophesying King Henry, then exults that he has neither pity, love, nor fear; he reveals he means to clear his own brothers from his path to the crown.", "themes": ["murder", "villainy", "ambition"] },
+        { "number": 7, "summary": "His enemies dead and a son newly born, King Edward proclaims lasting peace — while Richard kisses the infant prince and mutters his treachery aside, a Judas-kiss that promises the horrors to come.", "themes": ["false_peace", "foreboding", "villainy"] }
+      ]
+    }
+  ]
+}

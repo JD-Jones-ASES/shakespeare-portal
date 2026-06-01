@@ -1,0 +1,389 @@
+[
+  {
+    "id": "king_henry",
+    "name": "King Henry VI",
+    "aliases": ["KING HENRY."],
+    "role": "major",
+    "description": "The gentle, devout king, helpless in war, who to buy peace agrees to disinherit his own son and entail the crown to the house of York after his death. Deposed, captured, restored by Warwick, and deposed again, he is at last stabbed to death in the Tower by Richard of Gloucester, prophesying the horrors Richard will bring.",
+    "relationships": [
+      { "other_id": "queen_margaret", "relation": "husband of" },
+      { "other_id": "prince_edward", "relation": "father of" },
+      { "other_id": "richard", "relation": "murdered by" }
+    ],
+    "color": "#b59030"
+  },
+  {
+    "id": "queen_margaret",
+    "name": "Queen Margaret",
+    "aliases": ["QUEEN MARGARET."],
+    "role": "major",
+    "description": "Henry's fierce French queen, who takes command of the Lancastrian cause when her husband yields it away. She crowns the captured York with a paper crown and taunts him with a napkin steeped in his murdered son Rutland's blood before stabbing him; later her own son is butchered before her eyes at Tewkesbury.",
+    "relationships": [
+      { "other_id": "king_henry", "relation": "wife of" },
+      { "other_id": "prince_edward", "relation": "mother of" },
+      { "other_id": "york", "relation": "enemy of" }
+    ],
+    "color": "#c0407a"
+  },
+  {
+    "id": "prince_edward",
+    "name": "Edward, Prince of Wales",
+    "aliases": ["PRINCE."],
+    "role": "supporting",
+    "description": "The spirited Lancastrian heir, son of Henry VI and Margaret, disinherited by his father's treaty with York. Captured after Tewkesbury, he defies Edward IV to his face and is stabbed to death by Edward, Richard, and Clarence together. NOT to be confused with Edward IV.",
+    "relationships": [
+      { "other_id": "king_henry", "relation": "son of" },
+      { "other_id": "queen_margaret", "relation": "son of" }
+    ],
+    "color": "#d06a9a"
+  },
+  {
+    "id": "york",
+    "name": "Richard, Duke of York",
+    "aliases": ["YORK."],
+    "role": "major",
+    "description": "Richard Plantagenet, Duke of York, whose hereditary claim to the crown opens the play. He agrees to let Henry reign for life in exchange for the succession, but is persuaded by his sons to seize the throne at once; captured at Wakefield, he is mocked and stabbed by Margaret and Clifford.",
+    "relationships": [
+      { "other_id": "edward", "relation": "father of" },
+      { "other_id": "richard", "relation": "father of" },
+      { "other_id": "clarence", "relation": "father of" },
+      { "other_id": "rutland", "relation": "father of" },
+      { "other_id": "king_henry", "relation": "rival claimant to" }
+    ],
+    "color": "#c9772b"
+  },
+  {
+    "id": "edward",
+    "name": "Edward IV",
+    "aliases": ["EDWARD.", "KING EDWARD."],
+    "role": "major",
+    "description": "York's eldest son, Earl of March, who avenges his father and seizes the crown as Edward IV. His impulsive marriage to Lady Grey enrages Warwick and drives him into Lancaster's camp; briefly captured and deposed, Edward escapes, regroups, and wins back the throne at Barnet and Tewkesbury.",
+    "relationships": [
+      { "other_id": "york", "relation": "son of" },
+      { "other_id": "lady_grey", "relation": "husband of" },
+      { "other_id": "warwick", "relation": "former ally, then enemy of" },
+      { "other_id": "richard", "relation": "brother of" }
+    ],
+    "color": "#c08a3a"
+  },
+  {
+    "id": "richard",
+    "name": "Richard Plantagenet (Gloucester)",
+    "aliases": ["RICHARD.", "GLOSTER.", "Gloster."],
+    "role": "antagonist",
+    "description": "York's deformed, brilliant youngest son, created Duke of Gloucester — the future Richard III. In a great soliloquy he declares the crown his one desire and his readiness to 'set the murderous Machiavel to school.' He stabs the captured Prince Edward and murders Henry VI in the Tower, hinting at the brothers he will destroy next.",
+    "relationships": [
+      { "other_id": "york", "relation": "son of" },
+      { "other_id": "edward", "relation": "brother of" },
+      { "other_id": "clarence", "relation": "brother of" },
+      { "other_id": "king_henry", "relation": "murderer of" }
+    ],
+    "color": "#b04a3a"
+  },
+  {
+    "id": "clarence",
+    "name": "George, Duke of Clarence",
+    "aliases": ["GEORGE.", "CLARENCE."],
+    "role": "supporting",
+    "description": "York's middle surviving son, made Duke of Clarence by Edward. He deserts his brother for Warwick (marrying Warwick's daughter), then dramatically changes sides again on the battlefield, casting away his red rose to rejoin Edward and Richard. Printed early as GEORGE, later as CLARENCE.",
+    "relationships": [
+      { "other_id": "york", "relation": "son of" },
+      { "other_id": "edward", "relation": "brother of" },
+      { "other_id": "warwick", "relation": "son-in-law, then betrayer of" }
+    ],
+    "color": "#b5894a"
+  },
+  {
+    "id": "rutland",
+    "name": "Edmund, Earl of Rutland",
+    "aliases": ["RUTLAND."],
+    "role": "minor",
+    "description": "York's youngest child, a boy, slaughtered in cold blood by Lord Clifford after Wakefield despite his tutor's desperate pleas — the murder that sets the play's cycle of revenge in motion.",
+    "relationships": [
+      { "other_id": "york", "relation": "son of" },
+      { "other_id": "clifford", "relation": "killed by" }
+    ],
+    "color": "#d99a6a"
+  },
+  {
+    "id": "warwick",
+    "name": "Earl of Warwick",
+    "aliases": ["WARWICK."],
+    "role": "major",
+    "description": "Richard Neville, 'the Kingmaker,' the mightiest subject in the realm, who sets Edward on the throne. Sent to France to woo Lady Bona for Edward and then publicly shamed by news of Edward's marriage, he turns Lancastrian, restores Henry VI, and is finally killed at the battle of Barnet.",
+    "relationships": [
+      { "other_id": "edward", "relation": "kingmaker, then enemy of" },
+      { "other_id": "montague", "relation": "brother of" }
+    ],
+    "color": "#2e8a86"
+  },
+  {
+    "id": "clifford",
+    "name": "Lord Clifford",
+    "aliases": ["CLIFFORD."],
+    "role": "antagonist",
+    "description": "The pitiless Lancastrian lord (the Young Clifford of Part 2, now grown), who avenges his father's death at St Albans by murdering the child Rutland and helping Margaret kill York. He dies of an arrow-wound at Towton, and the Yorkists rail at his lifeless head.",
+    "relationships": [
+      { "other_id": "rutland", "relation": "murderer of" },
+      { "other_id": "york", "relation": "killer of" }
+    ],
+    "color": "#a8552e"
+  },
+  {
+    "id": "lewis",
+    "name": "King Lewis XI",
+    "aliases": ["KING LEWIS.", "LEWIS."],
+    "role": "supporting",
+    "description": "Lewis XI, King of France, courted at once by Margaret (begging aid) and by Warwick (suing for Lady Bona's hand for Edward). News of Edward's marriage insults him and Bona, and he sends Warwick home with French troops to topple the Yorkist king.",
+    "relationships": [
+      { "other_id": "bona", "relation": "kinsman of" }
+    ],
+    "color": "#6d4f96"
+  },
+  {
+    "id": "lady_grey",
+    "name": "Lady Grey (Queen Elizabeth)",
+    "aliases": ["LADY GREY.", "QUEEN ELIZABETH."],
+    "role": "supporting",
+    "description": "Elizabeth Woodville, a Lancastrian widow who comes to petition Edward for her dead husband's lands; charmed, he marries her, making her Queen Elizabeth — an impulsive match that costs him Warwick's loyalty and France's friendship.",
+    "relationships": [
+      { "other_id": "edward", "relation": "wife of" },
+      { "other_id": "rivers", "relation": "sister of" }
+    ],
+    "color": "#b06a8a"
+  },
+  {
+    "id": "northumberland",
+    "name": "Earl of Northumberland",
+    "aliases": ["NORTHUMBERLAND."],
+    "role": "minor",
+    "description": "A Lancastrian peer, moved to tears by York's suffering even as he stands among his enemies.",
+    "color": "#3f6f9c"
+  },
+  {
+    "id": "westmoreland",
+    "name": "Earl of Westmoreland",
+    "aliases": ["WESTMORELAND."],
+    "role": "minor",
+    "description": "A Lancastrian lord who scorns Henry for disinheriting his own son and storms out of the Parliament-house.",
+    "color": "#4a6a9c"
+  },
+  {
+    "id": "exeter",
+    "name": "Duke of Exeter",
+    "aliases": ["EXETER."],
+    "role": "minor",
+    "description": "A Lancastrian noble who follows Henry even as he privately admits York's title is the stronger in law.",
+    "color": "#5a6f8a"
+  },
+  {
+    "id": "oxford",
+    "name": "Earl of Oxford",
+    "aliases": ["OXFORD."],
+    "role": "minor",
+    "description": "A staunch Lancastrian who joins Warwick's reconciliation with Margaret and fights for Henry to the last at Barnet and Tewkesbury.",
+    "color": "#4f7a8a"
+  },
+  {
+    "id": "somerset",
+    "name": "Duke of Somerset",
+    "aliases": ["SOMERSET."],
+    "role": "minor",
+    "description": "A Lancastrian duke who, with Oxford, throws in his lot with the turned Warwick to restore Henry VI.",
+    "color": "#9c3b5a"
+  },
+  {
+    "id": "montague",
+    "name": "Marquess of Montague",
+    "aliases": ["MONTAGUE."],
+    "role": "minor",
+    "description": "Warwick's brother, who follows him from the Yorkist into the Lancastrian camp and dies beside him at Barnet.",
+    "relationships": [
+      { "other_id": "warwick", "relation": "brother of" }
+    ],
+    "color": "#3f8a7a"
+  },
+  {
+    "id": "norfolk",
+    "name": "Duke of Norfolk",
+    "aliases": ["NORFOLK."],
+    "role": "minor",
+    "description": "A loyal Yorkist peer who backs York's claim and Edward's cause.",
+    "color": "#c98a4a"
+  },
+  {
+    "id": "hastings",
+    "name": "Lord Hastings",
+    "aliases": ["HASTINGS."],
+    "role": "minor",
+    "description": "A Yorkist lord, brother-in-law to Warwick, who stays loyal to Edward when Warwick defects.",
+    "color": "#5f7090"
+  },
+  {
+    "id": "rivers",
+    "name": "Lord Rivers",
+    "aliases": ["RIVERS."],
+    "role": "minor",
+    "description": "Brother to Lady Grey, who rises with his sister's marriage to the king.",
+    "relationships": [
+      { "other_id": "lady_grey", "relation": "brother of" }
+    ],
+    "color": "#7a6a9a"
+  },
+  {
+    "id": "montgomery",
+    "name": "Sir John Montgomery",
+    "aliases": ["MONTGOMERY."],
+    "role": "minor",
+    "description": "A captain who brings troops to the returning Edward and presses him to claim the crown outright, not merely his dukedom.",
+    "color": "#5a8a6a"
+  },
+  {
+    "id": "somerville",
+    "name": "Sir John Somerville",
+    "aliases": ["SOMERVILLE."],
+    "role": "minor",
+    "description": "Warwick's officer, who reports the approach of Clarence's forces before the clash at Coventry.",
+    "color": "#6a8a5a"
+  },
+  {
+    "id": "bona",
+    "name": "Lady Bona",
+    "aliases": ["BONA."],
+    "role": "minor",
+    "description": "Sister to the French Queen, whose hand Warwick negotiates for Edward; humiliated by news of his marriage to Lady Grey, she urges France to back his enemies.",
+    "color": "#8a6aaa"
+  },
+  {
+    "id": "rutland_tutor",
+    "name": "Rutland's Tutor",
+    "aliases": ["TUTOR."],
+    "role": "minor",
+    "description": "A chaplain who vainly begs Clifford to spare the child Rutland.",
+    "color": "#7a6a64"
+  },
+  {
+    "id": "sir_john_mortimer",
+    "name": "Sir John Mortimer",
+    "aliases": ["SIR JOHN."],
+    "role": "minor",
+    "description": "An uncle of the Duke of York who counsels him at Sandal Castle before Wakefield.",
+    "color": "#8a6a45"
+  },
+  {
+    "id": "first_keeper",
+    "name": "First Keeper",
+    "aliases": ["1 KEEPER."],
+    "role": "minor",
+    "description": "One of two gamekeepers in the north who recognize and arrest the wandering, deposed King Henry.",
+    "color": "#5a7a5a"
+  },
+  {
+    "id": "second_keeper",
+    "name": "Second Keeper",
+    "aliases": ["2 KEEPER."],
+    "role": "minor",
+    "description": "The second gamekeeper who helps take the deposed King Henry into custody.",
+    "color": "#6a7a4a"
+  },
+  {
+    "id": "huntsman",
+    "name": "Huntsman",
+    "aliases": ["HUNTSMAN."],
+    "role": "minor",
+    "description": "A keeper set to guard the captured Edward, who slips away with Richard and Hastings during a hunt.",
+    "color": "#6f7a45"
+  },
+  {
+    "id": "first_watchman",
+    "name": "First Watchman",
+    "aliases": ["1 WATCHMAN."],
+    "role": "minor",
+    "description": "One of the watchmen guarding King Edward's tent at night, surprised and overrun when Warwick's forces seize the sleeping king.",
+    "color": "#5f6f6a"
+  },
+  {
+    "id": "second_watchman",
+    "name": "Second Watchman",
+    "aliases": ["2 WATCHMAN."],
+    "role": "minor",
+    "description": "A watchman at Edward's tent who reflects that guarding the king is the more honourable for being the more dangerous.",
+    "color": "#5a6a64"
+  },
+  {
+    "id": "third_watchman",
+    "name": "Third Watchman",
+    "aliases": ["3 WATCHMAN."],
+    "role": "minor",
+    "description": "A watchman at Edward's tent who would rather have quiet and worship than dangerous honour.",
+    "color": "#566058"
+  },
+  {
+    "id": "nobleman",
+    "name": "Nobleman",
+    "aliases": ["NOBLEMAN."],
+    "role": "minor",
+    "color": "#6a6a7a"
+  },
+  {
+    "id": "lieutenant",
+    "name": "Lieutenant of the Tower",
+    "aliases": ["LIEUTENANT."],
+    "role": "minor",
+    "description": "The officer who courteously keeps Henry VI in the Tower, just before Richard comes to murder him.",
+    "color": "#5f6f7a"
+  },
+  {
+    "id": "mayor",
+    "name": "Mayor",
+    "aliases": ["MAYOR."],
+    "role": "minor",
+    "description": "The Mayor (of York, and later of Coventry) who must decide whether to open the city gates to the returning Edward.",
+    "color": "#6c6a64"
+  },
+  {
+    "id": "son",
+    "name": "A Son that has killed his Father",
+    "aliases": ["SON."],
+    "role": "minor",
+    "description": "A nameless soldier who, looting a corpse on the field at Towton, discovers he has killed his own father — half of the play's central emblem of civil war's horror.",
+    "color": "#8a7a5a"
+  },
+  {
+    "id": "father",
+    "name": "A Father that has killed his Son",
+    "aliases": ["FATHER."],
+    "role": "minor",
+    "description": "A nameless soldier who finds he has killed his own son in the battle — the other half of the Towton emblem watched in silence by the helpless King Henry.",
+    "color": "#7a6a5a"
+  },
+  {
+    "id": "post",
+    "name": "Post",
+    "aliases": ["POST."],
+    "role": "minor",
+    "description": "A messenger (post-rider) who carries news between the courts and camps.",
+    "color": "#66686c"
+  },
+  {
+    "id": "soldier",
+    "name": "Soldier",
+    "aliases": ["SOLDIER."],
+    "role": "minor",
+    "color": "#6e6862"
+  },
+  {
+    "id": "messenger",
+    "name": "Messenger",
+    "aliases": ["MESSENGER.", "1 MESSENGER.", "2 MESSENGER."],
+    "role": "minor",
+    "color": "#6e6e6e"
+  },
+  {
+    "id": "all",
+    "name": "All",
+    "aliases": ["ALL."],
+    "role": "ensemble",
+    "color": "#5f5f5f"
+  }
+]
