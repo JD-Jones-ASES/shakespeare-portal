@@ -65,6 +65,11 @@ const SCENE_HEADER = /^\s*Scene\s+(?<num>[IVXLC]+|\d+)\.?\s*(?<setting>.*)$/i;
 // inside lyric passages and must NOT be misread as speaker labels.
 const SONG_HEADER = /^(?:SONG|AIR|EPILOGUE|EPITAPH)\.?$/;
 const VERSE_NUMERAL = /^[IVXLC]+\.$/;
+// Pericles prints one unbracketed dumb-show header, "DUMB SHOW.", inside Gower's Act II
+// chorus; it has the shape of a two-word speaker label, so (gated on hasGower in the main
+// loop) it is rendered as a stage direction. The play's other dumb shows are already
+// bracketed ("[Dumb Show.]") and travel the generic bracket path, so they need no case.
+const DUMB_SHOW_HEADER = /^DUMB\s+SHOW\.?$/i;
 const CHORUS_HEADER = /^CHORUS\.?$/;
 // A "THE PROLOGUE" header (Romeo and Juliet's Act 1 Chorus prologue precedes the
 // first ACT header and would otherwise be skipped as front matter). Requires the
@@ -91,6 +96,14 @@ const hasRumour = aliasToChar.has('RUMOUR.');
 // prologue is attributed to it in the framing-header branch below. Gated on the PROLOGUE.
 // alias so the other framing plays (which have no such alias) stay byte-identical.
 const hasPrologueSpeaker = aliasToChar.has('PROLOGUE.');
+// Pericles' Presenter, GOWER, frames every act as a Chorus and speaks the Epilogue. Each
+// act-opening chorus is introduced by an "[Enter Gower]" stage direction — in Act I with NO
+// speaker label, in Acts II-V with a following "GOWER." label — and is buffered like a Chorus
+// prologue (see emitSD) and prepended to the head of the act it introduces. SLUG-GATED to
+// Pericles: Henry V (Captain Gower) and Henry IV Part 2 (a messenger Gower) also define a
+// "GOWER." alias, so an alias-only gate would wrongly activate this on those shipped plays;
+// scoping to the slug keeps all 14 shipped plays byte-identical (confirmed by re-ingest diff).
+const hasGower = slug === 'pericles' && aliasToChar.has('GOWER.');
 const BARE_PROLOGUE_HEADER = /^\s*PROLOGUE\.?\s*$/i;
 const INDUCTION_HEADER = /^\s*INDUCTION\.?\s*$/i;
 function isFramingHeader(t: string): boolean {
@@ -430,6 +443,14 @@ for (; i < allLines.length; i++) {
     emitSD(trimmed);
     continue;
   }
+  // Pericles' unbracketed "DUMB SHOW." header (Act II chorus): render as a stage direction
+  // and keep the current speaker (Gower), so the verse that follows the dumb show is not lost
+  // to a phantom 'Dumb Show' speaker. Gated on hasGower; the bracketed "[Dumb Show.]" used in
+  // the other dumb shows is handled by the generic bracket path above.
+  if (hasGower && DUMB_SHOW_HEADER.test(trimmed)) {
+    emitSD(trimmed);
+    continue;
+  }
   // "CHORUS." / "CHORUS" switches the speaker to the group "All" if that
   // alias is defined; otherwise treat as a section marker.
   if (CHORUS_HEADER.test(trimmed)) {
@@ -494,9 +515,24 @@ function emitDialogue(text: string) {
 
 function emitSD(text: string) {
   if (text.trim() === '') return;
-  // An "Enter Chorus" direction opens a prologue/chorus passage we buffer and
-  // prepend to the next scene of the act it introduces.
-  if (!inPrologue && /enter\s+(?:chorus|rumour)/i.test(text)) startPrologue();
+  // An "Enter Chorus"/"Enter Rumour" direction opens a prologue/chorus passage we buffer and
+  // prepend to the next scene of the act it introduces. Pericles' Presenter, Gower, is framed
+  // the same way: his act-opening chorus is headed by "[Enter Gower]". In Act I that chorus
+  // carries NO speaker label, so we also set the speaker to Gower here; in Acts II-V a "GOWER."
+  // label follows and re-sets it harmlessly. GATED on hasGower, and fired only at act-open
+  // (lastSceneNum === 0), so Gower's MID-act appearances — which sit inside a numbered scene
+  // (the 4.4 interlude after its SCENE header, the 5.2 "Enter Gower" carried in the scene
+  // setting, and the closing Epilogue after 5.3) — stay in that scene rather than buffering to
+  // the next.
+  if (!inPrologue) {
+    if (/enter\s+(?:chorus|rumour)/i.test(text)) {
+      startPrologue();
+    } else if (hasGower && lastSceneNum === 0 && /enter\s+gower\b/i.test(text)) {
+      startPrologue();
+      curSpeaker = canonical('GOWER.');
+      curSpeakerRaw = 'GOWER.';
+    }
+  }
   const sink = currentSink();
   if (!sink) return;
   sink.push({ kind: 'stage_direction', stage_directions: [text.trim()] });

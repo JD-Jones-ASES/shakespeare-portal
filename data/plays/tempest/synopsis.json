@@ -1,0 +1,45 @@
+{
+  "play": "tempest",
+  "overview": "Shakespeare's last solo-authored play, a romance that unfolds in a single afternoon on one enchanted island. Prospero, the scholar-Duke of Milan, was deposed twelve years before by his brother Antonio and the King of Naples, and set adrift with his small daughter Miranda; cast ashore on a remote island, he has mastered its magic, freed and bound the airy spirit Ariel, and enslaved the islander Caliban. When a ship carrying his old enemies passes near, Prospero raises a storm to wreck them on his shore. Across one day he scatters and torments the castaways, draws his daughter and the King's son Ferdinand into love, foils a plot to murder the sleeping King and a drunken plot to murder himself, and — counselled by Ariel's pity — chooses 'virtue' over 'vengeance.' He forgives his enemies, reclaims his dukedom, blesses the young lovers, frees Ariel, and drowns his book of magic. The play meditates on power and forgiveness, art and illusion, freedom and servitude, and the meeting of 'civility' and 'nature' in the New World; it ends with Prospero alone, asking the audience to set him free.",
+  "acts": [
+    {
+      "number": 1,
+      "summary": "A storm wrecks the King of Naples' ship on Prospero's island. Prospero tells Miranda for the first time how his brother Antonio usurped his dukedom; he commands the spirit Ariel and the slave Caliban, and brings the King's son Ferdinand to meet — and instantly love — Miranda.",
+      "scenes": [
+        { "number": 1, "summary": "Aboard a ship caught in a tempest, the Boatswain fights to save the vessel while the panicking noblemen only hinder him ('What cares these roarers for the name of king?'). The ship seems to split, and all take to prayers.", "themes": ["shipwreck", "social_order", "mortality"] },
+        { "number": 2, "summary": "On the island Prospero calms the frightened Miranda and tells her at last their history: how his brother Antonio, with the King of Naples, usurped his dukedom of Milan and set them adrift, saved only by old Gonzalo's kindness. He raises the storm by his art; the spirit Ariel reports the castaways scattered and unharmed and presses for promised freedom; Prospero recalls freeing Ariel from the witch Sycorax's curse and rebukes the resentful Caliban. Ariel leads the grieving Ferdinand to Miranda; the two fall in love at sight, and Prospero, secretly pleased, feigns harshness and sets Ferdinand to hard labour to test him.", "themes": ["exposition", "usurpation", "magic", "servitude", "love"] }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "The shipwrecked court party wanders the island. Antonio tempts Sebastian to murder the sleeping King; meanwhile Caliban meets the drunken Stephano and Trinculo and takes them for gods.",
+      "scenes": [
+        { "number": 1, "summary": "The castaway lords search for the lost Ferdinand; the hopeful Gonzalo, sparring with the cynical Antonio and Sebastian, daydreams of the ideal commonwealth he would plant on the island. Ariel's music charms most of the company asleep; Antonio persuades Sebastian to kill his brother Alonso and seize Naples, but Ariel wakes the sleepers just in time.", "themes": ["conspiracy", "ambition", "nature_vs_culture"] },
+        { "number": 2, "summary": "Caliban, cursing his master, mistakes the jester Trinculo and the drunken butler Stephano for spirits. Sharing Stephano's bottle, he hails the butler as a god, swears to serve him, and offers to show him the island's secrets — a drunken parody of conquest and worship.", "themes": ["drunkenness", "servitude", "colonialism", "comedy"] }
+      ]
+    },
+    {
+      "number": 3,
+      "summary": "Ferdinand and Miranda pledge their love; Caliban plots Prospero's murder with the drunkards; and Ariel, as a harpy, confronts the 'three men of sin' with their crime.",
+      "scenes": [
+        { "number": 1, "summary": "Bearing logs at Prospero's command, Ferdinand is comforted by Miranda; the two confess their love and exchange vows of marriage, secretly watched and blessed by Prospero.", "themes": ["love", "betrothal", "labour"] },
+        { "number": 2, "summary": "Drunk, Caliban urges Stephano to murder Prospero in his sleep, burn his books, and take the island and Miranda. The invisible Ariel sows discord by mimicking their voices, and the island's mysterious music awes even Caliban ('the isle is full of noises').", "themes": ["conspiracy", "music", "the_marvelous"] },
+        { "number": 3, "summary": "As the weary court party rests, a banquet magically appears, then vanishes as Ariel descends like a harpy and denounces Alonso, Antonio, and Sebastian for their old sin against Prospero, promising 'ling'ring perdition' unless they repent. The stricken Alonso despairs and rushes off.", "themes": ["judgment", "guilt", "the_supernatural"] }
+      ]
+    },
+    {
+      "number": 4,
+      "summary": "Prospero blesses the betrothal with a masque of goddesses, then breaks it off to foil Caliban's murder plot.",
+      "scenes": [
+        { "number": 1, "summary": "Prospero gives Miranda to Ferdinand, warning them to keep chaste until the wedding, and conjures a masque in which the goddesses Iris, Ceres, and Juno bless the couple with marriage and plenty while nymphs and reapers dance. Suddenly remembering Caliban's conspiracy, Prospero ends the vision ('Our revels now are ended... We are such stuff as dreams are made on'), sets spirit-hounds to chase the drunken plotters, and reflects that the whole world will one day dissolve like the pageant.", "themes": ["betrothal", "masque", "illusion", "transience"] }
+      ]
+    },
+    {
+      "number": 5,
+      "summary": "Moved by Ariel's pity, Prospero forgives his enemies, reveals himself, restores Ferdinand to his father, renounces his magic, and frees Ariel; in an epilogue he asks the audience to set him free.",
+      "scenes": [
+        { "number": 1, "summary": "Told by Ariel how the spellbound castaways suffer, Prospero chooses 'virtue' over 'vengeance' and releases them. He reveals himself to the penitent Alonso, who restores his dukedom, and discloses Ferdinand and Miranda at chess — to her wonder at the 'brave new world.' The Boatswain reports the ship whole and ready; the drunken plotters are driven in and shamed, and Caliban resolves to 'seek for grace.' Prospero invites all to hear his story, sets Ariel free, and abjures his rough magic. Alone in the Epilogue, his charms gone, he asks the audience's applause and prayers to release him from the island.", "themes": ["forgiveness", "restoration", "freedom", "reconciliation"] }
+      ]
+    }
+  ]
+}

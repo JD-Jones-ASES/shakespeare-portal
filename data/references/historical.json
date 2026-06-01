@@ -1129,6 +1129,88 @@
         { "kind": "historical", "card_id": "richmond-and-the-tudor-myth" },
         { "kind": "biblical", "card_id": "queen-of-sheba" }
       ]
+    },
+    {
+      "id": "the-bermuda-wreck",
+      "kind": "historical",
+      "title": "The Bermuda wreck of the Sea Venture (1609)",
+      "source": {
+        "name": "Strachey, A True Reportory (1610); Jourdain, Discovery of the Barmudas (1610)",
+        "citation": "William Strachey, 'A True Reportory of the Wracke and Redemption of Sir Thomas Gates, Knight' (letter dated 15 July 1610; printed 1625 in Purchas His Pilgrimes); Sylvester Jourdain, 'A Discovery of the Barmudas' (1610). The Sea Venture wrecked on Bermuda in a hurricane, July 1609. Cf. The Tempest 1.2, 'the still-vex'd Bermoothes.'"
+      },
+      "summary_basic": "In 1609 the Sea Venture, flagship of a fleet bound for the Virginia colony, was driven by a hurricane onto the reefs of Bermuda; all aboard survived, wintered on the supposedly devil-haunted island, built two new ships, and reached Jamestown in 1610. Eyewitness accounts — chiefly William Strachey's letter — reached London just as Shakespeare wrote The Tempest, and are its most-cited topical source: the tempest, the 'still-vex'd Bermoothes,' the fire on the rigging, and the miraculously unharmed castaways all echo the reports.",
+      "detail_scholar": "Strachey's 'True Reportory' (written 1610, not printed until 1625, so Shakespeare likely read it in manuscript) describes a storm of exactly the play's kind, the eerie fire Ariel evokes when he 'flam'd amazement' on the rigging (St Elmo's fire), the abundance of the uninhabited island, and quarrels and a mutiny among the stranded men — analogues to the Stephano-Caliban plot. Bermuda was reputed an 'Ile of Divels.' Shakespeare moves his island to the Mediterranean, but Ariel's errand to fetch dew 'from the still-vex'd Bermoothes' (1.2) winks at the source. The episode also ties the play to the Virginia Company's colonial enterprise, the backdrop to its nature-and-empire themes.",
+      "related_plays": [
+        "tempest"
+      ],
+      "see_also": [
+        { "kind": "historical", "card_id": "montaigne-of-the-cannibals" }
+      ]
+    },
+    {
+      "id": "montaigne-of-the-cannibals",
+      "kind": "historical",
+      "title": "Montaigne, 'Of the Cannibals'",
+      "source": {
+        "name": "Montaigne, Essais (Florio's translation, 1603)",
+        "citation": "Michel de Montaigne, 'Of the Cannibals' (Des Cannibales, Essais I.31), in John Florio's English translation, 1603. Gonzalo's ideal-commonwealth speech, The Tempest 2.1.148-169, paraphrases it directly."
+      },
+      "summary_basic": "Montaigne's essay 'Of the Cannibals' (c. 1580; Englished by John Florio in 1603) argues that the 'savage' peoples of the New World live closer to virtuous nature than civilized Europeans, who are the real barbarians. Shakespeare knew Florio's version: Gonzalo's daydream of an ideal commonwealth with 'no kind of traffic... no name of magistrate... no occupation' (2.1) lifts a whole passage almost word for word, and the essay feeds the play's debate over nature, culture, and who is truly 'civil.'",
+      "detail_scholar": "Florio's Montaigne describes a nation that has 'no kinde of traffike, no knowledge of letters, no intelligence of numbers, no name of magistrate, nor of politike superioritie' — Gonzalo's speech follows it clause by clause, then is mocked by Antonio and Sebastian ('The latter end of his commonwealth forgets the beginning'). The essay's larger claim — that European 'civility' may be more barbarous than the cannibals' simplicity — runs through the Prospero-Caliban relationship and the play's questioning of nature versus nurture. The name 'Caliban' is widely read as an anagram or near-echo of 'cannibal' (itself from 'Carib'). Montaigne is one of the play's two firmest topical sources, alongside the Bermuda narratives.",
+      "related_plays": [
+        "tempest"
+      ],
+      "see_also": [
+        { "kind": "historical", "card_id": "the-bermuda-wreck" }
+      ]
+    },
+    {
+      "id": "setebos-patagonian-god",
+      "kind": "historical",
+      "title": "Setebos, Caliban's god",
+      "source": {
+        "name": "Pigafetta's Magellan voyage, in Eden's History of Travel (1577)",
+        "citation": "Antonio Pigafetta's account of Magellan's 1520 voyage, Englished in Richard Eden, 'The History of Travayle in the West and East Indies' (1577): the Patagonian 'giants' invoke a great devil, 'Setebos.' Caliban swears by 'Setebos, my dam's god' (The Tempest 1.2; cf. 5.1)."
+      },
+      "summary_basic": "Setebos was a god — reported as a 'great devil' — of the Patagonians of South America, recorded by a survivor of Magellan's circumnavigation and printed in English in Richard Eden's 1577 collection of travel narratives. Shakespeare borrowed the exotic name for the deity of Caliban's witch-mother Sycorax: Caliban fears Prospero's art 'would control my dam's god, Setebos' (1.2), and at the end marvels, 'O Setebos, these be brave spirits indeed!' (5.1).",
+      "detail_scholar": "The name comes from one of the era's most widely read travel books: Eden's translation of Pigafetta's report that the towering 'giants' of Patagonia, when seized, roared upon their god Setebos. Its appearance in The Tempest is a small but telling sign of how the play absorbs New World voyage literature: Caliban's religion is given a real, documented 'savage' deity, locating Sycorax's witchcraft in the same ethnographic imagination as the Bermuda and Montaigne material. It is among the clearest verbal borrowings from the travel narratives in the play.",
+      "related_plays": [
+        "tempest"
+      ]
+    },
+    {
+      "id": "gower-and-confessio-amantis",
+      "kind": "historical",
+      "title": "John Gower and the Confessio Amantis",
+      "source": {
+        "name": "John Gower, Confessio Amantis (c. 1390)",
+        "citation": "John Gower, Confessio Amantis (c. 1390), Book 8 — the tale of Apollonius of Tyre, the main source of Pericles. The poet appears 'as Chorus' and narrates the play."
+      },
+      "summary_basic": "John Gower (c. 1330-1408) was a major English poet, a friend of Chaucer, whose long poem Confessio Amantis ('The Lover's Confession') retells the ancient romance of Apollonius of Tyre — the story Pericles dramatizes. Shakespeare brings the poet himself onstage as the Presenter, 'ancient Gower... from ashes,' who speaks an old-fashioned rhymed chorus before every act, introduces the silent dumb-shows, and points the moral at the close.",
+      "detail_scholar": "Using Gower as Chorus is a deliberate antiquarian effect: his pointedly archaic four-beat couplets ('To sing a song that old was sung, / From ashes ancient Gower is come') signal that the audience is hearing a venerable medieval tale, one 'sung at festivals, / On ember-eves and holy-ales.' Gower bridges the play's huge leaps of time and place ('I do beseech you / To learn of me, who stand i' the gaps to teach you'), turning the episodic, decades-spanning romance into a narrated story-within-a-frame and using dumb-shows to compress action he then glosses 'with speech.' The device shaped both the play's old reputation as a 'mouldy tale' and its modern revival as a sophisticated experiment in storytelling.",
+      "related_plays": [
+        "pericles"
+      ],
+      "see_also": [
+        { "kind": "historical", "card_id": "apollonius-of-tyre" }
+      ]
+    },
+    {
+      "id": "apollonius-of-tyre",
+      "kind": "historical",
+      "title": "The romance of Apollonius of Tyre",
+      "source": {
+        "name": "Historia Apollonii regis Tyri; Twine, The Patterne of Painefull Adventures (1576)",
+        "citation": "The anonymous Latin romance 'Historia Apollonii regis Tyri' (c. 5th-6th century AD); Englished by Laurence Twine as 'The Patterne of Painefull Adventures' (c. 1576, reprinted 1607), Shakespeare's source alongside Gower's Confessio Amantis."
+      },
+      "summary_basic": "Behind Pericles lies one of the most popular stories of the Middle Ages: the Latin romance of Apollonius of Tyre — a prince driven by shipwreck and fortune across the Mediterranean, parted from his wife and daughter and reunited with them years later. Shakespeare follows it through two English versions, Gower's poem and Laurence Twine's prose 'Patterne of Painefull Adventures,' changing the hero's name from Apollonius to Pericles.",
+      "detail_scholar": "The 'Historia Apollonii regis Tyri' survives in dozens of medieval manuscripts and languages; its episodic shape — a riddle of incest, storms, apparent deaths, a daughter preserved in a brothel by her virtue, and a recognition scene and temple reunion — is the skeleton of Pericles. Twine's prose redaction (entered 1576, reprinted 1607, just as the play was written) supplied much narrative detail, while Gower's verse supplied the frame. Shakespeare's renaming of Apollonius as 'Pericles' may glance at the noble Pyrocles of Sidney's Arcadia. The play's collaborative text (likely Shakespeare with George Wilkins, who also issued a 1608 prose 'Painfull Adventures of Pericles') reflects this layered descent.",
+      "related_plays": [
+        "pericles"
+      ],
+      "see_also": [
+        { "kind": "historical", "card_id": "gower-and-confessio-amantis" }
+      ]
     }
   ]
 }

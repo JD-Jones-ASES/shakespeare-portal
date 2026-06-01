@@ -17,8 +17,17 @@ export function playDir(slug: string): string {
   return resolve(PLAYS_DIR, slug);
 }
 
+// A few vendored modern-spelling files are named differently from the play slug. Map the
+// slug to the actual file basename so ingest can find the source. (Titus's modern text is
+// filed under its long Folio-style title; its matching titus_andronicus_gut_f.txt is the
+// Folio text, scholar-only, so gutenbergFolioPath needs no alias.)
+const MODERN_SOURCE_ALIAS: Record<string, string> = {
+  titus_andronicus: 'tragedy_of_titus_andronicus',
+};
+
 export function gutenbergModernPath(slug: string): string {
-  return resolve(GUTENBERG_DIR, `${slug}_gut.txt`);
+  const base = MODERN_SOURCE_ALIAS[slug] ?? slug;
+  return resolve(GUTENBERG_DIR, `${base}_gut.txt`);
 }
 
 export function gutenbergFolioPath(slug: string): string {

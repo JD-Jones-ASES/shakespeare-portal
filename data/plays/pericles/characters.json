@@ -1,0 +1,401 @@
+[
+  {
+    "id": "gower",
+    "name": "Gower",
+    "aliases": ["GOWER."],
+    "role": "chorus",
+    "description": "The Presenter — the ghost of the real medieval poet John Gower (c. 1330–1408), whose 'Confessio Amantis' is the play's main source. 'From ashes ancient Gower is come' to narrate the story across many years and countries: he speaks a rhymed chorus before every act, introduces the silent dumb-shows, and closes with the Epilogue's moral.",
+    "color": "#7a6a4a"
+  },
+  {
+    "id": "pericles",
+    "name": "Pericles",
+    "aliases": ["PERICLES.", "PERICLES", "PERACLES."],
+    "role": "protagonist",
+    "description": "Prince (later King) of Tyre. Fleeing the murderous anger of Antiochus after solving his incest riddle, Pericles is tossed across the Mediterranean by storm and fortune: he wins Thaisa at Pentapolis, believes her dead in childbirth at sea, loses their daughter Marina to treachery, and sinks into speechless grief — until both are miraculously restored to him.",
+    "relationships": [
+      { "other_id": "thaisa", "relation": "husband of" },
+      { "other_id": "marina", "relation": "father of" },
+      { "other_id": "helicanus", "relation": "served by" },
+      { "other_id": "simonides", "relation": "son-in-law of" }
+    ],
+    "color": "#3a6ea5"
+  },
+  {
+    "id": "marina",
+    "name": "Marina",
+    "aliases": ["MARINA."],
+    "role": "deuteragonist",
+    "description": "Daughter of Pericles and Thaisa, born at sea in a storm (hence 'Marina'). Raised at Tarsus, she is marked for murder by the jealous Dionyza, seized instead by pirates, and sold to a brothel at Mytilene — where her invincible virtue and eloquence convert her would-be customers, including the governor Lysimachus, and preserve her until she is reunited with her father and married.",
+    "relationships": [
+      { "other_id": "pericles", "relation": "daughter of" },
+      { "other_id": "thaisa", "relation": "daughter of" },
+      { "other_id": "lysimachus", "relation": "betrothed to" },
+      { "other_id": "dionyza", "relation": "marked for death by" }
+    ],
+    "color": "#c45a8a"
+  },
+  {
+    "id": "thaisa",
+    "name": "Thaisa",
+    "aliases": ["THAISA."],
+    "role": "major",
+    "description": "Daughter of King Simonides of Pentapolis, who chooses the shipwrecked Pericles over richer suitors. Apparently dying as she gives birth to Marina in a sea-storm, she is sealed in a chest and cast overboard, washed ashore at Ephesus, and revived by the physician Cerimon; believing her family lost, she becomes a votaress (priestess) of Diana until the final reunion.",
+    "relationships": [
+      { "other_id": "pericles", "relation": "wife of" },
+      { "other_id": "marina", "relation": "mother of" },
+      { "other_id": "simonides", "relation": "daughter of" },
+      { "other_id": "cerimon", "relation": "revived by" }
+    ],
+    "color": "#9a5aa8"
+  },
+  {
+    "id": "helicanus",
+    "name": "Helicanus",
+    "aliases": ["HELICANUS.", "HELCANUS.", "HELICANE."],
+    "role": "major",
+    "description": "A wise and faithful old lord of Tyre, left to govern in Pericles' absence. The play's pattern of loyalty: he warns Pericles of Antiochus's plot, refuses the people's offer of the crown, and keeps Tyre for its lost prince until his return. (The verse sometimes shortens his name to 'Helicane.')",
+    "relationships": [
+      { "other_id": "pericles", "relation": "loyal deputy of" },
+      { "other_id": "escanes", "relation": "fellow lord of Tyre" }
+    ],
+    "color": "#4a7a6a"
+  },
+  {
+    "id": "simonides",
+    "name": "Simonides",
+    "aliases": ["SIMONIDES."],
+    "role": "supporting",
+    "description": "The 'good Simonides,' King of Pentapolis and father of Thaisa, who hosts the tournament at which the shipwrecked Pericles wins his daughter. Genially testing the couple, he blesses their marriage.",
+    "relationships": [
+      { "other_id": "thaisa", "relation": "father of" },
+      { "other_id": "pericles", "relation": "father-in-law of" }
+    ],
+    "color": "#a86a30"
+  },
+  {
+    "id": "cerimon",
+    "name": "Cerimon",
+    "aliases": ["CERIMON."],
+    "role": "supporting",
+    "description": "A lord and learned physician of Ephesus, devoted to charity and the healing virtues of nature. He recovers the chest cast up by the sea and, with his art, restores the supposedly dead Thaisa to life.",
+    "relationships": [
+      { "other_id": "thaisa", "relation": "reviver of" },
+      { "other_id": "philemon", "relation": "master of" }
+    ],
+    "color": "#4a8a8a"
+  },
+  {
+    "id": "lysimachus",
+    "name": "Lysimachus",
+    "aliases": ["LYSIMACHUS."],
+    "role": "supporting",
+    "description": "The governor of Mytilene, who visits the brothel where Marina is held but is shamed into reform by her purity and eloquence. He later helps draw Pericles out of his grief and becomes betrothed to Marina.",
+    "relationships": [
+      { "other_id": "marina", "relation": "betrothed to" }
+    ],
+    "color": "#5a6ab0"
+  },
+  {
+    "id": "antiochus",
+    "name": "Antiochus",
+    "aliases": ["ANTIOCHUS."],
+    "role": "antagonist",
+    "description": "The tyrant King of Antioch, who hides an incestuous relationship with his daughter behind a deadly riddle: suitors who fail to solve it die, and the one who solves it (Pericles) he marks for murder. He and his daughter are later struck dead by fire from heaven — the play's first image of divine justice.",
+    "relationships": [
+      { "other_id": "daughter_of_antiochus", "relation": "incestuous father of" },
+      { "other_id": "pericles", "relation": "would-be murderer of" },
+      { "other_id": "thaliard", "relation": "employer of" }
+    ],
+    "color": "#9a3a3a"
+  },
+  {
+    "id": "cleon",
+    "name": "Cleon",
+    "aliases": ["CLEON."],
+    "role": "supporting",
+    "description": "Governor of Tarsus, whose famine-stricken city Pericles relieves with grain. Entrusted with the infant Marina, he is weakly complicit in his wife Dionyza's plot to murder her, and is finally burned in his palace by an enraged people.",
+    "relationships": [
+      { "other_id": "dionyza", "relation": "husband of" },
+      { "other_id": "pericles", "relation": "indebted to" }
+    ],
+    "color": "#7a7a3a"
+  },
+  {
+    "id": "dionyza",
+    "name": "Dionyza",
+    "aliases": ["DIONYZA."],
+    "role": "supporting",
+    "description": "Wife of Cleon, governor of Tarsus. Jealous that the ward Marina outshines her own daughter, she orders the servant Leonine to murder the girl, then lies that she died naturally — a crime for which she and Cleon are destroyed.",
+    "relationships": [
+      { "other_id": "cleon", "relation": "wife of" },
+      { "other_id": "marina", "relation": "would-be murderer of" },
+      { "other_id": "leonine", "relation": "employer of" }
+    ],
+    "color": "#8a3a5a"
+  },
+  {
+    "id": "thaliard",
+    "name": "Thaliard",
+    "aliases": ["THALIARD."],
+    "role": "minor",
+    "description": "A lord of Antioch hired by Antiochus to poison or murder Pericles; he follows him to Tyre but finds his quarry already fled to sea.",
+    "color": "#6a5a7a"
+  },
+  {
+    "id": "leonine",
+    "name": "Leonine",
+    "aliases": ["LEONINE."],
+    "role": "minor",
+    "description": "Dionyza's servant, sworn to murder Marina on the seashore; pirates seize her before he can strike, and he reports her dead.",
+    "color": "#7a4a4a"
+  },
+  {
+    "id": "bawd",
+    "name": "Bawd",
+    "aliases": ["BAWD.", "BARD."],
+    "role": "supporting",
+    "description": "The brothel-keeper's wife at Mytilene, who buys Marina from the pirates and tries, with mounting frustration, to break the girl's virtue for profit.",
+    "relationships": [
+      { "other_id": "pandar", "relation": "wife of" },
+      { "other_id": "boult", "relation": "mistress of" }
+    ],
+    "color": "#a85a7a"
+  },
+  {
+    "id": "pandar",
+    "name": "Pandar",
+    "aliases": ["PANDAR."],
+    "role": "minor",
+    "description": "The keeper of the Mytilene brothel, the Bawd's husband, who complains that his trade is failing and invests in the captured Marina.",
+    "relationships": [
+      { "other_id": "bawd", "relation": "husband of" }
+    ],
+    "color": "#6a5a4a"
+  },
+  {
+    "id": "boult",
+    "name": "Boult",
+    "aliases": ["BOULT."],
+    "role": "supporting",
+    "description": "The brothel's servant, sent to advertise Marina and to subdue her; even he is finally moved by her appeals and helps her into honest service.",
+    "relationships": [
+      { "other_id": "bawd", "relation": "servant of" },
+      { "other_id": "marina", "relation": "won over by" }
+    ],
+    "color": "#8a6a4a"
+  },
+  {
+    "id": "lychorida",
+    "name": "Lychorida",
+    "aliases": ["LYCHORIDA."],
+    "role": "minor",
+    "description": "Marina's nurse, who attends Thaisa's fatal childbirth at sea and raises Marina at Tarsus until her own death.",
+    "color": "#6a8a7a"
+  },
+  {
+    "id": "escanes",
+    "name": "Escanes",
+    "aliases": ["ESCANES."],
+    "role": "minor",
+    "description": "A lord of Tyre and counsellor alongside Helicanus, later advanced to help govern the city.",
+    "color": "#5a7a8a"
+  },
+  {
+    "id": "philemon",
+    "name": "Philemon",
+    "aliases": ["PHILEMON."],
+    "role": "minor",
+    "description": "Servant to the physician Cerimon at Ephesus."
+  },
+  {
+    "id": "diana",
+    "name": "Diana",
+    "aliases": ["DIANA."],
+    "role": "minor",
+    "description": "The goddess of chastity, whose temple stands at Ephesus. She appears to the grieving Pericles in a vision and directs him there, where the family is reunited — the play's presiding deity of restored purity.",
+    "color": "#c0a030"
+  },
+  {
+    "id": "daughter_of_antiochus",
+    "name": "Daughter of Antiochus",
+    "aliases": ["DAUGHTER."],
+    "role": "minor",
+    "description": "The beautiful daughter of Antiochus, kept by her father in incest and used as the deadly prize of his riddle; she dies with him by heavenly fire."
+  },
+  {
+    "id": "marshal",
+    "name": "Marshal",
+    "aliases": ["MARSHALL."],
+    "role": "minor",
+    "description": "The marshal who orders the knights' procession at the Pentapolis tournament."
+  },
+  {
+    "id": "messenger",
+    "name": "Messenger",
+    "aliases": ["MESSENGER."],
+    "role": "minor",
+    "description": "A messenger at the court of Antioch."
+  },
+  {
+    "id": "first_lord",
+    "name": "First Lord",
+    "aliases": ["FIRST LORD."],
+    "role": "minor",
+    "description": "One of the lords of Tyre attending Helicanus and Pericles."
+  },
+  {
+    "id": "second_lord",
+    "name": "Second Lord",
+    "aliases": ["SECOND LORD."],
+    "role": "minor",
+    "description": "One of the lords of Tyre."
+  },
+  {
+    "id": "third_lord",
+    "name": "Third Lord",
+    "aliases": ["THIRD LORD."],
+    "role": "minor",
+    "description": "One of the lords of Tyre."
+  },
+  {
+    "id": "lord",
+    "name": "A Lord",
+    "aliases": ["LORD."],
+    "role": "minor",
+    "description": "An attendant lord."
+  },
+  {
+    "id": "first_knight",
+    "name": "First Knight",
+    "aliases": ["FIRST KNIGHT."],
+    "role": "minor",
+    "description": "One of the knights who competes for Thaisa at the Pentapolis tournament."
+  },
+  {
+    "id": "second_knight",
+    "name": "Second Knight",
+    "aliases": ["SECOND KNIGHT."],
+    "role": "minor",
+    "description": "One of the knights at the Pentapolis tournament."
+  },
+  {
+    "id": "third_knight",
+    "name": "Third Knight",
+    "aliases": ["THIRD KNIGHT."],
+    "role": "minor",
+    "description": "One of the knights at the Pentapolis tournament."
+  },
+  {
+    "id": "knights",
+    "name": "Knights",
+    "aliases": ["KNIGHTS."],
+    "role": "ensemble",
+    "description": "The knights who tilt for Thaisa's hand at Pentapolis, speaking together."
+  },
+  {
+    "id": "first_fisherman",
+    "name": "First Fisherman",
+    "aliases": ["FIRST FISHERMAN."],
+    "role": "minor",
+    "description": "The chief of the Pentapolis fishermen, whose plain talk of the sea and 'how the fishes live in the sea' greets the shipwrecked Pericles and nets him his father's rusty armour."
+  },
+  {
+    "id": "second_fisherman",
+    "name": "Second Fisherman",
+    "aliases": ["SECOND FISHERMAN."],
+    "role": "minor",
+    "description": "One of the Pentapolis fishermen who shelter the shipwrecked Pericles."
+  },
+  {
+    "id": "third_fisherman",
+    "name": "Third Fisherman",
+    "aliases": ["THIRD FISHERMAN."],
+    "role": "minor",
+    "description": "One of the Pentapolis fishermen."
+  },
+  {
+    "id": "first_sailor",
+    "name": "First Sailor",
+    "aliases": ["FIRST SAILOR."],
+    "role": "minor",
+    "description": "A sailor on Pericles' storm-tossed ship who urges that the apparently dead Thaisa be cast overboard."
+  },
+  {
+    "id": "second_sailor",
+    "name": "Second Sailor",
+    "aliases": ["SECOND SAILOR."],
+    "role": "minor",
+    "description": "A sailor on Pericles' ship during the storm at sea."
+  },
+  {
+    "id": "tyrian_sailor",
+    "name": "Tyrian Sailor",
+    "aliases": ["TYRIAN SAILOR."],
+    "role": "minor",
+    "description": "A sailor of the Tyrian vessel off Mytilene in Act 5."
+  },
+  {
+    "id": "first_gentleman",
+    "name": "First Gentleman",
+    "aliases": ["FIRST GENTLEMAN."],
+    "role": "minor",
+    "description": "A gentleman of Ephesus (and of Mytilene), among those who attend Cerimon and who leave the brothel reformed by Marina."
+  },
+  {
+    "id": "second_gentleman",
+    "name": "Second Gentleman",
+    "aliases": ["SECOND GENTLEMAN."],
+    "role": "minor",
+    "description": "A gentleman of Ephesus and Mytilene."
+  },
+  {
+    "id": "first_servant",
+    "name": "First Servant",
+    "aliases": ["FIRST SERVANT."],
+    "role": "minor",
+    "description": "A servant in Cerimon's house at Ephesus."
+  },
+  {
+    "id": "servant",
+    "name": "Servant",
+    "aliases": ["SERVANT."],
+    "role": "minor",
+    "description": "An attendant servant."
+  },
+  {
+    "id": "first_pirate",
+    "name": "First Pirate",
+    "aliases": ["FIRST PIRATE."],
+    "role": "minor",
+    "description": "One of the pirates who seize Marina from Leonine on the shore at Tarsus and sell her into the brothel."
+  },
+  {
+    "id": "second_pirate",
+    "name": "Second Pirate",
+    "aliases": ["SECOND PIRATE."],
+    "role": "minor",
+    "description": "One of the pirates who carry off Marina."
+  },
+  {
+    "id": "third_pirate",
+    "name": "Third Pirate",
+    "aliases": ["THIRD PIRATE."],
+    "role": "minor",
+    "description": "One of the pirates who carry off Marina."
+  },
+  {
+    "id": "all",
+    "name": "All",
+    "aliases": ["ALL."],
+    "role": "ensemble",
+    "description": "Several speakers answering together."
+  },
+  {
+    "id": "both",
+    "name": "Both",
+    "aliases": ["BOTH."],
+    "role": "ensemble",
+    "description": "Two speakers answering together."
+  }
+]

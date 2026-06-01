@@ -1,0 +1,212 @@
+[
+  {
+    "id": "prospero",
+    "name": "Prospero",
+    "aliases": ["PROSPERO.", "PROSPERO"],
+    "role": "protagonist",
+    "description": "The rightful Duke of Milan, deposed twelve years before by his brother Antonio and set adrift with his infant daughter. A scholar-magician who rules a remote island through his spirit Ariel and his books of art, he raises the storm that wrecks his enemies ashore to confront them, reclaim his dukedom, and — choosing 'virtue' over 'vengeance' — forgive and lay his magic down.",
+    "relationships": [
+      { "other_id": "miranda", "relation": "father of" },
+      { "other_id": "antonio", "relation": "brother betrayed by" },
+      { "other_id": "ariel", "relation": "master of" },
+      { "other_id": "caliban", "relation": "master of" }
+    ],
+    "color": "#6a4c93"
+  },
+  {
+    "id": "ariel",
+    "name": "Ariel",
+    "aliases": ["ARIEL.", "ARIEL"],
+    "role": "deuteragonist",
+    "description": "An airy spirit freed by Prospero from the witch Sycorax's curse and bound to serve him in return. Ariel raises the tempest, torments and shepherds the castaways with music and illusion, and longs throughout for the liberty Prospero finally grants. Neither human nor earthbound, Ariel is the instrument of the play's magic.",
+    "relationships": [
+      { "other_id": "prospero", "relation": "servant of" }
+    ],
+    "color": "#2e8b9e"
+  },
+  {
+    "id": "miranda",
+    "name": "Miranda",
+    "aliases": ["MIRANDA.", "MIRANDA"],
+    "role": "major",
+    "description": "Prospero's daughter, raised on the island since infancy and remembering no human face but her father's. Innocent and compassionate, she pities the shipwrecked and falls in love with Ferdinand at first sight. Her wonder at the newcomers gives the play its most famous line, 'O brave new world, That has such people in't!'",
+    "relationships": [
+      { "other_id": "prospero", "relation": "daughter of" },
+      { "other_id": "ferdinand", "relation": "in love with" }
+    ],
+    "color": "#c45a7a"
+  },
+  {
+    "id": "caliban",
+    "name": "Caliban",
+    "aliases": ["CALIBAN.", "CALIBAN"],
+    "role": "major",
+    "description": "The deformed son of the dead witch Sycorax and the island's first inhabitant, now Prospero's resentful slave. He once showed Prospero the island's secrets and was taught language in return ('You taught me language, and my profit on't Is, I know how to curse'). He plots with the drunkards Stephano and Trinculo to murder his master and take the island back.",
+    "relationships": [
+      { "other_id": "prospero", "relation": "enslaved by" },
+      { "other_id": "stephano", "relation": "worships as a god" }
+    ],
+    "color": "#7d6b3a"
+  },
+  {
+    "id": "ferdinand",
+    "name": "Ferdinand",
+    "aliases": ["FERDINAND.", "FERDINAND"],
+    "role": "major",
+    "description": "Son and heir of Alonso, King of Naples. Separated from the others in the wreck and believing his father drowned, he meets Miranda and the two fall in love at once. Prospero sets him to humble log-bearing labour to test his devotion, then blesses the match and conjures a masque to celebrate it.",
+    "relationships": [
+      { "other_id": "alonso", "relation": "son of" },
+      { "other_id": "miranda", "relation": "in love with" }
+    ],
+    "color": "#3f6fa8"
+  },
+  {
+    "id": "alonso",
+    "name": "Alonso",
+    "aliases": ["ALONSO.", "ALONSO"],
+    "role": "major",
+    "description": "King of Naples, who years before helped Antonio usurp Prospero's dukedom. Grief-stricken on the island in the belief that his son Ferdinand has drowned, he is brought by Prospero's art to repentance, and restored both to his living son and to the man he wronged.",
+    "relationships": [
+      { "other_id": "ferdinand", "relation": "father of" },
+      { "other_id": "sebastian", "relation": "brother of" },
+      { "other_id": "antonio", "relation": "ally in usurpation" }
+    ],
+    "color": "#a8423a"
+  },
+  {
+    "id": "antonio",
+    "name": "Antonio",
+    "aliases": ["ANTONIO.", "ANTONIO"],
+    "role": "antagonist",
+    "description": "Prospero's younger brother, who seized the dukedom of Milan with Alonso's help and cast Prospero and the infant Miranda adrift. Coldly ambitious and unrepentant, on the island he tempts Sebastian to murder the sleeping Alonso and seize Naples. He alone returns Prospero's closing pardon with silence.",
+    "relationships": [
+      { "other_id": "prospero", "relation": "usurping brother of" },
+      { "other_id": "sebastian", "relation": "tempts to murder" }
+    ],
+    "color": "#8a3a63"
+  },
+  {
+    "id": "sebastian",
+    "name": "Sebastian",
+    "aliases": ["SEBASTIAN.", "SEBASTIAN"],
+    "role": "supporting",
+    "description": "Brother of Alonso, King of Naples. Idle and easily led, he is talked by Antonio into a plot to kill his sleeping brother and take the crown — a scheme foiled by Ariel's timely waking music.",
+    "relationships": [
+      { "other_id": "alonso", "relation": "brother of" },
+      { "other_id": "antonio", "relation": "fellow conspirator" }
+    ],
+    "color": "#9a5a38"
+  },
+  {
+    "id": "gonzalo",
+    "name": "Gonzalo",
+    "aliases": ["GONZALO.", "GONZALO"],
+    "role": "supporting",
+    "description": "An honest old counsellor of Naples who, years before, secretly provisioned the banished Prospero with food, water, and his precious books. On the island his hopeful good nature and his daydream of an ideal commonwealth mark him as the play's moral touchstone.",
+    "relationships": [
+      { "other_id": "prospero", "relation": "secret benefactor of" },
+      { "other_id": "alonso", "relation": "counsellor to" }
+    ],
+    "color": "#5a8a4a"
+  },
+  {
+    "id": "stephano",
+    "name": "Stephano",
+    "aliases": ["STEPHANO.", "STEPHANO"],
+    "role": "supporting",
+    "description": "A drunken butler from the wrecked ship who staggers ashore with a butt of salvaged wine. Mistaken by Caliban for a god, he is flattered into a drunken plot to murder Prospero and rule the island, until Ariel's music and Prospero's spirit-hounds rout the conspirators.",
+    "relationships": [
+      { "other_id": "trinculo", "relation": "drinking companion of" },
+      { "other_id": "caliban", "relation": "worshipped by" }
+    ],
+    "color": "#b07a30"
+  },
+  {
+    "id": "trinculo",
+    "name": "Trinculo",
+    "aliases": ["TRINCULO.", "TRINCULO"],
+    "role": "supporting",
+    "description": "A jester from the King's ship, washed ashore and paired with the butler Stephano. His cowardly clowning — sheltering from the storm under Caliban's cloak — supplies much of the play's low comedy.",
+    "relationships": [
+      { "other_id": "stephano", "relation": "drinking companion of" }
+    ],
+    "color": "#80913f"
+  },
+  {
+    "id": "adrian",
+    "name": "Adrian",
+    "aliases": ["ADRIAN.", "ADRIAN"],
+    "role": "minor",
+    "description": "A lord attending King Alonso, who trades observations with Gonzalo, Sebastian, and Antonio as the court party wanders the island.",
+    "color": "#5f7d8c"
+  },
+  {
+    "id": "francisco",
+    "name": "Francisco",
+    "aliases": ["FRANCISCO.", "FRANCISCO"],
+    "role": "minor",
+    "description": "A lord attending King Alonso, who insists that Ferdinand may have survived the wreck by swimming strongly to shore.",
+    "color": "#4f8a78"
+  },
+  {
+    "id": "boatswain",
+    "name": "Boatswain",
+    "aliases": ["BOATSWAIN.", "BOATSWAIN"],
+    "role": "minor",
+    "description": "The ship's boatswain, whose blunt seamanship in the opening storm puts the work of survival above the noblemen's rank ('What cares these roarers for the name of king?'). He is discovered with his crew, the vessel miraculously whole, at the play's end.",
+    "color": "#8a7350"
+  },
+  {
+    "id": "master",
+    "name": "Master",
+    "aliases": ["MASTER."],
+    "role": "minor",
+    "description": "The master of the King's ship, who in the opening storm orders the boatswain to set the crew to work before the vessel runs aground.",
+    "color": "#77688f"
+  },
+  {
+    "id": "mariners",
+    "name": "Mariners",
+    "aliases": ["MARINERS."],
+    "role": "ensemble",
+    "description": "The sailors of the King's ship, who cry 'All lost! to prayers, to prayers!' as the vessel founders, and are found safe and the ship whole at the close."
+  },
+  {
+    "id": "iris",
+    "name": "Iris",
+    "aliases": ["IRIS.", "IRIS"],
+    "role": "supporting",
+    "description": "Goddess of the rainbow and messenger of the gods, presented by Prospero's spirits in the betrothal masque he conjures for Ferdinand and Miranda. As Juno's herald she summons Ceres and the country spirits to bless the lovers.",
+    "color": "#3aa88a"
+  },
+  {
+    "id": "ceres",
+    "name": "Ceres",
+    "aliases": ["CERES.", "CERES"],
+    "role": "supporting",
+    "description": "Roman goddess of the harvest and grain, presented by spirits in the betrothal masque, who blesses the lovers with 'Earth's increase, foison plenty.' Her grief at her daughter Proserpina's abduction by Dis (Pluto) underlies her wariness of Venus and Cupid.",
+    "color": "#b3962f"
+  },
+  {
+    "id": "juno",
+    "name": "Juno",
+    "aliases": ["JUNO.", "JUNO"],
+    "role": "supporting",
+    "description": "Queen of the gods and goddess of marriage, presented by spirits as the chief figure of the betrothal masque, who descends to bless Ferdinand and Miranda with 'Honour, riches, marriage-blessing.'",
+    "color": "#9a3f6f"
+  },
+  {
+    "id": "nymphs",
+    "name": "Nymphs",
+    "aliases": [],
+    "role": "ensemble",
+    "description": "Naiads — water-nymphs — presented by spirits in the betrothal masque, summoned by Iris to join the harvest reapers in a graceful dance honouring the lovers' contract."
+  },
+  {
+    "id": "reapers",
+    "name": "Reapers",
+    "aliases": [],
+    "role": "ensemble",
+    "description": "Sunburnt harvest-workers, presented by spirits in the betrothal masque, who join the nymphs in a country dance until Prospero, recalling Caliban's plot, starts and breaks off the vision."
+  }
+]
