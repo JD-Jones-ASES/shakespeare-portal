@@ -37,7 +37,7 @@ if (!existsSync(sourcePath)) {
   process.exit(1);
 }
 const raw = readFileSync(sourcePath, 'utf8');
-const allLines = raw.split(/\r?\n/);
+let allLines = raw.split(/\r?\n/);
 
 // ---- canonicalization map from characters.json (alias -> {id, name}) ----
 const aliasToChar = new Map<string, { id: string; name: string }>();
@@ -213,6 +213,100 @@ function pushScene(num: number, setting: string | undefined) {
     pendingPrologue = null;
   }
 }
+
+// --- Henry VI edition normalization (gated on slug) -----------------------------
+// The vendored Open Shakespeare transcription of the three Henry VI plays differs from
+// every other shipped text in two ways the generic parser mis-handles:
+//   (1) MANY stage directions are NOT wrapped in [ ] — e.g. the opening "Dead March.
+//       Enter the funeral of King Henry the Fifth..." or a mid-scene "Here alarum; they
+//       are beaten back by the English..." — so they would be read as dialogue under the
+//       previous speaker; and
+//   (2) a scene's setting is sometimes printed on the line AFTER the SCENE header
+//       ("SCENE I" / blank / "Westminster Abbey.") instead of inline, and a two-word
+//       setting like "Westminster Abbey." is otherwise mistaken for a speaker label.
+// This pass rewrites both shapes into the canonical bracketed-SD / inline-setting form
+// the parser already understands. It is GATED on the slug, so the eight shipped plays
+// never execute it and stay byte-identical (confirmed by a re-ingest diff). It relies on
+// a structural invariant of THIS edition: a dialogue block always begins with a speaker
+// label and never contains an internal blank line, so any blank-delimited block that is
+// neither bracketed, nor a header, nor speaker-led is a stage direction (or, immediately
+// after a setting-less SCENE header, the scene's setting).
+const HENRY_VI_SLUGS = new Set(['henry_vi_part_1', 'henry_vi_part_2', 'henry_vi_part_3']);
+
+// High-confidence stage-direction openers — words that begin a stage direction but
+// essentially never begin a line of dialogue. A non-speaker-led block is wrapped as an
+// unbracketed stage direction ONLY when its first line matches this; otherwise it is left
+// untouched (this edition splits long speeches with internal blank lines, so a block can
+// be a dialogue continuation that carries no speaker label — wrapping that would destroy
+// real dialogue and shift every later TLN, whereas leaving a true SD as dialogue is a
+// harmless blemish). Cue lines that sit INSIDE a speaker-led block (e.g. Bedford's "Here
+// sound retreat...") are never tested here — the block is classified as a speech first.
+const SD_CUE = /^(?:Enter|Re-?enter|Exeunt|Exit|Alarums?|Alarms?|Excursions?|Flourish|Sennet|Tucket|Retreat|Hautboys|Cornets|Drums?|Trumpets?|Skirmish|Dead March|A dead march|A flourish|A short alarum|An alarum|A parley|A noise|A sennet|A long flourish|Sound|Here alarum|Here an alarum|Here they fight|Here they skirmish|They fight|They march)\b/;
+
+function normalizeHenryVIEdition(src: string[]): string[] {
+  const out: string[] = [];
+  let settinglessScene = false; // the most recent SCENE header carried no inline setting
+  let i = 0;
+  while (i < src.length) {
+    const line = src[i] ?? '';
+    const trimmed = line.trim();
+    if (trimmed === '') { out.push(line); i++; continue; }
+    if (ACT_HEADER.test(trimmed)) { out.push(line); settinglessScene = false; i++; continue; }
+    const sm = trimmed.match(SCENE_HEADER);
+    if (sm) {
+      out.push(line);
+      settinglessScene = (sm.groups?.setting ?? '').trim() === '';
+      i++;
+      continue;
+    }
+    // Gather the current blank-delimited block.
+    let j = i;
+    while (j < src.length && (src[j] ?? '').trim() !== '') j++;
+    const block = src.slice(i, j);
+    const first = (block[0] ?? '').trim();
+    const hasBracket = block.some((l) => l.includes('[') || l.includes(']'));
+
+    if (first.startsWith('[')) {
+      // already a (possibly multi-line) bracketed stage direction
+      for (const l of block) out.push(l);
+      settinglessScene = false;
+    } else if (settinglessScene && block.length === 1) {
+      // the scene's setting, printed on its own line: fold it into the SCENE header
+      let k = out.length - 1;
+      while (k >= 0 && out[k].trim() === '') k--;
+      if (k >= 0) {
+        const head = out[k].replace(/\s*$/, '');
+        out[k] = head + (/[.:!?]$/.test(head) ? ' ' : '. ') + first;
+      } else {
+        out.push(line);
+      }
+      settinglessScene = false;
+    } else if (looksLikeSpeaker(first)) {
+      // a speaker-led block (a speech, which may itself span an internal blank line
+      // elsewhere) — leave it for the generic parser to attribute
+      for (const l of block) out.push(l);
+      settinglessScene = false;
+    } else if (!hasBracket && SD_CUE.test(first)) {
+      // an unbracketed stage direction (single- or multi-line): wrap the block in [ ]
+      const w = block.slice();
+      w[0] = w[0].replace(/^(\s*)/, '$1[');
+      const last = w.length - 1;
+      w[last] = w[last].replace(/\s*$/, '') + ']';
+      for (const l of w) out.push(l);
+      settinglessScene = false;
+    } else {
+      // neither speaker-led nor a recognized stage cue: a dialogue continuation after an
+      // internal blank, or a stray bracket fragment. The generic parser keeps it under the
+      // current speaker, so leave it untouched.
+      for (const l of block) out.push(l);
+      settinglessScene = false;
+    }
+    i = j;
+  }
+  return out;
+}
+
+if (HENRY_VI_SLUGS.has(slug)) allLines = normalizeHenryVIEdition(allLines);
 
 // find content start: the first ACT header, or an earlier framing header (a Chorus
 // prologue or an Induction) if one precedes it. Plays with no leading framing speech

@@ -74,6 +74,7 @@ const CLASSICAL_ALLOWLIST = new Set([
   'Quintilian',
   'Lucretius',
   'Galen',           // 2nd-c. Greek physician; Falstaff cites him in 2 Henry IV 1.2
+  'Herodotus',       // Greek historian; source for Rhodope and Tomyris (cited in 1 Henry VI 1.6)
 ]);
 
 // A classical allusion may instead be grounded in a recognized reference work or

@@ -16962,5 +16962,1769 @@
         "note": "The annotation conflates two distinct historical figures: Sir Edmund Mortimer (who married Glendower's daughter) and Edmund Mortimer, Earl of March (the legitimate heir claimant); Shakespeare himself conflates them, but the annotation presents the merged figure as historically settled rather than acknowledging this is the play's own conflation."
       }
     ]
+  },
+  {
+    "id": "henry_iv_part_1-113-flame-coloured-taffeta",
+    "play": "henry_iv_part_1",
+    "tln_start": 113,
+    "tln_end": 114,
+    "word_start": 7,
+    "word_end": 1,
+    "anchor_text": "fair hot wench in flame-coloured taffeta",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "Taffeta was a shiny silk fabric; 'flame-coloured' (orange-red) was associated with London prostitutes in the period, making the phrase a coded insult. Hal is saying the only sun Falstaff cares about would be a sexually available woman dressed in a prostitute's colours.",
+    "detail": "Flame-colour (a bright yellowish-orange) was so strongly associated with women of low repute that the colour itself carried the implication without further explanation. Taffeta's sheen amplified the flashiness. The joke in Hal's speech is cumulative: he replaces all the proper markers of time (hours, minutes, the sun) with Falstaff's actual priorities (drinks, food, women).",
+    "sources": [
+      {
+        "name": "Onions, Shakespeare Glossary",
+        "citation": "C. T. Onions, A Shakespeare Glossary, s.v. 'taffeta': used of showy or showy-dressed persons; flame-colour associated with loose women."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 113"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the unverifiable Hentzner citation; kept Onions (which the source judge accepted) and softened summary from 'standard dress' to 'associated with.'"
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The association of flame-colour with women of low repute is well attested in Elizabethan period sources and the reading fits the line's comic logic of substituting Falstaff's real priorities for proper markers of time."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the unverifiable Hentzner citation; kept Onions (which the source judge accepted) and softened summary from 'standard dress' to 'associated with.' [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_iv_part_1-1397-shame-devil",
+    "play": "henry_iv_part_1",
+    "tln_start": 1398,
+    "tln_end": 1398,
+    "word_start": 3,
+    "word_end": 8,
+    "anchor_text": "tell truth, and shame the Devil",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "'Tell truth and shame the Devil' was a recognized English proverb meaning that speaking the truth is itself a defeat of the Devil, who thrives on lies. Hotspur uses it in double irony: he is simultaneously rebuking Glendower for lying about his powers, and showing off his own quick wit by turning Glendower's claim to command the Devil against him.",
+    "sources": [
+      {
+        "name": "Tilley, A Dictionary of Proverbs",
+        "citation": "M. P. Tilley, A Dictionary of the Proverbs in England in the Sixteenth and Seventeenth Centuries (1950), 'Tell (Speak) truth and shame the devil.'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1398"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the wrong entry number (T196); generalized to the Tilley work, which records this proverb (judge points to T566)."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The proverbial status of 'tell truth and shame the Devil' is established (Tilley T 196), and describing Hotspur's use as 'double irony' — rebuking Glendower's falsehoods while turning the Devil-command boast back on him — is a defensible, mainstream reading."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the wrong entry number (T196); generalized to the Tilley work, which records this proverb (judge points to T566). [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_iv_part_1-142-honey-of-hybla",
+    "play": "henry_iv_part_1",
+    "tln_start": 142,
+    "tln_end": 142,
+    "word_start": 2,
+    "word_end": 4,
+    "anchor_text": "honey of Hybla",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Hybla was a town in Sicily proverbial in classical literature for producing the finest honey in the ancient world. Hal uses it sarcastically: he is pretending to praise the tavern hostess with a grand classical compliment, then immediately undercuts it with the insult about the 'buff jerkin' in the next line.",
+    "detail": "The Hybla honey topos appears in Virgil (Eclogues 1.54, the Hyblaean bees) and other classical poets; it was a recognisable literary ornament. Hal's ironic deployment here -- lavish classical praise followed immediately by a taunt about constables -- is the language of a highly educated young man slumming in a tavern and enjoying the gap between register and subject.",
+    "sources": [
+      {
+        "name": "Virgil, Eclogues",
+        "citation": "Virgil, Eclogues 1.54 (Hyblaean bees, proverbial for sweetness)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 142"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the fabricated Cicero Philippics 2.35 locus; kept the confirmed Virgil Eclogues 1.54 (an allowlisted ancient author) and removed the Cicero clause from the detail."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Hybla as a classical byword for fine honey is well established; the reading of ironic deployment (grand compliment immediately undercut) is well supported by the dialogue structure, where praise of the hostess is instantly redirected to the buff jerkin taunt."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the fabricated Cicero Philippics 2.35 locus; kept the confirmed Virgil Eclogues 1.54 (an allowlisted ancient author) and removed the Cicero clause from the detail. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_iv_part_1-1596-tailor-redbreast",
+    "play": "henry_iv_part_1",
+    "tln_start": 1596,
+    "tln_end": 1596,
+    "word_start": 0,
+    "word_end": 9,
+    "anchor_text": "'Tis the next way to turn tailor, or be redbreast-teacher",
+    "type": "cultural_context",
+    "depth": "scholar",
+    "summary": "Tailors were proverbially associated with singing at work; 'a singing tailor' was a comic cliche. A 'redbreast-teacher' is someone who teaches a robin (redbreast) to sing -- an extremely tame, domestic, unwarlike hobby. Hotspur implies that if Lady Percy won't sing, she is heading toward the most effeminate, un-heroic of occupations. The joke is in bad faith: it is Hotspur who refuses to listen to music.",
+    "detail": "The picture of tailors singing cheerfully over their needlework, and the proverb 'nine tailors make a man,' are found across Elizabethan drama and jest-books (cf. Twelfth Night 2.3, where the clown sings 'like a tailor'). Teaching songbirds particular tunes was a fashionable domestic pastime; one trained the caged bird by singing or playing the melody to it repeatedly. Both activities are deliberately chosen for their contrast with the masculine martial world the scene has been occupying.",
+    "sources": [
+      {
+        "name": "Tilley, A Dictionary of Proverbs",
+        "citation": "M. P. Tilley, A Dictionary of the Proverbs in England in the Sixteenth and Seventeenth Centuries (1950), 'Nine tailors make a man.'"
+      }
+    ],
+    "references": [],
+    "confidence": "medium",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1596"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the wrong Tilley number (T22) and the misattributed Deloney Gentle Craft (a shoemaker book); generalized Tilley to the work and cited Twelfth Night 2.3 in detail for the singing-tailor cliche. Confidence stays medium."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Both the 'singing tailor' cliche and the domestic pastime of teaching songbirds are well-documented Elizabethan associations; the annotation's caution about Tilley T 22 ('nine tailors make a man') being the only firm citation is reflected in the 'medium' confidence rating, which is appropriate."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the wrong Tilley number (T22) and the misattributed Deloney Gentle Craft (a shoemaker book); generalized Tilley to the work and cited Twelfth Night 2.3 in detail for the singing-tailor cliche. Confidence stays medium. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_iv_part_1-1674-surfeited-with-honey",
+    "play": "henry_iv_part_1",
+    "tln_start": 1674,
+    "tln_end": 1676,
+    "word_start": 0,
+    "word_end": 8,
+    "anchor_text": "They surfeited with honey, and began / To loathe the taste of sweetness, whereof a little / More than a little is by much too much",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Henry uses the saying that too much of a sweet thing turns to disgust, then tightens it into a paradox: 'a little / More than a little is by much too much.' The final line is a deliberate rhetorical turn -- an epigram or sententia (a terse, memorable saying) meant to stamp the lesson in memory. Excess destroys not just satisfaction but the taste itself.",
+    "detail": "The sententia -- a brief, pointed moral observation -- was a standard tool of Elizabethan rhetoric taught in grammar schools. The honey-surfeit idea ('too much honey cloys the stomach') was proverbial. Shakespeare's version has an extra structural wrinkle: 'a little / More than a little is by much too much' turns on itself, quantifying the infinitesimally small trigger of excess. The rhetorical figure is correctio (self-correction, sharpening a statement to a finer point). The argument applies both to Richard's popular excess and, implicitly, to Hal's tavern indulgences.",
+    "sources": [
+      {
+        "name": "Tilley",
+        "citation": "M. P. Tilley, A Dictionary of the Proverbs in England in the Sixteenth and Seventeenth Centuries (1950), 'Too much honey cloys the stomach.'"
+      },
+      {
+        "name": "Lanham, A Handlist of Rhetorical Terms",
+        "citation": "Richard A. Lanham, A Handlist of Rhetorical Terms (2nd ed., 1991), s.v. 'correctio' (self-correction that sharpens a statement) and 'sententia.'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1674"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the off-by-one Tilley number (H561) and generalized to the work for the honey-cloys proverb; added Lanham for the device names (correctio/sententia). Gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Identifying the honey-surfeit image as a sententia and noting the proverbial parallel (Tilley H561) is appropriate; the claim that the final line constitutes correctio is a reasonable rhetorical label, and the overall interpretation that excess destroys appetite fits the text precisely."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the off-by-one Tilley number (H561) and generalized to the work for the honey-cloys proverb; added Lanham for the device names (correctio/sententia). Gloss unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_iv_part_1-1716-mars-swathing-clothes",
+    "play": "henry_iv_part_1",
+    "tln_start": 1716,
+    "tln_end": 1717,
+    "word_start": 2,
+    "word_end": 2,
+    "anchor_text": "this Hotspur, Mars in swathing-clothes, / This infant warrior",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Mars was the Roman god of war -- the most feared and honored of battlefield deities. 'Swathing-clothes' are swaddling bands used to wrap a newborn infant tightly. Henry is calling Hotspur 'Mars still in his cradle': a war-god not yet fully grown but already terrifying. The hyperbole sets up the contrast with Prince Hal, who despite his age is doing nothing martial at all.",
+    "detail": "The conceit of a heroic figure being compared to a young, potent deity is a recognized form of heroic compliment in classical rhetoric (syncrisis, or comparison). Henry's point is that Hotspur -- described in the play as about the same age as Hal -- has already won extraordinary martial renown. The phrase also carries a slight undercutting edge: Mars in baby-clothes is almost absurd, which is why Henry needs both 'Mars' for the god-like martial quality and 'infant warrior' to stress that Hotspur achieves this while still young.",
+    "sources": [
+      {
+        "name": "Ovid, Metamorphoses",
+        "citation": "Ovid, Metamorphoses (Mars among the Olympian gods); Mars was the Roman war-god and, in Roman tradition, father of Romulus."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1716"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the wrong locus (Met 5.360-362 is the Venus/Cupid/Proserpine passage); generalized to Ovid's Metamorphoses, an allowlisted classical author, for Mars as war-god."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Identifying 'Mars in swathing-clothes' as hyperbolic heroic compliment (syncrisis) with the god of war in baby-bands is a sound mainstream reading; the note that it slightly undercuts the compliment by the absurdity of the image is defensible and observationally grounded in the text."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the wrong locus (Met 5.360-362 is the Venus/Cupid/Proserpine passage); generalized to Ovid's Metamorphoses, an allowlisted classical author, for Mars as war-god. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_iv_part_1-1855-newgate-fashion",
+    "play": "henry_iv_part_1",
+    "tln_start": 1855,
+    "tln_end": 1855,
+    "word_start": 1,
+    "word_end": 2,
+    "anchor_text": "two-and-two, Newgate-fashion",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "Newgate was London's most notorious prison, located at the Newgate in the old city wall. Prisoners being marched to Newgate were shackled and led in pairs, two by two. Bardolph jokes that if they must all march (to war), they will go 'Newgate-fashion' -- chained together like criminals. The quip is topically funny because Falstaff and his crew are, in fact, wanted men for the Gad's Hill robbery.",
+    "sources": [
+      {
+        "name": "Stow, A Survey of London (1598)",
+        "citation": "John Stow, A Survey of London (1598), on Newgate and the prisons of London; prisoners were customarily paired in irons for transport."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1855"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Promoted the correct source (Stow's Survey, previously buried in a 'Cf.') to the primary citation and removed the misattributed Holinshed reference. Gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Prisoners marched in pairs to Newgate is the plain meaning, and the irony that Falstaff's crew are already wanted for Gad's Hill is a legitimate contextual observation, not an over-reading."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Promoted the correct source (Stow's Survey, previously buried in a 'Cf.') to the primary citation and removed the misattributed Holinshed reference. Gloss unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_iv_part_1-203-devil-his-due",
+    "play": "henry_iv_part_1",
+    "tln_start": 204,
+    "tln_end": 205,
+    "word_start": 3,
+    "word_end": 2,
+    "anchor_text": "never yet a breaker of proverbs,--he will give the Devil his due",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Give the devil his due' was a common Elizabethan proverb meaning to acknowledge the virtues even of someone evil or disliked. Hal uses it sardonically: if Falstaff sold his soul to the Devil, he is not a man who breaks agreements -- so he will honour the bargain and hand over his soul as promised. The joke makes Falstaff's one virtue (keeping a deal) into the guarantee of his damnation.",
+    "sources": [
+      {
+        "name": "Tilley, Dictionary of Proverbs",
+        "citation": "M. P. Tilley, A Dictionary of the Proverbs in England in the Sixteenth and Seventeenth Centuries (1950), 'Give the devil his due' (proverbial from the 1580s)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 204"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the wrong entry number (D278 is a different proverb); generalized to the Tilley work, which does record this proverb."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Give the devil his due' as an Elizabethan proverb acknowledging virtues in someone disreputable is correctly glossed, and Hal's ironic deployment — Falstaff's one virtue (keeping deals) guarantees his damnation — is exactly what the exchange performs."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the wrong entry number (D278 is a different proverb); generalized to the Tilley work, which does record this proverb. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_iv_part_1-2065-fire-eyed-maid-mars",
+    "play": "henry_iv_part_1",
+    "tln_start": 2066,
+    "tln_end": 2068,
+    "word_start": 3,
+    "word_end": 7,
+    "anchor_text": "fire-eyed maid of smoky war / All hot and bleeding, will we offer them: / The mailed Mars shall on his altar sit",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "The 'fire-eyed maid of smoky war' is Bellona, the Roman goddess of war -- a virgin warrior whose name comes from the Latin for 'war.' 'Mailed Mars' is the god of war, Mars, in his armor ('mail' = chain armor). Hotspur imagines the royal army marching to battle like animals brought as sacrificial offerings to these two war-deities: he will slaughter them on the altar of war, with Mars presiding.",
+    "detail": "Mars (Greek Ares) and Bellona formed a pair in Roman religion, Bellona sometimes described as his sister or companion. Bellona's epithet 'fire-eyed' and the altar imagery transform Hotspur's anticipated battle into a sacred, almost ecstatic act of worship. The phrase 'mailed Mars' recurs in Shakespeare (Henry V, 3 Chorus), always as the personification of armored, implacable war.",
+    "sources": [
+      {
+        "name": "Ovid, Metamorphoses",
+        "citation": "Ovid, Metamorphoses Book 5 (Bellona named as a war deity); Arthur Golding's 1567 English translation."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2066"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the vague padding Holinshed citation the judge flagged; kept Ovid (Bellona, Met. Bk 5 / Golding 1567), an allowlisted classical author. Gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Identifying the 'fire-eyed maid' as Bellona is the mainstream editorial gloss; the sacrificial imagery (the royal army offered to war-gods) tracks the literal language of the lines ('offer them,' 'his altar'), and the reading of Hotspur's battle-frenzy as quasi-sacred is a defensible interpretation."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the vague padding Holinshed citation the judge flagged; kept Ovid (Bellona, Met. Bk 5 / Golding 1567), an allowlisted classical author. Gloss unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_iv_part_1-2120-prodigals-swine",
+    "play": "henry_iv_part_1",
+    "tln_start": 2120,
+    "tln_end": 2121,
+    "word_start": 3,
+    "word_end": 5,
+    "anchor_text": "tattered Prodigals lately come from swine-keeping, from eating draff and husks",
+    "type": "biblical_allusion",
+    "depth": "basic",
+    "summary": "'Draff and husks' are the waste-grain swill fed to pigs -- the lowest possible food. Falstaff quotes the parable of the Prodigal Son, who squandered his inheritance and was reduced to feeding swine, envying them their husks. He says his wretched soldiers look as though they have just stumbled in from the same degradation.",
+    "detail": "In Luke 15 the younger son, who has wasted his estate in 'riotous living,' ends up hired to tend pigs and 'would fain have filled his belly with the husks that the swine ate.' The 'painted cloth' of the previous line (the Dives-and-Lazarus hanging) makes the double biblical reference a single visual world -- the walls of cheap alehouses and inns displayed both stories. The Prodigal Son is also the shadow over Prince Hal himself, whose apparent idleness this companion-scene mirrors comically in miniature.",
+    "sources": [
+      {
+        "name": "Geneva Bible 1599",
+        "citation": "Luke 15:15-16 (Geneva 1599): 'and he sent him to his farm, to feed swine. And he would fain have filled his belly with the husks that the swine ate.'"
+      }
+    ],
+    "references": [
+      {
+        "kind": "biblical",
+        "card_id": "the-prodigal-son"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2120"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Corrected the misquote: Geneva 1599 reads 'the husks that the swine ate,' not the KJV 'did eat.' Verse reference (Luke 15:15-16) is correct and kept."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The parable reference is textually grounded in 'draff and husks' and 'swine-keeping'; the claim that it mirrors the Prodigal Son parable (Luke 15) is uncontroversial, though the additional reading that Hal himself is shadowed by the same parable is interpretively sound but should remain in detail rather than summary."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Corrected the misquote: Geneva 1599 reads 'the husks that the swine ate,' not the KJV 'did eat.' Verse reference (Luke 15:15-16) is correct and kept. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_iv_part_1-2152-three-fingers-bare",
+    "play": "henry_iv_part_1",
+    "tln_start": 2152,
+    "tln_end": 2153,
+    "word_start": 4,
+    "word_end": 0,
+    "anchor_text": "unless you call three fingers on the ribs bare",
+    "type": "wordplay",
+    "depth": "scholar",
+    "summary": "Hal concedes Falstaff might know something about 'bareness': the fat knight carries three fingers of fat on his ribs -- so in that sense his ribs are 'bare' with lard. The joke pivots on Westmoreland's word 'bare' (meaning poorly dressed and thin), which Hal redirects to the fat deposited across Falstaff's bones.",
+    "detail": "Three fingers' breadth of fat on the ribs was a standard butcher's measure for a well-marbled animal carcass -- Hal implicitly likens Falstaff to a side of beef. 'Bare' carries both 'naked' and 'mere, nothing but': so Falstaff has three fingers of nakedness (fat) on his ribs and nothing else. The butchery image recurs throughout the play: Falstaff is repeatedly measured in animal terms, and the battlefield becomes a place where human bodies are treated as meat.",
+    "sources": [
+      {
+        "name": "Schmidt, Shakespeare-Lexicon",
+        "citation": "Alexander Schmidt, Shakespeare-Lexicon, s.v. 'finger': used as a unit of measure (a finger's breadth)."
+      },
+      {
+        "name": "Onions, Shakespeare Glossary",
+        "citation": "C. T. Onions, A Shakespeare Glossary, s.v. 'bare': naked; also 'mere, nothing but.'"
+      }
+    ],
+    "references": [],
+    "confidence": "medium",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2152"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Gordon Williams's Glossary of Shakespeare's Sexual Language (1997) is a real work that treats 'bare' for its bawdy registers, and Schmidt s.v. 'fingers' as a measure is a genuine entry; both citations support the annotation's claims."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Interp judge correctly noted there is no bawdy content; recategorized type from 'bawdy_pun' to 'wordplay' (a fat/measure joke). Replaced the now-irrelevant Williams sexual-language source with Onions for 'bare'; kept Schmidt for 'finger.'"
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Interp judge correctly noted there is no bawdy content; recategorized type from 'bawdy_pun' to 'wordplay' (a fat/measure joke). Replaced the now-irrelevant Williams sexual-language source with Onions for 'bare'; kept Schmidt for 'finger.' [orig: source=verified, interp=refuted]"
+  },
+  {
+    "id": "henry_iv_part_1-2203-anointed-majesty",
+    "play": "henry_iv_part_1",
+    "tln_start": 2203,
+    "tln_end": 2204,
+    "word_start": 3,
+    "word_end": 4,
+    "anchor_text": "out of limit and true rule / You stand against anointed majesty",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "'Anointed majesty' refers to the religious ceremony of royal coronation, in which the monarch was anointed with holy oil as a sign that God had chosen and consecrated them. Blunt is telling the rebels that, whatever their grievances, they are in rebellion against a king made sacred by God's own ordination.",
+    "detail": "In the coronation liturgy inherited from the medieval church, the archbishop anointed the king's hands, breast, and head with chrism oil -- the same rite used to consecrate priests and bishops. This made the king, in the doctrine of divine right, God's anointed deputy on earth, and rebellion against him a sin as well as a crime. Blunt's argument is specifically theological, not merely political: by standing 'out of limit' (outside the lawful bounds) the rebels commit sacrilege. The irony the play sustains throughout is that the man Blunt defends as 'anointed majesty' seized the crown from the previous anointed king, Richard II.",
+    "sources": [
+      {
+        "name": "Holinshed, Chronicles (1587)",
+        "citation": "Raphael Holinshed, Chronicles (1587): Blunt's embassy and the rebels' complaints before Shrewsbury."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "divine-right-of-kings"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2203"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the crossed-up / anachronistic James VI & I source (name said Basilikon Doron, body cited Trew Law); kept Holinshed. The divine-right card carries the doctrine. Gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The coronation-anointing doctrine is correctly explained, and the note about the irony of Blunt defending a king who deposed the previous 'anointed' Richard II is a mainstream critical observation, not an overreach."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the crossed-up / anachronistic James VI & I source (name said Basilikon Doron, body cited Trew Law); kept Holinshed. The divine-right card carries the doctrine. Gloss unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_iv_part_1-2317-archbishop-confederacy",
+    "play": "henry_iv_part_1",
+    "tln_start": 2317,
+    "tln_end": 2318,
+    "word_start": 3,
+    "word_end": 6,
+    "anchor_text": "he means to visit us, For he hath heard of our confederacy",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "The Archbishop is Richard Scroop, Archbishop of York, who has aligned himself with the Percy rebellion. He fears that if Hotspur loses at Shrewsbury, King Henry will march directly against him. The word 'confederacy' (a league of conspirators) confirms the Archbishop's treasonous plotting: a senior churchman in open alliance with armed rebels against the king.",
+    "detail": "Richard Scroop (Archbishop of York from 1398) became one of the most politically charged figures in the Lancastrian period; he had a kinsman, William Scroop, Earl of Wiltshire, beheaded on Bolingbroke's orders in 1399, which fed a grievance against Henry IV. In this brief scene Shakespeare plants the seed of the Archbishop's continuing threat, developed in Henry IV Part 2, where Scroop leads a second rebellion and is executed in 1405 -- an execution contemporaries found scandalous, both because Henry tricked him into laying down his arms under a false promise of negotiation and because beheading an archbishop carried uncomfortable echoes of Thomas Becket. The scene's function is structural: it closes Part 1 knowing that the war does not end with Shrewsbury.",
+    "sources": [
+      {
+        "name": "Holinshed",
+        "citation": "Raphael Holinshed, Chronicles of England, Scotland, and Ireland (1587), on Richard Scroop, Archbishop of York, and his role in the rebellions of 1403-1405."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2317"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Removed the wrong precise birth date ('c.1346') and changed the erroneous 'brother' (they were kinsmen/cousins, a confusion Holinshed shares) to 'a kinsman'; the rest is Holinshed-grounded. Gloss core unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The identification of the Archbishop as Richard Scroop with a personal grievance over his brother's 1399 execution is historically grounded in Holinshed and standard scholarship; the Becket echo is a recognized historiographical observation, and the structural claim about the scene bridging to Part 2 is mainstream."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Removed the wrong precise birth date ('c.1346') and changed the erroneous 'brother' (they were kinsmen/cousins, a confusion Holinshed shares) to 'a kinsman'; the rest is Holinshed-grounded. Gloss core unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_iv_part_1-2325-southern-wind-trumpet",
+    "play": "henry_iv_part_1",
+    "tln_start": 2325,
+    "tln_end": 2326,
+    "word_start": 1,
+    "word_end": 6,
+    "anchor_text": "southern wind Doth play the trumpet to his purposes",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "The southern wind was associated in Elizabethan weather-lore with storms, rain, and foul air. Hal says it 'plays the trumpet' to the sun's purposes -- meaning it announces and heralds the tempest the way a trumpet announces a king's arrival. The whole speech is a rhetorical weather-omen: nature itself is predicting a violent day.",
+    "detail": "The warm, moist south wind (Auster in classical meteorology) was proverbially storm-bearing; Hal's personification gives the wind the role of a herald or crier, and the 'hollow whistling in the leaves' (the wind's sound) becomes the instrument's note. The pairing of a blood-red sun with a stormy south wind drew on Elizabethan popular meteorology, familiar from almanacs and the husbandry tradition (red sky in the morning, shepherd's warning).",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'southern' adj.: 'of or relating to the south wind, regarded as warm, moist, and storm-bringing.'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2325"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the fabricated Pliny 18.78 locus (which is on solar prognostics, not the south wind); kept OED, which the judge accepted, and removed the Pliny clause."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The association of the south wind with storms and foul weather is legitimate Elizabethan meteorological lore, and 'play the trumpet' as herald/announce is a straightforward personification accurately glossed."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the fabricated Pliny 18.78 locus (which is on solar prognostics, not the south wind); kept OED, which the judge accepted, and removed the Pliny clause. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_iv_part_1-2445-colossus-friendship",
+    "play": "henry_iv_part_1",
+    "tln_start": 2445,
+    "tln_end": 2445,
+    "word_start": 0,
+    "word_end": 8,
+    "anchor_text": "Nothing but a colossus can do thee that friendship",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "The Colossus of Rhodes was a bronze statue of the sun-god Helios, over a hundred feet tall, one of the seven wonders of the ancient world. Falstaff has asked Hal to stand over him (bestride him) if he falls in battle, to protect him from being trampled or slaughtered. Hal's answer is a savage joke: only a giant statue could straddle your enormous body, Falstaff.",
+    "detail": "Pliny the Elder describes the Colossus of Rhodes as so vast that few men could clasp its thumb in their arms. Julius Caesar deploys the same image of a man straddling the world like a colossus (Julius Caesar 1.2). Here Hal turns it into a fat joke: Falstaff's bulk requires a superhuman protector to bestride it. The crack is affectionate but also brisk -- Hal dismisses Falstaff's cowardly plea with wit before returning to duty.",
+    "sources": [
+      {
+        "name": "Pliny, Natural History",
+        "citation": "Pliny the Elder, Natural History, Book 34 (the bronze Colossus of Rhodes, one of the seven wonders)."
+      }
+    ],
+    "references": [
+      {
+        "kind": "classical",
+        "card_id": "colossus"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2445"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Generalized the Pliny locus to Book 34 (the judge notes the thumb passage is 34.41, not 34.18) rather than asserting a specific section; Pliny is allowlisted and the Colossus is in Book 34."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The Colossus of Rhodes identification and the joke about Falstaff's bulk requiring a giant to bestride him are well-grounded; the Julius Caesar parallel ('bestriding the world') is a sound intertextual note, not an overreach."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Generalized the Pliny locus to Book 34 (the judge notes the thumb passage is 34.41, not 34.18) rather than asserting a specific section; Pliny is allowlisted and the Colossus is in Book 34. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_iv_part_1-2469-trusted-like-the-fox",
+    "play": "henry_iv_part_1",
+    "tln_start": 2469,
+    "tln_end": 2471,
+    "word_start": 1,
+    "word_end": 7,
+    "anchor_text": "treason is but trusted like the fox, Who, ne'er so tame, so cherish'd, and lock'd up, Will have a wild trick of his ancestors",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "Worcester draws on a well-known Elizabethan proverb: you can tame a fox, pet it, and keep it caged, but its inborn wildness will eventually resurface. Applied to himself and the Percys, the point is that the king will never fully trust former rebels -- they carry their treasonous 'nature' by heredity, and no pardon can erase that suspicion.",
+    "detail": "The fox-nature proverb belonged to a body of natural-history lore inherited from classical sources and widely recycled in Tudor emblem books and conduct manuals. 'Wild trick' means an inbred characteristic or habit ('trick' meaning a personal trait or way). The logic of inherited character -- that a man's ancestry determines his temper -- was a standard assumption in Elizabethan social thought. Worcester argues from it that he and the Percys are constitutionally untrustworthy in royal eyes, not personally.",
+    "sources": [
+      {
+        "name": "Tilley, A Dictionary of the Proverbs in England",
+        "citation": "M. P. Tilley, A Dictionary of the Proverbs in England in the Sixteenth and Seventeenth Centuries (1950), 'The fox may change his fur (hue) but not his nature.'"
+      },
+      {
+        "name": "Onions, Shakespeare Glossary",
+        "citation": "C. T. Onions, A Shakespeare Glossary (1911), s.v. 'trick': a characteristic trait or mannerism."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2469"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the wrong Tilley number (F634 is a different fox proverb); generalized to the work. Onions for 'trick' is unaffected and accepted."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The fox-taming proverb and the sense of 'wild trick' as an inbred ancestral trait are well-attested readings; the interpretation that Worcester is arguing constitutional untrustworthiness (not personal failing) fits the text and his immediate rhetorical purpose."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the wrong Tilley number (F634 is a different fox proverb); generalized to the work. Onions for 'trick' is unaffected and accepted. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_iv_part_1-2474-oxen-at-a-stall",
+    "play": "henry_iv_part_1",
+    "tln_start": 2474,
+    "tln_end": 2475,
+    "word_start": 3,
+    "word_end": 6,
+    "anchor_text": "feed like oxen at a stall, The better cherish'd, still the nearer death",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Worcester warns that if they accept the king's pardon they will be like cattle fattened in a stall: the more carefully they are fed and tended, the sooner they are led to slaughter. This is an extended metaphor (conceit) turning royal 'cherishing' -- favor, gifts, safety -- into a death-trap.",
+    "detail": "The image is darkly ironic because 'cherish'd' is used twice in the passage -- first for the tamed fox, now for the fattened ox -- each time meaning the very care that precedes killing. The audience would recognize the agricultural logic: a working ox could live indefinitely, but a stall-fed ox is being readied for the butcher. The rhetorical structure is a couplet antithesis: 'better cherish'd' / 'nearer death.'",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'cherish' (vb.): to tend or nurture carefully, including the care of livestock."
+      },
+      {
+        "name": "Lanham, A Handlist of Rhetorical Terms",
+        "citation": "Richard A. Lanham, A Handlist of Rhetorical Terms (2nd ed., 1991), s.v. 'antithesis' (juxtaposition of contrasting ideas)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2474"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the unsupported Tacitus Annals 6.19 citation (it records executions, not the honor-before-death pattern claimed) and that clause from the detail; kept OED and added Lanham for the antithesis. Gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The stall-fed ox as a figure for fattening toward slaughter is a straightforward and defensible reading; the ironic doubling of 'cherish'd' (fox / ox) is genuinely present in the text, and the overall interpretation of royal favor as a death-trap fits Worcester's argument."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the unsupported Tacitus Annals 6.19 citation (it records executions, not the honor-before-death pattern claimed) and that clause from the detail; kept OED and added Lanham for the antithesis. Gloss unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_iv_part_1-2597-ragamuffins-peppered",
+    "play": "henry_iv_part_1",
+    "tln_start": 2596,
+    "tln_end": 2597,
+    "word_start": 11,
+    "word_end": 4,
+    "anchor_text": "led my ragamuffins where they are peppered",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "Falstaff here confesses with cheerful callousness that he deliberately led his 'ragamuffins' -- a ragged, disreputable bunch -- into the hottest fighting until they were 'peppered,' meaning killed or shot full of wounds (as food is peppered). Only a handful of his hundred and fifty men survive. Earlier we learned that Falstaff recruited the most miserable men he could find precisely because their lives were expendable; this line is the outcome.",
+    "detail": "'Peppered' was Elizabethan slang for killed or badly wounded -- peppered like meat, shot through. 'Ragamuffin' (a ragged, disreputable ruffian) was already in use before Shakespeare; the play has shown us earlier (4.2) exactly how Falstaff assembled these men: he took bribes from those who could pay to be excused and filled the gaps with the most wretched conscripts he could find -- 'such as fear the report of a caliver' -- to pocket the dead men's pay. His admission here is a small, dark punchline to that earlier comedy.",
+    "sources": [
+      {
+        "name": "Schmidt, Shakespeare-Lexicon",
+        "citation": "Alexander Schmidt, Shakespeare-Lexicon (1874-75), s.v. 'pepper': to wound or kill repeatedly."
+      },
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'pepper' v.: to hit or hurt in many places, to pelt (as with shot)."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2596"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Removed the disputed '16th c.' attestation date from the OED citation and led with Schmidt (which the judge did not contest) for the 'wound/kill' sense; both support the gloss. Gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Peppered' as a colloquial term for killed or badly wounded is solidly attested, and the back-reference to the 4.2 conscription scene correctly identifies the dramatic irony in Falstaff's cheerful confession."
+      }
+    ],
+    "references": [],
+    "note_internal": "Review-queue rescue 2026-06-01. Removed the disputed '16th c.' attestation date from the OED citation and led with Schmidt (which the judge did not contest) for the 'wound/kill' sense; both support the gloss. Gloss unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_iv_part_1-2605-turk-gregory",
+    "play": "henry_iv_part_1",
+    "tln_start": 2605,
+    "tln_end": 2607,
+    "word_start": 10,
+    "word_end": 0,
+    "anchor_text": "Turk Gregory never did such deeds in arms as I have done this day",
+    "type": "historical_topical",
+    "depth": "scholar",
+    "summary": "'Turk Gregory' fuses two bywords for cruelty: the Ottoman Turk (the feared Muslim empire that threatened Christendom) and a Pope named Gregory. Editors divide over which Gregory -- the medieval Gregory VII (Hildebrand), who warred with the Emperor, or the more topical Gregory XIII, reviled in Protestant England. Either way the combined name produces a comic monster of ferocity against which Falstaff mockingly measures his own supposed heroism.",
+    "detail": "The identification of the 'Gregory' is a long-standing editorial crux: older editions favour Gregory VII (the medieval pope who quarrelled with the Holy Roman Emperor), while some modern editors prefer Gregory XIII (r. 1572-1585), who in Protestant propaganda was depicted as a bloodthirsty agent of Rome after the Massacre of St Bartholomew (1572). The word 'Turk' in Elizabethan usage signified a ruthlessly cruel or overbearing person, drawn from fear of the Ottoman Empire. Falstaff's boast is absurd: the man who has spent the battle hiding is claiming to have surpassed history's most violent despots.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'Turk' n., sense 2b: 'a cruel, tyrannical, or unfeeling person; an overbearing or harsh person.'"
+      },
+      {
+        "name": "Arden 3 edition (Kastan 2002)",
+        "citation": "David Scott Kastan (ed.), King Henry IV Part 1, Arden Shakespeare Third Series (2002), note on 'Turk Gregory' (the VII vs XIII editorial crux)."
+      }
+    ],
+    "confidence": "medium",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2605"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Softened the summary/detail from asserting Gregory XIII to presenting the VII-vs-XIII editorial crux honestly (the judge notes older consensus is VII); the gloss already flags the debate and stays medium confidence. Both sources are genuine and kept."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The annotation honestly flags the editorial debate between Gregory VII and Gregory XIII and is appropriately marked medium confidence; the Gregory XIII identification on Protestant-propaganda grounds is defensible and is the reading favoured in recent Arden/Oxford editions."
+      }
+    ],
+    "references": [],
+    "note_internal": "Review-queue rescue 2026-06-01. Softened the summary/detail from asserting Gregory XIII to presenting the VII-vs-XIII editorial crux honestly (the judge notes older consensus is VII); the gloss already flags the debate and stays medium confidence. Both sources are genuine and kept. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_iv_part_1-267-imitate-the-sun",
+    "play": "henry_iv_part_1",
+    "tln_start": 267,
+    "tln_end": 269,
+    "word_start": 1,
+    "word_end": 6,
+    "anchor_text": "herein will I imitate the Sun, Who doth permit the base contagious clouds To smother-up his beauty from the world",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Hal develops a sustained metaphor comparing himself to the sun hidden by clouds: just as the sun seems to disappear behind clouds only to break through more brilliantly, so Hal conceals his true royal nature behind his tavern companions, so that when he finally reveals himself his reformation will seem more glorious by contrast. The image also links him to the idea of the king as the sun -- a standard emblem of royal majesty.",
+    "detail": "The sun-as-king metaphor runs through Shakespeare's history plays: Richard II (3.2) compares himself to the sun returning after temporary eclipse; Henry V is described before Agincourt in sun-imagery. Hal's soliloquy here is his private revelation that the prodigal prince act is calculated strategy, not moral failure. The 'base contagious clouds' (base = low-born; contagious = infectious) are Falstaff and company: their corruption taints but cannot ultimately extinguish the royal sun. The device is a formal extended metaphor (a sustained simile) carried across several lines.",
+    "sources": [
+      {
+        "name": "Lanham, A Handlist of Rhetorical Terms",
+        "citation": "Richard A. Lanham, A Handlist of Rhetorical Terms (2nd ed., 1991), s.v. 'allegoria' / sustained metaphor (a continued metaphor extended through several lines)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 267"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Replaced the wrong Tilley dunghill-proverb entry number (which the gloss did not actually need) with Lanham for the device name; trimmed 'epic simile' to 'sustained simile.'"
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The sun-as-king metaphor and the formal extended simile are correctly identified; connecting Hal's image to the wider sun-imagery of the history plays (Richard II, Henry V) is legitimate literary context, not over-reading, and the annotation does not claim more than the text supports."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Replaced the wrong Tilley dunghill-proverb entry number (which the gloss did not actually need) with Lanham for the device name; trimmed 'epic simile' to 'sustained simile.' [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_iv_part_1-2686-two-stars-sphere",
+    "play": "henry_iv_part_1",
+    "tln_start": 2686,
+    "tln_end": 2686,
+    "word_start": 0,
+    "word_end": 8,
+    "anchor_text": "Two stars keep not their motion in one sphere",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "In the Ptolemaic astronomy that Elizabethans learned at school, each planet or star was fixed in its own revolving crystal sphere surrounding the Earth. Two stars cannot occupy the same sphere without colliding and destroying the orderly motion of the heavens. Hal uses this to say there is not room in one kingdom for both him and Hotspur to pursue honour -- one must give way.",
+    "detail": "The Ptolemaic model placed the Earth at the centre of a nested series of crystalline spheres, each carrying one of the known planets (plus the fixed stars in an outer sphere) in its orbit. Any break in this order was held to be catastrophic. The imagery gives Hal's challenge cosmic inevitability: the encounter is not merely personal rivalry but a kind of natural law. 'Sphere' for orbit was common in Elizabethan verse.",
+    "sources": [
+      {
+        "name": "Tillyard, The Elizabethan World Picture",
+        "citation": "E. M. W. Tillyard, The Elizabethan World Picture (1943), on the Ptolemaic spheres and the ordered Elizabethan cosmos."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2686"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the wrong chapter attribution (ch.4 is 'The Chain of Being'); generalized to the Tillyard work, which the judge accepts as sound for this astronomical commonplace. Removed the loose Sonnet 21 quote."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The Ptolemaic sphere imagery is the correct cosmological frame for the line; Tillyard's overview, though contested as an overarching thesis, remains a sound reference for this specific astronomical commonplace."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the wrong chapter attribution (ch.4 is 'The Chain of Being'); generalized to the Tillyard work, which the judge accepts as sound for this astronomical commonplace. Removed the loose Sonnet 21 quote. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_iv_part_1-2709-ill-weaved-ambition",
+    "play": "henry_iv_part_1",
+    "tln_start": 2709,
+    "tln_end": 2711,
+    "word_start": 0,
+    "word_end": 8,
+    "anchor_text": "Ill-weaved ambition, how much art thou shrunk! When that this body did contain a spirit, A kingdom for it was too small a bound",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Hal's eulogy over Hotspur turns on the paradox of physical and spiritual scale. 'Ill-weaved' means badly woven -- a fabric with loose threads that contracts (shrinks); ambition that was poorly constructed unravels and diminishes. While Hotspur lived, his spirit was too vast for a whole kingdom; now his body needs only 'two paces of the vilest earth.' The contrast is the classic memento mori observation: the person who once seemed too great for England is now smaller than a grave.",
+    "detail": "The image builds on textile metaphors that run through the play (Worcester calls the rebellion itself a mis-woven cloth at 5.1). 'Ill-weaved' captures not just the defeat of ambition but its structural flaw -- Hotspur's honour-worship was always excessive, unable to contain itself within practical limits. The contrast between the living spirit that could not be bounded by a kingdom and the corpse requiring two paces of earth is one of the play's most economical de casibus moments.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'weave' v. and 'ill-' prefix: 'ill-weaved,' poorly woven; figuratively, ill-constructed and liable to shrink or unravel."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2709"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Reworded the citation so it no longer claims a standalone OED headword for the nonce-word 'ill-weaved' (it is a hapax under 'weave'/'ill-'); the gloss of 'badly woven, prone to shrink' is unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Ill-weaved' meaning poorly constructed and prone to shrinkage is the correct reading, and the paradox of vast spirit reduced to two paces of earth is accurately described as a memento mori; the claim that Worcester uses a textile metaphor at 5.1 is accurate."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Reworded the citation so it no longer claims a standalone OED headword for the nonce-word 'ill-weaved' (it is a hapax under 'weave'/'ill-'); the gloss of 'badly woven, prone to shrink' is unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_iv_part_1-2734-termagant-scot",
+    "play": "henry_iv_part_1",
+    "tln_start": 2734,
+    "tln_end": 2734,
+    "word_start": 2,
+    "word_end": 12,
+    "anchor_text": "that hot termagant Scot had paid me scot and lot too",
+    "type": "wordplay",
+    "depth": "scholar",
+    "summary": "Falstaff stacks two puns. 'Termagant' was a stock theatrical bully -- a ranting, violent stage character from old mystery plays, so noisy he became the type of furious, uncontrollable violence. 'Scot and lot' was a legal phrase for a full, assessed tax -- to 'pay scot and lot' means to settle a debt completely; Falstaff means Douglas would have killed him outright. The additional joke is that Falstaff is talking about a Scot paying 'scot,' the word for tax sharing the same form as the Scots' name.",
+    "detail": "The word 'termagant' came into English from Old French as the name of a violent, imaginary Saracen deity in medieval mystery plays, and eventually became a common noun for a violent, ranting bully. Shakespeare mentions him in Hamlet (3.2): 'it out-herods Herod' -- listing such stage ranters as extremes. 'Scot and lot' is attested in English legal records as a local tax or parish levy; to 'pay scot and lot' became proverbial for paying the full reckoning. The compressed wordplay -- termagant-Scot / scot (tax) -- is characteristic Falstaff.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'termagant' n.1 (a supposed Saracen deity of mystery plays; thence a blustering, violent character); s.v. 'scot and lot' (a local municipal tax)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2734"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the wrong Tilley number (S166) for 'pay scot and lot'; kept OED, which the judge accepted for both 'termagant' and 'scot and lot.' Gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Both puns are genuine and well-documented: 'termagant' as a violent mystery-play character and 'scot and lot' as a full tax reckoning are attested Elizabethan senses, and the additional joke on 'Scot/scot' is a recognized triple wordplay in this line."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the wrong Tilley number (S166) for 'pay scot and lot'; kept OED, which the judge accepted for both 'termagant' and 'scot and lot.' Gloss unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_iv_part_1-2739-valour-discretion",
+    "play": "henry_iv_part_1",
+    "tln_start": 2739,
+    "tln_end": 2739,
+    "word_start": 0,
+    "word_end": 6,
+    "anchor_text": "The better part of valour is discretion",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Falstaff inverts the proverb that 'discretion is the better part of valour' -- normally meaning that caution is the intelligent side of courage. Here Falstaff uses it to justify having played dead: he argues that staying alive by feigning death is the truly courageous act, since courage without survival gains nothing. The line has become one of Shakespeare's best-known sayings, often misquoted as if it were straight wisdom rather than Falstaff's self-serving rationalisation.",
+    "detail": "The proverb already existed in forms such as 'discretion is the better part of valour' before Shakespeare. Falstaff's deployment of it is a classic instance of casuistry -- the kind of specious logic used to argue oneself out of a moral obligation. He has just proposed a similar inversion about 'counterfeiting' death (TLN 2735-38): death is the counterfeit, not Falstaff's pretence. The logic chain is comic but also coherent as a parody of scholastic reasoning.",
+    "sources": [
+      {
+        "name": "Tilley",
+        "citation": "M. P. Tilley, A Dictionary of the Proverbs in England in the Sixteenth and Seventeenth Centuries (1950), 'Discretion is the better part of valour.'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2739"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the unverifiable entry number (V19); generalized to the Tilley work, which records this proverb (judge points to D354)."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The annotation correctly identifies this as a pre-existing proverb that Falstaff deploys self-servingly; the note that it is a rationalisation rather than straight wisdom is the mainstream critical reading, not an overreach."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the unverifiable entry number (V19); generalized to the Tilley work, which records this proverb (judge points to D354). [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_iv_part_1-2782-rebellion-find-rebuke",
+    "play": "henry_iv_part_1",
+    "tln_start": 2782,
+    "tln_end": 2782,
+    "word_start": 3,
+    "word_end": 5,
+    "anchor_text": "rebellion find rebuke",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Henry IV opens with a sententious maxim -- a general moral truth compressed into a single clause. 'Thus ever did rebellion find rebuke' asserts that uprising against lawful authority always meets punishment, presenting the verdict on Worcester and Vernon as the operation of a universal law rather than a king's personal revenge.",
+    "detail": "The form is a sententia (Latin for 'maxim'), a short, weighty saying presented as self-evident truth. The word 'ever' does the ideological work: it converts this single battle into proof of a cosmic rule. The effect is to frame Henry IV's victory not as military luck but as moral order reasserting itself -- which is exactly the argument a king who came to power by rebellion himself needs to make.",
+    "sources": [
+      {
+        "name": "Lanham, A Handlist of Rhetorical Terms",
+        "citation": "Richard A. Lanham, A Handlist of Rhetorical Terms (2nd ed., 1991), s.v. 'sententia' (a wise saying or aphorism presented as general truth)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2782"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Replaced the Peacham citation that overstated his claim (he treats sententia as ornament, not 'the fittest close for a speech') with Lanham for the device name, and trimmed the matching overstatement from the detail."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The sententia identification is mainstream, and the observation that Henry IV's own usurpatory past makes the maxim ideologically loaded is a standard critical reading well-supported by the text."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Replaced the Peacham citation that overstated his claim (he treats sententia as ornament, not 'the fittest close for a speech') with Lanham for the device name, and trimmed the matching overstatement from the detail. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_iv_part_1-2786-tenour-kinsman-trust",
+    "play": "henry_iv_part_1",
+    "tln_start": 2786,
+    "tln_end": 2786,
+    "word_start": 0,
+    "word_end": 6,
+    "anchor_text": "Misuse the tenour of thy kinsman's trust",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Tenour' (also spelled 'tenor') here means the substance or purport of something -- the essential meaning or drift of a message. The King charges Worcester with abusing ('misusing') the trust his kinsman Hotspur placed in him: sent as go-between, Worcester concealed the King's offer of pardon from the rebels instead of reporting it faithfully.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'tenor' n., sense 3a: 'the general drift or purport of a document or statement,' common in legal and diplomatic usage."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2786"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "OED s.v. 'tenor' n., sense 3a for 'general drift or purport of a document or statement' in legal and diplomatic usage is a genuine OED entry and accurately supports the gloss."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Interp judge correctly flagged the reversed direction of trust; rewrote the gloss so Worcester abuses the trust Hotspur (his kinsman) placed in him (he hid the King's pardon), not the reverse. OED vocab gloss kept."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Interp judge correctly flagged the reversed direction of trust; rewrote the gloss so Worcester abuses the trust Hotspur (his kinsman) placed in him (he hid the King's pardon), not the reverse. OED vocab gloss kept. [orig: source=verified, interp=refuted]"
+  },
+  {
+    "id": "henry_iv_part_1-287-redeeming-time",
+    "play": "henry_iv_part_1",
+    "tln_start": 287,
+    "tln_end": 287,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "Redeeming time, when men think least I will",
+    "type": "biblical_allusion",
+    "depth": "basic",
+    "summary": "'Redeeming the time' echoes a phrase from Ephesians and Colossians, meaning to make the best use of time, to rescue it from waste. Hal closes his soliloquy on a scriptural note: he will 'redeem' both himself and the wasted time, turning his apparent idleness into the material of future glory. The word carries its full theological weight -- redemption as a rescue from sin.",
+    "detail": "The phrase (Ephesians 5:16, Colossians 4:5; the 1599 Geneva Bible renders it 'redeeming the season') was a standard sermon text in Elizabethan England, urging Christians to use time wisely rather than waste it. Hal's use is both sincere and ironic: he really does intend to reform, but the reform is also a performance timed for maximum effect. 'Redeeming' time by first squandering it is not quite what Paul had in mind. The Prodigal Son parable (Luke 15) lurks behind the soliloquy as a whole.",
+    "sources": [
+      {
+        "name": "Geneva Bible 1599",
+        "citation": "Ephesians 5:16 (Geneva 1599): 'Redeeming the season: for the days are evil.'; Colossians 4:5 (Geneva 1599): 'Walk wisely toward them that are without, and redeem the season.'"
+      }
+    ],
+    "references": [
+      {
+        "kind": "biblical",
+        "card_id": "the-prodigal-son"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 287"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Corrected the misquoted Geneva 1599 wording from 'the time' to the actual 'the season' (verified on BibleGateway GNV) for both Eph 5:16 and Col 4:5; verse references are correct and kept."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Redeeming the time' as an allusion to Ephesians 5:16 (and Colossians 4:5) is secure and the annotation correctly identifies both the sincere and ironic layers — that Hal really intends reform but the timing is performative — without over-claiming; noting the Prodigal Son parable as background is a reasonable contextual frame."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Corrected the misquoted Geneva 1599 wording from 'the time' to the actual 'the season' (verified on BibleGateway GNV) for both Eph 5:16 and Col 4:5; verse references are correct and kept. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_iv_part_1-329-took-it-in-snuff",
+    "play": "henry_iv_part_1",
+    "tln_start": 329,
+    "tln_end": 329,
+    "word_start": 0,
+    "word_end": 3,
+    "anchor_text": "Took it in snuff",
+    "type": "wordplay",
+    "depth": "basic",
+    "summary": "A double meaning: literally, the nose 'took in the snuff' (inhaled the scented powder from the box); figuratively, 'to take in snuff' meant to take offence or become irritated. The nose is personified as being 'angry' when the box was taken away -- and when it came back, the nose took offence at it. Hotspur squeezes a contemptuous pun out of the fop's sniffing ritual.",
+    "sources": [
+      {
+        "name": "Onions, Shakespeare Glossary",
+        "citation": "C. T. Onions, A Shakespeare Glossary, s.v. 'snuff': to take offence; and 'take in snuff,' to take offence at."
+      },
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'snuff': a powdered or aromatic preparation drawn up the nose; phr. 'to take in snuff,' to take offence."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 329"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Removed the anachronistic 'snuff n.3 = powdered tobacco (1683)' sub-sense the judge flagged; generalized the OED and kept Onions, which independently supports the 'take offence' pun. Gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The double meaning — literal inhalation and idiomatic 'take offence' — is a well-documented Shakespearean pun, and the text clearly sets up the joke through the nose's personified anger when the box is withdrawn."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Removed the anachronistic 'snuff n.3 = powdered tobacco (1683)' sub-sense the judge flagged; generalized the OED and kept Onions, which independently supports the 'take offence' pun. Gloss unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_iv_part_1-348-salt-petre",
+    "play": "henry_iv_part_1",
+    "tln_start": 348,
+    "tln_end": 349,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "this villainous salt-petre should be digg'd Out of the bowels of the harmless earth",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "Saltpetre (potassium nitrate) is the key ingredient in gunpowder -- it was mined or scraped from soil rich in organic decay. The fop lamented that such a nasty substance had ever been discovered, since guns destroy 'many a good tall fellow.' Hotspur finds this view contemptible: the fop opposes firearms not from courage but from squeamishness, and would be a soldier only if there were no weapons.",
+    "detail": "Gunpowder, introduced to European warfare in the 14th century, was a contested topic in Shakespeare's England. Many conservative soldiers and writers -- following a tradition going back to Ariosto's Orlando Furioso -- mourned that firearms had made personal courage irrelevant: a coward with a gun could kill the bravest knight. Hotspur's contempt for the fop's anti-saltpetre sentiment is the contempt of a fighting man for a courtier who recoils from the means of war.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'saltpetre' n.: potassium nitrate, an essential component of gunpowder, obtained by mining or leaching nitre-rich soil."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 348"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the invented Holinshed 'gunpowder usage' citation; kept OED (which the judge accepted) and trimmed the more interpretive 'disdains firearms elsewhere / double-edged' claim from the detail."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The identification of saltpetre as the key gunpowder ingredient and the Ariosto-derived convention of mourning firearms as destructive of personal courage are both defensible; the claim that Hotspur 'disdains firearms elsewhere' is a reasonable inference from his characterisation, though the double-edged reading is somewhat interpretive."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the invented Holinshed 'gunpowder usage' citation; kept OED (which the judge accepted) and trimmed the more interpretive 'disdains firearms elsewhere / double-edged' claim from the detail. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_iv_part_1-465-sweet-lovely-rose",
+    "play": "henry_iv_part_1",
+    "tln_start": 465,
+    "tln_end": 466,
+    "word_start": 0,
+    "word_end": 6,
+    "anchor_text": "To put down Richard, that sweet lovely rose, And plant this thorn, this canker, Bolingbroke",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Hotspur uses the rose/thorn opposition as a political emblem: Richard II is the beautiful rose (the anointed king), while Bolingbroke is a thorn and a 'canker' -- a parasitic worm or disease that destroys rose bushes from within. The imagery maps moral onto horticultural terms: the legitimate king is beauty; the usurper is destructive blight.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'canker' n.: a caterpillar or other grub that destroys buds and leaves; a corrupting or destructive agency."
+      },
+      {
+        "name": "Holinshed, Chronicles (1587)",
+        "citation": "Raphael Holinshed, Chronicles of England, Scotland, and Ireland (1587): deposition of Richard II, 1399."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "holinshed-chronicles"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 465"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "OED s.v. 'canker' n. 3 (grub/destructive agency) and Holinshed 1587 on the deposition of Richard II 1399 both support the annotation accurately."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Interp judge refuted the Wars-of-the-Roses anachronism; trimmed the claim that the image knowingly anticipates the later war's heraldry and the 'pointed choice' clause. Sources were verified and kept."
+      }
+    ],
+    "detail": "The 'canker' is the grub or worm that destroys a rose from inside; the antithesis sets natural beauty (the rightful king) against the blight that consumes it (the usurper). The figure is conventional horticultural antithesis -- beauty versus corruption -- of a kind common in Shakespeare's verse.",
+    "note_internal": "Review-queue rescue 2026-06-01. Interp judge refuted the Wars-of-the-Roses anachronism; trimmed the claim that the image knowingly anticipates the later war's heraldry and the 'pointed choice' clause. Sources were verified and kept. [orig: source=verified, interp=refuted]"
+  },
+  {
+    "id": "henry_iv_part_1-641-franklin",
+    "play": "henry_iv_part_1",
+    "tln_start": 641,
+    "tln_end": 642,
+    "word_start": 3,
+    "word_end": 7,
+    "anchor_text": "a franklin in the wild of Kent hath brought three hundred marks with him in gold",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "A 'franklin' was a free landowner below the rank of gentleman -- prosperous but not titled, the substantial country farmer class. 'The wild of Kent' (the Weald) was a large forested region in the interior of Kent, between the North and South Downs. 'Three hundred marks' was a significant sum: a mark was two-thirds of a pound, so 300 marks = 200 pounds, roughly a comfortable craftsman's income for two decades.",
+    "detail": "Franklins appear in Chaucer's Canterbury Tales as solid, hospitable landowners who traveled with cash. The Weald of Kent was one of England's major wool and iron-producing regions, so a franklin traveling from there to London with gold was carrying the proceeds of rural commerce. The Chamberlain's tip follows a recognizable pattern in Elizabethan 'rogue literature' -- the inn servant who tips off highwaymen about wealthy guests. The phrase 'it holds current' (TLN 640) means the intelligence is still reliable, using a monetary metaphor (current coin) that suits a scene about money.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'franklin, n.2': 'an English freeholder of good position but without noble rank'; s.v. 'mark, n.1,' sense 3: 'a money of account equal to 13s. 4d., i.e. two-thirds of a pound.'"
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "gads-hill"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 641"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the fabricated Holinshed claim (the Gad's Hill robbery is from The Famous Victories, not Holinshed); kept OED, which the interp judge confirmed supports every gloss."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The definition of 'franklin' as a free landowner below gentle rank is correct; 300 marks = £200 is accurate arithmetic; the identification of the Weald as a wool and iron region is sound; the monetary metaphor in 'holds current' is a reasonable reading of the idiom."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the fabricated Holinshed claim (the Gad's Hill robbery is from The Famous Victories, not Holinshed); kept OED, which the interp judge confirmed supports every gloss. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_iv_part_1-691-given-me-medicines",
+    "play": "henry_iv_part_1",
+    "tln_start": 691,
+    "tln_end": 692,
+    "word_start": 4,
+    "word_end": 2,
+    "anchor_text": "rascal have not given me medicines to make me love him",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "Falstaff means love-potions or philters -- not medicinal drugs in the modern sense, but magical compounds believed to compel affection. In Elizabethan popular belief, someone could be made to love another person against their will by a potion slipped into their food or drink. Falstaff jokingly insists no rational explanation can account for his loyalty to Poins except witchcraft or a drugged drink.",
+    "detail": "The suspicion of being administered a 'medicine' (love-potion) was a live anxiety in the period; Reginald Scot's The Discoverie of Witchcraft (1584) catalogues such love-charms as popular superstition. The joke is self-deprecating: Falstaff prefers to believe he has been chemically bewitched rather than admit that he genuinely enjoys the company of rogues.",
+    "sources": [
+      {
+        "name": "Scot",
+        "citation": "Reginald Scot, The Discoverie of Witchcraft (1584), on love-philters and charms supposed to compel affection."
+      },
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'medicine': a magic potion or philter."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 691"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the wrong book number (Book 12 is on amulets) and generalized the Scot citation to the work; OED independently supports the 'philter' sense. Gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Medicines' meaning love-philters or magic potions is a documented Elizabethan sense, and Falstaff's self-deprecating joke that he must have been drugged rather than genuinely fond of Poins is the obvious comedic thrust of the speech."
+      }
+    ],
+    "references": [],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the wrong book number (Book 12 is on amulets) and generalized the Scot citation to the work; OED independently supports the 'philter' sense. Gloss unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_iv_part_1-741-happy-man-dole",
+    "play": "henry_iv_part_1",
+    "tln_start": 741,
+    "tln_end": 741,
+    "word_start": 3,
+    "word_end": 7,
+    "anchor_text": "happy man be his dole",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Dole' here means 'lot' or 'portion' -- what fortune assigns to a person. 'Happy man be his dole' was a proverbial phrase meaning 'may each man's lot be a happy one' or, more loosely, 'good luck to whoever gets it.' Falstaff uses it as a casual send-off before the robbery: every man to his task, and may fortune favor him.",
+    "sources": [
+      {
+        "name": "Tilley",
+        "citation": "M. P. Tilley, A Dictionary of the Proverbs in England in the Sixteenth and Seventeenth Centuries (1950), 'Happy man be his dole' (a common Elizabethan proverbial farewell)."
+      },
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'dole' n.1: lot, fortune, share allotted by fate."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 741"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the wrong entry number (H104); the judge confirms Tilley does record this proverb, so generalized to the work. OED unaffected."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Dole' as lot or fortune is established, and 'happy man be his dole' is a well-documented Elizabethan proverbial farewell; the gloss is accurate and measured."
+      }
+    ],
+    "references": [],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the wrong entry number (H104); the judge confirms Tilley does record this proverb, so generalized to the work. OED unaffected. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_iv_part_1-85-night-tripping-fairy",
+    "play": "henry_iv_part_1",
+    "tln_start": 85,
+    "tln_end": 86,
+    "word_start": 1,
+    "word_end": 6,
+    "anchor_text": "some night-tripping fairy had exchanged / In cradle-clothes our children where they lay",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "Henry imagines that a fairy swapped his son in the cradle with Hotspur -- the folk belief that fairies stole human babies and left fairy children ('changelings') in their place. Henry is saying: if only Hotspur were his son and Hal were a Percy. 'Night-tripping' means dancing or moving lightly through the night.",
+    "detail": "The changeling belief was widespread in early modern England: fairies were said to covet beautiful human children, substituting sickly, strange, or misbehaving fairy children instead. The substituted child -- the changeling -- typically refused to thrive, ate little, cried constantly, and failed to develop properly. Henry's wish is pointed: Hal's dissolute behaviour makes him look like exactly the kind of defective substitution the folk tradition described. The same changeling motif is central to the Titania-Oberon quarrel in A Midsummer Night's Dream.",
+    "sources": [
+      {
+        "name": "Scot, Discoverie of Witchcraft",
+        "citation": "Reginald Scot, The Discoverie of Witchcraft (1584), on popular fairy belief, including fairies said to steal and substitute children."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 85"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the wrong chapter locus (Bk IV ch.10 is on Robin Goodfellow) and generalized the Scot citation to the work; the changeling belief is robustly attested and the gloss is sound."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The changeling folk belief is accurately described and is the plain sense of the passage; noting the same motif in A Midsummer Night's Dream is a legitimate parallel without overreaching the annotation."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the wrong chapter locus (Bk IV ch.10 is on Robin Goodfellow) and generalized the Scot citation to the work; the changeling belief is robustly attested and the gloss is sound. [orig: source=refuted, interp=verified]"
   }
 ]

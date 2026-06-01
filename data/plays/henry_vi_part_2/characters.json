@@ -1,0 +1,563 @@
+[
+  {
+    "id": "king_henry",
+    "name": "King Henry VI",
+    "aliases": ["KING.", "KING HENRY."],
+    "role": "major",
+    "description": "The gentle, devout king, now grown but no stronger, who marries Margaret of Anjou and looks on helplessly as his uncle Gloucester is destroyed, his court splinters into factions, and the Duke of York's claim hardens into open war. He would rather be a subject than a king.",
+    "relationships": [
+      { "other_id": "margaret", "relation": "husband of" },
+      { "other_id": "gloucester", "relation": "nephew and ward of" }
+    ],
+    "color": "#b59030"
+  },
+  {
+    "id": "margaret",
+    "name": "Queen Margaret",
+    "aliases": ["QUEEN."],
+    "role": "major",
+    "description": "Henry's French queen, brought to England by the infatuated Suffolk, with whom she conducts a barely-veiled affair. Contemptuous of her weak husband and of 'good Duke Humphrey,' she emerges as a fierce political player; she cradles the severed head of the murdered Suffolk.",
+    "relationships": [
+      { "other_id": "suffolk", "relation": "lover of" },
+      { "other_id": "king_henry", "relation": "wife of" }
+    ],
+    "color": "#c0407a"
+  },
+  {
+    "id": "gloucester",
+    "name": "Duke of Gloucester",
+    "aliases": ["GLOSTER."],
+    "role": "major",
+    "description": "Humphrey, Duke of Gloucester, the Lord Protector — 'good Duke Humphrey' — the honest anchor of the realm and the commons' darling. Undone by his wife's witchcraft and his enemies' conspiracies, he is stripped of office, arrested, and murdered in his bed at Bury St Edmunds.",
+    "relationships": [
+      { "other_id": "eleanor", "relation": "husband of" },
+      { "other_id": "cardinal", "relation": "enemy of" }
+    ],
+    "color": "#2f6f9c"
+  },
+  {
+    "id": "eleanor",
+    "name": "Eleanor, Duchess of Gloucester",
+    "aliases": ["DUCHESS."],
+    "role": "supporting",
+    "description": "Eleanor Cobham, Gloucester's ambitious wife, who dreams of the crown and dabbles in witchcraft, employing a priest, a conjurer, and a witch to raise a prophesying spirit. Caught, she does humiliating public penance through the London streets and is banished, pulling her husband down with her.",
+    "relationships": [
+      { "other_id": "gloucester", "relation": "wife of" }
+    ],
+    "color": "#9a5a8e"
+  },
+  {
+    "id": "suffolk",
+    "name": "Duke of Suffolk",
+    "aliases": ["SUFFOLK."],
+    "role": "major",
+    "description": "William de la Pole, Duke of Suffolk, the queen's lover and the architect of Gloucester's fall. Banished for the murder, he is captured at sea and beheaded by a pirate crew who scorn his pride; his head is sent back to the grieving Margaret.",
+    "relationships": [
+      { "other_id": "margaret", "relation": "lover of" }
+    ],
+    "color": "#6d4f96"
+  },
+  {
+    "id": "york",
+    "name": "Richard, Duke of York",
+    "aliases": ["YORK."],
+    "role": "antagonist",
+    "description": "Richard Plantagenet, Duke of York, who lays out his hereditary claim to the crown in soliloquy, secretly foments Jack Cade's rebellion as a trial of strength, and finally returns from Ireland with an army — opening the Wars of the Roses at the first battle of St Albans.",
+    "relationships": [
+      { "other_id": "cade", "relation": "secret instigator of" },
+      { "other_id": "king_henry", "relation": "rival claimant to" }
+    ],
+    "color": "#c9772b"
+  },
+  {
+    "id": "cardinal",
+    "name": "Cardinal Beaufort",
+    "aliases": ["CARDINAL."],
+    "role": "major",
+    "description": "Cardinal Beaufort, Bishop of Winchester, Gloucester's great-uncle and bitter enemy, who engineers the Protector's arrest and murder. Tormented by guilt, he dies raving and grasping at the air, signing for mercy he cannot ask.",
+    "relationships": [
+      { "other_id": "gloucester", "relation": "enemy of" }
+    ],
+    "color": "#8e3f86"
+  },
+  {
+    "id": "warwick",
+    "name": "Earl of Warwick",
+    "aliases": ["WARWICK."],
+    "role": "supporting",
+    "description": "Richard Neville, Earl of Warwick — the future 'Kingmaker' — who proves from the corpse that Gloucester was strangled and rallies the commons against Suffolk. He throws in his lot with York at St Albans.",
+    "relationships": [
+      { "other_id": "salisbury", "relation": "son of" },
+      { "other_id": "york", "relation": "ally of" }
+    ],
+    "color": "#2e8a86"
+  },
+  {
+    "id": "salisbury",
+    "name": "Earl of Salisbury",
+    "aliases": ["SALISBURY."],
+    "role": "supporting",
+    "description": "Richard Neville, Earl of Salisbury, Warwick's father, a respected elder peer who comes to accept York's title and joins the Yorkist cause.",
+    "relationships": [
+      { "other_id": "warwick", "relation": "father of" }
+    ],
+    "color": "#3f7a6a"
+  },
+  {
+    "id": "buckingham",
+    "name": "Duke of Buckingham",
+    "aliases": ["BUCKINGHAM."],
+    "role": "supporting",
+    "description": "A loyal Lancastrian peer sent to disperse Cade's rebels with a royal pardon and to treat with the returning York.",
+    "color": "#4a6a9c"
+  },
+  {
+    "id": "somerset",
+    "name": "Duke of Somerset",
+    "aliases": ["SOMERSET."],
+    "role": "supporting",
+    "description": "York's rival, blamed for the loss of France; York makes Somerset's removal his price for peace, and at St Albans Young Clifford and the Yorkists hunt him down.",
+    "relationships": [
+      { "other_id": "york", "relation": "enemy of" }
+    ],
+    "color": "#9c3b5a"
+  },
+  {
+    "id": "clifford",
+    "name": "Lord Clifford",
+    "aliases": ["CLIFFORD.", "LORD CLIFFORD."],
+    "role": "supporting",
+    "description": "A staunch Lancastrian lord who helps disperse Cade's rebels and is slain by York at the first battle of St Albans, igniting his son's vow of revenge.",
+    "relationships": [
+      { "other_id": "young_clifford", "relation": "father of" }
+    ],
+    "color": "#a8552e"
+  },
+  {
+    "id": "young_clifford",
+    "name": "Young Clifford",
+    "aliases": ["YOUNG CLIFFORD."],
+    "role": "minor",
+    "description": "Finding his father's body at St Albans, he swears pitiless vengeance on the house of York — 'York not our old men spares; no more will I their babes' — foreshadowing the savagery of the sequels.",
+    "relationships": [
+      { "other_id": "clifford", "relation": "son of" }
+    ],
+    "color": "#c27a4a"
+  },
+  {
+    "id": "cade",
+    "name": "Jack Cade",
+    "aliases": ["CADE."],
+    "role": "antagonist",
+    "description": "The Kentish rebel, secretly set on by York, who claims descent from the Mortimers and leads a bloody, anti-literate uprising — promising seven halfpenny loaves for a penny and the death of all lawyers. His mob takes London before deserting him; he is killed, starving, in Iden's garden.",
+    "relationships": [
+      { "other_id": "york", "relation": "tool of" },
+      { "other_id": "iden", "relation": "killed by" }
+    ],
+    "color": "#5a7a32"
+  },
+  {
+    "id": "dick",
+    "name": "Dick the Butcher",
+    "aliases": ["DICK."],
+    "role": "minor",
+    "description": "Cade's brutal lieutenant, who utters the rebellion's most famous line: 'The first thing we do, let's kill all the lawyers.'",
+    "color": "#7a6a3a"
+  },
+  {
+    "id": "smith",
+    "name": "Smith the Weaver",
+    "aliases": ["SMITH."],
+    "role": "minor",
+    "description": "One of Cade's followers, given to dry asides that puncture his leader's grand claims.",
+    "color": "#6a7a4a"
+  },
+  {
+    "id": "holland",
+    "name": "John Holland",
+    "aliases": ["HOLLAND."],
+    "role": "minor",
+    "description": "A commoner who joins Cade's rebellion, lamenting that honest tradesmen have fallen on hard times.",
+    "color": "#6f7a45"
+  },
+  {
+    "id": "bevis",
+    "name": "George Bevis",
+    "aliases": ["BEVIS.", "GEORGE."],
+    "role": "minor",
+    "description": "One of Cade's rebel band from the Kentish commons.",
+    "color": "#74703f"
+  },
+  {
+    "id": "michael",
+    "name": "Michael",
+    "aliases": ["MICHAEL."],
+    "role": "minor",
+    "description": "Cade's follower who brings word that Sir Humphrey Stafford and the King's forces are near.",
+    "color": "#707a50"
+  },
+  {
+    "id": "say",
+    "name": "Lord Say",
+    "aliases": ["SAY.", "LORD SAY."],
+    "role": "minor",
+    "description": "Lord Say, the learned royal treasurer, condemned by Cade for the crimes of building a grammar school and using printed paper; he is beheaded and his head paraded on a pole.",
+    "color": "#5a6f8a"
+  },
+  {
+    "id": "scales",
+    "name": "Lord Scales",
+    "aliases": ["SCALES.", "LORD SCALES."],
+    "role": "minor",
+    "description": "Commander of the Tower of London, who holds it against Cade's rebels and sends Matthew Goffe to fight them in the city.",
+    "color": "#5f7090"
+  },
+  {
+    "id": "stafford",
+    "name": "Sir Humphrey Stafford",
+    "aliases": ["STAFFORD."],
+    "role": "minor",
+    "description": "A royal officer sent with his brother to crush Cade; both are killed, and Cade mockingly wears Stafford's armor.",
+    "relationships": [
+      { "other_id": "stafford_brother", "relation": "brother of" }
+    ],
+    "color": "#8a6a45"
+  },
+  {
+    "id": "stafford_brother",
+    "name": "William Stafford",
+    "aliases": ["BROTHER."],
+    "role": "minor",
+    "description": "Sir Humphrey Stafford's brother, killed beside him by Cade's rebels.",
+    "relationships": [
+      { "other_id": "stafford", "relation": "brother of" }
+    ],
+    "color": "#94704a"
+  },
+  {
+    "id": "iden",
+    "name": "Alexander Iden",
+    "aliases": ["IDEN."],
+    "role": "minor",
+    "description": "A contented Kentish squire who, walking in his garden, kills the starving fugitive Cade and is knighted for carrying his head to the King.",
+    "relationships": [
+      { "other_id": "cade", "relation": "killer of" }
+    ],
+    "color": "#4f8a5a"
+  },
+  {
+    "id": "whitmore",
+    "name": "Walter Whitmore",
+    "aliases": ["WHITMORE."],
+    "role": "minor",
+    "description": "The pirate who claims Suffolk as his prize and beheads him, fulfilling a prophecy that Suffolk should die 'by water' (Walter).",
+    "color": "#8a5a4a"
+  },
+  {
+    "id": "captain",
+    "name": "Sea-Captain",
+    "aliases": ["CAPTAIN."],
+    "role": "minor",
+    "description": "Captain of the pirate ship that takes Suffolk, who denounces the duke's crimes before handing him to Whitmore.",
+    "color": "#5f6f7a"
+  },
+  {
+    "id": "master",
+    "name": "Ship-master",
+    "aliases": ["MASTER."],
+    "role": "minor",
+    "color": "#5a6a72"
+  },
+  {
+    "id": "mate",
+    "name": "Master's Mate",
+    "aliases": ["MATE."],
+    "role": "minor",
+    "color": "#62707a"
+  },
+  {
+    "id": "peter",
+    "name": "Peter Thump",
+    "aliases": ["PETER."],
+    "role": "minor",
+    "description": "Thomas Horner's apprentice, who accuses his master of saying York is the rightful king; the dispute is settled by a judicial duel, which the drunken Horner loses.",
+    "relationships": [
+      { "other_id": "horner", "relation": "apprentice of" }
+    ],
+    "color": "#7a6a5a"
+  },
+  {
+    "id": "horner",
+    "name": "Thomas Horner",
+    "aliases": ["HORNER."],
+    "role": "minor",
+    "description": "An armorer accused of treason by his apprentice Peter; he is killed in their trial by combat, confessing as he dies.",
+    "relationships": [
+      { "other_id": "peter", "relation": "master of" }
+    ],
+    "color": "#8a7050"
+  },
+  {
+    "id": "simpcox",
+    "name": "Saunder Simpcox",
+    "aliases": ["SIMPCOX."],
+    "role": "minor",
+    "description": "An impostor who pretends to have been born blind and miraculously cured at St Alban's shrine; Gloucester exposes the fraud by proving he could not name colors he claims only just to have seen, then has him whipped.",
+    "color": "#7a6a64"
+  },
+  {
+    "id": "simpcox_wife",
+    "name": "Simpcox's Wife",
+    "aliases": ["WIFE."],
+    "role": "minor",
+    "description": "Simpcox's wife, who pleads that poverty, not malice, drove the false miracle.",
+    "color": "#9a6a7a"
+  },
+  {
+    "id": "hume",
+    "name": "John Hume",
+    "aliases": ["HUME."],
+    "role": "minor",
+    "description": "A corrupt priest who arranges the conjuring for the Duchess while secretly in the pay of her enemies, the Cardinal and Suffolk.",
+    "color": "#75687a"
+  },
+  {
+    "id": "bolingbroke",
+    "name": "Roger Bolingbroke",
+    "aliases": ["BOLINGBROKE."],
+    "role": "minor",
+    "description": "A conjurer (NOT the usurping king of Richard II) who, at the Duchess of Gloucester's bidding, raises a spirit to prophesy the fates of the King and the great lords; he is taken in the act and executed.",
+    "color": "#6a4a8a"
+  },
+  {
+    "id": "margery_jourdain",
+    "name": "Margery Jourdain",
+    "aliases": ["M. JOURDAIN."],
+    "role": "minor",
+    "description": "A witch who assists the conjuring of the spirit for the Duchess; she is condemned to be burned at Smithfield.",
+    "color": "#8a4a7a"
+  },
+  {
+    "id": "spirit",
+    "name": "Spirit (Asnath)",
+    "aliases": ["SPIRIT."],
+    "role": "minor",
+    "description": "The fiend raised by the conjuring, which answers in riddling prophecies — that the King shall be deposed by one who 'shall depose,' and that Suffolk shall die by water — before being dismissed back to hell.",
+    "color": "#5a4a6a"
+  },
+  {
+    "id": "richard",
+    "name": "Richard Plantagenet",
+    "aliases": ["RICHARD."],
+    "role": "minor",
+    "description": "York's deformed youngest son — the future Richard III — who fights for his father at St Albans and kills Somerset there.",
+    "relationships": [
+      { "other_id": "york", "relation": "son of" }
+    ],
+    "color": "#b04a3a"
+  },
+  {
+    "id": "edward",
+    "name": "Edward Plantagenet",
+    "aliases": ["EDWARD."],
+    "role": "minor",
+    "description": "York's eldest son, the future Edward IV, who joins the Yorkist victory at St Albans.",
+    "relationships": [
+      { "other_id": "york", "relation": "son of" }
+    ],
+    "color": "#c08a3a"
+  },
+  {
+    "id": "stanley",
+    "name": "Sir John Stanley",
+    "aliases": ["STANLEY."],
+    "role": "minor",
+    "description": "The officer charged with escorting the banished Duchess of Gloucester to her imprisonment on the Isle of Man.",
+    "color": "#5a6a8a"
+  },
+  {
+    "id": "vaux",
+    "name": "Vaux",
+    "aliases": ["VAUX."],
+    "role": "minor",
+    "description": "A messenger who brings word that the Cardinal lies dying and raving.",
+    "color": "#6a6a7a"
+  },
+  {
+    "id": "mayor",
+    "name": "Mayor of Saint Alban's",
+    "aliases": ["MAYOR."],
+    "role": "minor",
+    "color": "#6c6a64"
+  },
+  {
+    "id": "sheriff",
+    "name": "Sheriff",
+    "aliases": ["SHERIFF."],
+    "role": "minor",
+    "color": "#6a6e6a"
+  },
+  {
+    "id": "herald",
+    "name": "Herald",
+    "aliases": ["HERALD."],
+    "role": "minor",
+    "color": "#6e6a72"
+  },
+  {
+    "id": "post",
+    "name": "Post",
+    "aliases": ["POST."],
+    "role": "minor",
+    "color": "#66686c"
+  },
+  {
+    "id": "beadle",
+    "name": "Beadle",
+    "aliases": ["BEADLE."],
+    "role": "minor",
+    "description": "The officer who whips the impostor Simpcox out of St Alban's.",
+    "color": "#706a64"
+  },
+  {
+    "id": "clerk",
+    "name": "Clerk of Chartham",
+    "aliases": ["CLERK."],
+    "role": "minor",
+    "description": "A literate clerk whom Cade's rebels hang for the crime of being able to read and write his own name.",
+    "color": "#6a6c70"
+  },
+  {
+    "id": "townsman",
+    "name": "Townsman",
+    "aliases": ["TOWNSMAN."],
+    "role": "minor",
+    "color": "#6e6c66"
+  },
+  {
+    "id": "messenger",
+    "name": "Messenger",
+    "aliases": ["MESSENGER."],
+    "role": "minor",
+    "color": "#6e6e6e"
+  },
+  {
+    "id": "first_petitioner",
+    "name": "First Petitioner",
+    "aliases": ["1 PETITIONER."],
+    "role": "minor",
+    "color": "#6b6f72"
+  },
+  {
+    "id": "second_petitioner",
+    "name": "Second Petitioner",
+    "aliases": ["2 PETITIONER."],
+    "role": "minor",
+    "color": "#72706b"
+  },
+  {
+    "id": "first_neighbour",
+    "name": "First Neighbour",
+    "aliases": ["1 NEIGHBOUR."],
+    "role": "minor",
+    "color": "#6f6a64"
+  },
+  {
+    "id": "second_neighbour",
+    "name": "Second Neighbour",
+    "aliases": ["2 NEIGHBOUR."],
+    "role": "minor",
+    "color": "#6a6660"
+  },
+  {
+    "id": "third_neighbour",
+    "name": "Third Neighbour",
+    "aliases": ["3 NEIGHBOUR."],
+    "role": "minor",
+    "color": "#656058"
+  },
+  {
+    "id": "first_prentice",
+    "name": "First Prentice",
+    "aliases": ["1 PRENTICE."],
+    "role": "minor",
+    "color": "#6c675f"
+  },
+  {
+    "id": "second_prentice",
+    "name": "Second Prentice",
+    "aliases": ["2 PRENTICE."],
+    "role": "minor",
+    "color": "#67625a"
+  },
+  {
+    "id": "first_murderer",
+    "name": "First Murderer",
+    "aliases": ["1 MURDERER."],
+    "role": "minor",
+    "color": "#5f5a5a"
+  },
+  {
+    "id": "second_murderer",
+    "name": "Second Murderer",
+    "aliases": ["2 MURDERER."],
+    "role": "minor",
+    "color": "#5a5555"
+  },
+  {
+    "id": "first_gentleman",
+    "name": "First Gentleman",
+    "aliases": ["1 GENTLEMAN."],
+    "role": "minor",
+    "color": "#67707a"
+  },
+  {
+    "id": "second_gentleman",
+    "name": "Second Gentleman",
+    "aliases": ["2 GENTLEMAN."],
+    "role": "minor",
+    "color": "#6c757e"
+  },
+  {
+    "id": "first_citizen",
+    "name": "First Citizen",
+    "aliases": ["1 CITIZEN."],
+    "role": "minor",
+    "color": "#6d6d6d"
+  },
+  {
+    "id": "soldier",
+    "name": "Soldier",
+    "aliases": ["SOLDIER."],
+    "role": "minor",
+    "color": "#6e6862"
+  },
+  {
+    "id": "servingmen",
+    "name": "Serving-men",
+    "aliases": ["SERVINGMEN."],
+    "role": "ensemble",
+    "color": "#6c675f"
+  },
+  {
+    "id": "commons",
+    "name": "The Commons",
+    "aliases": ["COMMONS."],
+    "role": "ensemble",
+    "color": "#5f6560"
+  },
+  {
+    "id": "all",
+    "name": "All",
+    "aliases": ["ALL."],
+    "role": "ensemble",
+    "color": "#5f5f5f"
+  },
+  {
+    "id": "both",
+    "name": "Both",
+    "aliases": ["BOTH."],
+    "role": "ensemble",
+    "color": "#5a5a5a"
+  }
+]

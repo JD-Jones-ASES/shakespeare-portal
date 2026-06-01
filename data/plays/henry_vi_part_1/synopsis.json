@@ -1,0 +1,63 @@
+{
+  "play": "henry_vi_part_1",
+  "overview": "The first panel of Shakespeare's early four-play sweep through the Wars of the Roses opens over the coffin of the great Henry V. His nine-month-old son inherits both crowns, but the conquests in France begin to crumble almost at once. On the French side a shepherd's daughter, Joan la Pucelle, claims a heavenly mission and raises the siege of Orleans; on the English side the lion-hearted Talbot fights to hold what Henry V won. The real wound, however, is at home: in the Temple Garden the lords pluck red and white roses and split into the factions of Lancaster and York, and the boy-king's uncle Gloucester feuds endlessly with the worldly Bishop of Winchester. When the rivals York and Somerset withhold aid out of spite, the abandoned Talbot and his son are killed at Bordeaux — the old chivalry dying with them. The play ends with two fateful marriages-in-the-making: a peace patched up with France, and Suffolk's capture of Margaret of Anjou, whom he means to wed to the king and rule through. It is less a finished tragedy than the long, ominous overture to the civil wars that follow.",
+  "acts": [
+    {
+      "number": 1,
+      "summary": "Henry V is buried, the French rise under Joan la Pucelle, and Talbot loses and then relieves Orleans.",
+      "scenes": [
+        { "number": 1, "summary": "At Henry V's funeral in Westminster Abbey his brothers and uncles mourn, while Gloucester and the Bishop of Winchester snipe at each other. Messengers bring a cascade of bad news from France: towns lost, the Dauphin crowned, and the valiant Talbot taken prisoner. Bedford vows to recover France, Gloucester to secure the Tower, and Winchester schemes to seize the young king.", "themes": ["death", "loss", "faction"] },
+        { "number": 2, "summary": "Before Orleans the Dauphin Charles, Alencon, and Reignier marvel that the starving English still besiege them. The Bastard of Orleans brings in Joan la Pucelle, who claims a vision of the Virgin; she out-fights Charles in single combat and promises to raise the siege, and the French exalt her as a saint.", "themes": ["war", "the_supernatural", "french_resistance"] },
+        { "number": 3, "summary": "At the Tower of London, Gloucester is barred from entry by Winchester's order; their blue-coated and tawny-coated servants brawl in the street until the Mayor of London proclaims the peace and shames the great men.", "themes": ["faction", "civil_disorder", "ambition"] },
+        { "number": 4, "summary": "On the walls of Orleans a French master-gunner sets a cannon against the English watch-tower. Talbot, newly ransomed, climbs the turret with Salisbury, Gargrave, and Glansdale; a shot strikes Salisbury and Gargrave down. Talbot, cradling the dying Salisbury, vows furious revenge as the French sally out under Joan.", "themes": ["war", "revenge", "fortune"] },
+        { "number": 5, "summary": "Talbot meets Joan in single combat; she fights him to a standstill, relieves Orleans, and slips away, leaving Talbot to rage that a woman and a witch have driven back English valor.", "themes": ["war", "honor", "the_supernatural"] },
+        { "number": 6, "summary": "Joan and Charles stand triumphant on the recovered walls of Orleans; the Dauphin showers her with praise, promising her a statue and a holy day, and vows to share his crown with her.", "themes": ["triumph", "french_resistance", "fame"] }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "The English retake Orleans by surprise, Talbot eludes the Countess's trap, and at home the Temple-garden quarrel and dying Mortimer plant the seeds of dynastic war.",
+      "scenes": [
+        { "number": 1, "summary": "Under cover of night the English scale the walls and storm Orleans; the French commanders flee half-dressed and bickering, blaming one another and the over-trusted Joan for the rout.", "themes": ["war", "reversal", "irony"] },
+        { "number": 2, "summary": "Within the recovered town Talbot plans a tomb for Salisbury. A messenger arrives from the Countess of Auvergne, inviting the famous warrior to her castle; Talbot accepts, but quietly arranges a safeguard.", "themes": ["honor", "fame", "stratagem"] },
+        { "number": 3, "summary": "The Countess of Auvergne springs her trap, gloating that she holds the terror of France prisoner; Talbot laughs that she has caught only his shadow, and winds his horn to summon the soldiers who are his 'substance.' Abashed, she feasts him instead.", "themes": ["stratagem", "fame", "appearance_vs_reality"] },
+        { "number": 4, "summary": "In the Temple garden a legal quarrel turns dynastic: Richard Plantagenet plucks a white rose and Somerset a red, and the bystanders — Warwick, Suffolk, Vernon, a Lawyer — take sides. Warwick prophesies that this 'brawl' will send a thousand souls to death; the houses of York and Lancaster are born.", "themes": ["faction", "political_legitimacy", "prophecy"] },
+        { "number": 5, "summary": "In the Tower the imprisoned, dying Edmund Mortimer explains to his nephew Richard Plantagenet the Yorkist title to the crown, descending from Edward III's third son. Mortimer dies; Richard resolves to win restoration to his blood and, in time, his right.", "themes": ["succession", "political_legitimacy", "ambition"] }
+      ]
+    },
+    {
+      "number": 3,
+      "summary": "The Gloucester–Winchester feud erupts in Parliament; Rouen is lost and retaken as Bedford dies; Joan seduces Burgundy from his English alliance; Talbot is honored in Paris.",
+      "scenes": [
+        { "number": 1, "summary": "In the Parliament-house Gloucester and Winchester renew their feud until their servingmen brawl with stones; the boy-king tearfully begs peace and patches a hollow reconciliation. Richard Plantagenet is restored as Duke of York, and Henry prepares to cross to Paris for his French coronation; Exeter, left alone, foresees ruin in the lords' 'feigned' love.", "themes": ["faction", "kingship", "foreboding"] },
+        { "number": 2, "summary": "Joan and a band of French soldiers take Rouen by a market-disguise stratagem. Talbot and Burgundy storm it back the same day; the mortally sick Bedford, borne in a chair, lives just long enough to see the town recovered before he dies.", "themes": ["war", "stratagem", "death"] },
+        { "number": 3, "summary": "On the plains near Rouen, Joan works on the Duke of Burgundy with a patriotic appeal — why fight for England against your own countrymen? — and persuades him to desert the English and rejoin the French.", "themes": ["persuasion", "betrayal", "nationhood"] },
+        { "number": 4, "summary": "At the palace in Paris the newly arrived king welcomes Talbot, who kneels and is created Earl of Shrewsbury. As the court withdraws, the white-rose Vernon and red-rose Basset fall to quarreling, carrying the garden feud to France.", "themes": ["honor", "faction", "reward"] }
+      ]
+    },
+    {
+      "number": 4,
+      "summary": "Henry is crowned in Paris and unwittingly favors the red rose; the feud of York and Somerset strands Talbot at Bordeaux, where he and his son die together.",
+      "scenes": [
+        { "number": 1, "summary": "At his Paris coronation Henry learns of Burgundy's defection and strips the cowardly Fastolfe of the Garter. When Vernon and Basset beg leave to duel over their roses, the king — trying to seem impartial — pins on a red rose and gives York and Somerset joint command, blind to the favoritism that will prove fatal.", "themes": ["kingship", "faction", "misjudgment"] },
+        { "number": 2, "summary": "Before Bordeaux, Talbot summons the town to yield; the French General defies him and warns that the Dauphin's army is already closing the trap. Talbot finds himself ringed by enemies.", "themes": ["war", "defiance", "entrapment"] },
+        { "number": 3, "summary": "York, halted for want of cavalry, rages that Somerset has not sent the promised horse; Sir William Lucy pleads for the doomed Talbot, but York can only curse the rival whose spite ties his hands.", "themes": ["faction", "war", "recrimination"] },
+        { "number": 4, "summary": "Somerset, just as bitter, blames York for the danger and withholds his horsemen out of pure rivalry. Lucy laments that the great men's private feud is murdering the public hero Talbot.", "themes": ["faction", "betrayal", "war"] },
+        { "number": 5, "summary": "In the English camp Talbot urges his newly arrived son John to flee and preserve the family name; John refuses absolutely, choosing to die at his father's side rather than live in shame.", "themes": ["honor", "family", "death"] },
+        { "number": 6, "summary": "In the thick of battle Talbot rescues the surrounded John and again pleads with him to escape; again the boy refuses, and they fight on together.", "themes": ["honor", "family", "war"] },
+        { "number": 7, "summary": "John Talbot is killed; the old hero dies with his son's body in his arms. The French exult and mock until Lucy comes to claim the corpses and recite Talbot's roll of titles; shamed, they grant the bodies honorable burial.", "themes": ["death", "honor", "elegy"] }
+      ]
+    },
+    {
+      "number": 5,
+      "summary": "A peace with France is arranged through marriage; Joan is captured and condemned; Suffolk takes Margaret of Anjou and persuades Henry to wed her, meaning to rule through her.",
+      "scenes": [
+        { "number": 1, "summary": "Counselled toward peace, Henry agrees to marry the daughter of the Earl of Armagnac to seal a treaty with France. Winchester, now a Cardinal, privately pays the Pope's legate, plotting to make himself supreme.", "themes": ["diplomacy", "marriage", "ambition"] },
+        { "number": 2, "summary": "On the plains of Anjou, Charles and the French learn the English are upon them and resolve to give battle.", "themes": ["war", "french_resistance"] },
+        { "number": 3, "summary": "Joan's attendant fiends abandon her, and she is taken prisoner by York. In the same field Suffolk captures the beautiful Margaret of Anjou and, falling for her himself, woos her in asides on the king's behalf — a match designed to let Suffolk govern Henry through his queen.", "themes": ["the_supernatural", "captivity", "ambition"] },
+        { "number": 4, "summary": "The condemned Joan cruelly disowns her shepherd father, then pleads pregnancy by one prince after another to escape the fire; her judges send her to the stake. A peace is patched: the Dauphin agrees, grudgingly, to hold France as Henry's viceroy.", "themes": ["judgment", "the_supernatural", "diplomacy"] },
+        { "number": 5, "summary": "Suffolk so dazzles Henry with the praise of Margaret that the young king breaks the Armagnac match and resolves to marry her, over Gloucester's and Exeter's objections. Left alone, Suffolk exults that though Margaret will rule the king, he will rule them both.", "themes": ["marriage", "manipulation", "ambition"] }
+      ]
+    }
+  ]
+}

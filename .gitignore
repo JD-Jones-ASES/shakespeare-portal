@@ -46,6 +46,7 @@ _candidates/
 _review_queue/
 data/_drafts/
 scripts/.cache/
+scripts/pipeline/_*
 
 # Generated client search index (rebuilt in CI before the Astro build)
 site/public/search-index.json

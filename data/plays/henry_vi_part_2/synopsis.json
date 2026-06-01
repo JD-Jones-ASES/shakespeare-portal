@@ -1,0 +1,60 @@
+{
+  "play": "henry_vi_part_2",
+  "overview": "The second panel of the cycle turns from the war in France to the rot at home. The new queen, Margaret of Anjou, arrives in England with her favourite Suffolk — and a marriage treaty that gives away the conquered provinces of Anjou and Maine. The realm's one honest anchor, the Lord Protector 'good Duke Humphrey' of Gloucester, is hunted down by a coalition of his enemies: the worldly Cardinal Beaufort, the ambitious Suffolk and Margaret, and the coldly calculating Duke of York. Gloucester's own wife dooms him first, dabbling in witchcraft for a crown; then he is arrested on empty charges and murdered in his bed. As the guilty fall in turn — Suffolk beheaded by pirates, the Cardinal dying in raving despair — York plays a longer game, secretly stirring up the Kentish rebel Jack Cade to test how far the commons will follow a claimant. Cade's bloody, anti-literate revolt seizes London and collapses, and York returns from Ireland with an army. By the play's end the pretenses are gone: at the first battle of St Albans the white rose and the red meet in open war.",
+  "acts": [
+    {
+      "number": 1,
+      "summary": "Margaret arrives with a ruinous peace; the lords divide; Eleanor of Gloucester's ambition leads her to witchcraft and a trap.",
+      "scenes": [
+        { "number": 1, "summary": "Suffolk delivers the new queen, Margaret, to King Henry — but the marriage articles surrender Anjou and Maine and bring no dowry. Gloucester is appalled, and the assembled lords lament the squandering of France. As they disperse, the Cardinal, Suffolk, and Buckingham agree to pull down the over-mighty Protector, and York, left alone, unfolds his secret resolve to claim the crown himself.", "themes": ["political_legitimacy", "faction", "ambition"] },
+        { "number": 2, "summary": "At Gloucester's house his wife Eleanor goads him with dreams of the throne; he rebukes her dangerous ambition. Once he is gone she sends the priest Hume to fetch a conjurer and a witch — not knowing Hume is secretly paid by the Cardinal and Suffolk to ensnare her.", "themes": ["ambition", "the_supernatural", "betrayal"] },
+        { "number": 3, "summary": "Petitioners are turned away by Suffolk and Margaret; the queen frets at her saintly husband and at Eleanor's pride. The council quarrels over who shall be regent of France, York or Somerset, and the armorer Horner is accused by his apprentice Peter of saying York is rightful king — a charge to be tried by combat.", "themes": ["faction", "justice", "ambition"] },
+        { "number": 4, "summary": "In Gloucester's garden the witch Margery Jourdain and the conjurer Bolingbroke raise a spirit for the Duchess; it answers in riddles — the king shall be deposed by one who 'shall depose,' Suffolk shall die by water, Somerset should shun castles. York and Buckingham break in, seize the conjurers and the prophecies, and spring the trap on Eleanor.", "themes": ["the_supernatural", "prophecy", "entrapment"] }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "Gloucester exposes a fake miracle; York wins Salisbury and Warwick to his claim; Eleanor does penance and the Protector loses his staff; the armorer's duel goes by heaven's judgment.",
+      "scenes": [
+        { "number": 1, "summary": "Hawking at St Alban's, Gloucester and the Cardinal trade veiled threats and nearly fall to a duel. A man named Simpcox claims a miraculous cure of lifelong blindness at the shrine; Gloucester exposes the fraud — a blind man could not name colors — and has him whipped. Word comes that Eleanor is taken for witchcraft.", "themes": ["deception", "faction", "justice"] },
+        { "number": 2, "summary": "In his garden York lays out for Salisbury and Warwick the full genealogy of his claim — his descent from Edward III's elder line through the Mortimers — and the Nevilles pledge to support him when the time is ripe.", "themes": ["political_legitimacy", "succession", "alliance"] },
+        { "number": 3, "summary": "The king sentences Eleanor to public penance and banishment to the Isle of Man, and forces Gloucester to surrender his Protector's staff. Then the armorer's trial by combat is fought: the drunken Horner is killed by his apprentice Peter and confesses his treason as he dies.", "themes": ["justice", "trial_by_combat", "downfall"] },
+        { "number": 4, "summary": "Gloucester meets his wife as she walks the streets in a penitential sheet; she warns him that he is the next target. Summoned to a parliament at Bury St Edmunds, he goes with foreboding, and Eleanor is led away to her island prison.", "themes": ["downfall", "foreboding", "marriage"] }
+      ]
+    },
+    {
+      "number": 3,
+      "summary": "Gloucester is arrested and murdered; the people rise and Suffolk is banished; the Cardinal dies in guilty terror; York reveals he has loosed Jack Cade upon the land.",
+      "scenes": [
+        { "number": 1, "summary": "At the Bury parliament Gloucester is arrested on trumped-up charges of treason while the helpless king grieves. With the Protector removed, the lords give York an army to quell an Irish revolt — and York, alone, reveals that he has already stirred up the Kentish rebel John Cade to claim the crown as 'John Mortimer' and gauge the commons.", "themes": ["faction", "downfall", "conspiracy"] },
+        { "number": 2, "summary": "Gloucester is found dead; Warwick examines the body and proves he was strangled, not taken by a fit. The outraged commons force the king to banish Suffolk. Suffolk and Margaret part in a scene of strange tenderness, and news arrives that the Cardinal lies mortally sick.", "themes": ["murder", "justice", "love"] },
+        { "number": 3, "summary": "Cardinal Beaufort dies raving and clutching at the air, tormented by his guilt for Gloucester's death; the king prays for him, appalled that he makes no sign of grace.", "themes": ["guilt", "death", "judgment"] }
+      ]
+    },
+    {
+      "number": 4,
+      "summary": "Suffolk is beheaded by pirates; Jack Cade's commoners storm London, kill Lord Say, and then desert him; the starving rebel is killed in a Kentish garden.",
+      "scenes": [
+        { "number": 1, "summary": "Captured at sea, the banished Suffolk is recognized and beheaded by the pirate Walter Whitmore — making good the spirit's prophecy that he should die 'by water' (Walter). His head is sent back to the grieving queen.", "themes": ["prophecy", "death", "retribution"] },
+        { "number": 2, "summary": "On Blackheath Jack Cade proclaims his rebellion, boasting a royal descent and promising cheap bread, common ownership, and the death of all lawyers. The mob hangs the Clerk of Chartham for the crime of being able to read and write.", "themes": ["class", "rebellion", "anti_intellectualism"] },
+        { "number": 3, "summary": "Cade defeats and kills Sir Humphrey Stafford and his brother in a skirmish, and dons Stafford's armor as he marches on London.", "themes": ["rebellion", "war", "disorder"] },
+        { "number": 4, "summary": "News of Cade's advance empties the court; the king withdraws toward Kenilworth, while the loyal Lord Say stays behind in the threatened city.", "themes": ["rebellion", "kingship", "fear"] },
+        { "number": 5, "summary": "Lord Scales, holding the Tower of London, sends Matthew Goffe to help give the rebels battle in the city.", "themes": ["rebellion", "war"] },
+        { "number": 6, "summary": "Cade enters London, strikes his staff on London Stone, and proclaims himself lord of the city — then kills a soldier who innocently calls him by his name instead of 'Lord Mortimer.'", "themes": ["rebellion", "tyranny", "disorder"] },
+        { "number": 7, "summary": "At Smithfield Cade's mob sacks the Savoy and the Inns of Court; the captured Lord Say is condemned for promoting learning and beheaded, his head carried on a pole to 'kiss' another in the streets.", "themes": ["class", "anti_intellectualism", "violence"] },
+        { "number": 8, "summary": "At Southwark, Buckingham and old Clifford turn the crowd with the offer of a royal pardon and the magic name of Henry V; the fickle commons abandon Cade, who curses them and flees.", "themes": ["rebellion", "persuasion", "fickleness"] },
+        { "number": 9, "summary": "At Kenilworth the king pardons the dispersing rebels, only to hear that York has landed from Ireland with an army, demanding the arrest of the 'traitor' Somerset.", "themes": ["kingship", "ambition", "foreboding"] },
+        { "number": 10, "summary": "Starving after five days in hiding, Cade breaks into the garden of the squire Alexander Iden to forage; Iden, not knowing him, kills the rebel in a fair fight and carries his head to the king.", "themes": ["retribution", "death", "order_restored"] }
+      ]
+    },
+    {
+      "number": 5,
+      "summary": "York throws off the mask and claims the crown; at the first battle of St Albans the Wars of the Roses begin in earnest.",
+      "scenes": [
+        { "number": 1, "summary": "York returns in arms, claiming he means only to remove Somerset. But when he finds Somerset at liberty he drops the pretense and lays open claim to the crown; his sons Edward and Richard and the Nevilles, Salisbury and Warwick, stand with him, while Clifford and the loyal lords defy him. The factions arm.", "themes": ["political_legitimacy", "ambition", "defiance"] },
+        { "number": 2, "summary": "At the battle of St Albans the young Richard kills Somerset beneath an alehouse sign — the 'castle' the spirit bade him shun — and York slays old Clifford. Finding his father's corpse, Young Clifford swears merciless revenge on the whole house of York.", "themes": ["war", "revenge", "prophecy"] },
+        { "number": 3, "summary": "The Yorkists, victorious, resolve to pursue the fleeing king and queen to London; Warwick looks ahead to a 'famous victory' and the parliament that will follow.", "themes": ["war", "triumph", "ambition"] }
+      ]
+    }
+  ]
+}

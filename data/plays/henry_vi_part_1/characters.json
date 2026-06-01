@@ -1,0 +1,445 @@
+[
+  {
+    "id": "talbot",
+    "name": "Lord Talbot",
+    "aliases": ["TALBOT."],
+    "role": "protagonist",
+    "description": "The fearless English general whose very name terrifies the French ('the terror of the French, the scarecrow that affrights our children'). He embodies the old chivalric England that is dying as the nobles squabble at home; abandoned without relief by the feuding York and Somerset, he and his son John are surrounded and killed at Bordeaux.",
+    "relationships": [
+      { "other_id": "john_talbot", "relation": "father of" }
+    ],
+    "color": "#b03a2e"
+  },
+  {
+    "id": "king_henry",
+    "name": "King Henry VI",
+    "aliases": ["KING."],
+    "role": "major",
+    "description": "The boy-king who inherits the crown of the great Henry V but none of his command. Pious and peace-loving, he cannot master the nobles' quarrels; his fatal choices here — picking a red rose to please Somerset, then agreeing to marry Margaret on Suffolk's urging — plant the seeds of the Wars of the Roses.",
+    "color": "#b59030"
+  },
+  {
+    "id": "gloucester",
+    "name": "Duke of Gloucester",
+    "aliases": ["GLOUCESTER."],
+    "role": "major",
+    "description": "Humphrey, Duke of Gloucester, the King's uncle and Lord Protector, the voice of the dead Henry V's England. He feuds bitterly with the Bishop of Winchester, their servants brawling in the London streets.",
+    "relationships": [
+      { "other_id": "winchester", "relation": "rival of" },
+      { "other_id": "king_henry", "relation": "uncle and protector of" }
+    ],
+    "color": "#2f6f9c"
+  },
+  {
+    "id": "winchester",
+    "name": "Bishop of Winchester",
+    "aliases": ["WINCHESTER.", "CARDINAL."],
+    "role": "major",
+    "description": "Henry Beaufort, the ambitious, worldly Bishop (later Cardinal) of Winchester, great-uncle to the King. His decades-long power struggle with Gloucester divides the council and weakens the realm; he buys his cardinal's hat from the Pope's legate.",
+    "relationships": [
+      { "other_id": "gloucester", "relation": "rival of" }
+    ],
+    "color": "#8e3f86"
+  },
+  {
+    "id": "york",
+    "name": "Richard Plantagenet, Duke of York",
+    "aliases": ["PLANTAGENET.", "YORK."],
+    "role": "major",
+    "description": "Son of the executed Earl of Cambridge; restored in blood and created Duke of York. In the Temple Garden he plucks a white rose, and the dying Mortimer reveals his superior claim to the throne through Edward III's third son. His rivalry with Somerset dooms Talbot and ignites the dynastic war.",
+    "relationships": [
+      { "other_id": "somerset", "relation": "enemy of" },
+      { "other_id": "mortimer", "relation": "nephew and heir of" }
+    ],
+    "color": "#c9772b"
+  },
+  {
+    "id": "somerset",
+    "name": "Duke of Somerset",
+    "aliases": ["SOMERSET."],
+    "role": "supporting",
+    "description": "Leader of the red-rose (Lancastrian) faction in the Temple Garden quarrel; York's implacable rival. His refusal to send cavalry to Talbot — out of spite toward York — leaves the hero to die at Bordeaux.",
+    "relationships": [
+      { "other_id": "york", "relation": "enemy of" }
+    ],
+    "color": "#9c3b5a"
+  },
+  {
+    "id": "suffolk",
+    "name": "Earl of Suffolk",
+    "aliases": ["SUFFOLK."],
+    "role": "supporting",
+    "description": "William de la Pole, Earl of Suffolk, who captures Margaret of Anjou and, smitten, woos her for King Henry so that he may rule the King through her — a piece of self-serving matchmaking that ends the play and shadows the sequels.",
+    "relationships": [
+      { "other_id": "margaret", "relation": "captor and would-be lover of" }
+    ],
+    "color": "#6d4f96"
+  },
+  {
+    "id": "warwick",
+    "name": "Earl of Warwick",
+    "aliases": ["WARWICK."],
+    "role": "supporting",
+    "description": "Richard Beauchamp, Earl of Warwick, who in the Temple Garden sides with York and prophesies that the rose-plucking quarrel 'shall send, between the red rose and the white, a thousand souls to death and deadly night.'",
+    "color": "#2e8a86"
+  },
+  {
+    "id": "exeter",
+    "name": "Duke of Exeter",
+    "aliases": ["EXETER."],
+    "role": "supporting",
+    "description": "Thomas Beaufort, Duke of Exeter, the King's great-uncle, who serves as the play's choric voice — looking on at the nobles' feuds and foreseeing that 'this late dissension grown betwixt the peers burns under feigned ashes of forg'd love and will at last break out into a flame.'",
+    "color": "#4a6a9c"
+  },
+  {
+    "id": "bedford",
+    "name": "Duke of Bedford",
+    "aliases": ["BEDFORD."],
+    "role": "supporting",
+    "description": "John, Duke of Bedford, Regent of France and brother to the dead Henry V. He opens the play mourning his brother and dies before Rouen, borne in a chair to witness one last English victory.",
+    "color": "#3f5f88"
+  },
+  {
+    "id": "joan_la_pucelle",
+    "name": "Joan la Pucelle",
+    "aliases": ["PUCELLE."],
+    "role": "antagonist",
+    "description": "Joan of Arc, the shepherd's daughter who claims a vision of the Virgin and leads the French to raise the siege of Orleans. Shakespeare's Joan is heroic in battle but is finally shown conjuring fiends and disowning her father; captured by York, she is condemned to the stake. Her scenes mix verse with French.",
+    "relationships": [
+      { "other_id": "charles", "relation": "champion of" },
+      { "other_id": "talbot", "relation": "enemy of" }
+    ],
+    "color": "#7a9a3f"
+  },
+  {
+    "id": "charles",
+    "name": "Charles, the Dauphin",
+    "aliases": ["CHARLES."],
+    "role": "major",
+    "description": "The Dauphin (later Charles VII) who leads French resistance, exalts Joan as a saint and 'Astraea's daughter,' and at the play's close accepts an uneasy peace as Henry's viceroy in France.",
+    "relationships": [
+      { "other_id": "joan_la_pucelle", "relation": "patron of" }
+    ],
+    "color": "#4f6fae"
+  },
+  {
+    "id": "reignier",
+    "name": "Reignier, Duke of Anjou",
+    "aliases": ["REIGNIER."],
+    "role": "supporting",
+    "description": "Reignier, Duke of Anjou and titular King of Naples, a French lord whose chief value to the plot is his daughter Margaret, whom Suffolk captures and betroths to King Henry.",
+    "relationships": [
+      { "other_id": "margaret", "relation": "father of" }
+    ],
+    "color": "#5f7fae"
+  },
+  {
+    "id": "alencon",
+    "name": "Duke of Alencon",
+    "aliases": ["ALENCON."],
+    "role": "supporting",
+    "description": "A French nobleman and one of the Dauphin's captains, skeptical and pragmatic about Joan even as he fights alongside her.",
+    "color": "#6f7f9a"
+  },
+  {
+    "id": "burgundy",
+    "name": "Duke of Burgundy",
+    "aliases": ["BURGUNDY."],
+    "role": "supporting",
+    "description": "The Duke of Burgundy, England's French ally, whom Joan persuades with a patriotic appeal to abandon the English and rejoin the French — a defection the English bitterly denounce as treachery.",
+    "color": "#8a6a45"
+  },
+  {
+    "id": "bastard_of_orleans",
+    "name": "Bastard of Orleans",
+    "aliases": ["BASTARD."],
+    "role": "minor",
+    "description": "A French commander who first brings Joan la Pucelle to the Dauphin, vouching for her holy mission.",
+    "color": "#7a6a55"
+  },
+  {
+    "id": "margaret",
+    "name": "Margaret of Anjou",
+    "aliases": ["MARGARET."],
+    "role": "supporting",
+    "description": "Reignier's daughter, captured by Suffolk in the play's final act and wooed by him on the King's behalf. Beautiful and quick-witted, she will become the formidable, ruthless queen of the three sequels.",
+    "relationships": [
+      { "other_id": "reignier", "relation": "daughter of" },
+      { "other_id": "suffolk", "relation": "captive of" }
+    ],
+    "color": "#c0407a"
+  },
+  {
+    "id": "mortimer",
+    "name": "Edmund Mortimer, Earl of March",
+    "aliases": ["MORTIMER."],
+    "role": "minor",
+    "description": "The aged, imprisoned Earl of March, who on his deathbed in the Tower explains to his nephew Richard Plantagenet the Yorkist claim to the crown descending from Edward III's third son, Lionel of Clarence.",
+    "relationships": [
+      { "other_id": "york", "relation": "uncle of" }
+    ],
+    "color": "#7a7a8a"
+  },
+  {
+    "id": "john_talbot",
+    "name": "John Talbot",
+    "aliases": ["JOHN."],
+    "role": "minor",
+    "description": "Talbot's young son, who arrives at Bordeaux just in time to die beside his father rather than flee and shame the family name.",
+    "relationships": [
+      { "other_id": "talbot", "relation": "son of" }
+    ],
+    "color": "#c25a4a"
+  },
+  {
+    "id": "salisbury",
+    "name": "Earl of Salisbury",
+    "aliases": ["SALISBURY."],
+    "role": "minor",
+    "description": "Thomas Montacute, Earl of Salisbury, a veteran English commander shot through the eye by cannon-fire from the walls of Orleans early in the play.",
+    "color": "#5a7a6a"
+  },
+  {
+    "id": "lucy",
+    "name": "Sir William Lucy",
+    "aliases": ["LUCY."],
+    "role": "minor",
+    "description": "An English officer who pleads in vain with York and Somerset to relieve the doomed Talbot, then recovers the hero's body and recites his cascade of honorific titles over it.",
+    "color": "#6a7a8a"
+  },
+  {
+    "id": "countess",
+    "name": "Countess of Auvergne",
+    "aliases": ["COUNTESS."],
+    "role": "minor",
+    "description": "A French noblewoman who lures Talbot to her castle meaning to take him prisoner, only to find she has trapped a shadow — his soldiers answer his horn and reveal the 'substance' of his power.",
+    "color": "#9a6a8a"
+  },
+  {
+    "id": "vernon",
+    "name": "Vernon",
+    "aliases": ["VERNON."],
+    "role": "minor",
+    "description": "A follower of York who wears the white rose; his quarrel with Basset over the roses revives the factional hatred before the King.",
+    "color": "#4f8f6f"
+  },
+  {
+    "id": "basset",
+    "name": "Basset",
+    "aliases": ["BASSET."],
+    "role": "minor",
+    "description": "A follower of Somerset who wears the red rose and quarrels with the white-rose Vernon, begging the King for leave to fight a duel.",
+    "color": "#8f5f4f"
+  },
+  {
+    "id": "fastolfe",
+    "name": "Sir John Fastolfe",
+    "aliases": ["FASTOLFE."],
+    "role": "minor",
+    "description": "A cowardly English knight who twice flees the field, abandoning Talbot; Talbot tears the Garter from his leg and he is banished. (A distinct character from the later comic Falstaff.)",
+    "color": "#8a7a5a"
+  },
+  {
+    "id": "shepherd",
+    "name": "Shepherd",
+    "aliases": ["SHEPHERD."],
+    "role": "minor",
+    "description": "Joan la Pucelle's father, who comes to bless his condemned daughter and is cruelly disowned by her; in grief he wishes the fire to consume her.",
+    "color": "#7a6a4a"
+  },
+  {
+    "id": "woodvile",
+    "name": "Woodvile",
+    "aliases": ["WOODVILE."],
+    "role": "minor",
+    "description": "Lieutenant of the Tower of London, who refuses to open the gates to Gloucester without the Cardinal's warrant.",
+    "color": "#6c6a74"
+  },
+  {
+    "id": "master_gunner",
+    "name": "Master Gunner of Orleans",
+    "aliases": ["MASTER GUNNER."],
+    "role": "minor",
+    "description": "The French master-gunner of Orleans who lays the cannon that kills Salisbury and Gargrave.",
+    "color": "#74686a"
+  },
+  {
+    "id": "gunners_boy",
+    "name": "Gunner's Boy",
+    "aliases": ["BOY."],
+    "role": "minor",
+    "description": "The master-gunner's son, who keeps the watch and fires the fatal shot.",
+    "color": "#70685c"
+  },
+  {
+    "id": "gargrave",
+    "name": "Sir Thomas Gargrave",
+    "aliases": ["GARGRAVE."],
+    "role": "minor",
+    "color": "#6b6b6b"
+  },
+  {
+    "id": "glansdale",
+    "name": "Sir William Glansdale",
+    "aliases": ["GLANSDALE."],
+    "role": "minor",
+    "color": "#6a7068"
+  },
+  {
+    "id": "captain",
+    "name": "Captain",
+    "aliases": ["CAPTAIN."],
+    "role": "minor",
+    "color": "#67707a"
+  },
+  {
+    "id": "lawyer",
+    "name": "Lawyer",
+    "aliases": ["LAWYER."],
+    "role": "minor",
+    "description": "A bystander in the Temple Garden who timidly sides with York's white rose on a point of law.",
+    "color": "#70686a"
+  },
+  {
+    "id": "legate",
+    "name": "Papal Legate",
+    "aliases": ["LEGATE."],
+    "role": "minor",
+    "color": "#75686f"
+  },
+  {
+    "id": "general",
+    "name": "French General",
+    "aliases": ["GENERAL."],
+    "role": "minor",
+    "description": "The French general on the walls of Bordeaux who defies Talbot and warns him that the Dauphin's army is closing in.",
+    "color": "#5f6f7a"
+  },
+  {
+    "id": "messenger",
+    "name": "Messenger",
+    "aliases": ["MESSENGER."],
+    "role": "minor",
+    "color": "#6e6e6e"
+  },
+  {
+    "id": "mayor",
+    "name": "Mayor of London",
+    "aliases": ["MAYOR."],
+    "role": "minor",
+    "description": "The Lord Mayor of London, who twice steps between the brawling retinues of Gloucester and Winchester to keep the peace in the city streets.",
+    "color": "#6c6a64"
+  },
+  {
+    "id": "first_warder",
+    "name": "First Warder",
+    "aliases": ["FIRST WARDER."],
+    "role": "minor",
+    "color": "#6b6f72"
+  },
+  {
+    "id": "second_warder",
+    "name": "Second Warder",
+    "aliases": ["SECOND WARDER."],
+    "role": "minor",
+    "color": "#72706b"
+  },
+  {
+    "id": "first_serving_man",
+    "name": "First Serving-man",
+    "aliases": ["FIRST SERVING-MAN."],
+    "role": "minor",
+    "color": "#6f6a64"
+  },
+  {
+    "id": "second_serving_man",
+    "name": "Second Serving-man",
+    "aliases": ["SECOND SERVING-MAN."],
+    "role": "minor",
+    "color": "#6a6660"
+  },
+  {
+    "id": "third_serving_man",
+    "name": "Third Serving-man",
+    "aliases": ["THIRD SERVING-MAN."],
+    "role": "minor",
+    "color": "#656058"
+  },
+  {
+    "id": "serving_men",
+    "name": "Serving-men",
+    "aliases": ["SERVING-MEN."],
+    "role": "ensemble",
+    "color": "#6c675f"
+  },
+  {
+    "id": "officer",
+    "name": "Officer",
+    "aliases": ["OFFICER."],
+    "role": "minor",
+    "color": "#6d6d6d"
+  },
+  {
+    "id": "sergeant",
+    "name": "Sergeant",
+    "aliases": ["SERGEANT."],
+    "role": "minor",
+    "color": "#70706a"
+  },
+  {
+    "id": "porter",
+    "name": "Porter",
+    "aliases": ["PORTER."],
+    "role": "minor",
+    "color": "#6a6a64"
+  },
+  {
+    "id": "first_sentinel",
+    "name": "Sentinel",
+    "aliases": ["FIRST SENTINEL.", "SENTINEL."],
+    "role": "minor",
+    "color": "#67706e"
+  },
+  {
+    "id": "soldier",
+    "name": "Soldier",
+    "aliases": ["SOLDIER.", "FIRST SOLDIER."],
+    "role": "minor",
+    "color": "#6e6862"
+  },
+  {
+    "id": "watch",
+    "name": "Watch",
+    "aliases": ["WATCH."],
+    "role": "minor",
+    "color": "#646c6c"
+  },
+  {
+    "id": "scout",
+    "name": "Scout",
+    "aliases": ["SCOUT."],
+    "role": "minor",
+    "color": "#6a6e72"
+  },
+  {
+    "id": "servant",
+    "name": "Servant",
+    "aliases": ["SERVANT."],
+    "role": "minor",
+    "color": "#706c66"
+  },
+  {
+    "id": "first_jailer",
+    "name": "Jailer",
+    "aliases": ["FIRST JAILER."],
+    "role": "minor",
+    "color": "#666666"
+  },
+  {
+    "id": "all",
+    "name": "All",
+    "aliases": ["ALL."],
+    "role": "ensemble",
+    "color": "#5f5f5f"
+  }
+]
