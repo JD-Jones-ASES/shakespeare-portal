@@ -1,0 +1,53 @@
+{
+  "play": "henry_viii",
+  "overview": "A late history play (written with John Fletcher) that stages the early reign of Henry VIII as a series of falls from greatness in the de casibus tradition — the wheel of fortune turning under three great figures in turn. The Duke of Buckingham is destroyed by Cardinal Wolsey's intrigue; Wolsey, the all-powerful minister, is himself brought down when his secret double-dealing is exposed and takes his famous farewell to 'all my greatness'; and Queen Katherine, set aside so the king can marry Anne Bullen, defends herself with unanswerable dignity and dies in saintly exile. Against these falls the play sets the providential rise of the Protestant future: Cranmer is saved from his enemies by the king, and the play ends with the christening of the infant Elizabeth and a prophecy of her golden reign and that of her successor. Ceremonial and pageant-heavy, drawing on Holinshed and Foxe's 'Acts and Monuments,' it is a pageant of power, conscience, and the mercy of a king learning to see for himself.",
+  "acts": [
+    {
+      "number": 1,
+      "summary": "Cardinal Wolsey's pride angers the nobles; he engineers the arrest of the Duke of Buckingham for treason; Queen Katherine intercedes against his taxes; and at Wolsey's banquet the king is smitten with Anne Bullen.",
+      "scenes": [
+        { "number": 1, "summary": "Norfolk describes the dazzling Field of the Cloth of Gold, and Buckingham and Abergavenny denounce Cardinal Wolsey's pride and ambition as the author of it. Before Buckingham can carry his complaint to the king, Wolsey has him arrested for high treason.", "themes": ["ambition", "envy", "power"] },
+        { "number": 2, "summary": "Queen Katherine kneels to protest the crushing taxes Wolsey has levied in the king's name, and Henry revokes them — while Wolsey claims the credit. Buckingham's discharged surveyor then gives coached testimony of treasonous words, and the king orders Buckingham to trial.", "themes": ["justice", "taxation", "false_witness"] },
+        { "number": 3, "summary": "The Lord Chamberlain, Sandys, and Lovell mock the new French affectations at court and set off for a great supper at Wolsey's palace.", "themes": ["satire", "court_life", "fashion"] },
+        { "number": 4, "summary": "At Wolsey's lavish banquet a party of masquers arrives, the king among them in disguise; he singles out Anne Bullen, dances with her, and is instantly taken with her.", "themes": ["desire", "pageantry", "fortune"] }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "Buckingham is condemned and goes to execution forgiving his enemies; the court learns of the king's 'scruple' about his marriage; Anne is raised to nobility; and Katherine defends herself at the divorce court before storming out.",
+      "scenes": [
+        { "number": 1, "summary": "Two Gentlemen relate Buckingham's trial and condemnation on his servant's perjury. Buckingham, led to the block, forgives all and takes a noble farewell, and the Gentlemen whisper of the king's coming 'separation' from Queen Katherine and Wolsey's hand in it.", "themes": ["downfall", "forgiveness", "rumor"] },
+        { "number": 2, "summary": "The lords blame Wolsey for the divorce, suspecting he means to punish the Emperor (Katherine's nephew). The king, troubled in conscience, welcomes Cardinal Campeius from Rome to judge the case and approves Cranmer's plan to consult the universities.", "themes": ["conscience", "divorce", "intrigue"] },
+        { "number": 3, "summary": "Anne Bullen tells the Old Lady that she pities the queen and would not be queen herself for the world — just as the Chamberlain brings word that the king has made her Marchioness of Pembroke, prompting the Old Lady's worldly mockery.", "themes": ["ambition", "irony", "advancement"] },
+        { "number": 4, "summary": "At the legatine court Queen Katherine kneels to the king, defends the justice of her marriage in a great speech, refuses to recognize Wolsey as her judge, and appeals to the Pope before sweeping out. The king praises her worth, and Campeius adjourns the trial.", "themes": ["dignity", "justice", "marriage"] }
+      ]
+    },
+    {
+      "number": 3,
+      "summary": "Wolsey and Campeius press Katherine to yield; then Wolsey's secret letters and his hoarded wealth are exposed, the king casts him off, and the fallen cardinal bids farewell to his greatness and counsels Cromwell against ambition.",
+      "scenes": [
+        { "number": 1, "summary": "The two cardinals visit Katherine to urge her to submit and trust the king's love; she rebukes their smooth counsel and protests that she is a true wife abandoned.", "themes": ["loyalty", "persuasion", "isolation"] },
+        { "number": 2, "summary": "The nobles reveal that Wolsey's letters to the Pope opposing the Anne marriage, and an inventory of his vast private wealth, have fallen into the king's hands. Henry confronts him; stripped of power, Wolsey takes his celebrated farewell to 'all my greatness,' and counsels Cromwell to 'fling away ambition' and serve the king and heaven first.", "themes": ["fall_of_the_mighty", "ambition", "repentance"] }
+      ]
+    },
+    {
+      "number": 4,
+      "summary": "Two Gentlemen describe the splendor of Anne Bullen's coronation, the now-divorced Katherine living in retirement; and the dying Katherine, hearing a charitable account of Wolsey's death, sees a vision of heavenly bliss and sends a last request to the king.",
+      "scenes": [
+        { "number": 1, "summary": "On a Westminster street the Gentlemen watch and narrate the magnificent procession of Anne Bullen's coronation, and report that Katherine, divorced, lies sick at Kimbolton under the name Princess Dowager.", "themes": ["pageantry", "reversal", "coronation"] },
+        { "number": 2, "summary": "The dying Katherine has her usher Griffith give a balanced, generous account of the dead Wolsey's virtues as well as his faults. She falls into a sleep and sees a vision of white-robed spirits bearing garlands of bliss, then sends Capucius to the king with a letter commending her daughter and her faithful servants.", "themes": ["death", "vision", "reconciliation"] }
+      ]
+    },
+    {
+      "number": 5,
+      "summary": "Gardiner plots Cranmer's ruin, but the king secretly protects him; the council's attack collapses when Cranmer shows the king's ring; and at the christening of the infant Elizabeth, Cranmer prophesies her glorious reign and that of her heir.",
+      "scenes": [
+        { "number": 1, "summary": "At night Gardiner reveals to Lovell his design to bring down Archbishop Cranmer through the council. The king privately warns Cranmer of the malice against him and gives him his ring as a safeguard, while the Old Lady brings word that Anne has been delivered of a daughter.", "themes": ["conspiracy", "protection", "birth"] },
+        { "number": 2, "summary": "Summoned before the council, Cranmer is humiliatingly made to wait at the door among pages and servants. Doctor Butts sees the slight and fetches the king to watch the proceeding from a window above.", "themes": ["humiliation", "faction", "surveillance"] },
+        { "number": 3, "summary": "In the council chamber Gardiner's faction moves to commit Cranmer to the Tower; Cranmer produces the king's ring, and the king himself enters to shame his councillors into reconciliation, naming Cranmer godfather to the new princess.", "themes": ["mercy", "kingship", "vindication"] },
+        { "number": 4, "summary": "In the palace yard the Porter and his Man struggle, with comic exasperation, to hold back the huge unruly crowd pressing in to see the royal christening.", "themes": ["comedy", "crowd", "spectacle"] },
+        { "number": 5, "summary": "At the christening of the infant Elizabeth, Archbishop Cranmer prophesies that she will be a paragon of a queen ushering in a golden age of peace and plenty, and that her successor will inherit and spread her greatness — a tribute reaching from Elizabeth to King James.", "themes": ["prophecy", "providence", "tudor_myth"] }
+      ]
+    }
+  ]
+}

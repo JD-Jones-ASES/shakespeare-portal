@@ -85,6 +85,12 @@ const SETTING_DANGLES = /\b(?:the|a|an|of|to|and|in|on|at|with|from|for|by|near|
 // Chorus/Dancer in those two plays so it reads as speech, not a stage direction).
 const hasUpperChorus = aliasToChar.has('CHORUS.');
 const hasRumour = aliasToChar.has('RUMOUR.');
+// Henry VIII's "THE PROLOGUE." is immediately followed by verse with NO speaker label
+// and NO "Enter Chorus" stage direction (unlike Romeo and Juliet / Henry V, whose explicit
+// Chorus label sets the speaker). When the play defines a Prologue speaker, the buffered
+// prologue is attributed to it in the framing-header branch below. Gated on the PROLOGUE.
+// alias so the other framing plays (which have no such alias) stay byte-identical.
+const hasPrologueSpeaker = aliasToChar.has('PROLOGUE.');
 const BARE_PROLOGUE_HEADER = /^\s*PROLOGUE\.?\s*$/i;
 const INDUCTION_HEADER = /^\s*INDUCTION\.?\s*$/i;
 function isFramingHeader(t: string): boolean {
@@ -117,6 +123,13 @@ const STOPWORDS = new Set([
 function looksLikeSpeaker(line: string): boolean {
   if (aliasToChar.has(line)) return true;
   if (!line.endsWith('.')) return false;
+  // A unison speech prefix ("PEMBROKE. and BIGOT.", King John 4.3) can exceed the single-
+  // name length cap below; accept it when it is two-or-more dotted ALL-CAPS names (optionally
+  // joined by "and") and EVERY name is a known character alias. canonical() then collapses it
+  // to the joined proper names. Self-gating (requires this play's aliases), so a play with no
+  // such prefix is unaffected; JC's <=18-char unison labels already passed the length cap.
+  const uni = line.match(/[^.\s]+\./g);
+  if (uni && uni.length >= 2 && uni.every((p) => /^[A-Z][A-Z]+\.$/.test(p) && aliasToChar.has(p))) return true;
   if (line.length > 18) return false;
   const tokens = line.replace(/\.$/, '').split(/\s+/).filter(Boolean);
   if (tokens.length === 0 || tokens.length > 4) return false;
@@ -241,6 +254,13 @@ const HENRY_VI_SLUGS = new Set(['henry_vi_part_1', 'henry_vi_part_2', 'henry_vi_
 // path still folds into a no-op speaker; correcting those would shift Hamlet's TLNs and break
 // its shipped annotation anchors, so the guard is intentionally scoped to the Henry VI slugs.
 const INLINE_SD_GUARD = HENRY_VI_SLUGS.has(slug);
+
+// Whether to split an inline speaker label that opens a dialogue line mid-speech, e.g.
+// "NORFOLK. I thank your Grace," (Henry VIII 1.1) — this edition occasionally prints a new
+// speaker's shared half-line on the cue's physical line instead of on its own line, so the
+// generic block-start speaker detection misses it and folds the speech into the prior
+// speaker. GATED on Henry VIII so every other play re-ingests byte-identical.
+const INLINE_SPEAKER_GUARD = slug === 'henry_viii';
 
 // High-confidence stage-direction openers — words that begin a stage direction but
 // essentially never begin a line of dialogue. A non-speaker-led block is wrapped as an
@@ -369,6 +389,15 @@ for (; i < allLines.length; i++) {
   // speaker label so a real "PROLOGUE." speaker is never hijacked.
   if (isFramingHeader(trimmed) && !aliasToChar.has(trimmed)) {
     startPrologue();
+    // Henry VIII's "THE PROLOGUE." carries no speaker label or Enter-Chorus direction, so
+    // attribute the buffered verse to the Prologue speaker here. Gated on the PROLOGUE.
+    // alias (only Henry VIII) so Romeo and Juliet / Henry V / Henry IV Part 2 stay
+    // byte-identical — their own Chorus/Rumour label sets the speaker as before.
+    if (hasPrologueSpeaker && PROLOGUE_HEADER.test(trimmed)) {
+      curSpeakerRaw = trimmed;
+      curSpeaker = canonical('PROLOGUE.');
+      expectSpeaker = false;
+    }
     continue;
   }
   if (trimmed === '') {
@@ -426,6 +455,19 @@ for (; i < allLines.length; i++) {
   if ((hasUpperChorus || hasRumour) && /^(?:spoken|sung|said) by\b/i.test(trimmed)) {
     emitSD(trimmed);
     continue;
+  }
+  // An inline speaker label opening a mid-speech line (Henry VIII's "NORFOLK. I thank your
+  // Grace,"): split off the leading dotted ALL-CAPS alias as the new speaker and emit the
+  // remainder as their dialogue. Gated (INLINE_SPEAKER_GUARD) so other plays are unaffected.
+  if (INLINE_SPEAKER_GUARD) {
+    const inl = trimmed.match(/^([A-Z][A-Z]+\.)\s+(.+)$/);
+    if (inl && aliasToChar.has(inl[1])) {
+      curSpeakerRaw = inl[1];
+      curSpeaker = canonical(inl[1]);
+      expectSpeaker = false;
+      emitDialogue(inl[2]);
+      continue;
+    }
   }
   emitDialogue(trimmed);
   // else: stray line with no speaker (front-matter remnant) — dropped inside emitDialogue

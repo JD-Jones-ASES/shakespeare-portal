@@ -1,0 +1,52 @@
+{
+  "play": "john",
+  "overview": "A history play about a king whose title is strong in possession but weak in right. John holds the English crown that his young nephew Arthur claims by strict inheritance, and France takes up Arthur's cause. The play anatomizes the cynicism of power: kings swear and forswear for 'commodity' (self-interest), a marriage-alliance is struck and broken in a single day, and the Pope's legate ties and unties oaths to serve Rome. At its dark center John has the captured Arthur given to Hubert to be murdered; Hubert relents, but the boy dies anyway leaping from the prison wall, and the horror turns John's own lords against him. As a French invasion and baronial revolt close in, John is poisoned by a monk and dies, his son succeeds, and the rebel lords return — leaving the play's choric conscience, the Bastard Faulconbridge, to declare that England can never be conquered if it stays true to itself. Shakespeare's chief source was the older play 'The Troublesome Raigne of King John' (1591), supplemented by Holinshed.",
+  "acts": [
+    {
+      "number": 1,
+      "summary": "France demands John yield the crown to Arthur, and John defies the threat. A Faulconbridge inheritance quarrel ends with Philip choosing to be acknowledged as the bastard son of Richard the Lionheart.",
+      "scenes": [
+        { "number": 1, "summary": "At court, the French ambassador Chatillon demands that John surrender his crown to his nephew Arthur or face war, and John defies him. Then two brothers bring an inheritance dispute: Philip Faulconbridge gladly gives up his land to be acknowledged the natural son of Richard Coeur-de-lion, is knighted, and his mother confirms his royal paternity.", "themes": ["political_legitimacy", "inheritance", "identity"] }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "Before the walls of Angiers the rival kings confront each other; the town refuses to choose between them; and a sudden marriage of the Dauphin to John's niece Blanch makes a peace that betrays Arthur's cause.",
+      "scenes": [
+        { "number": 1, "summary": "The armies of England and France meet before Angiers, each backing its claimant while Constance pleads for her son Arthur and the Bastard taunts Austria. The citizens refuse to open their gates until the true king is known, so — at the Bastard's mocking suggestion and the townsmen's proposal — the kings make peace instead by marrying the Dauphin Louis to John's niece Blanch, abandoning Arthur.", "themes": ["self_interest", "war", "betrayal"] }
+      ]
+    },
+    {
+      "number": 3,
+      "summary": "Constance rages at the betrayal; the Pope's legate excommunicates John and forces France to break the new peace; war resumes; the Bastard kills Austria; John takes Arthur prisoner and gives him to Hubert.",
+      "scenes": [
+        { "number": 1, "summary": "Constance denounces France's broken faith. Cardinal Pandulph arrives from Rome, demands John accept the Pope's choice for Archbishop of Canterbury, and — when John defies the Pope as an 'Italian priest' — excommunicates him and pressures King Philip to break his fresh oath of peace and fight.", "themes": ["religious_authority", "oaths", "excommunication"] },
+        { "number": 2, "summary": "In the renewed battle the Bastard kills the Archduke of Austria and takes his lion-skin, avenging his father, while King John captures the young Arthur.", "themes": ["revenge", "war", "victory"] },
+        { "number": 3, "summary": "John sends the Bastard back to England to ransack the abbeys for money, and quietly hands the captive Arthur over to Hubert, hinting heavily that he wants the boy dead.", "themes": ["tyranny", "complicity", "greed"] },
+        { "number": 4, "summary": "Defeated, the French rage; Constance, half-mad with grief for her lost son, laments that 'grief fills the room up of my absent child.' Pandulph coolly predicts John will murder Arthur and persuades the Dauphin to invade England, claiming the throne through his new wife Blanch.", "themes": ["grief", "manipulation", "ambition"] }
+      ]
+    },
+    {
+      "number": 4,
+      "summary": "Hubert relents from blinding Arthur; the lords recoil at news of the boy's reported death and revolt; Arthur dies leaping from the wall; and the discovery of his body drives John's nobles to the French.",
+      "scenes": [
+        { "number": 1, "summary": "Hubert, ordered to burn out Arthur's eyes with hot irons, is talked out of it by the boy's innocent pleading and hides him alive, resolving to report him dead.", "themes": ["mercy", "innocence", "conscience"] },
+        { "number": 2, "summary": "At his second coronation John faces his lords' demand that Arthur be freed; Hubert's report that the boy is dead horrifies them and they storm out. News floods in of his mother's and Constance's deaths and a French invasion; a prophet foretells John's downfall. John blames Hubert, who reveals that Arthur still lives.", "themes": ["kingship", "rebellion", "prophecy"] },
+        { "number": 3, "summary": "Arthur leaps from the castle wall to escape and is killed by the fall. Salisbury, Pembroke, and Bigot find the body, believe him murdered on John's order, and defect to the invading Dauphin; the Bastard, finding Hubert with the corpse, is left torn between suspicion and loyalty.", "themes": ["death", "rebellion", "loyalty"] }
+      ]
+    },
+    {
+      "number": 5,
+      "summary": "John submits to Rome to call off the war, but the Dauphin presses on; a dying French lord turns the English rebels back; the invasion founders; and John, poisoned by a monk, dies as his son succeeds and the realm reunites.",
+      "scenes": [
+        { "number": 1, "summary": "To stop the war John submits to the Pope, surrendering and receiving back his crown from Pandulph, who promises to call off the French. The Bastard urges defiance of the invaders and is given command of England's defense.", "themes": ["submission", "religious_authority", "resolve"] },
+        { "number": 2, "summary": "In the Dauphin's camp the rebel English lords lament their treason; Pandulph tries to halt the invasion now that John has submitted, but Louis refuses to be cheated of his prize, and the Bastard arrives to defy him.", "themes": ["treason", "ambition", "defiance"] },
+        { "number": 3, "summary": "The battle goes hard; King John, fallen sick, withdraws toward Swinstead Abbey.", "themes": ["war", "sickness", "decline"] },
+        { "number": 4, "summary": "The French lord Melun, mortally wounded, warns Salisbury and the English defectors that the Dauphin means to behead them after victory; horrified, they resolve to return to King John.", "themes": ["betrayal", "revelation", "repentance"] },
+        { "number": 5, "summary": "The Dauphin, expecting victory, learns that his supply fleet has been wrecked on the Goodwin Sands and that the English rebels have deserted him.", "themes": ["fortune", "war", "reversal"] },
+        { "number": 6, "summary": "In the dark the Bastard meets Hubert, who tells him that the king has been poisoned by a monk and that the returning lords now attend the dying John.", "themes": ["poison", "death", "loyalty"] },
+        { "number": 7, "summary": "In the abbey orchard John dies in agony of the poison; his son Prince Henry is hailed king. The Bastard learns half his force drowned in the tidal flats, but Pandulph has brokered peace and the lords have returned, and he closes the play declaring that England, true to itself, can never lie at a conqueror's feet.", "themes": ["death", "succession", "patriotism"] }
+      ]
+    }
+  ]
+}

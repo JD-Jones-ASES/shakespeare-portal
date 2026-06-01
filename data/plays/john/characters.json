@@ -1,0 +1,267 @@
+[
+  {
+    "id": "king_john",
+    "name": "King John",
+    "aliases": ["KING JOHN."],
+    "role": "protagonist",
+    "description": "John, King of England, who holds the crown his young nephew Arthur claims by right. Defiant of the Pope, he is excommunicated, secretly orders Arthur's death, and dies poisoned by a monk as French invaders and his own rebel lords close in. A king whose title is strong in possession but weak in right.",
+    "relationships": [
+      { "other_id": "arthur", "relation": "uncle and rival of" },
+      { "other_id": "elinor", "relation": "son of" },
+      { "other_id": "bastard", "relation": "patron of" },
+      { "other_id": "hubert", "relation": "employer of" },
+      { "other_id": "pandulph", "relation": "excommunicated by" }
+    ],
+    "color": "#a83232"
+  },
+  {
+    "id": "bastard",
+    "name": "Philip the Bastard (Faulconbridge)",
+    "aliases": ["BASTARD."],
+    "role": "deuteragonist",
+    "description": "Philip Faulconbridge, acknowledged bastard son of Richard Coeur-de-lion, knighted as Sir Richard Plantagenet. Blunt, witty, and fiercely loyal, he is the play's choric conscience: his speeches on 'commodity' (self-interest) and his closing vow that England 'never did, nor never shall' lie at a conqueror's feet give the play its moral center.",
+    "relationships": [
+      { "other_id": "king_john", "relation": "loyal follower of" },
+      { "other_id": "robert", "relation": "half-brother of" },
+      { "other_id": "lady_falconbridge", "relation": "son of" },
+      { "other_id": "austria", "relation": "killer of" }
+    ],
+    "color": "#c8862a"
+  },
+  {
+    "id": "constance",
+    "name": "Constance",
+    "aliases": ["CONSTANCE.", "CONSTANCE"],
+    "role": "major",
+    "description": "Mother of Arthur and widow of John's elder brother Geffrey, who presses her son's claim to the throne. Betrayed when France and England make peace at her expense, her towering grief ('Grief fills the room up of my absent child') is the emotional summit of the play.",
+    "relationships": [
+      { "other_id": "arthur", "relation": "mother of" },
+      { "other_id": "king_john", "relation": "adversary of" },
+      { "other_id": "king_philip", "relation": "ally then betrayed by" }
+    ],
+    "color": "#9a4a7a"
+  },
+  {
+    "id": "arthur",
+    "name": "Arthur, Duke of Bretagne",
+    "aliases": ["ARTHUR."],
+    "role": "major",
+    "description": "John's young nephew, son of his elder brother Geffrey, and by primogeniture the rightful king. A gentle boy used as a pawn by the great powers; captured by John, he pleads Hubert out of blinding him, then dies leaping from the castle wall in a bid to escape.",
+    "relationships": [
+      { "other_id": "constance", "relation": "son of" },
+      { "other_id": "king_john", "relation": "nephew and rival of" },
+      { "other_id": "hubert", "relation": "spared by" }
+    ],
+    "color": "#5a8a8a"
+  },
+  {
+    "id": "hubert",
+    "name": "Hubert de Burgh",
+    "aliases": ["HUBERT."],
+    "role": "major",
+    "description": "Chamberlain to King John, charged with putting out Arthur's eyes (later, his life). He relents at the boy's pleading and hides him alive, but is blamed when Arthur dies by accident. (Some editions identify him with the Citizen who speaks for Angiers from the walls; this text keeps them separate.)",
+    "relationships": [
+      { "other_id": "king_john", "relation": "servant of" },
+      { "other_id": "arthur", "relation": "would-be executioner, then protector of" }
+    ],
+    "color": "#4a7a5a"
+  },
+  {
+    "id": "king_philip",
+    "name": "King Philip of France",
+    "aliases": ["KING PHILIP."],
+    "role": "major",
+    "description": "Philip II, King of France, who champions Arthur's claim against John, then abandons it to make a marriage-peace, then breaks the peace under the Pope's pressure. Embodies the play's cynicism about royal 'commodity' over principle.",
+    "relationships": [
+      { "other_id": "louis", "relation": "father of" },
+      { "other_id": "arthur", "relation": "champion then betrayer of" },
+      { "other_id": "king_john", "relation": "rival of" }
+    ],
+    "color": "#3a5a9a"
+  },
+  {
+    "id": "louis",
+    "name": "Louis the Dauphin",
+    "aliases": ["LOUIS.", "LouIS."],
+    "role": "major",
+    "description": "The Dauphin (Lewis), son of King Philip, married to John's niece Blanch for the peace. Encouraged by Pandulph to invade England on a claim through his wife, he presses the war even after the Pope reverses course, until his supply fleet is wrecked and he sues for peace.",
+    "relationships": [
+      { "other_id": "king_philip", "relation": "son of" },
+      { "other_id": "blanch", "relation": "husband of" },
+      { "other_id": "pandulph", "relation": "incited by" }
+    ],
+    "color": "#5a6ab0"
+  },
+  {
+    "id": "pandulph",
+    "name": "Cardinal Pandulph",
+    "aliases": ["PANDULPH."],
+    "role": "major",
+    "description": "The Pope's legate, who excommunicates John for defying Rome over the see of Canterbury, presses France to break faith and make war, then — once John submits to the Pope — tries to call the invasion off. The play's master of casuistry, untangling and re-tying oaths to serve the Church.",
+    "relationships": [
+      { "other_id": "king_john", "relation": "excommunicator of" },
+      { "other_id": "louis", "relation": "manipulator of" }
+    ],
+    "color": "#7a3a4a"
+  },
+  {
+    "id": "elinor",
+    "name": "Queen Elinor",
+    "aliases": ["ELINOR."],
+    "role": "supporting",
+    "description": "Eleanor of Aquitaine, John's formidable mother, who backs his title and despises Constance. Her death midway through the play removes John's strongest prop and hastens his decline.",
+    "relationships": [
+      { "other_id": "king_john", "relation": "mother of" },
+      { "other_id": "constance", "relation": "enemy of" }
+    ],
+    "color": "#b06a8a"
+  },
+  {
+    "id": "salisbury",
+    "name": "Earl of Salisbury",
+    "aliases": ["SALISBURY."],
+    "role": "supporting",
+    "description": "William Longsword, Earl of Salisbury, an English lord who revolts against John over Arthur's death and joins the French invasion, then returns to his allegiance when Melun reveals the Dauphin's treachery.",
+    "relationships": [
+      { "other_id": "king_john", "relation": "lord who revolts against" },
+      { "other_id": "pembroke", "relation": "fellow lord of" }
+    ],
+    "color": "#6a7a4a"
+  },
+  {
+    "id": "pembroke",
+    "name": "Earl of Pembroke",
+    "aliases": ["PEMBROKE."],
+    "role": "supporting",
+    "description": "William Marshall, Earl of Pembroke, an English noble who presses John to free Arthur and, on the boy's death, defects to the French before rejoining the king's party.",
+    "relationships": [
+      { "other_id": "salisbury", "relation": "fellow lord of" }
+    ],
+    "color": "#7a8a5a"
+  },
+  {
+    "id": "austria",
+    "name": "Archduke of Austria",
+    "aliases": ["AUSTRIA."],
+    "role": "supporting",
+    "description": "Limoges, Archduke of Austria, who killed Richard Coeur-de-lion and wears his lion-skin; ally of France and Arthur. Taunted throughout by the Bastard, he is killed by him, who takes back his father's spoil.",
+    "relationships": [
+      { "other_id": "bastard", "relation": "killed by" },
+      { "other_id": "king_philip", "relation": "ally of" }
+    ],
+    "color": "#7a5a3a"
+  },
+  {
+    "id": "blanch",
+    "name": "Blanch of Spain",
+    "aliases": ["BLANCH."],
+    "role": "supporting",
+    "description": "Blanch of Castile, John's niece, married to the Dauphin to seal the Anglo-French peace. On her wedding day the war reignites, and she is left torn between husband and kin.",
+    "relationships": [
+      { "other_id": "louis", "relation": "wife of" },
+      { "other_id": "king_john", "relation": "niece of" }
+    ],
+    "color": "#b08a9a"
+  },
+  {
+    "id": "prince_henry",
+    "name": "Prince Henry",
+    "aliases": ["PRINCE HENRY."],
+    "role": "minor",
+    "description": "John's son, who attends his father's death and is hailed as King Henry III in the play's closing lines.",
+    "relationships": [
+      { "other_id": "king_john", "relation": "son of" }
+    ]
+  },
+  {
+    "id": "bigot",
+    "name": "Lord Bigot",
+    "aliases": ["BIGOT."],
+    "role": "minor",
+    "description": "Robert Bigot, Earl of Norfolk, one of the English lords who revolts with Salisbury and Pembroke over Arthur's death."
+  },
+  {
+    "id": "chatillon",
+    "name": "Chatillon",
+    "aliases": ["CHATILLON."],
+    "role": "minor",
+    "description": "Ambassador from France to King John, who delivers Philip's demand that John yield the crown to Arthur."
+  },
+  {
+    "id": "melun",
+    "name": "Melun",
+    "aliases": ["MELUN."],
+    "role": "minor",
+    "description": "A French lord who, mortally wounded, warns the English defectors that the Dauphin means to have them killed after victory, turning them back to King John."
+  },
+  {
+    "id": "peter",
+    "name": "Peter of Pomfret",
+    "aliases": ["PETER."],
+    "role": "minor",
+    "description": "A prophet who foretells that John will give up his crown before the next Ascension Day; John has him hanged."
+  },
+  {
+    "id": "robert",
+    "name": "Robert Faulconbridge",
+    "aliases": ["ROBERT."],
+    "role": "minor",
+    "description": "The legitimate younger son of Sir Robert Faulconbridge, who disputes the Bastard's inheritance, claiming his elder brother is the bastard son of King Richard."
+  },
+  {
+    "id": "essex",
+    "name": "Earl of Essex",
+    "aliases": ["ESSEX."],
+    "role": "minor",
+    "description": "Geoffrey Fitz-Peter, Earl of Essex and Chief Justiciary, who brings the Faulconbridge inheritance dispute before the king."
+  },
+  {
+    "id": "gurney",
+    "name": "James Gurney",
+    "aliases": ["GURNEY."],
+    "role": "minor",
+    "description": "Servant to Lady Faulconbridge."
+  },
+  {
+    "id": "lady_falconbridge",
+    "name": "Lady Faulconbridge",
+    "aliases": ["LADY FALCONBRIDGE.", "LADY FalcoNBRIDGE."],
+    "role": "minor",
+    "description": "Mother of the Bastard and of Robert Faulconbridge, who confirms that the Bastard was indeed fathered by King Richard Coeur-de-lion."
+  },
+  {
+    "id": "citizen",
+    "name": "Citizen of Angiers",
+    "aliases": ["FIRST CITIZEN.", "CITIZEN."],
+    "role": "minor",
+    "description": "A citizen who speaks for the besieged town of Angiers from its walls, refusing to open its gates until it knows which claimant is the true king, and proposing the marriage that briefly unites the crowns."
+  },
+  {
+    "id": "french_herald",
+    "name": "French Herald",
+    "aliases": ["FRENCH HERALD."],
+    "role": "minor",
+    "description": "Herald who summons Angiers to admit the French king as victor."
+  },
+  {
+    "id": "english_herald",
+    "name": "English Herald",
+    "aliases": ["ENGLISH HERALD."],
+    "role": "minor",
+    "description": "Herald who summons Angiers to admit the English king as victor."
+  },
+  {
+    "id": "messenger",
+    "name": "Messenger",
+    "aliases": ["MESSENGER."],
+    "role": "minor",
+    "description": "Messengers who bring news of armies, deaths, and the French invasion."
+  },
+  {
+    "id": "first_attendant",
+    "name": "Attendant",
+    "aliases": ["FIRST ATTENDANT."],
+    "role": "minor",
+    "description": "An attendant at court."
+  }
+]

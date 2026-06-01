@@ -75,6 +75,8 @@ const CLASSICAL_ALLOWLIST = new Set([
   'Lucretius',
   'Galen',           // 2nd-c. Greek physician; Falstaff cites him in 2 Henry IV 1.2
   'Herodotus',       // Greek historian; source for Rhodope and Tomyris (cited in 1 Henry VI 1.6)
+  'Pindar',          // lyric poet of the Olympian Odes; the Olympian games (3 Henry VI 2.3)
+  'Pausanias',       // 2nd-c. Greek geographer, Description of Greece (Olympia and its games)
 ]);
 
 // A classical allusion may instead be grounded in a recognized reference work or

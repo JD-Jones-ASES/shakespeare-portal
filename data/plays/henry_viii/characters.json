@@ -1,0 +1,412 @@
+[
+  {
+    "id": "king_henry",
+    "name": "King Henry VIII",
+    "aliases": ["KING.", "KING"],
+    "role": "protagonist",
+    "description": "Henry VIII, who over the course of the play sheds Cardinal Wolsey, divorces Queen Katherine, and marries Anne Bullen, whose daughter Elizabeth the play ends by celebrating. Shakespeare and Fletcher present him as a king growing into his authority, learning to see through the counsellors who manage him.",
+    "relationships": [
+      { "other_id": "wolsey", "relation": "served then cast off by" },
+      { "other_id": "katherine", "relation": "husband who divorces" },
+      { "other_id": "anne", "relation": "husband of" },
+      { "other_id": "cranmer", "relation": "patron of" }
+    ],
+    "color": "#a83232"
+  },
+  {
+    "id": "wolsey",
+    "name": "Cardinal Wolsey",
+    "aliases": ["WOLSEY.", "WOLSEY"],
+    "role": "antagonist",
+    "description": "Thomas Wolsey, Cardinal and Lord Chancellor, the butcher's son who rose to rule England under the king. He destroys Buckingham, drives the divorce, and amasses vast wealth, until intercepted letters expose his double-dealing and he falls — taking his famous leave of 'all my greatness' and dying humbled at Leicester.",
+    "relationships": [
+      { "other_id": "king_henry", "relation": "chief minister of" },
+      { "other_id": "buckingham", "relation": "destroyer of" },
+      { "other_id": "cromwell", "relation": "master of" },
+      { "other_id": "katherine", "relation": "enemy of" }
+    ],
+    "color": "#7a3a5a"
+  },
+  {
+    "id": "katherine",
+    "name": "Queen Katherine",
+    "aliases": ["QUEEN KATHERINE.", "KATHERINE.", "KATHERINE"],
+    "role": "deuteragonist",
+    "description": "Katherine of Aragon, Henry's first queen, who defends her marriage at the divorce trial with unanswerable dignity ('Sir, I desire you do me right and justice'), refuses to accept the court's authority, and dies in pious exile after a vision of angelic garlands. The play's moral heart.",
+    "relationships": [
+      { "other_id": "king_henry", "relation": "divorced wife of" },
+      { "other_id": "wolsey", "relation": "accuser of" },
+      { "other_id": "griffith", "relation": "served by" },
+      { "other_id": "patience", "relation": "attended by" }
+    ],
+    "color": "#9a4a7a"
+  },
+  {
+    "id": "anne",
+    "name": "Anne Bullen",
+    "aliases": ["ANNE.", "ANNE"],
+    "role": "supporting",
+    "description": "Anne Bullen (Boleyn), Katherine's maid of honour, who pities the fallen queen even as she supplants her. She becomes Henry's wife and queen, and her coronation and the birth of her daughter Elizabeth crown the play.",
+    "relationships": [
+      { "other_id": "king_henry", "relation": "wife of" },
+      { "other_id": "old_lady", "relation": "confided in by" }
+    ],
+    "color": "#b07a9a"
+  },
+  {
+    "id": "buckingham",
+    "name": "Duke of Buckingham",
+    "aliases": ["BUCKINGHAM.", "BUCKINGHAM"],
+    "role": "major",
+    "description": "Edward Stafford, Duke of Buckingham, who denounces Wolsey's pride and is destroyed by him on his own surveyor's perjured testimony. Condemned for treason, he forgives his enemies in a celebrated scaffold speech before his execution.",
+    "relationships": [
+      { "other_id": "wolsey", "relation": "victim of" },
+      { "other_id": "surveyor", "relation": "betrayed by" },
+      { "other_id": "norfolk", "relation": "counselled by" }
+    ],
+    "color": "#8a5a3a"
+  },
+  {
+    "id": "cranmer",
+    "name": "Archbishop Cranmer",
+    "aliases": ["CRANMER.", "CRANMER"],
+    "role": "major",
+    "description": "Thomas Cranmer, Archbishop of Canterbury, who finds for Henry's divorce and is protected by the king from Gardiner's faction. As godfather to the infant Elizabeth he delivers the play's closing prophecy of her glorious reign and that of her successor.",
+    "relationships": [
+      { "other_id": "king_henry", "relation": "protégé of" },
+      { "other_id": "gardiner", "relation": "enemy of" }
+    ],
+    "color": "#4a7a7a"
+  },
+  {
+    "id": "norfolk",
+    "name": "Duke of Norfolk",
+    "aliases": ["NORFOLK.", "NORFOLK"],
+    "role": "supporting",
+    "description": "Thomas Howard, Duke of Norfolk, a leading noble who warns Buckingham against Wolsey and later helps bring the cardinal down.",
+    "relationships": [
+      { "other_id": "wolsey", "relation": "opponent of" },
+      { "other_id": "buckingham", "relation": "ally of" }
+    ],
+    "color": "#6a7a4a"
+  },
+  {
+    "id": "suffolk",
+    "name": "Duke of Suffolk",
+    "aliases": ["SUFFOLK.", "SUFFOLK"],
+    "role": "supporting",
+    "description": "Charles Brandon, Duke of Suffolk, who joins Norfolk and Surrey in confronting Wolsey at his fall.",
+    "relationships": [
+      { "other_id": "wolsey", "relation": "opponent of" }
+    ],
+    "color": "#5a7a6a"
+  },
+  {
+    "id": "surrey",
+    "name": "Earl of Surrey",
+    "aliases": ["SURREY.", "SURREY"],
+    "role": "supporting",
+    "description": "Earl of Surrey, Buckingham's son-in-law, who bitterly upbraids Wolsey to his face once the cardinal has fallen.",
+    "relationships": [
+      { "other_id": "wolsey", "relation": "accuser of" },
+      { "other_id": "buckingham", "relation": "son-in-law of" }
+    ],
+    "color": "#7a8a5a"
+  },
+  {
+    "id": "chamberlain",
+    "name": "Lord Chamberlain",
+    "aliases": ["CHAMBERLAIN.", "CHAMBERLAIN"],
+    "role": "supporting",
+    "description": "The Lord Chamberlain, a court official who observes the rise of Anne Bullen and the maneuvers against Cranmer.",
+    "color": "#8a7a4a"
+  },
+  {
+    "id": "gardiner",
+    "name": "Bishop Gardiner",
+    "aliases": ["GARDINER.", "GARDINER"],
+    "role": "supporting",
+    "description": "Stephen Gardiner, Bishop of Winchester and the king's secretary, leader of the conservative faction that tries to bring down Archbishop Cranmer before the council.",
+    "relationships": [
+      { "other_id": "cranmer", "relation": "enemy of" }
+    ],
+    "color": "#6a5a7a"
+  },
+  {
+    "id": "cromwell",
+    "name": "Thomas Cromwell",
+    "aliases": ["CROMWELL.", "CROMWELL"],
+    "role": "supporting",
+    "description": "Wolsey's faithful servant, who weeps at his master's fall and receives his counsel to 'fling away ambition.' He rises in the king's service and defends Cranmer in the council.",
+    "relationships": [
+      { "other_id": "wolsey", "relation": "servant of" },
+      { "other_id": "cranmer", "relation": "ally of" }
+    ],
+    "color": "#5a6a8a"
+  },
+  {
+    "id": "campeius",
+    "name": "Cardinal Campeius",
+    "aliases": ["CAMPEIUS.", "CAMPEIUS"],
+    "role": "supporting",
+    "description": "Cardinal Campeius, the papal legate sent from Rome to sit with Wolsey in judgment on the king's divorce, who adjourns the trial to Rome.",
+    "color": "#7a4a4a"
+  },
+  {
+    "id": "griffith",
+    "name": "Griffith",
+    "aliases": ["GRIFFITH.", "GRIFFITH"],
+    "role": "supporting",
+    "description": "Gentleman usher to Queen Katherine, who attends her in exile and, prompted by her, gives the dead Wolsey a generous and balanced obituary.",
+    "relationships": [
+      { "other_id": "katherine", "relation": "usher to" }
+    ],
+    "color": "#5a7a5a"
+  },
+  {
+    "id": "old_lady",
+    "name": "Old Lady",
+    "aliases": ["OLD LADY."],
+    "role": "supporting",
+    "description": "An elderly friend to Anne Bullen, whose worldly, bawdy banter about queenship counterpoints Anne's professed reluctance.",
+    "relationships": [
+      { "other_id": "anne", "relation": "friend of" }
+    ],
+    "color": "#9a7a5a"
+  },
+  {
+    "id": "first_gentleman",
+    "name": "First Gentleman",
+    "aliases": ["FIRST GENTLEMAN."],
+    "role": "supporting",
+    "description": "One of the Gentlemen whose conversations narrate offstage events — Buckingham's trial, Anne's coronation — serving as the play's choric eyewitnesses.",
+    "color": "#7a8a6a"
+  },
+  {
+    "id": "second_gentleman",
+    "name": "Second Gentleman",
+    "aliases": ["SECOND GENTLEMAN."],
+    "role": "supporting",
+    "description": "One of the Gentlemen whose conversations narrate offstage events, supplying the audience with court news and commentary.",
+    "color": "#6a8a7a"
+  },
+  {
+    "id": "third_gentleman",
+    "name": "Third Gentleman",
+    "aliases": ["THIRD GENTLEMAN."],
+    "role": "minor",
+    "description": "A Gentleman who reports the splendor of Anne Bullen's coronation."
+  },
+  {
+    "id": "gentleman",
+    "name": "A Gentleman",
+    "aliases": ["GENTLEMAN.", "GENTLEMAN USHER."],
+    "role": "minor",
+    "description": "A gentleman or gentleman-usher delivering messages at court."
+  },
+  {
+    "id": "chancellor",
+    "name": "Lord Chancellor",
+    "aliases": ["CHANCELLOR.", "CHANCELLOR"],
+    "role": "minor",
+    "description": "The Lord Chancellor who presides over the council's attempt to commit Cranmer to the Tower."
+  },
+  {
+    "id": "surveyor",
+    "name": "Surveyor",
+    "aliases": ["SURVEYOR."],
+    "role": "minor",
+    "description": "Buckingham's discharged surveyor, whose testimony — coached by Wolsey — condemns his former master for treason."
+  },
+  {
+    "id": "sandys",
+    "name": "Lord Sandys",
+    "aliases": ["SANDYS.", "SANDYS"],
+    "role": "minor",
+    "description": "Lord Sandys (Sir William Sandys), a genial courtier at Wolsey's banquet where the king first meets Anne Bullen."
+  },
+  {
+    "id": "abergavenny",
+    "name": "Lord Abergavenny",
+    "aliases": ["ABERGAVENNY.", "ABERGAVENNY"],
+    "role": "minor",
+    "description": "Buckingham's son-in-law, arrested with him on Wolsey's orders."
+  },
+  {
+    "id": "lovell",
+    "name": "Sir Thomas Lovell",
+    "aliases": ["LOVELL.", "LOVELL"],
+    "role": "minor",
+    "description": "A courtier in attendance on the king and Wolsey."
+  },
+  {
+    "id": "brandon",
+    "name": "Brandon",
+    "aliases": ["BRANDON.", "BRANDON"],
+    "role": "minor",
+    "description": "An officer who, with a sergeant-at-arms, arrests the Duke of Buckingham for high treason."
+  },
+  {
+    "id": "capucius",
+    "name": "Capucius",
+    "aliases": ["CAPUCIUS.", "CAPUCIUS"],
+    "role": "minor",
+    "description": "Ambassador from the Emperor Charles V, who visits the dying Katherine and carries her last letter to the king."
+  },
+  {
+    "id": "lincoln",
+    "name": "Bishop of Lincoln",
+    "aliases": ["LINCOLN.", "LINCOLN"],
+    "role": "minor",
+    "description": "The Bishop of Lincoln, the king's confessor, who first raised the scruple about the marriage to Katherine."
+  },
+  {
+    "id": "patience",
+    "name": "Patience",
+    "aliases": ["PATIENCE.", "PATIENCE"],
+    "role": "minor",
+    "description": "Waiting-woman to Queen Katherine, who attends her in her final illness."
+  },
+  {
+    "id": "denny",
+    "name": "Sir Anthony Denny",
+    "aliases": ["DENNY.", "DENNY"],
+    "role": "minor",
+    "description": "A courtier who brings Archbishop Cranmer to the king at night."
+  },
+  {
+    "id": "butts",
+    "name": "Doctor Butts",
+    "aliases": ["BUTTS.", "BUTTS"],
+    "role": "minor",
+    "description": "The king's physician, who shows Henry how the council has left Cranmer waiting at the door like a lackey."
+  },
+  {
+    "id": "secretary",
+    "name": "Secretary",
+    "aliases": ["SECRETARY."],
+    "role": "minor",
+    "description": "A secretary to Cardinal Wolsey."
+  },
+  {
+    "id": "porter",
+    "name": "Porter",
+    "aliases": ["PORTER.", "PORTER"],
+    "role": "minor",
+    "description": "The palace porter who, with his man, struggles to hold back the crowd at the christening of Princess Elizabeth."
+  },
+  {
+    "id": "man",
+    "name": "Porter's Man",
+    "aliases": ["MAN."],
+    "role": "minor",
+    "description": "The porter's man, who helps keep order among the christening crowd."
+  },
+  {
+    "id": "keeper",
+    "name": "Keeper",
+    "aliases": ["KEEPER.", "KEEPER"],
+    "role": "minor",
+    "description": "A keeper at the council chamber door."
+  },
+  {
+    "id": "crier",
+    "name": "Crier",
+    "aliases": ["CRIER.", "CRIER"],
+    "role": "minor",
+    "description": "The court crier who summons the parties at the divorce trial."
+  },
+  {
+    "id": "scribe",
+    "name": "Scribe",
+    "aliases": ["SCRIBE."],
+    "role": "minor",
+    "description": "A scribe at the legatine court."
+  },
+  {
+    "id": "messenger",
+    "name": "Messenger",
+    "aliases": ["MESSENGER."],
+    "role": "minor",
+    "description": "A messenger at court."
+  },
+  {
+    "id": "servant",
+    "name": "Servant",
+    "aliases": ["SERVANT."],
+    "role": "minor",
+    "description": "A servant at court."
+  },
+  {
+    "id": "sergeant",
+    "name": "Sergeant-at-Arms",
+    "aliases": ["SERGEANT."],
+    "role": "minor",
+    "description": "A sergeant-at-arms who assists Brandon in arresting Buckingham."
+  },
+  {
+    "id": "guildford",
+    "name": "Sir Henry Guildford",
+    "aliases": ["GUILDFORD.", "GUILDFORD"],
+    "role": "minor",
+    "description": "The host who welcomes the guests to Wolsey's banquet."
+  },
+  {
+    "id": "vaux",
+    "name": "Sir Nicholas Vaux",
+    "aliases": ["VAUX.", "VAUX"],
+    "role": "minor",
+    "description": "The officer charged with conveying the condemned Buckingham to his execution."
+  },
+  {
+    "id": "page",
+    "name": "Page",
+    "aliases": ["PAGE."],
+    "role": "minor",
+    "description": "Page to Bishop Gardiner."
+  },
+  {
+    "id": "garter",
+    "name": "Garter King-at-Arms",
+    "aliases": ["GARTER.", "GARTER"],
+    "role": "minor",
+    "description": "The herald who proclaims good wishes at the christening of Princess Elizabeth."
+  },
+  {
+    "id": "voice",
+    "name": "A Voice",
+    "aliases": ["VOICE."],
+    "role": "minor",
+    "description": "A voice heard from within."
+  },
+  {
+    "id": "prologue",
+    "name": "Prologue",
+    "aliases": ["PROLOGUE."],
+    "role": "chorus",
+    "description": "The speaker of the Prologue, who warns the audience to expect not a merry bawdy play but a serious, tearful 'chosen truth' of greatness brought to misery.",
+    "color": "#6a6a9a"
+  },
+  {
+    "id": "epilogue",
+    "name": "Epilogue",
+    "aliases": ["EPILOGUE", "EPILOGUE."],
+    "role": "chorus",
+    "description": "The speaker of the Epilogue, who guesses the play will please chiefly the good women in the audience, and the men for their sake.",
+    "color": "#6a6a9a"
+  },
+  {
+    "id": "both",
+    "name": "Both",
+    "aliases": ["BOTH.", "BOTH"],
+    "role": "ensemble",
+    "description": "Two speakers answering together."
+  },
+  {
+    "id": "all",
+    "name": "All",
+    "aliases": ["ALL.", "ALL"],
+    "role": "ensemble",
+    "description": "Several speakers answering together."
+  }
+]

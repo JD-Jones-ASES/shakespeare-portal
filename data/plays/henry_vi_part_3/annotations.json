@@ -13570,5 +13570,1063 @@
         "note": "René d'Anjou's purely titular claims to Sicily and Jerusalem are well-attested, and the annotation accurately distinguishes the play's 'Sicils' as the Two Sicilies (Naples + Sicily) rather than conflating it with the county of Anjou surrendered in 1H6 — no anachronism or overreach."
       }
     ]
+  },
+  {
+    "id": "henry_vi_part_3-1011-setter-up-plucker-down",
+    "play": "henry_vi_part_3",
+    "tln_start": 1011,
+    "tln_end": 1011,
+    "word_start": 0,
+    "word_end": 5,
+    "anchor_text": "Thou setter-up and plucker-down of kings",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "Edward is praying to God, calling him the one who raises kings and topples them — but the phrase also carries an ironic edge because it describes exactly what Warwick himself does in this play. Richard Neville, Earl of Warwick, was known as 'the Kingmaker': he first set Edward on the throne by defeating the Lancastrians and would later switch sides, depose Edward, and restore Henry VI, only to be defeated and killed at Barnet in 1471.",
+    "detail": "The phrase 'setter-up and plucker-down of kings' is directed at God (Edward is on his knees in prayer), drawing on the biblical and providential language of divine sovereignty over earthly thrones (Psalm 75:7 and Daniel 2:21 in the Geneva Bible) and the standard Elizabethan doctrine that God alone makes and unmakes kings. The dramatic irony is that Warwick, kneeling beside him, literally fulfils that description in the action of the play: within three acts he will break with Edward over the Lady Grey marriage, travel to France, reconcile with Margaret, and bring Edward's regime crashing down by force of arms before being killed at Barnet. The audience watching the two men kneel together in fellowship would already sense the divergence to come.",
+    "sources": [
+      {
+        "name": "Holinshed, Chronicles (1587)",
+        "citation": "Raphael Holinshed, Chronicles (1587): Warwick's role in placing Edward IV on the throne, his defection, the restoration of Henry VI, and his death at Barnet (14 April 1471)."
+      },
+      {
+        "name": "Geneva Bible 1599",
+        "citation": "Psalm 75:7 (Geneva 1599): 'But God is the iudge: he maketh lowe and he maketh hie.' Cf. Daniel 2:21, that God 'taketh away kings, and setteth up kings.'"
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "wars-of-the-roses"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1011"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Corrected the misquotation: the 'putteth down/setteth up' wording is KJV, not Geneva; substituted the actual Geneva 1599 Psalm 75:7 ('maketh lowe and he maketh hie') verified by web check, and added the closer Geneva Daniel 2:21 parallel."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The line is clearly addressed to God in prayer (TLN 1007-1015 context: 'brazen gates of heaven,' 'sinful soul'), and the dramatic irony that it simultaneously describes Warwick the Kingmaker is a mainstream reading found in standard Shakespeare criticism."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Corrected the misquotation: the 'putteth down/setteth up' wording is KJV, not Geneva; substituted the actual Geneva 1599 Psalm 75:7 ('maketh lowe and he maketh hie') verified by web check, and added the closer Geneva Daniel 2:21 parallel. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_vi_part_3-1027-olympian-games",
+    "play": "henry_vi_part_3",
+    "tln_start": 1026,
+    "tln_end": 1027,
+    "word_start": 7,
+    "word_end": 6,
+    "anchor_text": "rewards As victors wear at the Olympian games",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "The Olympian games were the great athletic festival held every four years at Olympia in ancient Greece, sacred to Zeus. Winners received a simple crown of olive leaves, but the honor was immense — poets, statues, and lifelong civic privileges celebrated them. George invokes the image to promise his wavering soldiers glory equivalent to the greatest prize the ancient world could offer.",
+    "sources": [
+      {
+        "name": "Pindar, Olympian Odes; Pausanias, Description of Greece",
+        "citation": "Pindar, Olympian Odes (celebrating victors crowned with wild olive at Olympia); Pausanias, Description of Greece, Book 5 (the sanctuary of Zeus and the games at Olympia). The Olympian games were proverbial in Elizabethan England for supreme competitive honour."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1026"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Removed the fabricated Ovid line-numbers (Met. 1.113, 10.231, which do not treat the games) and cited the genuine classical sources for the Olympian games and the olive crown; gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The identification of the Olympian games as the supreme competitive honor of the ancient world, with an olive-leaf crown, is factually correct and accurately captures George's rhetorical appeal to wavering soldiers."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Removed the fabricated Ovid line-numbers (Met. 1.113, 10.231, which do not treat the games) and cited the genuine classical sources for the Olympian games and the olive crown; gloss unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_vi_part_3-1034-brazen-wall",
+    "play": "henry_vi_part_3",
+    "tln_start": 1034,
+    "tln_end": 1034,
+    "word_start": 2,
+    "word_end": 6,
+    "anchor_text": "environ'd with a brazen wall",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Environ'd' means surrounded or encircled (from Old French 'environner'). 'Brazen' means made of brass — proverbially the hardest, most impenetrable metal. Richard is saying that even if Clifford were ringed by an unbreakable brass fortress, he would still come for him to avenge York and Rutland.",
+    "detail": "The 'brazen wall' (a wall of brass) is a classical commonplace for an indestructible defence; the figure 'a wall of brass' (murus aeneus) appears in Horace (Odes 3.3) and was a standard rhetorical hyperbole in Latin literature absorbed into English via grammar-school education. The phrase escalates the revenge-vow from personal grievance to mythic resolve. The word 'environ'd' was still in common Elizabethan use but has since dropped out of everyday English.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'environ' v.: 'to surround, encircle'; s.v. 'brazen' adj.: 'made of brass.' The proverbial brass-wall figure is traced in Tilley, A Dictionary of the Proverbs in England (1950), under 'wall.'"
+      },
+      {
+        "name": "Horace, Odes",
+        "citation": "Horace, Odes 3.3 ('murus aeneus,' a wall of brass), the classical locus for the brass-wall figure of impregnable defence."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1034"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Fixed the Horace citation: dropped the misattributed 'aequam mentem'/3.3.1-8 claim and cited Odes 3.3 at work level for the murus aeneus (brass-wall) image; also generalized the Tilley reference. OED gloss core unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Reading 'brazen wall' as a proverbial commonplace for impenetrable defense is mainstream and defensible; the interpretive claim does not overreach, even if the specific Horace locus cited is imprecise."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Fixed the Horace citation: dropped the misattributed 'aequam mentem'/3.3.1-8 claim and cited Odes 3.3 at work level for the murus aeneus (brass-wall) image; also generalized the Tilley reference. OED gloss core unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_vi_part_3-1036-hand-that-stabbed",
+    "play": "henry_vi_part_3",
+    "tln_start": 1036,
+    "tln_end": 1037,
+    "word_start": 0,
+    "word_end": 8,
+    "anchor_text": "This is the hand that stabbed thy father York, And this the hand that slew thy brother Rutland",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Clifford repeats the construction 'this is the hand that...' twice in succession — a figure called anaphora (the same opening phrase repeated in consecutive clauses). Far from denying the murders, he boasts of them, turning his hands into trophies of Lancastrian revenge. The rhetorical symmetry also mirrors Richard's own paired grievances in the lines just above ('this arm is for the Duke of York, / And this for Rutland').",
+    "detail": "The deliberate echo of Richard's two-armed vow (TLN 1032-1033) is a structural riposte: Richard invokes York and Rutland as reasons to fight; Clifford answers by confirming both deaths with matching syntax, line for line. This call-and-response structure, where opponents mirror each other's rhetoric, was a recognized device in Elizabethan drama for staging moral equivalence or ironic inversion. Clifford's murders of Rutland (1.3) and York (1.4) are the emotional engine of Richard's revenge plot in this play and the psychological seed of his later villainy. Holinshed (Chronicles, 1587) records Clifford's killing of the young Earl of Rutland after the battle of Wakefield (1460); his ferocity earned him the byname 'the Butcher.'",
+    "sources": [
+      {
+        "name": "Holinshed, Chronicles (1587)",
+        "citation": "Raphael Holinshed, Chronicles (1587), under the reign of Edward IV: Clifford's killing of the young Earl of Rutland after the battle of Wakefield (1460)."
+      },
+      {
+        "name": "Lanham, A Handlist of Rhetorical Terms",
+        "citation": "Richard A. Lanham, A Handlist of Rhetorical Terms (2nd ed., 1991), s.v. 'anaphora': the repetition of the same word(s) at the beginning of successive clauses."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "wars-of-the-roses"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1036"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Replaced the wrong Puttenham chapter cite with Lanham's standard definition of anaphora and dropped the unverifiable Holinshed page number (generalized to work/reign); anaphora identification and gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The anaphora identification is sound, the mirroring of Richard's TLN 1032-33 two-armed vow is clearly in the text, and the reading of this exchange as seeding Richard's later psychological trajectory is standard critical consensus, not an overreach."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Replaced the wrong Puttenham chapter cite with Lanham's standard definition of anaphora and dropped the unverifiable Holinshed page number (generalized to work/reign); anaphora identification and gloss unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_vi_part_3-1098-ill-blows-the-wind",
+    "play": "henry_vi_part_3",
+    "tln_start": 1098,
+    "tln_end": 1098,
+    "word_start": 0,
+    "word_end": 6,
+    "anchor_text": "Ill blows the wind that profits nobody",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "A proverb meaning 'it is a very bad wind that benefits no one at all.' The Son enters hoping to profit from looting a corpse on the battlefield — citing the proverb as a grimly practical justification. The saying was common by Shakespeare's day ('it is an ill wind that blows no man good') and signals the soldier's cold pragmatism before the devastating recognition that follows.",
+    "sources": [
+      {
+        "name": "Tilley, A Dictionary of the Proverbs in England",
+        "citation": "Morris Palmer Tilley, A Dictionary of the Proverbs in England in the Sixteenth and Seventeenth Centuries (1950), under 'wind': 'It is an ill wind that blows no man good.'"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1098"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the wrong Tilley entry number (W411) and generalized to Tilley's 'wind' heading; proverb identification and gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The proverb is correctly identified and cited to Tilley W 411; reading the Son's tone as grimly pragmatic before the recognition is a fair and unforced reading of the dramatic structure."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the wrong Tilley entry number (W411) and generalized to Tilley's 'wind' heading; proverb identification and gloss unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_vi_part_3-1163-priam",
+    "play": "henry_vi_part_3",
+    "tln_start": 1163,
+    "tln_end": 1163,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "As Priam was for all his valiant sons",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Priam was the aged king of Troy whose fifty sons were killed in the Trojan War — the classical archetype of a father destroyed by the slaughter of his children. The Father compares his grief for a single son to Priam's grief for fifty. The allusion scales up the private tragedy: one anonymous soldier's loss equals a legendary king's.",
+    "detail": "Priam's sons were killed through the ten-year war and in the final sack of Troy; Priam himself was butchered at the household altar by Pyrrhus (son of Achilles) as the city fell. Shakespeare knew the myth from Ovid's Metamorphoses (Book 13, Hecuba's grief) and from Virgil's Aeneid (Book 2, Pyrrhus slaying Priam), both grammar-school staples. The Priam comparison was a school commonplace for extreme paternal grief; it appears in Hamlet's Player King speech on 'the mobled queen' after Priam is slain. Placing the allusion in the mouth of an unnamed common soldier is the most poignant touch: this man knows the same legend and measures his pain against the greatest classical standard.",
+    "sources": [
+      {
+        "name": "Ovid, Metamorphoses",
+        "citation": "Ovid, Metamorphoses, Book 13 (Hecuba's grief after the fall of Troy and the death of Priam; Englished in Golding's 1567 translation)."
+      },
+      {
+        "name": "Virgil, Aeneid",
+        "citation": "Virgil, Aeneid, Book 2 (Pyrrhus/Neoptolemus slays the aged Priam at the altar as Troy falls)."
+      }
+    ],
+    "references": [
+      {
+        "kind": "classical",
+        "card_id": "fall-of-troy"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1163"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Corrected the deity error (Priam is killed at the household altar/Penates, not 'the altar of Jupiter') and generalized both cites to book level; allusion, fall-of-troy card link, and Hamlet parallel kept."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Priam as the classical archetype of a father bereaved of his sons is correct and the sources (Ovid Metamorphoses 13, Virgil Aeneid 2) are appropriate; noting the Hamlet Player King parallel is a legitimate cross-play observation, and the reading that placing the allusion in a common soldier's mouth is the 'most poignant touch' is a defensible critical judgment rather than an over-reading."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Corrected the deity error (Priam is killed at the household altar/Penates, not 'the altar of Jupiter') and generalized both cites to book level; allusion, fall-of-troy card link, and Hamlet parallel kept. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_vi_part_3-1729-eternal-plant",
+    "play": "henry_vi_part_3",
+    "tln_start": 1729,
+    "tln_end": 1731,
+    "word_start": 1,
+    "word_end": 7,
+    "anchor_text": "this his love was an eternal plant, / Whereof the root was fix'd in virtue's ground, / The leaves and fruit maintain'd with beauty's sun",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Warwick describes Edward's supposed love for Bona as an extended plant metaphor: love is a plant rooted in virtue, fed by the sun of beauty. This is a formal rhetorical figure called 'continued metaphor' or 'allegory in little,' where a single image (the plant) is worked out through its parts (root, leaves, fruit, sun). It is deliberately ornate — the diplomatic register of a courtly ambassador making a formal suit.",
+    "sources": [
+      {
+        "name": "Lanham, A Handlist of Rhetorical Terms",
+        "citation": "Richard A. Lanham, A Handlist of Rhetorical Terms (2nd ed., 1991), s.v. 'allegory': a sustained or continued metaphor extended through its parts. Cf. George Puttenham, The Arte of English Poesie (1589), Book 3, on allegory ('the figure of false semblant')."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1729"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Replaced the wrong Puttenham chapter number with Lanham's standard definition of continued metaphor/allegory (Puttenham kept at work/book level only); device identification and gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The extended plant metaphor is correctly identified as a formal rhetorical device; the Petrarchan register and the dramatic irony of Warwick's unwitting falsehood are mainstream readings well supported by the scene's context."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Replaced the wrong Puttenham chapter number with Lanham's standard definition of continued metaphor/allegory (Puttenham kept at work/book level only); device identification and gloss unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_vi_part_3-1936-play-the-broker",
+    "play": "henry_vi_part_3",
+    "tln_start": 1936,
+    "tln_end": 1937,
+    "word_start": 1,
+    "word_end": 9,
+    "anchor_text": "play the broker in mine own behalf; And to that end I shortly mind to leave you",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Broker' here does not mean a financial middleman but an agent who arranges a marriage match — a go-between or negotiator. Clarence is saying: since Edward showed such poor judgment in choosing his own wife, Clarence will act as his own matchmaker. 'Mind to leave you' means 'intend to leave your court' — he is announcing his forthcoming defection to Warwick, whose younger daughter he intends to marry.",
+    "sources": [
+      {
+        "name": "Onions, A Shakespeare Glossary",
+        "citation": "C. T. Onions, A Shakespeare Glossary, s.v. 'broker': agent or intermediary, especially a go-between in love affairs or marriage negotiations."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1936"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the fabricated numbered sub-senses '(1)...(3)' and quoted Onions's actual single 'broker' definition; the marriage-go-between gloss is unchanged and supported."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Broker' as marriage go-between or agent is the correct period sense here — Clarence is explicitly saying he will arrange his own marriage — and 'mind to leave you' is accurately glossed as announcing his imminent defection to Warwick."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the fabricated numbered sub-senses '(1)...(3)' and quoted Onions's actual single 'broker' definition; the marriage-go-between gloss is unchanged and supported. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_vi_part_3-2036-nights-coverture",
+    "play": "henry_vi_part_3",
+    "tln_start": 2036,
+    "tln_end": 2036,
+    "word_start": 6,
+    "word_end": 7,
+    "anchor_text": "night's coverture",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Coverture' means cover or concealment — the darkness of night as a cloak hiding the raiders from sight. Warwick is saying they will strike under cover of darkness, while Edward's army is carelessly dispersed in nearby towns.",
+    "detail": "'Coverture' (from Old French coverture, a covering) is used by Shakespeare in the sense of protective concealment; compare the legal term 'feme covert' (a married woman, literally 'covered' by her husband). Warwick describes a classic surprise attack: the enemy scattered, the guard thin, and the operation masked by darkness. Historically Warwick did seize Edward IV during the Yorkist quarrel of 1469 (Edward was taken after the battle of Edgecote and briefly held), though Shakespeare's specific night-raid framing is a dramatic compression rather than a detail of the chronicle.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'coverture' n.: 'cover, shelter, concealment' (with examples from the 14th-17th centuries)."
+      },
+      {
+        "name": "Holinshed, Chronicles (1587)",
+        "citation": "Raphael Holinshed, Chronicles (1587), under Edward IV: Warwick's capture of the king during the rising of 1469."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2036"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Kept the OED gloss; rewrote the Holinshed detail to state the king's 1469 capture accurately and flag the night-raid as Shakespeare's compression, removing the false 'sleeping-camp night raid' claim the judge flagged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The core gloss ('coverture' = concealment/cover) is the well-attested OED sense, and the feme-covert etymology is offered as background, not as the primary reading; no overreach."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Kept the OED gloss; rewrote the Holinshed detail to state the king's 1469 capture accurately and flag the night-raid as Shakespeare's compression, removing the false 'sleeping-camp night raid' claim the judge flagged. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_vi_part_3-2198-author-instrument",
+    "play": "henry_vi_part_3",
+    "tln_start": 2198,
+    "tln_end": 2200,
+    "word_start": 1,
+    "word_end": 6,
+    "anchor_text": "Warwick, after God thou sett'st me free,\nAnd chiefly therefore I thank God and thee;\nHe was the author, thou the instrument",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "Henry frames Warwick's role in the theological vocabulary of secondary causation: God is the 'author' (the originating cause) and Warwick only the 'instrument' (the tool God uses). This comes from scholastic theology — God works through human agents without sharing the credit. By ranking Warwick below God in the chain of thanks, Henry is both pious and, subtly, keeping the Kingmaker in his subordinate place.",
+    "detail": "The author/instrument distinction belongs to the scholastic doctrine of primary and secondary causation (God as first cause working through human 'instruments'), common in Tudor Protestant preaching: human agents are instruments of divine providence, not its authors. Henry uses it sincerely (he consistently views his fate as God-directed), but the formulation also contains a political truth: Warwick restored Henry to serve his own interests after Edward IV humiliated him. Calling Warwick the instrument rather than the cause quietly downgrades his agency. The irony will become plain: the 'instrument' will soon be dead and Henry imprisoned again.",
+    "sources": [
+      {
+        "name": "Thomas Aquinas, Summa Theologiae",
+        "citation": "Aquinas, Summa Theologiae, on divine providence and God as first cause acting through instrumental secondary causes (Prima Pars, qq. 22 and 103-105); the vocabulary was standard in Tudor homiletics."
+      },
+      {
+        "name": "Schmidt, Shakespeare-Lexicon",
+        "citation": "Alexander Schmidt, Shakespeare-Lexicon, s.v. 'author': originator, first cause."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2198"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Fixed the Aquinas locus (causation/providence is Prima Pars qq.22, 103-105, not I-II q.1 'Man's last end'); theological gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The primary/secondary causation reading (God as author, Warwick as instrument) is theologically orthodox and the interpretive claim that it 'quietly downgrades' Warwick's agency is a defensible, mainstream reading of Henry's consistent Providentialist piety — not an over-reading."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Fixed the Aquinas locus (causation/providence is Prima Pars qq.22, 103-105, not I-II q.1 'Man's last end'); theological gloss unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_vi_part_3-2363-raise-his-car",
+    "play": "henry_vi_part_3",
+    "tln_start": 2363,
+    "tln_end": 2364,
+    "word_start": 2,
+    "word_end": 5,
+    "anchor_text": "the morning sun shall raise his car Above the border of this horizon",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "'Car' is the chariot of the sun-god, which in classical mythology is driven across the sky each day. Edward says that at dawn they will march against Warwick and his forces. The image of the sun raising its chariot over the horizon was a commonplace drawn from the myth of the sun-god Phoebus (Apollo) and his daily journey — most famously the story of Phaethon, who borrowed the chariot and lost control of it.",
+    "detail": "The sun-chariot figure appears repeatedly in Shakespeare's histories: the king and the sun share their daily course across the sky, both ordering the world below them. 'Car' is the chariot of the sun-god Phoebus (Apollo), driven across the heavens each day in classical myth; here it is simply a poetic way of saying 'at dawn we will march against Warwick.' Shakespeare elsewhere develops the related Phaethon story (the sun-god's son who lost control of the chariot) for spectacular falls from height, including earlier in this very play (1.4).",
+    "sources": [
+      {
+        "name": "Ovid, Metamorphoses (Golding 1567)",
+        "citation": "Ovid, Metamorphoses 2.1-400 (the chariot of Phoebus and the fall of Phaethon), in Arthur Golding's English translation (1567)."
+      }
+    ],
+    "references": [
+      {
+        "kind": "classical",
+        "card_id": "phaethon"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2363"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Ovid, Metamorphoses 2.1-400 is exactly the Phaethon episode with the chariot of Phoebus; Golding's 1567 English translation is correctly identified."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Interpretation judge flagged overreach; trimmed the 'implicit Phaethon contrast / Edward as controlled legitimate driver' reading to the sourced core (car = sun-chariot, a dawn time-marker), keeping the verified Ovid cite and the phaethon card link."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Interpretation judge flagged overreach; trimmed the 'implicit Phaethon contrast / Edward as controlled legitimate driver' reading to the sourced core (car = sun-chariot, a dawn time-marker), keeping the verified Ovid cite and the phaethon card link. [orig: source=verified, interp=refuted]"
+  },
+  {
+    "id": "henry_vi_part_3-2433-sun-hay",
+    "play": "henry_vi_part_3",
+    "tln_start": 2433,
+    "tln_end": 2434,
+    "word_start": 0,
+    "word_end": 6,
+    "anchor_text": "The sun shines hot, and, if we use delay, Cold biting winter mars our hop'd-for hay",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Edward urges speed with an agricultural proverb: hay must be cut and dried while the sun is hot; delay until winter and the crop is ruined. The figure — 'make hay while the sun shines' — was proverbial in Elizabethan England. Applied to the military situation, it means: march now while momentum favours us, before Warwick can consolidate his forces.",
+    "sources": [
+      {
+        "name": "Tilley, A Dictionary of the Proverbs in England",
+        "citation": "Morris Palmer Tilley, A Dictionary of the Proverbs in England in the Sixteenth and Seventeenth Centuries (1950), under 'hay': 'Make hay while the sun shines' (documented from the mid-sixteenth century)."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2433"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the wrong Tilley entry number (S971) and filed the proverb under Tilley's 'hay' heading, as the judge correctly noted; identification and gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The proverbial 'make hay while the sun shines' identification is correct and period-attested; the reading that Edward uses agrarian register to give tactical urgency the force of natural law is a defensible rhetorical observation rather than an overreach."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the wrong Tilley entry number (S971) and filed the proverb under Tilley's 'hay' heading, as the judge correctly noted; identification and gloss unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_vi_part_3-2473-atlas-weight",
+    "play": "henry_vi_part_3",
+    "tln_start": 2473,
+    "tln_end": 2473,
+    "word_start": 0,
+    "word_end": 8,
+    "anchor_text": "Thou art no Atlas for so great a weight",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "In Greek myth, Atlas is the Titan condemned to hold up the heavens on his shoulders forever, the supreme image of bearing an immovable burden. Warwick is telling Edward that he lacks the strength to carry a kingdom he did not win by his own merit: the crown was Warwick's gift, and Warwick is now taking it back.",
+    "sources": [
+      {
+        "name": "Hesiod, Theogony; Ovid, Metamorphoses",
+        "citation": "Hesiod, Theogony 517-520 (Atlas condemned to hold up the sky); Ovid, Metamorphoses, Book 4 (Atlas and Perseus), in Golding's 1567 English translation."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2473"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Added Hesiod Theogony for the actual sky-bearing-punishment claim (the cited Ovid IV passage is the Perseus/petrifaction episode, not the condemnation) while keeping Ovid Book 4 at book level; allusion and inversion-as-insult gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The Atlas allusion as the supreme image of bearing an impossible burden is entirely sound, and the inversion — Warwick uses it as an insult rather than a compliment — is exactly what the text does at TLN 2473–2474 ('Thou art no Atlas… weakling, Warwick takes his gift again')."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Added Hesiod Theogony for the actual sky-bearing-punishment claim (the cited Ovid IV passage is the Perseus/petrifaction episode, not the condemnation) while keeping Ovid Book 4 at book level; allusion and inversion-as-insult gloss unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_vi_part_3-2487-strike-to-thee",
+    "play": "henry_vi_part_3",
+    "tln_start": 2487,
+    "tln_end": 2489,
+    "word_start": 0,
+    "word_end": 9,
+    "anchor_text": "I had rather chop this hand off at a blow, And with the other fling it at thy face, Than bear so low a sail, to strike to thee",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Warwick uses a nautical metaphor — to 'strike' a sail means to lower it in surrender or submission. To 'bear so low a sail' is to humble oneself. He is saying he would rather mutilate himself than bow to Edward. The hand-chopping vow is hyperbole, but it literalizes the idea: he would hand Edward his own severed fist before he would kneel. The accumulation of violent self-sacrifice is characteristic of Warwick's defiant oratory throughout the play.",
+    "sources": [
+      {
+        "name": "Schmidt, Shakespeare-Lexicon",
+        "citation": "Alexander Schmidt, Shakespeare-Lexicon, s.v. 'strike': to lower (a sail or flag) as a sign of submission or surrender."
+      },
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'strike' v., the nautical sense 'to lower or take down (a sail) in token of submission.'"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2487"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Removed the wrong Schmidt sense-number '(5)' and added a corroborating OED cite for the nautical 'strike'; the lower-the-sail-in-submission gloss is correct and unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The nautical sense of 'strike' (lower a sail in submission) is well-attested and fits the line exactly; 'bear so low a sail' reinforces the metaphor, and Schmidt's citation supports it — no over-reading."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Removed the wrong Schmidt sense-number '(5)' and added a corroborating OED cite for the nautical 'strike'; the lower-the-sail-in-submission gloss is correct and unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_vi_part_3-2561-cedar-allegory",
+    "play": "henry_vi_part_3",
+    "tln_start": 2561,
+    "tln_end": 2562,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "Thus yields the cedar to the axe's edge, Whose arms gave shelter to the princely eagle",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Warwick eulogizes himself through a chain of heraldic emblems: the cedar (a biblical and classical symbol of towering greatness and kingly protection), the eagle (emblem of imperial power — here, the Yorkist kings he raised), the 'ramping lion' (the royal lion of England), and the oak ('Jove's spreading tree') whose crown Warwick overtopped. The extended comparison is an elaborate allegory in which Warwick's entire political career — sheltering princes, overshadowing kings, shielding the weak — is compressed into a single image of a great tree felled.",
+    "detail": "The cedar as emblem of proud greatness is rooted in scripture (Ezekiel 31 uses the cedar of Lebanon for a mighty empire brought low, a close parallel) and in classical poetry. The eagle as royal or imperial symbol is ancient heraldry; the lion rampant is the arms of England, and Warwick as their 'shade' recalls that he was Edward IV's military protector. 'Jove's spreading tree' is the oak, sacred to Jupiter in classical tradition (Pliny, Natural History, Book 16). The whole figure is a de casibus set-piece, the height of greatness measured so that the fall is more poignant, in the manner of the Mirror for Magistrates tradition where a great man surveys his own ruin before death.",
+    "sources": [
+      {
+        "name": "Holinshed, Chronicles (1587)",
+        "citation": "Raphael Holinshed, Chronicles (1587): Warwick's career as kingmaker and his death at Barnet, 14 April 1471."
+      },
+      {
+        "name": "Pliny, Natural History",
+        "citation": "Pliny the Elder, Natural History, Book 16 (the oak sacred to Jupiter; the civic crown of oak leaves)."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "de-casibus-tragedy"
+      },
+      {
+        "kind": "historical",
+        "card_id": "wars-of-the-roses"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2561"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Generalized the Pliny cite from the erroneous chapter (16.2) to Book 16 (the oak-of-Jupiter material the judge located at 16.5); heraldic-allegory gloss, de-casibus and wars-of-the-roses card links unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The cedar/eagle/lion/oak chain is a defensible heraldic allegory; the Ezekiel 31 parallel, the eagle as royal emblem, and the de casibus frame are all mainstream readings grounded in the text."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Generalized the Pliny cite from the erroneous chapter (16.2) to Book 16 (the oak-of-Jupiter material the judge located at 16.5); heraldic-allegory gloss, de-casibus and wars-of-the-roses card links unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_vi_part_3-2704-wolf-spoil",
+    "play": "henry_vi_part_3",
+    "tln_start": 2704,
+    "tln_end": 2704,
+    "word_start": 1,
+    "word_end": 8,
+    "anchor_text": "yonder is the wolf that makes this spoil",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Margaret closes her final battle-speech by pointing physically at Edward IV and calling him 'the wolf.' 'Spoil' means plunder or devastation — what a predator does to its prey. The wolf was a standard emblem of a ruler who devours his own subjects rather than protecting them, the opposite of the shepherd-king ideal. Margaret has just catalogued the devastation of Henry's reign under Yorkist usurpation: the prisoner king, the cancelled statutes, the slaughtered subjects, the spent treasury. Edward is the cause of it all, and he stands within bowshot.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'spoil' n.: 'plunder, pillage; the destruction wrought by a predator'; s.v. 'wolf': the beast as emblem of rapacity and tyranny."
+      },
+      {
+        "name": "Schmidt, Shakespeare-Lexicon",
+        "citation": "Alexander Schmidt, Shakespeare-Lexicon, s.v. 'wolf': the type of the devouring or rapacious man (cf. the proverbial opposition of wolf and shepherd-king)."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2704"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Removed the fabricated 'Henry V 1.2' wolf cross-reference the judge caught; the OED/Schmidt 'spoil' = predatory devastation and wolf = tyrant glosses are standard and unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Spoil' as plunder or devastation done by a predator and the wolf as emblem of a devouring/tyrannical ruler are both standard early modern usages well-supported by OED and contemporary Shakespeare parallels; the annotation correctly grounds the figure in Margaret's preceding catalogue of Edward's depredations."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Removed the fabricated 'Henry V 1.2' wolf cross-reference the judge caught; the OED/Schmidt 'spoil' = predatory devastation and wolf = tyrant glosses are standard and unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_vi_part_3-2923-judas-kissed-master",
+    "play": "henry_vi_part_3",
+    "tln_start": 2923,
+    "tln_end": 2924,
+    "word_start": 4,
+    "word_end": 9,
+    "anchor_text": "so Judas kiss'd his Master, And cried, all hail! when as he meant all harm",
+    "type": "biblical_allusion",
+    "depth": "basic",
+    "summary": "In the Gospels, Judas Iscariot betrayed Jesus to the soldiers by greeting him with a kiss — the pre-arranged signal — and the words 'Hail, Master.' Richard, having just kissed the infant prince, privately confesses that his kiss is exactly such a Judas kiss: warm on the surface, treacherous at the core. He intends to destroy Edward's line and reach the throne himself.",
+    "detail": "The betrayal kiss is recounted in all three synoptic gospels. Matthew 26:48-49 (Geneva 1599) gives the signal: Judas told the soldiers 'Whomsoeuer I shall kisse, that is he: lay holde on him,' then 'came to Iesus, and sayd, God saue thee, Master, and kissed him'; the salutation 'Haile Master' is the wording at Mark 14:45 (Geneva 1599). Shakespeare's Richard echoes the 'all hail' of greeting to sharpen the irony: the salutation and the act of betrayal are simultaneously the language of honour and the mechanism of murder. The Judas simile signals that Richard's congratulatory loyalty to Edward and his family is pure performance. In his great soliloquy at 3.2 Richard had already vowed to 'set the murderous Machiavel to school'; this aside confirms that the crown, not his brother's joy, is all he thinks of.",
+    "sources": [
+      {
+        "name": "Geneva Bible 1599",
+        "citation": "Matthew 26:48-49 (Geneva 1599): Judas signals Jesus to the soldiers with a kiss; the greeting 'Haile Master' is at Mark 14:45 (Geneva 1599). Cf. Luke 22:47-48."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2923"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Corrected the misquotation: 'Hail, Master' is KJV at Matthew 26:49 (Geneva there reads 'God save thee, Master'); re-pointed the 'Haile Master' wording to Mark 14:45 Geneva 1599 (web-verified) while keeping Matthew 26:48-49 as the betrayal-kiss locus, and removed the unsupported pilate-washing-hands cross-reference sentence."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The Judas-kiss allusion is explicit in Richard's own words ('so Judas kiss'd his Master'), Matthew 26:48-49 is the correct locus, and the Geneva 1599 'Hail, Master' matches Shakespeare's 'all hail' — the interpretation requires no inferential leap."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Corrected the misquotation: 'Hail, Master' is KJV at Matthew 26:49 (Geneva there reads 'God save thee, Master'); re-pointed the 'Haile Master' wording to Mark 14:45 Geneva 1599 (web-verified) while keeping Matthew 26:48-49 as the betrayal-kiss locus, and removed the unsupported pilate-washing-hands cross-reference sentence. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_vi_part_3-534-beggars-mounted",
+    "play": "henry_vi_part_3",
+    "tln_start": 533,
+    "tln_end": 534,
+    "word_start": 1,
+    "word_end": 7,
+    "anchor_text": "the adage must be verified, That beggars mounted run their horse to death",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "York is quoting a proverb: a beggar who suddenly acquires a horse will ride it recklessly to death, having no experience of horsemanship or care for property. Applied to Margaret, the point is that she was nobody — a poor queen from a penniless father — who, having married up into English royalty, now abuses her newfound power with the recklessness of one unused to it.",
+    "sources": [
+      {
+        "name": "Tilley, A Dictionary of the Proverbs in England",
+        "citation": "M. P. Tilley, A Dictionary of the Proverbs in England in the Sixteenth and Seventeenth Centuries (1950), under 'beggar': 'Set a beggar on horseback and he will ride a gallop' (a common Tudor proverb; cf. the variant 'Put a beggar on horseback and he will ride to the devil')."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "the-great-chain-of-being"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 533"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the wrong Tilley entry number (B224) and generalized to Tilley's 'beggar' heading; gloss and great-chain link unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "This is a genuine period proverb (well-attested in Tilley), and the application — Margaret abuses power because she was not bred to it — is exactly what York's speech argues; connecting it to the great chain of being is a defensible thematic link rather than an overreach."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the wrong Tilley entry number (B224) and generalized to Tilley's 'beggar' heading; gloss and great-chain link unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_vi_part_3-640-hercules-yield-to-odds",
+    "play": "henry_vi_part_3",
+    "tln_start": 640,
+    "tln_end": 640,
+    "word_start": 1,
+    "word_end": 6,
+    "anchor_text": "Hercules himself must yield to odds",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "The Messenger invokes Hercules as the classical byword for the strongest of men. Even Hercules, the mightiest hero of Greek myth, could not prevail against impossible odds — so York's defeat by a vastly larger force is no disgrace.",
+    "sources": [
+      {
+        "name": "Apollodorus, Library; Ovid, Metamorphoses",
+        "citation": "The twelve labours and death of Hercules: Apollodorus, Library, Book 2 (the labours at 2.5); Ovid, Metamorphoses, Book 9. The proverbial sense 'even the strongest must yield to overwhelming numbers' was current in Elizabethan England."
+      }
+    ],
+    "references": [
+      {
+        "kind": "classical",
+        "card_id": "hercules"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 640"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Replaced the fabricated locus range (2.4.8-2.7) with book-level cites for Hercules' labours, matching the existing 'hercules' card; allusion and card link kept."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The Hercules-as-supreme-hero reference is verbatim in the text and the proverbial sense (even the strongest must yield to overwhelming numbers) is the plain meaning; citing Apollodorus for the labors is legitimate, though the proverb's Elizabethan currency is the more immediate context."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Replaced the fabricated locus range (2.4.8-2.7) with book-level cites for Hercules' labours, matching the existing 'hercules' card; allusion and card link kept. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_vi_part_3-960-axe-usurping-root",
+    "play": "henry_vi_part_3",
+    "tln_start": 962,
+    "tln_end": 962,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "We set the axe to thy usurping root",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "George (Clarence) extends Edward's argument using a sustained tree metaphor: the Yorkists once allowed Lancastrian 'sunshine' to give them warmth and spring, but the season produced no fruit for them ('no increase'). So they set an axe to the root of the Lancastrian 'tree' of power. Even if the axe sometimes glances back onto themselves ('the edge hath something hit ourselves'), they will not stop until the tree is felled or watered with their own blood. This kind of plant-and-harvest imagery for political legitimacy was standard in the period.",
+    "sources": [
+      {
+        "name": "Onions, A Shakespeare Glossary",
+        "citation": "C. T. Onions, A Shakespeare Glossary, s.v. 'root': stock or source of a family, lineage (the figurative political sense common in the histories)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 962"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Replaced the Schmidt 'root' citation (whose claimed lineage sense the source judge could not find) with Onions's well-attested figurative 'root' = lineage; sustained-tree-metaphor gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The tree metaphor (sunshine/spring/no increase/axe to root) is accurately glossed as a sustained plant-and-harvest image for political legitimacy; attributing the speech to George (Clarence) matches TLN 960-966 in the scene text, and 'root' as royal lineage is standard in the histories."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Replaced the Schmidt 'root' citation (whose claimed lineage sense the source judge could not find) with Onions's well-attested figurative 'root' = lineage; sustained-tree-metaphor gloss unchanged. [orig: source=refuted, interp=verified]"
   }
 ]
