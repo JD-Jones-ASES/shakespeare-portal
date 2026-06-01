@@ -36,6 +36,9 @@ const act = bundle.text.acts.find((a) => a.number === actNum);
 const scene = act?.scenes.find((s) => s.number === sceneNum);
 if (!act || !scene) return Astro.redirect(`/plays/${slug}/`);
 
+// Act 0 is the pre-Act-1 INDUCTION pseudo-act (e.g. The Taming of the Shrew's Sly frame);
+// label it "Induction" rather than "Act 0".
+const actLabel = act.number === 0 ? 'Induction' : `Act ${actNum}`;
 const annotations = annotationsForScene(slug as string, actNum, sceneNum);
 
 // characters who actually speak in this scene (for the filter)
@@ -52,19 +55,19 @@ const allScenes = bundle.text.acts.flatMap((a) =>
 const idx = allScenes.findIndex((p) => p.act === actNum && p.scene === sceneNum);
 const prev = idx > 0 ? allScenes[idx - 1] : undefined;
 const next = idx < allScenes.length - 1 ? allScenes[idx + 1] : undefined;
-const title = `${bundle.catalog?.title_short ?? bundle.slug} — Act ${actNum} Scene ${sceneNum}`;
+const title = `${bundle.catalog?.title_short ?? bundle.slug} — ${actLabel} Scene ${sceneNum}`;
 ---
 <ReadingLayout title={title}>
   <nav class="scene-nav">
     <a href={withBase(`/plays/${slug}/`)}>&larr; {bundle.catalog?.title_short ?? slug}</a>
-    <span class="scene-label">Act {actNum} · Scene {sceneNum}</span>
+    <span class="scene-label">{actLabel} · Scene {sceneNum}</span>
     <DepthToggle client:idle initial="read" />
   </nav>
 
   <div class="reading-grid">
     <article class="scene-column">
       <header class="scene-header">
-        <h1>Act {actNum}, Scene {sceneNum}</h1>
+        <h1>{actLabel}, Scene {sceneNum}</h1>
         {scene.setting && <p class="setting">{scene.setting}</p>}
       </header>
       <SceneReader scene={scene} annotations={annotations} speakerColors={speakerColors} glossary={bundle.glossary?.entries ?? []} />

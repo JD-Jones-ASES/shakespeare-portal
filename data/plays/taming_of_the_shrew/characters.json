@@ -1,0 +1,350 @@
+[
+  {
+    "id": "petruchio",
+    "name": "Petruchio",
+    "aliases": ["PETRUCHIO."],
+    "role": "protagonist",
+    "description": "A gentleman of Verona who comes to Padua 'to wive it wealthily,' and undertakes to marry and 'tame' the sharp-tongued Katherina. Boisterous, quick-witted, and theatrical, he masters her not by force but by out-shrewing her — denying her food, sleep, and contradiction until she yields. Whether his 'taming' is cruelty, game, or genuine courtship is the play's central question.",
+    "relationships": [
+      { "other_id": "katherina", "relation": "husband of" },
+      { "other_id": "grumio", "relation": "master of" },
+      { "other_id": "hortensio", "relation": "friend of" }
+    ],
+    "color": "#b5532e"
+  },
+  {
+    "id": "katherina",
+    "name": "Katherina",
+    "aliases": ["KATHERINA."],
+    "role": "deuteragonist",
+    "description": "Baptista's elder daughter, 'Katherine the curst' — fierce, clever, and scorned by Padua as an unmarriageable shrew. Married off to Petruchio, she is starved and contradicted into apparent submission, and delivers the play's famously contested closing speech on a wife's duty to her husband.",
+    "relationships": [
+      { "other_id": "petruchio", "relation": "wife of" },
+      { "other_id": "baptista", "relation": "daughter of" },
+      { "other_id": "bianca", "relation": "sister of" }
+    ],
+    "color": "#b0709a"
+  },
+  {
+    "id": "bianca",
+    "name": "Bianca",
+    "aliases": ["BIANCA."],
+    "role": "major",
+    "description": "Baptista's younger daughter, courted by three suitors and prized for her mild sweetness — which the play slyly questions. Baptista forbids her marriage until shrewish Katherina is wed, so her suitors disguise themselves as tutors to woo her. She secretly marries Lucentio.",
+    "relationships": [
+      { "other_id": "baptista", "relation": "daughter of" },
+      { "other_id": "katherina", "relation": "sister of" },
+      { "other_id": "lucentio", "relation": "wife of" }
+    ],
+    "color": "#c98a3a"
+  },
+  {
+    "id": "baptista",
+    "name": "Baptista",
+    "aliases": ["BAPTISTA."],
+    "role": "major",
+    "description": "Baptista Minola, a wealthy Paduan and father of Katherina and Bianca. Anxious to marry off his difficult elder daughter first, he strikes bargains over dowries and suitors, and is repeatedly deceived by the young men's disguises.",
+    "relationships": [
+      { "other_id": "katherina", "relation": "father of" },
+      { "other_id": "bianca", "relation": "father of" }
+    ],
+    "color": "#4a7a6a"
+  },
+  {
+    "id": "lucentio",
+    "name": "Lucentio",
+    "aliases": ["LUCENTIO."],
+    "role": "major",
+    "description": "A young gentleman of Pisa, son of Vincentio, who falls for Bianca at first sight and disguises himself as a Latin tutor, 'Cambio,' to woo her — while his servant Tranio impersonates him. He wins and secretly marries Bianca.",
+    "relationships": [
+      { "other_id": "vincentio", "relation": "son of" },
+      { "other_id": "bianca", "relation": "husband of" },
+      { "other_id": "tranio", "relation": "master of" }
+    ],
+    "color": "#3a6ea5"
+  },
+  {
+    "id": "tranio",
+    "name": "Tranio",
+    "aliases": ["TRANIO."],
+    "role": "major",
+    "description": "Lucentio's quick-witted servant, who at his master's bidding disguises himself as Lucentio and plays the wealthy suitor — outbidding Gremio for Bianca and stage-managing much of the intrigue, until the real Vincentio's arrival threatens to unravel it.",
+    "relationships": [
+      { "other_id": "lucentio", "relation": "servant of" }
+    ],
+    "color": "#5a7ab0"
+  },
+  {
+    "id": "hortensio",
+    "name": "Hortensio",
+    "aliases": ["HORTENSIO."],
+    "role": "major",
+    "description": "A suitor of Bianca and friend of Petruchio. He disguises himself as a music tutor, 'Litio,' to court her; rebuffed, he abandons the chase and marries a rich Widow instead, then studies Petruchio's 'taming-school.'",
+    "relationships": [
+      { "other_id": "bianca", "relation": "suitor of" },
+      { "other_id": "petruchio", "relation": "friend of" },
+      { "other_id": "widow", "relation": "husband of" }
+    ],
+    "color": "#8a4a7a"
+  },
+  {
+    "id": "gremio",
+    "name": "Gremio",
+    "aliases": ["GREMIO."],
+    "role": "supporting",
+    "description": "An old, rich Paduan, the 'pantaloon' of the comedy — the aged, foolish suitor of young Bianca. He is out-bid for her hand by the disguised Tranio and left a disappointed bachelor.",
+    "relationships": [
+      { "other_id": "bianca", "relation": "suitor of" }
+    ],
+    "color": "#6a6a8a"
+  },
+  {
+    "id": "grumio",
+    "name": "Grumio",
+    "aliases": ["GRUMIO."],
+    "role": "supporting",
+    "description": "Petruchio's chief servant, a saucy, punning comic who bears the brunt of his master's tantrums and joins in tormenting Katherina at the country house — refusing her food with mock-helpfulness.",
+    "relationships": [
+      { "other_id": "petruchio", "relation": "servant of" }
+    ],
+    "color": "#9a8a4a"
+  },
+  {
+    "id": "biondello",
+    "name": "Biondello",
+    "aliases": ["BIONDELLO."],
+    "role": "supporting",
+    "description": "Lucentio's younger servant, who helps carry off the tangle of disguises and brings the breathless news — of Petruchio's grotesque wedding-day arrival, and of the moment for Lucentio and Bianca to slip away and marry.",
+    "relationships": [
+      { "other_id": "lucentio", "relation": "servant of" }
+    ],
+    "color": "#7a6a4a"
+  },
+  {
+    "id": "vincentio",
+    "name": "Vincentio",
+    "aliases": ["VINCENTIO."],
+    "role": "supporting",
+    "description": "A wealthy old gentleman of Pisa, Lucentio's father. Arriving in Padua, he is astonished to find a Pedant impersonating him and a servant playing his son, and is nearly arrested before the disguises collapse and all is revealed.",
+    "relationships": [
+      { "other_id": "lucentio", "relation": "father of" }
+    ],
+    "color": "#6a6a7e"
+  },
+  {
+    "id": "pedant",
+    "name": "Pedant",
+    "aliases": ["PEDANT."],
+    "role": "minor",
+    "description": "A travelling schoolmaster from Mantua, talked by Tranio into impersonating Vincentio in order to guarantee the marriage settlement for Bianca — until the real Vincentio appears.",
+    "color": "#7a8a5a"
+  },
+  {
+    "id": "widow",
+    "name": "Widow",
+    "aliases": ["WIDOW."],
+    "role": "minor",
+    "description": "A wealthy widow who marries Hortensio. At the closing banquet she trades barbs with Katherina and, with Bianca, fails the wives' obedience test that Katherina alone passes.",
+    "relationships": [
+      { "other_id": "hortensio", "relation": "wife of" }
+    ],
+    "color": "#b07a9a"
+  },
+  {
+    "id": "curtis",
+    "name": "Curtis",
+    "aliases": ["CURTIS."],
+    "role": "minor",
+    "description": "A servant in charge of Petruchio's country house, who hears Grumio's account of the disastrous journey home and helps muster the household for their master's arrival.",
+    "relationships": [
+      { "other_id": "petruchio", "relation": "servant of" }
+    ],
+    "color": "#8a7a5a"
+  },
+  {
+    "id": "tailor",
+    "name": "Tailor",
+    "aliases": ["TAILOR."],
+    "role": "minor",
+    "description": "A tailor who brings Katherina a fashionable gown, only for Petruchio to abuse and dismiss him in his campaign to deny her every comfort and contradiction."
+  },
+  {
+    "id": "haberdasher",
+    "name": "Haberdasher",
+    "aliases": ["HABERDASHER."],
+    "role": "minor",
+    "description": "A hatmaker who brings Katherina a cap, which Petruchio scornfully rejects as unworthy."
+  },
+  {
+    "id": "nathaniel",
+    "name": "Nathaniel",
+    "aliases": ["NATHANIEL."],
+    "role": "minor",
+    "description": "One of Petruchio's serving-men at his country house, mustered to greet their master and bride.",
+    "relationships": [
+      { "other_id": "petruchio", "relation": "servant of" }
+    ]
+  },
+  {
+    "id": "peter",
+    "name": "Peter",
+    "aliases": ["PETER."],
+    "role": "minor",
+    "description": "One of Petruchio's serving-men at his country house.",
+    "relationships": [
+      { "other_id": "petruchio", "relation": "servant of" }
+    ]
+  },
+  {
+    "id": "philip",
+    "name": "Philip",
+    "aliases": ["PHILIP."],
+    "role": "minor",
+    "description": "One of Petruchio's serving-men at his country house.",
+    "relationships": [
+      { "other_id": "petruchio", "relation": "servant of" }
+    ]
+  },
+  {
+    "id": "joseph",
+    "name": "Joseph",
+    "aliases": ["JOSEPH."],
+    "role": "minor",
+    "description": "One of Petruchio's serving-men at his country house.",
+    "relationships": [
+      { "other_id": "petruchio", "relation": "servant of" }
+    ]
+  },
+  {
+    "id": "nicholas",
+    "name": "Nicholas",
+    "aliases": ["NICHOLAS."],
+    "role": "minor",
+    "description": "One of Petruchio's serving-men at his country house.",
+    "relationships": [
+      { "other_id": "petruchio", "relation": "servant of" }
+    ]
+  },
+  {
+    "id": "servant",
+    "name": "Servant",
+    "aliases": ["SERVANT."],
+    "role": "minor",
+    "description": "A serving-man — the messenger who announces the players to the Lord in the Induction, and Baptista's servant in Padua — who announces arrivals and carries messages."
+  },
+  {
+    "id": "first_servant",
+    "name": "First Servant",
+    "aliases": ["FIRST SERVANT."],
+    "role": "minor",
+    "description": "An attending serving-man — one of those who wait on the bewildered Sly in the Induction, and on Petruchio's household."
+  },
+  {
+    "id": "second_servant",
+    "name": "Second Servant",
+    "aliases": ["SECOND SERVANT."],
+    "role": "minor",
+    "description": "One of the Lord's serving-men who wait on Christopher Sly in the Induction, urging him to believe he is a great lord."
+  },
+  {
+    "id": "third_servant",
+    "name": "Third Servant",
+    "aliases": ["THIRD SERVANT."],
+    "role": "minor",
+    "description": "One of the Lord's serving-men who wait on Christopher Sly in the Induction."
+  },
+  {
+    "id": "all_servants",
+    "name": "All Servants",
+    "aliases": ["ALL SERVANTS."],
+    "role": "ensemble",
+    "description": "Petruchio's serving-men, answering together."
+  },
+  {
+    "id": "sly",
+    "name": "Christopher Sly",
+    "aliases": ["SLY."],
+    "role": "supporting",
+    "description": "A drunken tinker of Wincot, thrown out of an alehouse and found insensible by a hunting Lord, who for sport convinces him he is a great lord waking from fifteen years' madness. Sly watches the 'taming' play that follows as entertainment staged for his benefit — the frame around the whole comedy.",
+    "relationships": [
+      { "other_id": "lord", "relation": "deceived by" },
+      { "other_id": "page", "relation": "deceived into thinking husband of" }
+    ],
+    "color": "#a0584a"
+  },
+  {
+    "id": "lord",
+    "name": "Lord",
+    "aliases": ["LORD."],
+    "role": "supporting",
+    "description": "A nobleman returning from the hunt who finds the drunken Sly and devises the elaborate practical joke of the Induction — dressing his page as Sly's lady and summoning a troupe of players to perform 'The Taming of the Shrew' for the gulled tinker.",
+    "relationships": [
+      { "other_id": "sly", "relation": "deceiver of" }
+    ],
+    "color": "#4a6a8a"
+  },
+  {
+    "id": "page",
+    "name": "Page (Bartholomew)",
+    "aliases": ["PAGE."],
+    "role": "minor",
+    "description": "Bartholomew, the Lord's page, dressed as a fine lady and presented to Sly as his long-suffering wife — playing the part of the obedient gentlewoman with comic skill.",
+    "relationships": [
+      { "other_id": "sly", "relation": "poses as wife of" },
+      { "other_id": "lord", "relation": "page of" }
+    ],
+    "color": "#b08aa0"
+  },
+  {
+    "id": "hostess",
+    "name": "Hostess",
+    "aliases": ["HOSTESS."],
+    "role": "minor",
+    "description": "The alewife who throws the drunken Sly out of her tavern at the play's opening over the glasses he has broken.",
+    "relationships": [
+      { "other_id": "sly", "relation": "ejects" }
+    ],
+    "color": "#8a6a6a"
+  },
+  {
+    "id": "first_huntsman",
+    "name": "First Huntsman",
+    "aliases": ["FIRST HUNTSMAN."],
+    "role": "minor",
+    "description": "One of the Lord's huntsmen, who helps plan the trick played on Christopher Sly.",
+    "relationships": [
+      { "other_id": "lord", "relation": "huntsman of" }
+    ]
+  },
+  {
+    "id": "second_huntsman",
+    "name": "Second Huntsman",
+    "aliases": ["SECOND HUNTSMAN."],
+    "role": "minor",
+    "description": "One of the Lord's huntsmen in the Induction.",
+    "relationships": [
+      { "other_id": "lord", "relation": "huntsman of" }
+    ]
+  },
+  {
+    "id": "player",
+    "name": "Player",
+    "aliases": ["PLAYER."],
+    "role": "minor",
+    "description": "One of the strolling players summoned by the Lord to perform the comedy for Sly; he recalls once playing a wooing scene."
+  },
+  {
+    "id": "players",
+    "name": "Players",
+    "aliases": ["PLAYERS."],
+    "role": "ensemble",
+    "description": "The troupe of strolling players, answering the Lord together."
+  },
+  {
+    "id": "all",
+    "name": "All",
+    "aliases": ["ALL."],
+    "role": "ensemble",
+    "description": "Those present, speaking together."
+  }
+]

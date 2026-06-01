@@ -1,0 +1,185 @@
+[
+  {
+    "id": "antipholus_s",
+    "name": "Antipholus of Syracuse",
+    "aliases": ["ANTIPHOLUS OF SYRACUSE."],
+    "role": "protagonist",
+    "description": "The travelling twin, who has wandered the world for years searching for his lost mother and identical brother. Arriving in Ephesus, he and his servant Dromio are repeatedly mistaken for their resident counterparts, until he half-believes the city is bewitched. He falls in love with Luciana, his unknown brother's sister-in-law.",
+    "relationships": [
+      { "other_id": "antipholus_e", "relation": "twin brother of" },
+      { "other_id": "dromio_s", "relation": "master of" },
+      { "other_id": "luciana", "relation": "in love with" },
+      { "other_id": "aegeon", "relation": "son of" }
+    ],
+    "color": "#3a6ea5"
+  },
+  {
+    "id": "antipholus_e",
+    "name": "Antipholus of Ephesus",
+    "aliases": ["ANTIPHOLUS OF EPHESUS."],
+    "role": "major",
+    "description": "The resident twin, a respected Ephesian merchant married to Adriana. As his unknown Syracusan brother is mistaken for him, his own day unravels: he is shut out of his house, denied a gold chain he paid for, arrested for debt, and finally bound as a madman — all through errors he cannot explain.",
+    "relationships": [
+      { "other_id": "antipholus_s", "relation": "twin brother of" },
+      { "other_id": "dromio_e", "relation": "master of" },
+      { "other_id": "adriana", "relation": "husband of" },
+      { "other_id": "aegeon", "relation": "son of" }
+    ],
+    "color": "#b5532e"
+  },
+  {
+    "id": "dromio_s",
+    "name": "Dromio of Syracuse",
+    "aliases": ["DROMIO OF SYRACUSE."],
+    "role": "major",
+    "description": "Bondman to Antipholus of Syracuse and twin to the other Dromio. A quick, pun-loving servant who bears the brunt of his master's confusion with a stream of wordplay — and is alarmed to find the fat kitchen-maid Nell claiming him as her husband.",
+    "relationships": [
+      { "other_id": "dromio_e", "relation": "twin brother of" },
+      { "other_id": "antipholus_s", "relation": "servant of" }
+    ],
+    "color": "#4a7a6a"
+  },
+  {
+    "id": "dromio_e",
+    "name": "Dromio of Ephesus",
+    "aliases": ["DROMIO OF EPHESUS."],
+    "role": "major",
+    "description": "Bondman to Antipholus of Ephesus and twin to the other Dromio. Beaten by masters who are not his own and disbelieved at every turn, he keeps up a clownish, rhyming patter through the day's mounting chaos.",
+    "relationships": [
+      { "other_id": "dromio_s", "relation": "twin brother of" },
+      { "other_id": "antipholus_e", "relation": "servant of" }
+    ],
+    "color": "#b07a3a"
+  },
+  {
+    "id": "adriana",
+    "name": "Adriana",
+    "aliases": ["ADRIANA."],
+    "role": "major",
+    "description": "The jealous, sharp-tongued wife of Antipholus of Ephesus, who scolds her husband for neglect — and, mistaking his Syracusan twin for him, drags the wrong man home to dinner. Her speeches on a wife's place voice the play's debate about marriage.",
+    "relationships": [
+      { "other_id": "antipholus_e", "relation": "wife of" },
+      { "other_id": "luciana", "relation": "sister of" }
+    ],
+    "color": "#b0709a"
+  },
+  {
+    "id": "luciana",
+    "name": "Luciana",
+    "aliases": ["LUCIANA."],
+    "role": "supporting",
+    "description": "Adriana's unmarried sister, who counsels patience and wifely obedience — and is astonished when her sister's 'husband' (in fact the Syracusan Antipholus) courts her with sudden ardour.",
+    "relationships": [
+      { "other_id": "adriana", "relation": "sister of" },
+      { "other_id": "antipholus_s", "relation": "wooed by" }
+    ],
+    "color": "#8a6a9a"
+  },
+  {
+    "id": "aegeon",
+    "name": "Aegeon",
+    "aliases": ["AEGEON."],
+    "role": "supporting",
+    "description": "An aged merchant of Syracuse, father of the twin Antipholuses, separated from half his family in a shipwreck long ago. Condemned to death for entering hostile Ephesus, he opens the play recounting his losses and is reprieved at its close when his family is restored.",
+    "relationships": [
+      { "other_id": "antipholus_s", "relation": "father of" },
+      { "other_id": "abbess", "relation": "husband of" }
+    ],
+    "color": "#6a6a8a"
+  },
+  {
+    "id": "duke",
+    "name": "Duke Solinus",
+    "aliases": ["DUKE."],
+    "role": "supporting",
+    "description": "Solinus, Duke of Ephesus, who sentences the Syracusan Aegeon to death under the law against enemy merchants but gives him a day to raise a ransom — and presides over the play's final untangling.",
+    "color": "#7a6a4a"
+  },
+  {
+    "id": "angelo",
+    "name": "Angelo",
+    "aliases": ["ANGELO."],
+    "role": "supporting",
+    "description": "A goldsmith who makes a gold chain for Antipholus of Ephesus but delivers it to the Syracusan twin; when the Ephesian denies receiving it and refuses to pay, Angelo has him arrested, deepening the confusion.",
+    "relationships": [
+      { "other_id": "antipholus_e", "relation": "creditor of" }
+    ],
+    "color": "#9a8a4a"
+  },
+  {
+    "id": "abbess",
+    "name": "Abbess (Emilia)",
+    "aliases": ["ABBESS."],
+    "role": "supporting",
+    "description": "The Abbess of a priory in Ephesus who shelters the supposed madman — revealed at the play's end to be Emilia, the long-lost wife of Aegeon and mother of the twin Antipholuses, reuniting the scattered family.",
+    "relationships": [
+      { "other_id": "aegeon", "relation": "wife of" },
+      { "other_id": "antipholus_s", "relation": "mother of" }
+    ],
+    "color": "#8a4a7a"
+  },
+  {
+    "id": "courtezan",
+    "name": "Courtesan",
+    "aliases": ["COURTEZAN."],
+    "role": "minor",
+    "description": "A courtesan with whom Antipholus of Ephesus dines in anger when shut out of his own house; her demand for a promised ring and chain feeds the misunderstandings.",
+    "color": "#b07a9a"
+  },
+  {
+    "id": "balthazar",
+    "name": "Balthazar",
+    "aliases": ["BALTHAZAR.", "BALTHAZAR"],
+    "role": "minor",
+    "description": "A merchant and friend of Antipholus of Ephesus, who counsels patience when his host is locked out of his own house.",
+    "relationships": [
+      { "other_id": "antipholus_e", "relation": "friend of" }
+    ]
+  },
+  {
+    "id": "merchant",
+    "name": "Merchant",
+    "aliases": ["MERCHANT."],
+    "role": "minor",
+    "description": "A merchant of Ephesus — the friendly trader who warns Antipholus of Syracuse to pass as an Ephesian, and the creditor whose demand on Angelo touches off the arrests."
+  },
+  {
+    "id": "luce",
+    "name": "Luce (Nell)",
+    "aliases": ["LUCE."],
+    "role": "minor",
+    "description": "A kitchen-maid (also called Nell) in Antipholus of Ephesus's house, of vast girth, who to Dromio of Syracuse's horror insists he is her betrothed.",
+    "relationships": [
+      { "other_id": "dromio_e", "relation": "claims as husband" }
+    ]
+  },
+  {
+    "id": "pinch",
+    "name": "Doctor Pinch",
+    "aliases": ["PINCH."],
+    "role": "minor",
+    "description": "A schoolmaster and quack conjurer brought in to 'cure' the supposedly possessed Antipholus of Ephesus by exorcism — and roughly handled for his pains.",
+    "color": "#7a8a5a"
+  },
+  {
+    "id": "officer",
+    "name": "Officer",
+    "aliases": ["OFFICER."],
+    "role": "minor",
+    "description": "An officer who arrests Antipholus of Ephesus for the debt owed to Angelo."
+  },
+  {
+    "id": "gaoler",
+    "name": "Gaoler",
+    "aliases": ["GAOLER."],
+    "role": "minor",
+    "description": "The jailer who has Aegeon in custody at the play's opening."
+  },
+  {
+    "id": "servant",
+    "name": "Servant",
+    "aliases": ["SERVANT."],
+    "role": "minor",
+    "description": "A servant who brings word that the bound Antipholus and Dromio have broken loose."
+  }
+]

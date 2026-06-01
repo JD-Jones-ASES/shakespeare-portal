@@ -1,0 +1,222 @@
+[
+  {
+    "id": "berowne",
+    "name": "Berowne",
+    "aliases": ["BEROWNE."],
+    "role": "protagonist",
+    "description": "The wittiest of the King of Navarre's three companion lords, and the one who from the first mocks the folly of their oath to study and forswear women. A brilliant, self-aware skeptic, he falls hardest of all — for the dark-eyed Rosaline — and speaks the play's great defense of love as the true book of learning.",
+    "relationships": [
+      { "other_id": "king", "relation": "companion of" },
+      { "other_id": "rosaline", "relation": "in love with" }
+    ],
+    "color": "#b5532e"
+  },
+  {
+    "id": "king",
+    "name": "King of Navarre",
+    "aliases": ["KING.", "FERDINAND."],
+    "role": "major",
+    "description": "Ferdinand, King of Navarre, who persuades his lords to swear a three-year oath of austere study, fasting, and avoidance of women — only to fall in love with the visiting Princess of France the moment she arrives. His scholarly 'little academe' collapses into wooing.",
+    "relationships": [
+      { "other_id": "princess", "relation": "in love with" },
+      { "other_id": "berowne", "relation": "companion of" }
+    ],
+    "color": "#3a6ea5"
+  },
+  {
+    "id": "princess",
+    "name": "Princess of France",
+    "aliases": ["PRINCESS."],
+    "role": "deuteragonist",
+    "description": "The Princess of France, sent on a diplomatic embassy to Navarre, who leads her ladies with grace, intelligence, and self-possession. Courted by the King, she keeps her wit and her distance — and when news comes of her father's death, imposes a year's penance on the lovers before any match can be made.",
+    "relationships": [
+      { "other_id": "king", "relation": "courted by" },
+      { "other_id": "rosaline", "relation": "lady of" },
+      { "other_id": "boyet", "relation": "attended by" }
+    ],
+    "color": "#b0709a"
+  },
+  {
+    "id": "rosaline",
+    "name": "Rosaline",
+    "aliases": ["ROSALINE."],
+    "role": "major",
+    "description": "A dark-complexioned lady attending the Princess, and Berowne's match in wit and mockery. Their sparring courtship anticipates Beatrice and Benedick; at the close she sets Berowne the year-long task of using his jests to comfort the sick, to test whether his love is more than wordplay.",
+    "relationships": [
+      { "other_id": "berowne", "relation": "courted by" },
+      { "other_id": "princess", "relation": "attends" }
+    ],
+    "color": "#8a4a7a"
+  },
+  {
+    "id": "longaville",
+    "name": "Longaville",
+    "aliases": ["LONGAVILLE."],
+    "role": "supporting",
+    "description": "One of the three lords who swear the King's oath; he falls in love with Maria and woos her with a sonnet.",
+    "relationships": [
+      { "other_id": "king", "relation": "companion of" },
+      { "other_id": "maria", "relation": "in love with" }
+    ],
+    "color": "#4a7a6a"
+  },
+  {
+    "id": "dumaine",
+    "name": "Dumaine",
+    "aliases": ["DUMAINE."],
+    "role": "supporting",
+    "description": "One of the three lords sworn to the King's oath; he falls in love with Katharine and, like the others, breaks his vow with a love-poem.",
+    "relationships": [
+      { "other_id": "king", "relation": "companion of" },
+      { "other_id": "katharine", "relation": "in love with" }
+    ],
+    "color": "#5a7ab0"
+  },
+  {
+    "id": "maria",
+    "name": "Maria",
+    "aliases": ["MARIA."],
+    "role": "supporting",
+    "description": "A lady attending the Princess, beloved of Longaville, whom she remembers from an earlier meeting.",
+    "relationships": [
+      { "other_id": "longaville", "relation": "courted by" },
+      { "other_id": "princess", "relation": "attends" }
+    ],
+    "color": "#9a6a8a"
+  },
+  {
+    "id": "katharine",
+    "name": "Katharine",
+    "aliases": ["KATHARINE."],
+    "role": "supporting",
+    "description": "A lady attending the Princess, beloved of Dumaine; she trades barbed wit with Boyet and the lords and recalls a sister who died of love.",
+    "relationships": [
+      { "other_id": "dumaine", "relation": "courted by" },
+      { "other_id": "princess", "relation": "attends" }
+    ],
+    "color": "#8a7a4a"
+  },
+  {
+    "id": "boyet",
+    "name": "Boyet",
+    "aliases": ["BOYET."],
+    "role": "supporting",
+    "description": "A worldly, sharp-tongued French lord who attends the Princess, scouting out the lords' love and relaying their secrets. The young men resent him as a smooth, courtly go-between.",
+    "relationships": [
+      { "other_id": "princess", "relation": "attends" }
+    ],
+    "color": "#6a6a8a"
+  },
+  {
+    "id": "armado",
+    "name": "Don Adriano de Armado",
+    "aliases": ["ARMADO.", "DON ADRIANO DE ARMADO."],
+    "role": "supporting",
+    "description": "A 'fantastical' Spanish braggart and word-spinner lodged at Navarre's court for entertainment — all inflated rhetoric and threadbare pretension. He loves the country wench Jaquenetta, presents the pageant of the Nine Worthies (as Hector), and is left at the play's end to follow the plough for her sake.",
+    "relationships": [
+      { "other_id": "moth", "relation": "master of" },
+      { "other_id": "jaquenetta", "relation": "in love with" }
+    ],
+    "color": "#b07a3a"
+  },
+  {
+    "id": "moth",
+    "name": "Moth",
+    "aliases": ["MOTH.", "MOTH"],
+    "role": "supporting",
+    "description": "Armado's small, quick-witted page, who runs verbal rings around his grandiloquent master and plays the infant Hercules in the Worthies' pageant.",
+    "relationships": [
+      { "other_id": "armado", "relation": "page of" }
+    ],
+    "color": "#7a9a6a"
+  },
+  {
+    "id": "costard",
+    "name": "Costard",
+    "aliases": ["COSTARD."],
+    "role": "supporting",
+    "description": "A clownish country fellow whose plain-spoken malapropisms puncture the courtiers' fine talk. Caught with Jaquenetta against the new edict, he carries (and muddles) the lords' love-letters and plays Pompey the Great in the pageant.",
+    "relationships": [
+      { "other_id": "jaquenetta", "relation": "consorts with" }
+    ],
+    "color": "#9a8a4a"
+  },
+  {
+    "id": "holofernes",
+    "name": "Holofernes",
+    "aliases": ["HOLOFERNES."],
+    "role": "supporting",
+    "description": "A pompous village schoolmaster who drowns every thought in Latin tags, synonyms, and pedantic display — the type of the learned fool. He devises the pageant of the Nine Worthies and plays Judas Maccabaeus, only to be heckled off the stage.",
+    "relationships": [
+      { "other_id": "nathaniel", "relation": "companion of" }
+    ],
+    "color": "#7a8a5a"
+  },
+  {
+    "id": "nathaniel",
+    "name": "Sir Nathaniel",
+    "aliases": ["NATHANIEL."],
+    "role": "minor",
+    "description": "A curate and admiring sidekick of the schoolmaster Holofernes, echoing his learning; he plays Alexander the Great in the pageant and is mocked out of the part.",
+    "relationships": [
+      { "other_id": "holofernes", "relation": "companion of" }
+    ],
+    "color": "#6a8a7a"
+  },
+  {
+    "id": "dull",
+    "name": "Anthony Dull",
+    "aliases": ["DULL."],
+    "role": "minor",
+    "description": "The dim village constable, who understands nothing of Holofernes and Nathaniel's learned chatter and says almost nothing through the scene he shares with them.",
+    "color": "#8a7a6a"
+  },
+  {
+    "id": "jaquenetta",
+    "name": "Jaquenetta",
+    "aliases": ["JAQUENETTA."],
+    "role": "minor",
+    "description": "A good-humoured country dairymaid, desired by both Costard and the absurd Armado; she is the occasion of the first breach of the King's edict.",
+    "relationships": [
+      { "other_id": "armado", "relation": "loved by" }
+    ],
+    "color": "#b08a6a"
+  },
+  {
+    "id": "forester",
+    "name": "Forester",
+    "aliases": ["FORESTER."],
+    "role": "minor",
+    "description": "A keeper of the park who attends the Princess's hunt and is teased by her over where the best stand for shooting lies."
+  },
+  {
+    "id": "marcade",
+    "name": "Marcade",
+    "aliases": ["MARCADE."],
+    "role": "minor",
+    "description": "A French lord who arrives near the end with the grave news of the death of the Princess's father, the King of France — the stroke that turns the comedy sober."
+  },
+  {
+    "id": "first_lord",
+    "name": "First Lord",
+    "aliases": ["FIRST LORD."],
+    "role": "minor",
+    "description": "A lord attending the Princess of France."
+  },
+  {
+    "id": "spring",
+    "name": "Spring (Ver)",
+    "aliases": ["SPRING"],
+    "role": "ensemble",
+    "description": "The voice of Spring (Latin 'Ver') in the paired songs that close the play. Spring's song, 'When daisies pied and violets blue,' praises the cuckoo — whose call sounds a teasing warning to married men. Sung by the assembled players as one of two seasonal sides.",
+    "color": "#6a9a5a"
+  },
+  {
+    "id": "winter",
+    "name": "Winter (Hiems)",
+    "aliases": ["WINTER"],
+    "role": "ensemble",
+    "description": "The voice of Winter (Latin 'Hiems') in the paired songs that close the play. Winter's song, 'When icicles hang by the wall,' answers Spring with homely images of frost and the hooting owl. Sung by the assembled players as the second of two seasonal sides.",
+    "color": "#5a7a9a"
+  }
+]

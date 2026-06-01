@@ -24,7 +24,10 @@ const dir = playDir(slug);
 const byKey = new Map<string, { surface: string; normalized: string; definition: string; pos?: string }>();
 let raw = 0;
 
-for (let a = 1; a <= actCount; a++) {
+// Start at act 0 to pick up an INDUCTION pseudo-act's glossary-0.json (The Taming of the
+// Shrew). Plays without an Induction have no glossary-0.json, so the existsSync check below
+// skips it and their merged glossary is byte-identical.
+for (let a = 0; a <= actCount; a++) {
   const p = resolve(dir, '_candidates', `glossary-${a}.json`);
   if (!existsSync(p)) continue;
   let arr: any[];

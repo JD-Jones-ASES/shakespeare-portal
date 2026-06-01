@@ -1,0 +1,56 @@
+{
+  "play": "taming_of_the_shrew",
+  "overview": "An early comedy built as a play-within-a-play. In a two-scene Induction, a drunken tinker named Christopher Sly is thrown out of an alehouse and found insensible by a hunting Lord, who for sport has him carried home, dressed in finery, and persuaded that he is a great lord waking from fifteen years of madness — with a page disguised as his lady wife. A troupe of strolling players then performs, for Sly's entertainment, the comedy that fills the rest of the evening. That comedy, set in Padua, runs two courtship plots at once. In the first, the blunt fortune-hunter Petruchio agrees to marry the wealthy Baptista's fierce, scorned elder daughter Katherina, and 'tames' her not by force but by relentless contradiction — out-shouting her, then denying her food, sleep, clothes, and the right to disagree until she echoes whatever he says. In the second, the gentle younger daughter Bianca — whom Baptista forbids to marry until Katherina is wed — is courted by a crowd of suitors who disguise themselves as her tutors, while one suitor's servant impersonates his master to win her in a tangle of mistaken identities. The play ends at a wedding banquet with a wager on whose wife is most obedient, won by Petruchio when Katherina alone comes at his call and delivers a long, much-debated speech on a wife's duty to her husband. The Sly frame is never closed.",
+  "acts": [
+    {
+      "number": 0,
+      "summary": "The Induction. A drunken tinker, Christopher Sly, is thrown out of an alehouse and found asleep by a Lord returning from the hunt, who decides to trick him into believing he is a great lord. Sly wakes in a rich chamber, waited on by servants and a page dressed as his wife, and settles down to watch a play performed in his honour — the comedy that follows.",
+      "scenes": [
+        { "number": 1, "summary": "Before an alehouse on a heath, the Hostess ejects the drunken tinker Christopher Sly, who falls asleep. A Lord home from hunting finds him and, for a jest, orders him carried to bed and treated as a noble lord on waking; a troupe of players arrives and is enlisted to perform, and the Lord's page is to play Sly's lady.", "themes": ["drunkenness", "deception", "class", "playing"] },
+        { "number": 2, "summary": "In a bedchamber, Sly wakes amid finery, servants, and music, insisting he is only a tinker — until the talk of his 'wife' and fifteen years of madness wins him over and he embraces his new lordship. The disguised page puts off his amorous advances; the players are announced, and Sly sits down with his 'lady' to watch the comedy.", "themes": ["illusion", "identity", "marriage", "performance"] }
+      ]
+    },
+    {
+      "number": 1,
+      "summary": "In Padua, young Lucentio arrives to study and instantly loves Bianca, Baptista's mild younger daughter — but Baptista will not let her marry until her shrewish elder sister Katherina is wed. Lucentio plots to woo Bianca disguised as a tutor while his servant Tranio plays his part; meanwhile Petruchio comes to town openly seeking a rich wife.",
+      "scenes": [
+        { "number": 1, "summary": "Lucentio and his man Tranio reach Padua; Lucentio falls for Bianca at first sight. Hearing that Baptista forbids her marriage until the curst Katherina is matched, Lucentio resolves to court Bianca disguised as a Latin tutor, 'Cambio,' while Tranio impersonates him to keep up appearances.", "themes": ["love at first sight", "disguise", "study", "courtship"] },
+        { "number": 2, "summary": "Petruchio arrives to visit his friend Hortensio and declares he has come 'to wive it wealthily in Padua' — no woman too shrewish if she be rich. Told of Katherina and her dowry, he undertakes to woo her at once. Hortensio plans to court Bianca disguised as a music tutor, and Gremio and the disguised Lucentio jostle as rival suitors.", "themes": ["fortune-hunting", "marriage", "disguise", "rivalry"] }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "At Baptista's house Katherina torments the bound Bianca. The suitors present their disguised tutors, and Petruchio, undaunted, woos Katherina in a duel of wits and announces — over her objections — that they will marry on Sunday. Baptista then promises Bianca to whichever suitor can guarantee the greatest wealth, and the disguised Tranio outbids old Gremio.",
+      "scenes": [
+        { "number": 1, "summary": "Katherina has bound and struck Bianca out of jealousy. The suitors bring in their disguised tutors as gifts to Baptista; Petruchio bargains over Katherina's dowry and then woos her in a fierce, punning wit-battle, claiming her consent and fixing the wedding for Sunday. Baptista offers Bianca to the highest bidder, and Tranio (as Lucentio) outbids Gremio.", "themes": ["courtship", "wit", "bargaining", "marriage"] }
+      ]
+    },
+    {
+      "number": 3,
+      "summary": "The disguised suitors vie to teach — and woo — Bianca, who favours Lucentio. On the wedding day Petruchio arrives outrageously late and grotesquely dressed, marries Katherina in a riotous ceremony, and then carries her off to his country house before the wedding feast, against all protest.",
+      "scenes": [
+        { "number": 1, "summary": "Under cover of a Latin lesson and a music lesson, the disguised Lucentio and Hortensio compete for Bianca, who quietly prefers 'Cambio' (Lucentio).", "themes": ["disguise", "courtship", "music", "rivalry"] },
+        { "number": 2, "summary": "Petruchio comes hours late to his own wedding, dressed in absurd rags on a broken-down horse, behaves wildly through the ceremony, and then — playing the masterful husband — drags Katherina away to his country house before she can attend the marriage feast.", "themes": ["spectacle", "marriage", "mastery", "humiliation"] }
+      ]
+    },
+    {
+      "number": 4,
+      "summary": "At Petruchio's house the taming proper begins: under the guise of loving care, he denies Katherina food, sleep, and fine clothes, contradicting her at every turn until she will say whatever he wishes — even that the sun is the moon. In Padua, the Bianca plot tangles further as a Pedant is dressed up to play Lucentio's father and seal the marriage bargain.",
+      "scenes": [
+        { "number": 1, "summary": "At Petruchio's country house, Grumio describes the disastrous journey home. Petruchio rejects the supper as unfit for his bride and keeps Katherina hungry and sleepless — 'this is a way to kill a wife with kindness' — all under a show of solicitude.", "themes": ["taming", "deprivation", "kindness as cruelty", "marriage"] },
+        { "number": 2, "summary": "In Padua, Hortensio abandons Bianca on seeing her with 'Cambio' and vows to marry a rich Widow instead. Tranio (as Lucentio) and Biondello recruit a passing Pedant to impersonate Lucentio's father Vincentio and guarantee the dowry.", "themes": ["disguise", "deception", "courtship", "impersonation"] },
+        { "number": 3, "summary": "Petruchio torments Katherina with a tailor's gown and a haberdasher's cap he then rejects as unworthy, denying her finery as he denied her food, while preaching that the mind, not the apparel, makes the woman. He insists they will travel to Padua by his clock, not the true time.", "themes": ["deprivation", "mastery", "appearance", "control"] },
+        { "number": 4, "summary": "Before Baptista's house, the Pedant — now playing Vincentio — formally assures the marriage settlement, and arrangements are made for Lucentio and Bianca to be secretly married while the elders dine.", "themes": ["impersonation", "bargaining", "secret marriage"] },
+        { "number": 5, "summary": "On the road to Padua, Petruchio makes Katherina agree that the sun is the moon and that an old man they meet is a blushing maiden; she yields, playing along with whatever he says. The old man proves to be the real Vincentio, travelling to see his son Lucentio.", "themes": ["submission", "game", "the sun and moon", "irony"] }
+      ]
+    },
+    {
+      "number": 5,
+      "summary": "In Padua the disguises collapse: the true Vincentio confronts the Pedant and Tranio impersonating his family, and Lucentio and Bianca, now secretly married, kneel for pardon. At the wedding banquet Petruchio wins a wager that his wife is the most obedient, and Katherina delivers her contested speech on a wife's duty.",
+      "scenes": [
+        { "number": 1, "summary": "The real Vincentio reaches Lucentio's lodging to find the Pedant claiming to be him and Tranio dressed as his son; uproar and threats of arrest follow until Lucentio and Bianca, newly married, arrive to kneel and confess all. The fathers are reconciled.", "themes": ["recognition", "disguise unmasked", "reconciliation"] },
+        { "number": 2, "summary": "At the marriage banquet the three new husbands wager on whose wife will come most obediently when called. Bianca and the Widow refuse; Katherina alone obeys, fetches the others, and delivers a long speech on a wife's duty to her husband — winning Petruchio the wager and leaving the company astonished.", "themes": ["wager", "obedience", "marriage", "transformation"] }
+      ]
+    }
+  ]
+}

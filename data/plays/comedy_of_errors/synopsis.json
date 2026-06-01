@@ -1,0 +1,47 @@
+{
+  "play": "comedy_of_errors",
+  "overview": "Shakespeare's shortest and most tightly farcical play, a single day of escalating mistaken identity built from Roman comedy. Years before, a shipwreck split the merchant Aegeon's family: he kept one infant son and one infant servant-boy (Antipholus and Dromio), while his wife and the identical twins of each were carried off elsewhere. Now grown, Antipholus of Syracuse and his servant Dromio have wandered the world searching for their lost brothers — and arrive in Ephesus, where those very brothers, Antipholus and Dromio of Ephesus, happen to live. Because each pair is indistinguishable, the city dissolves into chaos: the wrong Antipholus is hauled home to dinner by Adriana, the right one is locked out of his own house, a gold chain is delivered to the wrong man and payment demanded of the other, debts and a courtesan's ring go unaccounted, servants are beaten by masters who are not theirs, and at last the resident Antipholus is bound as a madman possessed by devils. Framing it all, the condemned Aegeon has been given a single day to find a ransom or die. The threads pull tight at a priory in Act 5, where the two sets of twins finally stand face to face, the Abbess is revealed to be Aegeon's long-lost wife Emilia, the family is whole again, and the old man is reprieved.",
+  "acts": [
+    {
+      "number": 1,
+      "summary": "The frame is set: the Syracusan merchant Aegeon, caught in hostile Ephesus, is condemned to death but granted a day to raise a ransom, after telling how a shipwreck long ago scattered his wife and twin sons. His son Antipholus of Syracuse, also searching, lands in the same city — and the confusions begin at once when he meets the wrong Dromio.",
+      "scenes": [
+        { "number": 1, "summary": "Brought before Duke Solinus, the Syracusan Aegeon is sentenced to death under Ephesus's law against enemy merchants. He recounts the shipwreck that long ago divided him from his wife, one twin son, and one twin servant; moved, the Duke gives him a day to find a thous-mark ransom.", "themes": ["the frame", "shipwreck", "law", "loss"] },
+        { "number": 2, "summary": "Antipholus of Syracuse arrives, gives his servant Dromio money to lodge at the inn, and muses on his fruitless search for his lost family. When Dromio of Ephesus enters and summons him to dinner with a wife he does not have, Antipholus, baffled, beats him and begins to fear the town is full of sorcery.", "themes": ["arrival", "mistaken identity", "money", "witchcraft"] }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "Adriana, the Ephesian Antipholus's jealous wife, frets that her husband neglects her while her sister Luciana preaches patience. Hearing a garbled report, Adriana mistakes the visiting Antipholus of Syracuse for her husband and carries him home to dinner — to his utter bewilderment.",
+      "scenes": [
+        { "number": 1, "summary": "Adriana and her unmarried sister Luciana await dinner; Luciana counsels wifely patience while Adriana complains of her husband's neglect. Dromio of Ephesus returns beaten and babbling that his 'master' disowned both wife and home, inflaming Adriana's jealousy.", "themes": ["marriage", "jealousy", "patience", "the household"] },
+        { "number": 2, "summary": "Antipholus of Syracuse, finding Dromio of Syracuse and beating him for denying the money he never gave him, is then claimed by Adriana as her wayward husband. Astonished but tempted, he lets her and Luciana lead him home to dinner, while Dromio is set to guard the gate.", "themes": ["mistaken identity", "beating", "confusion", "temptation"] }
+      ]
+    },
+    {
+      "number": 3,
+      "summary": "The day's cruelest joke: Antipholus of Ephesus is shut out of his own house, where his Syracusan twin dines with Adriana. Inside, the visiting Antipholus falls for Luciana, while his Dromio recoils in horror from the enormous kitchen-maid who claims him as her betrothed.",
+      "scenes": [
+        { "number": 1, "summary": "Antipholus of Ephesus brings the merchant Balthazar and the goldsmith Angelo home to dinner, only to find his own doors barred against him — his twin is feasting inside. Humiliated and enraged, he is persuaded by Balthazar not to break in, and resolves to dine instead with a courtesan and to give her the gold chain meant for his wife.", "themes": ["locked out", "the doubled house", "humiliation", "honor"] },
+        { "number": 2, "summary": "Indoors, Antipholus of Syracuse astonishes Luciana by wooing her ardently — she thinks her sister's husband has turned faithless. Dromio of Syracuse bursts in fleeing the vast kitchen-wench Nell, who insists he is her promised husband; master and man, convinced Ephesus is bewitched, resolve to flee by the next ship. Angelo gives Antipholus the gold chain meant for the other twin.", "themes": ["wooing", "the fat kitchen-maid", "witchcraft", "the gold chain"] }
+      ]
+    },
+    {
+      "number": 4,
+      "summary": "The chain and a debt knot everything tighter: Antipholus of Ephesus, denying he ever got the chain, is arrested; bail money sent to him reaches his Syracusan twin instead; a courtesan's claim adds to the muddle; and the raging Ephesian Antipholus and his Dromio are seized, bound, and handed to the quack exorcist Doctor Pinch.",
+      "scenes": [
+        { "number": 1, "summary": "Pressed by a merchant for payment, Angelo asks Antipholus of Ephesus for the price of the chain; Antipholus swears he never received it and refuses to pay, so Angelo has him arrested. He sends Dromio of Ephesus to Adriana for bail money.", "themes": ["debt", "the gold chain", "arrest"] },
+        { "number": 2, "summary": "Luciana tells Adriana how her 'husband' wooed her; Adriana rails but still sends bail. Dromio of Syracuse, not Ephesus, arrives for the money and is dispatched with the purse — another thread crossed.", "themes": ["jealousy", "bail", "crossed errands"] },
+        { "number": 3, "summary": "Antipholus of Syracuse, marvelling that strangers greet him as a friend and now hand him gold he never sought, takes the bail money meant for his twin. The courtesan demands the chain or the ring he (that is, the other Antipholus) promised her; he flees her as a devil.", "themes": ["unearned gifts", "the courtesan's ring", "supposed sorcery"] },
+        { "number": 4, "summary": "The arrested Antipholus of Ephesus, denied bail by his own Dromio (the wrong one), strikes out in fury. Adriana, believing him mad, brings the conjurer Doctor Pinch to exorcise him; master and servant are bound and carried off as men possessed.", "themes": ["madness", "exorcism", "binding", "possession"] }
+      ]
+    },
+    {
+      "number": 5,
+      "summary": "All the errors converge on a priory. The Syracusan twins take sanctuary with the Abbess; Adriana demands her 'husband'; the bound Ephesian twin breaks loose; and as Aegeon's execution-hour arrives, the two Antipholuses and two Dromios finally stand together. The Abbess proves to be Emilia, Aegeon's lost wife; the family is reunited and the old man freed.",
+      "scenes": [
+        { "number": 1, "summary": "Before a priory the confusions reach their peak: the Syracusan Antipholus and Dromio take refuge with the Abbess; the freed Ephesian twin appeals to the Duke just as Aegeon is led to execution. When both sets of twins at last appear together, every error is explained. The Abbess reveals herself as Emilia, Aegeon's long-lost wife and the twins' mother; Aegeon is pardoned, the chain and debts settled, and the reunited family goes in to a feast of thanksgiving — the two Dromios, brothers found, walking out hand in hand.", "themes": ["sanctuary", "recognition", "reunion", "reprieve", "family restored"] }
+      ]
+    }
+  ]
+}

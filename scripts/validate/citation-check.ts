@@ -77,6 +77,8 @@ const CLASSICAL_ALLOWLIST = new Set([
   'Herodotus',       // Greek historian; source for Rhodope and Tomyris (cited in 1 Henry VI 1.6)
   'Pindar',          // lyric poet of the Olympian Odes; the Olympian games (3 Henry VI 2.3)
   'Pausanias',       // 2nd-c. Greek geographer, Description of Greece (Olympia and its games)
+  'Xenophon',        // Greek historian/philosopher; Socrates and the shrewish Xanthippe (Memorabilia/Symposium), cited for The Taming of the Shrew 1.2
+  'Diogenes Laertius', // Lives of the Eminent Philosophers; the standard ancient source for Xanthippe and the philosophers
 ]);
 
 // A classical allusion may instead be grounded in a recognized reference work or

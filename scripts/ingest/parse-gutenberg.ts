@@ -113,6 +113,24 @@ function isFramingHeader(t: string): boolean {
   return false;
 }
 
+// The Taming of the Shrew opens with the two-scene Christopher Sly INDUCTION — a play-within
+// frame that precedes "ACT I." and carries its own "SCENE I."/"SCENE II." headers and ~480
+// lines. Unlike Henry IV Part 2's single-speech Rumour Induction (buffered by isFramingHeader
+// and prepended to Act 1 via the prologue hook), a multi-scene Induction cannot be a flat
+// prologue buffer: it is modeled as a pseudo-act numbered 0, titled "INDUCTION.", sitting
+// before Act 1 (Folger/MIT render it "Induction, Scene 1/2"; TLN 1 begins in it). The schema
+// allows act number 0 and the reader labels act 0 "Induction". GATED on the slug so every
+// other play (including H4.2's Rumour) is byte-identical.
+const INDUCTION_AS_ACT = slug === 'taming_of_the_shrew';
+
+// Love's Labour's Lost's vendored edition mislabels Act II's sole scene as "SCENE II." (there
+// is no "SCENE I."), which would ship as a phantom "Act 2, Scene 2" with no Scene 1. Renumber
+// scenes sequentially within each act for this slug so the lone scene becomes 2.1 (matching
+// Folger/MIT). GATED on the slug; the missing-ACT-header recovery still keys off the literal
+// header number, so plays with genuine scene gaps are unaffected — and every other play, whose
+// headers are already sequential, is byte-identical.
+const SEQUENTIAL_SCENES = slug === 'loves_labours_lost';
+
 const ROMAN: Record<string, number> = { I: 1, II: 2, III: 3, IV: 4, V: 5, VI: 6, VII: 7, VIII: 8, IX: 9, X: 10 };
 const ORDINAL_WORDS: Record<string, number> = {
   FIRST: 1, SECOND: 2, THIRD: 3, FOURTH: 4, FIFTH: 5,
@@ -357,10 +375,16 @@ if (HENRY_VI_SLUGS.has(slug)) allLines = normalizeHenryVIEdition(allLines);
 // is the ordinal-word "ACT FIRST.", now matched by ACT_HEADER.
 const firstActIdx = allLines.findIndex((l) => ACT_HEADER.test(l.trim()));
 const firstFramingIdx = allLines.findIndex((l) => isFramingHeader(l.trim()));
-let i =
-  firstFramingIdx >= 0 && (firstActIdx < 0 || firstFramingIdx < firstActIdx)
-    ? firstFramingIdx
-    : firstActIdx;
+// The Induction pseudo-act header (Shrew) precedes "ACT I." and must not be skipped as
+// front matter. -1 for every other play, so this reduces to the prior framing-vs-act choice.
+const firstInductionIdx = INDUCTION_AS_ACT
+  ? allLines.findIndex((l) => INDUCTION_HEADER.test(l.trim()))
+  : -1;
+// Content starts at the earliest valid header: a leading Chorus/Induction framing header, the
+// Induction pseudo-act header, or the first ACT header. (Equivalent to the prior framing-or-act
+// pick for every shipped play, where firstInductionIdx is -1.)
+const startCandidates = [firstFramingIdx, firstInductionIdx, firstActIdx].filter((x) => x >= 0);
+let i = startCandidates.length ? Math.min(...startCandidates) : -1;
 if (i < 0) {
   console.error('no "ACT ..." header found; cannot parse this file shape.');
   process.exit(3);
@@ -371,6 +395,20 @@ for (; i < allLines.length; i++) {
   const trimmed = rawLine.trim();
   let m: RegExpMatchArray | null;
 
+  // Skip Open Shakespeare transcription junk markers — runs of '@' ("@@@" / "@@@@" appear
+  // twice in Love's Labour's Lost) — WITHOUT touching speaker state. Left in, they are emitted
+  // as stray dialogue or (after a blank) consume the speaker-expectation so the next real
+  // speaker label is swallowed into the prior speech. No other vendored source contains '@'
+  // (verified by grep), so every shipped play re-ingests byte-identical.
+  if (/^@+$/.test(trimmed)) continue;
+
+  // Shrew's "INDUCTION." opens a pseudo-act (number 0) before Act 1 (see INDUCTION_AS_ACT).
+  // Must precede the generic paths — "INDUCTION." otherwise passes looksLikeSpeaker and would
+  // be mis-read as a speaker label.
+  if (INDUCTION_AS_ACT && INDUCTION_HEADER.test(trimmed)) {
+    pushAct(0, 'INDUCTION.');
+    continue;
+  }
   if ((m = trimmed.match(ACT_HEADER))) {
     const n = toInt(m.groups!.num);
     if (n > 0) { pushAct(n, trimmed); continue; }
@@ -392,7 +430,12 @@ for (; i < allLines.length; i++) {
         // missing ACT header (e.g. Hamlet's ACT II) — open the next act
         pushAct(currentAct.number + 1, `ACT ${currentAct.number + 1}.`);
       }
-      pushScene(n, setting);
+      // Store a sequential within-act scene number for editions that mis-number a lone scene
+      // (Love's Labour's Lost labels Act II's only scene "SCENE II." with no Scene I); the
+      // literal header number `n` still drives the missing-ACT-header recovery above. No-op
+      // for every other play, whose headers are already sequential.
+      const sceneNum = SEQUENTIAL_SCENES && currentAct ? currentAct.scenes.length + 1 : n;
+      pushScene(sceneNum, setting);
       continue;
     }
   }

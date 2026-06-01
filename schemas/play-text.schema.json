@@ -59,11 +59,12 @@
         },
         "number": {
           "type": "integer",
-          "minimum": 1
+          "minimum": 0,
+          "description": "Act number. 0 is reserved for a pre-Act-1 INDUCTION pseudo-act (e.g. The Taming of the Shrew's Christopher Sly frame), which the reader labels 'Induction'."
         },
         "title": {
           "type": "string",
-          "description": "Header text as printed (e.g. 'ACT I.')."
+          "description": "Header text as printed (e.g. 'ACT I.' or 'INDUCTION.')."
         },
         "scenes": {
           "type": "array",
