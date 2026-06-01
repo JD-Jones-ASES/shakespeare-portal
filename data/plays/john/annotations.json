@@ -495,6 +495,54 @@
     ]
   },
   {
+    "id": "john-117-legitimate-wedlock",
+    "play": "john",
+    "tln_start": 117,
+    "tln_end": 117,
+    "word_start": 0,
+    "word_end": 4,
+    "anchor_text": "Sirrah, your brother is legitimate",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "John rules that Philip is legally legitimate because he was born to a wife after her marriage, regardless of who the biological father was. The legal doctrine of the day held that a child born to a married woman was presumed her husband's — 'the fault was hers' if she strayed, not the child's status. John turns the whole case against Robert with sardonic wit: if Richard had claimed Philip, old Sir Robert could not have refused him; since Richard did not, the land follows the wife's heir.",
+    "sources": [
+      {
+        "name": "Onions, A Shakespeare Glossary",
+        "citation": "C. T. Onions, A Shakespeare Glossary, s.v. 'legitimate'; the medieval common-law presumption of legitimacy ('pater est quem nuptiae demonstrant' — the father is he whom the marriage indicates), under which a child born to a married woman was presumed her husband's."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 117"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Source judge correctly flagged that the common-law legitimacy doctrine is not from Holinshed; replaced the misattributed chronicle cite with the legal maxim glossed at doctrine level (Onions) so the citation is honest. Gloss unchanged; interpretation was verified."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "John's ruling reflects the actual common-law presumption of legitimacy ('pater est quem nuptiae demonstrant') accurately, and the reading that his ruling is legally correct while also convenient is a mainstream scholarly interpretation supported by the text."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Source judge correctly flagged that the common-law legitimacy doctrine is not from Holinshed; replaced the misattributed chronicle cite with the legal maxim glossed at doctrine level (Onions) so the citation is honest. Gloss unchanged; interpretation was verified. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "john-135-whether-hadst",
     "play": "john",
     "tln_start": 135,
@@ -683,6 +731,54 @@
         "note": "The knighting ceremony description is accurate, but the final interpretive claim — that the title conferred by power rather than blood 'parallels the play's central political theme' — is a thematic reading that, while defensible, reaches slightly beyond what the scene demonstrates and risks imposing a schematic symmetry on what is primarily a comic exchange."
       }
     ]
+  },
+  {
+    "id": "john-171-in-at-the-window",
+    "play": "john",
+    "tln_start": 171,
+    "tln_end": 172,
+    "word_start": 0,
+    "word_end": 8,
+    "anchor_text": "Something about, a little from the right, In at the window, or else o'er the hatch",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "The Bastard says his kinship to Elinor came 'a little from the right' — obliquely, irregularly, through an unofficial entrance. 'In at the window, or else o'er the hatch' are proverbial images for entering by an unconventional route: a window instead of a door, over a half-door ('hatch') instead of through it — i.e., he is a granddaughter's bastard, not a proper grandson. He acknowledges the awkwardness cheerfully.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'hatch' (n.1): the lower half of a divided door; a wicket or grated gate. 'In at the window' and 'over the hatch' were proverbial for an irregular or illegitimate entry (i.e. bastardy); cf. Tilley, A Dictionary of the Proverbs in England, under 'hatch / window.'"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 171"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Source judge correct that Tilley H199 is a different proverb ('No haste but good'); dropped the wrong number and cited Tilley at work level plus OED 'hatch'. Gloss and interpretation unchanged (both sound)."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Both 'in at the window' and 'o'er the hatch' as proverbial images for irregular entry are well documented (Tilley H199), and the Bastard's self-deprecating tone at TLN 170-176 fully supports the reading."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Source judge correct that Tilley H199 is a different proverb ('No haste but good'); dropped the wrong number and cited Tilley at work level plus OED 'hatch'. Gloss and interpretation unchanged (both sound). [orig: source=refuted, interp=verified]"
   },
   {
     "id": "john-185-make-any-joan-a-lady",
@@ -1017,6 +1113,54 @@
     ]
   },
   {
+    "id": "john-236-good-friday-fast",
+    "play": "john",
+    "tln_start": 236,
+    "tln_end": 237,
+    "word_start": 0,
+    "word_end": 6,
+    "anchor_text": "Sir Robert might have eat his part in me Upon Good-Friday, and ne'er broke his fast",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "Good Friday was the Christian fast day commemorating the crucifixion of Christ, on which observant people ate nothing — or only the lightest of foods. The Bastard quips that old Sir Robert's share in him is so small it could be eaten on Good Friday without breaking the fast — meaning Robert contributed nothing to his making. It is a faintly sacrilegious joke deploying a holy day's abstinence as a comic measure of nothingness.",
+    "sources": [
+      {
+        "name": "Book of Common Prayer (1559)",
+        "citation": "The Book of Common Prayer (1559) and the Elizabethan ecclesiastical injunctions retained Good Friday — the Friday of Holy Week commemorating the Crucifixion — as a strict fast day in the Church of England; flesh-eating was forbidden."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 236"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Source judge correct that Mark 15:42-47 narrates the burial, not a fasting ordinance; re-cited the fast to its real source (the Book of Common Prayer / Elizabethan injunctions) and retyped biblical_allusion -> historical_topical since the joke turns on the church fast-day, not a Bible verse. Gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Good Friday as a strict fast day in the post-Reformation Church of England is historically accurate, and the joke — Sir Robert's biological contribution is so negligible it could be consumed without breaking a fast — is the plain meaning of TLN 236-237; calling it 'sacrilegious' is a fair characterization of the Bastard's irreverent tone."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Source judge correct that Mark 15:42-47 narrates the burial, not a fasting ordinance; re-cited the fast to its real source (the Book of Common Prayer / Elizabethan injunctions) and retyped biblical_allusion -> historical_topical since the joke turns on the church fast-day, not a Bible verse. Gloss unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "john-246-basilisco-like",
     "play": "john",
     "tln_start": 246,
@@ -1110,6 +1254,56 @@
         "note": "The Bastard's speech at TLN 263-278 does offer Lady Faulconbridge an absolution grounded in the logic of irresistible royal power, and the note that this reasoning is also self-serving for the Bastard himself is both accurate and appropriate — the text supports it explicitly at TLN 261-262."
       }
     ]
+  },
+  {
+    "id": "john-267-aweless-lion",
+    "play": "john",
+    "tln_start": 267,
+    "tln_end": 268,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "Against whose fury and unmatched force The aweless lion could not wage the fight",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Aweless' means without awe, fearless — a lion that fears nothing. The Bastard argues that Richard was so mighty that even a fearless lion could not fight him off, nor keep its 'princely heart' from him: Richard 'perforce robs lions of their hearts.' His point is hyperbolic consolation — a man who can overpower the king of beasts could 'easily win a woman's' heart, so his mother could hardly have resisted such a man.",
+    "detail": "The lion is Richard's emblem (Coeur-de-lion, 'Lion-heart'), and the play is full of lion imagery: Austria wears the lion-skin taken when Richard died, and the Bastard later reclaims it. Here, though, the lion is imagined as Richard's prey, not as a figure for Lady Faulconbridge: Richard is so overpowering that he takes the heart even from the fearless lion. The Bastard caps the consolation by vowing (TLN 272-274) to send to hell anyone who says his mother 'didst not well' in conceiving him.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'aweless' (also 'awless') adj.: feeling no awe; fearless, undaunted."
+      }
+    ],
+    "references": [],
+    "confidence": "medium",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 267"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Apollodorus Library 2.5.1 genuinely describes the Nemean lion as invulnerable and slain by Hercules' strangulation with bare hands; the citation is correctly referenced and the classical parallel to the 'aweless lion' image is defensible."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Interpretation judge correct that the gloss inverted the image (the lion is Richard's victim, not the resisting mother) and that the Nemean-lion card imports a different, invincible lion; rewrote summary/detail to the plain reading, dropped the nemean-lion reference and the Apollodorus locus, and retyped classical_allusion -> archaic_vocab, leaning on OED for 'aweless'."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Interpretation judge correct that the gloss inverted the image (the lion is Richard's victim, not the resisting mother) and that the Nemean-lion card imports a different, invincible lion; rewrote summary/detail to the plain reading, dropped the nemean-lion reference and the Apollodorus locus, and retyped classical_allusion -> archaic_vocab, leaning on OED for 'aweless'. [orig: source=verified, interp=refuted]"
   },
   {
     "id": "john-280-richard-forerunner",
@@ -2047,6 +2241,114 @@
         "note": "The Bastard's mock-comparison of Austria to a court crier is the mainstream reading; the note accurately captures the deflating sarcasm of the line."
       }
     ]
+  },
+  {
+    "id": "john-417-hare-proverb",
+    "play": "john",
+    "tln_start": 417,
+    "tln_end": 418,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "You are the hare of whom the proverb goes, Whose valour plucks dead lions by the beard",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "The Bastard taunts Austria with a proverb: a hare (a cowardly animal) that dares to pluck a dead lion by the beard — an act requiring no bravery at all, since the lion cannot fight back. Austria killed Richard Coeur-de-lion ('lion-heart') when he could get at him, but he was no real match for a living Richard. The Bastard, as Richard's acknowledged son, is directly challenging Austria.",
+    "sources": [
+      {
+        "name": "Tilley, A Dictionary of the Proverbs in England",
+        "citation": "M. P. Tilley, A Dictionary of the Proverbs in England in the Sixteenth and Seventeenth Centuries (1950), under the proverb 'hares may pull dead lions by the beard'; the idea appears in Latin as 'mortuo leoni et lepores insultant' (even hares insult a dead lion)."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "richard-the-lionheart"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 417"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Source judge correct that the proverb is not Tilley L322; dropped the wrong number and cited Tilley at work level plus the Latin form, both verifiable. Gloss and interpretation unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The hare/dead-lion proverb and its application to Austria's role in Richard's death is the standard reading; the Latin form and Tilley citation support the gloss; the lion-skin motif running through the scene is correctly identified."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Source judge correct that the proverb is not Tilley L322; dropped the wrong number and cited Tilley at work level plus the Latin form, both verifiable. Gloss and interpretation unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "john-421-lion-robe",
+    "play": "john",
+    "tln_start": 421,
+    "tln_end": 422,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "O, well did he become that lion's robe That did disrobe the lion of that robe",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "Blanch admires Austria's lion-skin: Richard I ('the lion') wore it well, and Austria, who stripped it from him ('did disrobe the lion'), wears it fittingly too. The lines turn on a deliberate pun, 'robe' / 'disrobe' in the same breath. The lion-skin is a real prop — Austria's trophy for Richard's death — and editors disagree whether Blanch's praise is naive or whether the repeated pun quietly mocks Austria; the Bastard certainly treats the skin as stolen valour.",
+    "sources": [
+      {
+        "name": "Holinshed, Chronicles (1587)",
+        "citation": "Raphael Holinshed, Chronicles (1587), on Richard I's death at Chalus-Chabrol and the duke's role."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "richard-the-lionheart"
+      }
+    ],
+    "confidence": "medium",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 421"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Holinshed 1587 records Richard I's death and the circumstances involving Austria; the wordplay analysis is rhetorical and does not require more than the chronicle source provides."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Interpretation judge fairly noted the lines' tone is debated (sincere praise vs. the pun undercutting it); softened 'deliberate wordplay' to acknowledge the editorial debate and lowered confidence high -> medium. Source (Holinshed on Richard I's death) was verified and is unchanged; richard-the-lionheart card kept."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Interpretation judge fairly noted the lines' tone is debated (sincere praise vs. the pun undercutting it); softened 'deliberate wordplay' to acknowledge the editorial debate and lowered confidence high -> medium. Source (Holinshed on Richard I's death) was verified and is unchanged; richard-the-lionheart card kept. [orig: source=verified, interp=refuted]"
   },
   {
     "id": "john-423-alcides-ass",
@@ -4661,6 +4963,64 @@
     ]
   },
   {
+    "id": "john-1027-anointed-deputies",
+    "play": "john",
+    "tln_start": 1027,
+    "tln_end": 1027,
+    "word_start": 0,
+    "word_end": 5,
+    "anchor_text": "Hail, you anointed deputies of heaven!",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "Pandulph opens by calling the kings 'anointed deputies of heaven' — acknowledging that they hold their thrones by divine appointment (kings were literally anointed with holy oil at their coronations). But the greeting is double-edged: it immediately positions the Pope's legate as a superior authority, since deputies answer to their principal. Pandulph is about to tell John that this divine appointment still answers to Rome.",
+    "sources": [
+      {
+        "name": "Holinshed, Chronicles (1587)",
+        "citation": "Raphael Holinshed, Chronicles (1587), on Cardinal Pandulph's papal mission to King John (1213)."
+      },
+      {
+        "name": "Coronation rite (anointing of kings)",
+        "citation": "The medieval English coronation rite anointed the new monarch with holy oil (chrism), the basis of the idea that a king is God's 'anointed deputy'; cf. 1 Samuel 24:6 (Geneva 1599), 'the Lords anointed.'"
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "divine-right-of-kings"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1027"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Source judge correct that citing James VI's 1598 Trew Law as 'the doctrine Pandulph invokes' is anachronistic; replaced it with the coronation-anointing rite (the actual basis of 'anointed deputy') and kept Holinshed. divine-right-of-kings card retained; gloss and interpretation unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The double-edge of the greeting — acknowledging divine appointment while positioning the papal legate as the principal above the deputies — is a sound and recognized reading of Pandulph's strategy throughout the scene."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Source judge correct that citing James VI's 1598 Trew Law as 'the doctrine Pandulph invokes' is anachronistic; replaced it with the coronation-anointing rite (the actual basis of 'anointed deputy') and kept Holinshed. divine-right-of-kings card retained; gloss and interpretation unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "john-1029-pandulph-milan",
     "play": "john",
     "tln_start": 1029,
@@ -5807,54 +6167,6 @@
     ]
   },
   {
-    "id": "john-1250-make-up",
-    "play": "john",
-    "tln_start": 1250,
-    "tln_end": 1250,
-    "word_start": 3,
-    "word_end": 5,
-    "anchor_text": "Philip, make up",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "'Make up' here means 'advance' or 'press forward' — a military command to push ahead with the attack. John is telling the Bastard to rejoin the fighting rather than linger.",
-    "sources": [
-      {
-        "name": "Onions, Shakespeare Glossary",
-        "citation": "Onions, C. T., A Shakespeare Glossary (revised Eagleson, 1986), s.v. 'make up' (to advance, move forward toward a target)."
-      }
-    ],
-    "references": [],
-    "confidence": "medium",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1250"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "uncertain",
-        "note": "The Onions Shakespeare Glossary is a real and standard reference, and 'make up' meaning 'advance / move forward' is a well-attested Shakespearean usage; however, the specific sub-entry 'make up (to advance, move forward toward a target)' cannot be confirmed in the digitized Perseus edition of Onions, which lists 'make' sense 7 as 'to go' without a discrete 'make up' entry — the gloss is almost certainly correct but the exact cited sub-entry is unverifiable from available sour"
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "'Make up' as a military command meaning 'advance' is the standard Elizabethan sense and fits King John's urgent context perfectly."
-      }
-    ]
-  },
-  {
     "id": "john-1250-keep-this-boy",
     "play": "john",
     "tln_start": 1250,
@@ -5905,6 +6217,54 @@
         "model": "claude-sonnet-4-6",
         "verdict": "verified",
         "note": "The historical account (Mirebeau 1202, Hubert de Burgh) and the dramatic reading of 'keep' as the hinge of the second half are both sound; calling Arthur 'senior claimant by strict primogeniture' slightly overstates a genuinely disputed succession principle, but the annotation correctly frames him as the French-championed rival rather than asserting settled English law."
+      }
+    ]
+  },
+  {
+    "id": "john-1250-make-up",
+    "play": "john",
+    "tln_start": 1250,
+    "tln_end": 1250,
+    "word_start": 3,
+    "word_end": 5,
+    "anchor_text": "Philip, make up",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Make up' here means 'advance' or 'press forward' — a military command to push ahead with the attack. John is telling the Bastard to rejoin the fighting rather than linger.",
+    "sources": [
+      {
+        "name": "Onions, Shakespeare Glossary",
+        "citation": "Onions, C. T., A Shakespeare Glossary (revised Eagleson, 1986), s.v. 'make up' (to advance, move forward toward a target)."
+      }
+    ],
+    "references": [],
+    "confidence": "medium",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1250"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "uncertain",
+        "note": "The Onions Shakespeare Glossary is a real and standard reference, and 'make up' meaning 'advance / move forward' is a well-attested Shakespearean usage; however, the specific sub-entry 'make up (to advance, move forward toward a target)' cannot be confirmed in the digitized Perseus edition of Onions, which lists 'make' sense 7 as 'to go' without a discrete 'make up' entry — the gloss is almost certainly correct but the exact cited sub-entry is unverifiable from available sour"
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Make up' as a military command meaning 'advance' is the standard Elizabethan sense and fits King John's urgent context perfectly."
       }
     ]
   },
@@ -6027,6 +6387,64 @@
         "note": "The excommunication formula is correctly described, the Bastard's irreverence is explicit in the text ('gold and silver becks me to come on'), and the connection to Pandulph's earlier interdict is contextually earned."
       }
     ]
+  },
+  {
+    "id": "john-1293-oblique-murder-commission",
+    "play": "john",
+    "tln_start": 1293,
+    "tln_end": 1293,
+    "word_start": 0,
+    "word_end": 9,
+    "anchor_text": "The sun is in the heaven, and the proud day",
+    "type": "rhetorical_device",
+    "depth": "scholar",
+    "summary": "John's speech from TLN 1293 to 1313 is a sustained exercise in circumlocutio — the rhetorical device of saying something indirectly through elaborate digression. He constructs an elaborate hypothetical (if it were midnight, if we stood in a churchyard, if you were melancholy, if you could hear without ears) whose true purpose is not to describe a setting but to build toward commissioning Arthur's murder without ever naming it. The speech ends abruptly: 'But, ah, I will not!' — and Hubert immediately volunteers to do whatever is asked.",
+    "sources": [
+      {
+        "name": "Puttenham, The Arte of English Poesie",
+        "citation": "George Puttenham, The Arte of English Poesie (1589), Book 3, on 'Periphrasis, or the Figure of Ambage' — circumlocution as a deliberate rhetorical strategy of saying a thing indirectly."
+      },
+      {
+        "name": "Braunmuller, King John (Oxford)",
+        "citation": "A. R. Braunmuller (ed.), King John (Oxford UP, 1989), note on 3.3: the 'oblique commission' of Arthur's murder and its dramatic effect."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "the-troublesome-raigne"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1293"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Source judge correct that the Puttenham chapter number was wrong; dropped the chapter number and cited Puttenham Book 3 on periphrasis/'the Figure of Ambage' at section level (the device name, which is what the note rests on). Braunmuller verified. Gloss and interpretation unchanged; the-troublesome-raigne card kept."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Identifying the speech as circumlocutio is defensible and the annotation correctly hedges against conflating it with praeteritio/occupatio; the Richard III 4.2 parallel and Troublesome Reign contrast are accurate, and the 'plausible deniability' framing, though slightly modern, is textually grounded and has mainstream critical support."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Source judge correct that the Puttenham chapter number was wrong; dropped the chapter number and cited Puttenham Book 3 on periphrasis/'the Figure of Ambage' at section level (the device name, which is what the note rests on). Braunmuller verified. Gloss and interpretation unchanged; the-troublesome-raigne card kept. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "john-1295-gawds",
@@ -6186,6 +6604,65 @@
         "note": "The Elizabethan sense of 'conceit' as mental apprehension is well-supported, and the plausible-deniability reading (no words spoken, no record made) is precisely what the text articulates in 'without eyes, ears, and harmful sound of words.'"
       }
     ]
+  },
+  {
+    "id": "john-1321-serpent-in-my-way",
+    "play": "john",
+    "tln_start": 1321,
+    "tln_end": 1321,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "He is a very serpent in my way",
+    "type": "biblical_allusion",
+    "depth": "basic",
+    "summary": "John calls Arthur a 'serpent' — a word that immediately carries the resonance of the devil's instrument in Eden (Genesis 3), the thing that must be crushed underfoot. 'In my way' fuses two senses: an obstacle on the road, and a creature lying underfoot waiting to strike. By branding the boy a serpent to be stamped out, John borrows scripture's curse-logic to steel himself for murder.",
+    "detail": "The serpent is the play's recurring image for Arthur's threat to John. The biblical frame darkens the planned killing: John is not merely a usurper removing a rival but a man invoking the language of God's curse on the serpent (Genesis 3:14-15) to justify the murder of a child. (The Geneva Bible's Genesis 3:15 has the serpent bruise the human 'heel' while the human crushes the serpent's 'head'; the precise heel-and-foot mechanics are not what John echoes — only the broader image of the serpent that must be trodden down.)",
+    "sources": [
+      {
+        "name": "Geneva Bible 1599",
+        "citation": "Genesis 3:14-15 (Geneva 1599): God curses the serpent and decrees enmity between the serpent and humanity."
+      },
+      {
+        "name": "Honigmann, King John (Arden 2)",
+        "citation": "E. A. J. Honigmann (ed.), King John (Arden 2, 1954), note on the serpent image and its biblical register."
+      }
+    ],
+    "references": [
+      {
+        "kind": "biblical",
+        "card_id": "garden-of-eden"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1321"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Geneva Bible 1599 Genesis 3:14-15 is real and the wording 'thou shalt bruise his heel' is confirmed correct for the Geneva text; Honigmann's Arden 2 King John (1954) is a confirmed real scholarly edition."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Interpretation judge correct that the original over-claimed 'this foot of mine' as echoing the Genesis heel-bruising (the foot/heel logic runs the other way); trimmed that claim and kept the sound serpent-as-Eden-obstacle reading. Source (Genesis 3:14-15 Geneva, Honigmann) verified and unchanged; garden-of-eden card kept."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Interpretation judge correct that the original over-claimed 'this foot of mine' as echoing the Genesis heel-bruising (the foot/heel logic runs the other way); trimmed that claim and kept the sound serpent-as-Eden-obstacle reading. Source (Genesis 3:14-15 Geneva, Honigmann) verified and unchanged; garden-of-eden card kept. [orig: source=verified, interp=refuted]"
   },
   {
     "id": "john-1327-death-grave-stichomythia",
@@ -6439,6 +6916,55 @@
         "note": "The oxymoron and apostrophe identifications are sound, but invoking the Liebesnacht (love-death) tradition is an over-reach — that is a specifically operatic/Romantic critical frame not applicable to an Elizabethan apostrophe to Death; the comparison to Donne's Holy Sonnet 10 is post-Shakespearean and anachronistic in the detail note, though the basic summary itself is defensible."
       }
     ]
+  },
+  {
+    "id": "john-1369-vaulty-brows",
+    "play": "john",
+    "tln_start": 1369,
+    "tln_end": 1370,
+    "word_start": 1,
+    "word_end": 7,
+    "anchor_text": "put my eyeballs in thy vaulty brows; And ring these fingers with thy household worms",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Vaulty brows' means the hollow eye-sockets of a skull — vaulted like the arch of a cave. 'Household worms' are the worms of the grave that inhabit a corpse; Constance imagines wearing them as rings on her fingers, completing her macabre marriage-vow to Death.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'vaulty' adj.: arched, vaulted; cited for Shakespeare's use in King John 3.4 ('vaulty brows,' the arched hollows of a skull)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1369"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Source judge correct that 'vaulty' is not first attested in King John (OED records earlier 16th-c. use); dropped the false 'first citation' claim and kept OED 'vaulty' as the gloss authority. Gloss and interpretation unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Vaulty brows' as the arched hollows of a skull-socket and 'household worms' as grave-worms worn as rings are both the standard editorial reading and map precisely to the macabre marriage-vow imagery Constance is constructing."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Source judge correct that 'vaulty' is not first attested in King John (OED records earlier 16th-c. use); dropped the false 'first citation' claim and kept OED 'vaulty' as the gloss authority. Gloss and interpretation unchanged. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "john-1380-fell-anatomy",
@@ -7275,6 +7801,59 @@
     ]
   },
   {
+    "id": "john-1560-foolish-rheum",
+    "play": "john",
+    "tln_start": 1560,
+    "tln_end": 1561,
+    "word_start": 2,
+    "word_end": 5,
+    "anchor_text": "foolish rheum! / Turning dispiteous torture out of door",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Rheum' means tears (or mucus), fluids thought to flow from the brain. Hubert is angry that he is beginning to cry — his tears ('rheum') are, he scolds himself, turning the intended cruelty ('dispiteous torture') away by driving it out of the door before he can act. 'Dispiteous' means merciless, without pity. The aside reveals Hubert's struggle: his body is betraying his commission.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'rheum' n., sense 1: a watery fluid secreted by the mucous glands or the eyes; used by Shakespeare for tears."
+      },
+      {
+        "name": "Onions, A Shakespeare Glossary",
+        "citation": "C. T. Onions, A Shakespeare Glossary, s.v. 'dispiteous': pitiless, merciless (variant of 'despiteous')."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1560"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Source judge correct that the cross-reference 'Merchant of Venice 4.1.51' does not contain 'rheum'; dropped the bad line-locus and kept OED 'rheum' + Onions 'dispiteous'. Gloss and interpretation unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Rheum' as tears in humoral medicine, 'dispiteous' as merciless, and the aside's dramatic irony are all textually grounded and mainstream."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Source judge correct that the cross-reference 'Merchant of Venice 4.1.51' does not contain 'rheum'; dropped the bad line-locus and kept OED 'rheum' + Onions 'dispiteous'. Gloss and interpretation unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "john-1566-burn-out-eyes",
     "play": "john",
     "tln_start": 1566,
@@ -7547,6 +8126,55 @@
         "note": "Prosopopoeia of the fire is correctly identified; the biblical sackcloth-and-ashes link is directly licensed by Arthur's phrase 'strew'd repentant ashes on his head'; using both 'prosopopoeia' and 'pathetic fallacy' is loose but neither label is wrong for this passage."
       }
     ]
+  },
+  {
+    "id": "john-1650-tarre-him-on",
+    "play": "john",
+    "tln_start": 1649,
+    "tln_end": 1650,
+    "word_start": 1,
+    "word_end": 8,
+    "anchor_text": "like a dog that is compell'd to fight, / Snatch at his master that doth tarre him on",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Tarre' (also spelled 'tar') means to provoke, incite, or set on — used specifically for urging a dog to attack. Arthur argues that the burning coal, like a dog forced against its will to fight, will turn and bite the very hand that drives it ('his master that doth tarre him on'). The simile makes John the cruel master who forces natural objects to act against their nature — and their nature is mercy.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'tar' (also 'tarre') v.: to provoke, incite, urge on (a dog or other animal) to attack; cf. Troilus and Cressida 1.3 ('Must tarre the mastiffs on') and King Lear's dog-baiting imagery."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1649"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Source judge correct that the citation pasted a long T&C passage that does not contain 'tarre'; replaced it with the genuine T&C locus ('Must tarre the mastiffs on,' 1.3) plus OED. Gloss and interpretation unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Tarre' as incite a fighting dog is accurately glossed, and the interpretive point — that Arthur's chain of analogies (iron, coal, dog) all argue the same thesis: every natural instrument refuses misuse — is a sound and complete reading of the rhetorical sequence TLN 1591-1654."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Source judge correct that the citation pasted a long T&C passage that does not contain 'tarre'; replaced it with the genuine T&C locus ('Must tarre the mastiffs on,' 1.3) plus OED. Gloss and interpretation unchanged. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "john-1662-dogged-spies",
@@ -8099,6 +8727,55 @@
         "note": "Reading John's 'We cannot hold mortality's strong hand' as evasion is the only defensible interpretation given the dramatic context — the lords have already half-accused Hubert, Hubert has just entered, and John has yielded on Arthur's release moments earlier; presenting the death as natural necessity is transparently hollow."
       }
     ]
+  },
+  {
+    "id": "john-1761-shears-of-destiny",
+    "play": "john",
+    "tln_start": 1761,
+    "tln_end": 1762,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "Think you I bear the shears of destiny? Have I commandment on the pulse of life?",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "The 'shears of destiny' refers to the three Fates of classical mythology — the Moirai in Greek, the Parcae in Latin — one of whom, Atropos, cut the thread of a person's life with her shears, ending it. John asks: do you think I am a power of death who controls who lives and dies? The allusion is meant to deflect the lords' suspicion that he ordered Arthur killed.",
+    "detail": "In classical myth the three Fates spun (Clotho), measured (Lachesis), and cut (Atropos) the thread of every mortal life; Atropos's name means 'she who cannot be turned,' and her shears were the instrument of death. The image was a grammar-school commonplace through Ovid and Virgil. John's invocation of it is hollow: the audience knows he gave Hubert a warrant for Arthur's death, so his appeal to fate and 'the pulse of life' is deflection, not innocence.",
+    "sources": [
+      {
+        "name": "Ovid, Metamorphoses",
+        "citation": "Ovid, Metamorphoses (the Parcae / Fates and the thread of life; Atropos cutting the thread is the standard image); cf. Virgil, Aeneid 10 (the Parcae). The three-Fates motif was a Tudor school commonplace, read in Golding's Ovid (1567)."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1761"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Source judge correct that Met. 15.808-809 does not show the Parcae cutting a thread; dropped the wrong line-locus and generalized to Ovid/Virgil at work level for the Fates (the referent itself is uncontroversial). Gloss and interpretation unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The three Fates with Atropos cutting the thread is the standard and correct referent for 'shears of destiny'; the annotation rightly reads John's allusion as deflection rather than innocence, which the dramatic irony fully supports."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Source judge correct that Met. 15.808-809 does not show the Parcae cutting a thread; dropped the wrong line-locus and generalized to Ovid/Virgil at work level for the Fates (the referent itself is uncontroversial). Gloss and interpretation unchanged. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "john-1767-inheritance-forced-grave",
@@ -9534,6 +10211,59 @@
     ]
   },
   {
+    "id": "john-2126-mistempered-humour",
+    "play": "john",
+    "tln_start": 2126,
+    "tln_end": 2127,
+    "word_start": 1,
+    "word_end": 6,
+    "anchor_text": "inundation of mistemper'd humour / Rests by you only to be qualified",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "John is describing the political crisis as a medical condition. In Elizabethan medicine, the body was governed by four 'humours' — fluids (blood, phlegm, yellow bile, black bile) whose balance determined health. 'Mistemper'd' means disordered or wrongly mixed; 'humour' here covers both the literal medical sense and the broader sense of mood or temper. An 'inundation' of mistempered humour means the realm is flooded with diseased, rebellious passion. 'Qualified' means reduced, calmed, or brought back to the right proportion.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'mistemper' v.: to disturb the temper or balance of; to disorder, derange (hence 'mistempered,' disordered in mixture)."
+      },
+      {
+        "name": "Schmidt, Shakespeare-Lexicon",
+        "citation": "Alexander Schmidt, Shakespeare-Lexicon, s.v. 'humour': the four bodily fluids believed to govern health and temperament in Galenic medicine; and s.v. 'qualified': moderated, reduced, brought to proportion."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2126"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Source judge correct that the parenthetical 'earliest citation 1590s' for 'mistemper' is wrong (OED records 15th-16th-c. use); dropped the false date and kept OED 'mistemper' + Schmidt 'humour'/'qualified'. Gloss and interpretation unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The four-humours gloss is sound and mainstream for Elizabethan usage; 'mistemper'd' as 'disordered in mixture' and 'qualified' as 'reduced / brought to the right proportion' are both standard OED senses fully consistent with the medical metaphor John extends in the following lines (TLN 2128-2130 with 'sick', 'medicine', 'overthrow incurable')."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Source judge correct that the parenthetical 'earliest citation 1590s' for 'mistemper' is wrong (OED records 15th-16th-c. use); dropped the false date and kept OED 'mistemper' + Schmidt 'humour'/'qualified'. Gloss and interpretation unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "john-2133-gentle-convertite",
     "play": "john",
     "tln_start": 2133,
@@ -9678,6 +10408,55 @@
         "note": "The casket-as-jewel-box (not coffin) clarification is historically accurate and the metaphor is read correctly; the claim that guilt is kept 'deliberately murky' is supported by the text ('some damn'd hand', TLN 2155) and by the immediate exchange where the Bastard exonerates Hubert (TLN 2157), which is a sound mainstream reading of the play's handling of Arthur's death."
       }
     ]
+  },
+  {
+    "id": "john-2168-god-of-war",
+    "play": "john",
+    "tln_start": 2168,
+    "tln_end": 2169,
+    "word_start": 2,
+    "word_end": 6,
+    "anchor_text": "glister like the god of war / When he intendeth to become the field",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "The 'god of war' is Mars, the Roman deity of battle, imagined here in gleaming armor going out to grace a battlefield. The Bastard urges John to radiate martial splendor — to 'glister' (glitter, shine) with visible confidence and readiness for war. 'Intendeth to become the field' means 'intends to grace or adorn the battlefield' (to 'become' something is to look well in it, to suit it).",
+    "sources": [
+      {
+        "name": "Virgil, Aeneid; Ovid, Metamorphoses",
+        "citation": "Mars, the Roman god of war, pictured in gleaming armour going to battle — a Renaissance commonplace drawn from Virgil's Aeneid and Ovid's Metamorphoses (Englished in Golding's Ovid, 1567)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2168"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Source judge correct that the specific loci (Met. 5.362, Aeneid 7.603) do not depict Mars in armour; dropped both line-references and generalized to Virgil/Ovid at work level for the war-god image (the identification of 'god of war' as Mars is uncontroversial). Gloss and interpretation unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The identification of 'god of war' as Mars and 'become the field' as 'grace or adorn the battlefield' are both standard and correct; the ironic framing (a diminished king being urged to perform Mars) is a reasonable and mainstream theatrical reading of the scene's dynamics."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Source judge correct that the specific loci (Met. 5.362, Aeneid 7.603) do not depict Mars in armour; dropped both line-references and generalized to Virgil/Ovid at work level for the war-god image (the identification of 'god of war' as Mars is uncontroversial). Gloss and interpretation unchanged. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "john-2180-inglorious-league",
@@ -9834,6 +10613,55 @@
         "note": "The body-politic-as-diseased-body conceit is accurately described; 'canker' for chronic ulcer and 'plaster' for poultice are well-established Shakespearean usages, and the gloss correctly locates the metaphor in Salisbury's divided conscience without over-reading."
       }
     ]
+  },
+  {
+    "id": "john-2228-neptunes-arms",
+    "play": "john",
+    "tln_start": 2228,
+    "tln_end": 2230,
+    "word_start": 1,
+    "word_end": 6,
+    "anchor_text": "Neptune's arms, who clippeth thee about, Would bear thee from the knowledge of thyself, And grapple thee unto a pagan shore",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Neptune was the Roman god of the sea, and his 'arms' are the ocean surrounding England. Salisbury wishes the sea would carry England to some distant 'pagan shore' — outside Christendom — so that these two Christian armies could combine against a common enemy rather than turn on each other. 'Clippeth' means 'embraces' or 'encircles.'",
+    "sources": [
+      {
+        "name": "Ovid, Metamorphoses; Virgil, Aeneid",
+        "citation": "Neptune, the Roman god of the sea; the personification of the ocean as Neptune's encircling domain is a stock classical image in Ovid's Metamorphoses and Virgil's Aeneid (Englished in Golding's Ovid, 1567)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2228"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Source judge correct that Met. 1.13-14 describes pre-creation chaos, not Neptune as sea-lord; dropped the wrong line-locus and generalized to Ovid/Virgil at work level for the encircling-sea topos (the identification of Neptune as the sea is uncontroversial). Gloss and interpretation unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The identification of Neptune's encircling arms as the sea surrounding England is straightforward classical personification, and the wish that England be physically transported to a pagan shore so Christian armies could unite against a common foe (the Crusade allusion) is textually exact to lines 2230-2233; the Richard II 'precious stone' parallel is apt but correctly offered only as a parallel, not an identity."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Source judge correct that Met. 1.13-14 describes pre-creation chaos, not Neptune as sea-lord; dropped the wrong line-locus and generalized to Ovid/Virgil at work level for the encircling-sea topos (the identification of Neptune as the sea is uncontroversial). Gloss and interpretation unchanged. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "john-2264-reconciled-rome",
@@ -10868,6 +11696,60 @@
     ]
   },
   {
+    "id": "john-2419-wax-simile",
+    "play": "john",
+    "tln_start": 2419,
+    "tln_end": 2420,
+    "word_start": 5,
+    "word_end": 6,
+    "anchor_text": "a form of wax / Resolveth from his figure 'gainst the fire",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Melun compares his failing life to a wax figure melting near a fire: 'resolveth from his figure' means dissolves away from its shape. Wax was used to make lifelike images (seals, effigies, dolls); a wax form losing its shape before fire is a vivid picture of a body losing the form of life as death approaches. Melun's point is persuasive: a dying man who will soon lose even the power to deceive has no motive left to lie, so his confession must be believed.",
+    "detail": "'Resolve' in Elizabethan English means to dissolve or melt (OED s.v. 'resolve,' v.: 'to melt, liquefy'). The simile belongs to a cluster of wax-imagery that plays on wax as both impressionable and perishable — able to take a precise shape (a seal-impression, a model) yet destroyed by heat. Here the image of a body that cannot hold its shape lends Melun's deathbed confession its force.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'resolve' v., sense 'to dissolve, melt, liquefy.'"
+      },
+      {
+        "name": "Schmidt, Shakespeare-Lexicon",
+        "citation": "Alexander Schmidt, Shakespeare-Lexicon, s.v. 'resolve': to melt, to be dissolved."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2419"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "OED 'resolve' v. in the sense of 'to melt, liquefy' is confirmed (the Hamlet parallel 'resolve itself into a dew' is the standard illustration); Schmidt Shakespeare-Lexicon is a genuine reference; no claim is overreached."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Interpretation judge fairly warned the Hamlet 'resolve itself into a dew' parallel conflates a different image (flesh/dew vs. wax/effigy); cut the Hamlet cross-reference and kept the sound wax-melting gloss with OED/Schmidt 'resolve'. Source was verified."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Interpretation judge fairly warned the Hamlet 'resolve itself into a dew' parallel conflates a different image (flesh/dew vs. wax/effigy); cut the Hamlet cross-reference and kept the sound wax-melting gloss with OED/Schmidt 'resolve'. Source was verified. [orig: source=verified, interp=refuted]"
+  },
+  {
     "id": "john-2448-bated-flood",
     "play": "john",
     "tln_start": 2448,
@@ -11030,6 +11912,65 @@
         "note": "Military-standards gloss is correct, the worn-flags-as-honour reading is defensible and conventional, and the undercutting 'almost' is a real textual observation."
       }
     ]
+  },
+  {
+    "id": "john-2470-goodwin-sands",
+    "play": "john",
+    "tln_start": 2470,
+    "tln_end": 2470,
+    "word_start": 1,
+    "word_end": 7,
+    "anchor_text": "cast away and sunk on Goodwin Sands",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "Goodwin Sands is a stretch of shifting sandbanks in the Strait of Dover, off the Kent coast, notorious throughout English history as a ship-trap. A fleet wrecked there could not be recovered. The messenger reports that Louis's French reinforcements and supplies have been driven onto these sands and lost — a catastrophe that removes any hope of fresh troops and leaves his army stranded in England.",
+    "detail": "Goodwin Sands was a real and still-dreaded hazard in Shakespeare's own day; Elizabethan sailors feared it deeply, which is what makes the messenger's report land with such force. The wreck of Louis's supply fleet here is Shakespeare's dramatic touch rather than strict history: Holinshed records a great loss of John's own baggage train in the Wellstream / the Washes (Lincolnshire), not a French fleet on Goodwin Sands. In the play the messenger piles three disasters into a few lines — Melun's death, the English lords' return to John, and the fleet's destruction — each removing a pillar of Louis's campaign.",
+    "sources": [
+      {
+        "name": "Goodwin Sands (Strait of Dover)",
+        "citation": "The Goodwin Sands, shifting sandbanks off the Kent coast in the Strait of Dover, proverbial in Elizabethan England as a graveyard of ships."
+      },
+      {
+        "name": "Holinshed, Chronicles (1587)",
+        "citation": "Raphael Holinshed, Chronicles (1587), 'The Life of King John': the play's chronicle source for the war with Louis; Holinshed records the loss of John's own baggage in the Wellstream/Washes (c. 1216), which Shakespeare reworks as the wreck of the French supply fleet."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "holinshed-chronicles"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2470"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Source judge correct on both points: the Goodwin Sands wreck is Shakespeare's, not Holinshed's (Holinshed has John's baggage lost in the Wash), and 'OED s.v. Goodwin Sands' is not a real headword. Replaced the fabricated OED entry with a plain geographic note, made the Holinshed cite honest about the divergence, and revised the detail accordingly. Gloss kept; holinshed-chronicles card retained as the play's documented source."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The historical identification, triple-disaster framing, and Holinshed sourcing are all accurate; the de-casibus reversal framing is a slight over-wrap (Louis still rallies) but not a misreading."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Source judge correct on both points: the Goodwin Sands wreck is Shakespeare's, not Holinshed's (Holinshed has John's baggage lost in the Wash), and 'OED s.v. Goodwin Sands' is not a real headword. Replaced the fabricated OED entry with a plain geographic note, made the Holinshed cite honest about the divergence, and revised the detail accordingly. Gloss kept; holinshed-chronicles card retained as the play's documented source. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "john-2479-fair-adventure",
@@ -11454,6 +12395,110 @@
     ]
   },
   {
+    "id": "john-2554-indigest",
+    "play": "john",
+    "tln_start": 2554,
+    "tln_end": 2555,
+    "word_start": 1,
+    "word_end": 8,
+    "anchor_text": "set a form upon that indigest Which he hath left so shapeless and so rude",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Indigest' means a formless, chaotic mass — something not yet given shape or order. Salisbury tells the young Prince Henry that he is born to give form to the 'shapeless and rude' state John leaves behind him. The word echoes Genesis and classical cosmology, where creation began as a disordered void ('indigest' translates Ovid's Latin 'indigestaque moles,' the unordered heap of matter before the world was made). The implication is that Henry III's kingship will be an act of creation out of chaos.",
+    "detail": "Ovid opens the Metamorphoses with 'rudis indigestaque moles' (Met. 1.7) — the rough, unordered mass of primordial chaos before the gods shaped the world; Arthur Golding's 1567 English version renders the chaos as a confused heap of warring seeds. Shakespeare uses the word again in 3 Henry VI 5.6, where Richard of Gloucester calls himself 'indigest' — a monster without proper human form. In King John the word is applied to the kingdom rather than the king's body: John's reign has been shapeless, morally and politically disordered, and it falls to young Henry to impose form.",
+    "sources": [
+      {
+        "name": "Ovid, Metamorphoses (Golding 1567)",
+        "citation": "Ovid, Metamorphoses 1.7 ('rudis indigestaque moles,' the unordered mass of chaos before creation), Englished in Arthur Golding's translation (1567)."
+      },
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'indigest' (adj./n.): a formless, undigested mass; with early uses in Spenser and Shakespeare."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2554"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Source judge correct that the Golding quotation ('an heape and lump of seedes confused and rude') was misquoted; removed the bogus verbatim quote and kept the verified Ovid locus (Met. 1.7, 'indigestaque moles') with Golding cited at work level. Gloss and interpretation unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The echo of Ovid's 'indigestaque moles' (Metamorphoses 1.7) via Golding is standard and well-supported; applying it to the disordered kingdom rather than the king's body follows directly from Salisbury's speech and is not an over-reading."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Source judge correct that the Golding quotation ('an heape and lump of seedes confused and rude') was misquoted; removed the bogus verbatim quote and kept the verified Ovid locus (Met. 1.7, 'indigestaque moles') with Golding cited at work level. Gloss and interpretation unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "john-2556-elbow-room",
+    "play": "john",
+    "tln_start": 2556,
+    "tln_end": 2557,
+    "word_start": 2,
+    "word_end": 8,
+    "anchor_text": "now my soul hath elbow-room; It would not out at windows nor at doors.",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "Carried out into the open air of the orchard, the dying John says 'now my soul hath elbow-room' — it has room to move at last; 'elbow-room' is space to stretch freely. The next line looks back to how cramped he was before: his fevered soul 'would not out at windows nor at doors' — pent up inside his burning body indoors, it could find no way out. Now, in the open, it finally has room.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'elbow-room': room in which to extend the elbows; room to move or act freely (earliest recorded use c. 1540)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2556"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "OED s.v. 'elbow-room' is a real entry; earliest recorded use is c.1540 (Andrew Borde), so the cited range 'c. 1540s-1590s' is accurate."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Interpretation judge correct that the gloss misread the lines as a self-contradiction; rewrote summary/detail so 'now my soul hath elbow-room' is relief in the open air and the next line describes the prior indoor confinement, and dropped the 'grimly comic self-aware wit' overread. Source (OED 'elbow-room') verified and kept."
+      }
+    ],
+    "detail": "'Elbow-room' (OED: space in which to move the elbows freely) was a relatively new compound in the period. The line is a moment of physical relief: stifled by the inward fire of his poisoning, John feels the open air give his soul room it lacked within doors. The image of a soul that could not get 'out at windows nor at doors' describes that earlier confinement, not a contradiction of the relief he now feels.",
+    "note_internal": "Review-queue rescue 2026-06-01. Interpretation judge correct that the gloss misread the lines as a self-contradiction; rewrote summary/detail so 'now my soul hath elbow-room' is relief in the open air and the next line describes the prior indoor confinement, and dropped the 'grimly comic self-aware wit' overread. Source (OED 'elbow-room') verified and kept. [orig: source=verified, interp=refuted]"
+  },
+  {
     "id": "john-2576-within-me-is-a-hell",
     "play": "john",
     "tln_start": 2576,
@@ -11815,1050 +12860,5 @@
         "note": "The gloss correctly identifies the patriotic peroration's logic (internal division as the precondition of conquest), the Elizabethan double-negative as intensifier, and the Bastard's dramatic authority as a man of divided birth but undivided loyalty; none of these readings overreach."
       }
     ]
-  },
-  {
-    "id": "john-1027-anointed-deputies",
-    "play": "john",
-    "tln_start": 1027,
-    "tln_end": 1027,
-    "word_start": 0,
-    "word_end": 5,
-    "anchor_text": "Hail, you anointed deputies of heaven!",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "Pandulph opens by calling the kings 'anointed deputies of heaven' — acknowledging that they hold their thrones by divine appointment (kings were literally anointed with holy oil at their coronations). But the greeting is double-edged: it immediately positions the Pope's legate as a superior authority, since deputies answer to their principal. Pandulph is about to tell John that this divine appointment still answers to Rome.",
-    "sources": [
-      {
-        "name": "Holinshed, Chronicles (1587)",
-        "citation": "Raphael Holinshed, Chronicles (1587), on Cardinal Pandulph's papal mission to King John (1213)."
-      },
-      {
-        "name": "Coronation rite (anointing of kings)",
-        "citation": "The medieval English coronation rite anointed the new monarch with holy oil (chrism), the basis of the idea that a king is God's 'anointed deputy'; cf. 1 Samuel 24:6 (Geneva 1599), 'the Lords anointed.'"
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "divine-right-of-kings"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1027"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Source judge correct that citing James VI's 1598 Trew Law as 'the doctrine Pandulph invokes' is anachronistic; replaced it with the coronation-anointing rite (the actual basis of 'anointed deputy') and kept Holinshed. divine-right-of-kings card retained; gloss and interpretation unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The double-edge of the greeting — acknowledging divine appointment while positioning the papal legate as the principal above the deputies — is a sound and recognized reading of Pandulph's strategy throughout the scene."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Source judge correct that citing James VI's 1598 Trew Law as 'the doctrine Pandulph invokes' is anachronistic; replaced it with the coronation-anointing rite (the actual basis of 'anointed deputy') and kept Holinshed. divine-right-of-kings card retained; gloss and interpretation unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "john-117-legitimate-wedlock",
-    "play": "john",
-    "tln_start": 117,
-    "tln_end": 117,
-    "word_start": 0,
-    "word_end": 4,
-    "anchor_text": "Sirrah, your brother is legitimate",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "John rules that Philip is legally legitimate because he was born to a wife after her marriage, regardless of who the biological father was. The legal doctrine of the day held that a child born to a married woman was presumed her husband's — 'the fault was hers' if she strayed, not the child's status. John turns the whole case against Robert with sardonic wit: if Richard had claimed Philip, old Sir Robert could not have refused him; since Richard did not, the land follows the wife's heir.",
-    "sources": [
-      {
-        "name": "Onions, A Shakespeare Glossary",
-        "citation": "C. T. Onions, A Shakespeare Glossary, s.v. 'legitimate'; the medieval common-law presumption of legitimacy ('pater est quem nuptiae demonstrant' — the father is he whom the marriage indicates), under which a child born to a married woman was presumed her husband's."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 117"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Source judge correctly flagged that the common-law legitimacy doctrine is not from Holinshed; replaced the misattributed chronicle cite with the legal maxim glossed at doctrine level (Onions) so the citation is honest. Gloss unchanged; interpretation was verified."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "John's ruling reflects the actual common-law presumption of legitimacy ('pater est quem nuptiae demonstrant') accurately, and the reading that his ruling is legally correct while also convenient is a mainstream scholarly interpretation supported by the text."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Source judge correctly flagged that the common-law legitimacy doctrine is not from Holinshed; replaced the misattributed chronicle cite with the legal maxim glossed at doctrine level (Onions) so the citation is honest. Gloss unchanged; interpretation was verified. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "john-1293-oblique-murder-commission",
-    "play": "john",
-    "tln_start": 1293,
-    "tln_end": 1293,
-    "word_start": 0,
-    "word_end": 9,
-    "anchor_text": "The sun is in the heaven, and the proud day",
-    "type": "rhetorical_device",
-    "depth": "scholar",
-    "summary": "John's speech from TLN 1293 to 1313 is a sustained exercise in circumlocutio — the rhetorical device of saying something indirectly through elaborate digression. He constructs an elaborate hypothetical (if it were midnight, if we stood in a churchyard, if you were melancholy, if you could hear without ears) whose true purpose is not to describe a setting but to build toward commissioning Arthur's murder without ever naming it. The speech ends abruptly: 'But, ah, I will not!' — and Hubert immediately volunteers to do whatever is asked.",
-    "sources": [
-      {
-        "name": "Puttenham, The Arte of English Poesie",
-        "citation": "George Puttenham, The Arte of English Poesie (1589), Book 3, on 'Periphrasis, or the Figure of Ambage' — circumlocution as a deliberate rhetorical strategy of saying a thing indirectly."
-      },
-      {
-        "name": "Braunmuller, King John (Oxford)",
-        "citation": "A. R. Braunmuller (ed.), King John (Oxford UP, 1989), note on 3.3: the 'oblique commission' of Arthur's murder and its dramatic effect."
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "the-troublesome-raigne"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1293"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Source judge correct that the Puttenham chapter number was wrong; dropped the chapter number and cited Puttenham Book 3 on periphrasis/'the Figure of Ambage' at section level (the device name, which is what the note rests on). Braunmuller verified. Gloss and interpretation unchanged; the-troublesome-raigne card kept."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Identifying the speech as circumlocutio is defensible and the annotation correctly hedges against conflating it with praeteritio/occupatio; the Richard III 4.2 parallel and Troublesome Reign contrast are accurate, and the 'plausible deniability' framing, though slightly modern, is textually grounded and has mainstream critical support."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Source judge correct that the Puttenham chapter number was wrong; dropped the chapter number and cited Puttenham Book 3 on periphrasis/'the Figure of Ambage' at section level (the device name, which is what the note rests on). Braunmuller verified. Gloss and interpretation unchanged; the-troublesome-raigne card kept. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "john-1321-serpent-in-my-way",
-    "play": "john",
-    "tln_start": 1321,
-    "tln_end": 1321,
-    "word_start": 0,
-    "word_end": 7,
-    "anchor_text": "He is a very serpent in my way",
-    "type": "biblical_allusion",
-    "depth": "basic",
-    "summary": "John calls Arthur a 'serpent' — a word that immediately carries the resonance of the devil's instrument in Eden (Genesis 3), the thing that must be crushed underfoot. 'In my way' fuses two senses: an obstacle on the road, and a creature lying underfoot waiting to strike. By branding the boy a serpent to be stamped out, John borrows scripture's curse-logic to steel himself for murder.",
-    "detail": "The serpent is the play's recurring image for Arthur's threat to John. The biblical frame darkens the planned killing: John is not merely a usurper removing a rival but a man invoking the language of God's curse on the serpent (Genesis 3:14-15) to justify the murder of a child. (The Geneva Bible's Genesis 3:15 has the serpent bruise the human 'heel' while the human crushes the serpent's 'head'; the precise heel-and-foot mechanics are not what John echoes — only the broader image of the serpent that must be trodden down.)",
-    "sources": [
-      {
-        "name": "Geneva Bible 1599",
-        "citation": "Genesis 3:14-15 (Geneva 1599): God curses the serpent and decrees enmity between the serpent and humanity."
-      },
-      {
-        "name": "Honigmann, King John (Arden 2)",
-        "citation": "E. A. J. Honigmann (ed.), King John (Arden 2, 1954), note on the serpent image and its biblical register."
-      }
-    ],
-    "references": [
-      {
-        "kind": "biblical",
-        "card_id": "garden-of-eden"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1321"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Geneva Bible 1599 Genesis 3:14-15 is real and the wording 'thou shalt bruise his heel' is confirmed correct for the Geneva text; Honigmann's Arden 2 King John (1954) is a confirmed real scholarly edition."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Interpretation judge correct that the original over-claimed 'this foot of mine' as echoing the Genesis heel-bruising (the foot/heel logic runs the other way); trimmed that claim and kept the sound serpent-as-Eden-obstacle reading. Source (Genesis 3:14-15 Geneva, Honigmann) verified and unchanged; garden-of-eden card kept."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Interpretation judge correct that the original over-claimed 'this foot of mine' as echoing the Genesis heel-bruising (the foot/heel logic runs the other way); trimmed that claim and kept the sound serpent-as-Eden-obstacle reading. Source (Genesis 3:14-15 Geneva, Honigmann) verified and unchanged; garden-of-eden card kept. [orig: source=verified, interp=refuted]"
-  },
-  {
-    "id": "john-1369-vaulty-brows",
-    "play": "john",
-    "tln_start": 1369,
-    "tln_end": 1370,
-    "word_start": 1,
-    "word_end": 7,
-    "anchor_text": "put my eyeballs in thy vaulty brows; And ring these fingers with thy household worms",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "'Vaulty brows' means the hollow eye-sockets of a skull — vaulted like the arch of a cave. 'Household worms' are the worms of the grave that inhabit a corpse; Constance imagines wearing them as rings on her fingers, completing her macabre marriage-vow to Death.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'vaulty' adj.: arched, vaulted; cited for Shakespeare's use in King John 3.4 ('vaulty brows,' the arched hollows of a skull)."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1369"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Source judge correct that 'vaulty' is not first attested in King John (OED records earlier 16th-c. use); dropped the false 'first citation' claim and kept OED 'vaulty' as the gloss authority. Gloss and interpretation unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "'Vaulty brows' as the arched hollows of a skull-socket and 'household worms' as grave-worms worn as rings are both the standard editorial reading and map precisely to the macabre marriage-vow imagery Constance is constructing."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Source judge correct that 'vaulty' is not first attested in King John (OED records earlier 16th-c. use); dropped the false 'first citation' claim and kept OED 'vaulty' as the gloss authority. Gloss and interpretation unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "john-1560-foolish-rheum",
-    "play": "john",
-    "tln_start": 1560,
-    "tln_end": 1561,
-    "word_start": 2,
-    "word_end": 5,
-    "anchor_text": "foolish rheum! / Turning dispiteous torture out of door",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "'Rheum' means tears (or mucus), fluids thought to flow from the brain. Hubert is angry that he is beginning to cry — his tears ('rheum') are, he scolds himself, turning the intended cruelty ('dispiteous torture') away by driving it out of the door before he can act. 'Dispiteous' means merciless, without pity. The aside reveals Hubert's struggle: his body is betraying his commission.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'rheum' n., sense 1: a watery fluid secreted by the mucous glands or the eyes; used by Shakespeare for tears."
-      },
-      {
-        "name": "Onions, A Shakespeare Glossary",
-        "citation": "C. T. Onions, A Shakespeare Glossary, s.v. 'dispiteous': pitiless, merciless (variant of 'despiteous')."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1560"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Source judge correct that the cross-reference 'Merchant of Venice 4.1.51' does not contain 'rheum'; dropped the bad line-locus and kept OED 'rheum' + Onions 'dispiteous'. Gloss and interpretation unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "'Rheum' as tears in humoral medicine, 'dispiteous' as merciless, and the aside's dramatic irony are all textually grounded and mainstream."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Source judge correct that the cross-reference 'Merchant of Venice 4.1.51' does not contain 'rheum'; dropped the bad line-locus and kept OED 'rheum' + Onions 'dispiteous'. Gloss and interpretation unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "john-1650-tarre-him-on",
-    "play": "john",
-    "tln_start": 1649,
-    "tln_end": 1650,
-    "word_start": 1,
-    "word_end": 8,
-    "anchor_text": "like a dog that is compell'd to fight, / Snatch at his master that doth tarre him on",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "'Tarre' (also spelled 'tar') means to provoke, incite, or set on — used specifically for urging a dog to attack. Arthur argues that the burning coal, like a dog forced against its will to fight, will turn and bite the very hand that drives it ('his master that doth tarre him on'). The simile makes John the cruel master who forces natural objects to act against their nature — and their nature is mercy.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'tar' (also 'tarre') v.: to provoke, incite, urge on (a dog or other animal) to attack; cf. Troilus and Cressida 1.3 ('Must tarre the mastiffs on') and King Lear's dog-baiting imagery."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1649"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Source judge correct that the citation pasted a long T&C passage that does not contain 'tarre'; replaced it with the genuine T&C locus ('Must tarre the mastiffs on,' 1.3) plus OED. Gloss and interpretation unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "'Tarre' as incite a fighting dog is accurately glossed, and the interpretive point — that Arthur's chain of analogies (iron, coal, dog) all argue the same thesis: every natural instrument refuses misuse — is a sound and complete reading of the rhetorical sequence TLN 1591-1654."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Source judge correct that the citation pasted a long T&C passage that does not contain 'tarre'; replaced it with the genuine T&C locus ('Must tarre the mastiffs on,' 1.3) plus OED. Gloss and interpretation unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "john-171-in-at-the-window",
-    "play": "john",
-    "tln_start": 171,
-    "tln_end": 172,
-    "word_start": 0,
-    "word_end": 8,
-    "anchor_text": "Something about, a little from the right, In at the window, or else o'er the hatch",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "The Bastard says his kinship to Elinor came 'a little from the right' — obliquely, irregularly, through an unofficial entrance. 'In at the window, or else o'er the hatch' are proverbial images for entering by an unconventional route: a window instead of a door, over a half-door ('hatch') instead of through it — i.e., he is a granddaughter's bastard, not a proper grandson. He acknowledges the awkwardness cheerfully.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'hatch' (n.1): the lower half of a divided door; a wicket or grated gate. 'In at the window' and 'over the hatch' were proverbial for an irregular or illegitimate entry (i.e. bastardy); cf. Tilley, A Dictionary of the Proverbs in England, under 'hatch / window.'"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 171"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Source judge correct that Tilley H199 is a different proverb ('No haste but good'); dropped the wrong number and cited Tilley at work level plus OED 'hatch'. Gloss and interpretation unchanged (both sound)."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Both 'in at the window' and 'o'er the hatch' as proverbial images for irregular entry are well documented (Tilley H199), and the Bastard's self-deprecating tone at TLN 170-176 fully supports the reading."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Source judge correct that Tilley H199 is a different proverb ('No haste but good'); dropped the wrong number and cited Tilley at work level plus OED 'hatch'. Gloss and interpretation unchanged (both sound). [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "john-1761-shears-of-destiny",
-    "play": "john",
-    "tln_start": 1761,
-    "tln_end": 1762,
-    "word_start": 0,
-    "word_end": 7,
-    "anchor_text": "Think you I bear the shears of destiny? Have I commandment on the pulse of life?",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "The 'shears of destiny' refers to the three Fates of classical mythology — the Moirai in Greek, the Parcae in Latin — one of whom, Atropos, cut the thread of a person's life with her shears, ending it. John asks: do you think I am a power of death who controls who lives and dies? The allusion is meant to deflect the lords' suspicion that he ordered Arthur killed.",
-    "detail": "In classical myth the three Fates spun (Clotho), measured (Lachesis), and cut (Atropos) the thread of every mortal life; Atropos's name means 'she who cannot be turned,' and her shears were the instrument of death. The image was a grammar-school commonplace through Ovid and Virgil. John's invocation of it is hollow: the audience knows he gave Hubert a warrant for Arthur's death, so his appeal to fate and 'the pulse of life' is deflection, not innocence.",
-    "sources": [
-      {
-        "name": "Ovid, Metamorphoses",
-        "citation": "Ovid, Metamorphoses (the Parcae / Fates and the thread of life; Atropos cutting the thread is the standard image); cf. Virgil, Aeneid 10 (the Parcae). The three-Fates motif was a Tudor school commonplace, read in Golding's Ovid (1567)."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1761"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Source judge correct that Met. 15.808-809 does not show the Parcae cutting a thread; dropped the wrong line-locus and generalized to Ovid/Virgil at work level for the Fates (the referent itself is uncontroversial). Gloss and interpretation unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The three Fates with Atropos cutting the thread is the standard and correct referent for 'shears of destiny'; the annotation rightly reads John's allusion as deflection rather than innocence, which the dramatic irony fully supports."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Source judge correct that Met. 15.808-809 does not show the Parcae cutting a thread; dropped the wrong line-locus and generalized to Ovid/Virgil at work level for the Fates (the referent itself is uncontroversial). Gloss and interpretation unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "john-2126-mistempered-humour",
-    "play": "john",
-    "tln_start": 2126,
-    "tln_end": 2127,
-    "word_start": 1,
-    "word_end": 6,
-    "anchor_text": "inundation of mistemper'd humour / Rests by you only to be qualified",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "John is describing the political crisis as a medical condition. In Elizabethan medicine, the body was governed by four 'humours' — fluids (blood, phlegm, yellow bile, black bile) whose balance determined health. 'Mistemper'd' means disordered or wrongly mixed; 'humour' here covers both the literal medical sense and the broader sense of mood or temper. An 'inundation' of mistempered humour means the realm is flooded with diseased, rebellious passion. 'Qualified' means reduced, calmed, or brought back to the right proportion.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'mistemper' v.: to disturb the temper or balance of; to disorder, derange (hence 'mistempered,' disordered in mixture)."
-      },
-      {
-        "name": "Schmidt, Shakespeare-Lexicon",
-        "citation": "Alexander Schmidt, Shakespeare-Lexicon, s.v. 'humour': the four bodily fluids believed to govern health and temperament in Galenic medicine; and s.v. 'qualified': moderated, reduced, brought to proportion."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2126"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Source judge correct that the parenthetical 'earliest citation 1590s' for 'mistemper' is wrong (OED records 15th-16th-c. use); dropped the false date and kept OED 'mistemper' + Schmidt 'humour'/'qualified'. Gloss and interpretation unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The four-humours gloss is sound and mainstream for Elizabethan usage; 'mistemper'd' as 'disordered in mixture' and 'qualified' as 'reduced / brought to the right proportion' are both standard OED senses fully consistent with the medical metaphor John extends in the following lines (TLN 2128-2130 with 'sick', 'medicine', 'overthrow incurable')."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Source judge correct that the parenthetical 'earliest citation 1590s' for 'mistemper' is wrong (OED records 15th-16th-c. use); dropped the false date and kept OED 'mistemper' + Schmidt 'humour'/'qualified'. Gloss and interpretation unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "john-2168-god-of-war",
-    "play": "john",
-    "tln_start": 2168,
-    "tln_end": 2169,
-    "word_start": 2,
-    "word_end": 6,
-    "anchor_text": "glister like the god of war / When he intendeth to become the field",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "The 'god of war' is Mars, the Roman deity of battle, imagined here in gleaming armor going out to grace a battlefield. The Bastard urges John to radiate martial splendor — to 'glister' (glitter, shine) with visible confidence and readiness for war. 'Intendeth to become the field' means 'intends to grace or adorn the battlefield' (to 'become' something is to look well in it, to suit it).",
-    "sources": [
-      {
-        "name": "Virgil, Aeneid; Ovid, Metamorphoses",
-        "citation": "Mars, the Roman god of war, pictured in gleaming armour going to battle — a Renaissance commonplace drawn from Virgil's Aeneid and Ovid's Metamorphoses (Englished in Golding's Ovid, 1567)."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2168"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Source judge correct that the specific loci (Met. 5.362, Aeneid 7.603) do not depict Mars in armour; dropped both line-references and generalized to Virgil/Ovid at work level for the war-god image (the identification of 'god of war' as Mars is uncontroversial). Gloss and interpretation unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The identification of 'god of war' as Mars and 'become the field' as 'grace or adorn the battlefield' are both standard and correct; the ironic framing (a diminished king being urged to perform Mars) is a reasonable and mainstream theatrical reading of the scene's dynamics."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Source judge correct that the specific loci (Met. 5.362, Aeneid 7.603) do not depict Mars in armour; dropped both line-references and generalized to Virgil/Ovid at work level for the war-god image (the identification of 'god of war' as Mars is uncontroversial). Gloss and interpretation unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "john-2228-neptunes-arms",
-    "play": "john",
-    "tln_start": 2228,
-    "tln_end": 2230,
-    "word_start": 1,
-    "word_end": 6,
-    "anchor_text": "Neptune's arms, who clippeth thee about, Would bear thee from the knowledge of thyself, And grapple thee unto a pagan shore",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "Neptune was the Roman god of the sea, and his 'arms' are the ocean surrounding England. Salisbury wishes the sea would carry England to some distant 'pagan shore' — outside Christendom — so that these two Christian armies could combine against a common enemy rather than turn on each other. 'Clippeth' means 'embraces' or 'encircles.'",
-    "sources": [
-      {
-        "name": "Ovid, Metamorphoses; Virgil, Aeneid",
-        "citation": "Neptune, the Roman god of the sea; the personification of the ocean as Neptune's encircling domain is a stock classical image in Ovid's Metamorphoses and Virgil's Aeneid (Englished in Golding's Ovid, 1567)."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2228"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Source judge correct that Met. 1.13-14 describes pre-creation chaos, not Neptune as sea-lord; dropped the wrong line-locus and generalized to Ovid/Virgil at work level for the encircling-sea topos (the identification of Neptune as the sea is uncontroversial). Gloss and interpretation unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The identification of Neptune's encircling arms as the sea surrounding England is straightforward classical personification, and the wish that England be physically transported to a pagan shore so Christian armies could unite against a common foe (the Crusade allusion) is textually exact to lines 2230-2233; the Richard II 'precious stone' parallel is apt but correctly offered only as a parallel, not an identity."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Source judge correct that Met. 1.13-14 describes pre-creation chaos, not Neptune as sea-lord; dropped the wrong line-locus and generalized to Ovid/Virgil at work level for the encircling-sea topos (the identification of Neptune as the sea is uncontroversial). Gloss and interpretation unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "john-236-good-friday-fast",
-    "play": "john",
-    "tln_start": 236,
-    "tln_end": 237,
-    "word_start": 0,
-    "word_end": 6,
-    "anchor_text": "Sir Robert might have eat his part in me Upon Good-Friday, and ne'er broke his fast",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "Good Friday was the Christian fast day commemorating the crucifixion of Christ, on which observant people ate nothing — or only the lightest of foods. The Bastard quips that old Sir Robert's share in him is so small it could be eaten on Good Friday without breaking the fast — meaning Robert contributed nothing to his making. It is a faintly sacrilegious joke deploying a holy day's abstinence as a comic measure of nothingness.",
-    "sources": [
-      {
-        "name": "Book of Common Prayer (1559)",
-        "citation": "The Book of Common Prayer (1559) and the Elizabethan ecclesiastical injunctions retained Good Friday — the Friday of Holy Week commemorating the Crucifixion — as a strict fast day in the Church of England; flesh-eating was forbidden."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 236"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Source judge correct that Mark 15:42-47 narrates the burial, not a fasting ordinance; re-cited the fast to its real source (the Book of Common Prayer / Elizabethan injunctions) and retyped biblical_allusion -> historical_topical since the joke turns on the church fast-day, not a Bible verse. Gloss unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Good Friday as a strict fast day in the post-Reformation Church of England is historically accurate, and the joke — Sir Robert's biological contribution is so negligible it could be consumed without breaking a fast — is the plain meaning of TLN 236-237; calling it 'sacrilegious' is a fair characterization of the Bastard's irreverent tone."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Source judge correct that Mark 15:42-47 narrates the burial, not a fasting ordinance; re-cited the fast to its real source (the Book of Common Prayer / Elizabethan injunctions) and retyped biblical_allusion -> historical_topical since the joke turns on the church fast-day, not a Bible verse. Gloss unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "john-2419-wax-simile",
-    "play": "john",
-    "tln_start": 2419,
-    "tln_end": 2420,
-    "word_start": 5,
-    "word_end": 6,
-    "anchor_text": "a form of wax / Resolveth from his figure 'gainst the fire",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "Melun compares his failing life to a wax figure melting near a fire: 'resolveth from his figure' means dissolves away from its shape. Wax was used to make lifelike images (seals, effigies, dolls); a wax form losing its shape before fire is a vivid picture of a body losing the form of life as death approaches. Melun's point is persuasive: a dying man who will soon lose even the power to deceive has no motive left to lie, so his confession must be believed.",
-    "detail": "'Resolve' in Elizabethan English means to dissolve or melt (OED s.v. 'resolve,' v.: 'to melt, liquefy'). The simile belongs to a cluster of wax-imagery that plays on wax as both impressionable and perishable — able to take a precise shape (a seal-impression, a model) yet destroyed by heat. Here the image of a body that cannot hold its shape lends Melun's deathbed confession its force.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'resolve' v., sense 'to dissolve, melt, liquefy.'"
-      },
-      {
-        "name": "Schmidt, Shakespeare-Lexicon",
-        "citation": "Alexander Schmidt, Shakespeare-Lexicon, s.v. 'resolve': to melt, to be dissolved."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2419"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "OED 'resolve' v. in the sense of 'to melt, liquefy' is confirmed (the Hamlet parallel 'resolve itself into a dew' is the standard illustration); Schmidt Shakespeare-Lexicon is a genuine reference; no claim is overreached."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Interpretation judge fairly warned the Hamlet 'resolve itself into a dew' parallel conflates a different image (flesh/dew vs. wax/effigy); cut the Hamlet cross-reference and kept the sound wax-melting gloss with OED/Schmidt 'resolve'. Source was verified."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Interpretation judge fairly warned the Hamlet 'resolve itself into a dew' parallel conflates a different image (flesh/dew vs. wax/effigy); cut the Hamlet cross-reference and kept the sound wax-melting gloss with OED/Schmidt 'resolve'. Source was verified. [orig: source=verified, interp=refuted]"
-  },
-  {
-    "id": "john-2470-goodwin-sands",
-    "play": "john",
-    "tln_start": 2470,
-    "tln_end": 2470,
-    "word_start": 1,
-    "word_end": 7,
-    "anchor_text": "cast away and sunk on Goodwin Sands",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "Goodwin Sands is a stretch of shifting sandbanks in the Strait of Dover, off the Kent coast, notorious throughout English history as a ship-trap. A fleet wrecked there could not be recovered. The messenger reports that Louis's French reinforcements and supplies have been driven onto these sands and lost — a catastrophe that removes any hope of fresh troops and leaves his army stranded in England.",
-    "detail": "Goodwin Sands was a real and still-dreaded hazard in Shakespeare's own day; Elizabethan sailors feared it deeply, which is what makes the messenger's report land with such force. The wreck of Louis's supply fleet here is Shakespeare's dramatic touch rather than strict history: Holinshed records a great loss of John's own baggage train in the Wellstream / the Washes (Lincolnshire), not a French fleet on Goodwin Sands. In the play the messenger piles three disasters into a few lines — Melun's death, the English lords' return to John, and the fleet's destruction — each removing a pillar of Louis's campaign.",
-    "sources": [
-      {
-        "name": "Goodwin Sands (Strait of Dover)",
-        "citation": "The Goodwin Sands, shifting sandbanks off the Kent coast in the Strait of Dover, proverbial in Elizabethan England as a graveyard of ships."
-      },
-      {
-        "name": "Holinshed, Chronicles (1587)",
-        "citation": "Raphael Holinshed, Chronicles (1587), 'The Life of King John': the play's chronicle source for the war with Louis; Holinshed records the loss of John's own baggage in the Wellstream/Washes (c. 1216), which Shakespeare reworks as the wreck of the French supply fleet."
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "holinshed-chronicles"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2470"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Source judge correct on both points: the Goodwin Sands wreck is Shakespeare's, not Holinshed's (Holinshed has John's baggage lost in the Wash), and 'OED s.v. Goodwin Sands' is not a real headword. Replaced the fabricated OED entry with a plain geographic note, made the Holinshed cite honest about the divergence, and revised the detail accordingly. Gloss kept; holinshed-chronicles card retained as the play's documented source."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The historical identification, triple-disaster framing, and Holinshed sourcing are all accurate; the de-casibus reversal framing is a slight over-wrap (Louis still rallies) but not a misreading."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Source judge correct on both points: the Goodwin Sands wreck is Shakespeare's, not Holinshed's (Holinshed has John's baggage lost in the Wash), and 'OED s.v. Goodwin Sands' is not a real headword. Replaced the fabricated OED entry with a plain geographic note, made the Holinshed cite honest about the divergence, and revised the detail accordingly. Gloss kept; holinshed-chronicles card retained as the play's documented source. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "john-2554-indigest",
-    "play": "john",
-    "tln_start": 2554,
-    "tln_end": 2555,
-    "word_start": 1,
-    "word_end": 8,
-    "anchor_text": "set a form upon that indigest Which he hath left so shapeless and so rude",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "'Indigest' means a formless, chaotic mass — something not yet given shape or order. Salisbury tells the young Prince Henry that he is born to give form to the 'shapeless and rude' state John leaves behind him. The word echoes Genesis and classical cosmology, where creation began as a disordered void ('indigest' translates Ovid's Latin 'indigestaque moles,' the unordered heap of matter before the world was made). The implication is that Henry III's kingship will be an act of creation out of chaos.",
-    "detail": "Ovid opens the Metamorphoses with 'rudis indigestaque moles' (Met. 1.7) — the rough, unordered mass of primordial chaos before the gods shaped the world; Arthur Golding's 1567 English version renders the chaos as a confused heap of warring seeds. Shakespeare uses the word again in 3 Henry VI 5.6, where Richard of Gloucester calls himself 'indigest' — a monster without proper human form. In King John the word is applied to the kingdom rather than the king's body: John's reign has been shapeless, morally and politically disordered, and it falls to young Henry to impose form.",
-    "sources": [
-      {
-        "name": "Ovid, Metamorphoses (Golding 1567)",
-        "citation": "Ovid, Metamorphoses 1.7 ('rudis indigestaque moles,' the unordered mass of chaos before creation), Englished in Arthur Golding's translation (1567)."
-      },
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'indigest' (adj./n.): a formless, undigested mass; with early uses in Spenser and Shakespeare."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2554"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Source judge correct that the Golding quotation ('an heape and lump of seedes confused and rude') was misquoted; removed the bogus verbatim quote and kept the verified Ovid locus (Met. 1.7, 'indigestaque moles') with Golding cited at work level. Gloss and interpretation unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The echo of Ovid's 'indigestaque moles' (Metamorphoses 1.7) via Golding is standard and well-supported; applying it to the disordered kingdom rather than the king's body follows directly from Salisbury's speech and is not an over-reading."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Source judge correct that the Golding quotation ('an heape and lump of seedes confused and rude') was misquoted; removed the bogus verbatim quote and kept the verified Ovid locus (Met. 1.7, 'indigestaque moles') with Golding cited at work level. Gloss and interpretation unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "john-2556-elbow-room",
-    "play": "john",
-    "tln_start": 2556,
-    "tln_end": 2557,
-    "word_start": 2,
-    "word_end": 8,
-    "anchor_text": "now my soul hath elbow-room; It would not out at windows nor at doors.",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "Carried out into the open air of the orchard, the dying John says 'now my soul hath elbow-room' — it has room to move at last; 'elbow-room' is space to stretch freely. The next line looks back to how cramped he was before: his fevered soul 'would not out at windows nor at doors' — pent up inside his burning body indoors, it could find no way out. Now, in the open, it finally has room.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'elbow-room': room in which to extend the elbows; room to move or act freely (earliest recorded use c. 1540)."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2556"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "OED s.v. 'elbow-room' is a real entry; earliest recorded use is c.1540 (Andrew Borde), so the cited range 'c. 1540s-1590s' is accurate."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Interpretation judge correct that the gloss misread the lines as a self-contradiction; rewrote summary/detail so 'now my soul hath elbow-room' is relief in the open air and the next line describes the prior indoor confinement, and dropped the 'grimly comic self-aware wit' overread. Source (OED 'elbow-room') verified and kept."
-      }
-    ],
-    "detail": "'Elbow-room' (OED: space in which to move the elbows freely) was a relatively new compound in the period. The line is a moment of physical relief: stifled by the inward fire of his poisoning, John feels the open air give his soul room it lacked within doors. The image of a soul that could not get 'out at windows nor at doors' describes that earlier confinement, not a contradiction of the relief he now feels.",
-    "note_internal": "Review-queue rescue 2026-06-01. Interpretation judge correct that the gloss misread the lines as a self-contradiction; rewrote summary/detail so 'now my soul hath elbow-room' is relief in the open air and the next line describes the prior indoor confinement, and dropped the 'grimly comic self-aware wit' overread. Source (OED 'elbow-room') verified and kept. [orig: source=verified, interp=refuted]"
-  },
-  {
-    "id": "john-267-aweless-lion",
-    "play": "john",
-    "tln_start": 267,
-    "tln_end": 268,
-    "word_start": 0,
-    "word_end": 7,
-    "anchor_text": "Against whose fury and unmatched force The aweless lion could not wage the fight",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "'Aweless' means without awe, fearless — a lion that fears nothing. The Bastard argues that Richard was so mighty that even a fearless lion could not fight him off, nor keep its 'princely heart' from him: Richard 'perforce robs lions of their hearts.' His point is hyperbolic consolation — a man who can overpower the king of beasts could 'easily win a woman's' heart, so his mother could hardly have resisted such a man.",
-    "detail": "The lion is Richard's emblem (Coeur-de-lion, 'Lion-heart'), and the play is full of lion imagery: Austria wears the lion-skin taken when Richard died, and the Bastard later reclaims it. Here, though, the lion is imagined as Richard's prey, not as a figure for Lady Faulconbridge: Richard is so overpowering that he takes the heart even from the fearless lion. The Bastard caps the consolation by vowing (TLN 272-274) to send to hell anyone who says his mother 'didst not well' in conceiving him.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'aweless' (also 'awless') adj.: feeling no awe; fearless, undaunted."
-      }
-    ],
-    "references": [],
-    "confidence": "medium",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 267"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Apollodorus Library 2.5.1 genuinely describes the Nemean lion as invulnerable and slain by Hercules' strangulation with bare hands; the citation is correctly referenced and the classical parallel to the 'aweless lion' image is defensible."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Interpretation judge correct that the gloss inverted the image (the lion is Richard's victim, not the resisting mother) and that the Nemean-lion card imports a different, invincible lion; rewrote summary/detail to the plain reading, dropped the nemean-lion reference and the Apollodorus locus, and retyped classical_allusion -> archaic_vocab, leaning on OED for 'aweless'."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Interpretation judge correct that the gloss inverted the image (the lion is Richard's victim, not the resisting mother) and that the Nemean-lion card imports a different, invincible lion; rewrote summary/detail to the plain reading, dropped the nemean-lion reference and the Apollodorus locus, and retyped classical_allusion -> archaic_vocab, leaning on OED for 'aweless'. [orig: source=verified, interp=refuted]"
-  },
-  {
-    "id": "john-417-hare-proverb",
-    "play": "john",
-    "tln_start": 417,
-    "tln_end": 418,
-    "word_start": 0,
-    "word_end": 7,
-    "anchor_text": "You are the hare of whom the proverb goes, Whose valour plucks dead lions by the beard",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "The Bastard taunts Austria with a proverb: a hare (a cowardly animal) that dares to pluck a dead lion by the beard — an act requiring no bravery at all, since the lion cannot fight back. Austria killed Richard Coeur-de-lion ('lion-heart') when he could get at him, but he was no real match for a living Richard. The Bastard, as Richard's acknowledged son, is directly challenging Austria.",
-    "sources": [
-      {
-        "name": "Tilley, A Dictionary of the Proverbs in England",
-        "citation": "M. P. Tilley, A Dictionary of the Proverbs in England in the Sixteenth and Seventeenth Centuries (1950), under the proverb 'hares may pull dead lions by the beard'; the idea appears in Latin as 'mortuo leoni et lepores insultant' (even hares insult a dead lion)."
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "richard-the-lionheart"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 417"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Source judge correct that the proverb is not Tilley L322; dropped the wrong number and cited Tilley at work level plus the Latin form, both verifiable. Gloss and interpretation unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The hare/dead-lion proverb and its application to Austria's role in Richard's death is the standard reading; the Latin form and Tilley citation support the gloss; the lion-skin motif running through the scene is correctly identified."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Source judge correct that the proverb is not Tilley L322; dropped the wrong number and cited Tilley at work level plus the Latin form, both verifiable. Gloss and interpretation unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "john-421-lion-robe",
-    "play": "john",
-    "tln_start": 421,
-    "tln_end": 422,
-    "word_start": 0,
-    "word_end": 7,
-    "anchor_text": "O, well did he become that lion's robe That did disrobe the lion of that robe",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "Blanch admires Austria's lion-skin: Richard I ('the lion') wore it well, and Austria, who stripped it from him ('did disrobe the lion'), wears it fittingly too. The lines turn on a deliberate pun, 'robe' / 'disrobe' in the same breath. The lion-skin is a real prop — Austria's trophy for Richard's death — and editors disagree whether Blanch's praise is naive or whether the repeated pun quietly mocks Austria; the Bastard certainly treats the skin as stolen valour.",
-    "sources": [
-      {
-        "name": "Holinshed, Chronicles (1587)",
-        "citation": "Raphael Holinshed, Chronicles (1587), on Richard I's death at Chalus-Chabrol and the duke's role."
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "richard-the-lionheart"
-      }
-    ],
-    "confidence": "medium",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 421"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Holinshed 1587 records Richard I's death and the circumstances involving Austria; the wordplay analysis is rhetorical and does not require more than the chronicle source provides."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Interpretation judge fairly noted the lines' tone is debated (sincere praise vs. the pun undercutting it); softened 'deliberate wordplay' to acknowledge the editorial debate and lowered confidence high -> medium. Source (Holinshed on Richard I's death) was verified and is unchanged; richard-the-lionheart card kept."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Interpretation judge fairly noted the lines' tone is debated (sincere praise vs. the pun undercutting it); softened 'deliberate wordplay' to acknowledge the editorial debate and lowered confidence high -> medium. Source (Holinshed on Richard I's death) was verified and is unchanged; richard-the-lionheart card kept. [orig: source=verified, interp=refuted]"
   }
 ]

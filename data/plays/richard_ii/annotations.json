@@ -107,6 +107,60 @@
     ]
   },
   {
+    "id": "richard_ii-18-high-stomachd",
+    "play": "richard_ii",
+    "tln_start": 18,
+    "tln_end": 18,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "High-stomach'd are they both and full of ire",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'High-stomach'd' means haughty, fiercely proud, or full of hot rage -- a man with a 'high stomach' was one whose pride made him quick to anger and impossible to pacify. Richard is noting that both Bolingbroke and Mowbray are far too proud and angry to be talked down.",
+    "detail": "In Elizabethan usage 'stomach' regularly meant spirit, courage, or resentful pride, not the digestive organ -- a meaning surviving in 'I have no stomach for it' (no heart for it). 'High-stomached' thus describes inflated pride that swells into rage. The comparison that follows -- 'deaf as the sea, hasty as fire' -- casts the two men as elemental forces: the sea's indifference to reason, fire's speed and destructiveness.",
+    "sources": [
+      {
+        "name": "Schmidt, Shakespeare-Lexicon",
+        "citation": "Schmidt, Alexander, Shakespeare-Lexicon (Berlin, 1874-75), s.v. 'stomach': 'pride, haughtiness, passion.'"
+      },
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'stomach' n., sense for 'spirit, courage; haughtiness, pride, obstinacy' (now archaic)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 18"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Removed the disputed Schmidt sense-number '(3)' and generalized to Schmidt s.v. 'stomach'; added OED as a second robust source; gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The reading of 'high-stomach'd' as haughty/fiercely proud is the standard Elizabethan sense and fits Richard's characterisation of both men as too proud to be reasoned with; the elemental similes in the following line support the reading."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Removed the disputed Schmidt sense-number '(3)' and generalized to Schmidt s.v. 'stomach'; added OED as a second robust source; gloss unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "richard_ii-27-appeal-treason",
     "play": "richard_ii",
     "tln_start": 27,
@@ -670,6 +724,56 @@
     ]
   },
   {
+    "id": "richard_ii-153-choler-humours",
+    "play": "richard_ii",
+    "tln_start": 153,
+    "tln_end": 153,
+    "word_start": 1,
+    "word_end": 6,
+    "anchor_text": "purge this choler without letting blood",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "Richard is drawing on the medical theory of the four humours: choler (yellow bile) was the humour responsible for anger, hot temper, and aggression. To 'purge choler' normally meant a physician's treatment -- either by purging medicine or by 'letting blood' (cutting a vein to drain excess humour). Richard says they should calm the anger without the bleeding -- a pun, since 'letting blood' also means fighting. 'Our doctors say this is no month to bleed' continues the medical conceit.",
+    "detail": "In Galenic medicine, which dominated European medical practice until the eighteenth century, the body contained four fluids: blood, phlegm, yellow bile (choler), and black bile (melancholy). An excess of choler caused a violent, irascible temperament. Treatment included purging the excess through medicines, diet, or phlebotomy (bloodletting). The month of bleeding mattered: astrological medicine held that certain months and signs of the zodiac were unfavorable for phlebotomy, and doctors consulted almanacs to advise when bleeding was safe. Richard's medical joke is that they should cool the humour without the surgery (the duel), because the timing is medically wrong -- and because the metaphorical blood of judicial combat is too high a price.",
+    "sources": [
+      {
+        "name": "Galenic humoral medicine; Burton, The Anatomy of Melancholy",
+        "citation": "Galenic four-humours doctrine (choler = yellow bile, the seat of anger, treated by purging and phlebotomy); described at length in Robert Burton, The Anatomy of Melancholy (1621)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 153"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the wrong precise Burton locus (Part 1.1.2) and generalized to Galenic doctrine + Burton's Anatomy at work level; gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The humoral reading (choler/yellow bile causing hot anger, purging via medicine or phlebotomy, astrological timing of bloodletting) is accurate to Galenic medicine and the pun on 'letting blood' = fighting is sound; Burton's Anatomy (1621) post-dates the play but the underlying Galenic doctrine is correctly described."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the wrong precise Burton locus (Part 1.1.2) and generalized to Galenic doctrine + Burton's Anatomy at work level; gloss unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "richard_ii-166-no-boot",
     "play": "richard_ii",
     "tln_start": 166,
@@ -1021,6 +1125,60 @@
         "note": "The argument that Gloucester's murder constitutes an attack on Gaunt's shared blood — and by extension on Gaunt's own life — is the plain meaning of TLN 230-235 ('his blood was thine … yet art thou slain in him'), and the political framing of royal descent as corporate property is mainstream scholarship on this passage."
       }
     ]
+  },
+  {
+    "id": "richard_ii-223-destinies-cut",
+    "play": "richard_ii",
+    "tln_start": 223,
+    "tln_end": 223,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "Some of those branches by the Destinies cut",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "The 'Destinies' are the three Fates of classical mythology -- Clotho, Lachesis, and Atropos -- who spun, measured, and cut the thread of every human life. Calling natural death a cutting by the Destinies distinguishes it from Gloucester's murder: some of Edward's sons died in their time; Gloucester's life was cut before its term.",
+    "detail": "In Greek and Roman tradition the three Fates (Greek Moirai; Latin Parcae) govern the length of every life. Clotho spins the thread of life, Lachesis measures it, and Atropos -- whose name means 'she who cannot be turned' -- cuts it. Hesiod names them in the Theogony (218-220, and again 901-906) as daughters of Zeus and Themis; Ovid alludes to them across the Metamorphoses. The tree-and-branches metaphor the Duchess uses is then a pointed contrast: natural death is the Destinies at work; Gloucester's death was 'envy's hand and murder's bloody axe' (TLN 229), which cut without the Fates' sanction.",
+    "sources": [
+      {
+        "name": "Hesiod, Theogony",
+        "citation": "Hesiod, Theogony 218-220 and 901-906 (the three Fates: Clotho, Lachesis, Atropos)."
+      },
+      {
+        "name": "Ovid, Metamorphoses",
+        "citation": "Ovid, Metamorphoses (the Fates spinning and cutting the thread of life); Englished by Arthur Golding (1567)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 223"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Hesiod citation is correct and retained; generalized the disputed Ovid Met. 8.451-454 locus to the work level (Golding kept) rather than inventing a new line reference."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The contrast between natural deaths ('dried by nature's course,' TLN 222) and Gloucester's murder ('envy's hand and murder's bloody axe,' TLN 229) is explicit in the text, and the Fates/Destinies gloss is the standard classical referent for this image."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Hesiod citation is correct and retained; generalized the disputed Ovid Met. 8.451-454 locus to the work level (Golding kept) rather than inventing a new line reference. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "richard_ii-228-vaded",
@@ -3391,6 +3549,55 @@
     ]
   },
   {
+    "id": "richard_ii-698-seat-of-mars",
+    "play": "richard_ii",
+    "tln_start": 698,
+    "tln_end": 698,
+    "word_start": 4,
+    "word_end": 7,
+    "anchor_text": "this seat of Mars",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Mars was the Roman god of war; his 'seat' is a throne or home. Gaunt calls England the place where Mars -- that is, military valor -- resides. The phrase praises England's warrior reputation and implicitly blames Richard for abandoning it.",
+    "sources": [
+      {
+        "name": "Virgil, Aeneid",
+        "citation": "Virgil, Aeneid (Mars as the Roman god of war, the standard martial deity invoked throughout Renaissance literature)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 698"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Replaced the wrong Ovid Met. 4.171-189 locus (the Mars/Venus adultery episode, not war-god material) with Virgil's Aeneid, an allowlisted ancient author naming Mars as god of war; gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Mars as Roman god of war and 'seat' as throne or habitation is straightforward and uncontroversial; the praise-of-English-military-valor reading is directly supported by the surrounding sceptred-isle speech."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Replaced the wrong Ovid Met. 4.171-189 locus (the Mars/Venus adultery episode, not war-god material) with Virgil's Aeneid, an allowlisted ancient author naming Mars as god of war; gloss unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "richard_ii-699-other-eden",
     "play": "richard_ii",
     "tln_start": 699,
@@ -3964,6 +4171,111 @@
         "note": "An ague as a malarial fever with chills is accurate; the reading that Richard dismisses Gaunt's boldness as sick-man's delusion is exactly what 'presuming on an ague's privilege' means."
       }
     ]
+  },
+  {
+    "id": "richard_ii-784-pelican",
+    "play": "richard_ii",
+    "tln_start": 784,
+    "tln_end": 785,
+    "word_start": 3,
+    "word_end": 6,
+    "anchor_text": "like the pelican, Hast thou tapp'd out, and drunkenly carous'd",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "The pelican was believed to feed its young by pecking open its own breast and letting them drink its blood; it was the standard Christian symbol of a parent's self-sacrificing love, and of Christ shedding his blood for humanity. Gaunt accuses Richard of inverting the image completely: instead of a parent feeding its children, Richard is a child who has 'tapped out' (drawn off like a barrel's contents) the royal blood -- his family's lifeblood -- for his own drunken indulgence.",
+    "detail": "The pelican legend was ubiquitous in medieval heraldry, bestiaries, and Christian iconography. To 'drunkenly carouse' the blood is a grotesque image of the Eucharist reversed -- instead of Christ's blood shed for others, Richard drinks the family blood for pleasure. The accusation is precise: Gloucester's blood, royal Plantagenet blood, has been spilled on Richard's order. Shakespeare uses the pelican image elsewhere in a related but darker sense (Hamlet 4.5, King Lear 3.4): the 'pelican daughters' who drink their parent dry.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'pelican' n., sense 1b: the traditional fable of the pelican feeding (or reviving) its young with its own blood."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 784"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the unverifiable/fabricated 'Druce, The Pelican' citation; the genuine OED 1b source carries the factual content; gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The pelican-in-piety legend (parent feeding young with its own blood) is correctly described and the inversion — Richard drinking family blood rather than sustaining it — is precisely what Gaunt says; the Eucharist-reversed reading is a standard and defensible gloss, not an overreach."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the unverifiable/fabricated 'Druce, The Pelican' citation; the genuine OED 1b source carries the factual content; gloss unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "richard_ii-786-gloucester-plain-well-meaning",
+    "play": "richard_ii",
+    "tln_start": 786,
+    "tln_end": 787,
+    "word_start": 0,
+    "word_end": 4,
+    "anchor_text": "My brother Gloucester, plain well-meaning soul, Whom fair befall in heaven",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "Thomas of Woodstock, Duke of Gloucester, was Edward III's youngest surviving son and Gaunt's brother. Richard II had him arrested in 1397 and he died in captivity at Calais -- almost certainly murdered on Richard's orders, though the king denied it. His death is the unresolved grievance at the start of the play (the Duchess of Gloucester begs Gaunt to avenge it). Here Gaunt names it to Richard's face.",
+    "detail": "Gaunt phrases the accusation carefully but unmistakably: Richard killed Gloucester -- another son of Edward III -- and that precedent shows he will not scruple to shed more of 'Edward's blood,' Gaunt's own included. The phrase 'Whom fair befall in heaven' is a prayer for a man Gaunt knows is already dead. The murder is recorded in Holinshed and is the historical foundation of the play; the accusation over Gloucester's death is raised in this play's opening scene, where the Duchess of Gloucester pleads with it.",
+    "sources": [
+      {
+        "name": "Holinshed, Chronicles (1587)",
+        "citation": "Raphael Holinshed, Chronicles of England, Scotland, and Ireland (1587): the arrest and death of Thomas of Woodstock, Duke of Gloucester, 1397."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "edward-iii-and-his-sons"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 786"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Holinshed's account of Thomas of Woodstock's arrest and death in 1397 on Richard's orders is genuine and directly supports the historical claim."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Interp judge was right: trimmed the confused detail sentence claiming a separate 'earlier play Richard II' (the accusation is raised in this play's own first scene); verified Holinshed source retained."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Interp judge was right: trimmed the confused detail sentence claiming a separate 'earlier play Richard II' (the accusation is raised in this play's own first scene); verified Holinshed source retained. [orig: source=verified, interp=refuted]"
   },
   {
     "id": "richard_ii-815-rug-headed-kerns",
@@ -5129,6 +5441,60 @@
     ]
   },
   {
+    "id": "richard_ii-1105-numbring-sands",
+    "play": "richard_ii",
+    "tln_start": 1105,
+    "tln_end": 1106,
+    "word_start": 3,
+    "word_end": 6,
+    "anchor_text": "the task he undertakes Is numb'ring sands and drinking oceans dry",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Green uses a rhetorical figure called an adynaton -- a list of impossibilities used to say that something can never happen. Counting every grain of sand on a beach and drinking the ocean dry are proverbially impossible tasks; Green is saying that York holding off Bolingbroke is equally impossible. The figure is common in classical and Renaissance poetry to express hopeless odds.",
+    "detail": "The 'counting sands' figure has ancient precedents: the innumerable sands are a standard classical type of the uncountable (compare Pindar's odes and Ovid). The image was a recognizable rhetorical trope that Shakespeare's audience would have heard in sermons and schoolroom exercises. Its force here is political: the speaker who most wants to be reassuring (Green, one of the king's own men) is the one who delivers the most unsparing verdict on York's chances.",
+    "sources": [
+      {
+        "name": "Lanham, A Handlist of Rhetorical Terms",
+        "citation": "Richard A. Lanham, A Handlist of Rhetorical Terms (2nd ed., 1991), s.v. 'adynaton': a stringing together of impossibilities; an extravagant figure of speech that emphasises impossibility."
+      },
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'adynaton' (rhetorical figure of impossibility, used to emphasise hopelessness or extreme magnitude)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1105"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Removed the misattributed Ovid Amores 1.2, the off-by-one Pindar line, and the unverifiable Tamburlaine locus; cited Lanham's Handlist for the device name + generalized the classical precedents; gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The figure is correctly identified as an adynaton and the classical precedents are standard; the annotation's observation that it is politically pointed because it comes from one of the king's own men (Green) is a sound reading of the dramatic context."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Removed the misattributed Ovid Amores 1.2, the off-by-one Pindar line, and the unverifiable Tamburlaine locus; cited Lanham's Handlist for the device name + generalized the classical precedents; gloss unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "richard_ii-1115-draws-out-miles",
     "play": "richard_ii",
     "tln_start": 1114,
@@ -5543,6 +5909,61 @@
     ]
   },
   {
+    "id": "richard_ii-1208-anointed-king",
+    "play": "richard_ii",
+    "tln_start": 1208,
+    "tln_end": 1210,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "Com'st thou because the anointed king is hence? / Why, foolish boy, the king is left behind, / And in my loyal bosom lies his power",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "'Anointed' means consecrated with holy oil at the coronation -- a ceremony that made the king not just a political ruler but God's appointed deputy on earth. York's point is that Richard's physical absence in Ireland does not create a vacancy: his sacred authority, deposited in his regent York, remains in England. Attacking the regent is attacking the king.",
+    "detail": "At his coronation a monarch was anointed on hands, breast, and head with holy oil (chrism), in a ceremony mirroring Old Testament kings such as David and Solomon. This made the king's person sacred -- to strike him was sacrilege, not merely treason. Throughout the play Richard invokes this anointing as his shield ('Not all the water in the rough rude sea / Can wash the balm off from an anointed king,' 3.2). York's argument here is that Bolingbroke's march is not merely illegal but impious: the anointed king's power travels with his regent.",
+    "sources": [
+      {
+        "name": "James VI & I, The Trew Law of Free Monarchies (1598)",
+        "citation": "James VI & I, The Trew Law of Free Monarchies (1598): the anointed king as God's lieutenant on earth -- a near-contemporary statement of the doctrine the play dramatizes."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "divine-right-of-kings"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1208"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Fixed the name/citation mismatch by naming the actual cited work (The Trew Law of Free Monarchies, 1598) and framing it honestly as a near-contemporary parallel, not a source the play drew on; gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The theological weight of 'anointed' (chrism, sacral kingship, God's deputy) is accurately described and central to the play's argument; York's claim that the king's power resides in his regent is correctly read as a theological rather than merely constitutional point."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Fixed the name/citation mismatch by naming the actual cited work (The Trew Law of Free Monarchies, 1598) and framing it honestly as a near-contemporary parallel, not a source the play drew on; gloss unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "richard_ii-1241-sue-livery",
     "play": "richard_ii",
     "tln_start": 1241,
@@ -5696,6 +6117,119 @@
         "note": "The political-parasite sense of 'caterpillar' is established in Elizabethan usage and the OED supports it; the connection to the garden-as-England motif running through the play (culminating in 3.4) is a mainstream critical observation."
       }
     ]
+  },
+  {
+    "id": "richard_ii-1283-past-redress-past-care",
+    "play": "richard_ii",
+    "tln_start": 1283,
+    "tln_end": 1283,
+    "word_start": 0,
+    "word_end": 8,
+    "anchor_text": "Things past redress are now with me past care",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "York closes the scene with a maxim built on emphatic repetition: he restates 'past redress' so that the second clause turns it into a conclusion -- once harm is past fixing, anguish over it serves no purpose. The logic is stoic resignation, and the line is nearly proverbial in form, deliberately so: York packages defeat as wisdom.",
+    "detail": "The proverbial structure was a standard form of sentential argument in Elizabethan drama, drawn from the tradition of political maxims (sententiae). York is, of course, rationalising: what is 'past redress' is not some abstract misfortune but the advance of a rebel army he has just agreed to house. The line ends the scene on a note of moral surrender dressed as philosophical acceptance -- a characterisation of York as a man of genuine scruple who has run out of practical resistance.",
+    "sources": [
+      {
+        "name": "Tilley, A Dictionary of the Proverbs in England",
+        "citation": "M. P. Tilley, A Dictionary of the Proverbs in England in the Sixteenth and Seventeenth Centuries (1950), R56: 'What is past remedy (redress) is past grief.'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1283"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Tilley's Dictionary of the Proverbs (1950) is a real and standard Shakespeare-studies reference; entry R56 ('What is past remedy is past grief') is plausibly correct for this proverbial sentiment and the line cited from Richard II."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Interp judge correct: 'anadiplosis' was misapplied (the phrase is repeated as a unit, not carried as the next clause's first word). Recast as emphatic repetition / sententia and dropped the wrong term; verified Tilley source retained."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Interp judge correct: 'anadiplosis' was misapplied (the phrase is repeated as a unit, not carried as the next clause's first word). Recast as emphatic repetition / sententia and dropped the wrong term; verified Tilley source retained. [orig: source=verified, interp=refuted]"
+  },
+  {
+    "id": "richard_ii-1291-bay-trees-witherd",
+    "play": "richard_ii",
+    "tln_start": 1291,
+    "tln_end": 1291,
+    "word_start": 0,
+    "word_end": 8,
+    "anchor_text": "The bay trees in our country are all wither'd",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "In Elizabethan natural lore the bay (laurel) tree was believed to wither as an omen of disaster, especially the death of a king. The withering of bays is one of the prodigies the chroniclers attach to Richard II's fall, and the Welsh Captain reads the withered bays as a sign that Richard is already doomed.",
+    "detail": "The bay or sweet laurel (Laurus nobilis) was the tree of Apollo, the crown of victors, and -- by Elizabethan extension -- of sovereign power; Pliny the Elder gives the laurel an honoured, almost sacred status in his Natural History. The withered-bays portent is transmitted in Holinshed's account of Richard's reign. Shakespeare returns to prodigies attending royal deaths across the histories and tragedies (Julius Caesar 2.2, Macbeth 2.4); here the bay omen heads the Captain's litany that identifies nature itself as a register of the king's fate -- consistent with the great-chain-of-being doctrine that disorder in the kingdom reverberates through the natural world.",
+    "sources": [
+      {
+        "name": "Pliny, Natural History",
+        "citation": "Pliny the Elder, Natural History, Book 15 (on the laurel/bay and its honoured status)."
+      },
+      {
+        "name": "Holinshed, Chronicles (1587)",
+        "citation": "Raphael Holinshed, Chronicles of England, Scotland, and Ireland (1587): account of Richard II's reign, noting portents accompanying his downfall (the withered bay trees)."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "the-great-chain-of-being"
+      },
+      {
+        "kind": "historical",
+        "card_id": "holinshed-chronicles"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1291"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Generalized the wrong Pliny locus (NH 15.27) to NH Book 15 (the laurel) and dropped the unsupported 'withered before Caesar's death' claim; Holinshed retained for the portent; gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The withered-bays portent as a sign of royal death is a well-attested Pliny/Holinshed topos and fits the Captain's explicit omen catalogue (TLN 1298: 'These signs forerun the death or fall of kings'); the great-chain-of-being reading is mainstream."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Generalized the wrong Pliny locus (NH 15.27) to NH Book 15 (the laurel) and dropped the unsupported 'withered before Caesar's death' claim; Holinshed retained for the portent; gloss unchanged. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "richard_ii-1292-meteors-fixed-stars",
@@ -5971,6 +6505,56 @@
         "note": "The Pilate allusion is mainstream and well-supported; the claim in the summary that Bolingbroke 'reverses' the gesture slightly overreaches (he mirrors it rather than inverts it), but the core reading — a public performance of innocence before execution — is defensible, and the forward echo to 4.1 is accurate."
       }
     ]
+  },
+  {
+    "id": "richard_ii-1328-bitter-bread",
+    "play": "richard_ii",
+    "tln_start": 1328,
+    "tln_end": 1328,
+    "word_start": 2,
+    "word_end": 5,
+    "anchor_text": "bitter bread of banishment",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Bitter bread' evokes a conventional biblical phrase for the hard, degrading food eaten in captivity or exile -- the opposite of the fine food enjoyed at a king's table. Bolingbroke uses it to describe the hardship of his years living abroad after Richard banished him. The alliteration ('bitter bread... banishment') heightens its rhetorical force as part of his public indictment of Bushy and Green.",
+    "detail": "The phrase echoes a recurring Old Testament idiom: the 'bread of affliction' given to prisoners (1 Kings 22:27; Isaiah 30:20, Geneva 1599). In the context of Bolingbroke's speech the phrase is also a piece of political theatre: eating another man's bread was a mark of dependency and humiliation, while in his own halls a nobleman commanded the best of his own 'signories' (estates). The complaint threads together physical privation with social dishonour.",
+    "sources": [
+      {
+        "name": "Geneva Bible 1599",
+        "citation": "1 Kings 22:27 (Geneva 1599): 'Put this fellow in the prison, and feede him with bread of affliction, and with water of affliction.' Compare Isaiah 30:20 (Geneva 1599)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1328"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the fabricated Onions 'bread' entry; the accurate Geneva 1 Kings 22:27 citation (verified by the judge) carries the biblical idiom; gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The biblical 'bread of affliction' parallel is well-attested and the alliterative rhetorical observation is sound; no over-reading."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the fabricated Onions 'bread' entry; the accurate Geneva 1 Kings 22:27 citation (verified by the judge) carries the biblical idiom; gloss unchanged. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "richard_ii-1330-dispark-household-coat",
@@ -6509,6 +7093,56 @@
         "note": "The core gloss ('press'd' = conscripted, 'shrewd' = dangerous) is correct, but the detail derives 'shrewd' from Old English screawa meaning the small animal with a venomous bite — this is a folk etymology; OED traces 'shrewd' (adj.) through 'shrew' as a scolding or wicked person, not directly from the animal's supposed bite, and the animal-bite angle conflates distinct semantic streams."
       }
     ]
+  },
+  {
+    "id": "richard_ii-1411-glorious-angel",
+    "play": "richard_ii",
+    "tln_start": 1411,
+    "tln_end": 1412,
+    "word_start": 0,
+    "word_end": 2,
+    "anchor_text": "God for his Richard hath in heavenly pay A glorious angel",
+    "type": "biblical_allusion",
+    "depth": "basic",
+    "summary": "Richard claims that for each of Bolingbroke's troops God has an angel on the royal payroll. The idea that God deploys angelic armies to protect the righteous comes from biblical tradition, especially 2 Kings 6:17, where the prophet Elisha's servant sees the hills full of 'horses and chariots of fire' defending them, and Matthew 26:53, where Jesus says his Father would give him more than twelve legions of angels.",
+    "detail": "The comparison is both theologically confident and politically convenient: Richard argues that the divine arithmetic makes his side unbeatable. Shakespeare's audience would catch the scriptural resonances immediately. The irony of the scene is that Richard's confidence evaporates the moment Salisbury enters -- the angels, if they exist, have not held the Welsh forces. The phrase 'in heavenly pay' applies a feudal-military idiom (retaining soldiers for pay) to the celestial host, reducing divine power to the same language of obligation and contract that governs earthly armies.",
+    "sources": [
+      {
+        "name": "Geneva Bible 1599",
+        "citation": "2 Kings 6:17 (Geneva 1599): 'the mountaine was full of horses and charets of fire round about Elisha'; Matthew 26:53 (Geneva 1599): 'he will giue me moe then twelue legions of Angels?'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1411"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Corrected the Matthew 26:53 quotation to the actual Geneva 1599 wording ('moe then twelue legions of Angels' -- the original had quoted the KJV); verse references confirmed and retained."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Both biblical parallels (2 Kings 6:17 angelic armies, Matthew 26:53 twelve legions) are apt and well-attested; the feudal-military idiom reading of 'in heavenly pay' is a sharp, text-grounded observation, and the irony about the Welsh desertion undermining the claim is fair dramatic commentary."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Corrected the Matthew 26:53 quotation to the actual Geneva 1599 wording ('moe then twelue legions of Angels' -- the original had quoted the KJV); verse references confirmed and retained. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "richard_ii-1420-call-back-yesterday",
@@ -8080,6 +8714,59 @@
     ]
   },
   {
+    "id": "richard_ii-1779-young-father",
+    "play": "richard_ii",
+    "tln_start": 1779,
+    "tln_end": 1780,
+    "word_start": 1,
+    "word_end": 8,
+    "anchor_text": "I am too young to be your father, / Though you are old enough to be my heir",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Richard and Bolingbroke were almost exactly the same age (both born in 1367). Richard's line turns that near-equality into a bitter paradox: he is too young in authority to be Bolingbroke's political father (i.e., his superior), yet Bolingbroke is aged enough to inherit from him. The line concedes, in riddling form, that Bolingbroke is his heir -- and therefore his successor -- before it is said in plain words.",
+    "detail": "Richard packs the political capitulation into a grammatical paradox: the conditional structure ('I am too young... though you are old enough') turns a statement of age into a statement of dynastic succession. 'Heir' legally meant the next in line to a title or estate -- and Richard, who has no children, is saying that Bolingbroke is positioned to inherit the crown. The sentence does what the surrender scene does: the admission is made before it is formally enacted.",
+    "sources": [
+      {
+        "name": "Holinshed, Chronicles (1587)",
+        "citation": "Raphael Holinshed, Chronicles of England, Scotland, and Ireland (1587): Richard, childless, and the question of the succession."
+      },
+      {
+        "name": "Schmidt, Shakespeare-Lexicon",
+        "citation": "Schmidt, Alexander, Shakespeare-Lexicon, s.v. 'heir': one who succeeds to another's place, title, or property."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1779"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Corrected the false 'one year older' claim (both men were born in 1367) to 'almost exactly the same age'; dropped the unsupported Holinshed page number; sources retained."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The paradox about age and inheritance is textually exact, and the reading that 'heir' concedes dynastic succession before it is formally stated is a sound and mainstream interpretation of what is an unmistakably ironic couplet."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Corrected the false 'one year older' claim (both men were born in 1367) to 'almost exactly the same age'; dropped the unsupported Holinshed page number; sources retained. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "richard_ii-1789-rubs-bias",
     "play": "richard_ii",
     "tln_start": 1789,
@@ -8279,6 +8966,65 @@
     ]
   },
   {
+    "id": "richard_ii-1827-sea-walled-garden",
+    "play": "richard_ii",
+    "tln_start": 1830,
+    "tln_end": 1831,
+    "word_start": 1,
+    "word_end": 8,
+    "anchor_text": "our sea-walled garden, the whole land, Is full of weeds; her fairest flowers chok'd up",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "The Servant names the allegory the Gardener has been enacting: the 'sea-walled garden' is England itself. The image of England as an island-garden protected by the sea echoes John of Gaunt's famous speech earlier in the play. 'Caterpillars' was a common Elizabethan term of abuse for parasitic flatterers and corrupt officials who drain the commonwealth -- as Bolingbroke had already called Richard's favourites Bushy, Bagot, and Green.",
+    "detail": "The island-garden metaphor taps the conventional praise of England as a naturally fortified realm, famously developed in John of Gaunt's 'precious stone set in the silver sea' speech (2.1). By 1599 the image was so established that the Servant's application of it to the misgoverned realm would land immediately. 'Caterpillars of the commonwealth' echoes Bolingbroke's charge against the king's favourites earlier in the play -- 'The caterpillars of the commonwealth, / Which I have sworn to weed and pluck away' (2.3).",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'caterpillar' n., sense 2: 'a person who preys upon society; an extortioner, a pillager' (with Richard II among the early citations)."
+      },
+      {
+        "name": "Holinshed, Chronicles (1587)",
+        "citation": "Raphael Holinshed, Chronicles of England, Scotland, and Ireland (1587): the political crisis of 1397-99 and the charges against Richard's favourites."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "the-great-chain-of-being"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1830"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Removed the fabricated Bolingbroke quotation and wrong line attribution from the detail; replaced with the play's actual 2.3 wording ('caterpillars of the commonwealth'); OED + Holinshed sources retained."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The island-garden-equals-England reading is explicit and the 'caterpillars of the commonwealth' link to Bolingbroke's 2.3 speech is accurate, though the verbatim quotation given in the detail does not match the play's actual text and should not be trusted literally."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Removed the fabricated Bolingbroke quotation and wrong line attribution from the detail; replaced with the play's actual 2.3 wording ('caterpillars of the commonwealth'); OED + Holinshed sources retained. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "richard_ii-1861-pressed-to-death",
     "play": "richard_ii",
     "tln_start": 1861,
@@ -8330,6 +9076,60 @@
         "note": "Peine forte et dure is the standard gloss for this phrase and its use as hyperbole here is unambiguous; the note that the garden scene has no Holinshed source is correct."
       }
     ]
+  },
+  {
+    "id": "richard_ii-1872-fortunes-weighed",
+    "play": "richard_ii",
+    "tln_start": 1873,
+    "tln_end": 1875,
+    "word_start": 2,
+    "word_end": 7,
+    "anchor_text": "their fortunes both are weigh'd In your lord's scale is nothing but himself And some few vanities that make him light",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "The Gardener describes the political contest between Richard and Bolingbroke as two pans of a balance scale: Richard's side holds only himself and 'some few vanities' (his flatterers and empty pleasures), which makes him 'light' -- both physically light in weight and morally frivolous. Bolingbroke's side holds all the English lords, and the heavier weight brings Richard's pan down. The image turns Bolingbroke's political strength into a physical law.",
+    "detail": "The scales-of-justice image was familiar from iconography (Lady Justice, Fortune), and Shakespeare uses it repeatedly for political and moral reckoning. 'Vanities' here carries the full scriptural weight of the word -- vain, empty things with no lasting substance (compare Ecclesiastes 1:2, Geneva 1599: 'Vanitie of vanities, all is vanitie'). 'Light' is a punning double sense: lightweight on a scale, and morally frivolous. The Gardener's precision -- itemising what is on each side -- gives the speech an accountant's clarity, fitting for a man whose work is weighing and balancing the garden's needs.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'vanity' n., sense 2: 'that which is vain, futile, or worthless; that which is of no value or profit' (with many 16th-century examples)."
+      },
+      {
+        "name": "Schmidt, Shakespeare-Lexicon",
+        "citation": "Schmidt, Alexander, Shakespeare-Lexicon, s.v. 'light' (adj.): of little weight; hence frivolous, trifling, of little worth."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1873"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Removed the disputed Schmidt 'sense 4' number and generalized the 'light' definition to s.v. 'light'; OED 'vanity' source retained; gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The scales imagery and the 'light' double meaning (lightweight / morally frivolous) are fully supported by the text; the Ecclesiastes allusion in the detail is a plausible enrichment rather than a forced reading, given the play's wider theological vocabulary."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Removed the disputed Schmidt 'sense 4' number and generalized the 'light' definition to s.v. 'light'; OED 'vanity' source retained; gloss unchanged. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "richard_ii-1893-rue-herb-of-grace",
@@ -8681,6 +9481,55 @@
         "note": "The sense of 'sympathies' as equality of rank or correspondence of degree is attested in Onions and fits Fitzwater's taunt that Aumerle cannot hide behind a class-disparity objection."
       }
     ]
+  },
+  {
+    "id": "richard_ii-1964-lie-giver",
+    "play": "richard_ii",
+    "tln_start": 1964,
+    "tln_end": 1966,
+    "word_start": 0,
+    "word_end": 8,
+    "anchor_text": "That lie shall lie so heavy on my sword / That it shall render vengeance and revenge / Till thou the lie-giver and that lie do lie",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Surrey piles the word 'lie' into three different senses within three lines: the insult ('thou liest'), the lie weighing on his sword, and finally both the 'lie-giver' (the man who told the lie) and the lie itself lying dead on the ground. This is the figure called antanaclasis (also 'traductio') -- repeating a word in different senses -- used here for an effect of relentless, accumulating fury.",
+    "detail": "The triple play on 'lie' is a signature of Shakespeare's intensely rhetorical early-history style. Surrey means: 'Your lie will press so hard on my sword arm that I will keep fighting until both you (the lie-giver) and the lie you told are laid flat in the earth -- as quiet as your father's skull.' The final image of the skull is a sudden, concrete memento mori that punctures the elaborate wordplay.",
+    "sources": [
+      {
+        "name": "Lanham, A Handlist of Rhetorical Terms",
+        "citation": "Richard A. Lanham, A Handlist of Rhetorical Terms (2nd ed., 1991), s.v. 'antanaclasis': repetition of a word in two different senses (also discussed under 'traductio')."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1964"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Replaced the wrong Puttenham figure ('the Tranlacer' = morphological variation) with Lanham's Handlist entry for antanaclasis/traductio, the correct term for one word in different senses; gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The triple polyptoton on 'lie' (insult / weight / lie dead) is clearly present in the text, and identifying it as traductio / antanaclasis is accurate; the gloss is sound."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Replaced the wrong Puttenham figure ('the Tranlacer' = morphological variation) with Lanham's Handlist entry for antanaclasis/traductio, the correct term for one word in different senses; gloss unchanged. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "richard_ii-1970-forward-horse",
@@ -10373,6 +11222,60 @@
     ]
   },
   {
+    "id": "richard_ii-2337-woe-wanton",
+    "play": "richard_ii",
+    "tln_start": 2337,
+    "tln_end": 2337,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "We make woe wanton with this fond delay",
+    "type": "wordplay",
+    "depth": "basic",
+    "summary": "'Wanton' here does not mean sexual looseness. It means capricious, undisciplined, self-indulgent -- spending sorrow recklessly, letting grief run freely when the moment calls for restraint. 'Fond' means foolish. Richard is saying: by lingering over our goodbyes, we are turning grief into a plaything rather than bearing it with dignity.",
+    "detail": "In Elizabethan English 'wanton' covered a wide semantic range: unrestrained, capricious, playful, undisciplined, and only secondarily lascivious (the non-sexual senses pre-date the narrowly sexual). Richard's ironic self-criticism here -- spoken while he clearly wishes to keep delaying -- mirrors his character throughout the play: a man who knows his own performances are excessive but cannot stop performing them. 'Fond' as 'foolish' (rather than 'affectionate') is the primary sense here and throughout early modern English. The line is Richard's recognition that his own rhetoric has become a form of self-indulgence, yet he immediately invites one more farewell ('Once more, adieu').",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'wanton' adj., sense 'unrestrained in behaviour; undisciplined, capricious'; OED s.v. 'fond' adj., sense 'foolish, silly, credulous; doting.'"
+      },
+      {
+        "name": "Onions, A Shakespeare Glossary",
+        "citation": "C. T. Onions, A Shakespeare Glossary (Oxford, 1911), s.v. 'wanton': 'unrestrained, sportive, frolicsome' (distinct from the narrower modern sense)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2337"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the fabricated Onions '2nd ed. (1919)' edition detail (Onions is 1911) and the disputed OED sense numbers; sources generalized; gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Wanton' as capricious and undisciplined (pre-sexual primary sense) and 'fond' as foolish are both correctly identified as the operative Elizabethan meanings here; the observation that Richard simultaneously diagnoses and perpetuates his own rhetorical excess ('yet he immediately invites one more farewell') is supported directly by TLN 2338 ('Once more, adieu')."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the fabricated Onions '2nd ed. (1919)' edition detail (Onions is 1911) and the disputed OED sense numbers; sources generalized; gloss unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "richard_ii-2344-rude-windows",
     "play": "richard_ii",
     "tln_start": 2344,
@@ -10425,6 +11328,55 @@
         "note": "The glosses on 'rude' (disorderly) and 'misgoverned' (unruly) are accurate and confirmed by the scene text at TLN 2344–2345; the Holinshed parallel is well-established."
       }
     ]
+  },
+  {
+    "id": "richard_ii-2347-aspiring-rider",
+    "play": "richard_ii",
+    "tln_start": 2347,
+    "tln_end": 2348,
+    "word_start": 3,
+    "word_end": 6,
+    "anchor_text": "hot and fiery steed / Which his aspiring rider seem'd to know",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "York describes Bolingbroke's horse as if it senses its rider -- the animal 'seems to know' the man it carries. This is personification: the horse is given human insight. The word 'aspiring' means aiming upward, and in Elizabethan usage it often carried a negative charge of ambitious overreach (the word applied to usurpers and men who reach above their station).",
+    "detail": "York's narration is admiring on its surface -- Bolingbroke rides in triumph while the crowd cheers -- but the word 'aspiring' carries a specifically political colouring in Elizabethan usage (compare Marlowe's 'aspiring' Tamburlaine). A student of the play will return to this image when Richard, imprisoned, hears from his groom that roan Barbary -- Richard's own horse -- carried Bolingbroke to his coronation (5.5).",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'aspiring' adj.: 'that aspires; ambitious, eager to rise' -- in common use from the 1580s, frequently with a negative connotation of ambitious overreach."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2347"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "OED does document 'aspiring' with the negative sense of ambitious overreach from the 1580s onward, and Marlowe's Tamburlaine (1587) is a real, correctly attributed parallel."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Interp judge correct: trimmed the over-reading that the horse 'quietly condemns Bolingbroke' (York's narration is admiring); kept the verified personification + 'aspiring'=ambitious-overreach reading (OED source retained)."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Interp judge correct: trimmed the over-reading that the horse 'quietly condemns Bolingbroke' (York's narration is admiring); kept the verified personification + 'aspiring'=ambitious-overreach reading (OED source retained). [orig: source=verified, interp=refuted]"
   },
   {
     "id": "richard_ii-2353-casements",
@@ -10851,6 +11803,65 @@
     ]
   },
   {
+    "id": "richard_ii-2442-sacrament",
+    "play": "richard_ii",
+    "tln_start": 2442,
+    "tln_end": 2444,
+    "word_start": 0,
+    "word_end": 5,
+    "anchor_text": "A dozen of them here have ta'en the sacrament / And interchangeably set down their hands / To kill the King at Oxford",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "York reveals that roughly twelve conspirators have sworn a binding oath -- in the play, on the sacrament (the Eucharist, Christian Communion) -- and each signed the same document, pledging to murder Henry IV at Oxford. 'Ta'en the sacrament' means they swore on the consecrated host, the most binding oath in Christian practice. 'Interchangeably set down their hands' means each man signed in turn, so the document is evidence of treason by all of them.",
+    "detail": "Swearing on the sacrament -- the body of Christ in the Eucharist -- was the most solemn oath available, making a broken pledge not merely perjury but sacrilege. (Holinshed records that the Epiphany conspirators bound themselves by a sworn oath to restore Richard; the specifically sacramental detail is the play's own intensification.) 'Interchangeably' is a legal term for mutual obligation: each party signs in alternation or in common, making it a binding compact rather than a unilateral pledge. The sealed document York has snatched from Aumerle carries the weight of legal evidence -- a signed list of names is the conspiracy's own death warrant for each man on it.",
+    "sources": [
+      {
+        "name": "Holinshed, Chronicles (1587)",
+        "citation": "Raphael Holinshed, Chronicles of England, Scotland, and Ireland (1587): the Epiphany Rising of January 1400 -- the conspirators' sworn oath and compact to restore Richard / kill Henry IV."
+      },
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'interchangeably' adv.: 'in mutual exchange; reciprocally; each to the other in turn' -- used in legal documents of the period."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "holinshed-chronicles"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2442"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Acknowledged that the sacrament/Eucharist detail is the play's own (Holinshed has the conspirators swear an oath, not specifically on the sacrament); Holinshed retained for the conspiracy, OED for 'interchangeably'; gloss intact."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The identification of the sacrament-oath as Eucharist-sworn and 'interchangeably' as a legal term for mutual compact is accurate; the 'crypto-Catholic' framing slightly conflates 1399 with Elizabethan reception but does not invalidate the core interpretation."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Acknowledged that the sacrament/Eucharist detail is the play's own (Holinshed has the conspirators swear an oath, not specifically on the sacrament); Holinshed retained for the conspiracy, OED for 'interchangeably'; gloss intact. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "richard_ii-2466-unthrifty-son",
     "play": "richard_ii",
     "tln_start": 2466,
@@ -10953,6 +11964,61 @@
     ]
   },
   {
+    "id": "richard_ii-2479-triumphs-oxford",
+    "play": "richard_ii",
+    "tln_start": 2479,
+    "tln_end": 2479,
+    "word_start": 4,
+    "word_end": 8,
+    "anchor_text": "those triumphs held at Oxford",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "'Triumphs' here means jousting tournaments or festive tilts -- celebratory combats held for royal and noble entertainment. In the play this tournament is the cover the conspirators plan to use to assassinate Henry IV at Epiphany 1400, the very plot Aumerle's letter reveals in this scene.",
+    "detail": "Holinshed records that the earls loyal to Richard planned a tournament at Epiphany (6 January 1400) as the occasion for killing Bolingbroke and restoring Richard. The chronicle locates the planned tournament at Windsor; Shakespeare's text names Oxford. Percy's mention of the 'triumphs at Oxford' thus -- without either character realizing it -- names the cover event for the very conspiracy about to be revealed when Aumerle enters. The dramatic irony is sharp.",
+    "sources": [
+      {
+        "name": "Holinshed, Chronicles (1587)",
+        "citation": "Raphael Holinshed, Chronicles of England, Scotland, and Ireland (1587): the Epiphany Rising of January 1400, the conspiracy and its planned tournament (located at Windsor in the chronicle)."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "holinshed-chronicles"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2479"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Corrected the citation to acknowledge Holinshed places the tournament at Windsor (Shakespeare's text names Oxford), removing the false claim that the chronicle corroborates 'Oxford'; Holinshed source retained; gloss intact."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The historical identification of the Oxford Epiphany plot and the dramatic-irony reading are sound, though the claim that 'neither character' realizes the connection slightly overstates: Aumerle enters after this line and Percy is not party to the conspiracy, so the irony works as described."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Corrected the citation to acknowledge Holinshed places the tournament at Windsor (Shakespeare's text names Oxford), removing the false claim that the chronicle corroborates 'Oxford'; Holinshed source retained; gloss intact. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "richard_ii-2481-stews",
     "play": "richard_ii",
     "tln_start": 2481,
@@ -11047,6 +12113,114 @@
         "note": "The Psalm 137:6 echo is real and widely accepted; the claim that Aumerle 'inverts' the oath is a defensible structural observation, and the 'prayerful cast' reading, while slightly elaborated, does not overreach."
       }
     ]
+  },
+  {
+    "id": "richard_ii-2521-fear-not-love",
+    "play": "richard_ii",
+    "tln_start": 2521,
+    "tln_end": 2521,
+    "word_start": 0,
+    "word_end": 6,
+    "anchor_text": "Fear, and not love, begets his penitence",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "York's line is a pithy aphorism -- a sententia -- that functions as a moral verdict: Aumerle is not genuinely sorry; he repents only because he has been caught and fears punishment. The contrast between fear and love as motives for obedience was a familiar ethical distinction in Renaissance political and religious thought.",
+    "detail": "The fear-versus-love distinction was a commonplace of Renaissance moral and political writing (famously the subject of Machiavelli's question in The Prince, ch. 17, whether a ruler is better loved or feared). In religious terms, true repentance was held to require genuine inner contrition, not mere fear of punishment. York is accusing his son of the lesser, merely self-interested repentance -- the kind that earns neither royal pardon nor, by implication, divine forgiveness.",
+    "sources": [
+      {
+        "name": "Lanham, A Handlist of Rhetorical Terms",
+        "citation": "Richard A. Lanham, A Handlist of Rhetorical Terms (2nd ed., 1991), s.v. 'sententia': a wise saying or aphorism; a pithy general maxim driven home in a single line."
+      },
+      {
+        "name": "Schmidt, Shakespeare-Lexicon",
+        "citation": "Schmidt, Alexander, Shakespeare-Lexicon, s.v. 'beget': 'to give birth to, to produce' -- here, the two possible causes of Aumerle's apparent change of heart."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2521"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Added Lanham's Handlist for the 'sententia' label so the rhetorical claim is sourced; trimmed the Machiavelli reference to its uncontroversial core and softened the attrition/contrition theology to general terms; Schmidt 'beget' retained."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The sententia reading and the fear-vs-love moral distinction are correct; invoking Protestant contrition-vs-attrition theology adds a plausible but secondary layer that remains within mainstream Renaissance thought."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Added Lanham's Handlist for the 'sententia' label so the rhetorical claim is sourced; trimmed the Machiavelli reference to its uncontroversial core and softened the attrition/contrition theology to general terms; Schmidt 'beget' retained. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "richard_ii-2522-serpent-sting",
+    "play": "richard_ii",
+    "tln_start": 2522,
+    "tln_end": 2523,
+    "word_start": 4,
+    "word_end": 8,
+    "anchor_text": "lest thy pity prove A serpent that will sting thee to the heart",
+    "type": "biblical_allusion",
+    "depth": "basic",
+    "summary": "York warns Bolingbroke that pardoning Aumerle will be like nurturing a serpent -- the proverbial creature that conceals deadly malice beneath a trustworthy exterior and turns on the one who shelters it. For Shakespeare's audience the serpent also carried the force of the deceiver of Eden (Genesis 3), the archetypal betrayer working from within a position of trust.",
+    "detail": "The proverbial 'serpent in the bosom' -- warming a cold snake only to be bitten -- was widespread in Renaissance writing and is older than the Bible (it goes back to Aesop's fable). In a Christian culture the image readily fused with the Genesis serpent, the deceiver who brought ruin from inside paradise itself. York's point does not depend on the Edenic frame, but it gains weight from it: he is arguing that Aumerle's apparent conversion is exactly the kind of inside threat that cannot be trusted.",
+    "sources": [
+      {
+        "name": "Geneva Bible 1599",
+        "citation": "Genesis 3:1-15 (Geneva 1599): the serpent deceives Eve in the garden, bringing ruin from within -- the serpent as an emblem of hidden treachery."
+      }
+    ],
+    "references": [
+      {
+        "kind": "biblical",
+        "card_id": "garden-of-eden"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2522"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Genesis 3:1-15 in the Geneva Bible 1599 does introduce the serpent as the archetypal deceiver within paradise; the citation accurately supports the claim that Shakespeare's image draws on this passage."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Interp judge correct: the serpent-in-bosom image is also a classical proverb (Aesop), so trimmed the over-reading that it requires the Eden frame; reframed Genesis as one strand rather than the sole source; valid Geneva 3:1-15 citation retained, type kept biblical_allusion."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Interp judge correct: the serpent-in-bosom image is also a classical proverb (Aesop), so trimmed the over-reading that it requires the Eden frame; reframed Genesis as one strand rather than the sole source; valid Geneva 3:1-15 citation retained, type kept biblical_allusion. [orig: source=verified, interp=refuted]"
   },
   {
     "id": "richard_ii-2526-silver-fountain",
@@ -11147,6 +12321,55 @@
         "note": "The bawdy secondary sense of 'spend' is well-supported by Schmidt and appropriate at scholar depth; the primary financial-honorific sense is correctly identified as primary, making the annotation's framing honest rather than over-reaching."
       }
     ]
+  },
+  {
+    "id": "richard_ii-2544-beggar-and-king",
+    "play": "richard_ii",
+    "tln_start": 2544,
+    "tln_end": 2545,
+    "word_start": 0,
+    "word_end": 8,
+    "anchor_text": "Our scene is alter'd from a serious thing, And now chang'd to 'The Beggar and the King.'",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "'The Beggar and the King' refers to the popular ballad tradition of King Cophetua and the beggar maid, well known in Shakespeare's England. By naming it, Bolingbroke acknowledges that the Duchess's kneeling entrance has shifted the scene from high political crisis to something more like a comic folk-tale -- a humble supplicant winning a king's mercy through persistence.",
+    "detail": "The story of King Cophetua and the beggar maid (a king who marries a beggar) was a familiar ballad subject; Shakespeare alludes to it elsewhere (Love's Labour's Lost, Romeo and Juliet, 2 Henry IV), which shows how current the trope was for his audience. Bolingbroke's self-aware, meta-theatrical comment signals that the scene has tipped from tragic urgency to a more formulaic petition-scene. The word 'scene' is deliberately theatrical -- Bolingbroke is watching his own court as if from the audience.",
+    "sources": [
+      {
+        "name": "Shakespeare's own usage (intra-canon parallels)",
+        "citation": "The King Cophetua / beggar-maid ballad tradition, alluded to in Love's Labour's Lost (1.2, 4.1) and 2 Henry IV (5.3) -- evidence the trope was current for Shakespeare's audience."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2544"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the unsupported 'in print since the 1560s' claim and the anachronistic Percy Reliques (1765) citation; grounded the gloss in Shakespeare's own contemporary allusions to the Cophetua ballad; gloss intact."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The identification with the King Cophetua / Beggar Maid ballad tradition and the meta-theatrical self-awareness reading are standard and supported by parallel usage in Love's Labour's Lost and 2 Henry IV."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the unsupported 'in print since the 1560s' claim and the anachronistic Percy Reliques (1765) citation; grounded the gloss in Shakespeare's own contemporary allusions to the Cophetua ballad; gloss intact. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "richard_ii-2555-old-dugs",
@@ -11295,6 +12518,65 @@
         "note": "The Lord's Prayer echo (Matthew 6:12) is clear and would have been instantly recognizable; the additional inference about Bolingbroke's guilt over usurpation is a legitimate dramatic irony reading, not an over-reach."
       }
     ]
+  },
+  {
+    "id": "richard_ii-2619-rid-me-of-this-fear",
+    "play": "richard_ii",
+    "tln_start": 2619,
+    "tln_end": 2619,
+    "word_start": 0,
+    "word_end": 10,
+    "anchor_text": "Have I no friend will rid me of this living fear",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "Bolingbroke's reported words echo a notorious pattern in English history: Henry II's outburst in 1170 against Archbishop Thomas Becket, which four knights took as a command and used to justify Becket's murder. The pattern is the point -- a king voices a wish aloud, deniably, and an ambitious subordinate acts on it. Editors of the play (Ure, Arden) note the Becket parallel.",
+    "detail": "Holinshed's Chronicles (1587) records a version of Henry IV's words at Windsor as the prompt for Exton's action. The Becket episode -- where the king spoke and then professed horror at the deed done in his name -- was the standard historical frame for such indirect royal incitement. (The famous 'turbulent priest' formulation is a much later, 18th-century rendering; the medieval accounts report Henry's words differently, but the pattern of deniable royal incitement is the same.) Exton's repetition of the phrase and his notation that the king 'urged it twice together' and 'wistly looked on me' enact the logic of plausible deniability: the king never gave an order, yet the repetition and the meaningful glance amount to one. The scene sets up the moral problem that dogs Henry IV through his two subsequent plays -- he wanted Richard dead but refuses to own the act.",
+    "sources": [
+      {
+        "name": "Holinshed, Chronicles (1587)",
+        "citation": "Raphael Holinshed, Chronicles of England, Scotland, and Ireland (1587), 'Richard II': Henry IV's words at Windsor as the prompt for Exton's action."
+      },
+      {
+        "name": "Ure (ed.), Richard II, Arden Shakespeare",
+        "citation": "Peter Ure (ed.), King Richard II, Arden Shakespeare (1956), note to 5.4: the parallel with Henry II's words against Thomas Becket (murdered 29 December 1170)."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "holinshed-chronicles"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2619"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Confirmed by search that 'turbulent priest' is an 18th-c. (Dodsley, 1740) formulation, not Edward Grim's wording; dropped the misattributed Grim Vita citation, flagged the wording as a later rendering, and leaned on the verified Holinshed source + Ure's Arden note for the parallel."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The Becket parallel is a mainstream scholarly reading (Ure's Arden, 1956, notes it explicitly), the plausible-deniability mechanics are directly enacted in the scene's text, and the claim that the episode dogs Henry IV through the subsequent plays is uncontroversially supported by 2H4 and its opening."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Confirmed by search that 'turbulent priest' is an 18th-c. (Dodsley, 1740) formulation, not Edward Grim's wording; dropped the misattributed Grim Vita citation, flagged the wording as a later rendering, and leaned on the verified Holinshed source + Ure's Arden note for the parallel. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "richard_ii-2625-wistly",
@@ -12366,1287 +13648,5 @@
         "note": "The crusade-as-penance reading, the Pilate inversion (explicitly set up at 4.1 of this play), and the guilt-arc across the second tetralogy are all mainstream scholarly positions grounded in the text and Holinshed."
       }
     ]
-  },
-  {
-    "id": "richard_ii-1105-numbring-sands",
-    "play": "richard_ii",
-    "tln_start": 1105,
-    "tln_end": 1106,
-    "word_start": 3,
-    "word_end": 6,
-    "anchor_text": "the task he undertakes Is numb'ring sands and drinking oceans dry",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "Green uses a rhetorical figure called an adynaton -- a list of impossibilities used to say that something can never happen. Counting every grain of sand on a beach and drinking the ocean dry are proverbially impossible tasks; Green is saying that York holding off Bolingbroke is equally impossible. The figure is common in classical and Renaissance poetry to express hopeless odds.",
-    "detail": "The 'counting sands' figure has ancient precedents: the innumerable sands are a standard classical type of the uncountable (compare Pindar's odes and Ovid). The image was a recognizable rhetorical trope that Shakespeare's audience would have heard in sermons and schoolroom exercises. Its force here is political: the speaker who most wants to be reassuring (Green, one of the king's own men) is the one who delivers the most unsparing verdict on York's chances.",
-    "sources": [
-      {
-        "name": "Lanham, A Handlist of Rhetorical Terms",
-        "citation": "Richard A. Lanham, A Handlist of Rhetorical Terms (2nd ed., 1991), s.v. 'adynaton': a stringing together of impossibilities; an extravagant figure of speech that emphasises impossibility."
-      },
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'adynaton' (rhetorical figure of impossibility, used to emphasise hopelessness or extreme magnitude)."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1105"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Removed the misattributed Ovid Amores 1.2, the off-by-one Pindar line, and the unverifiable Tamburlaine locus; cited Lanham's Handlist for the device name + generalized the classical precedents; gloss unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The figure is correctly identified as an adynaton and the classical precedents are standard; the annotation's observation that it is politically pointed because it comes from one of the king's own men (Green) is a sound reading of the dramatic context."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Removed the misattributed Ovid Amores 1.2, the off-by-one Pindar line, and the unverifiable Tamburlaine locus; cited Lanham's Handlist for the device name + generalized the classical precedents; gloss unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "richard_ii-1208-anointed-king",
-    "play": "richard_ii",
-    "tln_start": 1208,
-    "tln_end": 1210,
-    "word_start": 0,
-    "word_end": 7,
-    "anchor_text": "Com'st thou because the anointed king is hence? / Why, foolish boy, the king is left behind, / And in my loyal bosom lies his power",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "'Anointed' means consecrated with holy oil at the coronation -- a ceremony that made the king not just a political ruler but God's appointed deputy on earth. York's point is that Richard's physical absence in Ireland does not create a vacancy: his sacred authority, deposited in his regent York, remains in England. Attacking the regent is attacking the king.",
-    "detail": "At his coronation a monarch was anointed on hands, breast, and head with holy oil (chrism), in a ceremony mirroring Old Testament kings such as David and Solomon. This made the king's person sacred -- to strike him was sacrilege, not merely treason. Throughout the play Richard invokes this anointing as his shield ('Not all the water in the rough rude sea / Can wash the balm off from an anointed king,' 3.2). York's argument here is that Bolingbroke's march is not merely illegal but impious: the anointed king's power travels with his regent.",
-    "sources": [
-      {
-        "name": "James VI & I, The Trew Law of Free Monarchies (1598)",
-        "citation": "James VI & I, The Trew Law of Free Monarchies (1598): the anointed king as God's lieutenant on earth -- a near-contemporary statement of the doctrine the play dramatizes."
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "divine-right-of-kings"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1208"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Fixed the name/citation mismatch by naming the actual cited work (The Trew Law of Free Monarchies, 1598) and framing it honestly as a near-contemporary parallel, not a source the play drew on; gloss unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The theological weight of 'anointed' (chrism, sacral kingship, God's deputy) is accurately described and central to the play's argument; York's claim that the king's power resides in his regent is correctly read as a theological rather than merely constitutional point."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Fixed the name/citation mismatch by naming the actual cited work (The Trew Law of Free Monarchies, 1598) and framing it honestly as a near-contemporary parallel, not a source the play drew on; gloss unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "richard_ii-1283-past-redress-past-care",
-    "play": "richard_ii",
-    "tln_start": 1283,
-    "tln_end": 1283,
-    "word_start": 0,
-    "word_end": 8,
-    "anchor_text": "Things past redress are now with me past care",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "York closes the scene with a maxim built on emphatic repetition: he restates 'past redress' so that the second clause turns it into a conclusion -- once harm is past fixing, anguish over it serves no purpose. The logic is stoic resignation, and the line is nearly proverbial in form, deliberately so: York packages defeat as wisdom.",
-    "detail": "The proverbial structure was a standard form of sentential argument in Elizabethan drama, drawn from the tradition of political maxims (sententiae). York is, of course, rationalising: what is 'past redress' is not some abstract misfortune but the advance of a rebel army he has just agreed to house. The line ends the scene on a note of moral surrender dressed as philosophical acceptance -- a characterisation of York as a man of genuine scruple who has run out of practical resistance.",
-    "sources": [
-      {
-        "name": "Tilley, A Dictionary of the Proverbs in England",
-        "citation": "M. P. Tilley, A Dictionary of the Proverbs in England in the Sixteenth and Seventeenth Centuries (1950), R56: 'What is past remedy (redress) is past grief.'"
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1283"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Tilley's Dictionary of the Proverbs (1950) is a real and standard Shakespeare-studies reference; entry R56 ('What is past remedy is past grief') is plausibly correct for this proverbial sentiment and the line cited from Richard II."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Interp judge correct: 'anadiplosis' was misapplied (the phrase is repeated as a unit, not carried as the next clause's first word). Recast as emphatic repetition / sententia and dropped the wrong term; verified Tilley source retained."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Interp judge correct: 'anadiplosis' was misapplied (the phrase is repeated as a unit, not carried as the next clause's first word). Recast as emphatic repetition / sententia and dropped the wrong term; verified Tilley source retained. [orig: source=verified, interp=refuted]"
-  },
-  {
-    "id": "richard_ii-1291-bay-trees-witherd",
-    "play": "richard_ii",
-    "tln_start": 1291,
-    "tln_end": 1291,
-    "word_start": 0,
-    "word_end": 8,
-    "anchor_text": "The bay trees in our country are all wither'd",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "In Elizabethan natural lore the bay (laurel) tree was believed to wither as an omen of disaster, especially the death of a king. The withering of bays is one of the prodigies the chroniclers attach to Richard II's fall, and the Welsh Captain reads the withered bays as a sign that Richard is already doomed.",
-    "detail": "The bay or sweet laurel (Laurus nobilis) was the tree of Apollo, the crown of victors, and -- by Elizabethan extension -- of sovereign power; Pliny the Elder gives the laurel an honoured, almost sacred status in his Natural History. The withered-bays portent is transmitted in Holinshed's account of Richard's reign. Shakespeare returns to prodigies attending royal deaths across the histories and tragedies (Julius Caesar 2.2, Macbeth 2.4); here the bay omen heads the Captain's litany that identifies nature itself as a register of the king's fate -- consistent with the great-chain-of-being doctrine that disorder in the kingdom reverberates through the natural world.",
-    "sources": [
-      {
-        "name": "Pliny, Natural History",
-        "citation": "Pliny the Elder, Natural History, Book 15 (on the laurel/bay and its honoured status)."
-      },
-      {
-        "name": "Holinshed, Chronicles (1587)",
-        "citation": "Raphael Holinshed, Chronicles of England, Scotland, and Ireland (1587): account of Richard II's reign, noting portents accompanying his downfall (the withered bay trees)."
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "the-great-chain-of-being"
-      },
-      {
-        "kind": "historical",
-        "card_id": "holinshed-chronicles"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1291"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Generalized the wrong Pliny locus (NH 15.27) to NH Book 15 (the laurel) and dropped the unsupported 'withered before Caesar's death' claim; Holinshed retained for the portent; gloss unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The withered-bays portent as a sign of royal death is a well-attested Pliny/Holinshed topos and fits the Captain's explicit omen catalogue (TLN 1298: 'These signs forerun the death or fall of kings'); the great-chain-of-being reading is mainstream."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Generalized the wrong Pliny locus (NH 15.27) to NH Book 15 (the laurel) and dropped the unsupported 'withered before Caesar's death' claim; Holinshed retained for the portent; gloss unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "richard_ii-1328-bitter-bread",
-    "play": "richard_ii",
-    "tln_start": 1328,
-    "tln_end": 1328,
-    "word_start": 2,
-    "word_end": 5,
-    "anchor_text": "bitter bread of banishment",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "'Bitter bread' evokes a conventional biblical phrase for the hard, degrading food eaten in captivity or exile -- the opposite of the fine food enjoyed at a king's table. Bolingbroke uses it to describe the hardship of his years living abroad after Richard banished him. The alliteration ('bitter bread... banishment') heightens its rhetorical force as part of his public indictment of Bushy and Green.",
-    "detail": "The phrase echoes a recurring Old Testament idiom: the 'bread of affliction' given to prisoners (1 Kings 22:27; Isaiah 30:20, Geneva 1599). In the context of Bolingbroke's speech the phrase is also a piece of political theatre: eating another man's bread was a mark of dependency and humiliation, while in his own halls a nobleman commanded the best of his own 'signories' (estates). The complaint threads together physical privation with social dishonour.",
-    "sources": [
-      {
-        "name": "Geneva Bible 1599",
-        "citation": "1 Kings 22:27 (Geneva 1599): 'Put this fellow in the prison, and feede him with bread of affliction, and with water of affliction.' Compare Isaiah 30:20 (Geneva 1599)."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1328"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Dropped the fabricated Onions 'bread' entry; the accurate Geneva 1 Kings 22:27 citation (verified by the judge) carries the biblical idiom; gloss unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The biblical 'bread of affliction' parallel is well-attested and the alliterative rhetorical observation is sound; no over-reading."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Dropped the fabricated Onions 'bread' entry; the accurate Geneva 1 Kings 22:27 citation (verified by the judge) carries the biblical idiom; gloss unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "richard_ii-1411-glorious-angel",
-    "play": "richard_ii",
-    "tln_start": 1411,
-    "tln_end": 1412,
-    "word_start": 0,
-    "word_end": 2,
-    "anchor_text": "God for his Richard hath in heavenly pay A glorious angel",
-    "type": "biblical_allusion",
-    "depth": "basic",
-    "summary": "Richard claims that for each of Bolingbroke's troops God has an angel on the royal payroll. The idea that God deploys angelic armies to protect the righteous comes from biblical tradition, especially 2 Kings 6:17, where the prophet Elisha's servant sees the hills full of 'horses and chariots of fire' defending them, and Matthew 26:53, where Jesus says his Father would give him more than twelve legions of angels.",
-    "detail": "The comparison is both theologically confident and politically convenient: Richard argues that the divine arithmetic makes his side unbeatable. Shakespeare's audience would catch the scriptural resonances immediately. The irony of the scene is that Richard's confidence evaporates the moment Salisbury enters -- the angels, if they exist, have not held the Welsh forces. The phrase 'in heavenly pay' applies a feudal-military idiom (retaining soldiers for pay) to the celestial host, reducing divine power to the same language of obligation and contract that governs earthly armies.",
-    "sources": [
-      {
-        "name": "Geneva Bible 1599",
-        "citation": "2 Kings 6:17 (Geneva 1599): 'the mountaine was full of horses and charets of fire round about Elisha'; Matthew 26:53 (Geneva 1599): 'he will giue me moe then twelue legions of Angels?'"
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1411"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Corrected the Matthew 26:53 quotation to the actual Geneva 1599 wording ('moe then twelue legions of Angels' -- the original had quoted the KJV); verse references confirmed and retained."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Both biblical parallels (2 Kings 6:17 angelic armies, Matthew 26:53 twelve legions) are apt and well-attested; the feudal-military idiom reading of 'in heavenly pay' is a sharp, text-grounded observation, and the irony about the Welsh desertion undermining the claim is fair dramatic commentary."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Corrected the Matthew 26:53 quotation to the actual Geneva 1599 wording ('moe then twelue legions of Angels' -- the original had quoted the KJV); verse references confirmed and retained. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "richard_ii-153-choler-humours",
-    "play": "richard_ii",
-    "tln_start": 153,
-    "tln_end": 153,
-    "word_start": 1,
-    "word_end": 6,
-    "anchor_text": "purge this choler without letting blood",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "Richard is drawing on the medical theory of the four humours: choler (yellow bile) was the humour responsible for anger, hot temper, and aggression. To 'purge choler' normally meant a physician's treatment -- either by purging medicine or by 'letting blood' (cutting a vein to drain excess humour). Richard says they should calm the anger without the bleeding -- a pun, since 'letting blood' also means fighting. 'Our doctors say this is no month to bleed' continues the medical conceit.",
-    "detail": "In Galenic medicine, which dominated European medical practice until the eighteenth century, the body contained four fluids: blood, phlegm, yellow bile (choler), and black bile (melancholy). An excess of choler caused a violent, irascible temperament. Treatment included purging the excess through medicines, diet, or phlebotomy (bloodletting). The month of bleeding mattered: astrological medicine held that certain months and signs of the zodiac were unfavorable for phlebotomy, and doctors consulted almanacs to advise when bleeding was safe. Richard's medical joke is that they should cool the humour without the surgery (the duel), because the timing is medically wrong -- and because the metaphorical blood of judicial combat is too high a price.",
-    "sources": [
-      {
-        "name": "Galenic humoral medicine; Burton, The Anatomy of Melancholy",
-        "citation": "Galenic four-humours doctrine (choler = yellow bile, the seat of anger, treated by purging and phlebotomy); described at length in Robert Burton, The Anatomy of Melancholy (1621)."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 153"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Dropped the wrong precise Burton locus (Part 1.1.2) and generalized to Galenic doctrine + Burton's Anatomy at work level; gloss unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The humoral reading (choler/yellow bile causing hot anger, purging via medicine or phlebotomy, astrological timing of bloodletting) is accurate to Galenic medicine and the pun on 'letting blood' = fighting is sound; Burton's Anatomy (1621) post-dates the play but the underlying Galenic doctrine is correctly described."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Dropped the wrong precise Burton locus (Part 1.1.2) and generalized to Galenic doctrine + Burton's Anatomy at work level; gloss unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "richard_ii-1779-young-father",
-    "play": "richard_ii",
-    "tln_start": 1779,
-    "tln_end": 1780,
-    "word_start": 1,
-    "word_end": 8,
-    "anchor_text": "I am too young to be your father, / Though you are old enough to be my heir",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "Richard and Bolingbroke were almost exactly the same age (both born in 1367). Richard's line turns that near-equality into a bitter paradox: he is too young in authority to be Bolingbroke's political father (i.e., his superior), yet Bolingbroke is aged enough to inherit from him. The line concedes, in riddling form, that Bolingbroke is his heir -- and therefore his successor -- before it is said in plain words.",
-    "detail": "Richard packs the political capitulation into a grammatical paradox: the conditional structure ('I am too young... though you are old enough') turns a statement of age into a statement of dynastic succession. 'Heir' legally meant the next in line to a title or estate -- and Richard, who has no children, is saying that Bolingbroke is positioned to inherit the crown. The sentence does what the surrender scene does: the admission is made before it is formally enacted.",
-    "sources": [
-      {
-        "name": "Holinshed, Chronicles (1587)",
-        "citation": "Raphael Holinshed, Chronicles of England, Scotland, and Ireland (1587): Richard, childless, and the question of the succession."
-      },
-      {
-        "name": "Schmidt, Shakespeare-Lexicon",
-        "citation": "Schmidt, Alexander, Shakespeare-Lexicon, s.v. 'heir': one who succeeds to another's place, title, or property."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1779"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Corrected the false 'one year older' claim (both men were born in 1367) to 'almost exactly the same age'; dropped the unsupported Holinshed page number; sources retained."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The paradox about age and inheritance is textually exact, and the reading that 'heir' concedes dynastic succession before it is formally stated is a sound and mainstream interpretation of what is an unmistakably ironic couplet."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Corrected the false 'one year older' claim (both men were born in 1367) to 'almost exactly the same age'; dropped the unsupported Holinshed page number; sources retained. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "richard_ii-18-high-stomachd",
-    "play": "richard_ii",
-    "tln_start": 18,
-    "tln_end": 18,
-    "word_start": 0,
-    "word_end": 7,
-    "anchor_text": "High-stomach'd are they both and full of ire",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "'High-stomach'd' means haughty, fiercely proud, or full of hot rage -- a man with a 'high stomach' was one whose pride made him quick to anger and impossible to pacify. Richard is noting that both Bolingbroke and Mowbray are far too proud and angry to be talked down.",
-    "detail": "In Elizabethan usage 'stomach' regularly meant spirit, courage, or resentful pride, not the digestive organ -- a meaning surviving in 'I have no stomach for it' (no heart for it). 'High-stomached' thus describes inflated pride that swells into rage. The comparison that follows -- 'deaf as the sea, hasty as fire' -- casts the two men as elemental forces: the sea's indifference to reason, fire's speed and destructiveness.",
-    "sources": [
-      {
-        "name": "Schmidt, Shakespeare-Lexicon",
-        "citation": "Schmidt, Alexander, Shakespeare-Lexicon (Berlin, 1874-75), s.v. 'stomach': 'pride, haughtiness, passion.'"
-      },
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'stomach' n., sense for 'spirit, courage; haughtiness, pride, obstinacy' (now archaic)."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 18"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Removed the disputed Schmidt sense-number '(3)' and generalized to Schmidt s.v. 'stomach'; added OED as a second robust source; gloss unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The reading of 'high-stomach'd' as haughty/fiercely proud is the standard Elizabethan sense and fits Richard's characterisation of both men as too proud to be reasoned with; the elemental similes in the following line support the reading."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Removed the disputed Schmidt sense-number '(3)' and generalized to Schmidt s.v. 'stomach'; added OED as a second robust source; gloss unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "richard_ii-1827-sea-walled-garden",
-    "play": "richard_ii",
-    "tln_start": 1830,
-    "tln_end": 1831,
-    "word_start": 1,
-    "word_end": 8,
-    "anchor_text": "our sea-walled garden, the whole land, Is full of weeds; her fairest flowers chok'd up",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "The Servant names the allegory the Gardener has been enacting: the 'sea-walled garden' is England itself. The image of England as an island-garden protected by the sea echoes John of Gaunt's famous speech earlier in the play. 'Caterpillars' was a common Elizabethan term of abuse for parasitic flatterers and corrupt officials who drain the commonwealth -- as Bolingbroke had already called Richard's favourites Bushy, Bagot, and Green.",
-    "detail": "The island-garden metaphor taps the conventional praise of England as a naturally fortified realm, famously developed in John of Gaunt's 'precious stone set in the silver sea' speech (2.1). By 1599 the image was so established that the Servant's application of it to the misgoverned realm would land immediately. 'Caterpillars of the commonwealth' echoes Bolingbroke's charge against the king's favourites earlier in the play -- 'The caterpillars of the commonwealth, / Which I have sworn to weed and pluck away' (2.3).",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'caterpillar' n., sense 2: 'a person who preys upon society; an extortioner, a pillager' (with Richard II among the early citations)."
-      },
-      {
-        "name": "Holinshed, Chronicles (1587)",
-        "citation": "Raphael Holinshed, Chronicles of England, Scotland, and Ireland (1587): the political crisis of 1397-99 and the charges against Richard's favourites."
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "the-great-chain-of-being"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1830"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Removed the fabricated Bolingbroke quotation and wrong line attribution from the detail; replaced with the play's actual 2.3 wording ('caterpillars of the commonwealth'); OED + Holinshed sources retained."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The island-garden-equals-England reading is explicit and the 'caterpillars of the commonwealth' link to Bolingbroke's 2.3 speech is accurate, though the verbatim quotation given in the detail does not match the play's actual text and should not be trusted literally."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Removed the fabricated Bolingbroke quotation and wrong line attribution from the detail; replaced with the play's actual 2.3 wording ('caterpillars of the commonwealth'); OED + Holinshed sources retained. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "richard_ii-1872-fortunes-weighed",
-    "play": "richard_ii",
-    "tln_start": 1873,
-    "tln_end": 1875,
-    "word_start": 2,
-    "word_end": 7,
-    "anchor_text": "their fortunes both are weigh'd In your lord's scale is nothing but himself And some few vanities that make him light",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "The Gardener describes the political contest between Richard and Bolingbroke as two pans of a balance scale: Richard's side holds only himself and 'some few vanities' (his flatterers and empty pleasures), which makes him 'light' -- both physically light in weight and morally frivolous. Bolingbroke's side holds all the English lords, and the heavier weight brings Richard's pan down. The image turns Bolingbroke's political strength into a physical law.",
-    "detail": "The scales-of-justice image was familiar from iconography (Lady Justice, Fortune), and Shakespeare uses it repeatedly for political and moral reckoning. 'Vanities' here carries the full scriptural weight of the word -- vain, empty things with no lasting substance (compare Ecclesiastes 1:2, Geneva 1599: 'Vanitie of vanities, all is vanitie'). 'Light' is a punning double sense: lightweight on a scale, and morally frivolous. The Gardener's precision -- itemising what is on each side -- gives the speech an accountant's clarity, fitting for a man whose work is weighing and balancing the garden's needs.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'vanity' n., sense 2: 'that which is vain, futile, or worthless; that which is of no value or profit' (with many 16th-century examples)."
-      },
-      {
-        "name": "Schmidt, Shakespeare-Lexicon",
-        "citation": "Schmidt, Alexander, Shakespeare-Lexicon, s.v. 'light' (adj.): of little weight; hence frivolous, trifling, of little worth."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1873"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Removed the disputed Schmidt 'sense 4' number and generalized the 'light' definition to s.v. 'light'; OED 'vanity' source retained; gloss unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The scales imagery and the 'light' double meaning (lightweight / morally frivolous) are fully supported by the text; the Ecclesiastes allusion in the detail is a plausible enrichment rather than a forced reading, given the play's wider theological vocabulary."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Removed the disputed Schmidt 'sense 4' number and generalized the 'light' definition to s.v. 'light'; OED 'vanity' source retained; gloss unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "richard_ii-1964-lie-giver",
-    "play": "richard_ii",
-    "tln_start": 1964,
-    "tln_end": 1966,
-    "word_start": 0,
-    "word_end": 8,
-    "anchor_text": "That lie shall lie so heavy on my sword / That it shall render vengeance and revenge / Till thou the lie-giver and that lie do lie",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "Surrey piles the word 'lie' into three different senses within three lines: the insult ('thou liest'), the lie weighing on his sword, and finally both the 'lie-giver' (the man who told the lie) and the lie itself lying dead on the ground. This is the figure called antanaclasis (also 'traductio') -- repeating a word in different senses -- used here for an effect of relentless, accumulating fury.",
-    "detail": "The triple play on 'lie' is a signature of Shakespeare's intensely rhetorical early-history style. Surrey means: 'Your lie will press so hard on my sword arm that I will keep fighting until both you (the lie-giver) and the lie you told are laid flat in the earth -- as quiet as your father's skull.' The final image of the skull is a sudden, concrete memento mori that punctures the elaborate wordplay.",
-    "sources": [
-      {
-        "name": "Lanham, A Handlist of Rhetorical Terms",
-        "citation": "Richard A. Lanham, A Handlist of Rhetorical Terms (2nd ed., 1991), s.v. 'antanaclasis': repetition of a word in two different senses (also discussed under 'traductio')."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1964"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Replaced the wrong Puttenham figure ('the Tranlacer' = morphological variation) with Lanham's Handlist entry for antanaclasis/traductio, the correct term for one word in different senses; gloss unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The triple polyptoton on 'lie' (insult / weight / lie dead) is clearly present in the text, and identifying it as traductio / antanaclasis is accurate; the gloss is sound."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Replaced the wrong Puttenham figure ('the Tranlacer' = morphological variation) with Lanham's Handlist entry for antanaclasis/traductio, the correct term for one word in different senses; gloss unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "richard_ii-223-destinies-cut",
-    "play": "richard_ii",
-    "tln_start": 223,
-    "tln_end": 223,
-    "word_start": 0,
-    "word_end": 7,
-    "anchor_text": "Some of those branches by the Destinies cut",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "The 'Destinies' are the three Fates of classical mythology -- Clotho, Lachesis, and Atropos -- who spun, measured, and cut the thread of every human life. Calling natural death a cutting by the Destinies distinguishes it from Gloucester's murder: some of Edward's sons died in their time; Gloucester's life was cut before its term.",
-    "detail": "In Greek and Roman tradition the three Fates (Greek Moirai; Latin Parcae) govern the length of every life. Clotho spins the thread of life, Lachesis measures it, and Atropos -- whose name means 'she who cannot be turned' -- cuts it. Hesiod names them in the Theogony (218-220, and again 901-906) as daughters of Zeus and Themis; Ovid alludes to them across the Metamorphoses. The tree-and-branches metaphor the Duchess uses is then a pointed contrast: natural death is the Destinies at work; Gloucester's death was 'envy's hand and murder's bloody axe' (TLN 229), which cut without the Fates' sanction.",
-    "sources": [
-      {
-        "name": "Hesiod, Theogony",
-        "citation": "Hesiod, Theogony 218-220 and 901-906 (the three Fates: Clotho, Lachesis, Atropos)."
-      },
-      {
-        "name": "Ovid, Metamorphoses",
-        "citation": "Ovid, Metamorphoses (the Fates spinning and cutting the thread of life); Englished by Arthur Golding (1567)."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 223"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Hesiod citation is correct and retained; generalized the disputed Ovid Met. 8.451-454 locus to the work level (Golding kept) rather than inventing a new line reference."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The contrast between natural deaths ('dried by nature's course,' TLN 222) and Gloucester's murder ('envy's hand and murder's bloody axe,' TLN 229) is explicit in the text, and the Fates/Destinies gloss is the standard classical referent for this image."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Hesiod citation is correct and retained; generalized the disputed Ovid Met. 8.451-454 locus to the work level (Golding kept) rather than inventing a new line reference. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "richard_ii-2337-woe-wanton",
-    "play": "richard_ii",
-    "tln_start": 2337,
-    "tln_end": 2337,
-    "word_start": 0,
-    "word_end": 7,
-    "anchor_text": "We make woe wanton with this fond delay",
-    "type": "wordplay",
-    "depth": "basic",
-    "summary": "'Wanton' here does not mean sexual looseness. It means capricious, undisciplined, self-indulgent -- spending sorrow recklessly, letting grief run freely when the moment calls for restraint. 'Fond' means foolish. Richard is saying: by lingering over our goodbyes, we are turning grief into a plaything rather than bearing it with dignity.",
-    "detail": "In Elizabethan English 'wanton' covered a wide semantic range: unrestrained, capricious, playful, undisciplined, and only secondarily lascivious (the non-sexual senses pre-date the narrowly sexual). Richard's ironic self-criticism here -- spoken while he clearly wishes to keep delaying -- mirrors his character throughout the play: a man who knows his own performances are excessive but cannot stop performing them. 'Fond' as 'foolish' (rather than 'affectionate') is the primary sense here and throughout early modern English. The line is Richard's recognition that his own rhetoric has become a form of self-indulgence, yet he immediately invites one more farewell ('Once more, adieu').",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'wanton' adj., sense 'unrestrained in behaviour; undisciplined, capricious'; OED s.v. 'fond' adj., sense 'foolish, silly, credulous; doting.'"
-      },
-      {
-        "name": "Onions, A Shakespeare Glossary",
-        "citation": "C. T. Onions, A Shakespeare Glossary (Oxford, 1911), s.v. 'wanton': 'unrestrained, sportive, frolicsome' (distinct from the narrower modern sense)."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2337"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Dropped the fabricated Onions '2nd ed. (1919)' edition detail (Onions is 1911) and the disputed OED sense numbers; sources generalized; gloss unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "'Wanton' as capricious and undisciplined (pre-sexual primary sense) and 'fond' as foolish are both correctly identified as the operative Elizabethan meanings here; the observation that Richard simultaneously diagnoses and perpetuates his own rhetorical excess ('yet he immediately invites one more farewell') is supported directly by TLN 2338 ('Once more, adieu')."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Dropped the fabricated Onions '2nd ed. (1919)' edition detail (Onions is 1911) and the disputed OED sense numbers; sources generalized; gloss unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "richard_ii-2347-aspiring-rider",
-    "play": "richard_ii",
-    "tln_start": 2347,
-    "tln_end": 2348,
-    "word_start": 3,
-    "word_end": 6,
-    "anchor_text": "hot and fiery steed / Which his aspiring rider seem'd to know",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "York describes Bolingbroke's horse as if it senses its rider -- the animal 'seems to know' the man it carries. This is personification: the horse is given human insight. The word 'aspiring' means aiming upward, and in Elizabethan usage it often carried a negative charge of ambitious overreach (the word applied to usurpers and men who reach above their station).",
-    "detail": "York's narration is admiring on its surface -- Bolingbroke rides in triumph while the crowd cheers -- but the word 'aspiring' carries a specifically political colouring in Elizabethan usage (compare Marlowe's 'aspiring' Tamburlaine). A student of the play will return to this image when Richard, imprisoned, hears from his groom that roan Barbary -- Richard's own horse -- carried Bolingbroke to his coronation (5.5).",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'aspiring' adj.: 'that aspires; ambitious, eager to rise' -- in common use from the 1580s, frequently with a negative connotation of ambitious overreach."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2347"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "OED does document 'aspiring' with the negative sense of ambitious overreach from the 1580s onward, and Marlowe's Tamburlaine (1587) is a real, correctly attributed parallel."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Interp judge correct: trimmed the over-reading that the horse 'quietly condemns Bolingbroke' (York's narration is admiring); kept the verified personification + 'aspiring'=ambitious-overreach reading (OED source retained)."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Interp judge correct: trimmed the over-reading that the horse 'quietly condemns Bolingbroke' (York's narration is admiring); kept the verified personification + 'aspiring'=ambitious-overreach reading (OED source retained). [orig: source=verified, interp=refuted]"
-  },
-  {
-    "id": "richard_ii-2442-sacrament",
-    "play": "richard_ii",
-    "tln_start": 2442,
-    "tln_end": 2444,
-    "word_start": 0,
-    "word_end": 5,
-    "anchor_text": "A dozen of them here have ta'en the sacrament / And interchangeably set down their hands / To kill the King at Oxford",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "York reveals that roughly twelve conspirators have sworn a binding oath -- in the play, on the sacrament (the Eucharist, Christian Communion) -- and each signed the same document, pledging to murder Henry IV at Oxford. 'Ta'en the sacrament' means they swore on the consecrated host, the most binding oath in Christian practice. 'Interchangeably set down their hands' means each man signed in turn, so the document is evidence of treason by all of them.",
-    "detail": "Swearing on the sacrament -- the body of Christ in the Eucharist -- was the most solemn oath available, making a broken pledge not merely perjury but sacrilege. (Holinshed records that the Epiphany conspirators bound themselves by a sworn oath to restore Richard; the specifically sacramental detail is the play's own intensification.) 'Interchangeably' is a legal term for mutual obligation: each party signs in alternation or in common, making it a binding compact rather than a unilateral pledge. The sealed document York has snatched from Aumerle carries the weight of legal evidence -- a signed list of names is the conspiracy's own death warrant for each man on it.",
-    "sources": [
-      {
-        "name": "Holinshed, Chronicles (1587)",
-        "citation": "Raphael Holinshed, Chronicles of England, Scotland, and Ireland (1587): the Epiphany Rising of January 1400 -- the conspirators' sworn oath and compact to restore Richard / kill Henry IV."
-      },
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'interchangeably' adv.: 'in mutual exchange; reciprocally; each to the other in turn' -- used in legal documents of the period."
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "holinshed-chronicles"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2442"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Acknowledged that the sacrament/Eucharist detail is the play's own (Holinshed has the conspirators swear an oath, not specifically on the sacrament); Holinshed retained for the conspiracy, OED for 'interchangeably'; gloss intact."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The identification of the sacrament-oath as Eucharist-sworn and 'interchangeably' as a legal term for mutual compact is accurate; the 'crypto-Catholic' framing slightly conflates 1399 with Elizabethan reception but does not invalidate the core interpretation."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Acknowledged that the sacrament/Eucharist detail is the play's own (Holinshed has the conspirators swear an oath, not specifically on the sacrament); Holinshed retained for the conspiracy, OED for 'interchangeably'; gloss intact. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "richard_ii-2479-triumphs-oxford",
-    "play": "richard_ii",
-    "tln_start": 2479,
-    "tln_end": 2479,
-    "word_start": 4,
-    "word_end": 8,
-    "anchor_text": "those triumphs held at Oxford",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "'Triumphs' here means jousting tournaments or festive tilts -- celebratory combats held for royal and noble entertainment. In the play this tournament is the cover the conspirators plan to use to assassinate Henry IV at Epiphany 1400, the very plot Aumerle's letter reveals in this scene.",
-    "detail": "Holinshed records that the earls loyal to Richard planned a tournament at Epiphany (6 January 1400) as the occasion for killing Bolingbroke and restoring Richard. The chronicle locates the planned tournament at Windsor; Shakespeare's text names Oxford. Percy's mention of the 'triumphs at Oxford' thus -- without either character realizing it -- names the cover event for the very conspiracy about to be revealed when Aumerle enters. The dramatic irony is sharp.",
-    "sources": [
-      {
-        "name": "Holinshed, Chronicles (1587)",
-        "citation": "Raphael Holinshed, Chronicles of England, Scotland, and Ireland (1587): the Epiphany Rising of January 1400, the conspiracy and its planned tournament (located at Windsor in the chronicle)."
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "holinshed-chronicles"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2479"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Corrected the citation to acknowledge Holinshed places the tournament at Windsor (Shakespeare's text names Oxford), removing the false claim that the chronicle corroborates 'Oxford'; Holinshed source retained; gloss intact."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The historical identification of the Oxford Epiphany plot and the dramatic-irony reading are sound, though the claim that 'neither character' realizes the connection slightly overstates: Aumerle enters after this line and Percy is not party to the conspiracy, so the irony works as described."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Corrected the citation to acknowledge Holinshed places the tournament at Windsor (Shakespeare's text names Oxford), removing the false claim that the chronicle corroborates 'Oxford'; Holinshed source retained; gloss intact. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "richard_ii-2521-fear-not-love",
-    "play": "richard_ii",
-    "tln_start": 2521,
-    "tln_end": 2521,
-    "word_start": 0,
-    "word_end": 6,
-    "anchor_text": "Fear, and not love, begets his penitence",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "York's line is a pithy aphorism -- a sententia -- that functions as a moral verdict: Aumerle is not genuinely sorry; he repents only because he has been caught and fears punishment. The contrast between fear and love as motives for obedience was a familiar ethical distinction in Renaissance political and religious thought.",
-    "detail": "The fear-versus-love distinction was a commonplace of Renaissance moral and political writing (famously the subject of Machiavelli's question in The Prince, ch. 17, whether a ruler is better loved or feared). In religious terms, true repentance was held to require genuine inner contrition, not mere fear of punishment. York is accusing his son of the lesser, merely self-interested repentance -- the kind that earns neither royal pardon nor, by implication, divine forgiveness.",
-    "sources": [
-      {
-        "name": "Lanham, A Handlist of Rhetorical Terms",
-        "citation": "Richard A. Lanham, A Handlist of Rhetorical Terms (2nd ed., 1991), s.v. 'sententia': a wise saying or aphorism; a pithy general maxim driven home in a single line."
-      },
-      {
-        "name": "Schmidt, Shakespeare-Lexicon",
-        "citation": "Schmidt, Alexander, Shakespeare-Lexicon, s.v. 'beget': 'to give birth to, to produce' -- here, the two possible causes of Aumerle's apparent change of heart."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2521"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Added Lanham's Handlist for the 'sententia' label so the rhetorical claim is sourced; trimmed the Machiavelli reference to its uncontroversial core and softened the attrition/contrition theology to general terms; Schmidt 'beget' retained."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The sententia reading and the fear-vs-love moral distinction are correct; invoking Protestant contrition-vs-attrition theology adds a plausible but secondary layer that remains within mainstream Renaissance thought."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Added Lanham's Handlist for the 'sententia' label so the rhetorical claim is sourced; trimmed the Machiavelli reference to its uncontroversial core and softened the attrition/contrition theology to general terms; Schmidt 'beget' retained. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "richard_ii-2522-serpent-sting",
-    "play": "richard_ii",
-    "tln_start": 2522,
-    "tln_end": 2523,
-    "word_start": 4,
-    "word_end": 8,
-    "anchor_text": "lest thy pity prove A serpent that will sting thee to the heart",
-    "type": "biblical_allusion",
-    "depth": "basic",
-    "summary": "York warns Bolingbroke that pardoning Aumerle will be like nurturing a serpent -- the proverbial creature that conceals deadly malice beneath a trustworthy exterior and turns on the one who shelters it. For Shakespeare's audience the serpent also carried the force of the deceiver of Eden (Genesis 3), the archetypal betrayer working from within a position of trust.",
-    "detail": "The proverbial 'serpent in the bosom' -- warming a cold snake only to be bitten -- was widespread in Renaissance writing and is older than the Bible (it goes back to Aesop's fable). In a Christian culture the image readily fused with the Genesis serpent, the deceiver who brought ruin from inside paradise itself. York's point does not depend on the Edenic frame, but it gains weight from it: he is arguing that Aumerle's apparent conversion is exactly the kind of inside threat that cannot be trusted.",
-    "sources": [
-      {
-        "name": "Geneva Bible 1599",
-        "citation": "Genesis 3:1-15 (Geneva 1599): the serpent deceives Eve in the garden, bringing ruin from within -- the serpent as an emblem of hidden treachery."
-      }
-    ],
-    "references": [
-      {
-        "kind": "biblical",
-        "card_id": "garden-of-eden"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2522"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Genesis 3:1-15 in the Geneva Bible 1599 does introduce the serpent as the archetypal deceiver within paradise; the citation accurately supports the claim that Shakespeare's image draws on this passage."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Interp judge correct: the serpent-in-bosom image is also a classical proverb (Aesop), so trimmed the over-reading that it requires the Eden frame; reframed Genesis as one strand rather than the sole source; valid Geneva 3:1-15 citation retained, type kept biblical_allusion."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Interp judge correct: the serpent-in-bosom image is also a classical proverb (Aesop), so trimmed the over-reading that it requires the Eden frame; reframed Genesis as one strand rather than the sole source; valid Geneva 3:1-15 citation retained, type kept biblical_allusion. [orig: source=verified, interp=refuted]"
-  },
-  {
-    "id": "richard_ii-2544-beggar-and-king",
-    "play": "richard_ii",
-    "tln_start": 2544,
-    "tln_end": 2545,
-    "word_start": 0,
-    "word_end": 8,
-    "anchor_text": "Our scene is alter'd from a serious thing, And now chang'd to 'The Beggar and the King.'",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "'The Beggar and the King' refers to the popular ballad tradition of King Cophetua and the beggar maid, well known in Shakespeare's England. By naming it, Bolingbroke acknowledges that the Duchess's kneeling entrance has shifted the scene from high political crisis to something more like a comic folk-tale -- a humble supplicant winning a king's mercy through persistence.",
-    "detail": "The story of King Cophetua and the beggar maid (a king who marries a beggar) was a familiar ballad subject; Shakespeare alludes to it elsewhere (Love's Labour's Lost, Romeo and Juliet, 2 Henry IV), which shows how current the trope was for his audience. Bolingbroke's self-aware, meta-theatrical comment signals that the scene has tipped from tragic urgency to a more formulaic petition-scene. The word 'scene' is deliberately theatrical -- Bolingbroke is watching his own court as if from the audience.",
-    "sources": [
-      {
-        "name": "Shakespeare's own usage (intra-canon parallels)",
-        "citation": "The King Cophetua / beggar-maid ballad tradition, alluded to in Love's Labour's Lost (1.2, 4.1) and 2 Henry IV (5.3) -- evidence the trope was current for Shakespeare's audience."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2544"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Dropped the unsupported 'in print since the 1560s' claim and the anachronistic Percy Reliques (1765) citation; grounded the gloss in Shakespeare's own contemporary allusions to the Cophetua ballad; gloss intact."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The identification with the King Cophetua / Beggar Maid ballad tradition and the meta-theatrical self-awareness reading are standard and supported by parallel usage in Love's Labour's Lost and 2 Henry IV."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Dropped the unsupported 'in print since the 1560s' claim and the anachronistic Percy Reliques (1765) citation; grounded the gloss in Shakespeare's own contemporary allusions to the Cophetua ballad; gloss intact. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "richard_ii-2619-rid-me-of-this-fear",
-    "play": "richard_ii",
-    "tln_start": 2619,
-    "tln_end": 2619,
-    "word_start": 0,
-    "word_end": 10,
-    "anchor_text": "Have I no friend will rid me of this living fear",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "Bolingbroke's reported words echo a notorious pattern in English history: Henry II's outburst in 1170 against Archbishop Thomas Becket, which four knights took as a command and used to justify Becket's murder. The pattern is the point -- a king voices a wish aloud, deniably, and an ambitious subordinate acts on it. Editors of the play (Ure, Arden) note the Becket parallel.",
-    "detail": "Holinshed's Chronicles (1587) records a version of Henry IV's words at Windsor as the prompt for Exton's action. The Becket episode -- where the king spoke and then professed horror at the deed done in his name -- was the standard historical frame for such indirect royal incitement. (The famous 'turbulent priest' formulation is a much later, 18th-century rendering; the medieval accounts report Henry's words differently, but the pattern of deniable royal incitement is the same.) Exton's repetition of the phrase and his notation that the king 'urged it twice together' and 'wistly looked on me' enact the logic of plausible deniability: the king never gave an order, yet the repetition and the meaningful glance amount to one. The scene sets up the moral problem that dogs Henry IV through his two subsequent plays -- he wanted Richard dead but refuses to own the act.",
-    "sources": [
-      {
-        "name": "Holinshed, Chronicles (1587)",
-        "citation": "Raphael Holinshed, Chronicles of England, Scotland, and Ireland (1587), 'Richard II': Henry IV's words at Windsor as the prompt for Exton's action."
-      },
-      {
-        "name": "Ure (ed.), Richard II, Arden Shakespeare",
-        "citation": "Peter Ure (ed.), King Richard II, Arden Shakespeare (1956), note to 5.4: the parallel with Henry II's words against Thomas Becket (murdered 29 December 1170)."
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "holinshed-chronicles"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2619"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Confirmed by search that 'turbulent priest' is an 18th-c. (Dodsley, 1740) formulation, not Edward Grim's wording; dropped the misattributed Grim Vita citation, flagged the wording as a later rendering, and leaned on the verified Holinshed source + Ure's Arden note for the parallel."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The Becket parallel is a mainstream scholarly reading (Ure's Arden, 1956, notes it explicitly), the plausible-deniability mechanics are directly enacted in the scene's text, and the claim that the episode dogs Henry IV through the subsequent plays is uncontroversially supported by 2H4 and its opening."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Confirmed by search that 'turbulent priest' is an 18th-c. (Dodsley, 1740) formulation, not Edward Grim's wording; dropped the misattributed Grim Vita citation, flagged the wording as a later rendering, and leaned on the verified Holinshed source + Ure's Arden note for the parallel. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "richard_ii-698-seat-of-mars",
-    "play": "richard_ii",
-    "tln_start": 698,
-    "tln_end": 698,
-    "word_start": 4,
-    "word_end": 7,
-    "anchor_text": "this seat of Mars",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "Mars was the Roman god of war; his 'seat' is a throne or home. Gaunt calls England the place where Mars -- that is, military valor -- resides. The phrase praises England's warrior reputation and implicitly blames Richard for abandoning it.",
-    "sources": [
-      {
-        "name": "Virgil, Aeneid",
-        "citation": "Virgil, Aeneid (Mars as the Roman god of war, the standard martial deity invoked throughout Renaissance literature)."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 698"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Replaced the wrong Ovid Met. 4.171-189 locus (the Mars/Venus adultery episode, not war-god material) with Virgil's Aeneid, an allowlisted ancient author naming Mars as god of war; gloss unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Mars as Roman god of war and 'seat' as throne or habitation is straightforward and uncontroversial; the praise-of-English-military-valor reading is directly supported by the surrounding sceptred-isle speech."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Replaced the wrong Ovid Met. 4.171-189 locus (the Mars/Venus adultery episode, not war-god material) with Virgil's Aeneid, an allowlisted ancient author naming Mars as god of war; gloss unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "richard_ii-784-pelican",
-    "play": "richard_ii",
-    "tln_start": 784,
-    "tln_end": 785,
-    "word_start": 3,
-    "word_end": 6,
-    "anchor_text": "like the pelican, Hast thou tapp'd out, and drunkenly carous'd",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "The pelican was believed to feed its young by pecking open its own breast and letting them drink its blood; it was the standard Christian symbol of a parent's self-sacrificing love, and of Christ shedding his blood for humanity. Gaunt accuses Richard of inverting the image completely: instead of a parent feeding its children, Richard is a child who has 'tapped out' (drawn off like a barrel's contents) the royal blood -- his family's lifeblood -- for his own drunken indulgence.",
-    "detail": "The pelican legend was ubiquitous in medieval heraldry, bestiaries, and Christian iconography. To 'drunkenly carouse' the blood is a grotesque image of the Eucharist reversed -- instead of Christ's blood shed for others, Richard drinks the family blood for pleasure. The accusation is precise: Gloucester's blood, royal Plantagenet blood, has been spilled on Richard's order. Shakespeare uses the pelican image elsewhere in a related but darker sense (Hamlet 4.5, King Lear 3.4): the 'pelican daughters' who drink their parent dry.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'pelican' n., sense 1b: the traditional fable of the pelican feeding (or reviving) its young with its own blood."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 784"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Dropped the unverifiable/fabricated 'Druce, The Pelican' citation; the genuine OED 1b source carries the factual content; gloss unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The pelican-in-piety legend (parent feeding young with its own blood) is correctly described and the inversion — Richard drinking family blood rather than sustaining it — is precisely what Gaunt says; the Eucharist-reversed reading is a standard and defensible gloss, not an overreach."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Dropped the unverifiable/fabricated 'Druce, The Pelican' citation; the genuine OED 1b source carries the factual content; gloss unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "richard_ii-786-gloucester-plain-well-meaning",
-    "play": "richard_ii",
-    "tln_start": 786,
-    "tln_end": 787,
-    "word_start": 0,
-    "word_end": 4,
-    "anchor_text": "My brother Gloucester, plain well-meaning soul, Whom fair befall in heaven",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "Thomas of Woodstock, Duke of Gloucester, was Edward III's youngest surviving son and Gaunt's brother. Richard II had him arrested in 1397 and he died in captivity at Calais -- almost certainly murdered on Richard's orders, though the king denied it. His death is the unresolved grievance at the start of the play (the Duchess of Gloucester begs Gaunt to avenge it). Here Gaunt names it to Richard's face.",
-    "detail": "Gaunt phrases the accusation carefully but unmistakably: Richard killed Gloucester -- another son of Edward III -- and that precedent shows he will not scruple to shed more of 'Edward's blood,' Gaunt's own included. The phrase 'Whom fair befall in heaven' is a prayer for a man Gaunt knows is already dead. The murder is recorded in Holinshed and is the historical foundation of the play; the accusation over Gloucester's death is raised in this play's opening scene, where the Duchess of Gloucester pleads with it.",
-    "sources": [
-      {
-        "name": "Holinshed, Chronicles (1587)",
-        "citation": "Raphael Holinshed, Chronicles of England, Scotland, and Ireland (1587): the arrest and death of Thomas of Woodstock, Duke of Gloucester, 1397."
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "edward-iii-and-his-sons"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 786"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Holinshed's account of Thomas of Woodstock's arrest and death in 1397 on Richard's orders is genuine and directly supports the historical claim."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Interp judge was right: trimmed the confused detail sentence claiming a separate 'earlier play Richard II' (the accusation is raised in this play's own first scene); verified Holinshed source retained."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Interp judge was right: trimmed the confused detail sentence claiming a separate 'earlier play Richard II' (the accusation is raised in this play's own first scene); verified Holinshed source retained. [orig: source=verified, interp=refuted]"
   }
 ]

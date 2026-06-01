@@ -1,0 +1,63 @@
+{
+  "play": "cymbeline",
+  "overview": "A late romance set in the legendary Britain of King Cymbeline, who refuses the tribute Rome has claimed since Julius Caesar. His daughter Imogen has secretly married the worthy but low-born Posthumus, who is banished and goes to Rome. There the cunning Iachimo wagers he can seduce her; failing, he hides in a trunk carried into her bedchamber, steals her bracelet and notes intimate details, and uses this false 'proof' to convince Posthumus of her infidelity. Posthumus orders his servant Pisanio to murder her; instead Pisanio disguises Imogen as the page 'Fidele' and sends her toward Milford-Haven. In the Welsh mountains she unknowingly meets her two long-lost brothers, stolen in infancy and raised in a cave by the banished lord Belarius. A potion makes her seem dead; she wakes beside the headless body of Cloten (the queen's brutal son, killed pursuing her in Posthumus's clothes) and takes it for her husband. A Roman invasion, a vision in which the god Jupiter descends on an eagle to comfort the imprisoned Posthumus, and a final scene packed with revelations bring every secret to light: the scattered family is reunited, the villains exposed, and Britain freely renews peace with Rome.",
+  "acts": [
+    {
+      "number": 1,
+      "summary": "Two gentlemen explain that Princess Imogen has secretly wed the poor but worthy Posthumus, defying her father and the queen, who wanted her for the queen's son Cloten. Posthumus is banished; in Rome, Iachimo wagers he can seduce Imogen, and the queen procures what she believes is poison.",
+      "scenes": [
+        { "number": 1, "summary": "At court, two gentlemen recount that Imogen has married the orphan Posthumus rather than the queen's loutish son Cloten, and that the angry king has banished him. The lovers part with vows and gifts — Imogen's diamond ring, Posthumus's bracelet — while the queen feigns sympathy.", "themes": ["marriage", "banishment", "class", "love"] },
+        { "number": 2, "summary": "Cloten, who has scuffled with the departing Posthumus, is flattered to his face and mocked behind his back by two attending lords.", "themes": ["folly", "satire", "court"] },
+        { "number": 3, "summary": "Imogen questions Pisanio about how Posthumus looked as his ship pulled away, grieving that she could not watch him out of sight.", "themes": ["love", "separation", "longing"] },
+        { "number": 4, "summary": "In Rome, at Philario's house, the boastful Iachimo wagers ten thousand ducats against Posthumus's diamond ring that he can seduce the supposedly peerless Imogen. Posthumus accepts the bet on his wife's honor.", "themes": ["wager", "chastity", "honor", "pride"] },
+        { "number": 5, "summary": "The queen obtains a box of drugs from the physician Cornelius, who distrusts her and has secretly replaced the poison with a harmless sleeping potion. She passes the box to Pisanio as a supposed cordial.", "themes": ["poison", "deception", "providence"] },
+        { "number": 6, "summary": "Iachimo arrives and tries to seduce Imogen by slandering Posthumus as faithless in Rome; rebuffed, he pretends he was only testing her, regains her trust, and persuades her to guard a trunk of 'jewels' in her bedchamber overnight.", "themes": ["slander", "temptation", "fidelity", "trickery"] }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "Iachimo, hidden in the trunk, steals from Imogen's bedchamber the proof he needs. Cloten woos her crudely and is scorned. In Rome the false evidence convinces Posthumus of her guilt, and he breaks into a bitter rage against all women.",
+      "scenes": [
+        { "number": 1, "summary": "Cloten rages over losing at bowls; the lords learn that a stranger (Iachimo) has arrived at court.", "themes": ["folly", "court"] },
+        { "number": 2, "summary": "As Imogen sleeps, Iachimo climbs from the trunk, memorizes the room, slips the bracelet from her arm, and notes a mole on her breast — likening himself to Tarquin approaching Lucrece — then hides again as the clock strikes.", "themes": ["voyeurism", "violation", "chastity", "deception"] },
+        { "number": 3, "summary": "Cloten serenades Imogen with the dawn-song 'Hark, hark! the lark'; backed by the king and queen, he presses his suit, but she declares Posthumus's 'meanest garment' dearer than all of Cloten. She discovers her bracelet is gone.", "themes": ["courtship", "music", "scorn", "marriage"] },
+        { "number": 4, "summary": "Back in Rome, Iachimo produces the bracelet and a description of the bedchamber and Imogen's body as 'proof.' Despite Philario's doubts, Posthumus believes him, surrenders the ring, and is consumed by jealous fury.", "themes": ["jealousy", "evidence", "betrayal", "wager"] },
+        { "number": 5, "summary": "Alone, Posthumus rails against women in a savage soliloquy, blaming 'the woman's part' for every vice and vowing to write against the whole sex.", "themes": ["misogyny", "jealousy", "rage"] }
+      ]
+    },
+    {
+      "number": 3,
+      "summary": "Cymbeline refuses Rome's tribute, and war looms. Ordered by Posthumus to kill Imogen, Pisanio instead disguises her as a boy and sends her toward Milford-Haven. In the Welsh hills she stumbles on the cave of Belarius and her unknown royal brothers, while Cloten pursues her in Posthumus's clothes.",
+      "scenes": [
+        { "number": 1, "summary": "The Roman ambassador Caius Lucius demands the tribute Britain has owed since Julius Caesar. Urged on by the queen and Cloten, Cymbeline refuses, and Lucius declares war.", "themes": ["tribute", "nationhood", "war", "defiance"] },
+        { "number": 2, "summary": "Pisanio is horrified by Posthumus's letter ordering Imogen's death for adultery; unable to obey, he reads her a second, loving letter that summons her to Milford-Haven to meet her husband, and she sets out joyfully.", "themes": ["loyalty", "murder", "deception", "hope"] },
+        { "number": 3, "summary": "In a mountain cave, the banished lord Belarius and the two youths he calls his sons — Guiderius and Arviragus — live a hard, honest life. Alone, Belarius reveals that the boys are in truth Cymbeline's kidnapped sons, stolen in revenge for his unjust banishment.", "themes": ["pastoral", "nature", "nobility", "hidden_identity"] },
+        { "number": 4, "summary": "Near Milford, Pisanio shows Imogen the order to kill her. Stunned, she bids him strike; instead he reveals Iachimo's likely treachery, disguises her as the page 'Fidele' to seek service with the Roman Lucius, and gives her the queen's box as a restorative.", "themes": ["betrayal", "disguise", "despair", "loyalty"] },
+        { "number": 5, "summary": "The Romans depart in defiance; Imogen is found missing. Cloten bullies Pisanio into revealing she has gone to Milford and resolves to follow in Posthumus's very clothes, to kill him and ravish her.", "themes": ["revenge", "lust", "pursuit"] },
+        { "number": 6, "summary": "Exhausted and lost, the disguised Imogen finds the cave and, half-starved, takes food; Belarius and the brothers return and are drawn by a strange, instinctive love to the gentle 'boy' Fidele.", "themes": ["disguise", "kinship", "hospitality"] },
+        { "number": 7, "summary": "At Rome, senators and tribunes order a levy of gentry to reinforce Lucius for the British war.", "themes": ["war", "rome"] }
+      ]
+    },
+    {
+      "number": 4,
+      "summary": "Cloten reaches Wales and is killed and beheaded by Guiderius. The sick Fidele takes the potion and seems to die; the brothers sing a dirge, and Imogen wakes beside Cloten's headless body in Posthumus's clothes, mistaking it for her husband. The Roman Lucius takes the grieving 'page' into service.",
+      "scenes": [
+        { "number": 1, "summary": "Cloten, dressed in Posthumus's garments, gloats over the revenge and rape he means to commit at Milford.", "themes": ["revenge", "lust", "folly"] },
+        { "number": 2, "summary": "Fidele, sick, swallows the queen's potion and seems to die; Guiderius beheads the insolent Cloten in a quarrel. The brothers sing 'Fear no more the heat o' the sun' over the 'dead' Fidele. Imogen wakes beside the headless body in Posthumus's clothes, takes it for her husband, and is found by Lucius, who makes her his page.", "themes": ["death", "dirge", "mistaken_identity", "grief"] },
+        { "number": 3, "summary": "At court, Cymbeline is troubled: the queen has fallen ill in despair at Cloten's absence, and Imogen is gone, as the Roman invasion nears.", "themes": ["disorder", "war", "anxiety"] },
+        { "number": 4, "summary": "Belarius and the brothers, stirred by the war, resolve to leave the cave and fight for Britain against Rome.", "themes": ["valor", "war", "nobility"] }
+      ]
+    },
+    {
+      "number": 5,
+      "summary": "Repentant and longing for death, Posthumus fights for Britain disguised as a peasant; with Belarius and the princes he turns the battle. Imprisoned, he is visited in a dream by the god Jupiter, who descends on an eagle and leaves a prophecy. In a final scene of cascading revelations, every secret is told and the family and the kingdoms are reconciled.",
+      "scenes": [
+        { "number": 1, "summary": "Posthumus, now believing Imogen wrongly killed and carrying the bloody cloth Pisanio sent as proof, repents and resolves to die fighting for Britain, disguised as a poor soldier.", "themes": ["repentance", "guilt", "disguise"] },
+        { "number": 2, "summary": "In the battle, the guilt-stricken Iachimo is disarmed; the Britons flee and Cymbeline is captured, but Belarius, Guiderius, Arviragus, and the disguised Posthumus rescue the king and rout the Roman army.", "themes": ["battle", "valor", "rescue"] },
+        { "number": 3, "summary": "Posthumus describes to a cowardly fleeing lord how an old man and two boys held a narrow lane and saved the day; still craving death, he declares himself a Roman and lets himself be taken prisoner.", "themes": ["valor", "narration", "death_wish"] },
+        { "number": 4, "summary": "In prison and in chains, Posthumus welcomes death. As he sleeps, the ghosts of his father Sicilius, his mother, and his brothers beg Jupiter to relieve him; the god descends on an eagle amid thunder and leaves a prophetic tablet on his breast. Waking, Posthumus puzzles over it; the jesting gaolers lead him out.", "themes": ["providence", "vision", "prophecy", "dream"] },
+        { "number": 5, "summary": "In Cymbeline's tent the knots untie: the queen's deathbed confession of her crimes is reported; Iachimo confesses the wager; Posthumus reveals himself; the page is known for Imogen; Belarius restores the lost princes; the soothsayer reads Jupiter's tablet. Cymbeline pardons all and freely renews the peace with Rome.", "themes": ["recognition", "forgiveness", "reunion", "peace"] }
+      ]
+    }
+  ]
+}

@@ -1095,6 +1095,56 @@
     ]
   },
   {
+    "id": "pericles-179-murder-near-lust",
+    "play": "pericles",
+    "tln_start": 179,
+    "tln_end": 180,
+    "word_start": 0,
+    "word_end": 8,
+    "anchor_text": "One sin, I know, another doth provoke; Murder's as near to lust as flame to smoke",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Pericles reasons in a tight epigram: one sin breeds the next, and lust and murder are as inseparable as fire and its smoke — where there is lust, murder to conceal it follows naturally. This is the direct reasoning that makes him flee: Antiochus will kill him to protect his secret.",
+    "detail": "The figure is a paired simile working as deductive reasoning: the smoke-and-flame image is an analogy for causal proximity, not just moral equivalence. The argumentative movement — 'one sin provokes another' — is a commonplace of moral philosophy (the Stoic idea that vices breed and feed on one another), here given brisk dramatic urgency as Pericles decides to run.",
+    "sources": [
+      {
+        "name": "Seneca, Epistulae Morales",
+        "citation": "Seneca, Epistulae Morales (the recurring Stoic theme that vices feed and breed on one another; e.g. the 'vitia vitiis aluntur' commonplace) — cited here as a general parallel, not a verbatim source."
+      }
+    ],
+    "references": [],
+    "confidence": "medium",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 179"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Generalized the Seneca citation to the work level (dropped the unverifiable Ep. 97.10 locus and the misquoted Latin tag), since the gloss treats it only as a Stoic parallel."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The smoke-and-flame simile is accurately glossed as causal proximity, not mere moral equivalence; citing Seneca Ep. 97.10 as a parallel for 'vices breed vices' is a defensible parallel for a Stoic commonplace, and the annotation correctly marks confidence as 'medium' — appropriate given the source is a parallel rather than a direct echo."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Generalized the Seneca citation to the work level (dropped the unverifiable Ep. 97.10 locus and the misquoted Latin tag), since the gloss treats it only as a Stoic parallel. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "pericles-220-dull-eyed-melancholy",
     "play": "pericles",
     "tln_start": 220,
@@ -1387,6 +1437,56 @@
         "note": "The three-term bellows/spark/blast mapping is accurate to TLN 257-259 and the court-flattery commonplace is sound; attributing 'Signior Sooth here does proclaim a peace' to the departing lords as the embodied bellows is a natural and defensible reading."
       }
     ]
+  },
+  {
+    "id": "pericles-262-signior-sooth",
+    "play": "pericles",
+    "tln_start": 262,
+    "tln_end": 262,
+    "word_start": 1,
+    "word_end": 7,
+    "anchor_text": "Signior Sooth here does proclaim a peace",
+    "type": "wordplay",
+    "depth": "basic",
+    "summary": "Helicanus coins a mock-Italian title — 'Signior Sooth' — for the flattering courtier. 'Sooth' in Shakespeare's English means truth; but 'to soothe' had also come to mean to humour, flatter, or cajole, so the name puns on both: a 'Signior Sooth' is a man who passes himself off as a truth-teller while actually telling you only what you want to hear. The fake Italian honorific 'Signior' (= Sir, Mr.) gives the flatterer a pompous title that exposes him.",
+    "detail": "OED traces 'sooth' (n.) to Old English soth, 'truth', which remained its primary sense in Shakespeare's day; the verb 'soothe' had separately developed the sense 'to humour, flatter, cajole' (OED 'soothe' v. 2b). The wordplay turns on that gap: the courtier styled a teller of 'sooth' (truth) is really a soother (flatterer). Helicanus implies that the lords' comfortable agreement is not genuine counsel but a performance of assent.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'sooth' n. 1: 'truth, verity'; and 'soothe' v. 2b: 'to humour, flatter, cajole' — the gap between honest truth and comforting appeasement that the pun exploits."
+      }
+    ],
+    "references": [],
+    "confidence": "medium",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 262"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "OED s.v. 'sooth' n. 1 (= truth) and 'soothe' v. 2b (= to flatter, cajole) are both real OED entries that directly support the annotation's distinction between honest truth and comforting appeasement."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Interpretation trimmed: dropped the claim that 'sooth' itself meant false consolation, the anachronistic Iago/'soothe-sayer' link, and the Italian-courts stereotype; kept the OED-grounded sooth/soothe pun and reframed the irony as a supposed truth-teller who flatters."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Interpretation trimmed: dropped the claim that 'sooth' itself meant false consolation, the anachronistic Iago/'soothe-sayer' link, and the Italian-courts stereotype; kept the OED-grounded sooth/soothe pun and reframed the irony as a supposed truth-teller who flatters. [orig: source=verified, interp=refuted]"
   },
   {
     "id": "pericles-298-black-as-incest",
@@ -1740,6 +1840,61 @@
     ]
   },
   {
+    "id": "pericles-370-shipmans-toil",
+    "play": "pericles",
+    "tln_start": 370,
+    "tln_end": 370,
+    "word_start": 1,
+    "word_end": 6,
+    "anchor_text": "puts himself unto the shipman's toil",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "A 'shipman' is a sailor, and 'the shipman's toil' is the hardship of life at sea — constant physical labour, violent weather, and the ever-present risk of drowning. Helicanus is telling the lords that Pericles has deliberately submitted himself to the daily dangers of a mariner's life: the next line drives the point home with 'each minute threatens life or death.' For an Elizabethan audience, sea-voyaging was understood as one of the most dangerous occupations imaginable, with mortality rates on long passages that could exceed a third of a crew.",
+    "detail": "The sea voyage as voluntary hardship or trial is one of Pericles's governing motifs: the play will send its hero through multiple wrecks and storms across the Mediterranean, making the 'shipman's toil' not merely an image of hardship but the literal mechanism of the plot. Helicanus frames the voyage as Pericles's penance for having given 'displeasure' to Antiochus — a diplomatic misreading of the real motive (flight from murder), which he cannot disclose. 'Shipman' is archaic for 'sailor' or 'seaman'; Onions (Shakespeare Glossary s.v. 'shipman') records it as standard Elizabethan usage.",
+    "sources": [
+      {
+        "name": "Onions, Shakespeare Glossary",
+        "citation": "Onions, C. T., A Shakespeare Glossary, rev. R. D. Eagleson (1986), s.v. 'shipman': a sailor, seaman."
+      }
+    ],
+    "references": [
+      {
+        "kind": "classical",
+        "card_id": "neptune-god-of-the-sea"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 370"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the unverifiable 'Andrews, Pericles (Everyman/Arden 2)' edition citation (no such Pericles edition could be confirmed); retained the verified Onions gloss, which fully supports the note."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The identification of 'shipman' as sailor and the reading that Helicanus frames the voyage as self-imposed penance while concealing the real motive (flight from Antiochus) are both mainstream and well-supported by the text; the Neptune reference card is loose since Neptune is not named in the scene but does not corrupt the interpretation."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the unverifiable 'Andrews, Pericles (Everyman/Arden 2)' edition citation (no such Pericles edition could be confirmed); retained the verified Onions gloss, which fully supports the note. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "pericles-373-land-perish-sea",
     "play": "pericles",
     "tln_start": 373,
@@ -1796,6 +1951,56 @@
         "note": "The concessive reading of 'although I would' (even if I wished to be hanged) is correct, and the characterisation of Thaliard as a pragmatic self-preserving rogue who finds relief in being made redundant by circumstance is mainstream; the Fortune's-wheel reference card is a minor over-reach since Thaliard does not invoke Fortune here, but the core interpretation of the aside is sound."
       }
     ]
+  },
+  {
+    "id": "pericles-390-digging-hills",
+    "play": "pericles",
+    "tln_start": 391,
+    "tln_end": 391,
+    "word_start": 1,
+    "word_end": 7,
+    "anchor_text": "who digs hills because they do aspire",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Dionyza argues that dwelling on other people's sorrows only increases one's own: digging away at a hill to bring it lower just throws up a bigger mound of earth. The paradox — that the supposed remedy makes things worse — mirrors the scene, in which Cleon and Dionyza cannot speak their grief without deepening it.",
+    "detail": "The figure is a paradoxical analogy: the action meant to reduce the hill only piles up more earth, so the cure aggravates the disease. 'Aspire' here carries the physical sense of rising or mounting up as well as the sense of ambition — Schmidt's Shakespeare-Lexicon records both for Shakespeare's usage. The lines are spoken by Dionyza, answering Cleon's wish to publish his griefs.",
+    "sources": [
+      {
+        "name": "Schmidt, Shakespeare-Lexicon",
+        "citation": "Schmidt, Alexander, Shakespeare-Lexicon, 3rd ed. (Berlin: Reimer, 1902), s.v. 'aspire' (the sense of physical rising/mounting up alongside ambition)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 391"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Schmidt, Shakespeare-Lexicon s.v. 'aspire' is a real entry that supports the archaic sense of physical rising; the minor inconsistency that the detail names Onions while the source cites Schmidt does not undermine the core lexical claim."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Interpretation trimmed: corrected the speaker to Dionyza, replaced the overreaching 'adynaton' label with 'paradoxical analogy', and dropped the speculative Marina-murder character-arc foreshadowing; source (Schmidt) verified."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Interpretation trimmed: corrected the speaker to Dionyza, replaced the overreaching 'adynaton' label with 'paradoxical analogy', and dropped the speculative Marina-murder character-arc foreshadowing; source (Schmidt) verified. [orig: source=verified, interp=refuted]"
   },
   {
     "id": "pericles-397-wanteth",
@@ -1992,6 +2197,60 @@
         "note": "The vocabulary gloss of 'nousle up' as 'nurse, nourish' is sound, but the detail gloss imports a siege-famine / infantophagy topos (Lamentations 4:10, the siege of Jerusalem) that the text does not support — TLN 428-430 says mothers who had pampered their babes 'are ready now to eat those little darlings,' which is Cleon's hyperbole for extreme hunger, not a staged siege-cannibalism allusion, so the biblical parallel is an interpretive overreach."
       }
     ]
+  },
+  {
+    "id": "pericles-449-sorrow-heir",
+    "play": "pericles",
+    "tln_start": 449,
+    "tln_end": 449,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "One sorrow never comes but brings an heir",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Cleon personifies Sorrow as a parent who always produces a child ('heir') to succeed it — misfortunes never come alone but breed more misfortunes. The legal metaphor of inheritance (an 'heir' who 'succeeds as inheritor') frames bad luck in the same terms as royal succession, pointedly apt for a governor watching his city collapse and now expecting an invading fleet.",
+    "detail": "The figure is a sententia (a pithy general maxim) cast in the legal language of succession: 'heir' and 'inheritor' were technical terms for the person who legally succeeds to a title or estate. Using them for sorrow underlines Cleon's sense that misery has its own dynasties and laws. The sentiment that misfortunes come in succession rather than singly is proverbial; the classical tradition that evils, once loosed on humankind, follow one upon another goes back to the myth of Pandora in Hesiod's Works and Days.",
+    "sources": [
+      {
+        "name": "Hesiod, Works and Days",
+        "citation": "Hesiod, Works and Days (the Pandora myth, c. lines 90-104: evils escape the jar to plague humankind in unending succession) — cited as the nearest classical parallel, not a direct source."
+      },
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'heir' n. 2a: 'one who succeeds to any quality, condition, or position of another'; the legal/metaphorical extension was well established by the 1590s."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 449"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Corrected the Hesiod citation: moved it from the wrong lines 56-58 (Pandora's fashioning) to the Pandora-jar passage (c. 90-104, evils plaguing mankind in succession) and kept it framed as a parallel."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The sententia reading and the legal resonance of 'heir / inheritor' are straightforwardly supported by the text; the Hesiod parallel is appropriately hedged as a 'nearest classical parallel' rather than a direct source."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Corrected the Hesiod citation: moved it from the wrong lines 56-58 (Pandora's fashioning) to the Pandora-jar passage (c. 90-104, evils plaguing mankind in succession) and kept it framed as a parallel. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "pericles-479-trojan-horse",
@@ -2533,6 +2792,55 @@
     ]
   },
   {
+    "id": "pericles-562-great-ones-eat",
+    "play": "pericles",
+    "tln_start": 562,
+    "tln_end": 563,
+    "word_start": 5,
+    "word_end": 12,
+    "anchor_text": "the great ones eat up the little ones: I can compare our rich misers to nothing so fitly as to a whale",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "The First Fisherman uses an extended analogy — how fish live in the sea mirrors how men live on land — to deliver pointed social satire: the wealthy devour the poor just as big fish swallow small ones. The whale that 'swallowed the whole parish, church, steeple, bells, and all' is a comic fantasy built on the same moral. This device of using natural observation to expose social injustice is a set-piece of popular Elizabethan prose writing.",
+    "detail": "The fish-eat-fish commonplace has a long ancestry — it is a proverb collected in Erasmus's Adagia and circulated widely in Tudor England, and the image of big fish devouring small as a figure for tyranny goes back to antiquity. The fisherman's expansion of the image — the whale swallowing the whole parish infrastructure — extends it into comic hyperbole, but the moral target (rich misers who consume their tenants and communities) is a live Elizabethan grievance about enclosure and rack-renting. Pericles' aside ('a pretty moral') marks it as a deliberate formal set-piece.",
+    "sources": [
+      {
+        "name": "Erasmus, Adagia",
+        "citation": "Erasmus, Adagia: the proverb 'the great fish eat the small' (a widely cited classical and Renaissance commonplace; the same image underlies Bruegel's 1556 'Big Fish Eat Little Fish')."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 562"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Generalized the Erasmus citation to the work level (dropped the wrong adage number I.i.93, which is a different proverb); the big-fish/little-fish proverb is genuinely Erasmian and proverbial."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The fish-eat-fish commonplace as social satire on enclosure and rack-renting is well-supported; Pericles' aside 'a pretty moral' (TLN 568) explicitly marks it as a formal moral device, confirming the rhetorical-set-piece reading."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Generalized the Erasmus citation to the work level (dropped the wrong adage number I.i.93, which is a different proverb); the big-fish/little-fish proverb is genuinely Erasmian and proverbial. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "pericles-585-honest-calendar",
     "play": "pericles",
     "tln_start": 585,
@@ -2681,6 +2989,55 @@
     ]
   },
   {
+    "id": "pericles-614-craver-whipping",
+    "play": "pericles",
+    "tln_start": 614,
+    "tln_end": 615,
+    "word_start": 3,
+    "word_end": 0,
+    "anchor_text": "I'll turn craver too, and so I shall 'scape whipping",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "Elizabethan vagrancy laws made unlicensed begging a punishable offence; able-bodied 'sturdy beggars' were publicly whipped. If Pericles merely 'craved' (asked politely) rather than 'begged,' the Second Fisherman jokes, he could reclassify his own requests as 'craving' and avoid punishment. The joke is also about the thin line between polite asking and illegal mendicancy.",
+    "detail": "Tudor vagrancy law authorized the public whipping of able-bodied 'sturdy beggars' who begged without a licence. The joke in the Second Fisherman's pedantic distinction between 'beg' and 'crave' is that legal wording will not save a man from being treated as a vagrant — what matters is whether you have means and a home. The fisherman's willingness to whip anyone who begs (including himself) mocks the harshness of the law. The beadle (TLN 618) was the parish officer responsible for whipping vagrants and minor offenders. OED s.v. 'beadle,' 'crave.'",
+    "sources": [
+      {
+        "name": "Vagabonds Acts (Tudor vagrancy law)",
+        "citation": "Vagabonds Act 1531 (22 Hen. VIII c. 12) and Vagabonds Act 1572 (14 Eliz. I c. 5): able-bodied beggars without a licence to be stripped and publicly whipped."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 614"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Corrected the statute: replaced the misattributed Statute of Artificers (a labour-regulation act) with the actual Vagabonds Acts of 1531 and 1572 that authorized whipping of unlicensed beggars."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The vagrancy-law context (whipping of unlicensed beggars) is historically accurate and directly explains the Second Fisherman's joke at TLN 614-615; the crave/beg distinction and the beadle reference (TLN 618) are both confirmed by the text."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Corrected the statute: replaced the misattributed Statute of Artificers (a labour-regulation act) with the actual Vagabonds Acts of 1531 and 1572 that authorized whipping of unlicensed beggars. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "pericles-638-fish-right-in-law",
     "play": "pericles",
     "tln_start": 638,
@@ -2780,6 +3137,54 @@
         "note": "'Brace' as the armguard piece of plate armour is correct; the providential reading — the sea takes and then returns the heirloom, signalling Fortune's turn — is directly supported by TLN 642-655 and is mainstream critical consensus."
       }
     ]
+  },
+  {
+    "id": "pericles-658-sometime-target",
+    "play": "pericles",
+    "tln_start": 658,
+    "tln_end": 658,
+    "word_start": 1,
+    "word_end": 7,
+    "anchor_text": "it was sometime target to a king",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Target' in Elizabethan use means a small round shield (a targe or buckler). 'Sometime' means 'formerly' or 'once.' Pericles is telling the fishermen that this piece of armour — recovered from the sea — once belonged to a king, his dead father: it was formerly that king's shield.",
+    "sources": [
+      {
+        "name": "Onions, Shakespeare Glossary",
+        "citation": "Onions, C. T., A Shakespeare Glossary, s.v. 'target' (= 'a light round shield or buckler') and 'sometime' (= 'formerly')."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 658"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Onions's Glossary does contain both 'target' (= light round shield or buckler) and 'sometime' (= formerly); both are accurate lexicographical entries."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Interpretation trimmed: kept 'target' precise to its sense of a small round shield/buckler (his father's) rather than loosely equating it with the whole 'coat' of armour; source (Onions) verified."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Interpretation trimmed: kept 'target' precise to its sense of a small round shield/buckler (his father's) rather than loosely equating it with the whole 'coat' of armour; source (Onions) verified. [orig: source=verified, interp=refuted]"
   },
   {
     "id": "pericles-669-vails",
@@ -3084,6 +3489,60 @@
     ]
   },
   {
+    "id": "pericles-718-quod-me-alit",
+    "play": "pericles",
+    "tln_start": 717,
+    "tln_end": 717,
+    "word_start": 1,
+    "word_end": 6,
+    "anchor_text": "burning torch that's turned upside down",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "The fourth knight's device is an inverted torch with the Latin motto 'Quod me alit, me extinguit' — 'What nourishes me, extinguishes me.' A torch burns brighter when held upright, but turned upside down its own wax smothers the flame. Simonides glosses the paradox plainly: beauty both inflames desire and can destroy the man who desires it.",
+    "detail": "The inverted torch was one of the most recognizable emblems of Renaissance iconography, drawn from classical funerary imagery (torches held point-down at Roman burials signified death). As a love emblem it was common in impresa books, often paired with Cupid putting out the fire of love. The motto 'Quod me alit, me extinguit' was attached to the device in the Renaissance impresa tradition (e.g. Paolo Giovio's treatise on imprese, Englished by Samuel Daniel, 1585), and the inverted torch of self-consuming passion appears in Geoffrey Whitney's A Choice of Emblemes (Leiden, 1586). Simonides' commentary ('beauty hath his power and will / Which can as well inflame as it can kill') is a near-paraphrase of the emblem's standard gloss.",
+    "sources": [
+      {
+        "name": "Whitney, A Choice of Emblemes",
+        "citation": "Geoffrey Whitney, A Choice of Emblemes (Leiden, 1586) — the inverted torch as emblem of self-consuming passion in the English tradition."
+      },
+      {
+        "name": "Giovio (trans. Daniel)",
+        "citation": "Paolo Giovio, Dialogo dell'imprese militari et amorose, Englished by Samuel Daniel as The Worthy Tract of Paulus Jovius (1585) — the Renaissance impresa tradition from which the 'quod me alit me extinguit' inverted-torch device derives."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 717"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Corrected the source attribution: dropped the misattributed Alciato Emblem 114 (the chameleon/flattery emblem) and credited the device to the Giovio/Daniel impresa tradition plus the verified Whitney citation."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The inverted-torch emblem with this motto is a documented Renaissance impresa property, and Simonides' own lines 719-720 confirm the 'inflame / extinguish' interpretation directly; the Alciato attribution's precision can be queried by the source judge, but the interpretive reading is sound."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Corrected the source attribution: dropped the misattributed Alciato Emblem 114 (the chameleon/flattery emblem) and credited the device to the Giovio/Daniel impresa tradition plus the verified Whitney citation. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "pericles-728-witherd-branch",
     "play": "pericles",
     "tln_start": 728,
@@ -3293,6 +3752,60 @@
     ]
   },
   {
+    "id": "pericles-774-by-jove-cates",
+    "play": "pericles",
+    "tln_start": 774,
+    "tln_end": 775,
+    "word_start": 0,
+    "word_end": 3,
+    "anchor_text": "By Jove, I wonder, that is king of thoughts, These cates resist me",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Pericles swears 'By Jove' -- using the Roman king of the gods as an exclamation, a common oath in verse drama -- and calls him 'king of thoughts,' meaning Jove rules even the mind. 'Cates' (pronounced to rhyme with 'fates') is an archaic word for choice, delicate foods, especially dishes served at a feast. Pericles cannot eat because he is so absorbed thinking of Thaisa.",
+    "detail": "Jove (Latin Iuppiter) is the ruler of the Olympian gods, and calling him 'king of thoughts' emphasizes his sovereignty even over the human interior life. The oath 'By Jove' was the standard polite classical substitute for 'By God' in Renaissance drama. 'Cates' comes from Old French achat (a purchase); it generally implies expensive or specially bought food. The aside structure — Pericles and Thaisa each speak their mutual attraction to the audience while Simonides and the court watch — is a common Shakespearean device for showing love-struck inner states.",
+    "sources": [
+      {
+        "name": "Onions, Shakespeare Glossary",
+        "citation": "Onions, Shakespeare Glossary, s.v. 'cates' (choice food, delicacies)."
+      },
+      {
+        "name": "Ovid, Metamorphoses",
+        "citation": "Ovid, Metamorphoses Book 1 (Jove's assumption of rule over gods and men after Saturn, c. lines 113-124; Golding's 1567 translation) — illustrative parallel for Jove as sovereign of gods and men."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 774"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Corrected the Ovid locus: the Jove-as-ruler passage is Met. Book 1 c.113-124 (Saturn's fall and Jove's reign), not 1.154-162 (the Iron Age/Giants); kept it as an illustrative parallel."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Cates' as choice delicacies is standard, 'By Jove' as a polite classical oath is uncontroversial, and the aside structure correctly identifies Pericles as too absorbed in thoughts of Thaisa to eat; the Ovid citation is illustrative rather than a claimed source, which is appropriate."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Corrected the Ovid locus: the Jove-as-ruler passage is Met. Book 1 c.113-124 (Saturn's fall and Jove's reign), not 1.154-162 (the Iron Age/Giants); kept it as an illustrative parallel. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "pericles-776-by-juno-marriage",
     "play": "pericles",
     "tln_start": 776,
@@ -3398,6 +3911,65 @@
         "note": "The sun-as-king metaphor and the Ptolemaic cosmological frame behind it are well-established in Shakespearean drama; 'vail' as lower/submit from French avaler is correct; the glow-worm inversion is accurately described, and the note rightly connects it to Pericles' self-deprecation."
       }
     ]
+  },
+  {
+    "id": "pericles-791-time-king-of-men",
+    "play": "pericles",
+    "tln_start": 791,
+    "tln_end": 792,
+    "word_start": 4,
+    "word_end": 8,
+    "anchor_text": "Time's the king of men, He's both their parent, and he is their grave",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Pericles closes his meditation by personifying Time as the ultimate ruler: Time creates people ('parent') and destroys them ('grave'), and gives or withholds at its own will regardless of what they desire. The aphorism shifts the aside from personal grief about his lost kingdom to a larger, detached philosophical observation -- one of the romance's characteristic movements toward acceptance of Fortune's mutability.",
+    "detail": "The personification of Time as a destroyer-king is a commonplace in Renaissance poetry (see Shakespeare's Sonnet 19, 'Devouring Time,' and Sonnet 60, 'Time's fell hand'). In the context of Pericles, where the hero is repeatedly stripped of everything — his safety, his ships and men, his wife, and eventually his daughter — the aphorism has structural weight: it prepares the audience for the play's long arc of loss and recovery. The language also echoes the de casibus tradition: great men are built up and cast down by Time and Fortune, not by their own merit alone.",
+    "sources": [
+      {
+        "name": "Shakespeare, Sonnets",
+        "citation": "Shakespeare, Sonnet 19 ('Devouring Time') and Sonnet 60 ('Time's fell hand') — Time personified as the sovereign power that both makes and destroys."
+      },
+      {
+        "name": "Boethius",
+        "citation": "Boethius, Consolatio Philosophiae, Book II (Fortune's mutability — the wheel that raises and casts down the great) — the de casibus background, cited as a parallel for the raise-and-ruin theme rather than for Time-as-parent specifically."
+      }
+    ],
+    "references": [
+      {
+        "kind": "classical",
+        "card_id": "fortunes-wheel"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 791"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Replaced the over-specific Boethius II prose 1-2 claim (it concerns Fortune, not Time as parent/grave) with a book-level Boethius parallel for the de casibus theme, and added the closely apposite Shakespeare Sonnets 19/60 as the primary support for personified destroying Time."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Personified Time as parent and grave is a Renaissance commonplace well attested in the Sonnets, and connecting it to the play's structural arc of loss and recovery is a defensible interpretive claim with de casibus resonance; the annotation does not overreach."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Replaced the over-specific Boethius II prose 1-2 claim (it concerns Fortune, not Time as parent/grave) with a book-level Boethius parallel for the de casibus theme, and added the closely apposite Shakespeare Sonnets 19/60 as the primary support for personified destroying Time. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "pericles-802-countervail",
@@ -4049,6 +4621,55 @@
         "note": "'Suffrages' as votes or vocal expressions of support is the plain Elizabethan meaning (Latin 'suffragium'), and the text at TLN 907 supplies the exact act Helicanus is asking them to withhold ('Live, noble Helicane!'); the note that the religious sense came later is accurate."
       }
     ]
+  },
+  {
+    "id": "pericles-919-diamonds-crown",
+    "play": "pericles",
+    "tln_start": 919,
+    "tln_end": 920,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "Whom if you find, and win unto return, / You shall like diamonds sit about his crown",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Helicanus offers the lords an image of the reward for loyalty: they will be like diamonds set around the king's crown — jewels that both serve and ornament the monarch. The metaphor works two ways: diamonds are the most precious stones, so the lords are flattered; but gems are set into a crown, meaning they are in their proper subordinate place. The figure neatly resolves the scene's political tension by converting the lords' threatened insubordination into willing ornament.",
+    "detail": "The crown-as-setting-for-jewels metaphor had heraldic and courtly currency in Elizabethan England; jewels in a crown both derive their significance from the crown and add to its splendor. Helicanus's offer is thus a deft rhetorical move: he elevates the lords (they will be diamonds, not base metal) while reasserting the hierarchical structure they have just threatened to dissolve. The rhymed couplet that closes the speech ('return'/'crown', TLN 919-920) gives the persuasion a sententious finality.",
+    "sources": [
+      {
+        "name": "Schmidt, Shakespeare-Lexicon",
+        "citation": "Schmidt, Alexander, Shakespeare-Lexicon (3rd ed. 1902), s.v. 'diamond': the stone as a figure of supreme value and brilliance."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 919"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Generalized the Schmidt citation to the plain lexical entry for 'diamond' (value/brilliance), dropping the interpretive gloss about 'comparisons of loyal subjects to jewels' that a lexicon would not contain."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The diamond-in-crown metaphor is clearly present in the text and the double valence — highest honor AND proper subordination — is a defensible reading of the rhetorical strategy; the claim that it 'neatly resolves the political tension' accurately describes what the speech accomplishes in the scene."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Generalized the Schmidt citation to the plain lexical entry for 'diamond' (value/brilliance), dropping the interpretive gloss about 'comparisons of loyal subjects to jewels' that a lexicon would not contain. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "pericles-934-dianas-livery",
@@ -5017,6 +5638,61 @@
     ]
   },
   {
+    "id": "pericles-1082-god-of-this-great-vast",
+    "play": "pericles",
+    "tln_start": 1082,
+    "tln_end": 1082,
+    "word_start": 0,
+    "word_end": 8,
+    "anchor_text": "Thou god of this great vast, rebuke these surges",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Pericles calls on Neptune — 'god of this great vast' (the vast sea) — to stop the storm. Neptune (Greek Poseidon) was the Roman god of the sea, storms, and earthquakes, the ruler of every wave Pericles is being thrown by.",
+    "detail": "The invocation 'god of this great vast' is Pericles naming the sea's deity without explicitly saying 'Neptune' — the 'vast' (a noun meaning an immense, empty expanse) identifies the ocean as Neptune's domain. The pattern recalls the opening of Virgil's Aeneid, where Juno incites Aeolus to loose the winds and raise a sea-storm against the Trojans, and Neptune then rebukes the winds and calms the waves ('quos ego —', Aeneid 1.135). The classical tradition of the storm-winds confined by a wind-god (Aeolus holding them in his cavern, Aeneid 1.50-63) lies behind Pericles's wish to have the winds bound and stilled. Gower's chorus had already personified the sea as 'Neptune's billow' (TLN 1066), establishing the god as the play's presiding sea-power.",
+    "sources": [
+      {
+        "name": "Virgil, Aeneid",
+        "citation": "Virgil, Aeneid 1.50-63 (Aeolus confines the storm-winds in his cavern) and 1.124-156 (Neptune rebukes the winds and calms the storm, 'quos ego—' at 1.135)."
+      }
+    ],
+    "references": [
+      {
+        "kind": "classical",
+        "card_id": "neptune-god-of-the-sea"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1082"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Citation loci verified and kept; corrected the prose misstatement of agency (Juno incites Aeolus to raise the storm; Neptune calms it independently) and softened the 'bind them in brass' parallel to the documented Aeolus-cavern image."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Reading 'god of this great vast' as an invocation of Neptune is sound; however, the claim that the 'bind them in brass' phrase directly echoes Aeneid 1.50-60 is a reach — the Virgil passage describes Aeolus with a cavern and sceptre, not 'brass'; the note is an imprecise parallel but not a damaging misreading, and the broader Neptune-storm-prayer connection is defensible."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Citation loci verified and kept; corrected the prose misstatement of agency (Juno incites Aeolus to raise the storm; Neptune calms it independently) and softened the 'bind them in brass' parallel to the documented Aeolus-cavern image. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "pericles-1091-lucina-patroness",
     "play": "pericles",
     "tln_start": 1091,
@@ -5694,6 +6370,60 @@
     ]
   },
   {
+    "id": "pericles-1263-egyptian-lien-dead",
+    "play": "pericles",
+    "tln_start": 1263,
+    "tln_end": 1264,
+    "word_start": 3,
+    "word_end": 5,
+    "anchor_text": "I heard of an Egyptian That had nine hours lien dead",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "Cerimon cites a medical precedent: an Egyptian person who appeared dead for nine hours was revived by 'good appliance' — proper treatment. He uses this case to justify attempting to resuscitate Thaisa, arguing that death can 'usurp on nature' for a time before the vital fire is completely extinguished. 'Lien dead' means 'lain dead' (the archaic past participle of 'lie').",
+    "detail": "Shakespeare draws on the ancient and Renaissance medical tradition of apparent death — states of deep catalepsy, trance, or hypothermia that could be mistaken for actual death. Pliny the Elder records several cases of persons who revived after being laid out for burial (Natural History 7.52). The anecdote serves a precise dramatic function: it licenses the audience to accept the revival of Thaisa not as a miracle but as medicine, while the atmosphere of spices, fire, music, and Aesculapius's name at the close keeps the scene hovering between the rational and the sacred.",
+    "sources": [
+      {
+        "name": "Pliny, Natural History",
+        "citation": "Pliny the Elder, Natural History 7.52 ('Persons who have come to life again after being laid out for burial'); Englished in Philemon Holland's translation (1601)."
+      },
+      {
+        "name": "Onions, Shakespeare Glossary",
+        "citation": "Onions, C. T., A Shakespeare Glossary, s.v. 'lien' (archaic past participle of 'lie')."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1263"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Kept the verified Pliny NH 7.52 locus (cases of apparent death and revival) but removed the fabricated 'with Egyptian examples' claim, since that chapter lists only Greek and Roman cases."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Reading this as a medical precedent for apparent death — not a miracle — is the correct interpretive frame; the text says 'by good appliance recovered', which explicitly rationalizes the revival as medical treatment."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Kept the verified Pliny NH 7.52 locus (cases of apparent death and revival) but removed the fabricated 'with Egyptian examples' claim, since that chapter lists only Greek and Roman cases. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "pericles-1267-woeful-music",
     "play": "pericles",
     "tln_start": 1267,
@@ -6223,6 +6953,182 @@
     ]
   },
   {
+    "id": "pericles-1350-eaning-time",
+    "play": "pericles",
+    "tln_start": 1350,
+    "tln_end": 1350,
+    "word_start": 1,
+    "word_end": 4,
+    "anchor_text": "on my eaning time",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Eaning time' means the time of giving birth. The verb 'to ean' (also 'yean') was used of animals giving birth, especially ewes lambing; applied to a woman it is archaic and slightly clinical, emphasizing the immediacy and vulnerability of Thaisa's labour during the storm.",
+    "detail": "The verb 'ean' (also 'yean') is recorded from Middle English, used primarily of sheep bringing forth young; applying it to a woman's childbirth is a marked, literary choice that underscores the raw physical peril of the birth-at-sea scene in 3.1. Compare the pastoral register of 'the ewe that will not hear her lamb when it baas' (The Merchant of Venice 1.3). The unusual word choice here — rather than 'lying-in' or 'travail' — keeps the audience focused on Thaisa's helplessness: she was cast overboard almost at the moment of giving birth.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'ean' (v.): of an animal, esp. a ewe, to bring forth (young); to give birth."
+      },
+      {
+        "name": "Schmidt, Shakespeare-Lexicon",
+        "citation": "Schmidt, Shakespeare-Lexicon, s.v. 'eaning-time': 'the time of bringing forth young.'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1350"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Corrected the quoted OED definition: removed the fabricated '...also applied to a woman in childbed' clause from the citation; the ewe sense is genuine and the human application is now presented as the marked literary extension in the note's prose, not as OED wording."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "OED confirms 'ean/yean' applied to ewes and, by extension, to women in childbed; the literary emphasis on vulnerability is a reasonable inference from the storm context in 3.1, not an overreach."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Corrected the quoted OED definition: removed the fabricated '...also applied to a woman in childbed' clause from the citation; the ewe sense is genuine and the human application is now presented as the marked literary extension in the note's prose, not as OED wording. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "pericles-1354-vestal-livery",
+    "play": "pericles",
+    "tln_start": 1354,
+    "tln_end": 1354,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "A vestal livery will I take me to",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "A 'vestal livery' is the uniform and vow of a Vestal Virgin — the Roman priestesses sworn to chastity for thirty years in service of Vesta, goddess of the hearth. Thaisa is saying she will become a celibate religious, believing Pericles lost. The phrase links directly to Diana's temple in the next speech: Diana and Vesta share the domain of sacred chastity.",
+    "detail": "Rome's six Vestal Virgins were among the city's most sacred figures, bound by a thirty-year vow of celibacy on pain of death (burial alive if broken); they kept the eternal flame of Vesta. 'Livery' here means the distinctive dress or habit that marks membership of an order or a lord's service — Thaisa is choosing to 'wear the livery' of a virgin votaress. Shakespeare uses the same construction in A Midsummer Night's Dream 1.1 ('the livery of a nun'), where Hermia is threatened with life in a cloister. In Pericles the choice anticipates the play's resolution: Thaisa will be found still serving Diana's temple at Ephesus when Pericles arrives in Act 5. (Strictly, Vesta governs the sacred hearth-fire and Diana chastity; early-modern usage often elides the two virgin goddesses, as here.)",
+    "sources": [
+      {
+        "name": "Ovid, Fasti",
+        "citation": "Ovid, Fasti 6.249-468 (the Vestalia: Vesta as virgin goddess served by virgin ministers, and the sacred fire)."
+      },
+      {
+        "name": "Onions, Shakespeare Glossary",
+        "citation": "Onions, Shakespeare Glossary, s.v. 'vestal': 'Of or pertaining to the Vestal virgins; chaste, virgin.'"
+      }
+    ],
+    "references": [
+      {
+        "kind": "classical",
+        "card_id": "diana-goddess"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1354"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Kept the Fasti Book 6 Vestalia citation (virgin goddess, virgin ministers, sacred fire — all present there) but dropped the over-specific 'white livery' claim that is not in that passage; added a note that the Vesta/Diana elision is an early-modern convention."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The vestal-virgin gloss and the MND 'livery of a nun' parallel are sound; the claim that Vesta and Diana 'share the domain of sacred chastity' conflates two distinct goddesses (Vesta governs the hearth, not chastity per se) but the equation holds well enough for the dramatic point and is a conventional early-modern elision, not a serious overreach."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Kept the Fasti Book 6 Vestalia citation (virgin goddess, virgin ministers, sacred fire — all present there) but dropped the over-specific 'white livery' claim that is not in that passage; added a note that the Vesta/Diana elision is an early-modern convention. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "pericles-1357-dianas-temple-date",
+    "play": "pericles",
+    "tln_start": 1357,
+    "tln_end": 1358,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "Diana's temple is not distant far, Where you may abide till your date expire",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Cerimon directs Thaisa to the temple of Diana at Ephesus — one of the Seven Wonders of the ancient world — where she can live as a votaress until 'your date expire,' meaning until her natural lifespan ends. This is the crucial turn: Thaisa's entry into Diana's service sets up the climax of the play, when Pericles receives a vision from Diana directing him to her temple.",
+    "detail": "The Temple of Artemis (Diana) at Ephesus was one of the greatest sanctuaries in the ancient world and a famous place of asylum. Pericles sets Diana apart from the other Olympians as the play's presiding protector: she governs chastity (Thaisa, Marina), safe harbour after storm, and the reunion of the separated family in Act 5.3. 'Date' meaning 'appointed term of life' (from Latin datum, what has been given) is standard Shakespearean usage; Cerimon is saying Thaisa may remain in Diana's service for the rest of her days. The irony is that Diana will reunite her with Pericles before that date expires — the goddess who seemed to confine her becomes the agent of reunion. The historical Ephesus stood on the western coast of modern Turkey; its temple to Artemis was already ancient in the period the play implies.",
+    "sources": [
+      {
+        "name": "Pausanias, Description of Greece",
+        "citation": "Pausanias, Description of Greece 4.31.8 (the Artemision of Ephesus surpassing all other buildings) and 7.2.6 (the antiquity and founding of the sanctuary)."
+      },
+      {
+        "name": "Strabo, Geography",
+        "citation": "Strabo, Geography 14.1.22-23 (the temple of Artemis at Ephesus and its right of asylum/sanctuary)."
+      },
+      {
+        "name": "Schmidt, Shakespeare-Lexicon",
+        "citation": "Schmidt, Shakespeare-Lexicon, s.v. 'date' (2): 'a limited period; the term of anything's duration.'"
+      }
+    ],
+    "references": [
+      {
+        "kind": "classical",
+        "card_id": "diana-goddess"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1357"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Kept the verified Pausanias loci for the temple's greatness/antiquity but moved the asylum/sanctuary claim to its correct source (Strabo 14.1.22-23), which the cited Pausanias passages do not cover."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Date' as appointed term of life is standard Shakespearean usage, the Ephesian Artemision identification is correct, and the structural irony reading (Diana as agent of reunion rather than confinement) is a mainstream interpretive position, not an overreach."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Kept the verified Pausanias loci for the temple's greatness/antiquity but moved the asylum/sanctuary claim to its correct source (Strabo 14.1.22-23), which the cited Pausanias passages do not cover. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "pericles-1366-votaress",
     "play": "pericles",
     "tln_start": 1366,
@@ -6542,6 +7448,60 @@
         "note": "'Vail' meaning to lower in deference is well documented in Schmidt and the OED, and the connection between Marina's Dian devotion and Thaisa's votaress status is a straightforward textual observation, not a stretch."
       }
     ]
+  },
+  {
+    "id": "pericles-1394-dove-of-paphos",
+    "play": "pericles",
+    "tln_start": 1394,
+    "tln_end": 1395,
+    "word_start": 1,
+    "word_end": 2,
+    "anchor_text": "the dove of Paphos might the crow\nVie feathers white",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Paphos was the city in Cyprus sacred to Venus (Aphrodite), goddess of love, whose emblem was the dove. The dove of Paphos — Venus's bird — is white; to compare a crow vying to match it is to say Philoten is as outmatched by Marina as a black crow is by the goddess of love's own sacred bird. The image underscores how hopeless Philoten's rivalry is.",
+    "detail": "Venus was said to have risen from the sea near Cyprus, and her principal sanctuary stood at Paphos. The dove was her bird from ancient times. The contrast dove/crow is proverbial: doves are pure white, associated with love and beauty; crows are black, associated with ill omen. Gower's simile says Philoten's competing with Marina is as ridiculous as a crow displaying white feathers next to Venus's own bird. The image of the crow set against a white beauty recurs in The Winter's Tale 4.4.",
+    "sources": [
+      {
+        "name": "Ovid, Metamorphoses",
+        "citation": "Ovid, Metamorphoses Book 15 (Pythagoras names the doves of Cytherea/Venus among birds, c. line 386; Golding's 1567 translation) — the dove as Venus's bird."
+      },
+      {
+        "name": "Virgil, Aeneid",
+        "citation": "Virgil, Aeneid 6.190-193 (the doves of Venus guide Aeneas to the golden bough) — the dove as Venus's sacred bird."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1394"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Corrected the detail's misdescription of Ovid Met. 15.386 (it lists Venus's doves among birds, not drawing her chariot); kept the locus generalized to Book 15 and retained the accurate Aeneid 6.190 citation."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Paphos as Venus's sacred city and the dove as her emblem are classical commonplaces; the crow/dove contrast as proverbial is sound, and the simile's meaning — Philoten is hopelessly outclassed — is the plain sense of Gower's lines."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Corrected the detail's misdescription of Ovid Met. 15.386 (it lists Venus's doves among birds, not drawing her chariot); kept the locus generalized to Book 15 and retained the accurate Aeneid 6.190 citation. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "pericles-1403-stead",
@@ -7402,6 +8362,56 @@
     ]
   },
   {
+    "id": "pericles-1613-monsieur-veroles",
+    "play": "pericles",
+    "tln_start": 1613,
+    "tln_end": 1613,
+    "word_start": 1,
+    "word_end": 2,
+    "anchor_text": "Monsieur Veroles",
+    "type": "wordplay",
+    "depth": "basic",
+    "summary": "The name is a direct French pun: 'vérole' is French for smallpox or syphilis, and 'la grosse vérole' (the great pox) was the standard French term for syphilis. 'Monsieur Veroles' means, essentially, 'Mr. Syphilis.' The joke would have been transparent to any playgoer with a word of French, and perfectly suits a man who 'cowers in the hams.'",
+    "detail": "The technique of encoding a character's nature in a Latin or French name is common in Elizabethan drama, inherited from the Roman comedy tradition of Plautus and Terence. Here the satirical naming is immediate and brutal: the knight is defined by his disease. The Bawd's composed reply — 'Well, he brought his disease hither: here he does but repair it' — extends the joke by treating the brothel as a kind of medical spa where an existing condition is 'repaired' (the pun cuts both ways: renovated, or made worse).",
+    "sources": [
+      {
+        "name": "Cotgrave, French-English Dictionary",
+        "citation": "Randle Cotgrave, A Dictionarie of the French and English Tongues (1611), s.v. 'verole': the pox; 'la grosse verole', the great pox (syphilis), distinguished from 'la petite verole' (smallpox)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1613"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Replaced the invented 'OED s.v. verole' citation (vérole is French, not an English OED headword) with Cotgrave's 1611 French-English dictionary, the standard period authority for the French word and its pox/syphilis sense."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Vérole' as French for syphilis (la grosse vérole) is exact, the joke is transparent, and the Plautine/Terentian naming tradition cited in the detail is a legitimate literary-historical context."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Replaced the invented 'OED s.v. verole' citation (vérole is French, not an English OED headword) with Cotgrave's 1611 French-English dictionary, the standard period authority for the French word and its pox/syphilis sense. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "pericles-1617-scatter-crowns",
     "play": "pericles",
     "tln_start": 1618,
@@ -7498,6 +8508,61 @@
         "note": "The paradoxical professional-performance reading is squarely supported by the text's oxymoronic pairing of fearfully/willingly and despise/gain, and the contrast with Marina's transparent honesty is a structural feature of the entire brothel sequence."
       }
     ]
+  },
+  {
+    "id": "pericles-1646-fires-knives-waters",
+    "play": "pericles",
+    "tln_start": 1646,
+    "tln_end": 1648,
+    "word_start": 0,
+    "word_end": 3,
+    "anchor_text": "If fires be hot, knives sharp, or waters deep, Untied I still my virgin knot will keep. Diana, aid my purpose!",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Marina swears to preserve her chastity by any means available — fire, knife, or drowning — and calls on Diana, the Roman goddess of chastity, to protect her. Diana is the presiding deity of Marina's virtue throughout the play; her temple at Ephesus is where Thaisa has lived as a priestess and where the family will be reunited in Act 5.",
+    "detail": "The couplet form (rhymed iambic pentameter) sets Marina's vow apart from the prose of the brothel keepers — a deliberate tonal contrast between her dignified resolve and their commercial calculations. The 'virgin knot' (a common Elizabethan expression for virginity, also used in The Tempest 4.1) is the same bond Prospero forbids Ferdinand to untie before marriage. Marina's appeal to Diana anticipates the play's ending: Diana appears to Pericles in a vision (5.1) and directs him to Ephesus, where Thaisa, herself a votaress of Diana, waits. The goddess thus connects mother and daughter across the play's geography and governs the restoration of the family. The Bawd's scornful reply — 'What have we to do with Diana?' — measures the gulf between the two women's worlds.",
+    "sources": [
+      {
+        "name": "Ovid, Metamorphoses",
+        "citation": "Ovid, Metamorphoses 3.138-252 (Diana's fierce protection of chastity — Actaeon destroyed for seeing her bathe; Golding's 1567 translation), the standard source for Diana as the chaste, punishing virgin goddess."
+      }
+    ],
+    "references": [
+      {
+        "kind": "classical",
+        "card_id": "diana-goddess"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1646"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the unsupported Hesiod Theogony 918 citation (it names Artemis's birth, not her virginity) and kept the verified Ovid Actaeon citation, corrected to begin at the episode's true start, 3.138."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Diana as the goddess of chastity, the 'virgin knot' parallel with The Tempest, and Diana's structural role as the governing deity of both Marina and Thaisa across the play are all textually grounded and mainstream; the annotation correctly reads the couplet's tonal contrast with the brothel prose."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the unsupported Hesiod Theogony 918 citation (it names Artemis's birth, not her virginity) and kept the verified Ovid Actaeon citation, corrected to begin at the episode's true start, 3.138. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "pericles-1657-less-in-blood",
@@ -7600,6 +8665,60 @@
         "note": "'Fact' as archaic legal term for a criminal deed is well-attested and directly appropriate to Cleon's speech; the 'drunk to him' as poison-toast reading is sound, and the double irony in 'kindness' is defensible."
       }
     ]
+  },
+  {
+    "id": "pericles-1664-nurses-fates",
+    "play": "pericles",
+    "tln_start": 1664,
+    "tln_end": 1665,
+    "word_start": 4,
+    "word_end": 6,
+    "anchor_text": "Nurses are not the fates / To foster it, nor ever to preserve",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Dionyza invokes the Fates — the three goddesses of Greek and Roman myth who spin, measure, and cut the thread of every human life — to deflect blame: nurses have no power to keep a child alive against Fate's decree, so she cannot be held responsible for Marina's death. It is a cynical use of classical fatalism to disguise deliberate murder as natural necessity.",
+    "detail": "The three Fates (Greek Moirai, Roman Parcae) were Clotho, who spun the thread of life; Lachesis, who measured it; and Atropos ('she who cannot be turned'), who cut it. They were the governors of the lifespan, treated in classical thought as a power that even the gods do not override. Dionyza's argument — 'nurses cannot prevent death, since the Fates alone control it' — borrows the framework of destiny to re-describe her own premeditated commission of murder as a form of natural death. The sophistry is transparent to Cleon and, Shakespeare expects, to the audience.",
+    "sources": [
+      {
+        "name": "Hesiod, Theogony",
+        "citation": "Hesiod, Theogony 217-222 and 904-906 (the Moirai/Fates who assign mortals their lot of good and evil)."
+      },
+      {
+        "name": "Ovid, Metamorphoses",
+        "citation": "Ovid, Metamorphoses Book 15 (Jupiter tells Venus the decrees of the Fates are wrought in adamant and unchangeable, c. lines 807-815; Golding's 1567 translation)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1664"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Corrected the Ovid locus from the fabricated 15.781-798 (Caesar omens) to the Jupiter-Venus passage on the Fates' fixed decrees (Book 15, c.807-815); kept the verified Hesiod Theogony citation."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Dionyza's invocation of the classical Fates to deflect culpability is a sound reading of the sophistry in her speech, and the characterisation of her argument as cynical fatalism masking premeditated murder is well supported by the dramatic context."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Corrected the Ovid locus from the fabricated 15.781-798 (Caesar omens) to the Jupiter-Venus passage on the Fates' fixed decrees (Book 15, c.807-815); kept the verified Hesiod Theogony citation. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "pericles-1685-distain",
@@ -7760,6 +8879,56 @@
         "note": "The Harpy as winged woman with bird's talons, sourced to Virgil's Aeneid Book 3, is the standard classical locus; the chiastic 'angel's face / eagle's talons' contrast is a legitimate reading of the simile, and the Tempest parallel is accurate and useful context."
       }
     ]
+  },
+  {
+    "id": "pericles-1708-waste-and-cockles",
+    "play": "pericles",
+    "tln_start": 1708,
+    "tln_end": 1709,
+    "word_start": 1,
+    "word_end": 3,
+    "anchor_text": "time we waste, and longest leagues make short; Sail seas in cockles",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "Gower opens with a theatrical apology: the play will 'waste' (use up, travel through) time and compress vast distances. 'Cockles' are tiny bivalve shells — and, by extension, the frailest imaginable little boats. The image invites the audience to sail the Mediterranean in a nutshell, trusting the play's imagination rather than any realistic staging.",
+    "detail": "The whole couplet is Gower's standard metatheatrical disclaimer — the Chorus admitting that the play cannot actually show ships at sea or years of travel. 'Cockle' is the shell of a small bivalve, and by extension a tiny, frail boat; 'cockle-boat'/'cockle-shell' for a small, unseaworthy vessel was proverbial in Elizabethan English. The compression of 'leagues' and 'time' in a single line foregrounds the scene's concern with theatrical illusion — a theme the dumb-show that follows makes explicit.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'cockle' n.2 and 'cockle-shell': the shell of a small bivalve mollusc, and by extension a small, frail boat."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1708"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Replaced the misattributed Schmidt 'cockle' citation (Schmidt's entry defines the weed, not the shell/boat) with the OED entry for 'cockle' n.2 / 'cockle-shell', which carries the shell-and-frail-boat sense the gloss relies on."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Cockle-boat as a proverbial image of a frail vessel and the metatheatrical compression reading are both mainstream and well-supported by Elizabethan usage."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Replaced the misattributed Schmidt 'cockle' citation (Schmidt's entry defines the weed, not the shell/boat) with the OED entry for 'cockle' n.2 / 'cockle-shell', which carries the shell-and-frail-boat sense the gloss relies on. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "pericles-1711-bourn-to-bourn",
@@ -7961,6 +9130,56 @@
         "note": "Fortune as the Boethian wheel-goddess and the reading of Pericles' passivity as the play's romance logic are mainstream scholarly positions fully supported by the text."
       }
     ]
+  },
+  {
+    "id": "pericles-1762-divinity-preached",
+    "play": "pericles",
+    "tln_start": 1762,
+    "tln_end": 1762,
+    "word_start": 1,
+    "word_end": 5,
+    "anchor_text": "to have divinity preached there",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "The First Gentleman is astonished that a brothel became the setting for moral instruction. Marina, instead of submitting to clients, preached virtue so effectively that men left converted rather than satisfied. Her power as a speaker is the play's equivalent of a saint reforming sinners in the most corrupt possible place.",
+    "detail": "Marina's conduct in the brothel at Mytilene is the climax of Act 4: customers who enter leave shamed and reformed. The Gentlemen's stunned exchange (this brief scene is only a few lines) is Shakespeare's shorthand for her wholesale moral effect on the town. The play presents her oratory as a near-miraculous faculty — she goes on to turn even the governor Lysimachus from his purpose (4.6) and later reaches the grief-maddened Pericles himself (5.1). The scene functions as a structural pivot, replacing the brothel scenes' comedy with wonder and preparing the audience for Marina's reunion with Pericles.",
+    "sources": [
+      {
+        "name": "Gossett, ed., Pericles (Arden 3)",
+        "citation": "Suzanne Gossett, ed., Pericles (Arden Shakespeare, Third Series, 2004), note to 4.5: the scene demonstrates Marina's reforming eloquence reported by proxy."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1762"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Kept the genuine Gossett (Arden 3) citation but removed the fabricated quotation/locus claim that Gower 'credits her with converting all the city (5.1.1-3)', which is not in the text; trimmed the detail to Marina's textually attested effect on Lysimachus and Pericles."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The reading of Marina as a reforming moral preacher in the brothel is the mainstream critical consensus, and the structural-pivot claim (comedy giving way to wonder before the reunions) is a standard observation in Pericles scholarship."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Kept the genuine Gossett (Arden 3) citation but removed the fabricated quotation/locus claim that Gower 'credits her with converting all the city (5.1.1-3)', which is not in the text; trimmed the detail to Marina's textually attested effect on Lysimachus and Pericles. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "pericles-1764-bawdy-houses",
@@ -9648,6 +10867,61 @@
     ]
   },
   {
+    "id": "pericles-2094-pace-another-juno",
+    "play": "pericles",
+    "tln_start": 2094,
+    "tln_end": 2094,
+    "word_start": 4,
+    "word_end": 7,
+    "anchor_text": "in pace another Juno",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Pericles compares his dead wife Thaisa (and by extension Marina, who reminds him of her) to Juno in her walk or bearing: 'pace' means gait, the way she carried herself. Juno — queen of the gods and goddess of marriage — was the classical byword for majestic, stately dignity in a woman. The comparison elevates Thaisa to the highest feminine dignity imaginable.",
+    "detail": "Juno (Greek Hera), queen of the gods and goddess of marriage, was a Renaissance byword for majestic, queenly carriage — and is staged as such in The Tempest 4.1, where Juno descends in the betrothal masque. To say Thaisa 'in pace' was 'another Juno' is to praise her gait and bearing as the most stately imaginable. 'Starves the ears she feeds' (TLN 2095) means her speech is so pleasurable that it creates appetite even as it satisfies — the more she speaks the more one hungers for more.",
+    "sources": [
+      {
+        "name": "Virgil, Aeneid",
+        "citation": "Virgil, Aeneid 1.46-49 (Juno styling herself queen of the gods, regina, sister and wife of Jove) — Juno as the type of the sovereign queen of heaven."
+      }
+    ],
+    "references": [
+      {
+        "kind": "classical",
+        "card_id": "juno-goddess"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2094"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the unsupported Ovid Met. 2.466 'stately bearing' citation (that is the Callisto-punishment passage) and the over-read of Aen. 1.46-48; kept Aeneid 1.46-49 only for Juno-as-queen-of-heaven, with The Tempest 4.1 as the apt Shakespearean parallel for her queenly bearing in the prose."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Pace' = gait/bearing and Juno as classical emblem of queenly dignity are correct; the 'starves the ears she feeds' reading (speech creates appetite even as it satisfies) is the mainstream interpretation."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the unsupported Ovid Met. 2.466 'stately bearing' citation (that is the Callisto-punishment passage) and the over-read of Aen. 1.46-48; kept Aeneid 1.46-49 only for Juno-as-queen-of-heaven, with The Tempest 4.1 as the apt Shakespearean parallel for her queenly bearing in the prose. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "pericles-2106-modest-justice-palace",
     "play": "pericles",
     "tln_start": 2106,
@@ -9789,6 +11063,60 @@
         "note": "The fairy-substitution and changeling-anxiety reading is a legitimate Elizabethan concern; the physical pulse-test as a conventional marker of real versus spectral being is well-attested in the period's literature and drama."
       }
     ]
+  },
+  {
+    "id": "pericles-2156-lychorida-nurse",
+    "play": "pericles",
+    "tln_start": 2156,
+    "tln_end": 2156,
+    "word_start": 1,
+    "word_end": 6,
+    "anchor_text": "my good nurse Lychorida hath oft",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "Lychorida was Marina's nurse, who attended Thaisa during the fatal sea-birth of Act 3 and afterward raised Marina at Tarsus. In the Apollonius of Tyre source tradition (Gower's Confessio Amantis and Twine's Patterne of Painefull Adventures) the nurse is a key figure who transmits the dead mother's story to the daughter. Marina's naming of her nurse here is the first of the identifying details that will help convince Pericles the girl is truly his daughter.",
+    "sources": [
+      {
+        "name": "Gower, Confessio Amantis",
+        "citation": "John Gower, Confessio Amantis (c. 1390), Book 8 (the Apollonius of Tyre tale), where the nurse tends the birth and helps rear the daughter."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "apollonius-of-tyre"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2156"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Removed the incorrect claim that Gower names the nurse 'Lycoris' (Gower's form matches Shakespeare's), generalizing the citation to Confessio Amantis Book 8 without the wrong name detail."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Lychorida's role in the Apollonius-of-Tyre narrative tradition is accurately characterized; naming the nurse is correctly identified as a first identifying detail in Pericles' recognition sequence."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Removed the incorrect claim that Gower names the nurse 'Lycoris' (Gower's form matches Shakespeare's), generalizing the citation to Confessio Amantis Book 8 without the wrong name detail. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "pericles-2193-sea-of-joys",
@@ -10083,6 +11411,60 @@
     ]
   },
   {
+    "id": "pericles-2251-silver-bow",
+    "play": "pericles",
+    "tln_start": 2251,
+    "tln_end": 2251,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "Do it, and happy; by my silver bow",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Diana swears her command 'by my silver bow' — the bow being her standard attribute as the goddess of the hunt and the moon. Silver is her metal, tied to the pale lunar light, and the silver bow marks the speaker of the vision as the virgin moon-goddess. (In the older Greek epithets the 'silver bow' is actually Apollo's and Artemis bears shafts of gold, but in Renaissance English usage the silver bow is regularly Diana's own, as the play has it.) The oath grounds the divine apparition in recognizable classical imagery.",
+    "sources": [
+      {
+        "name": "Homeric Hymns / classical iconography",
+        "citation": "Homeric Hymns to Artemis (9 and 27): Artemis the virgin huntress of the gold shafts, sister of Apollo of the silver bow — the bow-and-arrows as her defining attribute; the 'silver bow' is conventionally transferred to Diana in Renaissance English poetry."
+      }
+    ],
+    "references": [
+      {
+        "kind": "classical",
+        "card_id": "diana-goddess"
+      }
+    ],
+    "confidence": "medium",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2251"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Replaced the unsupported Hesiod Theogony 918-920 'silver bow' citation with the Homeric Hymns to Artemis and an honest note that the silver-bow epithet is properly Apollo's in Greek but transferred to Diana in Renaissance usage, as the text does."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Diana's silver bow as her standard identifying attribute is uncontroversial classical iconography; the contrast with Apollo's gold bow is correctly stated."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Replaced the unsupported Hesiod Theogony 918-920 'silver bow' citation with the Homeric Hymns to Artemis and an honest note that the silver-bow epithet is properly Apollo's in Greek but transferred to Diana in Renaissance usage, as the text does. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "pericles-2253-goddess-argentine",
     "play": "pericles",
     "tln_start": 2253,
@@ -10294,6 +11676,61 @@
         "note": "Straightforward archaic-verb gloss; 'wive' in the senses given is well-attested from Chaucer onward and the contextual reading of the betrothal is accurate."
       }
     ]
+  },
+  {
+    "id": "pericles-2283-dian-bade",
+    "play": "pericles",
+    "tln_start": 2282,
+    "tln_end": 2283,
+    "word_start": 3,
+    "word_end": 2,
+    "anchor_text": "done his sacrifice, As Dian bade",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "'Dian' is Diana, goddess of chastity and the hunt. In the vision at the end of Act 5 Scene 1, Diana appeared to Pericles and commanded him to travel to her temple at Ephesus and make an offering there. This act of ritual sacrifice is the condition that must be fulfilled before the marriage can happen.",
+    "detail": "Diana of Ephesus is the presiding deity of Pericles: her temple is where Thaisa has lived as a votaress (a woman vowed to the goddess's service) since being revived by Cerimon in Act 3. The play's final recognition and reunion happen within her sacred precinct. Diana's command in the vision — which Gower summarises here — links the goddess's domain (chastity, ritual purity) to the play's central theme of virtue tested and restored. Ephesus was a real city on the western coast of what is now Turkey, whose temple of Artemis (the Greek equivalent of Diana) was one of the Seven Wonders of the ancient world.",
+    "sources": [
+      {
+        "name": "Ovid, Metamorphoses",
+        "citation": "Ovid, Metamorphoses 3.138-252 (Diana's character and the punishment of Actaeon, who saw her bathing — a paradigm of her fierce chastity); Golding's 1567 English translation was Shakespeare's likely source."
+      }
+    ],
+    "references": [
+      {
+        "kind": "classical",
+        "card_id": "diana-goddess"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2282"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Corrected the Ovid Actaeon locus to begin at the episode's true start (3.138, not 3.155), as flagged by the source judge."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The identification of Diana's command (from Pericles's vision in 5.1) as the prerequisite for travel to Ephesus is accurate, and the detail about Thaisa's votaress status and the Temple of Artemis as a Wonder of the World is sound; the Ovid Actaeon citation is tangential to this specific note but the interpretation itself is defensible."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Corrected the Ovid Actaeon locus to begin at the episode's true start (3.138, not 3.155), as flagged by the source judge. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "pericles-2284-confound-interim",
@@ -10897,6 +12334,61 @@
     ]
   },
   {
+    "id": "pericles-2372-pure-dian-night-oblations",
+    "play": "pericles",
+    "tln_start": 2372,
+    "tln_end": 2373,
+    "word_start": 0,
+    "word_end": 4,
+    "anchor_text": "Pure Dian, bless thee for thy vision! I Will offer night-oblations to thee",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "'Night-oblations' are offerings or sacrifices made at night. Diana was a moon-goddess, and her sacred rites were naturally nocturnal. An 'oblation' is a formal religious offering — from Latin oblatio, a gift presented to a deity. Pericles vows to honor Diana with night-time sacrifice in gratitude for the vision she sent him and for the reunion she has brought about.",
+    "detail": "Nocturnal sacrifice to moon-goddesses was a recognized practice in classical antiquity (Hecate, Diana's chthonic aspect, was in particular propitiated at night). The word 'oblation' carries a faintly liturgical weight — the same root gives 'oblations' in the Church of England's Communion service, which would add resonance for Shakespeare's audience. Pericles, the classical hero of a pre-Christian world, uses the language of public religious observance to close his part of the scene before the domestic business of the wedding resumes.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'oblation' n.: 'the action of offering something to God or a deity; a thing offered, an offering' (from Latin oblatio)."
+      }
+    ],
+    "references": [
+      {
+        "kind": "classical",
+        "card_id": "diana-goddess"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2372"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the Ovid Met. 3.155-252 citation (the Actaeon episode does not describe nocturnal rites or oblations) and kept only the verified OED 'oblation' gloss, which fully supports the note."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Night-oblations' as nocturnal sacrificial offerings to the moon-goddess is secure; the gloss on 'oblation' from Latin oblatio is accurate, and noting its liturgical resonance for a Protestant audience is a reasonable contextual point rather than an overreach."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the Ovid Met. 3.155-252 citation (the Actaeon episode does not describe nocturnal rites or oblations) and kept only the verified OED 'oblation' gloss, which fully supports the note. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "pericles-2376-ornament-dismal",
     "play": "pericles",
     "tln_start": 2376,
@@ -11273,1497 +12765,5 @@
         "note": "'Patence' as archaic spelling of patience, the convention of a direct audience blessing to close a medieval-style narrative, and the self-aware theatrical tag are all well-supported; the claim of 'Chaucerian orthography' is a slight embellishment (it is Gower's own archaic diction, not specifically Chaucer's), but not materially wrong."
       }
     ]
-  },
-  {
-    "id": "pericles-1082-god-of-this-great-vast",
-    "play": "pericles",
-    "tln_start": 1082,
-    "tln_end": 1082,
-    "word_start": 0,
-    "word_end": 8,
-    "anchor_text": "Thou god of this great vast, rebuke these surges",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "Pericles calls on Neptune — 'god of this great vast' (the vast sea) — to stop the storm. Neptune (Greek Poseidon) was the Roman god of the sea, storms, and earthquakes, the ruler of every wave Pericles is being thrown by.",
-    "detail": "The invocation 'god of this great vast' is Pericles naming the sea's deity without explicitly saying 'Neptune' — the 'vast' (a noun meaning an immense, empty expanse) identifies the ocean as Neptune's domain. The pattern recalls the opening of Virgil's Aeneid, where Juno incites Aeolus to loose the winds and raise a sea-storm against the Trojans, and Neptune then rebukes the winds and calms the waves ('quos ego —', Aeneid 1.135). The classical tradition of the storm-winds confined by a wind-god (Aeolus holding them in his cavern, Aeneid 1.50-63) lies behind Pericles's wish to have the winds bound and stilled. Gower's chorus had already personified the sea as 'Neptune's billow' (TLN 1066), establishing the god as the play's presiding sea-power.",
-    "sources": [
-      {
-        "name": "Virgil, Aeneid",
-        "citation": "Virgil, Aeneid 1.50-63 (Aeolus confines the storm-winds in his cavern) and 1.124-156 (Neptune rebukes the winds and calms the storm, 'quos ego—' at 1.135)."
-      }
-    ],
-    "references": [
-      {
-        "kind": "classical",
-        "card_id": "neptune-god-of-the-sea"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1082"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Citation loci verified and kept; corrected the prose misstatement of agency (Juno incites Aeolus to raise the storm; Neptune calms it independently) and softened the 'bind them in brass' parallel to the documented Aeolus-cavern image."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Reading 'god of this great vast' as an invocation of Neptune is sound; however, the claim that the 'bind them in brass' phrase directly echoes Aeneid 1.50-60 is a reach — the Virgil passage describes Aeolus with a cavern and sceptre, not 'brass'; the note is an imprecise parallel but not a damaging misreading, and the broader Neptune-storm-prayer connection is defensible."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Citation loci verified and kept; corrected the prose misstatement of agency (Juno incites Aeolus to raise the storm; Neptune calms it independently) and softened the 'bind them in brass' parallel to the documented Aeolus-cavern image. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "pericles-1263-egyptian-lien-dead",
-    "play": "pericles",
-    "tln_start": 1263,
-    "tln_end": 1264,
-    "word_start": 3,
-    "word_end": 5,
-    "anchor_text": "I heard of an Egyptian That had nine hours lien dead",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "Cerimon cites a medical precedent: an Egyptian person who appeared dead for nine hours was revived by 'good appliance' — proper treatment. He uses this case to justify attempting to resuscitate Thaisa, arguing that death can 'usurp on nature' for a time before the vital fire is completely extinguished. 'Lien dead' means 'lain dead' (the archaic past participle of 'lie').",
-    "detail": "Shakespeare draws on the ancient and Renaissance medical tradition of apparent death — states of deep catalepsy, trance, or hypothermia that could be mistaken for actual death. Pliny the Elder records several cases of persons who revived after being laid out for burial (Natural History 7.52). The anecdote serves a precise dramatic function: it licenses the audience to accept the revival of Thaisa not as a miracle but as medicine, while the atmosphere of spices, fire, music, and Aesculapius's name at the close keeps the scene hovering between the rational and the sacred.",
-    "sources": [
-      {
-        "name": "Pliny, Natural History",
-        "citation": "Pliny the Elder, Natural History 7.52 ('Persons who have come to life again after being laid out for burial'); Englished in Philemon Holland's translation (1601)."
-      },
-      {
-        "name": "Onions, Shakespeare Glossary",
-        "citation": "Onions, C. T., A Shakespeare Glossary, s.v. 'lien' (archaic past participle of 'lie')."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1263"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Kept the verified Pliny NH 7.52 locus (cases of apparent death and revival) but removed the fabricated 'with Egyptian examples' claim, since that chapter lists only Greek and Roman cases."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Reading this as a medical precedent for apparent death — not a miracle — is the correct interpretive frame; the text says 'by good appliance recovered', which explicitly rationalizes the revival as medical treatment."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Kept the verified Pliny NH 7.52 locus (cases of apparent death and revival) but removed the fabricated 'with Egyptian examples' claim, since that chapter lists only Greek and Roman cases. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "pericles-1350-eaning-time",
-    "play": "pericles",
-    "tln_start": 1350,
-    "tln_end": 1350,
-    "word_start": 1,
-    "word_end": 4,
-    "anchor_text": "on my eaning time",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "'Eaning time' means the time of giving birth. The verb 'to ean' (also 'yean') was used of animals giving birth, especially ewes lambing; applied to a woman it is archaic and slightly clinical, emphasizing the immediacy and vulnerability of Thaisa's labour during the storm.",
-    "detail": "The verb 'ean' (also 'yean') is recorded from Middle English, used primarily of sheep bringing forth young; applying it to a woman's childbirth is a marked, literary choice that underscores the raw physical peril of the birth-at-sea scene in 3.1. Compare the pastoral register of 'the ewe that will not hear her lamb when it baas' (The Merchant of Venice 1.3). The unusual word choice here — rather than 'lying-in' or 'travail' — keeps the audience focused on Thaisa's helplessness: she was cast overboard almost at the moment of giving birth.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'ean' (v.): of an animal, esp. a ewe, to bring forth (young); to give birth."
-      },
-      {
-        "name": "Schmidt, Shakespeare-Lexicon",
-        "citation": "Schmidt, Shakespeare-Lexicon, s.v. 'eaning-time': 'the time of bringing forth young.'"
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1350"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Corrected the quoted OED definition: removed the fabricated '...also applied to a woman in childbed' clause from the citation; the ewe sense is genuine and the human application is now presented as the marked literary extension in the note's prose, not as OED wording."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "OED confirms 'ean/yean' applied to ewes and, by extension, to women in childbed; the literary emphasis on vulnerability is a reasonable inference from the storm context in 3.1, not an overreach."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Corrected the quoted OED definition: removed the fabricated '...also applied to a woman in childbed' clause from the citation; the ewe sense is genuine and the human application is now presented as the marked literary extension in the note's prose, not as OED wording. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "pericles-1354-vestal-livery",
-    "play": "pericles",
-    "tln_start": 1354,
-    "tln_end": 1354,
-    "word_start": 0,
-    "word_end": 7,
-    "anchor_text": "A vestal livery will I take me to",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "A 'vestal livery' is the uniform and vow of a Vestal Virgin — the Roman priestesses sworn to chastity for thirty years in service of Vesta, goddess of the hearth. Thaisa is saying she will become a celibate religious, believing Pericles lost. The phrase links directly to Diana's temple in the next speech: Diana and Vesta share the domain of sacred chastity.",
-    "detail": "Rome's six Vestal Virgins were among the city's most sacred figures, bound by a thirty-year vow of celibacy on pain of death (burial alive if broken); they kept the eternal flame of Vesta. 'Livery' here means the distinctive dress or habit that marks membership of an order or a lord's service — Thaisa is choosing to 'wear the livery' of a virgin votaress. Shakespeare uses the same construction in A Midsummer Night's Dream 1.1 ('the livery of a nun'), where Hermia is threatened with life in a cloister. In Pericles the choice anticipates the play's resolution: Thaisa will be found still serving Diana's temple at Ephesus when Pericles arrives in Act 5. (Strictly, Vesta governs the sacred hearth-fire and Diana chastity; early-modern usage often elides the two virgin goddesses, as here.)",
-    "sources": [
-      {
-        "name": "Ovid, Fasti",
-        "citation": "Ovid, Fasti 6.249-468 (the Vestalia: Vesta as virgin goddess served by virgin ministers, and the sacred fire)."
-      },
-      {
-        "name": "Onions, Shakespeare Glossary",
-        "citation": "Onions, Shakespeare Glossary, s.v. 'vestal': 'Of or pertaining to the Vestal virgins; chaste, virgin.'"
-      }
-    ],
-    "references": [
-      {
-        "kind": "classical",
-        "card_id": "diana-goddess"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1354"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Kept the Fasti Book 6 Vestalia citation (virgin goddess, virgin ministers, sacred fire — all present there) but dropped the over-specific 'white livery' claim that is not in that passage; added a note that the Vesta/Diana elision is an early-modern convention."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The vestal-virgin gloss and the MND 'livery of a nun' parallel are sound; the claim that Vesta and Diana 'share the domain of sacred chastity' conflates two distinct goddesses (Vesta governs the hearth, not chastity per se) but the equation holds well enough for the dramatic point and is a conventional early-modern elision, not a serious overreach."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Kept the Fasti Book 6 Vestalia citation (virgin goddess, virgin ministers, sacred fire — all present there) but dropped the over-specific 'white livery' claim that is not in that passage; added a note that the Vesta/Diana elision is an early-modern convention. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "pericles-1357-dianas-temple-date",
-    "play": "pericles",
-    "tln_start": 1357,
-    "tln_end": 1358,
-    "word_start": 0,
-    "word_end": 7,
-    "anchor_text": "Diana's temple is not distant far, Where you may abide till your date expire",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "Cerimon directs Thaisa to the temple of Diana at Ephesus — one of the Seven Wonders of the ancient world — where she can live as a votaress until 'your date expire,' meaning until her natural lifespan ends. This is the crucial turn: Thaisa's entry into Diana's service sets up the climax of the play, when Pericles receives a vision from Diana directing him to her temple.",
-    "detail": "The Temple of Artemis (Diana) at Ephesus was one of the greatest sanctuaries in the ancient world and a famous place of asylum. Pericles sets Diana apart from the other Olympians as the play's presiding protector: she governs chastity (Thaisa, Marina), safe harbour after storm, and the reunion of the separated family in Act 5.3. 'Date' meaning 'appointed term of life' (from Latin datum, what has been given) is standard Shakespearean usage; Cerimon is saying Thaisa may remain in Diana's service for the rest of her days. The irony is that Diana will reunite her with Pericles before that date expires — the goddess who seemed to confine her becomes the agent of reunion. The historical Ephesus stood on the western coast of modern Turkey; its temple to Artemis was already ancient in the period the play implies.",
-    "sources": [
-      {
-        "name": "Pausanias, Description of Greece",
-        "citation": "Pausanias, Description of Greece 4.31.8 (the Artemision of Ephesus surpassing all other buildings) and 7.2.6 (the antiquity and founding of the sanctuary)."
-      },
-      {
-        "name": "Strabo, Geography",
-        "citation": "Strabo, Geography 14.1.22-23 (the temple of Artemis at Ephesus and its right of asylum/sanctuary)."
-      },
-      {
-        "name": "Schmidt, Shakespeare-Lexicon",
-        "citation": "Schmidt, Shakespeare-Lexicon, s.v. 'date' (2): 'a limited period; the term of anything's duration.'"
-      }
-    ],
-    "references": [
-      {
-        "kind": "classical",
-        "card_id": "diana-goddess"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1357"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Kept the verified Pausanias loci for the temple's greatness/antiquity but moved the asylum/sanctuary claim to its correct source (Strabo 14.1.22-23), which the cited Pausanias passages do not cover."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "'Date' as appointed term of life is standard Shakespearean usage, the Ephesian Artemision identification is correct, and the structural irony reading (Diana as agent of reunion rather than confinement) is a mainstream interpretive position, not an overreach."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Kept the verified Pausanias loci for the temple's greatness/antiquity but moved the asylum/sanctuary claim to its correct source (Strabo 14.1.22-23), which the cited Pausanias passages do not cover. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "pericles-1394-dove-of-paphos",
-    "play": "pericles",
-    "tln_start": 1394,
-    "tln_end": 1395,
-    "word_start": 1,
-    "word_end": 2,
-    "anchor_text": "the dove of Paphos might the crow\nVie feathers white",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "Paphos was the city in Cyprus sacred to Venus (Aphrodite), goddess of love, whose emblem was the dove. The dove of Paphos — Venus's bird — is white; to compare a crow vying to match it is to say Philoten is as outmatched by Marina as a black crow is by the goddess of love's own sacred bird. The image underscores how hopeless Philoten's rivalry is.",
-    "detail": "Venus was said to have risen from the sea near Cyprus, and her principal sanctuary stood at Paphos. The dove was her bird from ancient times. The contrast dove/crow is proverbial: doves are pure white, associated with love and beauty; crows are black, associated with ill omen. Gower's simile says Philoten's competing with Marina is as ridiculous as a crow displaying white feathers next to Venus's own bird. The image of the crow set against a white beauty recurs in The Winter's Tale 4.4.",
-    "sources": [
-      {
-        "name": "Ovid, Metamorphoses",
-        "citation": "Ovid, Metamorphoses Book 15 (Pythagoras names the doves of Cytherea/Venus among birds, c. line 386; Golding's 1567 translation) — the dove as Venus's bird."
-      },
-      {
-        "name": "Virgil, Aeneid",
-        "citation": "Virgil, Aeneid 6.190-193 (the doves of Venus guide Aeneas to the golden bough) — the dove as Venus's sacred bird."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1394"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Corrected the detail's misdescription of Ovid Met. 15.386 (it lists Venus's doves among birds, not drawing her chariot); kept the locus generalized to Book 15 and retained the accurate Aeneid 6.190 citation."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Paphos as Venus's sacred city and the dove as her emblem are classical commonplaces; the crow/dove contrast as proverbial is sound, and the simile's meaning — Philoten is hopelessly outclassed — is the plain sense of Gower's lines."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Corrected the detail's misdescription of Ovid Met. 15.386 (it lists Venus's doves among birds, not drawing her chariot); kept the locus generalized to Book 15 and retained the accurate Aeneid 6.190 citation. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "pericles-1613-monsieur-veroles",
-    "play": "pericles",
-    "tln_start": 1613,
-    "tln_end": 1613,
-    "word_start": 1,
-    "word_end": 2,
-    "anchor_text": "Monsieur Veroles",
-    "type": "wordplay",
-    "depth": "basic",
-    "summary": "The name is a direct French pun: 'vérole' is French for smallpox or syphilis, and 'la grosse vérole' (the great pox) was the standard French term for syphilis. 'Monsieur Veroles' means, essentially, 'Mr. Syphilis.' The joke would have been transparent to any playgoer with a word of French, and perfectly suits a man who 'cowers in the hams.'",
-    "detail": "The technique of encoding a character's nature in a Latin or French name is common in Elizabethan drama, inherited from the Roman comedy tradition of Plautus and Terence. Here the satirical naming is immediate and brutal: the knight is defined by his disease. The Bawd's composed reply — 'Well, he brought his disease hither: here he does but repair it' — extends the joke by treating the brothel as a kind of medical spa where an existing condition is 'repaired' (the pun cuts both ways: renovated, or made worse).",
-    "sources": [
-      {
-        "name": "Cotgrave, French-English Dictionary",
-        "citation": "Randle Cotgrave, A Dictionarie of the French and English Tongues (1611), s.v. 'verole': the pox; 'la grosse verole', the great pox (syphilis), distinguished from 'la petite verole' (smallpox)."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1613"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Replaced the invented 'OED s.v. verole' citation (vérole is French, not an English OED headword) with Cotgrave's 1611 French-English dictionary, the standard period authority for the French word and its pox/syphilis sense."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "'Vérole' as French for syphilis (la grosse vérole) is exact, the joke is transparent, and the Plautine/Terentian naming tradition cited in the detail is a legitimate literary-historical context."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Replaced the invented 'OED s.v. verole' citation (vérole is French, not an English OED headword) with Cotgrave's 1611 French-English dictionary, the standard period authority for the French word and its pox/syphilis sense. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "pericles-1646-fires-knives-waters",
-    "play": "pericles",
-    "tln_start": 1646,
-    "tln_end": 1648,
-    "word_start": 0,
-    "word_end": 3,
-    "anchor_text": "If fires be hot, knives sharp, or waters deep, Untied I still my virgin knot will keep. Diana, aid my purpose!",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "Marina swears to preserve her chastity by any means available — fire, knife, or drowning — and calls on Diana, the Roman goddess of chastity, to protect her. Diana is the presiding deity of Marina's virtue throughout the play; her temple at Ephesus is where Thaisa has lived as a priestess and where the family will be reunited in Act 5.",
-    "detail": "The couplet form (rhymed iambic pentameter) sets Marina's vow apart from the prose of the brothel keepers — a deliberate tonal contrast between her dignified resolve and their commercial calculations. The 'virgin knot' (a common Elizabethan expression for virginity, also used in The Tempest 4.1) is the same bond Prospero forbids Ferdinand to untie before marriage. Marina's appeal to Diana anticipates the play's ending: Diana appears to Pericles in a vision (5.1) and directs him to Ephesus, where Thaisa, herself a votaress of Diana, waits. The goddess thus connects mother and daughter across the play's geography and governs the restoration of the family. The Bawd's scornful reply — 'What have we to do with Diana?' — measures the gulf between the two women's worlds.",
-    "sources": [
-      {
-        "name": "Ovid, Metamorphoses",
-        "citation": "Ovid, Metamorphoses 3.138-252 (Diana's fierce protection of chastity — Actaeon destroyed for seeing her bathe; Golding's 1567 translation), the standard source for Diana as the chaste, punishing virgin goddess."
-      }
-    ],
-    "references": [
-      {
-        "kind": "classical",
-        "card_id": "diana-goddess"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1646"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Dropped the unsupported Hesiod Theogony 918 citation (it names Artemis's birth, not her virginity) and kept the verified Ovid Actaeon citation, corrected to begin at the episode's true start, 3.138."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Diana as the goddess of chastity, the 'virgin knot' parallel with The Tempest, and Diana's structural role as the governing deity of both Marina and Thaisa across the play are all textually grounded and mainstream; the annotation correctly reads the couplet's tonal contrast with the brothel prose."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Dropped the unsupported Hesiod Theogony 918 citation (it names Artemis's birth, not her virginity) and kept the verified Ovid Actaeon citation, corrected to begin at the episode's true start, 3.138. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "pericles-1664-nurses-fates",
-    "play": "pericles",
-    "tln_start": 1664,
-    "tln_end": 1665,
-    "word_start": 4,
-    "word_end": 6,
-    "anchor_text": "Nurses are not the fates / To foster it, nor ever to preserve",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "Dionyza invokes the Fates — the three goddesses of Greek and Roman myth who spin, measure, and cut the thread of every human life — to deflect blame: nurses have no power to keep a child alive against Fate's decree, so she cannot be held responsible for Marina's death. It is a cynical use of classical fatalism to disguise deliberate murder as natural necessity.",
-    "detail": "The three Fates (Greek Moirai, Roman Parcae) were Clotho, who spun the thread of life; Lachesis, who measured it; and Atropos ('she who cannot be turned'), who cut it. They were the governors of the lifespan, treated in classical thought as a power that even the gods do not override. Dionyza's argument — 'nurses cannot prevent death, since the Fates alone control it' — borrows the framework of destiny to re-describe her own premeditated commission of murder as a form of natural death. The sophistry is transparent to Cleon and, Shakespeare expects, to the audience.",
-    "sources": [
-      {
-        "name": "Hesiod, Theogony",
-        "citation": "Hesiod, Theogony 217-222 and 904-906 (the Moirai/Fates who assign mortals their lot of good and evil)."
-      },
-      {
-        "name": "Ovid, Metamorphoses",
-        "citation": "Ovid, Metamorphoses Book 15 (Jupiter tells Venus the decrees of the Fates are wrought in adamant and unchangeable, c. lines 807-815; Golding's 1567 translation)."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1664"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Corrected the Ovid locus from the fabricated 15.781-798 (Caesar omens) to the Jupiter-Venus passage on the Fates' fixed decrees (Book 15, c.807-815); kept the verified Hesiod Theogony citation."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Dionyza's invocation of the classical Fates to deflect culpability is a sound reading of the sophistry in her speech, and the characterisation of her argument as cynical fatalism masking premeditated murder is well supported by the dramatic context."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Corrected the Ovid locus from the fabricated 15.781-798 (Caesar omens) to the Jupiter-Venus passage on the Fates' fixed decrees (Book 15, c.807-815); kept the verified Hesiod Theogony citation. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "pericles-1708-waste-and-cockles",
-    "play": "pericles",
-    "tln_start": 1708,
-    "tln_end": 1709,
-    "word_start": 1,
-    "word_end": 3,
-    "anchor_text": "time we waste, and longest leagues make short; Sail seas in cockles",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "Gower opens with a theatrical apology: the play will 'waste' (use up, travel through) time and compress vast distances. 'Cockles' are tiny bivalve shells — and, by extension, the frailest imaginable little boats. The image invites the audience to sail the Mediterranean in a nutshell, trusting the play's imagination rather than any realistic staging.",
-    "detail": "The whole couplet is Gower's standard metatheatrical disclaimer — the Chorus admitting that the play cannot actually show ships at sea or years of travel. 'Cockle' is the shell of a small bivalve, and by extension a tiny, frail boat; 'cockle-boat'/'cockle-shell' for a small, unseaworthy vessel was proverbial in Elizabethan English. The compression of 'leagues' and 'time' in a single line foregrounds the scene's concern with theatrical illusion — a theme the dumb-show that follows makes explicit.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'cockle' n.2 and 'cockle-shell': the shell of a small bivalve mollusc, and by extension a small, frail boat."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1708"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Replaced the misattributed Schmidt 'cockle' citation (Schmidt's entry defines the weed, not the shell/boat) with the OED entry for 'cockle' n.2 / 'cockle-shell', which carries the shell-and-frail-boat sense the gloss relies on."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Cockle-boat as a proverbial image of a frail vessel and the metatheatrical compression reading are both mainstream and well-supported by Elizabethan usage."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Replaced the misattributed Schmidt 'cockle' citation (Schmidt's entry defines the weed, not the shell/boat) with the OED entry for 'cockle' n.2 / 'cockle-shell', which carries the shell-and-frail-boat sense the gloss relies on. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "pericles-1762-divinity-preached",
-    "play": "pericles",
-    "tln_start": 1762,
-    "tln_end": 1762,
-    "word_start": 1,
-    "word_end": 5,
-    "anchor_text": "to have divinity preached there",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "The First Gentleman is astonished that a brothel became the setting for moral instruction. Marina, instead of submitting to clients, preached virtue so effectively that men left converted rather than satisfied. Her power as a speaker is the play's equivalent of a saint reforming sinners in the most corrupt possible place.",
-    "detail": "Marina's conduct in the brothel at Mytilene is the climax of Act 4: customers who enter leave shamed and reformed. The Gentlemen's stunned exchange (this brief scene is only a few lines) is Shakespeare's shorthand for her wholesale moral effect on the town. The play presents her oratory as a near-miraculous faculty — she goes on to turn even the governor Lysimachus from his purpose (4.6) and later reaches the grief-maddened Pericles himself (5.1). The scene functions as a structural pivot, replacing the brothel scenes' comedy with wonder and preparing the audience for Marina's reunion with Pericles.",
-    "sources": [
-      {
-        "name": "Gossett, ed., Pericles (Arden 3)",
-        "citation": "Suzanne Gossett, ed., Pericles (Arden Shakespeare, Third Series, 2004), note to 4.5: the scene demonstrates Marina's reforming eloquence reported by proxy."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1762"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Kept the genuine Gossett (Arden 3) citation but removed the fabricated quotation/locus claim that Gower 'credits her with converting all the city (5.1.1-3)', which is not in the text; trimmed the detail to Marina's textually attested effect on Lysimachus and Pericles."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The reading of Marina as a reforming moral preacher in the brothel is the mainstream critical consensus, and the structural-pivot claim (comedy giving way to wonder before the reunions) is a standard observation in Pericles scholarship."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Kept the genuine Gossett (Arden 3) citation but removed the fabricated quotation/locus claim that Gower 'credits her with converting all the city (5.1.1-3)', which is not in the text; trimmed the detail to Marina's textually attested effect on Lysimachus and Pericles. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "pericles-179-murder-near-lust",
-    "play": "pericles",
-    "tln_start": 179,
-    "tln_end": 180,
-    "word_start": 0,
-    "word_end": 8,
-    "anchor_text": "One sin, I know, another doth provoke; Murder's as near to lust as flame to smoke",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "Pericles reasons in a tight epigram: one sin breeds the next, and lust and murder are as inseparable as fire and its smoke — where there is lust, murder to conceal it follows naturally. This is the direct reasoning that makes him flee: Antiochus will kill him to protect his secret.",
-    "detail": "The figure is a paired simile working as deductive reasoning: the smoke-and-flame image is an analogy for causal proximity, not just moral equivalence. The argumentative movement — 'one sin provokes another' — is a commonplace of moral philosophy (the Stoic idea that vices breed and feed on one another), here given brisk dramatic urgency as Pericles decides to run.",
-    "sources": [
-      {
-        "name": "Seneca, Epistulae Morales",
-        "citation": "Seneca, Epistulae Morales (the recurring Stoic theme that vices feed and breed on one another; e.g. the 'vitia vitiis aluntur' commonplace) — cited here as a general parallel, not a verbatim source."
-      }
-    ],
-    "references": [],
-    "confidence": "medium",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 179"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Generalized the Seneca citation to the work level (dropped the unverifiable Ep. 97.10 locus and the misquoted Latin tag), since the gloss treats it only as a Stoic parallel."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The smoke-and-flame simile is accurately glossed as causal proximity, not mere moral equivalence; citing Seneca Ep. 97.10 as a parallel for 'vices breed vices' is a defensible parallel for a Stoic commonplace, and the annotation correctly marks confidence as 'medium' — appropriate given the source is a parallel rather than a direct echo."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Generalized the Seneca citation to the work level (dropped the unverifiable Ep. 97.10 locus and the misquoted Latin tag), since the gloss treats it only as a Stoic parallel. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "pericles-2094-pace-another-juno",
-    "play": "pericles",
-    "tln_start": 2094,
-    "tln_end": 2094,
-    "word_start": 4,
-    "word_end": 7,
-    "anchor_text": "in pace another Juno",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "Pericles compares his dead wife Thaisa (and by extension Marina, who reminds him of her) to Juno in her walk or bearing: 'pace' means gait, the way she carried herself. Juno — queen of the gods and goddess of marriage — was the classical byword for majestic, stately dignity in a woman. The comparison elevates Thaisa to the highest feminine dignity imaginable.",
-    "detail": "Juno (Greek Hera), queen of the gods and goddess of marriage, was a Renaissance byword for majestic, queenly carriage — and is staged as such in The Tempest 4.1, where Juno descends in the betrothal masque. To say Thaisa 'in pace' was 'another Juno' is to praise her gait and bearing as the most stately imaginable. 'Starves the ears she feeds' (TLN 2095) means her speech is so pleasurable that it creates appetite even as it satisfies — the more she speaks the more one hungers for more.",
-    "sources": [
-      {
-        "name": "Virgil, Aeneid",
-        "citation": "Virgil, Aeneid 1.46-49 (Juno styling herself queen of the gods, regina, sister and wife of Jove) — Juno as the type of the sovereign queen of heaven."
-      }
-    ],
-    "references": [
-      {
-        "kind": "classical",
-        "card_id": "juno-goddess"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2094"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Dropped the unsupported Ovid Met. 2.466 'stately bearing' citation (that is the Callisto-punishment passage) and the over-read of Aen. 1.46-48; kept Aeneid 1.46-49 only for Juno-as-queen-of-heaven, with The Tempest 4.1 as the apt Shakespearean parallel for her queenly bearing in the prose."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "'Pace' = gait/bearing and Juno as classical emblem of queenly dignity are correct; the 'starves the ears she feeds' reading (speech creates appetite even as it satisfies) is the mainstream interpretation."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Dropped the unsupported Ovid Met. 2.466 'stately bearing' citation (that is the Callisto-punishment passage) and the over-read of Aen. 1.46-48; kept Aeneid 1.46-49 only for Juno-as-queen-of-heaven, with The Tempest 4.1 as the apt Shakespearean parallel for her queenly bearing in the prose. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "pericles-2156-lychorida-nurse",
-    "play": "pericles",
-    "tln_start": 2156,
-    "tln_end": 2156,
-    "word_start": 1,
-    "word_end": 6,
-    "anchor_text": "my good nurse Lychorida hath oft",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "Lychorida was Marina's nurse, who attended Thaisa during the fatal sea-birth of Act 3 and afterward raised Marina at Tarsus. In the Apollonius of Tyre source tradition (Gower's Confessio Amantis and Twine's Patterne of Painefull Adventures) the nurse is a key figure who transmits the dead mother's story to the daughter. Marina's naming of her nurse here is the first of the identifying details that will help convince Pericles the girl is truly his daughter.",
-    "sources": [
-      {
-        "name": "Gower, Confessio Amantis",
-        "citation": "John Gower, Confessio Amantis (c. 1390), Book 8 (the Apollonius of Tyre tale), where the nurse tends the birth and helps rear the daughter."
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "apollonius-of-tyre"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2156"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Removed the incorrect claim that Gower names the nurse 'Lycoris' (Gower's form matches Shakespeare's), generalizing the citation to Confessio Amantis Book 8 without the wrong name detail."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Lychorida's role in the Apollonius-of-Tyre narrative tradition is accurately characterized; naming the nurse is correctly identified as a first identifying detail in Pericles' recognition sequence."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Removed the incorrect claim that Gower names the nurse 'Lycoris' (Gower's form matches Shakespeare's), generalizing the citation to Confessio Amantis Book 8 without the wrong name detail. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "pericles-2251-silver-bow",
-    "play": "pericles",
-    "tln_start": 2251,
-    "tln_end": 2251,
-    "word_start": 0,
-    "word_end": 7,
-    "anchor_text": "Do it, and happy; by my silver bow",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "Diana swears her command 'by my silver bow' — the bow being her standard attribute as the goddess of the hunt and the moon. Silver is her metal, tied to the pale lunar light, and the silver bow marks the speaker of the vision as the virgin moon-goddess. (In the older Greek epithets the 'silver bow' is actually Apollo's and Artemis bears shafts of gold, but in Renaissance English usage the silver bow is regularly Diana's own, as the play has it.) The oath grounds the divine apparition in recognizable classical imagery.",
-    "sources": [
-      {
-        "name": "Homeric Hymns / classical iconography",
-        "citation": "Homeric Hymns to Artemis (9 and 27): Artemis the virgin huntress of the gold shafts, sister of Apollo of the silver bow — the bow-and-arrows as her defining attribute; the 'silver bow' is conventionally transferred to Diana in Renaissance English poetry."
-      }
-    ],
-    "references": [
-      {
-        "kind": "classical",
-        "card_id": "diana-goddess"
-      }
-    ],
-    "confidence": "medium",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2251"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Replaced the unsupported Hesiod Theogony 918-920 'silver bow' citation with the Homeric Hymns to Artemis and an honest note that the silver-bow epithet is properly Apollo's in Greek but transferred to Diana in Renaissance usage, as the text does."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Diana's silver bow as her standard identifying attribute is uncontroversial classical iconography; the contrast with Apollo's gold bow is correctly stated."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Replaced the unsupported Hesiod Theogony 918-920 'silver bow' citation with the Homeric Hymns to Artemis and an honest note that the silver-bow epithet is properly Apollo's in Greek but transferred to Diana in Renaissance usage, as the text does. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "pericles-2283-dian-bade",
-    "play": "pericles",
-    "tln_start": 2282,
-    "tln_end": 2283,
-    "word_start": 3,
-    "word_end": 2,
-    "anchor_text": "done his sacrifice, As Dian bade",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "'Dian' is Diana, goddess of chastity and the hunt. In the vision at the end of Act 5 Scene 1, Diana appeared to Pericles and commanded him to travel to her temple at Ephesus and make an offering there. This act of ritual sacrifice is the condition that must be fulfilled before the marriage can happen.",
-    "detail": "Diana of Ephesus is the presiding deity of Pericles: her temple is where Thaisa has lived as a votaress (a woman vowed to the goddess's service) since being revived by Cerimon in Act 3. The play's final recognition and reunion happen within her sacred precinct. Diana's command in the vision — which Gower summarises here — links the goddess's domain (chastity, ritual purity) to the play's central theme of virtue tested and restored. Ephesus was a real city on the western coast of what is now Turkey, whose temple of Artemis (the Greek equivalent of Diana) was one of the Seven Wonders of the ancient world.",
-    "sources": [
-      {
-        "name": "Ovid, Metamorphoses",
-        "citation": "Ovid, Metamorphoses 3.138-252 (Diana's character and the punishment of Actaeon, who saw her bathing — a paradigm of her fierce chastity); Golding's 1567 English translation was Shakespeare's likely source."
-      }
-    ],
-    "references": [
-      {
-        "kind": "classical",
-        "card_id": "diana-goddess"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2282"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Corrected the Ovid Actaeon locus to begin at the episode's true start (3.138, not 3.155), as flagged by the source judge."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The identification of Diana's command (from Pericles's vision in 5.1) as the prerequisite for travel to Ephesus is accurate, and the detail about Thaisa's votaress status and the Temple of Artemis as a Wonder of the World is sound; the Ovid Actaeon citation is tangential to this specific note but the interpretation itself is defensible."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Corrected the Ovid Actaeon locus to begin at the episode's true start (3.138, not 3.155), as flagged by the source judge. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "pericles-2372-pure-dian-night-oblations",
-    "play": "pericles",
-    "tln_start": 2372,
-    "tln_end": 2373,
-    "word_start": 0,
-    "word_end": 4,
-    "anchor_text": "Pure Dian, bless thee for thy vision! I Will offer night-oblations to thee",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "'Night-oblations' are offerings or sacrifices made at night. Diana was a moon-goddess, and her sacred rites were naturally nocturnal. An 'oblation' is a formal religious offering — from Latin oblatio, a gift presented to a deity. Pericles vows to honor Diana with night-time sacrifice in gratitude for the vision she sent him and for the reunion she has brought about.",
-    "detail": "Nocturnal sacrifice to moon-goddesses was a recognized practice in classical antiquity (Hecate, Diana's chthonic aspect, was in particular propitiated at night). The word 'oblation' carries a faintly liturgical weight — the same root gives 'oblations' in the Church of England's Communion service, which would add resonance for Shakespeare's audience. Pericles, the classical hero of a pre-Christian world, uses the language of public religious observance to close his part of the scene before the domestic business of the wedding resumes.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'oblation' n.: 'the action of offering something to God or a deity; a thing offered, an offering' (from Latin oblatio)."
-      }
-    ],
-    "references": [
-      {
-        "kind": "classical",
-        "card_id": "diana-goddess"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2372"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Dropped the Ovid Met. 3.155-252 citation (the Actaeon episode does not describe nocturnal rites or oblations) and kept only the verified OED 'oblation' gloss, which fully supports the note."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "'Night-oblations' as nocturnal sacrificial offerings to the moon-goddess is secure; the gloss on 'oblation' from Latin oblatio is accurate, and noting its liturgical resonance for a Protestant audience is a reasonable contextual point rather than an overreach."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Dropped the Ovid Met. 3.155-252 citation (the Actaeon episode does not describe nocturnal rites or oblations) and kept only the verified OED 'oblation' gloss, which fully supports the note. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "pericles-262-signior-sooth",
-    "play": "pericles",
-    "tln_start": 262,
-    "tln_end": 262,
-    "word_start": 1,
-    "word_end": 7,
-    "anchor_text": "Signior Sooth here does proclaim a peace",
-    "type": "wordplay",
-    "depth": "basic",
-    "summary": "Helicanus coins a mock-Italian title — 'Signior Sooth' — for the flattering courtier. 'Sooth' in Shakespeare's English means truth; but 'to soothe' had also come to mean to humour, flatter, or cajole, so the name puns on both: a 'Signior Sooth' is a man who passes himself off as a truth-teller while actually telling you only what you want to hear. The fake Italian honorific 'Signior' (= Sir, Mr.) gives the flatterer a pompous title that exposes him.",
-    "detail": "OED traces 'sooth' (n.) to Old English soth, 'truth', which remained its primary sense in Shakespeare's day; the verb 'soothe' had separately developed the sense 'to humour, flatter, cajole' (OED 'soothe' v. 2b). The wordplay turns on that gap: the courtier styled a teller of 'sooth' (truth) is really a soother (flatterer). Helicanus implies that the lords' comfortable agreement is not genuine counsel but a performance of assent.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'sooth' n. 1: 'truth, verity'; and 'soothe' v. 2b: 'to humour, flatter, cajole' — the gap between honest truth and comforting appeasement that the pun exploits."
-      }
-    ],
-    "references": [],
-    "confidence": "medium",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 262"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "OED s.v. 'sooth' n. 1 (= truth) and 'soothe' v. 2b (= to flatter, cajole) are both real OED entries that directly support the annotation's distinction between honest truth and comforting appeasement."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Interpretation trimmed: dropped the claim that 'sooth' itself meant false consolation, the anachronistic Iago/'soothe-sayer' link, and the Italian-courts stereotype; kept the OED-grounded sooth/soothe pun and reframed the irony as a supposed truth-teller who flatters."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Interpretation trimmed: dropped the claim that 'sooth' itself meant false consolation, the anachronistic Iago/'soothe-sayer' link, and the Italian-courts stereotype; kept the OED-grounded sooth/soothe pun and reframed the irony as a supposed truth-teller who flatters. [orig: source=verified, interp=refuted]"
-  },
-  {
-    "id": "pericles-370-shipmans-toil",
-    "play": "pericles",
-    "tln_start": 370,
-    "tln_end": 370,
-    "word_start": 1,
-    "word_end": 6,
-    "anchor_text": "puts himself unto the shipman's toil",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "A 'shipman' is a sailor, and 'the shipman's toil' is the hardship of life at sea — constant physical labour, violent weather, and the ever-present risk of drowning. Helicanus is telling the lords that Pericles has deliberately submitted himself to the daily dangers of a mariner's life: the next line drives the point home with 'each minute threatens life or death.' For an Elizabethan audience, sea-voyaging was understood as one of the most dangerous occupations imaginable, with mortality rates on long passages that could exceed a third of a crew.",
-    "detail": "The sea voyage as voluntary hardship or trial is one of Pericles's governing motifs: the play will send its hero through multiple wrecks and storms across the Mediterranean, making the 'shipman's toil' not merely an image of hardship but the literal mechanism of the plot. Helicanus frames the voyage as Pericles's penance for having given 'displeasure' to Antiochus — a diplomatic misreading of the real motive (flight from murder), which he cannot disclose. 'Shipman' is archaic for 'sailor' or 'seaman'; Onions (Shakespeare Glossary s.v. 'shipman') records it as standard Elizabethan usage.",
-    "sources": [
-      {
-        "name": "Onions, Shakespeare Glossary",
-        "citation": "Onions, C. T., A Shakespeare Glossary, rev. R. D. Eagleson (1986), s.v. 'shipman': a sailor, seaman."
-      }
-    ],
-    "references": [
-      {
-        "kind": "classical",
-        "card_id": "neptune-god-of-the-sea"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 370"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Dropped the unverifiable 'Andrews, Pericles (Everyman/Arden 2)' edition citation (no such Pericles edition could be confirmed); retained the verified Onions gloss, which fully supports the note."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The identification of 'shipman' as sailor and the reading that Helicanus frames the voyage as self-imposed penance while concealing the real motive (flight from Antiochus) are both mainstream and well-supported by the text; the Neptune reference card is loose since Neptune is not named in the scene but does not corrupt the interpretation."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Dropped the unverifiable 'Andrews, Pericles (Everyman/Arden 2)' edition citation (no such Pericles edition could be confirmed); retained the verified Onions gloss, which fully supports the note. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "pericles-390-digging-hills",
-    "play": "pericles",
-    "tln_start": 391,
-    "tln_end": 391,
-    "word_start": 1,
-    "word_end": 7,
-    "anchor_text": "who digs hills because they do aspire",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "Dionyza argues that dwelling on other people's sorrows only increases one's own: digging away at a hill to bring it lower just throws up a bigger mound of earth. The paradox — that the supposed remedy makes things worse — mirrors the scene, in which Cleon and Dionyza cannot speak their grief without deepening it.",
-    "detail": "The figure is a paradoxical analogy: the action meant to reduce the hill only piles up more earth, so the cure aggravates the disease. 'Aspire' here carries the physical sense of rising or mounting up as well as the sense of ambition — Schmidt's Shakespeare-Lexicon records both for Shakespeare's usage. The lines are spoken by Dionyza, answering Cleon's wish to publish his griefs.",
-    "sources": [
-      {
-        "name": "Schmidt, Shakespeare-Lexicon",
-        "citation": "Schmidt, Alexander, Shakespeare-Lexicon, 3rd ed. (Berlin: Reimer, 1902), s.v. 'aspire' (the sense of physical rising/mounting up alongside ambition)."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 391"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Schmidt, Shakespeare-Lexicon s.v. 'aspire' is a real entry that supports the archaic sense of physical rising; the minor inconsistency that the detail names Onions while the source cites Schmidt does not undermine the core lexical claim."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Interpretation trimmed: corrected the speaker to Dionyza, replaced the overreaching 'adynaton' label with 'paradoxical analogy', and dropped the speculative Marina-murder character-arc foreshadowing; source (Schmidt) verified."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Interpretation trimmed: corrected the speaker to Dionyza, replaced the overreaching 'adynaton' label with 'paradoxical analogy', and dropped the speculative Marina-murder character-arc foreshadowing; source (Schmidt) verified. [orig: source=verified, interp=refuted]"
-  },
-  {
-    "id": "pericles-449-sorrow-heir",
-    "play": "pericles",
-    "tln_start": 449,
-    "tln_end": 449,
-    "word_start": 0,
-    "word_end": 7,
-    "anchor_text": "One sorrow never comes but brings an heir",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "Cleon personifies Sorrow as a parent who always produces a child ('heir') to succeed it — misfortunes never come alone but breed more misfortunes. The legal metaphor of inheritance (an 'heir' who 'succeeds as inheritor') frames bad luck in the same terms as royal succession, pointedly apt for a governor watching his city collapse and now expecting an invading fleet.",
-    "detail": "The figure is a sententia (a pithy general maxim) cast in the legal language of succession: 'heir' and 'inheritor' were technical terms for the person who legally succeeds to a title or estate. Using them for sorrow underlines Cleon's sense that misery has its own dynasties and laws. The sentiment that misfortunes come in succession rather than singly is proverbial; the classical tradition that evils, once loosed on humankind, follow one upon another goes back to the myth of Pandora in Hesiod's Works and Days.",
-    "sources": [
-      {
-        "name": "Hesiod, Works and Days",
-        "citation": "Hesiod, Works and Days (the Pandora myth, c. lines 90-104: evils escape the jar to plague humankind in unending succession) — cited as the nearest classical parallel, not a direct source."
-      },
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'heir' n. 2a: 'one who succeeds to any quality, condition, or position of another'; the legal/metaphorical extension was well established by the 1590s."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 449"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Corrected the Hesiod citation: moved it from the wrong lines 56-58 (Pandora's fashioning) to the Pandora-jar passage (c. 90-104, evils plaguing mankind in succession) and kept it framed as a parallel."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The sententia reading and the legal resonance of 'heir / inheritor' are straightforwardly supported by the text; the Hesiod parallel is appropriately hedged as a 'nearest classical parallel' rather than a direct source."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Corrected the Hesiod citation: moved it from the wrong lines 56-58 (Pandora's fashioning) to the Pandora-jar passage (c. 90-104, evils plaguing mankind in succession) and kept it framed as a parallel. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "pericles-562-great-ones-eat",
-    "play": "pericles",
-    "tln_start": 562,
-    "tln_end": 563,
-    "word_start": 5,
-    "word_end": 12,
-    "anchor_text": "the great ones eat up the little ones: I can compare our rich misers to nothing so fitly as to a whale",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "The First Fisherman uses an extended analogy — how fish live in the sea mirrors how men live on land — to deliver pointed social satire: the wealthy devour the poor just as big fish swallow small ones. The whale that 'swallowed the whole parish, church, steeple, bells, and all' is a comic fantasy built on the same moral. This device of using natural observation to expose social injustice is a set-piece of popular Elizabethan prose writing.",
-    "detail": "The fish-eat-fish commonplace has a long ancestry — it is a proverb collected in Erasmus's Adagia and circulated widely in Tudor England, and the image of big fish devouring small as a figure for tyranny goes back to antiquity. The fisherman's expansion of the image — the whale swallowing the whole parish infrastructure — extends it into comic hyperbole, but the moral target (rich misers who consume their tenants and communities) is a live Elizabethan grievance about enclosure and rack-renting. Pericles' aside ('a pretty moral') marks it as a deliberate formal set-piece.",
-    "sources": [
-      {
-        "name": "Erasmus, Adagia",
-        "citation": "Erasmus, Adagia: the proverb 'the great fish eat the small' (a widely cited classical and Renaissance commonplace; the same image underlies Bruegel's 1556 'Big Fish Eat Little Fish')."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 562"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Generalized the Erasmus citation to the work level (dropped the wrong adage number I.i.93, which is a different proverb); the big-fish/little-fish proverb is genuinely Erasmian and proverbial."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The fish-eat-fish commonplace as social satire on enclosure and rack-renting is well-supported; Pericles' aside 'a pretty moral' (TLN 568) explicitly marks it as a formal moral device, confirming the rhetorical-set-piece reading."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Generalized the Erasmus citation to the work level (dropped the wrong adage number I.i.93, which is a different proverb); the big-fish/little-fish proverb is genuinely Erasmian and proverbial. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "pericles-614-craver-whipping",
-    "play": "pericles",
-    "tln_start": 614,
-    "tln_end": 615,
-    "word_start": 3,
-    "word_end": 0,
-    "anchor_text": "I'll turn craver too, and so I shall 'scape whipping",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "Elizabethan vagrancy laws made unlicensed begging a punishable offence; able-bodied 'sturdy beggars' were publicly whipped. If Pericles merely 'craved' (asked politely) rather than 'begged,' the Second Fisherman jokes, he could reclassify his own requests as 'craving' and avoid punishment. The joke is also about the thin line between polite asking and illegal mendicancy.",
-    "detail": "Tudor vagrancy law authorized the public whipping of able-bodied 'sturdy beggars' who begged without a licence. The joke in the Second Fisherman's pedantic distinction between 'beg' and 'crave' is that legal wording will not save a man from being treated as a vagrant — what matters is whether you have means and a home. The fisherman's willingness to whip anyone who begs (including himself) mocks the harshness of the law. The beadle (TLN 618) was the parish officer responsible for whipping vagrants and minor offenders. OED s.v. 'beadle,' 'crave.'",
-    "sources": [
-      {
-        "name": "Vagabonds Acts (Tudor vagrancy law)",
-        "citation": "Vagabonds Act 1531 (22 Hen. VIII c. 12) and Vagabonds Act 1572 (14 Eliz. I c. 5): able-bodied beggars without a licence to be stripped and publicly whipped."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 614"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Corrected the statute: replaced the misattributed Statute of Artificers (a labour-regulation act) with the actual Vagabonds Acts of 1531 and 1572 that authorized whipping of unlicensed beggars."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The vagrancy-law context (whipping of unlicensed beggars) is historically accurate and directly explains the Second Fisherman's joke at TLN 614-615; the crave/beg distinction and the beadle reference (TLN 618) are both confirmed by the text."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Corrected the statute: replaced the misattributed Statute of Artificers (a labour-regulation act) with the actual Vagabonds Acts of 1531 and 1572 that authorized whipping of unlicensed beggars. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "pericles-658-sometime-target",
-    "play": "pericles",
-    "tln_start": 658,
-    "tln_end": 658,
-    "word_start": 1,
-    "word_end": 7,
-    "anchor_text": "it was sometime target to a king",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "'Target' in Elizabethan use means a small round shield (a targe or buckler). 'Sometime' means 'formerly' or 'once.' Pericles is telling the fishermen that this piece of armour — recovered from the sea — once belonged to a king, his dead father: it was formerly that king's shield.",
-    "sources": [
-      {
-        "name": "Onions, Shakespeare Glossary",
-        "citation": "Onions, C. T., A Shakespeare Glossary, s.v. 'target' (= 'a light round shield or buckler') and 'sometime' (= 'formerly')."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 658"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Onions's Glossary does contain both 'target' (= light round shield or buckler) and 'sometime' (= formerly); both are accurate lexicographical entries."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Interpretation trimmed: kept 'target' precise to its sense of a small round shield/buckler (his father's) rather than loosely equating it with the whole 'coat' of armour; source (Onions) verified."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Interpretation trimmed: kept 'target' precise to its sense of a small round shield/buckler (his father's) rather than loosely equating it with the whole 'coat' of armour; source (Onions) verified. [orig: source=verified, interp=refuted]"
-  },
-  {
-    "id": "pericles-718-quod-me-alit",
-    "play": "pericles",
-    "tln_start": 717,
-    "tln_end": 717,
-    "word_start": 1,
-    "word_end": 6,
-    "anchor_text": "burning torch that's turned upside down",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "The fourth knight's device is an inverted torch with the Latin motto 'Quod me alit, me extinguit' — 'What nourishes me, extinguishes me.' A torch burns brighter when held upright, but turned upside down its own wax smothers the flame. Simonides glosses the paradox plainly: beauty both inflames desire and can destroy the man who desires it.",
-    "detail": "The inverted torch was one of the most recognizable emblems of Renaissance iconography, drawn from classical funerary imagery (torches held point-down at Roman burials signified death). As a love emblem it was common in impresa books, often paired with Cupid putting out the fire of love. The motto 'Quod me alit, me extinguit' was attached to the device in the Renaissance impresa tradition (e.g. Paolo Giovio's treatise on imprese, Englished by Samuel Daniel, 1585), and the inverted torch of self-consuming passion appears in Geoffrey Whitney's A Choice of Emblemes (Leiden, 1586). Simonides' commentary ('beauty hath his power and will / Which can as well inflame as it can kill') is a near-paraphrase of the emblem's standard gloss.",
-    "sources": [
-      {
-        "name": "Whitney, A Choice of Emblemes",
-        "citation": "Geoffrey Whitney, A Choice of Emblemes (Leiden, 1586) — the inverted torch as emblem of self-consuming passion in the English tradition."
-      },
-      {
-        "name": "Giovio (trans. Daniel)",
-        "citation": "Paolo Giovio, Dialogo dell'imprese militari et amorose, Englished by Samuel Daniel as The Worthy Tract of Paulus Jovius (1585) — the Renaissance impresa tradition from which the 'quod me alit me extinguit' inverted-torch device derives."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 717"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Corrected the source attribution: dropped the misattributed Alciato Emblem 114 (the chameleon/flattery emblem) and credited the device to the Giovio/Daniel impresa tradition plus the verified Whitney citation."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The inverted-torch emblem with this motto is a documented Renaissance impresa property, and Simonides' own lines 719-720 confirm the 'inflame / extinguish' interpretation directly; the Alciato attribution's precision can be queried by the source judge, but the interpretive reading is sound."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Corrected the source attribution: dropped the misattributed Alciato Emblem 114 (the chameleon/flattery emblem) and credited the device to the Giovio/Daniel impresa tradition plus the verified Whitney citation. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "pericles-774-by-jove-cates",
-    "play": "pericles",
-    "tln_start": 774,
-    "tln_end": 775,
-    "word_start": 0,
-    "word_end": 3,
-    "anchor_text": "By Jove, I wonder, that is king of thoughts, These cates resist me",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "Pericles swears 'By Jove' -- using the Roman king of the gods as an exclamation, a common oath in verse drama -- and calls him 'king of thoughts,' meaning Jove rules even the mind. 'Cates' (pronounced to rhyme with 'fates') is an archaic word for choice, delicate foods, especially dishes served at a feast. Pericles cannot eat because he is so absorbed thinking of Thaisa.",
-    "detail": "Jove (Latin Iuppiter) is the ruler of the Olympian gods, and calling him 'king of thoughts' emphasizes his sovereignty even over the human interior life. The oath 'By Jove' was the standard polite classical substitute for 'By God' in Renaissance drama. 'Cates' comes from Old French achat (a purchase); it generally implies expensive or specially bought food. The aside structure — Pericles and Thaisa each speak their mutual attraction to the audience while Simonides and the court watch — is a common Shakespearean device for showing love-struck inner states.",
-    "sources": [
-      {
-        "name": "Onions, Shakespeare Glossary",
-        "citation": "Onions, Shakespeare Glossary, s.v. 'cates' (choice food, delicacies)."
-      },
-      {
-        "name": "Ovid, Metamorphoses",
-        "citation": "Ovid, Metamorphoses Book 1 (Jove's assumption of rule over gods and men after Saturn, c. lines 113-124; Golding's 1567 translation) — illustrative parallel for Jove as sovereign of gods and men."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 774"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Corrected the Ovid locus: the Jove-as-ruler passage is Met. Book 1 c.113-124 (Saturn's fall and Jove's reign), not 1.154-162 (the Iron Age/Giants); kept it as an illustrative parallel."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "'Cates' as choice delicacies is standard, 'By Jove' as a polite classical oath is uncontroversial, and the aside structure correctly identifies Pericles as too absorbed in thoughts of Thaisa to eat; the Ovid citation is illustrative rather than a claimed source, which is appropriate."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Corrected the Ovid locus: the Jove-as-ruler passage is Met. Book 1 c.113-124 (Saturn's fall and Jove's reign), not 1.154-162 (the Iron Age/Giants); kept it as an illustrative parallel. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "pericles-791-time-king-of-men",
-    "play": "pericles",
-    "tln_start": 791,
-    "tln_end": 792,
-    "word_start": 4,
-    "word_end": 8,
-    "anchor_text": "Time's the king of men, He's both their parent, and he is their grave",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "Pericles closes his meditation by personifying Time as the ultimate ruler: Time creates people ('parent') and destroys them ('grave'), and gives or withholds at its own will regardless of what they desire. The aphorism shifts the aside from personal grief about his lost kingdom to a larger, detached philosophical observation -- one of the romance's characteristic movements toward acceptance of Fortune's mutability.",
-    "detail": "The personification of Time as a destroyer-king is a commonplace in Renaissance poetry (see Shakespeare's Sonnet 19, 'Devouring Time,' and Sonnet 60, 'Time's fell hand'). In the context of Pericles, where the hero is repeatedly stripped of everything — his safety, his ships and men, his wife, and eventually his daughter — the aphorism has structural weight: it prepares the audience for the play's long arc of loss and recovery. The language also echoes the de casibus tradition: great men are built up and cast down by Time and Fortune, not by their own merit alone.",
-    "sources": [
-      {
-        "name": "Shakespeare, Sonnets",
-        "citation": "Shakespeare, Sonnet 19 ('Devouring Time') and Sonnet 60 ('Time's fell hand') — Time personified as the sovereign power that both makes and destroys."
-      },
-      {
-        "name": "Boethius",
-        "citation": "Boethius, Consolatio Philosophiae, Book II (Fortune's mutability — the wheel that raises and casts down the great) — the de casibus background, cited as a parallel for the raise-and-ruin theme rather than for Time-as-parent specifically."
-      }
-    ],
-    "references": [
-      {
-        "kind": "classical",
-        "card_id": "fortunes-wheel"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 791"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Replaced the over-specific Boethius II prose 1-2 claim (it concerns Fortune, not Time as parent/grave) with a book-level Boethius parallel for the de casibus theme, and added the closely apposite Shakespeare Sonnets 19/60 as the primary support for personified destroying Time."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Personified Time as parent and grave is a Renaissance commonplace well attested in the Sonnets, and connecting it to the play's structural arc of loss and recovery is a defensible interpretive claim with de casibus resonance; the annotation does not overreach."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Replaced the over-specific Boethius II prose 1-2 claim (it concerns Fortune, not Time as parent/grave) with a book-level Boethius parallel for the de casibus theme, and added the closely apposite Shakespeare Sonnets 19/60 as the primary support for personified destroying Time. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "pericles-919-diamonds-crown",
-    "play": "pericles",
-    "tln_start": 919,
-    "tln_end": 920,
-    "word_start": 0,
-    "word_end": 7,
-    "anchor_text": "Whom if you find, and win unto return, / You shall like diamonds sit about his crown",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "Helicanus offers the lords an image of the reward for loyalty: they will be like diamonds set around the king's crown — jewels that both serve and ornament the monarch. The metaphor works two ways: diamonds are the most precious stones, so the lords are flattered; but gems are set into a crown, meaning they are in their proper subordinate place. The figure neatly resolves the scene's political tension by converting the lords' threatened insubordination into willing ornament.",
-    "detail": "The crown-as-setting-for-jewels metaphor had heraldic and courtly currency in Elizabethan England; jewels in a crown both derive their significance from the crown and add to its splendor. Helicanus's offer is thus a deft rhetorical move: he elevates the lords (they will be diamonds, not base metal) while reasserting the hierarchical structure they have just threatened to dissolve. The rhymed couplet that closes the speech ('return'/'crown', TLN 919-920) gives the persuasion a sententious finality.",
-    "sources": [
-      {
-        "name": "Schmidt, Shakespeare-Lexicon",
-        "citation": "Schmidt, Alexander, Shakespeare-Lexicon (3rd ed. 1902), s.v. 'diamond': the stone as a figure of supreme value and brilliance."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 919"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Generalized the Schmidt citation to the plain lexical entry for 'diamond' (value/brilliance), dropping the interpretive gloss about 'comparisons of loyal subjects to jewels' that a lexicon would not contain."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The diamond-in-crown metaphor is clearly present in the text and the double valence — highest honor AND proper subordination — is a defensible reading of the rhetorical strategy; the claim that it 'neatly resolves the political tension' accurately describes what the speech accomplishes in the scene."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Generalized the Schmidt citation to the plain lexical entry for 'diamond' (value/brilliance), dropping the interpretive gloss about 'comparisons of loyal subjects to jewels' that a lexicon would not contain. [orig: source=refuted, interp=verified]"
   }
 ]

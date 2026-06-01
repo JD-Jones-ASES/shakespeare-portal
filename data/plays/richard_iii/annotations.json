@@ -149,6 +149,55 @@
     ]
   },
   {
+    "id": "richard_iii-10-barbed-steeds",
+    "play": "richard_iii",
+    "tln_start": 10,
+    "tln_end": 11,
+    "word_start": 3,
+    "word_end": 6,
+    "anchor_text": "mounting barbed steeds / To fright the souls of fearful adversaries",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Barbed steeds' are war-horses armored with 'barbs' (also 'bards') — metal plates or padded coverings fitted over a horse's chest, flanks, and head as protection. The word is a corruption of 'barded,' from Old French 'barde' (horse-armor). Charging cavalry in such barding was among the most terrifying sights of medieval warfare. Richard is remembering the era of armored knightly combat that peace has now made obsolete.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'barbed' adj. (of a horse: armed or caparisoned, a corruption of 'barded') and 'bard' n. (horse-armor, from Old French 'barde'); cf. 'barded' in Holinshed, Chronicles (1587)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 10"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the fabricated 'barb v.3' headword; corrected the etymology ('barbed' is a corruption of 'barded' from Old French 'barde') and generalized the OED cite, per web-verified OED/Brewer; gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Barbed' meaning armored (with bards/barbs protecting the horse's chest and flanks) is the standard gloss and fits the text exactly."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the fabricated 'barb v.3' headword; corrected the etymology ('barbed' is a corruption of 'barded' from Old French 'barde') and generalized the OED cite, per web-verified OED/Brewer; gloss unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "richard_iii-14-sportive-tricks",
     "play": "richard_iii",
     "tln_start": 14,
@@ -874,6 +923,113 @@
         "note": "While Richard does repeatedly swear 'by Saint Paul' and More/Holinshed do describe his hypocritical piety, the gloss conflates the oath's London-civic resonance with a separate interpretive claim about theatrical religious self-advertisement; the latter is a reasonable but secondary inference that the text alone does not securely support, and the medium confidence assigned is appropriate but the annotation stretches its evidence."
       }
     ]
+  },
+  {
+    "id": "richard_iii-156-warwicks-youngest-daughter",
+    "play": "richard_iii",
+    "tln_start": 156,
+    "tln_end": 157,
+    "word_start": 2,
+    "word_end": 8,
+    "anchor_text": "I'll marry Warwick's youngest daughter: / What though I kill'd her husband and her father",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "Lady Anne Neville is the daughter of Richard Neville, Earl of Warwick ('the Kingmaker'), the most powerful noble of the Wars of the Roses, and the widow of Edward of Westminster, the Lancastrian Prince of Wales. Richard killed both her father-in-law King Henry VI and her husband Edward in battle (or at least was present at their deaths). His plan to woo her — which he pursues over Henry VI's corpse in the very next scene — is presented here as pure calculation: he wants her lands and Neville dynastic connections, not her person.",
+    "sources": [
+      {
+        "name": "Holinshed, Chronicles (1587)",
+        "citation": "Raphael Holinshed, Chronicles (1587), on the Neville inheritance and Richard's marriage to Anne Neville."
+      },
+      {
+        "name": "Ross, Richard III (biography)",
+        "citation": "Charles Ross, Richard III (1981), on the Neville estates and Richard's marriage to Anne."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "wars-of-the-roses"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 156"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Removed the misattributed publisher ('Yale UP') from the Ross 1981 citation, leaving the work and date; gloss and references unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Anne Neville's identity, the Neville inheritance motive, Richard's presence at her husband's and father-in-law's deaths, and the factual summary of the marriage are all accurate and sourced; the note on Anne's death (tuberculosis vs poison) is appropriately hedged."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Removed the misattributed publisher ('Yale UP') from the Ross 1981 citation, leaving the work and date; gloss and references unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "richard_iii-163-run-before-horse",
+    "play": "richard_iii",
+    "tln_start": 163,
+    "tln_end": 164,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "But yet I run before my horse to market: / Clarence still breathes; Edward still lives and reigns",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'I run before my horse to market' is an Elizabethan proverb meaning to get ahead of oneself, to count one's gains before the work is done — equivalent to modern 'counting your chickens before they hatch.' Richard catches himself fantasizing about marrying Anne and reaching the crown before he has even cleared the way by killing Clarence and waiting for Edward to die. The final rhyming couplet ('count my gains') signals the end of the soliloquy, a common theatrical device for closing a scene.",
+    "sources": [
+      {
+        "name": "Tilley, Dictionary of Proverbs",
+        "citation": "M. P. Tilley, A Dictionary of the Proverbs in England in the Sixteenth and Seventeenth Centuries (1950), s.v. the proverb 'to run before one's horse to market' (to get ahead of oneself)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 163"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Web-confirmed this is a genuine 16th-c. proverb meaning 'get ahead of oneself'; dropped the wrong/fabricated Tilley number (H694) and cited Tilley at proverb/work level; gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The proverb is correctly identified via Tilley H694 and the meaning (getting ahead of oneself) is accurately applied to Richard's premature counting of gains; the rhyming-couplet scene-close convention is also correctly noted."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Web-confirmed this is a genuine 16th-c. proverb meaning 'get ahead of oneself'; dropped the wrong/fabricated Tilley number (H694) and cited Tilley at proverb/work level; gloss unchanged. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "richard_iii-168-obsequiously-lament",
@@ -4195,6 +4351,65 @@
     ]
   },
   {
+    "id": "richard_iii-844-melancholy-flood",
+    "play": "richard_iii",
+    "tln_start": 844,
+    "tln_end": 845,
+    "word_start": 1,
+    "word_end": 7,
+    "anchor_text": "pass'd, methought, the melancholy flood With that grim ferryman which poets write of",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "The 'melancholy flood' is the river Styx (or Acheron) of classical mythology — the river of the underworld that the dead must cross to reach their final home. The 'grim ferryman' is Charon, who transported souls across it for a coin. Clarence has not merely drowned in his dream: he has passed into the classical afterlife.",
+    "detail": "The phrase 'which poets write of' is Clarence's own editorial note — he knows this is the stuff of ancient poetry, not Christian theology. Yet in the same speech he will describe the encounter with the shades of Warwick and Prince Edward in language that blends classical Hades with a Christian hell ('legion of foul fiends,' 'Furies'). Shakespeare deliberately fuses the two afterlife traditions, giving Clarence's conscience a double frame: classical guilt (perjury and betrayal) and Christian damnation. Virgil's description of Charon ferrying the dead across the underworld river (Aeneid 6) was the standard classical reference, well known to educated Elizabethans through grammar-school Latin.",
+    "sources": [
+      {
+        "name": "Virgil, Aeneid",
+        "citation": "Virgil, Aeneid 6.298-316 (Charon and the crossing of the river of the dead)."
+      },
+      {
+        "name": "Ovid, Metamorphoses",
+        "citation": "Ovid, Metamorphoses 4 (Juno's descent to the underworld) and 10 (Orpheus): the Styx and the realm of the dead as Shakespeare's educated audience knew them through Golding's 1567 English Ovid."
+      }
+    ],
+    "references": [
+      {
+        "kind": "classical",
+        "card_id": "lethe"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 844"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Kept the verified Virgil Charon cite; replaced the two mis-described Ovid loci (10.72-74 / 11.601-603, which the judge showed do not support 'the underworld rivers'/'Stygian shore') with a work-level Ovid Styx/underworld cite; gloss and 'lethe' (underworld-rivers) reference unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Identifying the melancholy flood as the Styx/Acheron and the ferryman as Charon is uncontroversial; the annotation honestly notes Clarence signals his own awareness that this is classical-poetic rather than Christian doctrine ('which poets write of'), and the blending of classical and Christian frames is a genuine and well-observed feature of the speech."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Kept the verified Virgil Charon cite; replaced the two mis-described Ovid loci (10.72-74 / 11.601-603, which the judge showed do not support 'the underworld rivers'/'Stygian shore') with a work-level Ovid Styx/underworld cite; gloss and 'lethe' (underworld-rivers) reference unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "richard_iii-848-father-in-law-warwick",
     "play": "richard_iii",
     "tln_start": 848,
@@ -5673,6 +5888,69 @@
     ]
   },
   {
+    "id": "richard_iii-1207-fruit-of-rashness",
+    "play": "richard_iii",
+    "tln_start": 1207,
+    "tln_end": 1209,
+    "word_start": 0,
+    "word_end": 1,
+    "anchor_text": "This is the fruit of rashness! Mark'd you not How that the guilty kindred of the queen Look'd pale",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Richard's closing speech, delivered once Edward and the queen's allies have left the stage, is a chilling pivot: he blames Clarence's death on 'the guilty kindred of the queen' — whom he has just watched go pale — and proposes they all go comfort Edward. It is the Machiavel at his most economical: in four lines he converts his own crime into an accusation against his next targets, Rivers, Dorset, and Grey.",
+    "detail": "'The fruit of rashness' attributes the murder to Edward's supposed impulsive temperament rather than to Richard's own cold calculation — in four lines he converts his own crime into an accusation against his next targets, Rivers, Dorset, and Grey. The aside-then-exeunt structure is the Vice's signature: Richard first confides the truth to the audience in public, then leads the remaining lords offstage with a performance of concerned loyalty — 'Come, lords, will you go / To comfort Edward with our company?' — exactly paralleling his opening soliloquy's promise to 'prove a villain' while smiling.",
+    "sources": [
+      {
+        "name": "More / Holinshed",
+        "citation": "Sir Thomas More, The History of King Richard III (c. 1513-18), via Holinshed, Chronicles (1587): Richard's systematic destruction of the Woodville faction (Rivers, Grey, Vaughan) is the next stage of the usurpation More documents."
+      },
+      {
+        "name": "Spivack",
+        "citation": "Spivack, B. (1958). Shakespeare and the Allegory of Evil. Columbia UP: on the Vice's structural device of turning the audience into confidants while deceiving other characters on stage."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "the-stage-machiavel"
+      },
+      {
+        "kind": "historical",
+        "card_id": "the-vice"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1207"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "More/Holinshed on Richard's systematic destruction of the Woodville faction is genuine; Spivack 1958 on the Vice's structural device of audience-confidant is a real and applicable source."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Trimmed the over-reaching/incorrect rhetorical label ('paralipsis or occupatio,' which the interp judge correctly flagged as not what Richard does); kept the sound Machiavel/Vice reading, its verified More-Holinshed + Spivack sources, and both references."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Trimmed the over-reaching/incorrect rhetorical label ('paralipsis or occupatio,' which the interp judge correctly flagged as not what Richard does); kept the sound Machiavel/Vice reading, its verified More-Holinshed + Spivack sources, and both references. [orig: source=verified, interp=refuted]"
+  },
+  {
     "id": "richard_iii-1221-pretty-cousins",
     "play": "richard_iii",
     "tln_start": 1221,
@@ -5836,6 +6114,56 @@
         "note": "'Visard' as mask is accurate vocabulary gloss, and connecting it to the Vice figure tradition is a standard, well-supported reading for Richard III's self-presentation."
       }
     ]
+  },
+  {
+    "id": "richard_iii-1243-dugs",
+    "play": "richard_iii",
+    "tln_start": 1243,
+    "tln_end": 1243,
+    "word_start": 1,
+    "word_end": 8,
+    "anchor_text": "from my dugs he drew not this deceit",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Dugs' means a woman's breasts as milk-giving organs — used here for the act of nursing an infant. The Duchess declares that she did not pass her son Richard's capacity for deceit through her breast milk; the vice is his alone, not inherited from her.",
+    "detail": "The word's origin is obscure (the OED notes it is not recorded before the 16th century, possibly related to Swedish 'dægga' / Danish 'dægge,' 'to suckle'); it was the standard, unembellished anatomical term in the sixteenth century, not a vulgarity. The belief that a mother's character and qualities could be literally transmitted through nursing was a Renaissance medical commonplace, found in sources from Galen through Montaigne; wet-nurses were therefore chosen carefully. The Duchess's disclaimer — 'I did not nurse this evil into him' — is also an expression of shame and disavowal: she can acknowledge him as her son while denying any share in his moral character.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'dug' n.1: 'the teat or nipple of a female mammal, including a woman; the female breast as a milk-giving organ' (in common literary use 16th-17th centuries)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1243"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Web-confirmed via OED: corrected the fabricated etymon ('Old Norse dægr' = 'day') to the OED's actual note (origin obscure, perhaps Swedish 'dægga'/Danish 'dægge,' 'to suckle'); definition cite and gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Dugs' as an unembellished anatomical term for nursing breasts is accurate, and the Renaissance doctrine of moral qualities transmitted through breast milk directly supports the Duchess's disclaimer."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Web-confirmed via OED: corrected the fabricated etymon ('Old Norse dægr' = 'day') to the OED's actual note (origin obscure, perhaps Swedish 'dægga'/Danish 'dægge,' 'to suckle'); definition cite and gloss unchanged. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "richard_iii-1251-scene-of-rude-impatience",
@@ -6457,6 +6785,59 @@
     ]
   },
   {
+    "id": "richard_iii-1394-emulation-nearest",
+    "play": "richard_iii",
+    "tln_start": 1394,
+    "tln_end": 1395,
+    "word_start": 1,
+    "word_end": 5,
+    "anchor_text": "emulation who shall now be nearest Will touch us all too near",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Emulation' here means envious rivalry for power and pre-eminence — specifically the competition between the Woodvilles (the queen's family) and Gloucester for control of the young king. 'Touch us all too near' means it will hurt ordinary people deeply. The Third Citizen is warning that this elite power-struggle will not stay among the great; it will draw in and damage everyone.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'emulation' 2: 'ambitious rivalry; the endeavour to equal or surpass others, sometimes with the implication of envy or malice.'"
+      },
+      {
+        "name": "Schmidt, Shakespeare-Lexicon",
+        "citation": "Schmidt, Shakespeare-Lexicon, s.v. 'emulation': 'envious contention, jealous rivalry for precedence.'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1394"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the fabricated parenthetical first-use date ('c.1589') from the OED cite; kept the OED sense and the Schmidt gloss, both supporting the reading; gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The negative sense of 'emulation' as envious rivalry for precedence is well-attested in Shakespeare and the OED, and the application to the Woodville/Gloucester contest for control of Edward V is a direct and accurate reading of lines 1392-1395."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the fabricated parenthetical first-use date ('c.1589') from the OED cite; kept the OED sense and the Schmidt gloss, both supporting the reading; gloss unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "richard_iii-1401-clouds-cloaks-anaphora",
     "play": "richard_iii",
     "tln_start": 1401,
@@ -6557,6 +6938,56 @@
         "note": "The proverb reading is fully supported by the text: young York explicitly recalls Richard quoting it at supper to mock his growth, and the boy's counter-quip ('sweet flowers are slow and weeds make haste') shows he understood the insult; the gloss correctly identifies the 'herbs of grace' / rue resonance as secondary enrichment, not the primary meaning, so the reading does not overreach."
       }
     ]
+  },
+  {
+    "id": "richard_iii-1440-flout",
+    "play": "richard_iii",
+    "tln_start": 1440,
+    "tln_end": 1441,
+    "word_start": 3,
+    "word_end": 4,
+    "anchor_text": "given my uncle's grace a flout / To touch his growth nearer",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Flout' means a taunt or mocking jibe — young York says he could have hit back at Richard with a sharper jeer about his own growth than Richard managed against him. 'Touch his growth nearer' means 'score a more cutting hit on the subject of his growing.' The boy is proud of the comeback he thought of too late.",
+    "detail": "'Flout' (noun, a jeer; verb, to mock openly) was in common Elizabethan use, recorded by the OED from the mid-sixteenth century. Here it reinforces what Queen Elizabeth calls the boy's 'shrewdness': he is sharp-tongued and clever enough to recognise that Richard's barb deserved a barb in return, and resourceful enough to find one. The scene prepares an audience to feel the full weight of this child's obliteration.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'flout' n.1 and v.1: 'a jeer, a scoff; a flouting speech or act' (in common use from the mid-16th century)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1440"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Generalized the unsupported precise attestation date ('c.1540') to 'mid-16th century' in both the source citation and detail; definition and gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Flout' as a noun meaning a taunt or jeer is straightforwardly correct, and 'touch his growth nearer' meaning a more cutting hit on the same subject is borne out by the boy's explanation that follows (the nurse story about gnawing a crust at two hours old — a joke about Richard's alleged premature deformity); no overreach."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Generalized the unsupported precise attestation date ('c.1540') to 'mid-16th century' in both the source citation and detail; definition and gloss unchanged. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "richard_iii-1451-parlous",
@@ -7262,6 +7693,54 @@
         "note": "The dual function of the Tower — legitimate pre-coronation lodging and sinister prison — is historically accurate, and the dramatic irony reading is standard; TLN 1562 ('I do not like the Tower') plainly confirms the prince's unease."
       }
     ]
+  },
+  {
+    "id": "richard_iii-1563-julius-caesar-build",
+    "play": "richard_iii",
+    "tln_start": 1563,
+    "tln_end": 1563,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "Did Julius Caesar build that place, my lord",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Edward V asks whether Julius Caesar built the Tower. It was a genuine popular belief in Tudor England that Caesar had founded the Tower of London; more careful historians knew it was built by William the Conqueror in 1078. Buckingham confirms the legend, and the Prince develops it into a meditation on how great deeds outlive their doers in fame rather than in record. The irony is terrible: a boy pondering immortality at the site of his own imminent murder.",
+    "sources": [
+      {
+        "name": "Holinshed, Chronicles (1587)",
+        "citation": "Raphael Holinshed, Chronicles (1587), attributing the Tower's foundation to Julius Caesar, a common Tudor belief; the Norman keep was popularly called 'Caesar's Tower.'"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1563"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the fabricated Suetonius citation (Suetonius's life of Caesar says nothing of the Tower of London); kept the verified Holinshed source and the whole gloss, which already attributes the legend to the chronicles."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The Tudor popular belief that Caesar founded the Tower is well documented in the chronicles, the White Tower–'Caesar's Tower' connection is real, and the irony of a boy meditating on immortality at the site of his coming murder is a legitimate and mainstream dramatic reading; citing Suetonius alongside Holinshed is slightly loose (Suetonius does not discuss the Tower, which the annotation acknowledges), but the core interpretation is sound."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the fabricated Suetonius citation (Suetonius's life of Caesar says nothing of the Tower of London); kept the verified Holinshed source and the whole gloss, which already attributes the legend to the chronicles. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "richard_iii-1573-so-wise-so-young",
@@ -10671,6 +11150,60 @@
     ]
   },
   {
+    "id": "richard_iii-2188-supreme-seat-throne",
+    "play": "richard_iii",
+    "tln_start": 2189,
+    "tln_end": 2190,
+    "word_start": 0,
+    "word_end": 5,
+    "anchor_text": "the supreme seat, the throne majestical, The scepter'd office of your ancestors",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Buckingham's formal petition to Richard runs for twenty lines and is a showpiece of accumulation (Latin: congeries) — heaping up titles, images, and arguments in a rising series. 'Supreme seat... throne majestical... scepter'd office... state of fortune... due of birth... lineal glory' pile up to make refusing the crown seem not merely unwise but a spiritual dereliction. The form mirrors the set-piece of a formal petition, a genre audiences knew from official civic ceremony.",
+    "sources": [
+      {
+        "name": "Lanham, A Handlist of Rhetorical Terms",
+        "citation": "Richard A. Lanham, A Handlist of Rhetorical Terms (2nd ed., 1991), s.v. 'congeries' (the heaping-up of words or clauses; accumulation)."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "divine-right-of-kings"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2189"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Replaced the mismatched source (Vickers' study of Shakespeare's PROSE, cited for a verse speech) with Lanham's Handlist for the device NAME 'congeries/accumulation'; gloss and 'divine-right-of-kings' reference unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The identification of congeries (accumulation) as the figure at work in Buckingham's formal petition is accurate; the annotation correctly labels this as a performed civic ceremony without over-reading the theology."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Replaced the mismatched source (Vickers' study of Shakespeare's PROSE, cited for a verse speech) with Lanham's Handlist for the device NAME 'congeries/accumulation'; gloss and 'divine-right-of-kings' reference unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "richard_iii-2199-swallowing-gulf-oblivion",
     "play": "richard_iii",
     "tln_start": 2199,
@@ -11273,6 +11806,60 @@
         "note": "The echo of Margaret's 1.3 curse ('Die, neither mother, wife, nor England's queen') is a real structural parallel Shakespeare builds in deliberately, and identifying the repeated 'nor' as anaphora with a tolling-bell effect is defensible rhetorical description; 'thrall' as legal bondage / captivity is standard."
       }
     ]
+  },
+  {
+    "id": "richard_iii-2373-cockatrice",
+    "play": "richard_iii",
+    "tln_start": 2374,
+    "tln_end": 2375,
+    "word_start": 0,
+    "word_end": 4,
+    "anchor_text": "A cockatrice hast thou hatch'd to the world, Whose unavoided eye is murderous",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "The cockatrice (also called the basilisk) was a legendary creature hatched from a cock's egg brooded by a serpent — its gaze was said to kill instantly. The Duchess of York is calling her own womb ('the bed of death') a nest that hatched Richard, whose 'unavoided' (unavoidable, inescapable) killing gaze is destroying everyone around him. It is the most bitter of the play's many curses: his own mother identifies him as a monster she brought into the world.",
+    "detail": "The basilisk's lethal eye was a commonplace of natural history and emblem literature; Pliny the Elder (Natural History, Book 8) gives an extended Latin account of the basilisk (regulus), king of serpents, whose look and breath alike killed. (The detail that it could be slain only by its own reflection in a mirror is a later medieval-bestiary addition, not Pliny's.) The image feeds into a web of bestial epithets for Richard across the play: 'bottled spider,' 'elvish-mark'd, abortive, rooting hog,' 'lump of foul deformity.' That the Duchess herself, the one person who cannot disown him, applies the basilisk image is the play's most crushing maternal condemnation.",
+    "sources": [
+      {
+        "name": "Pliny, Natural History",
+        "citation": "Pliny the Elder, Natural History, Book 8 (the basilisk/regulus, whose gaze and breath kill)."
+      },
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'cockatrice' 1: 'a serpent, identified with the basilisk, fabulously said to kill by its mere glance.'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2374"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Corrected the detail: moved the 'mirror' detail out of Pliny (it is a medieval-bestiary addition, as the judge noted) and generalized the Pliny locus to Book 8; OED cite and gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The basilisk / cockatrice whose gaze kills is a well-attested classical and early-modern commonplace; attributing it to the Duchess of York as the play's 'most crushing maternal condemnation' is supported by the line itself ('O my accursed womb, the bed of death') and is a mainstream critical reading, not an overreach."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Corrected the detail: moved the 'mirror' detail out of Pliny (it is a medieval-bestiary addition, as the judge noted) and generalized the Pliny locus to Book 8; OED cite and gloss unchanged. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "richard_iii-2378-inclusive-verge",
@@ -12776,6 +13363,55 @@
     ]
   },
   {
+    "id": "richard_iii-2625-right-for-right",
+    "play": "richard_iii",
+    "tln_start": 2625,
+    "tln_end": 2626,
+    "word_start": 5,
+    "word_end": 7,
+    "anchor_text": "right for right Hath dimm'd your infant morn to aged night",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Margaret, stepping forward to answer Queen Elizabeth's prayer, proclaims that retributive justice — 'right for right,' wrong answered with wrong — has killed the princes. Her phrasing is from the Elizabethan lex talionis tradition: each murder generates an answering murder. 'Infant morn to aged night' compresses a lifetime into a single image: the boys had morning but no day, rushing straight from dawn to the darkness of old age.",
+    "sources": [
+      {
+        "name": "Schmidt, Shakespeare-Lexicon",
+        "citation": "Schmidt, Shakespeare-Lexicon, s.v. 'right': 'justice, equity; what is just or due.'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2625"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Replaced the irrelevant Schmidt sub-gloss ('used as a title in addressing persons of rank') with the Schmidt sense ('justice, equity') that actually supports the 'right for right'/retributive-justice reading; gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The lex talionis reading is sound; 'infant morn to aged night' as compressed lifetime is a standard rhetorical trope of Shakespeare's histories and the reading is not overstated."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Replaced the irrelevant Schmidt sub-gloss ('used as a title in addressing persons of rank') with the Schmidt sense ('justice, equity') that actually supports the 'right for right'/retributive-justice reading; gloss unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "richard_iii-2629-plantagenet-quit",
     "play": "richard_iii",
     "tln_start": 2630,
@@ -12834,6 +13470,55 @@
     ]
   },
   {
+    "id": "richard_iii-2636-dead-life-blind-sight",
+    "play": "richard_iii",
+    "tln_start": 2636,
+    "tln_end": 2636,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "Dead life, blind sight, poor mortal living ghost",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "The Duchess of York addresses herself in a string of oxymorons — contradictory phrases joined together. 'Dead life' (alive but as good as dead), 'blind sight' (sees but wishes she were blind), 'living ghost' (still breathing, but like one already departed). The rhetorical device (oxymoron) mirrors the unbearable contradictions of outliving your own children and your own sorrow.",
+    "sources": [
+      {
+        "name": "Lanham, A Handlist of Rhetorical Terms",
+        "citation": "Richard A. Lanham, A Handlist of Rhetorical Terms (2nd ed., 1991), s.v. 'oxymoron' (a condensed paradox yoking contradictory terms). Cf. Onions, A Shakespeare Glossary, s.v. 'mortal' (adj.: 'deadly')."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2636"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Replaced the invented Schmidt 'oxymoron' entry (Schmidt glosses Shakespeare's words, not Greek device names) with Lanham's Handlist for the device name; kept the Onions 'mortal' gloss; gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The oxymoron identification is accurate and the interpretation that contradictory phrases mirror the experience of outliving one's grief is the mainstream reading."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Replaced the invented Schmidt 'oxymoron' entry (Schmidt glosses Shakespeare's words, not Greek device names) with Lanham's Handlist for the device name; kept the Onions 'mortal' gloss; gloss unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "richard_iii-2645-seniory",
     "play": "richard_iii",
     "tln_start": 2646,
@@ -12880,6 +13565,55 @@
         "note": "The glossing of 'seniory' as legal-estate precedence of grief is apt; the OED citation is correctly applied and the annotation does not overreach."
       }
     ]
+  },
+  {
+    "id": "richard_iii-2650-edward-richard-litany",
+    "play": "richard_iii",
+    "tln_start": 2650,
+    "tln_end": 2651,
+    "word_start": 0,
+    "word_end": 8,
+    "anchor_text": "I had an Edward, till a Richard kill'd him; I had a Henry, till a Richard kill'd him",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Margaret recites her losses in a relentless anaphoric litany — 'I had... till a Richard kill'd him' repeated four times. Anaphora (the same phrase at the start of successive lines) creates a tolling, incantatory rhythm that turns her speech into a formal curse. The repetition of 'Richard' as the single cause of every loss hammers in the identifying accusation: the whole play's evil has one name.",
+    "sources": [
+      {
+        "name": "Lanham, A Handlist of Rhetorical Terms",
+        "citation": "Richard A. Lanham, A Handlist of Rhetorical Terms (2nd ed., 1991), s.v. 'anaphora' (repetition of the same word at the start of successive clauses)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2650"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Replaced the invented Onions 'anaphora' entry (Onions is a word-glossary, not a rhetoric handbook) with Lanham's Handlist for the device name; gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Anaphora identification is correct; the tolling, incantatory effect of the repeated 'I had... till a Richard kill'd him' pattern is the standard reading of this passage."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Replaced the invented Onions 'anaphora' entry (Onions is a word-glossary, not a rhetoric handbook) with Lanham's Handlist for the device name; gloss unchanged. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "richard_iii-2655-rutland",
@@ -12934,6 +13668,69 @@
         "note": "The core historical identification of Rutland and Wakefield (1460) is correct, but the detail annotation's claim that Margaret 'used [the handkerchief] to mock the Duke of York at his death' and that 'Queen Elizabeth at TLN 2891-2892 below refers to it as the model for the monstrous courtship gift' projects a thematic link that is defensible but runs ahead of what the Duchess's line itself says — the Duchess says only 'thou holp'st to kill him,' not anything about the handker"
       }
     ]
+  },
+  {
+    "id": "richard_iii-2657-kennel-of-thy-womb",
+    "play": "richard_iii",
+    "tln_start": 2657,
+    "tln_end": 2658,
+    "word_start": 0,
+    "word_end": 8,
+    "anchor_text": "From forth the kennel of thy womb hath crept A hell-hound that doth hunt us all to death",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Margaret calls Richard a hell-hound — a hunting dog from hell — born from a 'kennel' (a dog-kennel, but the word was also slang for a foul sewer or gutter-channel). The image sustains the play's relentless animal imagery for Richard: he is hunted beast and hunter at once. 'That had his teeth before his eyes' on the next line refers to the legend that Richard was born with teeth already through — a Tudor sign of monstrous, precocious evil.",
+    "detail": "The belief that Richard was born feet-first after a long, terrible labour, with teeth already through, is reported by Tudor writers hostile to him — the 'teeth' detail going back to John Rous, and the 'feet first' and deformity material developed by More and taken up by Holinshed. In 3 Henry VI 5.6 Richard himself recounts the omen. For an Elizabethan audience, being born with teeth was a prodigy — a sign of unnatural appetite from the womb. The 'kennel' sewer-meaning compounds the insult: Richard emerged from filth.",
+    "sources": [
+      {
+        "name": "More",
+        "citation": "Sir Thomas More, The History of King Richard III (c. 1513-18; printed 1557), on Richard's deformities and monstrous birth (the 'born with teeth' detail derives from John Rous, c. 1490)."
+      },
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'kennel' n.2: 'a gutter or surface-drain of a street; the channel of a road.'"
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "mores-history-of-richard-iii"
+      },
+      {
+        "kind": "historical",
+        "card_id": "the-white-boar"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2657"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Corrected the misattribution flagged by the judge: the 'born with teeth' detail originates with Rous, not More (More supplies feet-first/deformity); attributed each strand correctly; OED cite, references, and gloss otherwise unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The hell-hound/kennel imagery, the sewer sense of 'kennel,' and the born-with-teeth prodigy from More are all well-sourced and accurately applied to this passage."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Corrected the misattribution flagged by the judge: the 'born with teeth' detail originates with Rous, not More (More supplies feet-first/deformity); attributed each strand correctly; OED cite, references, and gloss otherwise unchanged. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "richard_iii-2661-defacer-handiwork",
@@ -13030,6 +13827,55 @@
         "note": "'Intelligencer' = spy and 'factor' = commercial agent both correctly glossed; the devil's-merchant reading of Richard buying souls is what the text explicitly says."
       }
     ]
+  },
+  {
+    "id": "richard_iii-2685-earth-gapes-hell-burns",
+    "play": "richard_iii",
+    "tln_start": 2685,
+    "tln_end": 2685,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "Earth gapes, hell burns, fiends roar, saints pray",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "A line of four parallel clauses, each subject-verb, each a cosmic element reacting to Richard. The device (asyndeton — omitting connecting words) creates a drumbeat urgency. Earth, hell, fiends, and saints are all oriented toward Richard: the whole created and spiritual order is straining to be rid of him. It is Margaret's most theatrical moment as prophet-chorus.",
+    "sources": [
+      {
+        "name": "Lanham, A Handlist of Rhetorical Terms",
+        "citation": "Richard A. Lanham, A Handlist of Rhetorical Terms (2nd ed., 1991), s.v. 'asyndeton' (omission of conjunctions between clauses for expressive speed)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2685"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Replaced the invented Onions 'asyndeton' entry (Onions is a word-glossary, not a rhetoric handbook) with Lanham's Handlist for the device name; gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Asyndeton identification is correct and the cosmic-alignment reading of the four parallel clauses is the mainstream interpretation of this passage."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Replaced the invented Onions 'asyndeton' entry (Onions is a word-glossary, not a rhetoric handbook) with Lanham's Handlist for the device name; gloss unchanged. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "richard_iii-2691-bottled-spider",
@@ -14291,6 +15137,55 @@
         "note": "The George/Garter/crown trio and Elizabeth's three-part rebuttal are correctly described; the Order of the Garter founded c. 1348 by Edward III and its motto's irony against Richard are sound."
       }
     ]
+  },
+  {
+    "id": "richard_iii-2992-by-the-world",
+    "play": "richard_iii",
+    "tln_start": 2992,
+    "tln_end": 2996,
+    "word_start": 0,
+    "word_end": 2,
+    "anchor_text": "Now, by the world,-- 'Tis full of thy foul wrongs. My father's death,-- Thy life hath that dishonour'd. Then, by myself,--",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Richard attempts a rapid series of oaths — by the world, by his father's death, by himself — and Elizabeth cuts off each one with a two- or three-word dismissal that proves it already disqualified. The rapid-fire interruptions (stichomythia — one-for-one line trading) turn Richard's habitual verbal dominance against him. Every object he reaches for to swear by is already defiled by his own acts.",
+    "sources": [
+      {
+        "name": "Lanham, A Handlist of Rhetorical Terms",
+        "citation": "Richard A. Lanham, A Handlist of Rhetorical Terms (2nd ed., 1991), s.v. 'stichomythia' (rapid alternating single-line dialogue of cut-and-thrust, from Greek tragic drama)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2992"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Replaced the invented Onions 'stichomythia' entry (Onions is a word-glossary, not a rhetoric handbook) with Lanham's Handlist for the device name; gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The stichomythia identification is correct and the reading that each of Richard's oath-objects is already defiled by his acts is the plain logic of the exchange."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Replaced the invented Onions 'stichomythia' entry (Onions is a word-glossary, not a rhetoric handbook) with Lanham's Handlist for the device name; gloss unchanged. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "richard_iii-3000-oath-by-him",
@@ -15874,6 +16769,61 @@
     ]
   },
   {
+    "id": "richard_iii-3239-true-hope-swift",
+    "play": "richard_iii",
+    "tln_start": 3239,
+    "tln_end": 3240,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "True hope is swift, and flies with swallow's wings; Kings it makes gods, and meaner creatures kings.",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Richmond closes the scene with a rhyming couplet built on chiasmus: 'kings...gods...meaner creatures...kings' crosses two ascending terms so the sentence reverses on itself. The line means that true hope can raise kings to godlike status and lift the lowly to kingship — an allusion both to Richmond's own rise from exile and to the theological framing of his cause as providentially sanctioned. The compressed symmetry signals the scene's formal close and gives the marching army a memorable rallying slogan.",
+    "detail": "The figure ('Kings it makes gods, and meaner creatures kings') is a textbook Renaissance sententia — a pithy, reversible maxim that closes an argument with the authority of a proverb (more precisely it is antimetabole, the crossed repetition of 'kings'). The 'swallow' simile is also pointed: swallows were proverbially associated with summer and return from a long absence, fitting Richmond's emergence from years of exile in Brittany and France. The couplet's theology echoes the Tudor-myth framing of the whole campaign: Richmond's 'true hope' is not mere military optimism but providential confidence ('In God's name,' two lines earlier), the trust that God has endorsed the Lancaster-York union he will enact.",
+    "sources": [
+      {
+        "name": "Lanham, A Handlist of Rhetorical Terms",
+        "citation": "Richard A. Lanham, A Handlist of Rhetorical Terms (2nd ed., 1991), s.v. 'antimetabole' and 'sententia' (the crossed repetition and the pithy closing maxim of Richmond's couplet)."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "richmond-and-the-tudor-myth"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 3239"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Replaced the fabricated thematic claim attributed to Schmidt's lexicon with Lanham's Handlist for the device names; refined 'chiasmus' to 'antimetabole/sententia' (per the interp judge's note) in the detail; kept the 'richmond-and-the-tudor-myth' reference and gloss."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The chiasmus label is slightly loose (the figure is more precisely antimetabole on 'kings'), but the identification of a closing sententia with crossed ascending terms is mainstream Renaissance rhetorical analysis; the theological framing of 'true hope' as providential confidence is supported by 'In God's name' two lines earlier and the Tudor-myth framing of the whole play, and the swallow/exile-return gloss is a reasonable embellishment rather than a distorting overreach."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Replaced the fabricated thematic claim attributed to Schmidt's lexicon with Lanham's Handlist for the device names; refined 'chiasmus' to 'antimetabole/sententia' (per the interp judge's note) in the detail; kept the 'richmond-and-the-tudor-myth' reference and gloss. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "richard_iii-3241-bosworth-field",
     "play": "richard_iii",
     "tln_start": 3241,
@@ -16923,6 +17873,54 @@
     ]
   },
   {
+    "id": "richard_iii-3427-lights-burn-blue",
+    "play": "richard_iii",
+    "tln_start": 3427,
+    "tln_end": 3427,
+    "word_start": 0,
+    "word_end": 3,
+    "anchor_text": "The lights burn blue",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "Blue-burning candles or lamps were an Elizabethan sign that ghosts or evil spirits were present — the superstition held that the cold of the supernatural world chilled the flame and turned it blue. Richard sees this as proof that his dream was a supernatural visitation, not mere imagination.",
+    "sources": [
+      {
+        "name": "Reginald Scot, The Discoverie of Witchcraft (1584)",
+        "citation": "Reginald Scot, The Discoverie of Witchcraft (1584), on spirits and apparitions; the belief that a candle burning blue signals the presence of a ghost or spirit is widely attested in 16th-17th-c. English sources."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 3427"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the unverifiable precise locus ('Book 7, on candle-flames') and generalized the Scot citation to the work plus the broadly-attested superstition; gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The blue-candle superstition for supernatural presence is a genuine Elizabethan folk belief; Scot's Discoverie is a legitimate citation source."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the unverifiable precise locus ('Book 7, on candle-flames') and generalized the Scot citation to the work plus the broadly-attested superstition; gloss unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "richard_iii-3430-richard-loves-richard",
     "play": "richard_iii",
     "tln_start": 3430,
@@ -16983,6 +17981,55 @@
         "note": "The self-division analysis is mainstream and does not overreach; the Romans 7:15 echo is flagged as 'a plausible echo' (appropriately hedged), and the Vice-tradition context is standard scholarship."
       }
     ]
+  },
+  {
+    "id": "richard_iii-3443-thousand-several-tongues",
+    "play": "richard_iii",
+    "tln_start": 3440,
+    "tln_end": 3441,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "My conscience hath a thousand several tongues, / And every tongue brings in a several tale",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Richard personifies conscience as a court of law with a thousand prosecutors, each reciting a separate count against him. 'Several' means separate or distinct. The cumulative effect — 'all us'd in each degree, / Throng to the bar, crying all Guilty! guilty!' — stages his interior as a trial he cannot escape. The legal metaphor (bar, tale, degree) is exact: the bar is the railing before the judge, the tale is the indictment count.",
+    "detail": "The image of conscience as an interior tribunal was a commonplace of classical, patristic, and Elizabethan moral writing (Cicero, Seneca, and the homiletic tradition all figure conscience as an inner witness or judge). Shakespeare gives it technical legal vocabulary here — 'bar' (the railing before the judge), 'tale' (an indictment count), 'several' (separate), 'degree' — to make Richard's mind a courtroom. This is fitting: a man who stage-managed councils, trials, and show-executions throughout the play is now subjected to the very judicial machinery he manipulated.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'bar' n.1 (the barrier at which prisoners are arraigned) and 'several' adj. (separate, distinct): the legal vocabulary Richard uses to figure conscience as a court."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 3440"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Web-checked De Officiis 3.44: it concerns a judge's conscience as inner witness, not 'conscience punishing the wrongdoer when law cannot reach him,' so I removed that specific Cicero locus, generalized the conscience-as-tribunal point to the commonplace tradition, and re-sourced the note to OED on the legal terms; gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The courtroom metaphor is accurately unpacked and the patristic/classical parallels for conscience-as-tribunal are conventional; the irony of a judicial manipulator being subjected to inner trial is a defensible reading grounded in the preceding scenes."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Web-checked De Officiis 3.44: it concerns a judge's conscience as inner witness, not 'conscience punishing the wrongdoer when law cannot reach him,' so I removed that specific Cicero locus, generalized the conscience-as-tribunal point to the commonplace tradition, and re-sourced the note to OED on the legal terms; gloss unchanged. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "richard_iii-3499-foil-stone",
@@ -17179,6 +18226,65 @@
         "note": "The rhyme's historical authenticity (Holinshed records it), the pet-name glosses for 'Jockey' and 'Dickon,' and 'bought and sold' as betrayal are all accurate; the Troilus parallel is a legitimate corroborating usage."
       }
     ]
+  },
+  {
+    "id": "richard_iii-3561-conscience-word-cowards",
+    "play": "richard_iii",
+    "tln_start": 3561,
+    "tln_end": 3562,
+    "word_start": 0,
+    "word_end": 8,
+    "anchor_text": "Conscience is but a word that cowards use, / Devis'd at first to keep the strong in awe",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "Richard's pre-battle speech inverts his own terrified soliloquy of forty lines earlier, where his conscience was a thousand-tongued prosecutor. Now, rallying his soldiers, he dismisses conscience as a political invention used to keep the powerful from using their strength freely. This is the Machiavellian position: 'natural law' and moral scruple are tools the weak use to restrain the strong.",
+    "detail": "By 1590 the idea that morality is a restraint the weak impose on the strong was standard in the Elizabethan stage-Machiavel repertoire — Marlowe's Tamburlaine and Faustus, and the Vice-tradition villains, all articulate versions of it. The particular irony here is that we have just watched Richard's conscience destroy him in soliloquy; he is now publicly denying what he privately knows. It is perhaps the play's starkest example of his ability to put on an act even after his inner performance has collapsed.",
+    "sources": [
+      {
+        "name": "Niccolo Machiavelli",
+        "citation": "Niccolo Machiavelli, The Prince (Il Principe, written 1513, printed 1532), the conceptual source for the Elizabethan stage-Machiavel's dismissal of conventional morality as weakness."
+      },
+      {
+        "name": "Spivack",
+        "citation": "Spivack, B. (1958). Shakespeare and the Allegory of Evil. Columbia UP (the Vice-Machiavel tradition)."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "the-stage-machiavel"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 3561"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Machiavelli's The Prince (written 1513, printed 1532) is a real work and is the standard conceptual source for the Elizabethan stage-Machiavel's dismissal of morality; Spivack (1958, Columbia UP) is a verified real publication on the Vice-Machiavel tradition."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Trimmed the over-reaching Plato/Thrasymachus attribution flagged by the interp judge (an anachronistic modern parallel, not something Shakespeare's audience would connect); kept the sound Machiavel reading, both verified sources, and the 'the-stage-machiavel' reference."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Trimmed the over-reaching Plato/Thrasymachus attribution flagged by the interp judge (an anachronistic modern parallel, not something Shakespeare's audience would connect); kept the sound Machiavel reading, both verified sources, and the 'the-stage-machiavel' reference. [orig: source=verified, interp=refuted]"
   },
   {
     "id": "richard_iii-3564-pell-mell",
@@ -17595,6 +18701,65 @@
     ]
   },
   {
+    "id": "richard_iii-3614-six-richmonds",
+    "play": "richard_iii",
+    "tln_start": 3614,
+    "tln_end": 3615,
+    "word_start": 4,
+    "word_end": 7,
+    "anchor_text": "six Richmonds in the field: Five have I slain to-day instead of him",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "Richard says he has already killed five men disguised as Richmond — knights dressed in their leader's armor and surcoat so Richard could not single him out. The detail is Shakespeare's dramatic invention (echoing the decoys 'marching in the King's coats' at Shrewsbury in Henry IV Part 1, 5.3); it is not in the chronicles. It dramatizes Richard's all-or-nothing plan to end the battle by killing the rival claimant in person, and his furious frustration at being thwarted.",
+    "detail": "Shakespeare uses the multiplied 'Richmonds' to show that Richard's strategy is single-minded rather than foolish: he is trying to cut straight through to Richmond, which requires knowing which figure to ride at, and the decoys make that impossible. The moment is both grimly comic (five dead men who were not the target) and tragic (the plan was sound but could not be executed). Historically, Holinshed and Polydore Vergil record Richard's desperate personal charge toward Richmond at Bosworth, but neither reports a decoy or disguise stratagem — Shakespeare added it, most likely borrowing the device from the Earl of Douglas hunting down the King's doubles at Shrewsbury.",
+    "sources": [
+      {
+        "name": "Holinshed, Chronicles (1587)",
+        "citation": "Raphael Holinshed, Chronicles (1587), on the Battle of Bosworth (1485) and Richard's personal charge toward Richmond (the decoy/disguise is Shakespeare's addition, not in Holinshed)."
+      },
+      {
+        "name": "Polydore Vergil, Anglica Historia",
+        "citation": "Polydore Vergil, Anglica Historia (1534), on Bosworth and Richard's last charge; like Holinshed it records no decoy stratagem."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "the-battle-of-bosworth-field"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 3614"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Web-confirmed the source judge: the Bosworth decoy is Shakespeare's invention (drawn from the Shrewsbury decoy), NOT in Holinshed/Vergil. Rewrote summary and detail to say so honestly, keeping both chronicles at work level only for the battle/charge and retaining the 'the-battle-of-bosworth-field' reference."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The decoy-armor stratagem is confirmed in both Holinshed and Vergil; the annotation correctly presents the number 'five' as Shakespeare's dramatic figure (Richard's own claim in the play) rather than a historical assertion, so no anachronism or overreach is introduced."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Web-confirmed the source judge: the Bosworth decoy is Shakespeare's invention (drawn from the Shrewsbury decoy), NOT in Holinshed/Vergil. Rewrote summary and detail to say so honestly, keeping both chronicles at work level only for the battle/charge and retaining the 'the-battle-of-bosworth-field' reference. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "richard_iii-3618-bloody-dog",
     "play": "richard_iii",
     "tln_start": 3618,
@@ -17885,1170 +19050,5 @@
         "note": "Both lexical glosses are correct: OED documents 'abate' in the sense of blunting or quelling and 'reduce' in the Latin-rooted sense of 'bring back / restore,' and both usages are standard in early-modern English."
       }
     ]
-  },
-  {
-    "id": "richard_iii-10-barbed-steeds",
-    "play": "richard_iii",
-    "tln_start": 10,
-    "tln_end": 11,
-    "word_start": 3,
-    "word_end": 6,
-    "anchor_text": "mounting barbed steeds / To fright the souls of fearful adversaries",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "'Barbed steeds' are war-horses armored with 'barbs' (also 'bards') — metal plates or padded coverings fitted over a horse's chest, flanks, and head as protection. The word is a corruption of 'barded,' from Old French 'barde' (horse-armor). Charging cavalry in such barding was among the most terrifying sights of medieval warfare. Richard is remembering the era of armored knightly combat that peace has now made obsolete.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'barbed' adj. (of a horse: armed or caparisoned, a corruption of 'barded') and 'bard' n. (horse-armor, from Old French 'barde'); cf. 'barded' in Holinshed, Chronicles (1587)."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 10"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Dropped the fabricated 'barb v.3' headword; corrected the etymology ('barbed' is a corruption of 'barded' from Old French 'barde') and generalized the OED cite, per web-verified OED/Brewer; gloss unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "'Barbed' meaning armored (with bards/barbs protecting the horse's chest and flanks) is the standard gloss and fits the text exactly."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Dropped the fabricated 'barb v.3' headword; corrected the etymology ('barbed' is a corruption of 'barded' from Old French 'barde') and generalized the OED cite, per web-verified OED/Brewer; gloss unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "richard_iii-1207-fruit-of-rashness",
-    "play": "richard_iii",
-    "tln_start": 1207,
-    "tln_end": 1209,
-    "word_start": 0,
-    "word_end": 1,
-    "anchor_text": "This is the fruit of rashness! Mark'd you not How that the guilty kindred of the queen Look'd pale",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "Richard's closing speech, delivered once Edward and the queen's allies have left the stage, is a chilling pivot: he blames Clarence's death on 'the guilty kindred of the queen' — whom he has just watched go pale — and proposes they all go comfort Edward. It is the Machiavel at his most economical: in four lines he converts his own crime into an accusation against his next targets, Rivers, Dorset, and Grey.",
-    "detail": "'The fruit of rashness' attributes the murder to Edward's supposed impulsive temperament rather than to Richard's own cold calculation — in four lines he converts his own crime into an accusation against his next targets, Rivers, Dorset, and Grey. The aside-then-exeunt structure is the Vice's signature: Richard first confides the truth to the audience in public, then leads the remaining lords offstage with a performance of concerned loyalty — 'Come, lords, will you go / To comfort Edward with our company?' — exactly paralleling his opening soliloquy's promise to 'prove a villain' while smiling.",
-    "sources": [
-      {
-        "name": "More / Holinshed",
-        "citation": "Sir Thomas More, The History of King Richard III (c. 1513-18), via Holinshed, Chronicles (1587): Richard's systematic destruction of the Woodville faction (Rivers, Grey, Vaughan) is the next stage of the usurpation More documents."
-      },
-      {
-        "name": "Spivack",
-        "citation": "Spivack, B. (1958). Shakespeare and the Allegory of Evil. Columbia UP: on the Vice's structural device of turning the audience into confidants while deceiving other characters on stage."
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "the-stage-machiavel"
-      },
-      {
-        "kind": "historical",
-        "card_id": "the-vice"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1207"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "More/Holinshed on Richard's systematic destruction of the Woodville faction is genuine; Spivack 1958 on the Vice's structural device of audience-confidant is a real and applicable source."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Trimmed the over-reaching/incorrect rhetorical label ('paralipsis or occupatio,' which the interp judge correctly flagged as not what Richard does); kept the sound Machiavel/Vice reading, its verified More-Holinshed + Spivack sources, and both references."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Trimmed the over-reaching/incorrect rhetorical label ('paralipsis or occupatio,' which the interp judge correctly flagged as not what Richard does); kept the sound Machiavel/Vice reading, its verified More-Holinshed + Spivack sources, and both references. [orig: source=verified, interp=refuted]"
-  },
-  {
-    "id": "richard_iii-1243-dugs",
-    "play": "richard_iii",
-    "tln_start": 1243,
-    "tln_end": 1243,
-    "word_start": 1,
-    "word_end": 8,
-    "anchor_text": "from my dugs he drew not this deceit",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "'Dugs' means a woman's breasts as milk-giving organs — used here for the act of nursing an infant. The Duchess declares that she did not pass her son Richard's capacity for deceit through her breast milk; the vice is his alone, not inherited from her.",
-    "detail": "The word's origin is obscure (the OED notes it is not recorded before the 16th century, possibly related to Swedish 'dægga' / Danish 'dægge,' 'to suckle'); it was the standard, unembellished anatomical term in the sixteenth century, not a vulgarity. The belief that a mother's character and qualities could be literally transmitted through nursing was a Renaissance medical commonplace, found in sources from Galen through Montaigne; wet-nurses were therefore chosen carefully. The Duchess's disclaimer — 'I did not nurse this evil into him' — is also an expression of shame and disavowal: she can acknowledge him as her son while denying any share in his moral character.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'dug' n.1: 'the teat or nipple of a female mammal, including a woman; the female breast as a milk-giving organ' (in common literary use 16th-17th centuries)."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1243"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Web-confirmed via OED: corrected the fabricated etymon ('Old Norse dægr' = 'day') to the OED's actual note (origin obscure, perhaps Swedish 'dægga'/Danish 'dægge,' 'to suckle'); definition cite and gloss unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "'Dugs' as an unembellished anatomical term for nursing breasts is accurate, and the Renaissance doctrine of moral qualities transmitted through breast milk directly supports the Duchess's disclaimer."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Web-confirmed via OED: corrected the fabricated etymon ('Old Norse dægr' = 'day') to the OED's actual note (origin obscure, perhaps Swedish 'dægga'/Danish 'dægge,' 'to suckle'); definition cite and gloss unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "richard_iii-1394-emulation-nearest",
-    "play": "richard_iii",
-    "tln_start": 1394,
-    "tln_end": 1395,
-    "word_start": 1,
-    "word_end": 5,
-    "anchor_text": "emulation who shall now be nearest Will touch us all too near",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "'Emulation' here means envious rivalry for power and pre-eminence — specifically the competition between the Woodvilles (the queen's family) and Gloucester for control of the young king. 'Touch us all too near' means it will hurt ordinary people deeply. The Third Citizen is warning that this elite power-struggle will not stay among the great; it will draw in and damage everyone.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'emulation' 2: 'ambitious rivalry; the endeavour to equal or surpass others, sometimes with the implication of envy or malice.'"
-      },
-      {
-        "name": "Schmidt, Shakespeare-Lexicon",
-        "citation": "Schmidt, Shakespeare-Lexicon, s.v. 'emulation': 'envious contention, jealous rivalry for precedence.'"
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1394"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Dropped the fabricated parenthetical first-use date ('c.1589') from the OED cite; kept the OED sense and the Schmidt gloss, both supporting the reading; gloss unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The negative sense of 'emulation' as envious rivalry for precedence is well-attested in Shakespeare and the OED, and the application to the Woodville/Gloucester contest for control of Edward V is a direct and accurate reading of lines 1392-1395."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Dropped the fabricated parenthetical first-use date ('c.1589') from the OED cite; kept the OED sense and the Schmidt gloss, both supporting the reading; gloss unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "richard_iii-1440-flout",
-    "play": "richard_iii",
-    "tln_start": 1440,
-    "tln_end": 1441,
-    "word_start": 3,
-    "word_end": 4,
-    "anchor_text": "given my uncle's grace a flout / To touch his growth nearer",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "'Flout' means a taunt or mocking jibe — young York says he could have hit back at Richard with a sharper jeer about his own growth than Richard managed against him. 'Touch his growth nearer' means 'score a more cutting hit on the subject of his growing.' The boy is proud of the comeback he thought of too late.",
-    "detail": "'Flout' (noun, a jeer; verb, to mock openly) was in common Elizabethan use, recorded by the OED from the mid-sixteenth century. Here it reinforces what Queen Elizabeth calls the boy's 'shrewdness': he is sharp-tongued and clever enough to recognise that Richard's barb deserved a barb in return, and resourceful enough to find one. The scene prepares an audience to feel the full weight of this child's obliteration.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'flout' n.1 and v.1: 'a jeer, a scoff; a flouting speech or act' (in common use from the mid-16th century)."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1440"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Generalized the unsupported precise attestation date ('c.1540') to 'mid-16th century' in both the source citation and detail; definition and gloss unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "'Flout' as a noun meaning a taunt or jeer is straightforwardly correct, and 'touch his growth nearer' meaning a more cutting hit on the same subject is borne out by the boy's explanation that follows (the nurse story about gnawing a crust at two hours old — a joke about Richard's alleged premature deformity); no overreach."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Generalized the unsupported precise attestation date ('c.1540') to 'mid-16th century' in both the source citation and detail; definition and gloss unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "richard_iii-156-warwicks-youngest-daughter",
-    "play": "richard_iii",
-    "tln_start": 156,
-    "tln_end": 157,
-    "word_start": 2,
-    "word_end": 8,
-    "anchor_text": "I'll marry Warwick's youngest daughter: / What though I kill'd her husband and her father",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "Lady Anne Neville is the daughter of Richard Neville, Earl of Warwick ('the Kingmaker'), the most powerful noble of the Wars of the Roses, and the widow of Edward of Westminster, the Lancastrian Prince of Wales. Richard killed both her father-in-law King Henry VI and her husband Edward in battle (or at least was present at their deaths). His plan to woo her — which he pursues over Henry VI's corpse in the very next scene — is presented here as pure calculation: he wants her lands and Neville dynastic connections, not her person.",
-    "sources": [
-      {
-        "name": "Holinshed, Chronicles (1587)",
-        "citation": "Raphael Holinshed, Chronicles (1587), on the Neville inheritance and Richard's marriage to Anne Neville."
-      },
-      {
-        "name": "Ross, Richard III (biography)",
-        "citation": "Charles Ross, Richard III (1981), on the Neville estates and Richard's marriage to Anne."
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "wars-of-the-roses"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 156"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Removed the misattributed publisher ('Yale UP') from the Ross 1981 citation, leaving the work and date; gloss and references unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Anne Neville's identity, the Neville inheritance motive, Richard's presence at her husband's and father-in-law's deaths, and the factual summary of the marriage are all accurate and sourced; the note on Anne's death (tuberculosis vs poison) is appropriately hedged."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Removed the misattributed publisher ('Yale UP') from the Ross 1981 citation, leaving the work and date; gloss and references unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "richard_iii-1563-julius-caesar-build",
-    "play": "richard_iii",
-    "tln_start": 1563,
-    "tln_end": 1563,
-    "word_start": 0,
-    "word_end": 7,
-    "anchor_text": "Did Julius Caesar build that place, my lord",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "Edward V asks whether Julius Caesar built the Tower. It was a genuine popular belief in Tudor England that Caesar had founded the Tower of London; more careful historians knew it was built by William the Conqueror in 1078. Buckingham confirms the legend, and the Prince develops it into a meditation on how great deeds outlive their doers in fame rather than in record. The irony is terrible: a boy pondering immortality at the site of his own imminent murder.",
-    "sources": [
-      {
-        "name": "Holinshed, Chronicles (1587)",
-        "citation": "Raphael Holinshed, Chronicles (1587), attributing the Tower's foundation to Julius Caesar, a common Tudor belief; the Norman keep was popularly called 'Caesar's Tower.'"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1563"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Dropped the fabricated Suetonius citation (Suetonius's life of Caesar says nothing of the Tower of London); kept the verified Holinshed source and the whole gloss, which already attributes the legend to the chronicles."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The Tudor popular belief that Caesar founded the Tower is well documented in the chronicles, the White Tower–'Caesar's Tower' connection is real, and the irony of a boy meditating on immortality at the site of his coming murder is a legitimate and mainstream dramatic reading; citing Suetonius alongside Holinshed is slightly loose (Suetonius does not discuss the Tower, which the annotation acknowledges), but the core interpretation is sound."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Dropped the fabricated Suetonius citation (Suetonius's life of Caesar says nothing of the Tower of London); kept the verified Holinshed source and the whole gloss, which already attributes the legend to the chronicles. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "richard_iii-163-run-before-horse",
-    "play": "richard_iii",
-    "tln_start": 163,
-    "tln_end": 164,
-    "word_start": 0,
-    "word_end": 7,
-    "anchor_text": "But yet I run before my horse to market: / Clarence still breathes; Edward still lives and reigns",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "'I run before my horse to market' is an Elizabethan proverb meaning to get ahead of oneself, to count one's gains before the work is done — equivalent to modern 'counting your chickens before they hatch.' Richard catches himself fantasizing about marrying Anne and reaching the crown before he has even cleared the way by killing Clarence and waiting for Edward to die. The final rhyming couplet ('count my gains') signals the end of the soliloquy, a common theatrical device for closing a scene.",
-    "sources": [
-      {
-        "name": "Tilley, Dictionary of Proverbs",
-        "citation": "M. P. Tilley, A Dictionary of the Proverbs in England in the Sixteenth and Seventeenth Centuries (1950), s.v. the proverb 'to run before one's horse to market' (to get ahead of oneself)."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 163"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Web-confirmed this is a genuine 16th-c. proverb meaning 'get ahead of oneself'; dropped the wrong/fabricated Tilley number (H694) and cited Tilley at proverb/work level; gloss unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The proverb is correctly identified via Tilley H694 and the meaning (getting ahead of oneself) is accurately applied to Richard's premature counting of gains; the rhyming-couplet scene-close convention is also correctly noted."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Web-confirmed this is a genuine 16th-c. proverb meaning 'get ahead of oneself'; dropped the wrong/fabricated Tilley number (H694) and cited Tilley at proverb/work level; gloss unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "richard_iii-2188-supreme-seat-throne",
-    "play": "richard_iii",
-    "tln_start": 2189,
-    "tln_end": 2190,
-    "word_start": 0,
-    "word_end": 5,
-    "anchor_text": "the supreme seat, the throne majestical, The scepter'd office of your ancestors",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "Buckingham's formal petition to Richard runs for twenty lines and is a showpiece of accumulation (Latin: congeries) — heaping up titles, images, and arguments in a rising series. 'Supreme seat... throne majestical... scepter'd office... state of fortune... due of birth... lineal glory' pile up to make refusing the crown seem not merely unwise but a spiritual dereliction. The form mirrors the set-piece of a formal petition, a genre audiences knew from official civic ceremony.",
-    "sources": [
-      {
-        "name": "Lanham, A Handlist of Rhetorical Terms",
-        "citation": "Richard A. Lanham, A Handlist of Rhetorical Terms (2nd ed., 1991), s.v. 'congeries' (the heaping-up of words or clauses; accumulation)."
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "divine-right-of-kings"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2189"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Replaced the mismatched source (Vickers' study of Shakespeare's PROSE, cited for a verse speech) with Lanham's Handlist for the device NAME 'congeries/accumulation'; gloss and 'divine-right-of-kings' reference unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The identification of congeries (accumulation) as the figure at work in Buckingham's formal petition is accurate; the annotation correctly labels this as a performed civic ceremony without over-reading the theology."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Replaced the mismatched source (Vickers' study of Shakespeare's PROSE, cited for a verse speech) with Lanham's Handlist for the device NAME 'congeries/accumulation'; gloss and 'divine-right-of-kings' reference unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "richard_iii-2373-cockatrice",
-    "play": "richard_iii",
-    "tln_start": 2374,
-    "tln_end": 2375,
-    "word_start": 0,
-    "word_end": 4,
-    "anchor_text": "A cockatrice hast thou hatch'd to the world, Whose unavoided eye is murderous",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "The cockatrice (also called the basilisk) was a legendary creature hatched from a cock's egg brooded by a serpent — its gaze was said to kill instantly. The Duchess of York is calling her own womb ('the bed of death') a nest that hatched Richard, whose 'unavoided' (unavoidable, inescapable) killing gaze is destroying everyone around him. It is the most bitter of the play's many curses: his own mother identifies him as a monster she brought into the world.",
-    "detail": "The basilisk's lethal eye was a commonplace of natural history and emblem literature; Pliny the Elder (Natural History, Book 8) gives an extended Latin account of the basilisk (regulus), king of serpents, whose look and breath alike killed. (The detail that it could be slain only by its own reflection in a mirror is a later medieval-bestiary addition, not Pliny's.) The image feeds into a web of bestial epithets for Richard across the play: 'bottled spider,' 'elvish-mark'd, abortive, rooting hog,' 'lump of foul deformity.' That the Duchess herself, the one person who cannot disown him, applies the basilisk image is the play's most crushing maternal condemnation.",
-    "sources": [
-      {
-        "name": "Pliny, Natural History",
-        "citation": "Pliny the Elder, Natural History, Book 8 (the basilisk/regulus, whose gaze and breath kill)."
-      },
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'cockatrice' 1: 'a serpent, identified with the basilisk, fabulously said to kill by its mere glance.'"
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2374"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Corrected the detail: moved the 'mirror' detail out of Pliny (it is a medieval-bestiary addition, as the judge noted) and generalized the Pliny locus to Book 8; OED cite and gloss unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The basilisk / cockatrice whose gaze kills is a well-attested classical and early-modern commonplace; attributing it to the Duchess of York as the play's 'most crushing maternal condemnation' is supported by the line itself ('O my accursed womb, the bed of death') and is a mainstream critical reading, not an overreach."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Corrected the detail: moved the 'mirror' detail out of Pliny (it is a medieval-bestiary addition, as the judge noted) and generalized the Pliny locus to Book 8; OED cite and gloss unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "richard_iii-2625-right-for-right",
-    "play": "richard_iii",
-    "tln_start": 2625,
-    "tln_end": 2626,
-    "word_start": 5,
-    "word_end": 7,
-    "anchor_text": "right for right Hath dimm'd your infant morn to aged night",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "Margaret, stepping forward to answer Queen Elizabeth's prayer, proclaims that retributive justice — 'right for right,' wrong answered with wrong — has killed the princes. Her phrasing is from the Elizabethan lex talionis tradition: each murder generates an answering murder. 'Infant morn to aged night' compresses a lifetime into a single image: the boys had morning but no day, rushing straight from dawn to the darkness of old age.",
-    "sources": [
-      {
-        "name": "Schmidt, Shakespeare-Lexicon",
-        "citation": "Schmidt, Shakespeare-Lexicon, s.v. 'right': 'justice, equity; what is just or due.'"
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2625"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Replaced the irrelevant Schmidt sub-gloss ('used as a title in addressing persons of rank') with the Schmidt sense ('justice, equity') that actually supports the 'right for right'/retributive-justice reading; gloss unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The lex talionis reading is sound; 'infant morn to aged night' as compressed lifetime is a standard rhetorical trope of Shakespeare's histories and the reading is not overstated."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Replaced the irrelevant Schmidt sub-gloss ('used as a title in addressing persons of rank') with the Schmidt sense ('justice, equity') that actually supports the 'right for right'/retributive-justice reading; gloss unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "richard_iii-2636-dead-life-blind-sight",
-    "play": "richard_iii",
-    "tln_start": 2636,
-    "tln_end": 2636,
-    "word_start": 0,
-    "word_end": 7,
-    "anchor_text": "Dead life, blind sight, poor mortal living ghost",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "The Duchess of York addresses herself in a string of oxymorons — contradictory phrases joined together. 'Dead life' (alive but as good as dead), 'blind sight' (sees but wishes she were blind), 'living ghost' (still breathing, but like one already departed). The rhetorical device (oxymoron) mirrors the unbearable contradictions of outliving your own children and your own sorrow.",
-    "sources": [
-      {
-        "name": "Lanham, A Handlist of Rhetorical Terms",
-        "citation": "Richard A. Lanham, A Handlist of Rhetorical Terms (2nd ed., 1991), s.v. 'oxymoron' (a condensed paradox yoking contradictory terms). Cf. Onions, A Shakespeare Glossary, s.v. 'mortal' (adj.: 'deadly')."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2636"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Replaced the invented Schmidt 'oxymoron' entry (Schmidt glosses Shakespeare's words, not Greek device names) with Lanham's Handlist for the device name; kept the Onions 'mortal' gloss; gloss unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The oxymoron identification is accurate and the interpretation that contradictory phrases mirror the experience of outliving one's grief is the mainstream reading."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Replaced the invented Schmidt 'oxymoron' entry (Schmidt glosses Shakespeare's words, not Greek device names) with Lanham's Handlist for the device name; kept the Onions 'mortal' gloss; gloss unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "richard_iii-2650-edward-richard-litany",
-    "play": "richard_iii",
-    "tln_start": 2650,
-    "tln_end": 2651,
-    "word_start": 0,
-    "word_end": 8,
-    "anchor_text": "I had an Edward, till a Richard kill'd him; I had a Henry, till a Richard kill'd him",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "Margaret recites her losses in a relentless anaphoric litany — 'I had... till a Richard kill'd him' repeated four times. Anaphora (the same phrase at the start of successive lines) creates a tolling, incantatory rhythm that turns her speech into a formal curse. The repetition of 'Richard' as the single cause of every loss hammers in the identifying accusation: the whole play's evil has one name.",
-    "sources": [
-      {
-        "name": "Lanham, A Handlist of Rhetorical Terms",
-        "citation": "Richard A. Lanham, A Handlist of Rhetorical Terms (2nd ed., 1991), s.v. 'anaphora' (repetition of the same word at the start of successive clauses)."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2650"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Replaced the invented Onions 'anaphora' entry (Onions is a word-glossary, not a rhetoric handbook) with Lanham's Handlist for the device name; gloss unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Anaphora identification is correct; the tolling, incantatory effect of the repeated 'I had... till a Richard kill'd him' pattern is the standard reading of this passage."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Replaced the invented Onions 'anaphora' entry (Onions is a word-glossary, not a rhetoric handbook) with Lanham's Handlist for the device name; gloss unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "richard_iii-2657-kennel-of-thy-womb",
-    "play": "richard_iii",
-    "tln_start": 2657,
-    "tln_end": 2658,
-    "word_start": 0,
-    "word_end": 8,
-    "anchor_text": "From forth the kennel of thy womb hath crept A hell-hound that doth hunt us all to death",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "Margaret calls Richard a hell-hound — a hunting dog from hell — born from a 'kennel' (a dog-kennel, but the word was also slang for a foul sewer or gutter-channel). The image sustains the play's relentless animal imagery for Richard: he is hunted beast and hunter at once. 'That had his teeth before his eyes' on the next line refers to the legend that Richard was born with teeth already through — a Tudor sign of monstrous, precocious evil.",
-    "detail": "The belief that Richard was born feet-first after a long, terrible labour, with teeth already through, is reported by Tudor writers hostile to him — the 'teeth' detail going back to John Rous, and the 'feet first' and deformity material developed by More and taken up by Holinshed. In 3 Henry VI 5.6 Richard himself recounts the omen. For an Elizabethan audience, being born with teeth was a prodigy — a sign of unnatural appetite from the womb. The 'kennel' sewer-meaning compounds the insult: Richard emerged from filth.",
-    "sources": [
-      {
-        "name": "More",
-        "citation": "Sir Thomas More, The History of King Richard III (c. 1513-18; printed 1557), on Richard's deformities and monstrous birth (the 'born with teeth' detail derives from John Rous, c. 1490)."
-      },
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'kennel' n.2: 'a gutter or surface-drain of a street; the channel of a road.'"
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "mores-history-of-richard-iii"
-      },
-      {
-        "kind": "historical",
-        "card_id": "the-white-boar"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2657"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Corrected the misattribution flagged by the judge: the 'born with teeth' detail originates with Rous, not More (More supplies feet-first/deformity); attributed each strand correctly; OED cite, references, and gloss otherwise unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The hell-hound/kennel imagery, the sewer sense of 'kennel,' and the born-with-teeth prodigy from More are all well-sourced and accurately applied to this passage."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Corrected the misattribution flagged by the judge: the 'born with teeth' detail originates with Rous, not More (More supplies feet-first/deformity); attributed each strand correctly; OED cite, references, and gloss otherwise unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "richard_iii-2685-earth-gapes-hell-burns",
-    "play": "richard_iii",
-    "tln_start": 2685,
-    "tln_end": 2685,
-    "word_start": 0,
-    "word_end": 7,
-    "anchor_text": "Earth gapes, hell burns, fiends roar, saints pray",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "A line of four parallel clauses, each subject-verb, each a cosmic element reacting to Richard. The device (asyndeton — omitting connecting words) creates a drumbeat urgency. Earth, hell, fiends, and saints are all oriented toward Richard: the whole created and spiritual order is straining to be rid of him. It is Margaret's most theatrical moment as prophet-chorus.",
-    "sources": [
-      {
-        "name": "Lanham, A Handlist of Rhetorical Terms",
-        "citation": "Richard A. Lanham, A Handlist of Rhetorical Terms (2nd ed., 1991), s.v. 'asyndeton' (omission of conjunctions between clauses for expressive speed)."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2685"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Replaced the invented Onions 'asyndeton' entry (Onions is a word-glossary, not a rhetoric handbook) with Lanham's Handlist for the device name; gloss unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Asyndeton identification is correct and the cosmic-alignment reading of the four parallel clauses is the mainstream interpretation of this passage."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Replaced the invented Onions 'asyndeton' entry (Onions is a word-glossary, not a rhetoric handbook) with Lanham's Handlist for the device name; gloss unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "richard_iii-2992-by-the-world",
-    "play": "richard_iii",
-    "tln_start": 2992,
-    "tln_end": 2996,
-    "word_start": 0,
-    "word_end": 2,
-    "anchor_text": "Now, by the world,-- 'Tis full of thy foul wrongs. My father's death,-- Thy life hath that dishonour'd. Then, by myself,--",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "Richard attempts a rapid series of oaths — by the world, by his father's death, by himself — and Elizabeth cuts off each one with a two- or three-word dismissal that proves it already disqualified. The rapid-fire interruptions (stichomythia — one-for-one line trading) turn Richard's habitual verbal dominance against him. Every object he reaches for to swear by is already defiled by his own acts.",
-    "sources": [
-      {
-        "name": "Lanham, A Handlist of Rhetorical Terms",
-        "citation": "Richard A. Lanham, A Handlist of Rhetorical Terms (2nd ed., 1991), s.v. 'stichomythia' (rapid alternating single-line dialogue of cut-and-thrust, from Greek tragic drama)."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2992"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Replaced the invented Onions 'stichomythia' entry (Onions is a word-glossary, not a rhetoric handbook) with Lanham's Handlist for the device name; gloss unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The stichomythia identification is correct and the reading that each of Richard's oath-objects is already defiled by his acts is the plain logic of the exchange."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Replaced the invented Onions 'stichomythia' entry (Onions is a word-glossary, not a rhetoric handbook) with Lanham's Handlist for the device name; gloss unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "richard_iii-3239-true-hope-swift",
-    "play": "richard_iii",
-    "tln_start": 3239,
-    "tln_end": 3240,
-    "word_start": 0,
-    "word_end": 7,
-    "anchor_text": "True hope is swift, and flies with swallow's wings; Kings it makes gods, and meaner creatures kings.",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "Richmond closes the scene with a rhyming couplet built on chiasmus: 'kings...gods...meaner creatures...kings' crosses two ascending terms so the sentence reverses on itself. The line means that true hope can raise kings to godlike status and lift the lowly to kingship — an allusion both to Richmond's own rise from exile and to the theological framing of his cause as providentially sanctioned. The compressed symmetry signals the scene's formal close and gives the marching army a memorable rallying slogan.",
-    "detail": "The figure ('Kings it makes gods, and meaner creatures kings') is a textbook Renaissance sententia — a pithy, reversible maxim that closes an argument with the authority of a proverb (more precisely it is antimetabole, the crossed repetition of 'kings'). The 'swallow' simile is also pointed: swallows were proverbially associated with summer and return from a long absence, fitting Richmond's emergence from years of exile in Brittany and France. The couplet's theology echoes the Tudor-myth framing of the whole campaign: Richmond's 'true hope' is not mere military optimism but providential confidence ('In God's name,' two lines earlier), the trust that God has endorsed the Lancaster-York union he will enact.",
-    "sources": [
-      {
-        "name": "Lanham, A Handlist of Rhetorical Terms",
-        "citation": "Richard A. Lanham, A Handlist of Rhetorical Terms (2nd ed., 1991), s.v. 'antimetabole' and 'sententia' (the crossed repetition and the pithy closing maxim of Richmond's couplet)."
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "richmond-and-the-tudor-myth"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 3239"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Replaced the fabricated thematic claim attributed to Schmidt's lexicon with Lanham's Handlist for the device names; refined 'chiasmus' to 'antimetabole/sententia' (per the interp judge's note) in the detail; kept the 'richmond-and-the-tudor-myth' reference and gloss."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The chiasmus label is slightly loose (the figure is more precisely antimetabole on 'kings'), but the identification of a closing sententia with crossed ascending terms is mainstream Renaissance rhetorical analysis; the theological framing of 'true hope' as providential confidence is supported by 'In God's name' two lines earlier and the Tudor-myth framing of the whole play, and the swallow/exile-return gloss is a reasonable embellishment rather than a distorting overreach."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Replaced the fabricated thematic claim attributed to Schmidt's lexicon with Lanham's Handlist for the device names; refined 'chiasmus' to 'antimetabole/sententia' (per the interp judge's note) in the detail; kept the 'richmond-and-the-tudor-myth' reference and gloss. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "richard_iii-3427-lights-burn-blue",
-    "play": "richard_iii",
-    "tln_start": 3427,
-    "tln_end": 3427,
-    "word_start": 0,
-    "word_end": 3,
-    "anchor_text": "The lights burn blue",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "Blue-burning candles or lamps were an Elizabethan sign that ghosts or evil spirits were present — the superstition held that the cold of the supernatural world chilled the flame and turned it blue. Richard sees this as proof that his dream was a supernatural visitation, not mere imagination.",
-    "sources": [
-      {
-        "name": "Reginald Scot, The Discoverie of Witchcraft (1584)",
-        "citation": "Reginald Scot, The Discoverie of Witchcraft (1584), on spirits and apparitions; the belief that a candle burning blue signals the presence of a ghost or spirit is widely attested in 16th-17th-c. English sources."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 3427"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Dropped the unverifiable precise locus ('Book 7, on candle-flames') and generalized the Scot citation to the work plus the broadly-attested superstition; gloss unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The blue-candle superstition for supernatural presence is a genuine Elizabethan folk belief; Scot's Discoverie is a legitimate citation source."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Dropped the unverifiable precise locus ('Book 7, on candle-flames') and generalized the Scot citation to the work plus the broadly-attested superstition; gloss unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "richard_iii-3443-thousand-several-tongues",
-    "play": "richard_iii",
-    "tln_start": 3440,
-    "tln_end": 3441,
-    "word_start": 0,
-    "word_end": 7,
-    "anchor_text": "My conscience hath a thousand several tongues, / And every tongue brings in a several tale",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "Richard personifies conscience as a court of law with a thousand prosecutors, each reciting a separate count against him. 'Several' means separate or distinct. The cumulative effect — 'all us'd in each degree, / Throng to the bar, crying all Guilty! guilty!' — stages his interior as a trial he cannot escape. The legal metaphor (bar, tale, degree) is exact: the bar is the railing before the judge, the tale is the indictment count.",
-    "detail": "The image of conscience as an interior tribunal was a commonplace of classical, patristic, and Elizabethan moral writing (Cicero, Seneca, and the homiletic tradition all figure conscience as an inner witness or judge). Shakespeare gives it technical legal vocabulary here — 'bar' (the railing before the judge), 'tale' (an indictment count), 'several' (separate), 'degree' — to make Richard's mind a courtroom. This is fitting: a man who stage-managed councils, trials, and show-executions throughout the play is now subjected to the very judicial machinery he manipulated.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'bar' n.1 (the barrier at which prisoners are arraigned) and 'several' adj. (separate, distinct): the legal vocabulary Richard uses to figure conscience as a court."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 3440"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Web-checked De Officiis 3.44: it concerns a judge's conscience as inner witness, not 'conscience punishing the wrongdoer when law cannot reach him,' so I removed that specific Cicero locus, generalized the conscience-as-tribunal point to the commonplace tradition, and re-sourced the note to OED on the legal terms; gloss unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The courtroom metaphor is accurately unpacked and the patristic/classical parallels for conscience-as-tribunal are conventional; the irony of a judicial manipulator being subjected to inner trial is a defensible reading grounded in the preceding scenes."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Web-checked De Officiis 3.44: it concerns a judge's conscience as inner witness, not 'conscience punishing the wrongdoer when law cannot reach him,' so I removed that specific Cicero locus, generalized the conscience-as-tribunal point to the commonplace tradition, and re-sourced the note to OED on the legal terms; gloss unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "richard_iii-3561-conscience-word-cowards",
-    "play": "richard_iii",
-    "tln_start": 3561,
-    "tln_end": 3562,
-    "word_start": 0,
-    "word_end": 8,
-    "anchor_text": "Conscience is but a word that cowards use, / Devis'd at first to keep the strong in awe",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "Richard's pre-battle speech inverts his own terrified soliloquy of forty lines earlier, where his conscience was a thousand-tongued prosecutor. Now, rallying his soldiers, he dismisses conscience as a political invention used to keep the powerful from using their strength freely. This is the Machiavellian position: 'natural law' and moral scruple are tools the weak use to restrain the strong.",
-    "detail": "By 1590 the idea that morality is a restraint the weak impose on the strong was standard in the Elizabethan stage-Machiavel repertoire — Marlowe's Tamburlaine and Faustus, and the Vice-tradition villains, all articulate versions of it. The particular irony here is that we have just watched Richard's conscience destroy him in soliloquy; he is now publicly denying what he privately knows. It is perhaps the play's starkest example of his ability to put on an act even after his inner performance has collapsed.",
-    "sources": [
-      {
-        "name": "Niccolo Machiavelli",
-        "citation": "Niccolo Machiavelli, The Prince (Il Principe, written 1513, printed 1532), the conceptual source for the Elizabethan stage-Machiavel's dismissal of conventional morality as weakness."
-      },
-      {
-        "name": "Spivack",
-        "citation": "Spivack, B. (1958). Shakespeare and the Allegory of Evil. Columbia UP (the Vice-Machiavel tradition)."
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "the-stage-machiavel"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 3561"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Machiavelli's The Prince (written 1513, printed 1532) is a real work and is the standard conceptual source for the Elizabethan stage-Machiavel's dismissal of morality; Spivack (1958, Columbia UP) is a verified real publication on the Vice-Machiavel tradition."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Trimmed the over-reaching Plato/Thrasymachus attribution flagged by the interp judge (an anachronistic modern parallel, not something Shakespeare's audience would connect); kept the sound Machiavel reading, both verified sources, and the 'the-stage-machiavel' reference."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Trimmed the over-reaching Plato/Thrasymachus attribution flagged by the interp judge (an anachronistic modern parallel, not something Shakespeare's audience would connect); kept the sound Machiavel reading, both verified sources, and the 'the-stage-machiavel' reference. [orig: source=verified, interp=refuted]"
-  },
-  {
-    "id": "richard_iii-3614-six-richmonds",
-    "play": "richard_iii",
-    "tln_start": 3614,
-    "tln_end": 3615,
-    "word_start": 4,
-    "word_end": 7,
-    "anchor_text": "six Richmonds in the field: Five have I slain to-day instead of him",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "Richard says he has already killed five men disguised as Richmond — knights dressed in their leader's armor and surcoat so Richard could not single him out. The detail is Shakespeare's dramatic invention (echoing the decoys 'marching in the King's coats' at Shrewsbury in Henry IV Part 1, 5.3); it is not in the chronicles. It dramatizes Richard's all-or-nothing plan to end the battle by killing the rival claimant in person, and his furious frustration at being thwarted.",
-    "detail": "Shakespeare uses the multiplied 'Richmonds' to show that Richard's strategy is single-minded rather than foolish: he is trying to cut straight through to Richmond, which requires knowing which figure to ride at, and the decoys make that impossible. The moment is both grimly comic (five dead men who were not the target) and tragic (the plan was sound but could not be executed). Historically, Holinshed and Polydore Vergil record Richard's desperate personal charge toward Richmond at Bosworth, but neither reports a decoy or disguise stratagem — Shakespeare added it, most likely borrowing the device from the Earl of Douglas hunting down the King's doubles at Shrewsbury.",
-    "sources": [
-      {
-        "name": "Holinshed, Chronicles (1587)",
-        "citation": "Raphael Holinshed, Chronicles (1587), on the Battle of Bosworth (1485) and Richard's personal charge toward Richmond (the decoy/disguise is Shakespeare's addition, not in Holinshed)."
-      },
-      {
-        "name": "Polydore Vergil, Anglica Historia",
-        "citation": "Polydore Vergil, Anglica Historia (1534), on Bosworth and Richard's last charge; like Holinshed it records no decoy stratagem."
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "the-battle-of-bosworth-field"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 3614"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Web-confirmed the source judge: the Bosworth decoy is Shakespeare's invention (drawn from the Shrewsbury decoy), NOT in Holinshed/Vergil. Rewrote summary and detail to say so honestly, keeping both chronicles at work level only for the battle/charge and retaining the 'the-battle-of-bosworth-field' reference."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The decoy-armor stratagem is confirmed in both Holinshed and Vergil; the annotation correctly presents the number 'five' as Shakespeare's dramatic figure (Richard's own claim in the play) rather than a historical assertion, so no anachronism or overreach is introduced."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Web-confirmed the source judge: the Bosworth decoy is Shakespeare's invention (drawn from the Shrewsbury decoy), NOT in Holinshed/Vergil. Rewrote summary and detail to say so honestly, keeping both chronicles at work level only for the battle/charge and retaining the 'the-battle-of-bosworth-field' reference. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "richard_iii-844-melancholy-flood",
-    "play": "richard_iii",
-    "tln_start": 844,
-    "tln_end": 845,
-    "word_start": 1,
-    "word_end": 7,
-    "anchor_text": "pass'd, methought, the melancholy flood With that grim ferryman which poets write of",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "The 'melancholy flood' is the river Styx (or Acheron) of classical mythology — the river of the underworld that the dead must cross to reach their final home. The 'grim ferryman' is Charon, who transported souls across it for a coin. Clarence has not merely drowned in his dream: he has passed into the classical afterlife.",
-    "detail": "The phrase 'which poets write of' is Clarence's own editorial note — he knows this is the stuff of ancient poetry, not Christian theology. Yet in the same speech he will describe the encounter with the shades of Warwick and Prince Edward in language that blends classical Hades with a Christian hell ('legion of foul fiends,' 'Furies'). Shakespeare deliberately fuses the two afterlife traditions, giving Clarence's conscience a double frame: classical guilt (perjury and betrayal) and Christian damnation. Virgil's description of Charon ferrying the dead across the underworld river (Aeneid 6) was the standard classical reference, well known to educated Elizabethans through grammar-school Latin.",
-    "sources": [
-      {
-        "name": "Virgil, Aeneid",
-        "citation": "Virgil, Aeneid 6.298-316 (Charon and the crossing of the river of the dead)."
-      },
-      {
-        "name": "Ovid, Metamorphoses",
-        "citation": "Ovid, Metamorphoses 4 (Juno's descent to the underworld) and 10 (Orpheus): the Styx and the realm of the dead as Shakespeare's educated audience knew them through Golding's 1567 English Ovid."
-      }
-    ],
-    "references": [
-      {
-        "kind": "classical",
-        "card_id": "lethe"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 844"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Kept the verified Virgil Charon cite; replaced the two mis-described Ovid loci (10.72-74 / 11.601-603, which the judge showed do not support 'the underworld rivers'/'Stygian shore') with a work-level Ovid Styx/underworld cite; gloss and 'lethe' (underworld-rivers) reference unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Identifying the melancholy flood as the Styx/Acheron and the ferryman as Charon is uncontroversial; the annotation honestly notes Clarence signals his own awareness that this is classical-poetic rather than Christian doctrine ('which poets write of'), and the blending of classical and Christian frames is a genuine and well-observed feature of the speech."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Kept the verified Virgil Charon cite; replaced the two mis-described Ovid loci (10.72-74 / 11.601-603, which the judge showed do not support 'the underworld rivers'/'Stygian shore') with a work-level Ovid Styx/underworld cite; gloss and 'lethe' (underworld-rivers) reference unchanged. [orig: source=refuted, interp=verified]"
   }
 ]

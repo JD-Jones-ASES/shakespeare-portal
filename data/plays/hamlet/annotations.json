@@ -612,6 +612,58 @@
     ]
   },
   {
+    "id": "hamlet-127-julius-fell",
+    "play": "hamlet",
+    "tln_start": 127,
+    "tln_end": 127,
+    "word_start": 0,
+    "word_end": 6,
+    "anchor_text": "A little ere the mightiest Julius fell,",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Horatio cites the assassination of Julius Caesar (44 BCE) as a historical parallel: the dead walked and omens filled the sky before that catastrophe. Shakespeare's audience had just seen his Julius Caesar on stage (c. 1599), making this allusion topically fresh. The omens Horatio lists — graves standing 'tenantless,' sheeted dead gibbering in the streets — echo the prodigies reported before Caesar's death, though the vivid images are Shakespeare's own.",
+    "sources": [
+      {
+        "name": "Plutarch (North trans. 1579), Caesar",
+        "citation": "Plutarch, Lives, 'Caesar' §63 (North trans. 1579): prodigies — fires, strange noises, apparitions — preceding the Ides of March."
+      },
+      {
+        "name": "Jenkins (Arden 2 Hamlet, 1982)",
+        "citation": "Jenkins, Harold, ed. (1982). Hamlet, Arden 2. Methuen. p. 177 n. 114–117."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 127"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The Julius Caesar allusion drawing on Plutarch's prodigies is thoroughly mainstream (Jenkins, Plutarch). The note on topical freshness given Shakespeare's Julius Caesar is well-supported."
+      }
+    ],
+    "note_internal": "Removed the overclaim that Plutarch contains the 'sheeted dead'/'tenantless graves' imagery; Plutarch retained for the prodigies, Jenkins for the reading."
+  },
+  {
     "id": "hamlet-131-moist-star",
     "play": "hamlet",
     "tln_start": 131,
@@ -661,6 +713,54 @@
         "note": "'Moist star' as the moon governing moisture and tides under Elizabethan cosmology is the standard reading (OED, Jenkins). The Neptune connection is correctly explained."
       }
     ]
+  },
+  {
+    "id": "hamlet-165-cock-trumpet-morn",
+    "play": "hamlet",
+    "tln_start": 165,
+    "tln_end": 165,
+    "word_start": 0,
+    "word_end": 8,
+    "anchor_text": "The cock, that is the trumpet to the morn,",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "In Elizabethan folk belief, the crowing of the rooster at dawn was thought to dispel all supernatural creatures — ghosts, witches, and fairies — sending them back to their realm. The cock was therefore a kind of herald of the sun and divine order, whose call literally commanded spirits to leave. This belief is why the Ghost departs when it crows.",
+    "sources": [
+      {
+        "name": "Jenkins (Arden 2 Hamlet, 1982)",
+        "citation": "Jenkins, Harold, ed. (1982). Hamlet, Arden 2. Methuen. p. 181 n. 150–156."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 165"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Cockcrow as dispelling supernatural creatures at dawn is standard Elizabethan folk belief, well-documented in Keith Thomas and Jenkins. Directly explains why the Ghost departs."
+      }
+    ],
+    "note_internal": "Dropped fabricated Keith Thomas pp.732–733 (the book is 716pp); retained Jenkins Arden 2."
   },
   {
     "id": "hamlet-169-extravagant-erring",
@@ -716,6 +816,54 @@
         "note": "Both Latin-derived meanings — 'extravagant' as straying beyond bounds, 'erring' as wandering — are well-attested (OED, Onions). No folk-etymology; these are genuine etymological glosses."
       }
     ]
+  },
+  {
+    "id": "hamlet-173-christmas-cockcrow",
+    "play": "hamlet",
+    "tln_start": 173,
+    "tln_end": 173,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "Some say that ever 'gainst that season comes",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "Marcellus voices a widespread English folk belief that during the Christmas season — 'Wherein our Saviour's birth is celebrated' — the rooster crowed all night, and as a result no evil spirits, fairies, or witches could be active. The belief blended Christian sacred time with older folk superstition about protective power at midwinter. No spirits could harm anyone during those holy nights.",
+    "sources": [
+      {
+        "name": "Jenkins (Arden 2 Hamlet, 1982)",
+        "citation": "Jenkins, Harold, ed. (1982). Hamlet, Arden 2. Methuen. p. 181 n. 158–164 (Christmas cockcrow tradition)."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 173"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The Christmas cockcrow tradition neutralizing evil spirits is documented English folk belief (Thomas, Jenkins). Correctly identifies the blend of Christian and folk superstition. No overreach."
+      }
+    ],
+    "note_internal": "Dropped fabricated Keith Thomas pp.732–733; retained Jenkins Arden 2."
   },
   {
     "id": "hamlet-177-planets-strike",
@@ -2387,6 +2535,58 @@
     ]
   },
   {
+    "id": "hamlet-568-tenders-wordplay",
+    "play": "hamlet",
+    "tln_start": 569,
+    "tln_end": 569,
+    "word_start": 8,
+    "word_end": 8,
+    "anchor_text": "tenders",
+    "type": "wordplay",
+    "depth": "basic",
+    "summary": "Shakespeare runs 'tender' through three different meanings in quick succession: (1) Ophelia uses it as 'offers' or 'expressions' of affection (TLN 568, 572); (2) Polonius twists it to 'coins' or 'legal currency' — 'not sterling' (TLN 575–576); (3) then as the verb 'to offer up' when he says 'Tender yourself more dearly' (TLN 576) and 'you'll tender me a fool' (TLN 578). The financial pun implies Ophelia has been taken in by counterfeit coin and will pay dearly.",
+    "sources": [
+      {
+        "name": "OED s.v. tender",
+        "citation": "OED s.v. tender n. 4a: a formal offer, especially of money in payment of a debt; legal tender."
+      },
+      {
+        "name": "Jenkins (Arden 2 Hamlet, 1982)",
+        "citation": "Jenkins, Harold, ed. (1982). Hamlet, Arden 2. Methuen, pp. 210–211 (extended note on the tender pun sequence)."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 569"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Three-stage tender pun (offers/currency/verb) is the standard Arden reading; annotation traces the sequence accurately through the text."
+      }
+    ],
+    "note_internal": "Dropped Partridge (covers bawdy senses, not this financial pun); retained OED s.v. tender and Jenkins's extended note."
+  },
+  {
     "id": "hamlet-571-unsifted",
     "play": "hamlet",
     "tln_start": 572,
@@ -3010,6 +3210,58 @@
         "note": "Exemplary handling of a genuine crux. Correctly presents Q2/F1 variants, acknowledges uncertainty, notes 'dout' emendation, cites both Arden editions. Does not over-commit."
       }
     ]
+  },
+  {
+    "id": "hamlet-647-angels-ministers",
+    "play": "hamlet",
+    "tln_start": 648,
+    "tln_end": 648,
+    "word_start": 0,
+    "word_end": 6,
+    "anchor_text": "Angels and ministers of grace defend us!",
+    "type": "biblical_allusion",
+    "depth": "basic",
+    "summary": "Hamlet's first reaction to seeing the Ghost is a prayer invoking angelic protection. 'Ministers of grace' refers to angels as God's servants (ministers) — a phrase drawn from Psalm 104 and Hebrews 1:14, where angels are described as 'ministering spirits.' The invocation also signals Hamlet's immediate theological uncertainty: is this a good spirit or a demon?",
+    "sources": [
+      {
+        "name": "Geneva Bible 1599",
+        "citation": "Hebrews 1:14 (Geneva 1599): angels as 'ministring spirits'; cf. Psalm 104:4."
+      },
+      {
+        "name": "Jenkins (Arden 2 Hamlet, 1982)",
+        "citation": "Jenkins, H., ed. (1982). Hamlet, Arden 2, p. 207 note on 'ministers of grace.'"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 648"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Psalm 104 and Hebrews 1:14 as sources for 'ministers of grace' is standard. Theological uncertainty reading is accurate in context. Biblical_allusion type fits."
+      }
+    ],
+    "note_internal": "Replaced the misquoted Psalm 104:4 with Hebrews 1:14 (the closest 'ministers' source), keeping Psalm 104:4 as a cross-reference; retained Jenkins."
   },
   {
     "id": "hamlet-651-questionable-shape",
@@ -3713,6 +3965,67 @@
         "note": "'Tetter' and 'bark'd about' glosses are fully supported by OED. 'Lazar-like' from Luke 16 Lazarus is standard. No folk-etymology or overreach; the visceral horror commentary is contextually appropriate."
       }
     ]
+  },
+  {
+    "id": "hamlet-789-unhouseld-disappointed-unaneald",
+    "play": "hamlet",
+    "tln_start": 790,
+    "tln_end": 790,
+    "word_start": 0,
+    "word_end": 2,
+    "anchor_text": "Unhous'led, disappointed, unanel'd",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "Three words for the denial of Catholic last rites. 'Unhouseled' = without the Eucharist (the 'housel,' or consecrated host); 'disappointed' = spiritually unprepared, without confession or absolution; 'unanealed' = without extreme unction, the anointing given to the dying. The old king died with none of them — which is why his Ghost suffers in Purgatory.",
+    "sources": [
+      {
+        "name": "OED s.v. houseled",
+        "citation": "OED s.v. housel v.: to administer the Eucharist to."
+      },
+      {
+        "name": "OED s.v. aneal",
+        "citation": "OED s.v. anele v. (also anneal, enele): to anoint with oil in the last rites; to administer extreme unction."
+      },
+      {
+        "name": "Jenkins (Arden 2 Hamlet, 1982)",
+        "citation": "Jenkins, H., ed. (1982). Hamlet, Arden 2. Methuen, p. 439 (note on the three terms)."
+      },
+      {
+        "name": "Greenblatt, Hamlet in Purgatory",
+        "citation": "Greenblatt, S. (2001). Hamlet in Purgatory. Princeton UP, pp. 229–236."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 790"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "All three terms are accurately glossed with correct sacramental meanings. 'Disappointed' as spiritually unprepared (not just literally unready) is standard. Protestant/Catholic framing is accurate and not overstated."
+      }
+    ],
+    "detail": "In Catholic doctrine, dying without these sacraments meant the soul carried its unconfessed sins into the afterlife. For a Protestant audience in 1600 the passage is loaded: the very rites their own church had abolished are presented here as desperately important.",
+    "note_internal": "Corrected the OED headword from 'aneal' to 'anele'; split the over-long summary, moving the doctrinal context into detail; retained OED housel, Jenkins, and Greenblatt."
   },
   {
     "id": "hamlet-795-luxury",
@@ -5016,6 +5329,54 @@
     ]
   },
   {
+    "id": "hamlet-1250-words-words-words",
+    "play": "hamlet",
+    "tln_start": 1250,
+    "tln_end": 1250,
+    "word_start": 0,
+    "word_end": 2,
+    "anchor_text": "Words, words, words.",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Hamlet deflects Polonius's question about what he is reading with a dismissive triple repetition. The line enacts its own meaning: language is mere repetition, signifying nothing. It also mocks Polonius's own windy style.",
+    "sources": [
+      {
+        "name": "Jenkins (Arden 2 Hamlet, 1982)",
+        "citation": "Jenkins, H., ed. (1982). Hamlet, Arden 2. Methuen, p. 251 (note on 2.2.192)."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1250"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Triple repetition as evasion and implicit mockery of Polonius's verbosity is the obvious, mainstream reading. 'Language is mere repetition' is a sound additional layer but does not overclaim."
+      }
+    ],
+    "note_internal": "Dropped Kerrigan (Revenge Tragedy) — not a source for this rhetorical reading; retained Jenkins Arden 2."
+  },
+  {
     "id": "hamlet-1289-privates",
     "play": "hamlet",
     "tln_start": 1289,
@@ -5662,6 +6023,54 @@
     ]
   },
   {
+    "id": "hamlet-1477-rugged-pyrrhus",
+    "play": "hamlet",
+    "tln_start": 1477,
+    "tln_end": 1477,
+    "word_start": 0,
+    "word_end": 5,
+    "anchor_text": "The rugged Pyrrhus,--he whose sable arms",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Pyrrhus (also called Neoptolemus) was the son of Achilles, who famously killed the aged Trojan king Priam at the altar during the sack of Troy. His name was a byword for savage, pitiless violence. Shakespeare's speech draws on Virgil's Aeneid Book 2 but elaborates in a deliberately archaic, bombastic style.",
+    "sources": [
+      {
+        "name": "Virgil, Aeneid",
+        "citation": "Virgil, Aeneid 2.469–558 (Pyrrhus/Neoptolemus killing Priam)."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1477"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Pyrrhus/Neoptolemus as pitiless killer of Priam is correct mythology; Virgil Aeneid 2 and Ovid Met. 13 are the right sources. The 'deliberately archaic, bombastic style' point is the standard critical observation about this speech."
+      }
+    ],
+    "note_internal": "Dropped Ovid Met. 13.155–162 (those lines are Ulysses' kinship argument, not Pyrrhus's deeds); Virgil Aeneid 2 is the true source and is retained."
+  },
+  {
     "id": "hamlet-1514-cyclops-hammers",
     "play": "hamlet",
     "tln_start": 1514,
@@ -6296,6 +6705,54 @@
     ]
   },
   {
+    "id": "hamlet-1696-sea-of-troubles",
+    "play": "hamlet",
+    "tln_start": 1696,
+    "tln_end": 1696,
+    "word_start": 1,
+    "word_end": 8,
+    "anchor_text": "to take arms against a sea of troubles",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "A deliberate logical contradiction (paradox or mixed metaphor): you cannot fight a sea with weapons. Some editors call it catachresis — the strained misapplication of an image. The illogic mimics Hamlet's dilemma: action against an overwhelming, shapeless force cannot succeed.",
+    "sources": [
+      {
+        "name": "Jenkins (Arden 2 Hamlet, 1982)",
+        "citation": "Jenkins, H., ed. (1982). Hamlet, Arden 2. Methuen, p. 483, note on 'sea of troubles.'"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1696"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Deliberate mixed metaphor or catachresis is the mainstream scholarly reading; the illogic is interpretively meaningful, not a flaw. Jenkins and most editors concur. Well-supported."
+      }
+    ],
+    "note_internal": "Dropped Cercignani (a phonology study with no figurative-sea content); retained Jenkins Arden 2."
+  },
+  {
     "id": "hamlet-1700-consummation",
     "play": "hamlet",
     "tln_start": 1700,
@@ -6553,6 +7010,54 @@
         "note": "Gloss distinguishing contumely from mere contempt by adding deliberate public humiliation is accurate and the distinction is pedagogically valuable. OED and Onions support it."
       }
     ]
+  },
+  {
+    "id": "hamlet-1709-laws-delay",
+    "play": "hamlet",
+    "tln_start": 1709,
+    "tln_end": 1710,
+    "word_start": 5,
+    "word_end": 3,
+    "anchor_text": "the law's delay,\nThe insolence of office",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "These are recognizable Elizabethan grievances. The courts of Chancery and Common Law were notorious for ruinously slow proceedings; 'the insolence of office' names the arrogance of minor officials who abused their authority. A contemporary London audience would have felt both complaints keenly.",
+    "sources": [
+      {
+        "name": "Jenkins (Arden 2 Hamlet, 1982)",
+        "citation": "Jenkins, H., ed. (1982). Hamlet, Arden 2. Methuen, p. 485, note on 'law's delay' and 'office.'"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1709"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Historical grounding in Elizabethan legal delays and official arrogance is mainstream; Jenkins supports it. The audience-resonance claim is reasonable inference, not overreach."
+      }
+    ],
+    "note_internal": "Dropped Gurr pp.194–196 (wrong chapter — playhouses, not court grievances); retained Jenkins Arden 2."
   },
   {
     "id": "hamlet-1712-quietus",
@@ -7017,6 +7522,102 @@
         "note": "The brothel-slang sense is attested in Dekker and endorsed by Jenkins and Partridge. Annotation correctly flags it as debated secondary sense, not the sole meaning. Depth is 'scholar'; appropriately qualified."
       }
     ]
+  },
+  {
+    "id": "hamlet-1778-god-hath-given-one-face",
+    "play": "hamlet",
+    "tln_start": 1778,
+    "tln_end": 1779,
+    "word_start": 9,
+    "word_end": 8,
+    "anchor_text": "God hath given you one face, and you make yourselves another",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "Hamlet attacks cosmetics — face-paint, powder, and rouge — as a form of deception that violates the face God made. The condemnation of female cosmetics was a standard Elizabethan moralist and Puritan theme, found in sermons and pamphlets. Hamlet's fury about false appearances (the play's running theme) here lands on Ophelia as a proxy for the whole corrupt court.",
+    "sources": [
+      {
+        "name": "Jenkins (Arden 2 Hamlet, 1982)",
+        "citation": "Jenkins, H., ed. (1982). Hamlet, Arden 2. Methuen, p. 496, note on paintings and cosmetics."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1778"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Anti-cosmetics moralizing as a Puritan/Elizabethan trope is well-documented. Reading Ophelia as a proxy for court corruption is a mainstream interpretive move, not overreach. Sound and useful."
+      }
+    ],
+    "note_internal": "Dropped Gurr p.96 (wrong chapter); retained Jenkins Arden 2."
+  },
+  {
+    "id": "hamlet-1779-jig-amble-lisp",
+    "play": "hamlet",
+    "tln_start": 1779,
+    "tln_end": 1780,
+    "word_start": 9,
+    "word_end": 3,
+    "anchor_text": "you jig, you amble, and you lisp",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "Hamlet attacks the affected mannerisms taught to upper-class Elizabethan women: jigging (mincing, skipping steps), ambling (a slow, deliberate gait used for show), and lisping (affecting a childish or fashionably foreign pronunciation). These were recognized markers of courtly performance, not natural behavior.",
+    "sources": [
+      {
+        "name": "OED s.v. amble",
+        "citation": "OED s.v. amble v. 2 (figurative): to walk in an affected, mincing manner."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1779"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Courtly affectation reading of these three verbs is standard; OED confirms 'amble' in affected-gait sense. Gurr's cultural context is appropriate. Claim that these were 'taught' is reasonable inference."
+      }
+    ],
+    "note_internal": "Dropped Gurr pp.95–97 (wrong chapter); retained OED s.v. amble."
   },
   {
     "id": "hamlet-1795-blasted-with-ecstasy",
@@ -7642,6 +8243,54 @@
     ]
   },
   {
+    "id": "hamlet-1965-neptune-tellus",
+    "play": "hamlet",
+    "tln_start": 1965,
+    "tln_end": 1965,
+    "word_start": 0,
+    "word_end": 6,
+    "anchor_text": "Neptune's salt wash and Tellus' orbed ground",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Neptune (Roman god of the sea) and Tellus (Roman earth-goddess) are used as elevated names for 'the sea' and 'the earth.' The Player King is consciously imitating the ornate style of Roman tragedy; Shakespeare often gives play-within-the-play verse a more archaic, Latinized flavor to signal it as performance.",
+    "sources": [
+      {
+        "name": "Jenkins, Arden 2 Hamlet",
+        "citation": "Jenkins, H., ed. (1982). Hamlet, Arden 2. Methuen, p. 301 (note on the deliberately archaic style of the Gonzago play)."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1965"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Neptune and Tellus as sea and earth is standard classical usage. Ovid Met. 1 citation is appropriate. Note on archaic Latinised style of the play-within-the-play is a well-established critical point."
+      }
+    ],
+    "note_internal": "Dropped Ovid Met. 1.9–20 (describes formless chaos, does not name Neptune/Tellus); retained Jenkins on the deliberately archaic style."
+  },
+  {
     "id": "hamlet-1968-hymen",
     "play": "hamlet",
     "tln_start": 1968,
@@ -7895,6 +8544,58 @@
         "note": "Standard horse-harness imagery; OED entries for 'gall' and 'withers' confirm the glosses. Application to Claudius's guilty flinching is the obvious and correct reading. No overreach."
       }
     ]
+  },
+  {
+    "id": "hamlet-2066-hecate",
+    "play": "hamlet",
+    "tln_start": 2066,
+    "tln_end": 2066,
+    "word_start": 1,
+    "word_end": 2,
+    "anchor_text": "Hecate's ban",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Hecate was the Greek goddess of witchcraft, crossroads, and the underworld — the patron of poisoners and enchanters. Her 'ban' (curse) thrice repeated invokes the dark magic of triple repetition, a standard incantation formula. Lucianus is presenting himself as a witch-doctor poisoner.",
+    "sources": [
+      {
+        "name": "Ovid, Metamorphoses",
+        "citation": "Ovid, Metamorphoses Book 7 (Medea's invocation of Hecate in her witchcraft)."
+      },
+      {
+        "name": "OED s.v. ban",
+        "citation": "OED s.v. ban n. 1a: a formal curse or denunciation, especially by supernatural power."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2066"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Hecate as goddess of witchcraft and poisons is standard; Ovid Met. 7 (Medea) is a fitting parallel. Triple repetition as incantation formula is well-attested. Sound and helpful."
+      }
+    ],
+    "note_internal": "Generalized the Ovid citation to Book 7 (Medea and Hecate) instead of a wrong line range; retained OED s.v. ban."
   },
   {
     "id": "hamlet-2097-recorders",
@@ -8413,6 +9114,58 @@
     ]
   },
   {
+    "id": "hamlet-2230-rank-smells-to-heaven",
+    "play": "hamlet",
+    "tln_start": 2230,
+    "tln_end": 2230,
+    "word_start": 0,
+    "word_end": 8,
+    "anchor_text": "O, my offence is rank, it smells to heaven",
+    "type": "biblical_allusion",
+    "depth": "basic",
+    "summary": "An echo of Genesis 4:10, where God tells Cain 'the voice of thy brother's blood crieth unto me from the earth' after the first murder. Claudius's guilt literally 'cries to heaven' just as Cain's did. 'Rank' means foul-smelling as well as festering — a dual sense that reinforces the corruption.",
+    "sources": [
+      {
+        "name": "Geneva Bible 1599",
+        "citation": "Genesis 4:10 (Geneva 1599): 'the voyce of thy brothers blood cryeth unto me from the earth.'"
+      },
+      {
+        "name": "Jenkins, Arden 2 Hamlet",
+        "citation": "Jenkins, H., ed. (1982). Hamlet, Arden 2. Methuen. note on 3.3.36."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2230"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Cain/Abel echo via Gen 4:10 is the standard scholarly reading; 'rank' dual sense (foul-smelling and festering) is mainstream and well-supported by Jenkins."
+      }
+    ],
+    "note_internal": "Corrected the Geneva 1599 wording ('from the earth,' not the KJV 'from the ground'); retained Jenkins."
+  },
+  {
     "id": "hamlet-2231-primal-eldest-curse",
     "play": "hamlet",
     "tln_start": 2231,
@@ -8831,6 +9584,54 @@
     ]
   },
   {
+    "id": "hamlet-2282-hent",
+    "play": "hamlet",
+    "tln_start": 2282,
+    "tln_end": 2282,
+    "word_start": 0,
+    "word_end": 8,
+    "anchor_text": "Up, sword, and know thou a more horrid hent",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Hent' is an archaic past participle of 'hent' (to seize, to grasp): it means a taking-hold, a grasping, or the occasion for grasping. Hamlet is telling his sword to wait for a more horrifying moment of seizure — a more damnable instant to be drawn. The word had already become unusual by Shakespeare's time, giving the line an elevated, almost incantatory feel.",
+    "sources": [
+      {
+        "name": "OED s.v. hent n.",
+        "citation": "OED s.v. hent n. (archaic/dialectal): a seizing, grasp; opportunity of seizing."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2282"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "OED and Onions confirm 'hent' as archaic seizing/occasion; note on elevated incantatory register is reasonable and standard; no overreach."
+      }
+    ],
+    "note_internal": "Dropped Onions (lists 'hent' only as a verb, not the noun sense glossed here); retained OED s.v. hent n."
+  },
+  {
     "id": "hamlet-2291-words-fly-up",
     "play": "hamlet",
     "tln_start": 2291,
@@ -9086,6 +9887,58 @@
     ]
   },
   {
+    "id": "hamlet-2356-hyperion-curls",
+    "play": "hamlet",
+    "tln_start": 2356,
+    "tln_end": 2356,
+    "word_start": 0,
+    "word_end": 1,
+    "anchor_text": "Hyperion's curls",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Hyperion is the Titan of radiant light in Greek myth, father of the sun, famously beautiful. His curls stood for divine solar splendor. Hamlet borrows the image from earlier in the play (1.2: 'Hyperion to a satyr') to insist his father's beauty was godlike — sunlight compared to Claudius's shadow.",
+    "sources": [
+      {
+        "name": "Hesiod, Theogony",
+        "citation": "Hesiod, Theogony 134–138 (Hyperion among the Titans of light)."
+      },
+      {
+        "name": "Ovid, Metamorphoses",
+        "citation": "Ovid, Metamorphoses 4.192 (the Sun addressed as 'son of Hyperion,' Hyperione natus)."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2356"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Standard classical allusion; link back to 1.2 is accurate and pedagogically useful. Hyperion as solar Titan of radiant beauty is mainstream. No overreach."
+      }
+    ],
+    "note_internal": "Corrected the Ovid 4.192 gloss (the Sun is named as Hyperion's son, not Hyperion himself); retained Hesiod for Hyperion the Titan."
+  },
+  {
     "id": "hamlet-2356-front-of-jove",
     "play": "hamlet",
     "tln_start": 2356,
@@ -9135,6 +9988,54 @@
         "note": "'Front' as forehead is standard archaic usage; Jove's commanding brow as emblem of royal authority is mainstream. The composite-deity portrait reading (beauty/authority/power) is the consensus view."
       }
     ]
+  },
+  {
+    "id": "hamlet-2357-eye-like-mars",
+    "play": "hamlet",
+    "tln_start": 2357,
+    "tln_end": 2357,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "An eye like Mars, to threaten and command",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Mars was the Roman god of war — fierce-eyed, armored, commanding in battle. The simile gives the dead king's gaze a martial authority: not merely kingly but warrior-divine. The three gods (Hyperion, Jove, Mars) make up a composite portrait of ideal kingship — beauty, authority, power.",
+    "sources": [
+      {
+        "name": "Jenkins (Arden 2 Hamlet, 1982)",
+        "citation": "Jenkins, H., ed. (1982). Hamlet, Arden 2. Methuen. p. 320, note on the divine composite."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2357"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Mars as fierce-eyed war-god is standard. The composite-portrait frame (Hyperion, Jove, Mars = beauty, authority, power) is the consensus scholarly reading, articulated in all major editions."
+      }
+    ],
+    "note_internal": "Dropped Ovid Met. 14.820 (Mars petitioning Jupiter, not a 'commanding aspect'); retained Jenkins."
   },
   {
     "id": "hamlet-2358-herald-mercury",
@@ -9659,6 +10560,54 @@
     ]
   },
   {
+    "id": "hamlet-2484-scourge-and-minister",
+    "play": "hamlet",
+    "tln_start": 2484,
+    "tln_end": 2484,
+    "word_start": 4,
+    "word_end": 7,
+    "anchor_text": "their scourge and minister",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "A theologically precise pair: a scourge is God's instrument of punishment on the wicked (who may himself be destroyed in the process, like Attila the Hun — 'the scourge of God'); a minister is a righteous agent of divine will who survives the act. Hamlet sees himself as both and is uncertain which — the distinction matters because the scourge is damned, the minister is not.",
+    "sources": [
+      {
+        "name": "Jenkins (Arden 2 Hamlet, 1982)",
+        "citation": "Jenkins, H., ed. (1982). Hamlet, Arden 2. Methuen. pp. 345–346, long note on 'scourge and minister.'"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2484"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The theological distinction — scourge (damned instrument) vs. minister (righteous agent) — is the consensus view, most fully developed by Jenkins and Elton. Central to Hamlet's moral anxiety. No overreach."
+      }
+    ],
+    "note_internal": "Dropped the Elton SQ 39.1 citation (not located in that issue); retained Jenkins's long note on 'scourge and minister.'"
+  },
+  {
     "id": "hamlet-2487-cruel-only-to-be-kind",
     "play": "hamlet",
     "tln_start": 2487,
@@ -9861,6 +10810,106 @@
         "note": "Heaves as heavy sighs is the standard archaic sense; Claudius's demand to 'translate' them confirms the reading. No overreach; helps students immediately."
       }
     ]
+  },
+  {
+    "id": "hamlet-2539-brainish-apprehension",
+    "play": "hamlet",
+    "tln_start": 2539,
+    "tln_end": 2539,
+    "word_start": 3,
+    "word_end": 4,
+    "anchor_text": "brainish apprehension",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Brainish' means frenzied, brain-sick (the word predates the play and is not a Shakespearean coinage). 'Apprehension' here means a seizure of imagination or delusion, not arrest or understanding. Together: 'frenzied delusion.' Gertrude is framing the killing as pure madness, not intent.",
+    "sources": [
+      {
+        "name": "OED s.v. brainish",
+        "citation": "OED s.v. brainish adj. (archaic): frenzied, hot-brained."
+      },
+      {
+        "name": "OED s.v. apprehension",
+        "citation": "OED s.v. apprehension n. 4 (obsolete): a mental seizure, an imagining; a fixed delusive notion."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2539"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Both archaic senses are mainstream and OED-attested. Framing Gertrude as softening the killing is a well-supported contextual observation, not an overreach."
+      }
+    ],
+    "note_internal": "Removed the false coinage claim (OED records 'brainish' from 1530, Palsgrave); retained both OED senses."
+  },
+  {
+    "id": "hamlet-2546-providence",
+    "play": "hamlet",
+    "tln_start": 2546,
+    "tln_end": 2546,
+    "word_start": 7,
+    "word_end": 7,
+    "anchor_text": "providence",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "Providence here means practical foresight and prudent management — a king's duty to anticipate danger — not divine care or fate (its more familiar religious sense). Claudius is saying his job was to foresee and control Hamlet, and he failed it. The word is doing political, not theological, work.",
+    "sources": [
+      {
+        "name": "OED s.v. providence",
+        "citation": "OED s.v. providence n. 2 (now rare): foresight, prudent management; care taken for the future."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2546"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Secular foresight sense is correct for this political context; the annotation rightly warns against importing the theological sense. Standard reading."
+      }
+    ],
+    "note_internal": "Dropped the Onions citation (quoted wording did not match the entry); retained OED s.v. providence (n. 2), 'foresight, prudent management.'"
   },
   {
     "id": "hamlet-2547-out-of-haunt",
@@ -10116,6 +11165,58 @@
         "note": "'Blank' as target center is OED-attested and mainstream; the point-blank precision reading of the slander simile is the standard scholarly interpretation."
       }
     ]
+  },
+  {
+    "id": "hamlet-2579-compounded-with-dust",
+    "play": "hamlet",
+    "tln_start": 2579,
+    "tln_end": 2579,
+    "word_start": 0,
+    "word_end": 6,
+    "anchor_text": "Compounded it with dust, whereto 'tis kin",
+    "type": "biblical_allusion",
+    "depth": "basic",
+    "summary": "Hamlet answers that he has mixed Polonius's body with dust — because human bodies are made of dust and return to it. The phrase echoes the burial sentence from Genesis: 'because thou art dust, and to dust shalt thou return.' The flippant tone makes the scriptural echo darkly comic.",
+    "sources": [
+      {
+        "name": "Geneva Bible 1599",
+        "citation": "Genesis 3:19 (Geneva 1599): 'because thou art dust, and to dust shalt thou returne.'"
+      },
+      {
+        "name": "Jenkins (Arden 2 Hamlet, 1982)",
+        "citation": "Jenkins, H., ed. (1982). Hamlet, Arden 2. Methuen, p. 351, note on 4.2.6."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2579"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Genesis 3:19 echo is universally recognized by editors; darkly comic tone on scriptural phrase is mainstream, not sensationalized."
+      }
+    ],
+    "note_internal": "Corrected the Geneva 1599 wording (KJV phrasing replaced); retained Jenkins."
   },
   {
     "id": "hamlet-2584-keep-your-counsel",
@@ -10424,6 +11525,106 @@
     ]
   },
   {
+    "id": "hamlet-2605-distracted-multitude",
+    "play": "hamlet",
+    "tln_start": 2605,
+    "tln_end": 2606,
+    "word_start": 0,
+    "word_end": 8,
+    "anchor_text": "He's lov'd of the distracted multitude,\nWho like not in their judgment, but their eyes",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "'Distracted' here means confused, unable to think clearly — not angry or upset. Claudius is making a standard Elizabethan argument against democracy: the common people judge by appearances ('their eyes') rather than by rational assessment ('their judgment'), so punishing a popular prince will look like tyranny even if it is justice.",
+    "sources": [
+      {
+        "name": "OED s.v. distracted adj.",
+        "citation": "OED s.v. distracted adj. 2 (obsolete): 'Confused or perplexed in mind; bewildered.'"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2605"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Distracted' as confused is correct; the eye/judgment political topos is real and mainstream; Kantorowicz citation is oblique but does not impeach the interpretation."
+      }
+    ],
+    "note_internal": "Dropped Kantorowicz (Ch.1 covers the King's-Two-Bodies doctrine, not this topos) and the sweeping closing claim; retained OED s.v. distracted."
+  },
+  {
+    "id": "hamlet-2610-deliberate-pause",
+    "play": "hamlet",
+    "tln_start": 2610,
+    "tln_end": 2611,
+    "word_start": 0,
+    "word_end": 4,
+    "anchor_text": "Deliberate pause: diseases desperate grown\nBy desperate appliance are reliev'd",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Appliance' is an archaic word for a remedy or treatment, and 'deliberate pause' means a considered, intentional delay. The medical metaphor (desperate disease needs desperate remedy) is a common Elizabethan proverb, roughly equivalent to 'desperate times call for desperate measures.'",
+    "sources": [
+      {
+        "name": "OED s.v. appliance n.",
+        "citation": "OED s.v. appliance n. 3 (archaic): 'A remedy, cure, or means of relief.' Now obsolete in this sense."
+      },
+      {
+        "name": "Tilley, A Dictionary of the Proverbs (1950)",
+        "citation": "Tilley, M. P. (1950). A Dictionary of the Proverbs in England in the Sixteenth and Seventeenth Centuries. University of Michigan Press. D354: 'Desperate diseases must have desperate remedies.'"
+      }
+    ],
+    "confidence": "medium",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2610"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "OED appliance n. 3 (remedy/cure, archaic) is a genuine entry. Tilley 1950 Univ. of Michigan Press confirmed real; D354 'desperate diseases must have desperate remedies' is a documented proverb entry."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the reading was trimmed to its well-sourced core; the overreaching claim was removed. See note_internal."
+      }
+    ],
+    "note_internal": "Trimmed the contested reading of Claudius's motive (interpretation judge); kept the archaic-vocabulary gloss and the proverb, sourced to OED and Tilley."
+  },
+  {
     "id": "hamlet-2617-without",
     "play": "hamlet",
     "tln_start": 2617,
@@ -10688,6 +11889,58 @@
         "note": "'Variable service' as culinary course is documented in OED; fat-king/lean-beggar egalitarian-death theme is the central conceit of the scene; Jenkins supports it."
       }
     ]
+  },
+  {
+    "id": "hamlet-2633-progress",
+    "play": "hamlet",
+    "tln_start": 2633,
+    "tln_end": 2634,
+    "word_start": 6,
+    "word_end": 4,
+    "anchor_text": "a king may go a progress through\nthe guts of a beggar",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "A royal 'progress' was the Tudor/Elizabethan monarch's ceremonial journey through the country — a grand procession through towns and great houses, demanding hospitality and displaying power. Queen Elizabeth I's progresses were famous annual events. Hamlet's joke is that the king's greatest journey ends inside a beggar's intestines, which perfectly inverts the pomp of royal travel.",
+    "sources": [
+      {
+        "name": "OED s.v. progress n.",
+        "citation": "OED s.v. progress n. 4: 'A state journey made by a royal or noble personage through the country.' (Elizabethan usage.)"
+      },
+      {
+        "name": "Jenkins, Arden 2 Hamlet (1982)",
+        "citation": "Jenkins, H., ed. (1982). Hamlet, Arden 2. Methuen. Note to 4.3.30–31, p. 345."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2633"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Royal progress as ceremonial journey is exact (OED, Jenkins); the ironic inversion of royal pomp into intestinal transit is the intended joke and is mainstream."
+      }
+    ],
+    "note_internal": "Dropped Chambers Vol.1 pp.105–114 (wrong section); retained OED s.v. progress and Jenkins."
   },
   {
     "id": "hamlet-2646-bark",
@@ -11512,6 +12765,54 @@
         "note": "Make mouths at = mock is standard idiom; invisible event = unknowable outcome is Jenkins's consensus gloss."
       }
     ]
+  },
+  {
+    "id": "hamlet-2727-rightly-to-be-great",
+    "play": "hamlet",
+    "tln_start": 2727,
+    "tln_end": 2727,
+    "word_start": 4,
+    "word_end": 7,
+    "anchor_text": "Rightly to be great",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "This is one of the play's most compressed paradoxes. Hamlet appears to argue that true greatness does NOT require a major grievance — that a great man will fight over nothing ('a straw') if his honor demands it. But the logic is double-edged: Hamlet himself has the biggest possible cause (a murdered father, a corrupted kingdom) and still doesn't act, while Fortinbras risks thousands of lives over dirt. The speech simultaneously admires and quietly questions the honor code it seems to endorse.",
+    "sources": [
+      {
+        "name": "Jenkins, Arden 2 Hamlet (1982)",
+        "citation": "Jenkins, Harold, ed. (1982). Hamlet, Arden 2. Methuen, pp. 359–360 (extended note on the honor paradox at 4.4.53–56)."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2727"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Double-edged honor paradox is a well-supported mainstream reading; annotation names the simpler reading too, so no obvious gloss is suppressed."
+      }
+    ],
+    "note_internal": "Dropped the Montaigne citation (essay mislabelled); the honour-paradox reading is fully supported by Jenkins's extended note."
   },
   {
     "id": "hamlet-2735-fantasy-and-trick-of-fame",
@@ -13074,6 +14375,58 @@
     ]
   },
   {
+    "id": "hamlet-2987-bore-of-the-matter",
+    "play": "hamlet",
+    "tln_start": 2987,
+    "tln_end": 2987,
+    "word_start": 3,
+    "word_end": 6,
+    "anchor_text": "bore of the matter",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Bore' is the internal diameter of a gun barrel — the bigger the bore, the heavier the shot it fires. Hamlet says his words are too light (too small a charge) for the bore (the size and weight) of what he has to tell Horatio. His words are too slight to carry the magnitude of what he has to tell.",
+    "sources": [
+      {
+        "name": "OED s.v. bore",
+        "citation": "OED s.v. bore n.² 1: the internal diameter of a tube, especially a gun-barrel; the calibre of a firearm."
+      },
+      {
+        "name": "Jenkins, Arden 2 Hamlet (1982)",
+        "citation": "Jenkins, H., ed. (1982). Hamlet, Arden 2. Methuen, note on IV.vi.24: 'bore = calibre; the words are insufficient for the magnitude of the news.'"
+      }
+    ],
+    "confidence": "medium",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2987"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "OED bore n.² 'internal diameter of a gun barrel / calibre' is basic and confirmed by multiple independent sources. Jenkins Arden 2 bore=calibre reading is the standard scholarly gloss; exact note wording unverifiable but claim is uncontroversial."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the reading was trimmed to its well-sourced core; the overreaching claim was removed. See note_internal."
+      }
+    ],
+    "note_internal": "Trimmed the 'explosive/gunpowder' overreach (interpretation judge); kept bore=calibre and the weight/capacity reading, sourced to OED and Jenkins."
+  },
+  {
     "id": "hamlet-3005-unsinewd",
     "play": "hamlet",
     "tln_start": 3005,
@@ -13174,6 +14527,58 @@
         "note": "Astronomical sense well-supported by OED and Jenkins; immediately confirmed by the star-sphere line following. Reading is mainstream."
       }
     ]
+  },
+  {
+    "id": "hamlet-3010-star-sphere",
+    "play": "hamlet",
+    "tln_start": 3010,
+    "tln_end": 3010,
+    "word_start": 1,
+    "word_end": 9,
+    "anchor_text": "as the star moves not but in his sphere",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "Elizabethan cosmology held that each star (and planet) was fixed to a hollow crystalline sphere that revolved around the Earth. Stars could not move independently — they only moved because their sphere moved. Claudius says he and Gertrude are inseparable in the same way.",
+    "sources": [
+      {
+        "name": "Tillyard, The Elizabethan World Picture",
+        "citation": "Tillyard, E. M. W. (1943). The Elizabethan World Picture. Chatto & Windus (on the celestial/crystalline spheres)."
+      },
+      {
+        "name": "Jenkins (Arden 2 Hamlet, 1982)",
+        "citation": "Jenkins, H., ed. (1982). Hamlet, Arden 2. Methuen, note on 4.7.15."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 3010"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Tillyard's crystalline-spheres account is standard Elizabethan cosmology. Jenkins corroborates. No stretch."
+      }
+    ],
+    "note_internal": "Generalized the Tillyard citation (the 'ch.3' reference was wrong); retained Jenkins."
   },
   {
     "id": "hamlet-3015-spring-wood-to-stone",
@@ -13837,6 +15242,102 @@
         "note": "Willow as grief/forsaken-love emblem is long-established. Hoar leaves = silvery-white underside is botanically correct."
       }
     ]
+  },
+  {
+    "id": "hamlet-3178-long-purples",
+    "play": "hamlet",
+    "tln_start": 3178,
+    "tln_end": 3178,
+    "word_start": 5,
+    "word_end": 6,
+    "anchor_text": "long purples,",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "'Long purples' is generally identified as the early purple orchid (Orchis mascula), which grows in damp meadows and has tall spikes of purple flowers. Its roots are finger-shaped tubers — which is why 'liberal' (coarse-spoken) shepherds gave them a sexual nickname, while 'cold maids' (chaste women) called them 'dead men's fingers.' Shakespeare uses both names to layer innocence and death into a single flower.",
+    "sources": [
+      {
+        "name": "Jenkins (Arden 2 Hamlet, 1982)",
+        "citation": "Jenkins, H., ed. (1982). Hamlet, Arden 2. Methuen, note on 4.7.169–170: identification of 'long purples' as Orchis mascula."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 3178"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Orchis mascula identification is standard (Gerard, Jenkins). Finger-shaped tubers as basis for both names is botanically accurate."
+      }
+    ],
+    "note_internal": "Dropped the Gerard Herball citation (does not support the name); softened the identification; retained Jenkins's note."
+  },
+  {
+    "id": "hamlet-3180-dead-mens-fingers",
+    "play": "hamlet",
+    "tln_start": 3180,
+    "tln_end": 3180,
+    "word_start": 5,
+    "word_end": 9,
+    "anchor_text": "dead men's fingers call them",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "The tuber-roots of the early purple orchid are pale, forked, and roughly finger-shaped — hence chaste women ('cold maids') called them 'dead men's fingers.' The name prefigures Ophelia's own death and carries a grim aptness: she wove into her garland a flower named after corpses as she went to her drowning.",
+    "sources": [
+      {
+        "name": "Jenkins (Arden 2 Hamlet, 1982)",
+        "citation": "Jenkins, H., ed. (1982). Hamlet, Arden 2. Methuen, note on 4.7.170."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 3180"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Correctly presents 'dead men's fingers' as the chaste name (pale forked tubers); does not overstate bawdy content. Death-prefiguring is standard."
+      }
+    ],
+    "note_internal": "Dropped the Gerard Herball citation (does not document the name for Orchis mascula); retained Jenkins. The dual flower-names are spoken in the play text itself."
   },
   {
     "id": "hamlet-3182-envious-sliver",
@@ -16009,6 +17510,58 @@
     ]
   },
   {
+    "id": "hamlet-3629-imponed",
+    "play": "hamlet",
+    "tln_start": 3629,
+    "tln_end": 3629,
+    "word_start": 3,
+    "word_end": 5,
+    "anchor_text": "he has imponed",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Imponed' means staked or wagered — from Latin imponere, 'to lay on, stake'. Hamlet later teases Osric about using 'carriages' instead of 'hangers,' and the whole passage mocks Osric's pseudo-French courtly vocabulary.",
+    "sources": [
+      {
+        "name": "OED s.v. impone",
+        "citation": "OED s.v. impone v. (obsolete, rare): 'to stake, wager,' used only in Shakespeare."
+      },
+      {
+        "name": "Jenkins (Arden 2 Hamlet, 1982)",
+        "citation": "Jenkins, Harold, ed. (1982). Hamlet, Arden 2. Methuen. p. 395 n. 3629."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 3629"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Wagered/staked is the correct sense; etymology (French/Spanish) is uncertain and slightly overclaimed, but the meaning gloss is accurate and student-useful."
+      }
+    ],
+    "note_internal": "Corrected the etymology (OED derives 'impone' from Latin imponere, not French/Spanish); retained OED and Jenkins."
+  },
+  {
     "id": "hamlet-3637-german-to-matter",
     "play": "hamlet",
     "tln_start": 3637,
@@ -16374,6 +17927,58 @@
         "note": "Foil double pun (sword/metallic backing) is standard; darkly ironic framing is apt; all major editors note it; the impending death makes it dramatically resonant."
       }
     ]
+  },
+  {
+    "id": "hamlet-3744-union",
+    "play": "hamlet",
+    "tln_start": 3744,
+    "tln_end": 3744,
+    "word_start": 1,
+    "word_end": 8,
+    "anchor_text": "in the cup an union shall he throw",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "A 'union' (also 'onion pearl') was a large, flawless pearl of the first quality — so called because it was unique, one of a kind. Claudius pretends to toast Hamlet's health by dissolving a precious pearl in wine, a theatrical gesture of royal generosity; in fact the pearl conceals the poison that will kill Gertrude.",
+    "sources": [
+      {
+        "name": "OED s.v. union",
+        "citation": "OED s.v. union n.2 (obsolete): 'a pearl of the finest quality'; from Latin unio, a unique pearl. Cf. Pliny, Natural History Book 9, on pearls."
+      },
+      {
+        "name": "Jenkins (Arden 2 Hamlet, 1982)",
+        "citation": "Jenkins, Harold, ed. (1982). Hamlet, Arden 2. Methuen. pp. 401–402 n. 3744."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 3744"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Union as large flawless pearl (Latin unio) is confirmed by OED and Jenkins; its role as poison vehicle is accurate to the plot; sound and student-essential."
+      }
+    ],
+    "note_internal": "Generalized the embedded Pliny reference to Book 9 (the precise section was wrong); retained OED and Jenkins."
   },
   {
     "id": "hamlet-3789-woodcock-springe",
@@ -16847,1610 +18452,5 @@
         "note": "Military funeral honors transforming court carnage into heroic death is the standard thematic reading; Gurr page reference uncertain but the broader interpretation is sound."
       }
     ]
-  },
-  {
-    "id": "hamlet-1250-words-words-words",
-    "play": "hamlet",
-    "tln_start": 1250,
-    "tln_end": 1250,
-    "word_start": 0,
-    "word_end": 2,
-    "anchor_text": "Words, words, words.",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "Hamlet deflects Polonius's question about what he is reading with a dismissive triple repetition. The line enacts its own meaning: language is mere repetition, signifying nothing. It also mocks Polonius's own windy style.",
-    "sources": [
-      {
-        "name": "Jenkins (Arden 2 Hamlet, 1982)",
-        "citation": "Jenkins, H., ed. (1982). Hamlet, Arden 2. Methuen, p. 251 (note on 2.2.192)."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1250"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Triple repetition as evasion and implicit mockery of Polonius's verbosity is the obvious, mainstream reading. 'Language is mere repetition' is a sound additional layer but does not overclaim."
-      }
-    ],
-    "note_internal": "Dropped Kerrigan (Revenge Tragedy) — not a source for this rhetorical reading; retained Jenkins Arden 2."
-  },
-  {
-    "id": "hamlet-127-julius-fell",
-    "play": "hamlet",
-    "tln_start": 127,
-    "tln_end": 127,
-    "word_start": 0,
-    "word_end": 6,
-    "anchor_text": "A little ere the mightiest Julius fell,",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "Horatio cites the assassination of Julius Caesar (44 BCE) as a historical parallel: the dead walked and omens filled the sky before that catastrophe. Shakespeare's audience had just seen his Julius Caesar on stage (c. 1599), making this allusion topically fresh. The omens Horatio lists — graves standing 'tenantless,' sheeted dead gibbering in the streets — echo the prodigies reported before Caesar's death, though the vivid images are Shakespeare's own.",
-    "sources": [
-      {
-        "name": "Plutarch (North trans. 1579), Caesar",
-        "citation": "Plutarch, Lives, 'Caesar' §63 (North trans. 1579): prodigies — fires, strange noises, apparitions — preceding the Ides of March."
-      },
-      {
-        "name": "Jenkins (Arden 2 Hamlet, 1982)",
-        "citation": "Jenkins, Harold, ed. (1982). Hamlet, Arden 2. Methuen. p. 177 n. 114–117."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 127"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The Julius Caesar allusion drawing on Plutarch's prodigies is thoroughly mainstream (Jenkins, Plutarch). The note on topical freshness given Shakespeare's Julius Caesar is well-supported."
-      }
-    ],
-    "note_internal": "Removed the overclaim that Plutarch contains the 'sheeted dead'/'tenantless graves' imagery; Plutarch retained for the prodigies, Jenkins for the reading."
-  },
-  {
-    "id": "hamlet-1477-rugged-pyrrhus",
-    "play": "hamlet",
-    "tln_start": 1477,
-    "tln_end": 1477,
-    "word_start": 0,
-    "word_end": 5,
-    "anchor_text": "The rugged Pyrrhus,--he whose sable arms",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "Pyrrhus (also called Neoptolemus) was the son of Achilles, who famously killed the aged Trojan king Priam at the altar during the sack of Troy. His name was a byword for savage, pitiless violence. Shakespeare's speech draws on Virgil's Aeneid Book 2 but elaborates in a deliberately archaic, bombastic style.",
-    "sources": [
-      {
-        "name": "Virgil, Aeneid",
-        "citation": "Virgil, Aeneid 2.469–558 (Pyrrhus/Neoptolemus killing Priam)."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1477"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Pyrrhus/Neoptolemus as pitiless killer of Priam is correct mythology; Virgil Aeneid 2 and Ovid Met. 13 are the right sources. The 'deliberately archaic, bombastic style' point is the standard critical observation about this speech."
-      }
-    ],
-    "note_internal": "Dropped Ovid Met. 13.155–162 (those lines are Ulysses' kinship argument, not Pyrrhus's deeds); Virgil Aeneid 2 is the true source and is retained."
-  },
-  {
-    "id": "hamlet-165-cock-trumpet-morn",
-    "play": "hamlet",
-    "tln_start": 165,
-    "tln_end": 165,
-    "word_start": 0,
-    "word_end": 8,
-    "anchor_text": "The cock, that is the trumpet to the morn,",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "In Elizabethan folk belief, the crowing of the rooster at dawn was thought to dispel all supernatural creatures — ghosts, witches, and fairies — sending them back to their realm. The cock was therefore a kind of herald of the sun and divine order, whose call literally commanded spirits to leave. This belief is why the Ghost departs when it crows.",
-    "sources": [
-      {
-        "name": "Jenkins (Arden 2 Hamlet, 1982)",
-        "citation": "Jenkins, Harold, ed. (1982). Hamlet, Arden 2. Methuen. p. 181 n. 150–156."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 165"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Cockcrow as dispelling supernatural creatures at dawn is standard Elizabethan folk belief, well-documented in Keith Thomas and Jenkins. Directly explains why the Ghost departs."
-      }
-    ],
-    "note_internal": "Dropped fabricated Keith Thomas pp.732–733 (the book is 716pp); retained Jenkins Arden 2."
-  },
-  {
-    "id": "hamlet-1696-sea-of-troubles",
-    "play": "hamlet",
-    "tln_start": 1696,
-    "tln_end": 1696,
-    "word_start": 1,
-    "word_end": 8,
-    "anchor_text": "to take arms against a sea of troubles",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "A deliberate logical contradiction (paradox or mixed metaphor): you cannot fight a sea with weapons. Some editors call it catachresis — the strained misapplication of an image. The illogic mimics Hamlet's dilemma: action against an overwhelming, shapeless force cannot succeed.",
-    "sources": [
-      {
-        "name": "Jenkins (Arden 2 Hamlet, 1982)",
-        "citation": "Jenkins, H., ed. (1982). Hamlet, Arden 2. Methuen, p. 483, note on 'sea of troubles.'"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1696"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Deliberate mixed metaphor or catachresis is the mainstream scholarly reading; the illogic is interpretively meaningful, not a flaw. Jenkins and most editors concur. Well-supported."
-      }
-    ],
-    "note_internal": "Dropped Cercignani (a phonology study with no figurative-sea content); retained Jenkins Arden 2."
-  },
-  {
-    "id": "hamlet-1709-laws-delay",
-    "play": "hamlet",
-    "tln_start": 1709,
-    "tln_end": 1710,
-    "word_start": 5,
-    "word_end": 3,
-    "anchor_text": "the law's delay,\nThe insolence of office",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "These are recognizable Elizabethan grievances. The courts of Chancery and Common Law were notorious for ruinously slow proceedings; 'the insolence of office' names the arrogance of minor officials who abused their authority. A contemporary London audience would have felt both complaints keenly.",
-    "sources": [
-      {
-        "name": "Jenkins (Arden 2 Hamlet, 1982)",
-        "citation": "Jenkins, H., ed. (1982). Hamlet, Arden 2. Methuen, p. 485, note on 'law's delay' and 'office.'"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1709"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Historical grounding in Elizabethan legal delays and official arrogance is mainstream; Jenkins supports it. The audience-resonance claim is reasonable inference, not overreach."
-      }
-    ],
-    "note_internal": "Dropped Gurr pp.194–196 (wrong chapter — playhouses, not court grievances); retained Jenkins Arden 2."
-  },
-  {
-    "id": "hamlet-173-christmas-cockcrow",
-    "play": "hamlet",
-    "tln_start": 173,
-    "tln_end": 173,
-    "word_start": 0,
-    "word_end": 7,
-    "anchor_text": "Some say that ever 'gainst that season comes",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "Marcellus voices a widespread English folk belief that during the Christmas season — 'Wherein our Saviour's birth is celebrated' — the rooster crowed all night, and as a result no evil spirits, fairies, or witches could be active. The belief blended Christian sacred time with older folk superstition about protective power at midwinter. No spirits could harm anyone during those holy nights.",
-    "sources": [
-      {
-        "name": "Jenkins (Arden 2 Hamlet, 1982)",
-        "citation": "Jenkins, Harold, ed. (1982). Hamlet, Arden 2. Methuen. p. 181 n. 158–164 (Christmas cockcrow tradition)."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 173"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The Christmas cockcrow tradition neutralizing evil spirits is documented English folk belief (Thomas, Jenkins). Correctly identifies the blend of Christian and folk superstition. No overreach."
-      }
-    ],
-    "note_internal": "Dropped fabricated Keith Thomas pp.732–733; retained Jenkins Arden 2."
-  },
-  {
-    "id": "hamlet-1778-god-hath-given-one-face",
-    "play": "hamlet",
-    "tln_start": 1778,
-    "tln_end": 1779,
-    "word_start": 9,
-    "word_end": 8,
-    "anchor_text": "God hath given you one face, and you make yourselves another",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "Hamlet attacks cosmetics — face-paint, powder, and rouge — as a form of deception that violates the face God made. The condemnation of female cosmetics was a standard Elizabethan moralist and Puritan theme, found in sermons and pamphlets. Hamlet's fury about false appearances (the play's running theme) here lands on Ophelia as a proxy for the whole corrupt court.",
-    "sources": [
-      {
-        "name": "Jenkins (Arden 2 Hamlet, 1982)",
-        "citation": "Jenkins, H., ed. (1982). Hamlet, Arden 2. Methuen, p. 496, note on paintings and cosmetics."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1778"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Anti-cosmetics moralizing as a Puritan/Elizabethan trope is well-documented. Reading Ophelia as a proxy for court corruption is a mainstream interpretive move, not overreach. Sound and useful."
-      }
-    ],
-    "note_internal": "Dropped Gurr p.96 (wrong chapter); retained Jenkins Arden 2."
-  },
-  {
-    "id": "hamlet-1779-jig-amble-lisp",
-    "play": "hamlet",
-    "tln_start": 1779,
-    "tln_end": 1780,
-    "word_start": 9,
-    "word_end": 3,
-    "anchor_text": "you jig, you amble, and you lisp",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "Hamlet attacks the affected mannerisms taught to upper-class Elizabethan women: jigging (mincing, skipping steps), ambling (a slow, deliberate gait used for show), and lisping (affecting a childish or fashionably foreign pronunciation). These were recognized markers of courtly performance, not natural behavior.",
-    "sources": [
-      {
-        "name": "OED s.v. amble",
-        "citation": "OED s.v. amble v. 2 (figurative): to walk in an affected, mincing manner."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1779"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Courtly affectation reading of these three verbs is standard; OED confirms 'amble' in affected-gait sense. Gurr's cultural context is appropriate. Claim that these were 'taught' is reasonable inference."
-      }
-    ],
-    "note_internal": "Dropped Gurr pp.95–97 (wrong chapter); retained OED s.v. amble."
-  },
-  {
-    "id": "hamlet-1965-neptune-tellus",
-    "play": "hamlet",
-    "tln_start": 1965,
-    "tln_end": 1965,
-    "word_start": 0,
-    "word_end": 6,
-    "anchor_text": "Neptune's salt wash and Tellus' orbed ground",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "Neptune (Roman god of the sea) and Tellus (Roman earth-goddess) are used as elevated names for 'the sea' and 'the earth.' The Player King is consciously imitating the ornate style of Roman tragedy; Shakespeare often gives play-within-the-play verse a more archaic, Latinized flavor to signal it as performance.",
-    "sources": [
-      {
-        "name": "Jenkins, Arden 2 Hamlet",
-        "citation": "Jenkins, H., ed. (1982). Hamlet, Arden 2. Methuen, p. 301 (note on the deliberately archaic style of the Gonzago play)."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1965"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Neptune and Tellus as sea and earth is standard classical usage. Ovid Met. 1 citation is appropriate. Note on archaic Latinised style of the play-within-the-play is a well-established critical point."
-      }
-    ],
-    "note_internal": "Dropped Ovid Met. 1.9–20 (describes formless chaos, does not name Neptune/Tellus); retained Jenkins on the deliberately archaic style."
-  },
-  {
-    "id": "hamlet-2066-hecate",
-    "play": "hamlet",
-    "tln_start": 2066,
-    "tln_end": 2066,
-    "word_start": 1,
-    "word_end": 2,
-    "anchor_text": "Hecate's ban",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "Hecate was the Greek goddess of witchcraft, crossroads, and the underworld — the patron of poisoners and enchanters. Her 'ban' (curse) thrice repeated invokes the dark magic of triple repetition, a standard incantation formula. Lucianus is presenting himself as a witch-doctor poisoner.",
-    "sources": [
-      {
-        "name": "Ovid, Metamorphoses",
-        "citation": "Ovid, Metamorphoses Book 7 (Medea's invocation of Hecate in her witchcraft)."
-      },
-      {
-        "name": "OED s.v. ban",
-        "citation": "OED s.v. ban n. 1a: a formal curse or denunciation, especially by supernatural power."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2066"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Hecate as goddess of witchcraft and poisons is standard; Ovid Met. 7 (Medea) is a fitting parallel. Triple repetition as incantation formula is well-attested. Sound and helpful."
-      }
-    ],
-    "note_internal": "Generalized the Ovid citation to Book 7 (Medea and Hecate) instead of a wrong line range; retained OED s.v. ban."
-  },
-  {
-    "id": "hamlet-2230-rank-smells-to-heaven",
-    "play": "hamlet",
-    "tln_start": 2230,
-    "tln_end": 2230,
-    "word_start": 0,
-    "word_end": 8,
-    "anchor_text": "O, my offence is rank, it smells to heaven",
-    "type": "biblical_allusion",
-    "depth": "basic",
-    "summary": "An echo of Genesis 4:10, where God tells Cain 'the voice of thy brother's blood crieth unto me from the earth' after the first murder. Claudius's guilt literally 'cries to heaven' just as Cain's did. 'Rank' means foul-smelling as well as festering — a dual sense that reinforces the corruption.",
-    "sources": [
-      {
-        "name": "Geneva Bible 1599",
-        "citation": "Genesis 4:10 (Geneva 1599): 'the voyce of thy brothers blood cryeth unto me from the earth.'"
-      },
-      {
-        "name": "Jenkins, Arden 2 Hamlet",
-        "citation": "Jenkins, H., ed. (1982). Hamlet, Arden 2. Methuen. note on 3.3.36."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2230"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Cain/Abel echo via Gen 4:10 is the standard scholarly reading; 'rank' dual sense (foul-smelling and festering) is mainstream and well-supported by Jenkins."
-      }
-    ],
-    "note_internal": "Corrected the Geneva 1599 wording ('from the earth,' not the KJV 'from the ground'); retained Jenkins."
-  },
-  {
-    "id": "hamlet-2282-hent",
-    "play": "hamlet",
-    "tln_start": 2282,
-    "tln_end": 2282,
-    "word_start": 0,
-    "word_end": 8,
-    "anchor_text": "Up, sword, and know thou a more horrid hent",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "'Hent' is an archaic past participle of 'hent' (to seize, to grasp): it means a taking-hold, a grasping, or the occasion for grasping. Hamlet is telling his sword to wait for a more horrifying moment of seizure — a more damnable instant to be drawn. The word had already become unusual by Shakespeare's time, giving the line an elevated, almost incantatory feel.",
-    "sources": [
-      {
-        "name": "OED s.v. hent n.",
-        "citation": "OED s.v. hent n. (archaic/dialectal): a seizing, grasp; opportunity of seizing."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2282"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "OED and Onions confirm 'hent' as archaic seizing/occasion; note on elevated incantatory register is reasonable and standard; no overreach."
-      }
-    ],
-    "note_internal": "Dropped Onions (lists 'hent' only as a verb, not the noun sense glossed here); retained OED s.v. hent n."
-  },
-  {
-    "id": "hamlet-2356-hyperion-curls",
-    "play": "hamlet",
-    "tln_start": 2356,
-    "tln_end": 2356,
-    "word_start": 0,
-    "word_end": 1,
-    "anchor_text": "Hyperion's curls",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "Hyperion is the Titan of radiant light in Greek myth, father of the sun, famously beautiful. His curls stood for divine solar splendor. Hamlet borrows the image from earlier in the play (1.2: 'Hyperion to a satyr') to insist his father's beauty was godlike — sunlight compared to Claudius's shadow.",
-    "sources": [
-      {
-        "name": "Hesiod, Theogony",
-        "citation": "Hesiod, Theogony 134–138 (Hyperion among the Titans of light)."
-      },
-      {
-        "name": "Ovid, Metamorphoses",
-        "citation": "Ovid, Metamorphoses 4.192 (the Sun addressed as 'son of Hyperion,' Hyperione natus)."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2356"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Standard classical allusion; link back to 1.2 is accurate and pedagogically useful. Hyperion as solar Titan of radiant beauty is mainstream. No overreach."
-      }
-    ],
-    "note_internal": "Corrected the Ovid 4.192 gloss (the Sun is named as Hyperion's son, not Hyperion himself); retained Hesiod for Hyperion the Titan."
-  },
-  {
-    "id": "hamlet-2357-eye-like-mars",
-    "play": "hamlet",
-    "tln_start": 2357,
-    "tln_end": 2357,
-    "word_start": 0,
-    "word_end": 7,
-    "anchor_text": "An eye like Mars, to threaten and command",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "Mars was the Roman god of war — fierce-eyed, armored, commanding in battle. The simile gives the dead king's gaze a martial authority: not merely kingly but warrior-divine. The three gods (Hyperion, Jove, Mars) make up a composite portrait of ideal kingship — beauty, authority, power.",
-    "sources": [
-      {
-        "name": "Jenkins (Arden 2 Hamlet, 1982)",
-        "citation": "Jenkins, H., ed. (1982). Hamlet, Arden 2. Methuen. p. 320, note on the divine composite."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2357"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Mars as fierce-eyed war-god is standard. The composite-portrait frame (Hyperion, Jove, Mars = beauty, authority, power) is the consensus scholarly reading, articulated in all major editions."
-      }
-    ],
-    "note_internal": "Dropped Ovid Met. 14.820 (Mars petitioning Jupiter, not a 'commanding aspect'); retained Jenkins."
-  },
-  {
-    "id": "hamlet-2484-scourge-and-minister",
-    "play": "hamlet",
-    "tln_start": 2484,
-    "tln_end": 2484,
-    "word_start": 4,
-    "word_end": 7,
-    "anchor_text": "their scourge and minister",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "A theologically precise pair: a scourge is God's instrument of punishment on the wicked (who may himself be destroyed in the process, like Attila the Hun — 'the scourge of God'); a minister is a righteous agent of divine will who survives the act. Hamlet sees himself as both and is uncertain which — the distinction matters because the scourge is damned, the minister is not.",
-    "sources": [
-      {
-        "name": "Jenkins (Arden 2 Hamlet, 1982)",
-        "citation": "Jenkins, H., ed. (1982). Hamlet, Arden 2. Methuen. pp. 345–346, long note on 'scourge and minister.'"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2484"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The theological distinction — scourge (damned instrument) vs. minister (righteous agent) — is the consensus view, most fully developed by Jenkins and Elton. Central to Hamlet's moral anxiety. No overreach."
-      }
-    ],
-    "note_internal": "Dropped the Elton SQ 39.1 citation (not located in that issue); retained Jenkins's long note on 'scourge and minister.'"
-  },
-  {
-    "id": "hamlet-2539-brainish-apprehension",
-    "play": "hamlet",
-    "tln_start": 2539,
-    "tln_end": 2539,
-    "word_start": 3,
-    "word_end": 4,
-    "anchor_text": "brainish apprehension",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "'Brainish' means frenzied, brain-sick (the word predates the play and is not a Shakespearean coinage). 'Apprehension' here means a seizure of imagination or delusion, not arrest or understanding. Together: 'frenzied delusion.' Gertrude is framing the killing as pure madness, not intent.",
-    "sources": [
-      {
-        "name": "OED s.v. brainish",
-        "citation": "OED s.v. brainish adj. (archaic): frenzied, hot-brained."
-      },
-      {
-        "name": "OED s.v. apprehension",
-        "citation": "OED s.v. apprehension n. 4 (obsolete): a mental seizure, an imagining; a fixed delusive notion."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2539"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Both archaic senses are mainstream and OED-attested. Framing Gertrude as softening the killing is a well-supported contextual observation, not an overreach."
-      }
-    ],
-    "note_internal": "Removed the false coinage claim (OED records 'brainish' from 1530, Palsgrave); retained both OED senses."
-  },
-  {
-    "id": "hamlet-2546-providence",
-    "play": "hamlet",
-    "tln_start": 2546,
-    "tln_end": 2546,
-    "word_start": 7,
-    "word_end": 7,
-    "anchor_text": "providence",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "Providence here means practical foresight and prudent management — a king's duty to anticipate danger — not divine care or fate (its more familiar religious sense). Claudius is saying his job was to foresee and control Hamlet, and he failed it. The word is doing political, not theological, work.",
-    "sources": [
-      {
-        "name": "OED s.v. providence",
-        "citation": "OED s.v. providence n. 2 (now rare): foresight, prudent management; care taken for the future."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2546"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Secular foresight sense is correct for this political context; the annotation rightly warns against importing the theological sense. Standard reading."
-      }
-    ],
-    "note_internal": "Dropped the Onions citation (quoted wording did not match the entry); retained OED s.v. providence (n. 2), 'foresight, prudent management.'"
-  },
-  {
-    "id": "hamlet-2579-compounded-with-dust",
-    "play": "hamlet",
-    "tln_start": 2579,
-    "tln_end": 2579,
-    "word_start": 0,
-    "word_end": 6,
-    "anchor_text": "Compounded it with dust, whereto 'tis kin",
-    "type": "biblical_allusion",
-    "depth": "basic",
-    "summary": "Hamlet answers that he has mixed Polonius's body with dust — because human bodies are made of dust and return to it. The phrase echoes the burial sentence from Genesis: 'because thou art dust, and to dust shalt thou return.' The flippant tone makes the scriptural echo darkly comic.",
-    "sources": [
-      {
-        "name": "Geneva Bible 1599",
-        "citation": "Genesis 3:19 (Geneva 1599): 'because thou art dust, and to dust shalt thou returne.'"
-      },
-      {
-        "name": "Jenkins (Arden 2 Hamlet, 1982)",
-        "citation": "Jenkins, H., ed. (1982). Hamlet, Arden 2. Methuen, p. 351, note on 4.2.6."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2579"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Genesis 3:19 echo is universally recognized by editors; darkly comic tone on scriptural phrase is mainstream, not sensationalized."
-      }
-    ],
-    "note_internal": "Corrected the Geneva 1599 wording (KJV phrasing replaced); retained Jenkins."
-  },
-  {
-    "id": "hamlet-2605-distracted-multitude",
-    "play": "hamlet",
-    "tln_start": 2605,
-    "tln_end": 2606,
-    "word_start": 0,
-    "word_end": 8,
-    "anchor_text": "He's lov'd of the distracted multitude,\nWho like not in their judgment, but their eyes",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "'Distracted' here means confused, unable to think clearly — not angry or upset. Claudius is making a standard Elizabethan argument against democracy: the common people judge by appearances ('their eyes') rather than by rational assessment ('their judgment'), so punishing a popular prince will look like tyranny even if it is justice.",
-    "sources": [
-      {
-        "name": "OED s.v. distracted adj.",
-        "citation": "OED s.v. distracted adj. 2 (obsolete): 'Confused or perplexed in mind; bewildered.'"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2605"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "'Distracted' as confused is correct; the eye/judgment political topos is real and mainstream; Kantorowicz citation is oblique but does not impeach the interpretation."
-      }
-    ],
-    "note_internal": "Dropped Kantorowicz (Ch.1 covers the King's-Two-Bodies doctrine, not this topos) and the sweeping closing claim; retained OED s.v. distracted."
-  },
-  {
-    "id": "hamlet-2610-deliberate-pause",
-    "play": "hamlet",
-    "tln_start": 2610,
-    "tln_end": 2611,
-    "word_start": 0,
-    "word_end": 4,
-    "anchor_text": "Deliberate pause: diseases desperate grown\nBy desperate appliance are reliev'd",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "'Appliance' is an archaic word for a remedy or treatment, and 'deliberate pause' means a considered, intentional delay. The medical metaphor (desperate disease needs desperate remedy) is a common Elizabethan proverb, roughly equivalent to 'desperate times call for desperate measures.'",
-    "sources": [
-      {
-        "name": "OED s.v. appliance n.",
-        "citation": "OED s.v. appliance n. 3 (archaic): 'A remedy, cure, or means of relief.' Now obsolete in this sense."
-      },
-      {
-        "name": "Tilley, A Dictionary of the Proverbs (1950)",
-        "citation": "Tilley, M. P. (1950). A Dictionary of the Proverbs in England in the Sixteenth and Seventeenth Centuries. University of Michigan Press. D354: 'Desperate diseases must have desperate remedies.'"
-      }
-    ],
-    "confidence": "medium",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2610"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "OED appliance n. 3 (remedy/cure, archaic) is a genuine entry. Tilley 1950 Univ. of Michigan Press confirmed real; D354 'desperate diseases must have desperate remedies' is a documented proverb entry."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the reading was trimmed to its well-sourced core; the overreaching claim was removed. See note_internal."
-      }
-    ],
-    "note_internal": "Trimmed the contested reading of Claudius's motive (interpretation judge); kept the archaic-vocabulary gloss and the proverb, sourced to OED and Tilley."
-  },
-  {
-    "id": "hamlet-2633-progress",
-    "play": "hamlet",
-    "tln_start": 2633,
-    "tln_end": 2634,
-    "word_start": 6,
-    "word_end": 4,
-    "anchor_text": "a king may go a progress through\nthe guts of a beggar",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "A royal 'progress' was the Tudor/Elizabethan monarch's ceremonial journey through the country — a grand procession through towns and great houses, demanding hospitality and displaying power. Queen Elizabeth I's progresses were famous annual events. Hamlet's joke is that the king's greatest journey ends inside a beggar's intestines, which perfectly inverts the pomp of royal travel.",
-    "sources": [
-      {
-        "name": "OED s.v. progress n.",
-        "citation": "OED s.v. progress n. 4: 'A state journey made by a royal or noble personage through the country.' (Elizabethan usage.)"
-      },
-      {
-        "name": "Jenkins, Arden 2 Hamlet (1982)",
-        "citation": "Jenkins, H., ed. (1982). Hamlet, Arden 2. Methuen. Note to 4.3.30–31, p. 345."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2633"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Royal progress as ceremonial journey is exact (OED, Jenkins); the ironic inversion of royal pomp into intestinal transit is the intended joke and is mainstream."
-      }
-    ],
-    "note_internal": "Dropped Chambers Vol.1 pp.105–114 (wrong section); retained OED s.v. progress and Jenkins."
-  },
-  {
-    "id": "hamlet-2727-rightly-to-be-great",
-    "play": "hamlet",
-    "tln_start": 2727,
-    "tln_end": 2727,
-    "word_start": 4,
-    "word_end": 7,
-    "anchor_text": "Rightly to be great",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "This is one of the play's most compressed paradoxes. Hamlet appears to argue that true greatness does NOT require a major grievance — that a great man will fight over nothing ('a straw') if his honor demands it. But the logic is double-edged: Hamlet himself has the biggest possible cause (a murdered father, a corrupted kingdom) and still doesn't act, while Fortinbras risks thousands of lives over dirt. The speech simultaneously admires and quietly questions the honor code it seems to endorse.",
-    "sources": [
-      {
-        "name": "Jenkins, Arden 2 Hamlet (1982)",
-        "citation": "Jenkins, Harold, ed. (1982). Hamlet, Arden 2. Methuen, pp. 359–360 (extended note on the honor paradox at 4.4.53–56)."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2727"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Double-edged honor paradox is a well-supported mainstream reading; annotation names the simpler reading too, so no obvious gloss is suppressed."
-      }
-    ],
-    "note_internal": "Dropped the Montaigne citation (essay mislabelled); the honour-paradox reading is fully supported by Jenkins's extended note."
-  },
-  {
-    "id": "hamlet-2987-bore-of-the-matter",
-    "play": "hamlet",
-    "tln_start": 2987,
-    "tln_end": 2987,
-    "word_start": 3,
-    "word_end": 6,
-    "anchor_text": "bore of the matter",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "'Bore' is the internal diameter of a gun barrel — the bigger the bore, the heavier the shot it fires. Hamlet says his words are too light (too small a charge) for the bore (the size and weight) of what he has to tell Horatio. His words are too slight to carry the magnitude of what he has to tell.",
-    "sources": [
-      {
-        "name": "OED s.v. bore",
-        "citation": "OED s.v. bore n.² 1: the internal diameter of a tube, especially a gun-barrel; the calibre of a firearm."
-      },
-      {
-        "name": "Jenkins, Arden 2 Hamlet (1982)",
-        "citation": "Jenkins, H., ed. (1982). Hamlet, Arden 2. Methuen, note on IV.vi.24: 'bore = calibre; the words are insufficient for the magnitude of the news.'"
-      }
-    ],
-    "confidence": "medium",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2987"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "OED bore n.² 'internal diameter of a gun barrel / calibre' is basic and confirmed by multiple independent sources. Jenkins Arden 2 bore=calibre reading is the standard scholarly gloss; exact note wording unverifiable but claim is uncontroversial."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the reading was trimmed to its well-sourced core; the overreaching claim was removed. See note_internal."
-      }
-    ],
-    "note_internal": "Trimmed the 'explosive/gunpowder' overreach (interpretation judge); kept bore=calibre and the weight/capacity reading, sourced to OED and Jenkins."
-  },
-  {
-    "id": "hamlet-3010-star-sphere",
-    "play": "hamlet",
-    "tln_start": 3010,
-    "tln_end": 3010,
-    "word_start": 1,
-    "word_end": 9,
-    "anchor_text": "as the star moves not but in his sphere",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "Elizabethan cosmology held that each star (and planet) was fixed to a hollow crystalline sphere that revolved around the Earth. Stars could not move independently — they only moved because their sphere moved. Claudius says he and Gertrude are inseparable in the same way.",
-    "sources": [
-      {
-        "name": "Tillyard, The Elizabethan World Picture",
-        "citation": "Tillyard, E. M. W. (1943). The Elizabethan World Picture. Chatto & Windus (on the celestial/crystalline spheres)."
-      },
-      {
-        "name": "Jenkins (Arden 2 Hamlet, 1982)",
-        "citation": "Jenkins, H., ed. (1982). Hamlet, Arden 2. Methuen, note on 4.7.15."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 3010"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Tillyard's crystalline-spheres account is standard Elizabethan cosmology. Jenkins corroborates. No stretch."
-      }
-    ],
-    "note_internal": "Generalized the Tillyard citation (the 'ch.3' reference was wrong); retained Jenkins."
-  },
-  {
-    "id": "hamlet-3178-long-purples",
-    "play": "hamlet",
-    "tln_start": 3178,
-    "tln_end": 3178,
-    "word_start": 5,
-    "word_end": 6,
-    "anchor_text": "long purples,",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "'Long purples' is generally identified as the early purple orchid (Orchis mascula), which grows in damp meadows and has tall spikes of purple flowers. Its roots are finger-shaped tubers — which is why 'liberal' (coarse-spoken) shepherds gave them a sexual nickname, while 'cold maids' (chaste women) called them 'dead men's fingers.' Shakespeare uses both names to layer innocence and death into a single flower.",
-    "sources": [
-      {
-        "name": "Jenkins (Arden 2 Hamlet, 1982)",
-        "citation": "Jenkins, H., ed. (1982). Hamlet, Arden 2. Methuen, note on 4.7.169–170: identification of 'long purples' as Orchis mascula."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 3178"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Orchis mascula identification is standard (Gerard, Jenkins). Finger-shaped tubers as basis for both names is botanically accurate."
-      }
-    ],
-    "note_internal": "Dropped the Gerard Herball citation (does not support the name); softened the identification; retained Jenkins's note."
-  },
-  {
-    "id": "hamlet-3180-dead-mens-fingers",
-    "play": "hamlet",
-    "tln_start": 3180,
-    "tln_end": 3180,
-    "word_start": 5,
-    "word_end": 9,
-    "anchor_text": "dead men's fingers call them",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "The tuber-roots of the early purple orchid are pale, forked, and roughly finger-shaped — hence chaste women ('cold maids') called them 'dead men's fingers.' The name prefigures Ophelia's own death and carries a grim aptness: she wove into her garland a flower named after corpses as she went to her drowning.",
-    "sources": [
-      {
-        "name": "Jenkins (Arden 2 Hamlet, 1982)",
-        "citation": "Jenkins, H., ed. (1982). Hamlet, Arden 2. Methuen, note on 4.7.170."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 3180"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Correctly presents 'dead men's fingers' as the chaste name (pale forked tubers); does not overstate bawdy content. Death-prefiguring is standard."
-      }
-    ],
-    "note_internal": "Dropped the Gerard Herball citation (does not document the name for Orchis mascula); retained Jenkins. The dual flower-names are spoken in the play text itself."
-  },
-  {
-    "id": "hamlet-3629-imponed",
-    "play": "hamlet",
-    "tln_start": 3629,
-    "tln_end": 3629,
-    "word_start": 3,
-    "word_end": 5,
-    "anchor_text": "he has imponed",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "'Imponed' means staked or wagered — from Latin imponere, 'to lay on, stake'. Hamlet later teases Osric about using 'carriages' instead of 'hangers,' and the whole passage mocks Osric's pseudo-French courtly vocabulary.",
-    "sources": [
-      {
-        "name": "OED s.v. impone",
-        "citation": "OED s.v. impone v. (obsolete, rare): 'to stake, wager,' used only in Shakespeare."
-      },
-      {
-        "name": "Jenkins (Arden 2 Hamlet, 1982)",
-        "citation": "Jenkins, Harold, ed. (1982). Hamlet, Arden 2. Methuen. p. 395 n. 3629."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 3629"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Wagered/staked is the correct sense; etymology (French/Spanish) is uncertain and slightly overclaimed, but the meaning gloss is accurate and student-useful."
-      }
-    ],
-    "note_internal": "Corrected the etymology (OED derives 'impone' from Latin imponere, not French/Spanish); retained OED and Jenkins."
-  },
-  {
-    "id": "hamlet-3744-union",
-    "play": "hamlet",
-    "tln_start": 3744,
-    "tln_end": 3744,
-    "word_start": 1,
-    "word_end": 8,
-    "anchor_text": "in the cup an union shall he throw",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "A 'union' (also 'onion pearl') was a large, flawless pearl of the first quality — so called because it was unique, one of a kind. Claudius pretends to toast Hamlet's health by dissolving a precious pearl in wine, a theatrical gesture of royal generosity; in fact the pearl conceals the poison that will kill Gertrude.",
-    "sources": [
-      {
-        "name": "OED s.v. union",
-        "citation": "OED s.v. union n.2 (obsolete): 'a pearl of the finest quality'; from Latin unio, a unique pearl. Cf. Pliny, Natural History Book 9, on pearls."
-      },
-      {
-        "name": "Jenkins (Arden 2 Hamlet, 1982)",
-        "citation": "Jenkins, Harold, ed. (1982). Hamlet, Arden 2. Methuen. pp. 401–402 n. 3744."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 3744"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Union as large flawless pearl (Latin unio) is confirmed by OED and Jenkins; its role as poison vehicle is accurate to the plot; sound and student-essential."
-      }
-    ],
-    "note_internal": "Generalized the embedded Pliny reference to Book 9 (the precise section was wrong); retained OED and Jenkins."
-  },
-  {
-    "id": "hamlet-568-tenders-wordplay",
-    "play": "hamlet",
-    "tln_start": 569,
-    "tln_end": 569,
-    "word_start": 8,
-    "word_end": 8,
-    "anchor_text": "tenders",
-    "type": "wordplay",
-    "depth": "basic",
-    "summary": "Shakespeare runs 'tender' through three different meanings in quick succession: (1) Ophelia uses it as 'offers' or 'expressions' of affection (TLN 568, 572); (2) Polonius twists it to 'coins' or 'legal currency' — 'not sterling' (TLN 575–576); (3) then as the verb 'to offer up' when he says 'Tender yourself more dearly' (TLN 576) and 'you'll tender me a fool' (TLN 578). The financial pun implies Ophelia has been taken in by counterfeit coin and will pay dearly.",
-    "sources": [
-      {
-        "name": "OED s.v. tender",
-        "citation": "OED s.v. tender n. 4a: a formal offer, especially of money in payment of a debt; legal tender."
-      },
-      {
-        "name": "Jenkins (Arden 2 Hamlet, 1982)",
-        "citation": "Jenkins, Harold, ed. (1982). Hamlet, Arden 2. Methuen, pp. 210–211 (extended note on the tender pun sequence)."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 569"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Three-stage tender pun (offers/currency/verb) is the standard Arden reading; annotation traces the sequence accurately through the text."
-      }
-    ],
-    "note_internal": "Dropped Partridge (covers bawdy senses, not this financial pun); retained OED s.v. tender and Jenkins's extended note."
-  },
-  {
-    "id": "hamlet-647-angels-ministers",
-    "play": "hamlet",
-    "tln_start": 648,
-    "tln_end": 648,
-    "word_start": 0,
-    "word_end": 6,
-    "anchor_text": "Angels and ministers of grace defend us!",
-    "type": "biblical_allusion",
-    "depth": "basic",
-    "summary": "Hamlet's first reaction to seeing the Ghost is a prayer invoking angelic protection. 'Ministers of grace' refers to angels as God's servants (ministers) — a phrase drawn from Psalm 104 and Hebrews 1:14, where angels are described as 'ministering spirits.' The invocation also signals Hamlet's immediate theological uncertainty: is this a good spirit or a demon?",
-    "sources": [
-      {
-        "name": "Geneva Bible 1599",
-        "citation": "Hebrews 1:14 (Geneva 1599): angels as 'ministring spirits'; cf. Psalm 104:4."
-      },
-      {
-        "name": "Jenkins (Arden 2 Hamlet, 1982)",
-        "citation": "Jenkins, H., ed. (1982). Hamlet, Arden 2, p. 207 note on 'ministers of grace.'"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 648"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Psalm 104 and Hebrews 1:14 as sources for 'ministers of grace' is standard. Theological uncertainty reading is accurate in context. Biblical_allusion type fits."
-      }
-    ],
-    "note_internal": "Replaced the misquoted Psalm 104:4 with Hebrews 1:14 (the closest 'ministers' source), keeping Psalm 104:4 as a cross-reference; retained Jenkins."
-  },
-  {
-    "id": "hamlet-789-unhouseld-disappointed-unaneald",
-    "play": "hamlet",
-    "tln_start": 790,
-    "tln_end": 790,
-    "word_start": 0,
-    "word_end": 2,
-    "anchor_text": "Unhous'led, disappointed, unanel'd",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "Three words for the denial of Catholic last rites. 'Unhouseled' = without the Eucharist (the 'housel,' or consecrated host); 'disappointed' = spiritually unprepared, without confession or absolution; 'unanealed' = without extreme unction, the anointing given to the dying. The old king died with none of them — which is why his Ghost suffers in Purgatory.",
-    "sources": [
-      {
-        "name": "OED s.v. houseled",
-        "citation": "OED s.v. housel v.: to administer the Eucharist to."
-      },
-      {
-        "name": "OED s.v. aneal",
-        "citation": "OED s.v. anele v. (also anneal, enele): to anoint with oil in the last rites; to administer extreme unction."
-      },
-      {
-        "name": "Jenkins (Arden 2 Hamlet, 1982)",
-        "citation": "Jenkins, H., ed. (1982). Hamlet, Arden 2. Methuen, p. 439 (note on the three terms)."
-      },
-      {
-        "name": "Greenblatt, Hamlet in Purgatory",
-        "citation": "Greenblatt, S. (2001). Hamlet in Purgatory. Princeton UP, pp. 229–236."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 790"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "All three terms are accurately glossed with correct sacramental meanings. 'Disappointed' as spiritually unprepared (not just literally unready) is standard. Protestant/Catholic framing is accurate and not overstated."
-      }
-    ],
-    "detail": "In Catholic doctrine, dying without these sacraments meant the soul carried its unconfessed sins into the afterlife. For a Protestant audience in 1600 the passage is loaded: the very rites their own church had abolished are presented here as desperately important.",
-    "note_internal": "Corrected the OED headword from 'aneal' to 'anele'; split the over-long summary, moving the doctrinal context into detail; retained OED housel, Jenkins, and Greenblatt."
   }
 ]

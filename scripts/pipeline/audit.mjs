@@ -23,12 +23,21 @@ const c = existsSync(resolve(playDir, 'characters.json')) ? readJson(resolve(pla
 const rqDir = resolve(playDir, '_review_queue');
 const rq = existsSync(rqDir) ? readdirSync(rqDir).filter((f) => f.endsWith('.json')).length : 0;
 
+// Safety net: annotations.json should be in canonical TLN order (postprocess + the rescue merge
+// both sort it). Report any drift here at the mandatory final gate — it is a data-hygiene signal,
+// not a correctness failure (the reader re-sorts at render time), so it does not fail the audit.
+let outOfOrder = 0;
+for (let i = 1; i < a.length; i++) {
+  const p = a[i - 1], q = a[i];
+  if (p.tln_start > q.tln_start || (p.tln_start === q.tln_start && (p.word_start ?? 0) > (q.word_start ?? 0))) outOfOrder++;
+}
+
 const by = (k) => a.reduce((m, x) => ((m[x[k]] = (m[x[k]] || 0) + 1), m), {});
 const cards = {}; let links = 0;
 for (const x of a) if (x.references) for (const r of x.references) { links++; const k = `${r.kind}:${r.card_id}`; cards[k] = (cards[k] || 0) + 1; }
 
 console.log(`AUDIT ${slug}`);
-console.log(`  annotations=${a.length}  glossary=${g}  characters=${c}  review_queue=${rq}`);
+console.log(`  annotations=${a.length}  glossary=${g}  characters=${c}  review_queue=${rq}  tln_order=${outOfOrder === 0 ? 'OK' : outOfOrder + ' OUT-OF-ORDER (run node scripts/pipeline/_sort-annotations.mjs ' + slug + ')'}`);
 console.log(`  type=${JSON.stringify(by('type'))}`);
 console.log(`  confidence=${JSON.stringify(by('confidence'))}  depth=${JSON.stringify(by('depth'))}`);
 console.log(`  reference links=${links} across ${Object.keys(cards).length} cards`);

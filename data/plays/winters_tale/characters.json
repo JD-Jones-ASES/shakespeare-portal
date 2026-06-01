@@ -1,0 +1,315 @@
+[
+  {
+    "id": "leontes",
+    "name": "Leontes",
+    "aliases": ["LEONTES."],
+    "role": "protagonist",
+    "description": "King of Sicilia. Seized by a sudden, groundless jealousy that his pregnant wife Hermione loves his boyhood friend Polixenes, he orders Polixenes poisoned, imprisons Hermione, defies Apollo's oracle, and so causes the death of his son Mamillius, the apparent death of his wife, and the casting-away of his newborn daughter. Sixteen years of penance later, daughter and wife are miraculously restored to him.",
+    "relationships": [
+      { "other_id": "hermione", "relation": "husband of" },
+      { "other_id": "polixenes", "relation": "boyhood friend of" },
+      { "other_id": "mamillius", "relation": "father of" },
+      { "other_id": "perdita", "relation": "father of" }
+    ],
+    "color": "#a04848"
+  },
+  {
+    "id": "hermione",
+    "name": "Hermione",
+    "aliases": ["HERMIONE."],
+    "role": "deuteragonist",
+    "description": "Queen of Sicilia, wife of Leontes, falsely accused of adultery with Polixenes. Pregnant at her arrest, she bears a daughter in prison, defends herself with grave dignity at her trial, and collapses at the news of her son's death. Reported dead, she is kept hidden by Paulina for sixteen years and revealed at the close as a living 'statue.'",
+    "relationships": [
+      { "other_id": "leontes", "relation": "wife of" },
+      { "other_id": "perdita", "relation": "mother of" },
+      { "other_id": "mamillius", "relation": "mother of" }
+    ],
+    "color": "#b0709a"
+  },
+  {
+    "id": "polixenes",
+    "name": "Polixenes",
+    "aliases": ["POLIXENES."],
+    "role": "major",
+    "description": "King of Bohemia and Leontes's boyhood friend, whose long visit triggers Leontes's jealousy. Warned by Camillo that Leontes means to poison him, he flees home. Sixteen years later he furiously opposes his son Florizel's love for the shepherdess Perdita — not knowing she is a princess.",
+    "relationships": [
+      { "other_id": "leontes", "relation": "boyhood friend of" },
+      { "other_id": "florizel", "relation": "father of" },
+      { "other_id": "camillo", "relation": "served by" }
+    ],
+    "color": "#3a6ea5"
+  },
+  {
+    "id": "camillo",
+    "name": "Camillo",
+    "aliases": ["CAMILLO."],
+    "role": "major",
+    "description": "An honest Sicilian lord. Ordered to poison Polixenes, he warns him instead and flees with him to Bohemia, where he serves sixteen years. Homesick, he helps the eloping Florizel and Perdita to Sicilia, engineering the reunions that end the play.",
+    "relationships": [
+      { "other_id": "leontes", "relation": "counsellor of" },
+      { "other_id": "polixenes", "relation": "counsellor of" }
+    ],
+    "color": "#4a7a6a"
+  },
+  {
+    "id": "paulina",
+    "name": "Paulina",
+    "aliases": ["PAULINA."],
+    "role": "major",
+    "description": "A great-hearted noblewoman, wife of Antigonus and Hermione's fearless champion. She denounces Leontes to his face, brings him the newborn princess, and after the queen's reported death keeps her secretly alive for sixteen years, finally staging the 'awakening' of Hermione's statue.",
+    "relationships": [
+      { "other_id": "antigonus", "relation": "wife of" },
+      { "other_id": "hermione", "relation": "defender of" },
+      { "other_id": "leontes", "relation": "conscience of" }
+    ],
+    "color": "#8a4a7a"
+  },
+  {
+    "id": "perdita",
+    "name": "Perdita",
+    "aliases": ["PERDITA."],
+    "role": "deuteragonist",
+    "description": "The lost daughter ('Perdita') of Leontes and Hermione, abandoned as an infant on the Bohemian coast and raised by an old shepherd. Grown into a queen of the sheep-shearing feast, she is loved by Prince Florizel; her royal birth is revealed and she is restored to her parents.",
+    "relationships": [
+      { "other_id": "leontes", "relation": "daughter of" },
+      { "other_id": "hermione", "relation": "daughter of" },
+      { "other_id": "florizel", "relation": "beloved of" },
+      { "other_id": "shepherd", "relation": "foster-daughter of" }
+    ],
+    "color": "#c98a3a"
+  },
+  {
+    "id": "florizel",
+    "name": "Florizel",
+    "aliases": ["FLORIZEL."],
+    "role": "major",
+    "description": "Prince of Bohemia, son of Polixenes. Wooing the shepherdess Perdita under the name 'Doricles,' he defies his father's rage and flees with her to Sicilia, where her true parentage is discovered and their match blessed.",
+    "relationships": [
+      { "other_id": "polixenes", "relation": "son of" },
+      { "other_id": "perdita", "relation": "lover of" }
+    ],
+    "color": "#5a7ab0"
+  },
+  {
+    "id": "autolycus",
+    "name": "Autolycus",
+    "aliases": ["AUTOLYCUS."],
+    "role": "supporting",
+    "description": "A roguish peddler, ballad-seller, and pickpocket — once in Prince Florizel's service. A merry trickster, he robs the Clown, fleeces the shepherds at the sheep-shearing, and stumbles his way into helping the plot toward its happy end.",
+    "color": "#b07a3a"
+  },
+  {
+    "id": "shepherd",
+    "name": "Shepherd",
+    "aliases": ["SHEPHERD."],
+    "role": "supporting",
+    "description": "The old shepherd who finds the abandoned baby Perdita with her gold and tokens and raises her as his own — meeting 'things new-born' as Antigonus meets 'things dying.' His honest household hosts the sheep-shearing feast.",
+    "relationships": [
+      { "other_id": "perdita", "relation": "foster-father of" },
+      { "other_id": "clown", "relation": "father of" }
+    ],
+    "color": "#7a6a4a"
+  },
+  {
+    "id": "clown",
+    "name": "Clown",
+    "aliases": ["CLOWN."],
+    "role": "supporting",
+    "description": "The old Shepherd's son, a good-natured simpleton who witnesses the shipwreck and the bear, is gulled and robbed by Autolycus, and is raised to gentility when Perdita's royalty is revealed.",
+    "relationships": [
+      { "other_id": "shepherd", "relation": "son of" }
+    ],
+    "color": "#9a8a4a"
+  },
+  {
+    "id": "antigonus",
+    "name": "Antigonus",
+    "aliases": ["ANTIGONUS."],
+    "role": "supporting",
+    "description": "A Sicilian lord, husband of Paulina. Forced to swear he will abandon the infant princess, he carries her to the Bohemian coast, lays her down with gold and a name, and makes his celebrated exit 'pursued by a bear.'",
+    "relationships": [
+      { "other_id": "paulina", "relation": "husband of" }
+    ],
+    "color": "#6a6a8a"
+  },
+  {
+    "id": "mamillius",
+    "name": "Mamillius",
+    "aliases": ["MAMILLIUS."],
+    "role": "minor",
+    "description": "The young prince of Sicilia, Leontes and Hermione's son, who begins to tell a 'sad tale... of sprites and goblins.' He sickens at his mother's disgrace and dies — the innocent casualty of his father's jealousy.",
+    "relationships": [
+      { "other_id": "leontes", "relation": "son of" },
+      { "other_id": "hermione", "relation": "son of" }
+    ],
+    "color": "#8aa0c0"
+  },
+  {
+    "id": "time",
+    "name": "Time",
+    "aliases": ["TIME."],
+    "role": "chorus",
+    "description": "Time, personified as the Chorus, who steps forward at the opening of Act 4 to 'slide o'er sixteen years,' turning his glass to carry the story from Leontes's grief in Sicilia to Perdita grown up in Bohemia. The hinge of the play's two halves.",
+    "color": "#6a6a7e"
+  },
+  {
+    "id": "archidamus",
+    "name": "Archidamus",
+    "aliases": ["ARCHIDAMUS."],
+    "role": "minor",
+    "description": "A lord of Bohemia who, in the opening scene, trades courtesies with Camillo about the friendship of the two kings."
+  },
+  {
+    "id": "cleomenes",
+    "name": "Cleomenes",
+    "aliases": ["CLEOMENES."],
+    "role": "minor",
+    "description": "A Sicilian lord sent with Dion to consult Apollo's oracle at Delphos; later he urges the penitent Leontes to forgive himself.",
+    "relationships": [
+      { "other_id": "dion", "relation": "fellow envoy of" }
+    ]
+  },
+  {
+    "id": "dion",
+    "name": "Dion",
+    "aliases": ["DION."],
+    "role": "minor",
+    "description": "A Sicilian lord sent with Cleomenes to the oracle at Delphos.",
+    "relationships": [
+      { "other_id": "cleomenes", "relation": "fellow envoy of" }
+    ]
+  },
+  {
+    "id": "emilia",
+    "name": "Emilia",
+    "aliases": ["EMILIA."],
+    "role": "minor",
+    "description": "A lady attending the imprisoned Hermione, who carries news between the queen and Paulina."
+  },
+  {
+    "id": "mopsa",
+    "name": "Mopsa",
+    "aliases": ["MOPSA."],
+    "role": "minor",
+    "description": "A shepherdess at the sheep-shearing, courted by the Clown and eager for Autolycus's ballads."
+  },
+  {
+    "id": "dorcas",
+    "name": "Dorcas",
+    "aliases": ["DORCAS."],
+    "role": "minor",
+    "description": "A shepherdess at the sheep-shearing feast who quarrels with Mopsa over the Clown."
+  },
+  {
+    "id": "first_lord",
+    "name": "First Lord",
+    "aliases": ["FIRST LORD."],
+    "role": "minor",
+    "description": "A lord of Sicilia attending Leontes."
+  },
+  {
+    "id": "lord",
+    "name": "Lord",
+    "aliases": ["LORD."],
+    "role": "minor",
+    "description": "An attending lord at the Sicilian court."
+  },
+  {
+    "id": "lords",
+    "name": "Lords",
+    "aliases": ["LORDS."],
+    "role": "ensemble",
+    "description": "Sicilian lords speaking together."
+  },
+  {
+    "id": "first_lady",
+    "name": "First Lady",
+    "aliases": ["FIRST LADY."],
+    "role": "minor",
+    "description": "A lady attending Hermione, playing with the young Mamillius."
+  },
+  {
+    "id": "second_lady",
+    "name": "Second Lady",
+    "aliases": ["SECOND LADY."],
+    "role": "minor",
+    "description": "A lady attending Hermione."
+  },
+  {
+    "id": "first_gentleman",
+    "name": "First Gentleman",
+    "aliases": ["FIRST GENTLEMAN."],
+    "role": "minor",
+    "description": "One of the gentlemen who report the wonders of the recognition and reunion in Act 5."
+  },
+  {
+    "id": "second_gentleman",
+    "name": "Second Gentleman",
+    "aliases": ["SECOND GENTLEMAN."],
+    "role": "minor",
+    "description": "One of the gentlemen who narrate the off-stage reunions in Act 5."
+  },
+  {
+    "id": "third_gentleman",
+    "name": "Third Gentleman",
+    "aliases": ["THIRD GENTLEMAN."],
+    "role": "minor",
+    "description": "The gentleman (Paulina's steward) who describes the meeting of the kings and the finding of Perdita in Act 5."
+  },
+  {
+    "id": "gentleman",
+    "name": "Gentleman",
+    "aliases": ["GENTLEMAN."],
+    "role": "minor",
+    "description": "A gentleman of the Sicilian court."
+  },
+  {
+    "id": "servant",
+    "name": "Servant",
+    "aliases": ["SERVANT."],
+    "role": "minor",
+    "description": "A servant at court or at the shepherd's feast, announcing arrivals."
+  },
+  {
+    "id": "officer",
+    "name": "Officer",
+    "aliases": ["OFFICER."],
+    "role": "minor",
+    "description": "An officer of the court who reads the indictment at Hermione's trial."
+  },
+  {
+    "id": "crier",
+    "name": "Crier",
+    "aliases": ["CRIER."],
+    "role": "minor",
+    "description": "The court crier who summons Hermione to her trial."
+  },
+  {
+    "id": "keeper",
+    "name": "Keeper",
+    "aliases": ["KEEPER."],
+    "role": "minor",
+    "description": "The gaoler who keeps the imprisoned Hermione and reluctantly yields her baby to Paulina."
+  },
+  {
+    "id": "mariner",
+    "name": "Mariner",
+    "aliases": ["MARINER."],
+    "role": "minor",
+    "description": "The master of the ship that carries Antigonus and the baby to Bohemia, uneasy at the gathering storm."
+  },
+  {
+    "id": "first_attendant",
+    "name": "First Attendant",
+    "aliases": ["FIRST ATTENDANT."],
+    "role": "minor",
+    "description": "An attendant at the Sicilian court."
+  },
+  {
+    "id": "second_attendant",
+    "name": "Second Attendant",
+    "aliases": ["SECOND ATTENDANT."],
+    "role": "minor",
+    "description": "An attendant at the Sicilian court."
+  }
+]

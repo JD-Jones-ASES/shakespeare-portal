@@ -660,6 +660,60 @@
     ]
   },
   {
+    "id": "henry_vi_part_2-123-suffocate",
+    "play": "henry_vi_part_2",
+    "tln_start": 123,
+    "tln_end": 123,
+    "word_start": 0,
+    "word_end": 6,
+    "anchor_text": "For Suffolk's duke, may he be suffocate",
+    "type": "wordplay",
+    "depth": "scholar",
+    "summary": "York plays on the sound of 'Suffolk' and 'suffocate': he wishes the new Duke of Suffolk choked by the very honor he has just received. The conjured spirit later prophesies that Suffolk will die 'by water,' and he is indeed killed at sea in Act 4.",
+    "sources": [
+      {
+        "name": "Schmidt",
+        "citation": "Schmidt, Shakespeare-Lexicon, s.v. 'suffocate' v.: 'to choke, smother'"
+      },
+      {
+        "name": "Onions",
+        "citation": "Onions, Shakespeare Glossary, s.v. 'suffocate': used as past participle as well as infinitive; here = 'be suffocated'"
+      }
+    ],
+    "references": [],
+    "confidence": "medium",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 123"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Schmidt and Onions entries on 'suffocate' are standard lexicographic references that support the claimed meaning and grammatical note."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Trimmed the unsupported claim of a deliberate stressed-syllable name-pun (interp judge); kept the sound-echo curse and the lexicographic gloss."
+      }
+    ],
+    "detail": "'Suffocate' is here used as a past participle (= 'be suffocated'), a common Elizabethan form. The echo between the title and the curse is part of why the line lands as an imprecation; Shakespeare's audiences heard names as charged with meaning.",
+    "note_internal": "Review-queue rescue 2026-06-01. Trimmed the unsupported claim of a deliberate stressed-syllable name-pun (interp judge); kept the sound-echo curse and the lexicographic gloss. [orig: source=verified, interp=refuted]"
+  },
+  {
     "id": "henry_vi_part_2-132-fifteenth",
     "play": "henry_vi_part_2",
     "tln_start": 132,
@@ -912,6 +966,56 @@
         "note": "'Tickle' as precarious or unstable is the established obsolete adjective and the reading requires no stretching."
       }
     ]
+  },
+  {
+    "id": "henry_vi_part_2-235-althaea-brand",
+    "play": "henry_vi_part_2",
+    "tln_start": 235,
+    "tln_end": 236,
+    "word_start": 2,
+    "word_end": 5,
+    "anchor_text": "the fatal brand Althaea burn'd unto the prince's heart of Calydon",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Althaea was the mother of Meleager, the hero of Calydon (a city in ancient Greece). At his birth the Fates told her he would live only as long as a brand (log) in the fire stayed unburned; she snatched it out and kept it safe. When Meleager later killed her brothers, she burned the brand in revenge and he died as the log turned to ash. York compares England, France, and Ireland to that fatal brand: the external thing on which his life and fate depend.",
+    "detail": "Ovid tells the story in Metamorphoses Book 8, read in Elizabethan schools in Arthur Golding's English translation (1567). The comparison is precise: as Meleager's life was bound to the brand, York's political life is bound to the possession of those three realms, and watching them given away is like watching his own life-force burn down. The allusion is darkly ironic too: Althaea destroyed her own son.",
+    "sources": [
+      {
+        "name": "Ovid, Metamorphoses",
+        "citation": "Ovid, Metamorphoses Book 8 (the fate of Meleager and the brand of Althaea); in Golding's English translation (1567)"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 235"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Source judge faulted the exact line range (8.445-525); generalized the citation to Metamorphoses Book 8 (Golding 1567) and kept the gloss."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The Ovidian source and the primary comparison (York's political life bound to the three realms as Meleager's life was bound to the brand) are sound; the secondary irony of Althaea-as-destroyer is a plausible inferential layer, not a misleading overreach."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Source judge faulted the exact line range (8.445-525); generalized the citation to Metamorphoses Book 8 (Golding 1567) and kept the gloss. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "henry_vi_part_2-241-nevils-parts",
@@ -2881,6 +2985,59 @@
     ]
   },
   {
+    "id": "henry_vi_part_2-606-hallowd-verge",
+    "play": "henry_vi_part_2",
+    "tln_start": 606,
+    "tln_end": 606,
+    "word_start": 4,
+    "word_end": 7,
+    "anchor_text": "within a hallow'd verge",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "A 'hallow'd verge' is the magic circle drawn and blessed by a conjurer to contain a summoned spirit and protect those inside it. 'Hallow'd' means consecrated or made holy; 'verge' means a circular boundary or ring. The stage direction that follows confirms the circle is physically drawn as part of the ceremony.",
+    "detail": "The bound magic circle was standard equipment in the conjuring tradition the play draws on: the conjurer stood safely within the ring, compelling the spirit to obey. Reginald Scot's The Discoverie of Witchcraft (1584) discusses conjurers' circles in the course of exposing such tricks. The word 'verge' (from Latin virga, rod or boundary) could mean a wand, a staff of office, or a circular limit; here it is the last. Bolingbroke promises Eleanor that the spirit will be held fast and cannot harm them.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'verge,' sense 4b: 'A ring, circle, or other enclosure within which some special power or jurisdiction operates.'"
+      },
+      {
+        "name": "Scot",
+        "citation": "Reginald Scot, The Discoverie of Witchcraft (1584), on conjurers and their circles."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 606"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Source judge showed 'Book XV' was the wrong locus for the circle material; dropped the book number and kept Scot's work plus the OED sense."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The stage direction immediately following confirms that a physical circle is drawn on stage, corroborating the gloss; the etymology of 'verge' as circular boundary and the magic-circle convention in early modern demonology are mainstream and defensible."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Source judge showed 'Book XV' was the wrong locus for the circle material; dropped the book number and kept Scot's work plus the OED sense. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_vi_part_2-607-adsum-asmath",
     "play": "henry_vi_part_2",
     "tln_start": 607,
@@ -3039,6 +3196,59 @@
         "note": "The 'burning lake' as a standard Protestant-era circumlocution for hell, grounded in Revelation's 'lake of fire,' is mainstream; the gloss on 'avoid' as an imperative meaning 'depart/begone' is correct and not over-reached."
       }
     ]
+  },
+  {
+    "id": "henry_vi_part_2-627-beldam",
+    "play": "henry_vi_part_2",
+    "tln_start": 627,
+    "tln_end": 627,
+    "word_start": 0,
+    "word_end": 8,
+    "anchor_text": "Beldam, I think we watch'd you at an inch",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Beldam' means an old woman, especially one associated with witchcraft or the supernatural; it is flung contemptuously at the witch Margery Jourdain as the captors break in. 'Watch'd you at an inch' means 'kept watch over you at close range' or 'observed you to the last detail' — a boast that the surveillance was thorough.",
+    "detail": "'Beldam' (from Old French bel dame, 'fine lady,' used ironically) had by Shakespeare's time hardened into a term for an ugly old woman or hag, especially in a magical context; it appears in Macbeth for the witches. 'At an inch' — close-up, to the last inch, leaving no gap — is a common Elizabethan idiom for thorough, precise attention. The line is a sardonic congratulation on a successful sting. (The Folio speech-prefix here is disputed: most editions give the line to York, who has just broken in with Buckingham.)",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'beldam,' sense 2: 'An ugly old woman; a hag. Often with implications of witchcraft or malevolence.'"
+      },
+      {
+        "name": "Onions",
+        "citation": "Onions, Shakespeare Glossary, s.v. 'inch': 'closely, to a nicety, at close quarters.'"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 627"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "OED s.v. 'beldam' sense 2 ('ugly old woman; hag, often with implications of witchcraft') is real; the Old French bel dame etymology is correct; Onions s.v. 'inch' is a standard reference and the gloss 'closely, at close quarters' is accurate."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Interp judge cited the parser's speaker (Bolingbroke) vs the annotation's (York); the prefix is a genuine textual crux (editions favor York), so I made the gloss speaker-neutral and noted the dispute — the vocabulary gloss stands either way."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Interp judge cited the parser's speaker (Bolingbroke) vs the annotation's (York); the prefix is a genuine textual crux (editions favor York), so I made the gloss speaker-neutral and noted the dispute — the vocabulary gloss stands either way. [orig: source=verified, interp=refuted]"
   },
   {
     "id": "henry_vi_part_2-647-aeacida-oracle",
@@ -3381,6 +3591,55 @@
     ]
   },
   {
+    "id": "henry_vi_part_2-731-medice-teipsum",
+    "play": "henry_vi_part_2",
+    "tln_start": 731,
+    "tln_end": 731,
+    "word_start": 0,
+    "word_end": 1,
+    "anchor_text": "Medice, teipsum",
+    "type": "cultural_context",
+    "depth": "scholar",
+    "summary": "The Cardinal throws a Latin proverb back at Gloucester: 'Physician, heal thyself' — implying Gloucester should mend his own faults before attacking the Cardinal. The saying was proverbial, best known from Luke 4:23, and the Cardinal then spells out his meaning in the English line that follows.",
+    "detail": "In Luke 4:23 (Geneva 1599: 'Ye will surely say vnto mee this prouerbe, Physician, heale thy selfe') Jesus anticipates the crowd's challenge. As a tag the phrase was broadly current in Elizabethan learned discourse for the hypocrisy of diagnosing others' faults while ignoring one's own. The Cardinal's meaning: Gloucester, who has accused him of ungodly wrath, should first 'protect himself' — see to his own vulnerabilities (his wife's dangerous ambitions, which Buckingham has just uncovered).",
+    "sources": [
+      {
+        "name": "Geneva Bible 1599",
+        "citation": "Luke 4:23 (Geneva 1599): 'Ye will surely say vnto mee this prouerbe, Physician, heale thy selfe.'"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 731"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Source judge was right on both counts: corrected the Geneva Luke 4:23 wording (the original quote was KJV) and deleted the fabricated Pliny 29.1.8 cross-reference."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The proverb is current and the Cardinal's gloss at TLN 732 ('protect yourself') confirms the intended meaning; the annotation accurately identifies its proverbial standing without overstating a direct Luke source for the tag."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Source judge was right on both counts: corrected the Geneva Luke 4:23 wording (the original quote was KJV) and deleted the fabricated Pliny 29.1.8 cross-reference. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_vi_part_2-733-stomachs-lords",
     "play": "henry_vi_part_2",
     "tln_start": 733,
@@ -3569,6 +3828,55 @@
         "note": "'Mass' as a weakened eucharistic oath in colloquial Elizabethan speech is standard and uncontroversial."
       }
     ]
+  },
+  {
+    "id": "henry_vi_part_2-808-lyingest-knave",
+    "play": "henry_vi_part_2",
+    "tln_start": 809,
+    "tln_end": 811,
+    "word_start": 8,
+    "word_end": 1,
+    "anchor_text": "mightst as well have known all our names as thus to name the several colours we do wear",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "Gloucester's proof is genuine: a person born blind who had just received sight for the first time would have no way to link color-words to visual impressions they had never had. They might hear colors named but could not match name to sensation until they learned by experience. Simpcox's instant, confident naming of 'red as blood' and 'coal-black as jet' gives him away — he is clearly sighted and always has been.",
+    "detail": "The epistemological point was available to any reasoning person: a man blind from birth might learn color-words but could not apply them correctly to hues he had never seen. (The philosopher John Locke would later discuss the case in his Essay Concerning Human Understanding, 1689.) Gloucester's cross-examination is a two-stage proof: sight distinguishes colors, but knowing whose name belongs to which person requires prior knowledge, which Simpcox denies having.",
+    "sources": [
+      {
+        "name": "Grafton, Chronicle at Large (1569)",
+        "citation": "Richard Grafton, A Chronicle at Large (1569), records the Simpcox 'miracle' at St Albans under Henry VI and Gloucester's exposure of the impostor (Shakespeare's likely source for the episode)."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 809"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Source judge showed the Simpcox episode is in Grafton (1569), not Holinshed; re-cited to Grafton and kept the gloss."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Gloucester's colour-naming proof is a genuine epistemological argument present in the text; the mention of Locke is a digression but is flagged as anachronistic by the annotation's own phrasing ('would famously discuss'), not asserted as Shakespeare's source, so it does not constitute an anachronism in the gloss itself."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Source judge showed the Simpcox episode is in Grafton (1569), not Holinshed; re-cited to Grafton and kept the gloss. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "henry_vi_part_2-816-beadles-whips",
@@ -4185,6 +4493,56 @@
         "note": "The gloss on 'Pomfret' as Pontefract is correct; 'harmless' meaning innocent or inoffensive is well attested; and noting that the manner of Richard's death is uncertain while Shakespeare treats it as deliberate murder is an accurate and appropriately hedged reading."
       }
     ]
+  },
+  {
+    "id": "henry_vi_part_2-923-owen-glendower",
+    "play": "henry_vi_part_2",
+    "tln_start": 921,
+    "tln_end": 923,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "this Edmund, in the reign of Bolingbroke, As I have read, laid claim unto the crown; And, but for Owen Glendower, had been king",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "Salisbury recalls Edmund Mortimer, whose line had a rival claim to Henry IV (Bolingbroke). Owen Glendower was a Welsh lord who launched a major uprising against Henry IV from 1400 and allied with the English rebels (including Hotspur Percy). Shakespeare dramatized Glendower and Mortimer fully in Henry IV Part 1. 'As I have read' signals that Salisbury is reconstructing a written, genealogical case, not living memory.",
+    "sources": [
+      {
+        "name": "Holinshed, Chronicles (1587)",
+        "citation": "Raphael Holinshed, Chronicles (1587), on Edmund Mortimer, Earl of March, his claim under Henry IV, and Owen Glendower's Welsh rebellion (c. 1400-1415) — the source whose conflation of the two Edmund Mortimers Shakespeare follows."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 921"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Holinshed (1587) conflates the uncle Sir Edmund Mortimer (the rebel captured by Glendower) with his nephew Edmund the 5th Earl of March (the claimant), precisely as Shakespeare does; the annotation accurately reflects the Holinshed narrative Shakespeare was following."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Interp judge flagged that the gloss conflated the two Edmund Mortimers; reworded to make clear the play and its source (Holinshed) deliberately merge them, which is itself the point — and the source judge confirmed Holinshed does exactly this."
+      }
+    ],
+    "detail": "Following his chronicle source, Salisbury runs together two real men both named Edmund Mortimer — Edmund, Earl of March (the dynastic claimant) and Sir Edmund Mortimer (the one actually captured by Glendower) — and treats them as a single figure. Holinshed makes the same conflation, so the 'error' faithfully reproduces Shakespeare's source rather than misstating it.",
+    "note_internal": "Review-queue rescue 2026-06-01. Interp judge flagged that the gloss conflated the two Edmund Mortimers; reworded to make clear the play and its source (Holinshed) deliberately merge them, which is itself the point — and the source judge confirmed Holinshed does exactly this. [orig: source=verified, interp=refuted]"
   },
   {
     "id": "henry_vi_part_2-941-slips-of-such-a-stock",
@@ -5360,6 +5718,61 @@
     ]
   },
   {
+    "id": "henry_vi_part_2-1146-isle-of-man",
+    "play": "henry_vi_part_2",
+    "tln_start": 1146,
+    "tln_end": 1146,
+    "word_start": 0,
+    "word_end": 9,
+    "anchor_text": "To take her with him to the Isle of Man",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "The Isle of Man, a small island in the Irish Sea between England and Ireland, was a remote jurisdiction outside the normal reach of the English court. Sending Eleanor there as a prisoner reflects her historical sentence: after her public penance in London she was committed to custody on the island under guard. The Stanley family held the lordship of Man, which is why Sir John Stanley is the officer appointed to escort and guard her.",
+    "detail": "Holinshed records that Eleanor Cobham was committed to the custody of Sir John Stanley within the Isle of Man. (Historically she was later moved to other castles and died in 1452.) The island's remoteness and semi-separate jurisdiction made it an effective form of exile just within the English sphere, and Shakespeare's detail here is traceable to his chronicle source.",
+    "sources": [
+      {
+        "name": "Holinshed, Chronicles (1587)",
+        "citation": "Raphael Holinshed, Chronicles (1587), on Eleanor Cobham's sentence and imprisonment on the Isle of Man under Sir John Stanley."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "eleanor-cobham-and-witchcraft"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1146"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Source judge caught two factual errors in the detail (she was later moved off Man and died elsewhere; the Stanley-branch claim was confused); removed both and kept the sourced core (custody under Stanley on Man, per Holinshed)."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The Isle of Man as Eleanor's place of imprisonment under Sir John Stanley is directly traceable to Holinshed; the Stanley connection is historically accurate."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Source judge caught two factual errors in the detail (she was later moved off Man and died elsewhere; the Stanley-branch claim was confused); removed both and kept the sourced core (custody under Stanley on Man, per Holinshed). [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_vi_part_2-1176-shifted-sheet",
     "play": "henry_vi_part_2",
     "tln_start": 1176,
@@ -5548,6 +5961,54 @@
         "note": "'Peremptory' = imperious/brooking no refusal is the settled meaning here, and Margaret's rhetorical purpose of building a portrait of dangerous pride is well-supported by the surrounding speech (TLN 1183-1196)."
       }
     ]
+  },
+  {
+    "id": "henry_vi_part_2-1197-curs-grin",
+    "play": "henry_vi_part_2",
+    "tln_start": 1197,
+    "tln_end": 1198,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "Small curs are not regarded when they grin, But great men tremble when the lion roars",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Queen Margaret uses a two-part animal comparison to argue that a minor threat can be ignored but a powerful one cannot. 'Curs' are mongrel or worthless dogs; 'grin' here means to bare the teeth in a snarl. The paired images work as a warrant for her case: Gloucester is no harmless cur to be disregarded but the dangerous lion who makes great men tremble — so he must be dealt with, not tolerated.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'grin' v., sense 1: 'Of animals: to show the teeth in rage or pain.'"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1197"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "OED s.v. 'grin' v. sense 1 for the animal meaning 'to show the teeth in rage' is a real sense accurately applied."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Interp judge said the gloss softened Margaret's point; sharpened it — Gloucester is the dangerous lion to be removed, not merely 'taken seriously' — and kept the OED gloss on 'grin'."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Interp judge said the gloss softened Margaret's point; sharpened it — Gloucester is the dangerous lion to be removed, not merely 'taken seriously' — and kept the OED gloss on 'grin'. [orig: source=verified, interp=refuted]"
   },
   {
     "id": "henry_vi_part_2-1200-near-in-descent",
@@ -6777,6 +7238,59 @@
     ]
   },
   {
+    "id": "henry_vi_part_2-1405-crocodile-sorrow",
+    "play": "henry_vi_part_2",
+    "tln_start": 1405,
+    "tln_end": 1406,
+    "word_start": 0,
+    "word_end": 4,
+    "anchor_text": "Beguiles him as the mournful crocodile With sorrow snares relenting passengers",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "The crocodile was proverbially said to weep false tears to lure its prey, then devour it. Elizabethan natural histories repeated the claim as fact. Margaret accuses Gloucester of performing sorrow to soften the king's heart, just as a crocodile's apparent weeping draws the unwary traveller close enough to be eaten. 'Relenting passengers' means travellers softened by pity.",
+    "detail": "The 'crocodile tears' tradition circulated widely in Shakespeare's England, reaching it through medieval sources such as Sir John Mandeville's Travels and the bestiaries; Edmund in King Lear makes the same joke about false weeping. The paradox of a predator that weeps before killing made the crocodile a standard figure for hypocritical grief and artful deception.",
+    "sources": [
+      {
+        "name": "Mandeville, Travels",
+        "citation": "The Travels of Sir John Mandeville (c. 1357), on crocodiles that weep while devouring; the 'crocodile tears' tradition was repeated in numerous Elizabethan natural histories."
+      },
+      {
+        "name": "Tilley",
+        "citation": "Tilley, Dictionary of the Proverbs in England, C831: 'To weep crocodile tears' (proverbial for feigned sorrow)."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1405"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Source judge showed Pliny 8.37 lacks the weeping-lure claim; dropped Pliny and cited Mandeville (a documented transmitter) plus Tilley's proverb entry, keeping the gloss."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The proverbial 'crocodile tears' tradition — false weeping to lure prey — is accurately described and well-attested in Elizabethan natural history; Margaret's application to Gloucester's apparent grief is directly supported by the text."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Source judge showed Pliny 8.37 lacks the weeping-lure claim; dropped Pliny and cited Mandeville (a documented transmitter) plus Tilley's proverb entry, keeping the gloss. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_vi_part_2-1415-colour-for-death",
     "play": "henry_vi_part_2",
     "tln_start": 1415,
@@ -7159,6 +7673,55 @@
         "note": "Spider-as-patient-unseen-conspirator is a standard Elizabethan figure; 'tedious' in its archaic sense of painstaking/laborious is correct; the reading is accurate."
       }
     ]
+  },
+  {
+    "id": "henry_vi_part_2-1522-starved-snake",
+    "play": "henry_vi_part_2",
+    "tln_start": 1522,
+    "tln_end": 1523,
+    "word_start": 0,
+    "word_end": 8,
+    "anchor_text": "I fear me you but warm the starved snake, Who, cherish'd in your breasts, will sting your hearts",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "York turns the fable of the frozen snake revived by a kind man's warmth against his benefactors: they are warming a serpent that will bite them. In the fable a man shelters a frozen snake in his breast; it revives and stings him to death — a well-known Aesopic story for ingratitude. York uses it knowingly: he is the snake, and his patrons are warming their own destroyer.",
+    "detail": "The snake revived in the bosom appears in many Elizabethan fable collections as Aesop's 'The Farmer and the Viper.' York's self-aware use of it — 'I fear me you but warm...' — is an aside the audience hears but the nobles do not, sharpening the dramatic irony: the conspirators have just congratulated themselves on getting rid of him.",
+    "sources": [
+      {
+        "name": "Aesop, Fables",
+        "citation": "Aesop, 'The Farmer and the Viper' (Perry Index 176); widely anthologized in Elizabethan schoolbooks and fable collections."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1522"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Source judge showed '176' is the Perry Index number, not Chambry; corrected the catalogue name (Perry Index 176) and kept the gloss."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The Aesopic 'Farmer and the Viper' identification is correct; York's self-aware use as an aside (he is the snake) is supported by the dramatic context, and the irony of the nobles congratulating themselves on neutralising him is well-identified."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Source judge showed '176' is the Perry Index number, not Chambry; corrected the catalogue name (Perry Index 176) and kept the gloss. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "henry_vi_part_2-1535-kentishman-cade",
@@ -7671,6 +8234,58 @@
     ]
   },
   {
+    "id": "henry_vi_part_2-1603-raven-note",
+    "play": "henry_vi_part_2",
+    "tln_start": 1603,
+    "tln_end": 1604,
+    "word_start": 5,
+    "word_end": 6,
+    "anchor_text": "sing a raven's note Whose dismal tune bereft my vital powers",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "The raven was the classical and popular emblem of ill-omen and death: its harsh croaking was believed to foretell disaster or a fatality. Henry casts Suffolk's announcement of Gloucester's death as the bird's death-cry — that raven's note 'bereft my vital powers,' robbing him of consciousness so that he swoons. Compare Othello's 'the raven o'er the infected house, / Boding to all' (4.1).",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'raven' n.1: the raven as an omen of evil and death."
+      },
+      {
+        "name": "Horace, Odes",
+        "citation": "Horace, Odes 3.27.1 (the raven as a bird of ill omen in the classical tradition)."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1603"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Source judge showed the raven sits at Pliny NH 10.15, not 10.12; dropped the wrong Pliny chapter and cited OED plus Horace (Odes 3.27.1, which the original already named correctly)."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The raven as death-omen is well-attested in classical and Elizabethan sources, and Henry's use of the image to describe Suffolk's announcement is textually accurate."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Source judge showed the raven sits at Pliny NH 10.15, not 10.12; dropped the wrong Pliny chapter and cited OED plus Horace (Odes 3.27.1, which the original already named correctly). [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_vi_part_2-1615-basilisk",
     "play": "henry_vi_part_2",
     "tln_start": 1615,
@@ -8019,6 +8634,55 @@
         "note": "'Ken' as range of sight and 'Albion' as poetic name for Britain are correctly glossed; the etymology from Latin is sound."
       }
     ]
+  },
+  {
+    "id": "henry_vi_part_2-1679-ascanius-dido",
+    "play": "henry_vi_part_2",
+    "tln_start": 1679,
+    "tln_end": 1681,
+    "word_start": 1,
+    "word_end": 6,
+    "anchor_text": "sit and witch me, as Ascanius did When he to madding Dido would unfold His father's acts commenc'd in burning Troy",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Ascanius was the son of the Trojan hero Aeneas. In Virgil's Aeneid, the goddess Venus has Cupid take the shape of Ascanius at Queen Dido's feast, so that the boy's presence works a love-spell on the Carthaginian queen while Aeneas tells his story of the fall of Troy. Margaret says Suffolk 'witched' (enchanted) her the same way — through his words, as the false Ascanius bewitched Dido. 'Madding' means driven to madness by love.",
+    "detail": "Virgil, Aeneid Book 1, describes Cupid disguised as the boy Ascanius inflaming Dido's passion for Aeneas as he narrates Troy's fall. Margaret casts herself as the enchanted Dido and Suffolk as the bewitching figure whose tale ensnared her.",
+    "sources": [
+      {
+        "name": "Virgil",
+        "citation": "Virgil, Aeneid Book 1 (Cupid disguised as Ascanius enchants Dido at the feast while Aeneas tells of Troy)."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1679"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Virgil Aeneid 1.657-722 is confirmed as describing Cupid disguised as Ascanius enchanting Dido at the feast while Aeneas tells the story of Troy."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Interp judge faulted the elaborate three-way role-mapping (esp. the added Henry-as-Aeneas layer); trimmed to the defensible core (Dido = Margaret, the enchanting Ascanius-figure = Suffolk) and kept the Virgil allusion."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Interp judge faulted the elaborate three-way role-mapping (esp. the added Henry-as-Aeneas layer); trimmed to the defensible core (Dido = Margaret, the enchanting Ascanius-figure = Suffolk) and kept the Virgil allusion. [orig: source=verified, interp=refuted]"
   },
   {
     "id": "henry_vi_part_2-1688-hive-of-bees",
@@ -8855,6 +9519,58 @@
     ]
   },
   {
+    "id": "henry_vi_part_2-1891-boding-screech-owls",
+    "play": "henry_vi_part_2",
+    "tln_start": 1891,
+    "tln_end": 1891,
+    "word_start": 1,
+    "word_end": 6,
+    "anchor_text": "boding screech-owls make the consort full",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "'Boding' means omen-bearing, foretelling evil. The screech-owl was widely taken in both classical and English folk belief as an omen of death and disaster — its cry near a house foretold a death within. 'Consort' means a company of musicians or a concert: Suffolk is completing a musical metaphor, so the screech-owls should fill out the ensemble of terrors. He wants his enemies surrounded by nothing but omens of ruin.",
+    "sources": [
+      {
+        "name": "Pliny",
+        "citation": "Pliny, Natural History, Book 10 (on owls as birds of ill omen); a belief widespread across classical literature."
+      },
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'consort' n.1, sense 3: 'a company of musicians playing together.'"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1891"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Source judge showed the owl-omen sits at NH 10.16, not the cited 10.17; generalized Pliny to Book 10 and kept the OED 'consort' gloss."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The screech-owl as death-omen in both classical and English folk belief is correctly described, and 'consort' as a company of musicians completing a musical metaphor is accurate."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Source judge showed the owl-omen sits at NH 10.16, not the cited 10.17; generalized Pliny to Book 10 and kept the OED 'consort' gloss. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_vi_part_2-1894-curses-recoil",
     "play": "henry_vi_part_2",
     "tln_start": 1894,
@@ -9052,6 +9768,59 @@
         "note": "Elysium as classical paradise is correctly identified; the reading of Suffolk's soul 'living' in Margaret as Elysium is an accurate paraphrase of the conceited hyperbole."
       }
     ]
+  },
+  {
+    "id": "henry_vi_part_2-1972-iris-that-shall-find",
+    "play": "henry_vi_part_2",
+    "tln_start": 1972,
+    "tln_end": 1972,
+    "word_start": 0,
+    "word_end": 8,
+    "anchor_text": "I'll have an Iris that shall find thee out",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Iris was the messenger goddess of the Olympians, personification of the rainbow, who carried divine messages between gods and mortals at speed. Margaret promises to send her own 'Iris' — a swift messenger — to find Suffolk wherever he goes in the world. The allusion dignifies her love-message as godlike in its urgency.",
+    "sources": [
+      {
+        "name": "Virgil",
+        "citation": "Virgil, Aeneid (Iris as Juno's divine messenger, descending on a rainbow path)."
+      },
+      {
+        "name": "Schmidt",
+        "citation": "Schmidt, Shakespeare-Lexicon, s.v. 'Iris.'"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1972"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Source judge showed Aeneid 4.693-705 is Iris releasing Dido's soul, not a message-errand; dropped the wrong locus, generalized to the Aeneid's messenger-Iris, and kept Schmidt."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Iris as divine messenger and personification of the rainbow is correctly identified; the Aeneid 4 locus is apt and the reading of Margaret's promise is sound."
+      }
+    ],
+    "detail": "In Virgil's Aeneid, Iris is Juno's swift messenger who travels along a rainbow path; she is the standard classical figure for a rapid divine errand. Margaret borrows that speed and reach for the messenger she vows to send after Suffolk.",
+    "note_internal": "Review-queue rescue 2026-06-01. Source judge showed Aeneid 4.693-705 is Iris releasing Dido's soul, not a message-errand; dropped the wrong locus, generalized to the Aeneid's messenger-Iris, and kept Schmidt. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "henry_vi_part_2-1977-splitted-bark",
@@ -10112,6 +10881,60 @@
         "note": "Holland's deliberate misreading of vocation doctrine is clear in the text; the Reformation context and 1 Corinthians 7:20 are the standard gloss, and the Anabaptist parallel is a defensible historical frame rather than overreach."
       }
     ]
+  },
+  {
+    "id": "henry_vi_part_2-2187-argo-thread-of-life",
+    "play": "henry_vi_part_2",
+    "tln_start": 2187,
+    "tln_end": 2187,
+    "word_start": 0,
+    "word_end": 6,
+    "anchor_text": "Argo, their thread of life is spun",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "'Argo' is Bevis's mangled version of Latin 'ergo' ('therefore'). The joke doubles as a classical allusion: since Smith is a weaver, Bevis says their thread of life is now 'spun' — a nod to the Fates of Greek myth, three goddesses who spun, measured, and cut the thread of each person's lifespan. Atropos, the third Fate, cut the thread at death.",
+    "detail": "In Greek myth the three Moirai (Clotho, Lachesis, Atropos) controlled human destiny through the imagery of spinning and weaving: Clotho spun the thread of life, Lachesis measured it, Atropos cut it. The image runs through Latin poetry, including Ovid's Metamorphoses, where the sisters spin and bind a mortal's life to a brand (Book 8). Bevis's line is both a malapropism ('Argo' for 'ergo') and a craftsman's joke: a weaver governs everyone's thread.",
+    "sources": [
+      {
+        "name": "Ovid, Metamorphoses",
+        "citation": "Ovid, Metamorphoses Book 8 (the three sisters/Parcae spin and bind a mortal's life to a brand), trans. Golding (1567)."
+      },
+      {
+        "name": "Schmidt",
+        "citation": "Schmidt, Shakespeare-Lexicon, s.v. 'argo': Bevis's comic corruption of Latin ergo ('therefore')."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2187"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Source judge showed the spinning-Fates passage is Book 8 (not Golding's Book 15); corrected to Book 8 and kept Schmidt for the malapropism."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Both the malapropism ('Argo' for 'ergo') and the Fates allusion (thread spun by a weaver) are firmly established; the double joke is the consensus reading."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Source judge showed the spinning-Fates passage is Book 8 (not Golding's Book 15); corrected to Book 8 and kept Schmidt for the malapropism. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "henry_vi_part_2-2189-we-john-cade-mortimer",
@@ -11350,6 +12173,61 @@
     ]
   },
   {
+    "id": "henry_vi_part_2-2414-won-the-bridge",
+    "play": "henry_vi_part_2",
+    "tln_start": 2414,
+    "tln_end": 2414,
+    "word_start": 0,
+    "word_end": 3,
+    "anchor_text": "have won the bridge",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "London Bridge was the only fixed crossing of the Thames and the key to the city. Cade's rebels seizing it was the decisive act that let them enter London from the south bank; whoever held the bridge controlled movement in and out of the city. Lord Scales confirms they are now fighting on both the bridge and in the streets.",
+    "detail": "The historical Jack Cade marched his Kentish forces to Southwark in July 1450 and forced his way into London across London Bridge, meeting resistance from city troops and Lord Scales at the Tower. Holinshed describes fierce night fighting on the bridge before the rebels were repulsed. Shakespeare compresses the timeline. London Bridge was lined with houses and a gatehouse that could be held and locked, making its capture or defense a genuine military operation, not merely symbolic.",
+    "sources": [
+      {
+        "name": "Holinshed, Chronicles (1587)",
+        "citation": "Raphael Holinshed, Chronicles of England, Scotland, and Ireland (1587); narrative of Jack Cade's rebellion, July 1450, and the fighting on London Bridge."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "jack-cades-rebellion"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2414"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Source judge corrected 'two nights' of bridge fighting to one (night of 5-6 July 1450); reworded to 'fierce night fighting' without the count and kept Holinshed."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "London Bridge as the sole fixed Thames crossing and the military key to the city is historically sound; the gloss accurately conveys why its capture was decisive without overreaching."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Source judge corrected 'two nights' of bridge fighting to one (night of 5-6 July 1450); reworded to 'fierce night fighting' without the count and kept Holinshed. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_vi_part_2-2419-assayd-win-tower",
     "play": "henry_vi_part_2",
     "tln_start": 2419,
@@ -11560,6 +12438,65 @@
         "note": "The Mortimer alias, its dynastic logic (York's Clarence/Lionel line), and York's use of Cade as a stalking-horse are all established in the play's earlier scenes and corroborated by Holinshed; no overreach."
       }
     ]
+  },
+  {
+    "id": "henry_vi_part_2-2425-conduit-claret",
+    "play": "henry_vi_part_2",
+    "tln_start": 2425,
+    "tln_end": 2426,
+    "word_start": 7,
+    "word_end": 5,
+    "anchor_text": "the city's cost, the conduit run nothing but claret wine",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "City conduits were the public water-pipes and fountains that supplied Londoners with fresh water; making them flow with wine at the city's expense was a traditional royal extravagance, staged at coronations and great victories to signal that the new ruler's abundance overflows to the people. Cade orders this for the 'first year of our reign' — a parody of royal ceremony that proclaims him London's new sovereign while promising the crowd the carnival of free wine.",
+    "detail": "Wine famously ran from the London conduits at great civic entries, such as Henry V's triumphal return after Agincourt (1415) and the coronation entry of Henry VI (1432). The gesture was the sovereign's bounty made literal: the city's water-arteries temporarily replaced with wine. Cade's decree 'of the city's cost' inverts it, commandeering public infrastructure for his mock-reign. Hall's Union (1548) and Holinshed record that Cade's men drank and plundered freely during the occupation; Shakespeare sharpens this into a formal proclamation.",
+    "sources": [
+      {
+        "name": "Hall, Union (1548)",
+        "citation": "Edward Hall, The Union of the Two Noble and Illustre Families of Lancaster and York (1548), on Cade's occupation of London and the conduct of his followers."
+      },
+      {
+        "name": "Holinshed, Chronicles (1587)",
+        "citation": "Raphael Holinshed, Chronicles (1587), on Cade's entry into London and his men's behavior in the city."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "jack-cades-rebellion"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2425"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Source judge corrected the wine-conduit date for Henry V from his 1413 coronation to his 1415 Agincourt return; fixed the date and kept Hall/Holinshed and the gloss."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Wine flowing from conduits at royal entries (Henry V 1413, Henry VI 1432) is well-attested historical practice; reading Cade's decree as a parody of royal bounty is squarely supported by his 'first year of our reign' language and is uncontroversial in commentary."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Source judge corrected the wine-conduit date for Henry V from his 1413 coronation to his 1415 Agincourt return; fixed the date and kept Hall/Holinshed and the gloss. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "henry_vi_part_2-2435-london-bridge-tower",
@@ -11886,6 +12823,110 @@
     ]
   },
   {
+    "id": "henry_vi_part_2-2466-score-tally",
+    "play": "henry_vi_part_2",
+    "tln_start": 2466,
+    "tln_end": 2467,
+    "word_start": 5,
+    "word_end": 6,
+    "anchor_text": "our forefathers had no other books but the score and the tally",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "Before paper records were widespread, debts and transactions were kept on tally sticks: a notched wooden rod split lengthwise so creditor and debtor each kept a matching half (the 'tally'). A 'score' (from the Old Norse for 'notch') is one of those cut marks, and 'score' in the sense of twenty derives from counting up to that number of notches. Cade's point is that honest, illiterate Englishmen kept their accounts faithfully without paper — printing and grammar schools are corruptions, not improvements.",
+    "detail": "The English Exchequer continued issuing wooden tally sticks as official receipts until 1826. When the old sticks were finally burned in 1834, the fire spread and destroyed much of the Palace of Westminster (the Houses of Parliament). The episode underlines how genuinely ancient the practice Cade romanticizes was — and how recently it survived even in later England.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'tally' n.1 (a notched stick used to record a debt or transaction, split between parties); s.v. 'score' n.1 (a notch; hence twenty, being a common tally unit)."
+      },
+      {
+        "name": "Jenkinson, Exchequer Tallies",
+        "citation": "Hilary Jenkinson, 'Exchequer Tallies,' Archaeologia 62 (1911), pp. 367-380, on the use of tally sticks in the medieval English Exchequer."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2466"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Source judge corrected the Jenkinson publication year from 1915 to 1911; fixed the date and kept both sources and the gloss."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The tally-stick explanation and the etymology of 'score' from notch-counting are sound; the detail about the 1834 Palace of Westminster fire (from burning the old Exchequer tallies) is historically accurate and contextually enriching without distorting the primary gloss."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Source judge corrected the Jenkinson publication year from 1915 to 1911; fixed the date and kept both sources and the gloss. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_vi_part_2-2501-ignorance-curse",
+    "play": "henry_vi_part_2",
+    "tln_start": 2501,
+    "tln_end": 2502,
+    "word_start": 2,
+    "word_end": 7,
+    "anchor_text": "ignorance is the curse of God, Knowledge the wing wherewith we fly to heaven",
+    "type": "biblical_allusion",
+    "depth": "basic",
+    "summary": "Lord Say's couplet echoes the biblical idea that ignorance is a kind of divine punishment and knowledge a gift from God, as in Hosea 4:6 ('My people are destroyed for lacke of knowledge,' Geneva 1599) and Proverbs 19:2. Say uses scripture against Cade to argue that building a grammar school was an act of godliness, not treason.",
+    "detail": "The pairing is rhetorically clever: Say has been accused of corrupting England by promoting literacy, and he answers by invoking the biblical texts that frame ignorance itself as a curse. Proverbs 19:2 in the Geneva 1599 reads 'For without knowledge the minde is not good.' For a Protestant Elizabethan audience who believed Scripture should be read by all, this argument carries weight, which makes Cade's dismissal of it ('he speaks not o' God's name') the more revealing of the rebellion's wilful inversion of Christian order.",
+    "sources": [
+      {
+        "name": "Geneva Bible 1599",
+        "citation": "Hosea 4:6 (Geneva 1599): 'My people are destroyed for lacke of knowledge.' Cf. Proverbs 19:2 (Geneva 1599): 'For without knowledge the minde is not good.'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2501"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Source judge confirmed Hosea 4:6 but caught that the Proverbs 19:2 quote was KJV ('soule'); corrected it to the verified Geneva wording ('the minde is not good') and kept both verse citations."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The echo of Proverbs 19:2 and Hosea 4:6 for Say's couplet is plausible and the interpretive framing (Say using scripture to counter Cade's anti-literacy charge) is squarely supported by the scene; the Protestant-Elizabethan resonance is mainstream."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Source judge confirmed Hosea 4:6 but caught that the Proverbs 19:2 quote was KJV ('soule'); corrected it to the verified Geneva wording ('the minde is not good') and kept both verse citations. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_vi_part_2-2516-hempen-caudle",
     "play": "henry_vi_part_2",
     "tln_start": 2516,
@@ -12038,6 +13079,61 @@
         "note": "The 'holding in capite' legal-term pun (Latin caput/head + feudal tenure + beheadings) is a recognised scholarly reading; the note correctly flags that 'droit du seigneur' was more satirical emblem than universal practice, which is appropriately cautious."
       }
     ]
+  },
+  {
+    "id": "henry_vi_part_2-2575-henry-v-memory",
+    "play": "henry_vi_part_2",
+    "tln_start": 2575,
+    "tln_end": 2576,
+    "word_start": 4,
+    "word_end": 8,
+    "anchor_text": "honours not his father, Henry the Fifth, that made all France to quake",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "Clifford appeals to the rebels not with arguments but with the name of Henry V, the hero-king who conquered France and remains the most potent symbol of English glory. The implication is clear: to refuse the pardon and follow Cade is to dishonor the memory of one's own country's greatest king. After the crowd wavers back toward Cade, Clifford presses the appeal again and finally wins them over.",
+    "detail": "Henry V had died in 1422, less than thirty years before the rebellion, and his fame as the conqueror of Agincourt was central to popular English identity. Clifford's move is pure emotional rhetoric rather than legal argument: he ignores Cade's grievances and conjures the dead warrior-king to shame the commons back into royal obedience. The strategy of invoking Henry V to excuse the weakness of Henry VI recurs through the play.",
+    "sources": [
+      {
+        "name": "Holinshed, Chronicles (1587)",
+        "citation": "Raphael Holinshed, Chronicles (1587), on the dispersal of Cade's rebels by the offer of royal pardon at Southwark, July 1450."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "jack-cades-rebellion"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2575"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Holinshed's Chronicles (1587) does cover the dispersal of Cade's rebels via royal pardon at Southwark in July 1450, and the invocation of Henry V's name by Clifford is consistent with the chronicle account; the source supports the summary claim."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Interp judge was right (verified against the text): the crowd swings back to Cade at TLN 2590 before a second Clifford speech holds them at 2610; removed 'works immediately / abandons Cade on the spot' and described the two-round turn."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Interp judge was right (verified against the text): the crowd swings back to Cade at TLN 2590 before a second Clifford speech holds them at 2610; removed 'works immediately / abandons Cade on the spot' and described the two-round turn. [orig: source=verified, interp=refuted]"
   },
   {
     "id": "henry_vi_part_2-2583-white-hart-southwark",
@@ -12501,6 +13597,60 @@
         "note": "The core simile — storm survived, ship becalmed and boarded — is read correctly; the 'ironic resonance' linking York to Suffolk's killers in the detail note overreaches (the play draws no such connection), but the summary-level interpretation is sound and that elaboration does not corrupt the annotation's claim."
       }
     ]
+  },
+  {
+    "id": "henry_vi_part_2-2681-sallet-triple-pun",
+    "play": "henry_vi_part_2",
+    "tln_start": 2681,
+    "tln_end": 2681,
+    "word_start": 3,
+    "word_end": 7,
+    "anchor_text": "pick a sallet another while",
+    "type": "wordplay",
+    "depth": "basic",
+    "summary": "Cade puns on 'sallet' in two senses: (1) a salad of raw greens, which he literally wants to eat, and (2) a 'sallet,' the light steel helmet worn by infantry, whose crown could save a soldier's head in a fight. The joke lets him beg for food and boast of survival in the same breath; he ends by saying the word itself will have to serve him for food.",
+    "detail": "The wordplay runs across TLN 2681-2688: 'pick a sallet' = pick salad greens; 'a sallet... my brain-pan had been cleft with a brown bill' = a helmet saved my skull from being split; 'the word sallet must serve me to feed on' = he has nothing left but the word. A brown bill is a halberd-type weapon whose blade would split an unhelmeted head; the sallet (salade) was the standard light helmet of English foot-soldiers from the mid-fifteenth century. Even starving and beaten, Cade cannot resist a verbal trick.",
+    "sources": [
+      {
+        "name": "Onions, Shakespeare Glossary",
+        "citation": "Onions, C. T., A Shakespeare Glossary (1911), s.v. 'sallet' (salad; also a form of helmet)."
+      },
+      {
+        "name": "Schmidt, Shakespeare-Lexicon",
+        "citation": "Schmidt, Alexander, Shakespeare-Lexicon (1886), s.v. 'sallet.'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2681"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Onions (1911) and Schmidt (1886) are genuine standard lexicographic works that both document 'sallet' in its dual sense of salad and infantry helmet, supporting the triple-pun claim."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Interp judge showed the text supports only two senses (salad + helmet) and that the invented third 'lucky' sense is unsupported; recast as a double pun and removed the third meaning, keeping the lexicon sources."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Interp judge showed the text supports only two senses (salad + helmet) and that the invented third 'lucky' sense is unsupported; recast as a double pun and removed the third meaning, keeping the lexicon sources. [orig: source=verified, interp=refuted]"
   },
   {
     "id": "henry_vi_part_2-2685-brown-bill",
@@ -13086,6 +14236,59 @@
         "note": "Standard humours gloss — yellow bile as the source of hot temper — is correct and uncontroversial."
       }
     ]
+  },
+  {
+    "id": "henry_vi_part_2-2782-ajax-telamonius",
+    "play": "henry_vi_part_2",
+    "tln_start": 2782,
+    "tln_end": 2783,
+    "word_start": 2,
+    "word_end": 8,
+    "anchor_text": "like Ajax Telamonius, On sheep or oxen could I spend my fury",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Ajax Telamonius — 'son of Telamon' — was one of the greatest Greek warriors at Troy, famous for brute strength. When Achilles's armour was awarded to Odysseus instead of him, Ajax went mad with rage and, deceived by Athena, slaughtered a herd of livestock believing them to be his enemies; recovering his senses, he killed himself in shame. York says his frustration at having to play polite with Buckingham is so overwhelming that, like Ajax, he could waste it on dumb animals.",
+    "detail": "Ovid (Metamorphoses Book 13) tells the contest of Ajax and Ulysses for Achilles's arms and Ajax's suicide; the madness and slaughter of the livestock are dramatized in Sophocles' Ajax (and recounted by Apollodorus). The fury-humiliation arc made Ajax the archetype of greatness thwarted by lesser men. York's identification is revealing: both feel entitled to what was given to an unworthy rival, and both barely contain a violence that, misdirected, would be merely animal.",
+    "sources": [
+      {
+        "name": "Sophocles, Ajax",
+        "citation": "Sophocles, Ajax (Ajax, denied Achilles's arms, is driven mad and slaughters a herd of livestock, then kills himself in shame)."
+      },
+      {
+        "name": "Ovid, Metamorphoses",
+        "citation": "Ovid, Metamorphoses Book 13 (Golding 1567): the contest of Ajax and Ulysses for Achilles's arms and Ajax's suicide."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2782"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Source judge showed Ovid Book 13 covers the arms-contest and suicide but not the livestock-slaughter madness; added Sophocles' Ajax (an allowlisted ancient author) for the madness episode and kept Ovid for the arms contest."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The Ajax legend (mad fury, slaughter of livestock, shame) is accurately summarized, and the interpretive parallel — York's sense of entitlement thwarted by a lesser rival — is a mainstream, well-supported reading."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Source judge showed Ovid Book 13 covers the arms-contest and suicide but not the livestock-slaughter madness; added Sophocles' Ajax (an allowlisted ancient author) for the madness episode and kept Ovid for the arms contest. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "henry_vi_part_2-2786-make-fair-weather",
@@ -14006,6 +15209,56 @@
     ]
   },
   {
+    "id": "henry_vi_part_2-3002-la-fin-couronne",
+    "play": "henry_vi_part_2",
+    "tln_start": 3002,
+    "tln_end": 3002,
+    "word_start": 0,
+    "word_end": 4,
+    "anchor_text": "La fin couronne les oeuvres",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "This is a French proverb meaning 'The end crowns the works' — equivalent to the English 'the end crowns all.' Clifford speaks it as his dying words, accepting that a man is judged by how his life ends. He dies in battle against York, so he chooses a soldier's ending.",
+    "detail": "The phrase was an early modern commonplace circulating in French and Latin versions ('finis coronat opus'). It appears in Tilley's dictionary of English proverbs and in several Shakespeare plays, most notably Troilus and Cressida ('The end crowns all'). For Clifford it carries stoic resignation: whatever his life contained, this death — fighting for his king — is the conclusion that defines it. The choice of French is fitting: 2 Henry VI is set in a world where English kings still claim France, and French was the language of heraldry and legal formulas.",
+    "sources": [
+      {
+        "name": "Tilley, Proverbs in England",
+        "citation": "Tilley, M. P., A Dictionary of the Proverbs in England in the Sixteenth and Seventeenth Centuries (1950), E116: 'The end crowns all' (finis coronat opus)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 3002"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Source judge showed the Tilley number was wrong (F160 = 'To cut a feather'); corrected the reference to E116 and kept the gloss."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The proverb is real, the Tilley citation is appropriate, and the contextual gloss — Clifford accepts death as the defining end of his life — fits the dying-words context without overreaching."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Source judge showed the Tilley number was wrong (F160 = 'To cut a feather'); corrected the reference to E116 and kept the gloss. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_vi_part_2-3015-premised-flames-last-day",
     "play": "henry_vi_part_2",
     "tln_start": 3016,
@@ -14417,1059 +15670,6 @@
     ]
   },
   {
-    "id": "henry_vi_part_2-3091-writs-parliament",
-    "play": "henry_vi_part_2",
-    "tln_start": 3091,
-    "tln_end": 3092,
-    "word_start": 1,
-    "word_end": 8,
-    "anchor_text": "call a present court of parliament. / Let us pursue him ere the writs go forth",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "A 'writ' was the royal legal summons that formally convened a parliament; once issued, members were bound to appear and the session had legal force. York's urgency is political: if Henry reaches London and gets the writs out before the Yorkists arrive, he can use parliament to put the realm legally back under Lancaster's control. The race to London is as much a race to control the law as it is a military pursuit.",
-    "detail": "In medieval England, parliament had no permanent standing and only assembled when the king summoned it by writs sent to peers and boroughs. A sitting parliament was a formidable instrument of royal legitimacy: it could attaint traitors, vote taxes for an army, and issue proclamations. York's calculation is precise — he must reach London before Henry can use this machinery against him. Holinshed records that after the battle of St Albans the Yorkists did indeed accompany the king to London, where they secured custody of his person and effectively controlled the next parliament (November 1455). The phrase 'present court' means an immediately convened session, not a regular one.",
-    "sources": [
-      {
-        "name": "Holinshed, Chronicles (1587)",
-        "citation": "Raphael Holinshed, Chronicles (1587), on the aftermath of the first battle of St Albans (22 May 1455) and the subsequent London parliament."
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "the-first-battle-of-st-albans"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 3091"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Holinshed's Chronicles (1587) is the confirmed source for Shakespeare's English histories and does cover the aftermath of the First Battle of St Albans (22 May 1455); the November 1455 parliament is historically accurate — York's second protectorate was authorized on 19 November 1455."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The legal-historical gloss on parliamentary writs and York's race to control the next session is factually grounded and matches the Holinshed account of the aftermath of St Albans (1455); the annotation does not overreach the text's plain political urgency."
-      }
-    ]
-  },
-  {
-    "id": "henry_vi_part_2-1146-isle-of-man",
-    "play": "henry_vi_part_2",
-    "tln_start": 1146,
-    "tln_end": 1146,
-    "word_start": 0,
-    "word_end": 9,
-    "anchor_text": "To take her with him to the Isle of Man",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "The Isle of Man, a small island in the Irish Sea between England and Ireland, was a remote jurisdiction outside the normal reach of the English court. Sending Eleanor there as a prisoner reflects her historical sentence: after her public penance in London she was committed to custody on the island under guard. The Stanley family held the lordship of Man, which is why Sir John Stanley is the officer appointed to escort and guard her.",
-    "detail": "Holinshed records that Eleanor Cobham was committed to the custody of Sir John Stanley within the Isle of Man. (Historically she was later moved to other castles and died in 1452.) The island's remoteness and semi-separate jurisdiction made it an effective form of exile just within the English sphere, and Shakespeare's detail here is traceable to his chronicle source.",
-    "sources": [
-      {
-        "name": "Holinshed, Chronicles (1587)",
-        "citation": "Raphael Holinshed, Chronicles (1587), on Eleanor Cobham's sentence and imprisonment on the Isle of Man under Sir John Stanley."
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "eleanor-cobham-and-witchcraft"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1146"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Source judge caught two factual errors in the detail (she was later moved off Man and died elsewhere; the Stanley-branch claim was confused); removed both and kept the sourced core (custody under Stanley on Man, per Holinshed)."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The Isle of Man as Eleanor's place of imprisonment under Sir John Stanley is directly traceable to Holinshed; the Stanley connection is historically accurate."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Source judge caught two factual errors in the detail (she was later moved off Man and died elsewhere; the Stanley-branch claim was confused); removed both and kept the sourced core (custody under Stanley on Man, per Holinshed). [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_vi_part_2-1197-curs-grin",
-    "play": "henry_vi_part_2",
-    "tln_start": 1197,
-    "tln_end": 1198,
-    "word_start": 0,
-    "word_end": 7,
-    "anchor_text": "Small curs are not regarded when they grin, But great men tremble when the lion roars",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "Queen Margaret uses a two-part animal comparison to argue that a minor threat can be ignored but a powerful one cannot. 'Curs' are mongrel or worthless dogs; 'grin' here means to bare the teeth in a snarl. The paired images work as a warrant for her case: Gloucester is no harmless cur to be disregarded but the dangerous lion who makes great men tremble — so he must be dealt with, not tolerated.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'grin' v., sense 1: 'Of animals: to show the teeth in rage or pain.'"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1197"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "OED s.v. 'grin' v. sense 1 for the animal meaning 'to show the teeth in rage' is a real sense accurately applied."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Interp judge said the gloss softened Margaret's point; sharpened it — Gloucester is the dangerous lion to be removed, not merely 'taken seriously' — and kept the OED gloss on 'grin'."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Interp judge said the gloss softened Margaret's point; sharpened it — Gloucester is the dangerous lion to be removed, not merely 'taken seriously' — and kept the OED gloss on 'grin'. [orig: source=verified, interp=refuted]"
-  },
-  {
-    "id": "henry_vi_part_2-123-suffocate",
-    "play": "henry_vi_part_2",
-    "tln_start": 123,
-    "tln_end": 123,
-    "word_start": 0,
-    "word_end": 6,
-    "anchor_text": "For Suffolk's duke, may he be suffocate",
-    "type": "wordplay",
-    "depth": "scholar",
-    "summary": "York plays on the sound of 'Suffolk' and 'suffocate': he wishes the new Duke of Suffolk choked by the very honor he has just received. The conjured spirit later prophesies that Suffolk will die 'by water,' and he is indeed killed at sea in Act 4.",
-    "sources": [
-      {
-        "name": "Schmidt",
-        "citation": "Schmidt, Shakespeare-Lexicon, s.v. 'suffocate' v.: 'to choke, smother'"
-      },
-      {
-        "name": "Onions",
-        "citation": "Onions, Shakespeare Glossary, s.v. 'suffocate': used as past participle as well as infinitive; here = 'be suffocated'"
-      }
-    ],
-    "references": [],
-    "confidence": "medium",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 123"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Schmidt and Onions entries on 'suffocate' are standard lexicographic references that support the claimed meaning and grammatical note."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Trimmed the unsupported claim of a deliberate stressed-syllable name-pun (interp judge); kept the sound-echo curse and the lexicographic gloss."
-      }
-    ],
-    "detail": "'Suffocate' is here used as a past participle (= 'be suffocated'), a common Elizabethan form. The echo between the title and the curse is part of why the line lands as an imprecation; Shakespeare's audiences heard names as charged with meaning.",
-    "note_internal": "Review-queue rescue 2026-06-01. Trimmed the unsupported claim of a deliberate stressed-syllable name-pun (interp judge); kept the sound-echo curse and the lexicographic gloss. [orig: source=verified, interp=refuted]"
-  },
-  {
-    "id": "henry_vi_part_2-1405-crocodile-sorrow",
-    "play": "henry_vi_part_2",
-    "tln_start": 1405,
-    "tln_end": 1406,
-    "word_start": 0,
-    "word_end": 4,
-    "anchor_text": "Beguiles him as the mournful crocodile With sorrow snares relenting passengers",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "The crocodile was proverbially said to weep false tears to lure its prey, then devour it. Elizabethan natural histories repeated the claim as fact. Margaret accuses Gloucester of performing sorrow to soften the king's heart, just as a crocodile's apparent weeping draws the unwary traveller close enough to be eaten. 'Relenting passengers' means travellers softened by pity.",
-    "detail": "The 'crocodile tears' tradition circulated widely in Shakespeare's England, reaching it through medieval sources such as Sir John Mandeville's Travels and the bestiaries; Edmund in King Lear makes the same joke about false weeping. The paradox of a predator that weeps before killing made the crocodile a standard figure for hypocritical grief and artful deception.",
-    "sources": [
-      {
-        "name": "Mandeville, Travels",
-        "citation": "The Travels of Sir John Mandeville (c. 1357), on crocodiles that weep while devouring; the 'crocodile tears' tradition was repeated in numerous Elizabethan natural histories."
-      },
-      {
-        "name": "Tilley",
-        "citation": "Tilley, Dictionary of the Proverbs in England, C831: 'To weep crocodile tears' (proverbial for feigned sorrow)."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1405"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Source judge showed Pliny 8.37 lacks the weeping-lure claim; dropped Pliny and cited Mandeville (a documented transmitter) plus Tilley's proverb entry, keeping the gloss."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The proverbial 'crocodile tears' tradition — false weeping to lure prey — is accurately described and well-attested in Elizabethan natural history; Margaret's application to Gloucester's apparent grief is directly supported by the text."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Source judge showed Pliny 8.37 lacks the weeping-lure claim; dropped Pliny and cited Mandeville (a documented transmitter) plus Tilley's proverb entry, keeping the gloss. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_vi_part_2-1522-starved-snake",
-    "play": "henry_vi_part_2",
-    "tln_start": 1522,
-    "tln_end": 1523,
-    "word_start": 0,
-    "word_end": 8,
-    "anchor_text": "I fear me you but warm the starved snake, Who, cherish'd in your breasts, will sting your hearts",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "York turns the fable of the frozen snake revived by a kind man's warmth against his benefactors: they are warming a serpent that will bite them. In the fable a man shelters a frozen snake in his breast; it revives and stings him to death — a well-known Aesopic story for ingratitude. York uses it knowingly: he is the snake, and his patrons are warming their own destroyer.",
-    "detail": "The snake revived in the bosom appears in many Elizabethan fable collections as Aesop's 'The Farmer and the Viper.' York's self-aware use of it — 'I fear me you but warm...' — is an aside the audience hears but the nobles do not, sharpening the dramatic irony: the conspirators have just congratulated themselves on getting rid of him.",
-    "sources": [
-      {
-        "name": "Aesop, Fables",
-        "citation": "Aesop, 'The Farmer and the Viper' (Perry Index 176); widely anthologized in Elizabethan schoolbooks and fable collections."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1522"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Source judge showed '176' is the Perry Index number, not Chambry; corrected the catalogue name (Perry Index 176) and kept the gloss."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The Aesopic 'Farmer and the Viper' identification is correct; York's self-aware use as an aside (he is the snake) is supported by the dramatic context, and the irony of the nobles congratulating themselves on neutralising him is well-identified."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Source judge showed '176' is the Perry Index number, not Chambry; corrected the catalogue name (Perry Index 176) and kept the gloss. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_vi_part_2-1603-raven-note",
-    "play": "henry_vi_part_2",
-    "tln_start": 1603,
-    "tln_end": 1604,
-    "word_start": 5,
-    "word_end": 6,
-    "anchor_text": "sing a raven's note Whose dismal tune bereft my vital powers",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "The raven was the classical and popular emblem of ill-omen and death: its harsh croaking was believed to foretell disaster or a fatality. Henry casts Suffolk's announcement of Gloucester's death as the bird's death-cry — that raven's note 'bereft my vital powers,' robbing him of consciousness so that he swoons. Compare Othello's 'the raven o'er the infected house, / Boding to all' (4.1).",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'raven' n.1: the raven as an omen of evil and death."
-      },
-      {
-        "name": "Horace, Odes",
-        "citation": "Horace, Odes 3.27.1 (the raven as a bird of ill omen in the classical tradition)."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1603"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Source judge showed the raven sits at Pliny NH 10.15, not 10.12; dropped the wrong Pliny chapter and cited OED plus Horace (Odes 3.27.1, which the original already named correctly)."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The raven as death-omen is well-attested in classical and Elizabethan sources, and Henry's use of the image to describe Suffolk's announcement is textually accurate."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Source judge showed the raven sits at Pliny NH 10.15, not 10.12; dropped the wrong Pliny chapter and cited OED plus Horace (Odes 3.27.1, which the original already named correctly). [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_vi_part_2-1679-ascanius-dido",
-    "play": "henry_vi_part_2",
-    "tln_start": 1679,
-    "tln_end": 1681,
-    "word_start": 1,
-    "word_end": 6,
-    "anchor_text": "sit and witch me, as Ascanius did When he to madding Dido would unfold His father's acts commenc'd in burning Troy",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "Ascanius was the son of the Trojan hero Aeneas. In Virgil's Aeneid, the goddess Venus has Cupid take the shape of Ascanius at Queen Dido's feast, so that the boy's presence works a love-spell on the Carthaginian queen while Aeneas tells his story of the fall of Troy. Margaret says Suffolk 'witched' (enchanted) her the same way — through his words, as the false Ascanius bewitched Dido. 'Madding' means driven to madness by love.",
-    "detail": "Virgil, Aeneid Book 1, describes Cupid disguised as the boy Ascanius inflaming Dido's passion for Aeneas as he narrates Troy's fall. Margaret casts herself as the enchanted Dido and Suffolk as the bewitching figure whose tale ensnared her.",
-    "sources": [
-      {
-        "name": "Virgil",
-        "citation": "Virgil, Aeneid Book 1 (Cupid disguised as Ascanius enchants Dido at the feast while Aeneas tells of Troy)."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1679"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Virgil Aeneid 1.657-722 is confirmed as describing Cupid disguised as Ascanius enchanting Dido at the feast while Aeneas tells the story of Troy."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Interp judge faulted the elaborate three-way role-mapping (esp. the added Henry-as-Aeneas layer); trimmed to the defensible core (Dido = Margaret, the enchanting Ascanius-figure = Suffolk) and kept the Virgil allusion."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Interp judge faulted the elaborate three-way role-mapping (esp. the added Henry-as-Aeneas layer); trimmed to the defensible core (Dido = Margaret, the enchanting Ascanius-figure = Suffolk) and kept the Virgil allusion. [orig: source=verified, interp=refuted]"
-  },
-  {
-    "id": "henry_vi_part_2-1891-boding-screech-owls",
-    "play": "henry_vi_part_2",
-    "tln_start": 1891,
-    "tln_end": 1891,
-    "word_start": 1,
-    "word_end": 6,
-    "anchor_text": "boding screech-owls make the consort full",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "'Boding' means omen-bearing, foretelling evil. The screech-owl was widely taken in both classical and English folk belief as an omen of death and disaster — its cry near a house foretold a death within. 'Consort' means a company of musicians or a concert: Suffolk is completing a musical metaphor, so the screech-owls should fill out the ensemble of terrors. He wants his enemies surrounded by nothing but omens of ruin.",
-    "sources": [
-      {
-        "name": "Pliny",
-        "citation": "Pliny, Natural History, Book 10 (on owls as birds of ill omen); a belief widespread across classical literature."
-      },
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'consort' n.1, sense 3: 'a company of musicians playing together.'"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1891"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Source judge showed the owl-omen sits at NH 10.16, not the cited 10.17; generalized Pliny to Book 10 and kept the OED 'consort' gloss."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The screech-owl as death-omen in both classical and English folk belief is correctly described, and 'consort' as a company of musicians completing a musical metaphor is accurate."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Source judge showed the owl-omen sits at NH 10.16, not the cited 10.17; generalized Pliny to Book 10 and kept the OED 'consort' gloss. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_vi_part_2-1972-iris-that-shall-find",
-    "play": "henry_vi_part_2",
-    "tln_start": 1972,
-    "tln_end": 1972,
-    "word_start": 0,
-    "word_end": 8,
-    "anchor_text": "I'll have an Iris that shall find thee out",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "Iris was the messenger goddess of the Olympians, personification of the rainbow, who carried divine messages between gods and mortals at speed. Margaret promises to send her own 'Iris' — a swift messenger — to find Suffolk wherever he goes in the world. The allusion dignifies her love-message as godlike in its urgency.",
-    "sources": [
-      {
-        "name": "Virgil",
-        "citation": "Virgil, Aeneid (Iris as Juno's divine messenger, descending on a rainbow path)."
-      },
-      {
-        "name": "Schmidt",
-        "citation": "Schmidt, Shakespeare-Lexicon, s.v. 'Iris.'"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1972"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Source judge showed Aeneid 4.693-705 is Iris releasing Dido's soul, not a message-errand; dropped the wrong locus, generalized to the Aeneid's messenger-Iris, and kept Schmidt."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Iris as divine messenger and personification of the rainbow is correctly identified; the Aeneid 4 locus is apt and the reading of Margaret's promise is sound."
-      }
-    ],
-    "detail": "In Virgil's Aeneid, Iris is Juno's swift messenger who travels along a rainbow path; she is the standard classical figure for a rapid divine errand. Margaret borrows that speed and reach for the messenger she vows to send after Suffolk.",
-    "note_internal": "Review-queue rescue 2026-06-01. Source judge showed Aeneid 4.693-705 is Iris releasing Dido's soul, not a message-errand; dropped the wrong locus, generalized to the Aeneid's messenger-Iris, and kept Schmidt. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_vi_part_2-2187-argo-thread-of-life",
-    "play": "henry_vi_part_2",
-    "tln_start": 2187,
-    "tln_end": 2187,
-    "word_start": 0,
-    "word_end": 6,
-    "anchor_text": "Argo, their thread of life is spun",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "'Argo' is Bevis's mangled version of Latin 'ergo' ('therefore'). The joke doubles as a classical allusion: since Smith is a weaver, Bevis says their thread of life is now 'spun' — a nod to the Fates of Greek myth, three goddesses who spun, measured, and cut the thread of each person's lifespan. Atropos, the third Fate, cut the thread at death.",
-    "detail": "In Greek myth the three Moirai (Clotho, Lachesis, Atropos) controlled human destiny through the imagery of spinning and weaving: Clotho spun the thread of life, Lachesis measured it, Atropos cut it. The image runs through Latin poetry, including Ovid's Metamorphoses, where the sisters spin and bind a mortal's life to a brand (Book 8). Bevis's line is both a malapropism ('Argo' for 'ergo') and a craftsman's joke: a weaver governs everyone's thread.",
-    "sources": [
-      {
-        "name": "Ovid, Metamorphoses",
-        "citation": "Ovid, Metamorphoses Book 8 (the three sisters/Parcae spin and bind a mortal's life to a brand), trans. Golding (1567)."
-      },
-      {
-        "name": "Schmidt",
-        "citation": "Schmidt, Shakespeare-Lexicon, s.v. 'argo': Bevis's comic corruption of Latin ergo ('therefore')."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2187"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Source judge showed the spinning-Fates passage is Book 8 (not Golding's Book 15); corrected to Book 8 and kept Schmidt for the malapropism."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Both the malapropism ('Argo' for 'ergo') and the Fates allusion (thread spun by a weaver) are firmly established; the double joke is the consensus reading."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Source judge showed the spinning-Fates passage is Book 8 (not Golding's Book 15); corrected to Book 8 and kept Schmidt for the malapropism. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_vi_part_2-235-althaea-brand",
-    "play": "henry_vi_part_2",
-    "tln_start": 235,
-    "tln_end": 236,
-    "word_start": 2,
-    "word_end": 5,
-    "anchor_text": "the fatal brand Althaea burn'd unto the prince's heart of Calydon",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "Althaea was the mother of Meleager, the hero of Calydon (a city in ancient Greece). At his birth the Fates told her he would live only as long as a brand (log) in the fire stayed unburned; she snatched it out and kept it safe. When Meleager later killed her brothers, she burned the brand in revenge and he died as the log turned to ash. York compares England, France, and Ireland to that fatal brand: the external thing on which his life and fate depend.",
-    "detail": "Ovid tells the story in Metamorphoses Book 8, read in Elizabethan schools in Arthur Golding's English translation (1567). The comparison is precise: as Meleager's life was bound to the brand, York's political life is bound to the possession of those three realms, and watching them given away is like watching his own life-force burn down. The allusion is darkly ironic too: Althaea destroyed her own son.",
-    "sources": [
-      {
-        "name": "Ovid, Metamorphoses",
-        "citation": "Ovid, Metamorphoses Book 8 (the fate of Meleager and the brand of Althaea); in Golding's English translation (1567)"
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 235"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Source judge faulted the exact line range (8.445-525); generalized the citation to Metamorphoses Book 8 (Golding 1567) and kept the gloss."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The Ovidian source and the primary comparison (York's political life bound to the three realms as Meleager's life was bound to the brand) are sound; the secondary irony of Althaea-as-destroyer is a plausible inferential layer, not a misleading overreach."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Source judge faulted the exact line range (8.445-525); generalized the citation to Metamorphoses Book 8 (Golding 1567) and kept the gloss. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_vi_part_2-2414-won-the-bridge",
-    "play": "henry_vi_part_2",
-    "tln_start": 2414,
-    "tln_end": 2414,
-    "word_start": 0,
-    "word_end": 3,
-    "anchor_text": "have won the bridge",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "London Bridge was the only fixed crossing of the Thames and the key to the city. Cade's rebels seizing it was the decisive act that let them enter London from the south bank; whoever held the bridge controlled movement in and out of the city. Lord Scales confirms they are now fighting on both the bridge and in the streets.",
-    "detail": "The historical Jack Cade marched his Kentish forces to Southwark in July 1450 and forced his way into London across London Bridge, meeting resistance from city troops and Lord Scales at the Tower. Holinshed describes fierce night fighting on the bridge before the rebels were repulsed. Shakespeare compresses the timeline. London Bridge was lined with houses and a gatehouse that could be held and locked, making its capture or defense a genuine military operation, not merely symbolic.",
-    "sources": [
-      {
-        "name": "Holinshed, Chronicles (1587)",
-        "citation": "Raphael Holinshed, Chronicles of England, Scotland, and Ireland (1587); narrative of Jack Cade's rebellion, July 1450, and the fighting on London Bridge."
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "jack-cades-rebellion"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2414"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Source judge corrected 'two nights' of bridge fighting to one (night of 5-6 July 1450); reworded to 'fierce night fighting' without the count and kept Holinshed."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "London Bridge as the sole fixed Thames crossing and the military key to the city is historically sound; the gloss accurately conveys why its capture was decisive without overreaching."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Source judge corrected 'two nights' of bridge fighting to one (night of 5-6 July 1450); reworded to 'fierce night fighting' without the count and kept Holinshed. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_vi_part_2-2425-conduit-claret",
-    "play": "henry_vi_part_2",
-    "tln_start": 2425,
-    "tln_end": 2426,
-    "word_start": 7,
-    "word_end": 5,
-    "anchor_text": "the city's cost, the conduit run nothing but claret wine",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "City conduits were the public water-pipes and fountains that supplied Londoners with fresh water; making them flow with wine at the city's expense was a traditional royal extravagance, staged at coronations and great victories to signal that the new ruler's abundance overflows to the people. Cade orders this for the 'first year of our reign' — a parody of royal ceremony that proclaims him London's new sovereign while promising the crowd the carnival of free wine.",
-    "detail": "Wine famously ran from the London conduits at great civic entries, such as Henry V's triumphal return after Agincourt (1415) and the coronation entry of Henry VI (1432). The gesture was the sovereign's bounty made literal: the city's water-arteries temporarily replaced with wine. Cade's decree 'of the city's cost' inverts it, commandeering public infrastructure for his mock-reign. Hall's Union (1548) and Holinshed record that Cade's men drank and plundered freely during the occupation; Shakespeare sharpens this into a formal proclamation.",
-    "sources": [
-      {
-        "name": "Hall, Union (1548)",
-        "citation": "Edward Hall, The Union of the Two Noble and Illustre Families of Lancaster and York (1548), on Cade's occupation of London and the conduct of his followers."
-      },
-      {
-        "name": "Holinshed, Chronicles (1587)",
-        "citation": "Raphael Holinshed, Chronicles (1587), on Cade's entry into London and his men's behavior in the city."
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "jack-cades-rebellion"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2425"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Source judge corrected the wine-conduit date for Henry V from his 1413 coronation to his 1415 Agincourt return; fixed the date and kept Hall/Holinshed and the gloss."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Wine flowing from conduits at royal entries (Henry V 1413, Henry VI 1432) is well-attested historical practice; reading Cade's decree as a parody of royal bounty is squarely supported by his 'first year of our reign' language and is uncontroversial in commentary."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Source judge corrected the wine-conduit date for Henry V from his 1413 coronation to his 1415 Agincourt return; fixed the date and kept Hall/Holinshed and the gloss. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_vi_part_2-2466-score-tally",
-    "play": "henry_vi_part_2",
-    "tln_start": 2466,
-    "tln_end": 2467,
-    "word_start": 5,
-    "word_end": 6,
-    "anchor_text": "our forefathers had no other books but the score and the tally",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "Before paper records were widespread, debts and transactions were kept on tally sticks: a notched wooden rod split lengthwise so creditor and debtor each kept a matching half (the 'tally'). A 'score' (from the Old Norse for 'notch') is one of those cut marks, and 'score' in the sense of twenty derives from counting up to that number of notches. Cade's point is that honest, illiterate Englishmen kept their accounts faithfully without paper — printing and grammar schools are corruptions, not improvements.",
-    "detail": "The English Exchequer continued issuing wooden tally sticks as official receipts until 1826. When the old sticks were finally burned in 1834, the fire spread and destroyed much of the Palace of Westminster (the Houses of Parliament). The episode underlines how genuinely ancient the practice Cade romanticizes was — and how recently it survived even in later England.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'tally' n.1 (a notched stick used to record a debt or transaction, split between parties); s.v. 'score' n.1 (a notch; hence twenty, being a common tally unit)."
-      },
-      {
-        "name": "Jenkinson, Exchequer Tallies",
-        "citation": "Hilary Jenkinson, 'Exchequer Tallies,' Archaeologia 62 (1911), pp. 367-380, on the use of tally sticks in the medieval English Exchequer."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2466"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Source judge corrected the Jenkinson publication year from 1915 to 1911; fixed the date and kept both sources and the gloss."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The tally-stick explanation and the etymology of 'score' from notch-counting are sound; the detail about the 1834 Palace of Westminster fire (from burning the old Exchequer tallies) is historically accurate and contextually enriching without distorting the primary gloss."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Source judge corrected the Jenkinson publication year from 1915 to 1911; fixed the date and kept both sources and the gloss. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_vi_part_2-2501-ignorance-curse",
-    "play": "henry_vi_part_2",
-    "tln_start": 2501,
-    "tln_end": 2502,
-    "word_start": 2,
-    "word_end": 7,
-    "anchor_text": "ignorance is the curse of God, Knowledge the wing wherewith we fly to heaven",
-    "type": "biblical_allusion",
-    "depth": "basic",
-    "summary": "Lord Say's couplet echoes the biblical idea that ignorance is a kind of divine punishment and knowledge a gift from God, as in Hosea 4:6 ('My people are destroyed for lacke of knowledge,' Geneva 1599) and Proverbs 19:2. Say uses scripture against Cade to argue that building a grammar school was an act of godliness, not treason.",
-    "detail": "The pairing is rhetorically clever: Say has been accused of corrupting England by promoting literacy, and he answers by invoking the biblical texts that frame ignorance itself as a curse. Proverbs 19:2 in the Geneva 1599 reads 'For without knowledge the minde is not good.' For a Protestant Elizabethan audience who believed Scripture should be read by all, this argument carries weight, which makes Cade's dismissal of it ('he speaks not o' God's name') the more revealing of the rebellion's wilful inversion of Christian order.",
-    "sources": [
-      {
-        "name": "Geneva Bible 1599",
-        "citation": "Hosea 4:6 (Geneva 1599): 'My people are destroyed for lacke of knowledge.' Cf. Proverbs 19:2 (Geneva 1599): 'For without knowledge the minde is not good.'"
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2501"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Source judge confirmed Hosea 4:6 but caught that the Proverbs 19:2 quote was KJV ('soule'); corrected it to the verified Geneva wording ('the minde is not good') and kept both verse citations."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The echo of Proverbs 19:2 and Hosea 4:6 for Say's couplet is plausible and the interpretive framing (Say using scripture to counter Cade's anti-literacy charge) is squarely supported by the scene; the Protestant-Elizabethan resonance is mainstream."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Source judge confirmed Hosea 4:6 but caught that the Proverbs 19:2 quote was KJV ('soule'); corrected it to the verified Geneva wording ('the minde is not good') and kept both verse citations. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_vi_part_2-2575-henry-v-memory",
-    "play": "henry_vi_part_2",
-    "tln_start": 2575,
-    "tln_end": 2576,
-    "word_start": 4,
-    "word_end": 8,
-    "anchor_text": "honours not his father, Henry the Fifth, that made all France to quake",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "Clifford appeals to the rebels not with arguments but with the name of Henry V, the hero-king who conquered France and remains the most potent symbol of English glory. The implication is clear: to refuse the pardon and follow Cade is to dishonor the memory of one's own country's greatest king. After the crowd wavers back toward Cade, Clifford presses the appeal again and finally wins them over.",
-    "detail": "Henry V had died in 1422, less than thirty years before the rebellion, and his fame as the conqueror of Agincourt was central to popular English identity. Clifford's move is pure emotional rhetoric rather than legal argument: he ignores Cade's grievances and conjures the dead warrior-king to shame the commons back into royal obedience. The strategy of invoking Henry V to excuse the weakness of Henry VI recurs through the play.",
-    "sources": [
-      {
-        "name": "Holinshed, Chronicles (1587)",
-        "citation": "Raphael Holinshed, Chronicles (1587), on the dispersal of Cade's rebels by the offer of royal pardon at Southwark, July 1450."
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "jack-cades-rebellion"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2575"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Holinshed's Chronicles (1587) does cover the dispersal of Cade's rebels via royal pardon at Southwark in July 1450, and the invocation of Henry V's name by Clifford is consistent with the chronicle account; the source supports the summary claim."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Interp judge was right (verified against the text): the crowd swings back to Cade at TLN 2590 before a second Clifford speech holds them at 2610; removed 'works immediately / abandons Cade on the spot' and described the two-round turn."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Interp judge was right (verified against the text): the crowd swings back to Cade at TLN 2590 before a second Clifford speech holds them at 2610; removed 'works immediately / abandons Cade on the spot' and described the two-round turn. [orig: source=verified, interp=refuted]"
-  },
-  {
-    "id": "henry_vi_part_2-2681-sallet-triple-pun",
-    "play": "henry_vi_part_2",
-    "tln_start": 2681,
-    "tln_end": 2681,
-    "word_start": 3,
-    "word_end": 7,
-    "anchor_text": "pick a sallet another while",
-    "type": "wordplay",
-    "depth": "basic",
-    "summary": "Cade puns on 'sallet' in two senses: (1) a salad of raw greens, which he literally wants to eat, and (2) a 'sallet,' the light steel helmet worn by infantry, whose crown could save a soldier's head in a fight. The joke lets him beg for food and boast of survival in the same breath; he ends by saying the word itself will have to serve him for food.",
-    "detail": "The wordplay runs across TLN 2681-2688: 'pick a sallet' = pick salad greens; 'a sallet... my brain-pan had been cleft with a brown bill' = a helmet saved my skull from being split; 'the word sallet must serve me to feed on' = he has nothing left but the word. A brown bill is a halberd-type weapon whose blade would split an unhelmeted head; the sallet (salade) was the standard light helmet of English foot-soldiers from the mid-fifteenth century. Even starving and beaten, Cade cannot resist a verbal trick.",
-    "sources": [
-      {
-        "name": "Onions, Shakespeare Glossary",
-        "citation": "Onions, C. T., A Shakespeare Glossary (1911), s.v. 'sallet' (salad; also a form of helmet)."
-      },
-      {
-        "name": "Schmidt, Shakespeare-Lexicon",
-        "citation": "Schmidt, Alexander, Shakespeare-Lexicon (1886), s.v. 'sallet.'"
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2681"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Onions (1911) and Schmidt (1886) are genuine standard lexicographic works that both document 'sallet' in its dual sense of salad and infantry helmet, supporting the triple-pun claim."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Interp judge showed the text supports only two senses (salad + helmet) and that the invented third 'lucky' sense is unsupported; recast as a double pun and removed the third meaning, keeping the lexicon sources."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Interp judge showed the text supports only two senses (salad + helmet) and that the invented third 'lucky' sense is unsupported; recast as a double pun and removed the third meaning, keeping the lexicon sources. [orig: source=verified, interp=refuted]"
-  },
-  {
-    "id": "henry_vi_part_2-2782-ajax-telamonius",
-    "play": "henry_vi_part_2",
-    "tln_start": 2782,
-    "tln_end": 2783,
-    "word_start": 2,
-    "word_end": 8,
-    "anchor_text": "like Ajax Telamonius, On sheep or oxen could I spend my fury",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "Ajax Telamonius — 'son of Telamon' — was one of the greatest Greek warriors at Troy, famous for brute strength. When Achilles's armour was awarded to Odysseus instead of him, Ajax went mad with rage and, deceived by Athena, slaughtered a herd of livestock believing them to be his enemies; recovering his senses, he killed himself in shame. York says his frustration at having to play polite with Buckingham is so overwhelming that, like Ajax, he could waste it on dumb animals.",
-    "detail": "Ovid (Metamorphoses Book 13) tells the contest of Ajax and Ulysses for Achilles's arms and Ajax's suicide; the madness and slaughter of the livestock are dramatized in Sophocles' Ajax (and recounted by Apollodorus). The fury-humiliation arc made Ajax the archetype of greatness thwarted by lesser men. York's identification is revealing: both feel entitled to what was given to an unworthy rival, and both barely contain a violence that, misdirected, would be merely animal.",
-    "sources": [
-      {
-        "name": "Sophocles, Ajax",
-        "citation": "Sophocles, Ajax (Ajax, denied Achilles's arms, is driven mad and slaughters a herd of livestock, then kills himself in shame)."
-      },
-      {
-        "name": "Ovid, Metamorphoses",
-        "citation": "Ovid, Metamorphoses Book 13 (Golding 1567): the contest of Ajax and Ulysses for Achilles's arms and Ajax's suicide."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2782"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Source judge showed Ovid Book 13 covers the arms-contest and suicide but not the livestock-slaughter madness; added Sophocles' Ajax (an allowlisted ancient author) for the madness episode and kept Ovid for the arms contest."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The Ajax legend (mad fury, slaughter of livestock, shame) is accurately summarized, and the interpretive parallel — York's sense of entitlement thwarted by a lesser rival — is a mainstream, well-supported reading."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Source judge showed Ovid Book 13 covers the arms-contest and suicide but not the livestock-slaughter madness; added Sophocles' Ajax (an allowlisted ancient author) for the madness episode and kept Ovid for the arms contest. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_vi_part_2-3002-la-fin-couronne",
-    "play": "henry_vi_part_2",
-    "tln_start": 3002,
-    "tln_end": 3002,
-    "word_start": 0,
-    "word_end": 4,
-    "anchor_text": "La fin couronne les oeuvres",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "This is a French proverb meaning 'The end crowns the works' — equivalent to the English 'the end crowns all.' Clifford speaks it as his dying words, accepting that a man is judged by how his life ends. He dies in battle against York, so he chooses a soldier's ending.",
-    "detail": "The phrase was an early modern commonplace circulating in French and Latin versions ('finis coronat opus'). It appears in Tilley's dictionary of English proverbs and in several Shakespeare plays, most notably Troilus and Cressida ('The end crowns all'). For Clifford it carries stoic resignation: whatever his life contained, this death — fighting for his king — is the conclusion that defines it. The choice of French is fitting: 2 Henry VI is set in a world where English kings still claim France, and French was the language of heraldry and legal formulas.",
-    "sources": [
-      {
-        "name": "Tilley, Proverbs in England",
-        "citation": "Tilley, M. P., A Dictionary of the Proverbs in England in the Sixteenth and Seventeenth Centuries (1950), E116: 'The end crowns all' (finis coronat opus)."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 3002"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Source judge showed the Tilley number was wrong (F160 = 'To cut a feather'); corrected the reference to E116 and kept the gloss."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The proverb is real, the Tilley citation is appropriate, and the contextual gloss — Clifford accepts death as the defining end of his life — fits the dying-words context without overreaching."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Source judge showed the Tilley number was wrong (F160 = 'To cut a feather'); corrected the reference to E116 and kept the gloss. [orig: source=refuted, interp=verified]"
-  },
-  {
     "id": "henry_vi_part_2-3086-not-got-that",
     "play": "henry_vi_part_2",
     "tln_start": 3086,
@@ -15524,227 +15724,29 @@
     "note_internal": "Review-queue rescue 2026-06-01. Source judge showed the OED 'repair v.1, sense 3' wording was fabricated; generalized the OED citation to 'repair v.1' and added Lanham for the device name (also relabeled 'paradiastole' to the more accurate 'antithesis' the interp judge suggested). [orig: source=refuted, interp=verified]"
   },
   {
-    "id": "henry_vi_part_2-606-hallowd-verge",
+    "id": "henry_vi_part_2-3091-writs-parliament",
     "play": "henry_vi_part_2",
-    "tln_start": 606,
-    "tln_end": 606,
-    "word_start": 4,
-    "word_end": 7,
-    "anchor_text": "within a hallow'd verge",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "A 'hallow'd verge' is the magic circle drawn and blessed by a conjurer to contain a summoned spirit and protect those inside it. 'Hallow'd' means consecrated or made holy; 'verge' means a circular boundary or ring. The stage direction that follows confirms the circle is physically drawn as part of the ceremony.",
-    "detail": "The bound magic circle was standard equipment in the conjuring tradition the play draws on: the conjurer stood safely within the ring, compelling the spirit to obey. Reginald Scot's The Discoverie of Witchcraft (1584) discusses conjurers' circles in the course of exposing such tricks. The word 'verge' (from Latin virga, rod or boundary) could mean a wand, a staff of office, or a circular limit; here it is the last. Bolingbroke promises Eleanor that the spirit will be held fast and cannot harm them.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'verge,' sense 4b: 'A ring, circle, or other enclosure within which some special power or jurisdiction operates.'"
-      },
-      {
-        "name": "Scot",
-        "citation": "Reginald Scot, The Discoverie of Witchcraft (1584), on conjurers and their circles."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 606"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Source judge showed 'Book XV' was the wrong locus for the circle material; dropped the book number and kept Scot's work plus the OED sense."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The stage direction immediately following confirms that a physical circle is drawn on stage, corroborating the gloss; the etymology of 'verge' as circular boundary and the magic-circle convention in early modern demonology are mainstream and defensible."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Source judge showed 'Book XV' was the wrong locus for the circle material; dropped the book number and kept Scot's work plus the OED sense. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_vi_part_2-627-beldam",
-    "play": "henry_vi_part_2",
-    "tln_start": 627,
-    "tln_end": 627,
-    "word_start": 0,
+    "tln_start": 3091,
+    "tln_end": 3092,
+    "word_start": 1,
     "word_end": 8,
-    "anchor_text": "Beldam, I think we watch'd you at an inch",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "'Beldam' means an old woman, especially one associated with witchcraft or the supernatural; it is flung contemptuously at the witch Margery Jourdain as the captors break in. 'Watch'd you at an inch' means 'kept watch over you at close range' or 'observed you to the last detail' — a boast that the surveillance was thorough.",
-    "detail": "'Beldam' (from Old French bel dame, 'fine lady,' used ironically) had by Shakespeare's time hardened into a term for an ugly old woman or hag, especially in a magical context; it appears in Macbeth for the witches. 'At an inch' — close-up, to the last inch, leaving no gap — is a common Elizabethan idiom for thorough, precise attention. The line is a sardonic congratulation on a successful sting. (The Folio speech-prefix here is disputed: most editions give the line to York, who has just broken in with Buckingham.)",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'beldam,' sense 2: 'An ugly old woman; a hag. Often with implications of witchcraft or malevolence.'"
-      },
-      {
-        "name": "Onions",
-        "citation": "Onions, Shakespeare Glossary, s.v. 'inch': 'closely, to a nicety, at close quarters.'"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 627"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "OED s.v. 'beldam' sense 2 ('ugly old woman; hag, often with implications of witchcraft') is real; the Old French bel dame etymology is correct; Onions s.v. 'inch' is a standard reference and the gloss 'closely, at close quarters' is accurate."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Interp judge cited the parser's speaker (Bolingbroke) vs the annotation's (York); the prefix is a genuine textual crux (editions favor York), so I made the gloss speaker-neutral and noted the dispute — the vocabulary gloss stands either way."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Interp judge cited the parser's speaker (Bolingbroke) vs the annotation's (York); the prefix is a genuine textual crux (editions favor York), so I made the gloss speaker-neutral and noted the dispute — the vocabulary gloss stands either way. [orig: source=verified, interp=refuted]"
-  },
-  {
-    "id": "henry_vi_part_2-731-medice-teipsum",
-    "play": "henry_vi_part_2",
-    "tln_start": 731,
-    "tln_end": 731,
-    "word_start": 0,
-    "word_end": 1,
-    "anchor_text": "Medice, teipsum",
-    "type": "cultural_context",
-    "depth": "scholar",
-    "summary": "The Cardinal throws a Latin proverb back at Gloucester: 'Physician, heal thyself' — implying Gloucester should mend his own faults before attacking the Cardinal. The saying was proverbial, best known from Luke 4:23, and the Cardinal then spells out his meaning in the English line that follows.",
-    "detail": "In Luke 4:23 (Geneva 1599: 'Ye will surely say vnto mee this prouerbe, Physician, heale thy selfe') Jesus anticipates the crowd's challenge. As a tag the phrase was broadly current in Elizabethan learned discourse for the hypocrisy of diagnosing others' faults while ignoring one's own. The Cardinal's meaning: Gloucester, who has accused him of ungodly wrath, should first 'protect himself' — see to his own vulnerabilities (his wife's dangerous ambitions, which Buckingham has just uncovered).",
-    "sources": [
-      {
-        "name": "Geneva Bible 1599",
-        "citation": "Luke 4:23 (Geneva 1599): 'Ye will surely say vnto mee this prouerbe, Physician, heale thy selfe.'"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 731"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Source judge was right on both counts: corrected the Geneva Luke 4:23 wording (the original quote was KJV) and deleted the fabricated Pliny 29.1.8 cross-reference."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The proverb is current and the Cardinal's gloss at TLN 732 ('protect yourself') confirms the intended meaning; the annotation accurately identifies its proverbial standing without overstating a direct Luke source for the tag."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Source judge was right on both counts: corrected the Geneva Luke 4:23 wording (the original quote was KJV) and deleted the fabricated Pliny 29.1.8 cross-reference. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_vi_part_2-808-lyingest-knave",
-    "play": "henry_vi_part_2",
-    "tln_start": 809,
-    "tln_end": 811,
-    "word_start": 8,
-    "word_end": 1,
-    "anchor_text": "mightst as well have known all our names as thus to name the several colours we do wear",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "Gloucester's proof is genuine: a person born blind who had just received sight for the first time would have no way to link color-words to visual impressions they had never had. They might hear colors named but could not match name to sensation until they learned by experience. Simpcox's instant, confident naming of 'red as blood' and 'coal-black as jet' gives him away — he is clearly sighted and always has been.",
-    "detail": "The epistemological point was available to any reasoning person: a man blind from birth might learn color-words but could not apply them correctly to hues he had never seen. (The philosopher John Locke would later discuss the case in his Essay Concerning Human Understanding, 1689.) Gloucester's cross-examination is a two-stage proof: sight distinguishes colors, but knowing whose name belongs to which person requires prior knowledge, which Simpcox denies having.",
-    "sources": [
-      {
-        "name": "Grafton, Chronicle at Large (1569)",
-        "citation": "Richard Grafton, A Chronicle at Large (1569), records the Simpcox 'miracle' at St Albans under Henry VI and Gloucester's exposure of the impostor (Shakespeare's likely source for the episode)."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 809"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Source judge showed the Simpcox episode is in Grafton (1569), not Holinshed; re-cited to Grafton and kept the gloss."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Gloucester's colour-naming proof is a genuine epistemological argument present in the text; the mention of Locke is a digression but is flagged as anachronistic by the annotation's own phrasing ('would famously discuss'), not asserted as Shakespeare's source, so it does not constitute an anachronism in the gloss itself."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Source judge showed the Simpcox episode is in Grafton (1569), not Holinshed; re-cited to Grafton and kept the gloss. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_vi_part_2-923-owen-glendower",
-    "play": "henry_vi_part_2",
-    "tln_start": 921,
-    "tln_end": 923,
-    "word_start": 0,
-    "word_end": 7,
-    "anchor_text": "this Edmund, in the reign of Bolingbroke, As I have read, laid claim unto the crown; And, but for Owen Glendower, had been king",
+    "anchor_text": "call a present court of parliament. / Let us pursue him ere the writs go forth",
     "type": "historical_topical",
     "depth": "basic",
-    "summary": "Salisbury recalls Edmund Mortimer, whose line had a rival claim to Henry IV (Bolingbroke). Owen Glendower was a Welsh lord who launched a major uprising against Henry IV from 1400 and allied with the English rebels (including Hotspur Percy). Shakespeare dramatized Glendower and Mortimer fully in Henry IV Part 1. 'As I have read' signals that Salisbury is reconstructing a written, genealogical case, not living memory.",
+    "summary": "A 'writ' was the royal legal summons that formally convened a parliament; once issued, members were bound to appear and the session had legal force. York's urgency is political: if Henry reaches London and gets the writs out before the Yorkists arrive, he can use parliament to put the realm legally back under Lancaster's control. The race to London is as much a race to control the law as it is a military pursuit.",
+    "detail": "In medieval England, parliament had no permanent standing and only assembled when the king summoned it by writs sent to peers and boroughs. A sitting parliament was a formidable instrument of royal legitimacy: it could attaint traitors, vote taxes for an army, and issue proclamations. York's calculation is precise — he must reach London before Henry can use this machinery against him. Holinshed records that after the battle of St Albans the Yorkists did indeed accompany the king to London, where they secured custody of his person and effectively controlled the next parliament (November 1455). The phrase 'present court' means an immediately convened session, not a regular one.",
     "sources": [
       {
         "name": "Holinshed, Chronicles (1587)",
-        "citation": "Raphael Holinshed, Chronicles (1587), on Edmund Mortimer, Earl of March, his claim under Henry IV, and Owen Glendower's Welsh rebellion (c. 1400-1415) — the source whose conflation of the two Edmund Mortimers Shakespeare follows."
+        "citation": "Raphael Holinshed, Chronicles (1587), on the aftermath of the first battle of St Albans (22 May 1455) and the subsequent London parliament."
       }
     ],
-    "references": [],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "the-first-battle-of-st-albans"
+      }
+    ],
     "confidence": "high",
     "generated_by": "claude-sonnet-4-6",
     "fact_checked": true,
@@ -15759,22 +15761,20 @@
         "judge": "anchor",
         "model": "resolve-anchors.ts (deterministic)",
         "verdict": "verified",
-        "note": "anchor located deterministically at TLN 921"
+        "note": "anchor located deterministically at TLN 3091"
       },
       {
         "judge": "source",
         "model": "claude-sonnet-4-6",
         "verdict": "verified",
-        "note": "Holinshed (1587) conflates the uncle Sir Edmund Mortimer (the rebel captured by Glendower) with his nephew Edmund the 5th Earl of March (the claimant), precisely as Shakespeare does; the annotation accurately reflects the Holinshed narrative Shakespeare was following."
+        "note": "Holinshed's Chronicles (1587) is the confirmed source for Shakespeare's English histories and does cover the aftermath of the First Battle of St Albans (22 May 1455); the November 1455 parliament is historically accurate — York's second protectorate was authorized on 19 November 1455."
       },
       {
         "judge": "interpretation",
         "model": "claude-sonnet-4-6",
         "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Interp judge flagged that the gloss conflated the two Edmund Mortimers; reworded to make clear the play and its source (Holinshed) deliberately merge them, which is itself the point — and the source judge confirmed Holinshed does exactly this."
+        "note": "The legal-historical gloss on parliamentary writs and York's race to control the next session is factually grounded and matches the Holinshed account of the aftermath of St Albans (1455); the annotation does not overreach the text's plain political urgency."
       }
-    ],
-    "detail": "Following his chronicle source, Salisbury runs together two real men both named Edmund Mortimer — Edmund, Earl of March (the dynastic claimant) and Sir Edmund Mortimer (the one actually captured by Glendower) — and treats them as a single figure. Holinshed makes the same conflation, so the 'error' faithfully reproduces Shakespeare's source rather than misstating it.",
-    "note_internal": "Review-queue rescue 2026-06-01. Interp judge flagged that the gloss conflated the two Edmund Mortimers; reworded to make clear the play and its source (Holinshed) deliberately merge them, which is itself the point — and the source judge confirmed Holinshed does exactly this. [orig: source=verified, interp=refuted]"
+    ]
   }
 ]

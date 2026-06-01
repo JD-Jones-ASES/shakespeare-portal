@@ -756,6 +756,54 @@
     ]
   },
   {
+    "id": "henry_v-154-miscreate",
+    "play": "henry_v",
+    "tln_start": 154,
+    "tln_end": 155,
+    "word_start": 1,
+    "word_end": 7,
+    "anchor_text": "opening titles miscreate, whose right Suits not in native colours with the truth",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Titles miscreate' means claims to ownership (here: to the French crown) that are falsely made or illegitimately created. 'Native colours' means true colours, the honest appearance. Henry is saying: do not put forward claims whose legitimate basis does not hold up when honestly displayed.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'miscreate' adj.: 'falsely or unlawfully created.'"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 154"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the false 'first attestation in this play' claim (OED records the word before 1563); kept the OED definition, which the interpretation judge verified."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Miscreate' as falsely or illegitimately created is correctly glossed; 'native colours' meaning true/honest appearance is standard — the gloss does not overreach the text."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the false 'first attestation in this play' claim (OED records the word before 1563); kept the OED definition, which the interpretation judge verified. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_v-157-approbation",
     "play": "henry_v",
     "tln_start": 157,
@@ -1346,6 +1394,102 @@
         "note": "The 'impounded as a stray' image — treating a captured king as a stray animal held in a pound — is correctly identified as a contemptuous legal metaphor; David II at Neville's Cross (1346) is the right referent."
       }
     ]
+  },
+  {
+    "id": "henry_v-305-france-win-scotland",
+    "play": "henry_v",
+    "tln_start": 305,
+    "tln_end": 306,
+    "word_start": 0,
+    "word_end": 4,
+    "anchor_text": "If that you will France win, Then with Scotland first begin",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "Westmoreland quotes a proverbial rhyme that had circulated for generations: secure your northern border before going abroad. The proverb reflects the real strategic problem of England's two-front exposure, and Westmoreland introduces it with 'there's a saying very old and true' to give it the weight of accumulated wisdom.",
+    "sources": [
+      {
+        "name": "Tilley, Dictionary of Proverbs (1950)",
+        "citation": "M. P. Tilley, A Dictionary of the Proverbs in England in the Sixteenth and Seventeenth Centuries (1950), s.v. the proverb 'He that will France win must with Scotland first begin' (current at least by the 16th century)."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 305"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Removed the wrong Tilley index number (S 149 is a different proverb) and cited the proverb by its catchphrase instead; the interpretation judge confirmed it is a pre-existing saying."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The proverbial rhyme is correctly identified as a pre-existing saying (Tilley S 149); Westmoreland's 'very old and true' framing is textually explicit and the strategic gloss is sound."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Removed the wrong Tilley index number (S 149 is a different proverb) and cited the proverb by its catchphrase instead; the interpretation judge confirmed it is a pre-existing saying. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_v-307-eagle-weasel-fable",
+    "play": "henry_v",
+    "tln_start": 307,
+    "tln_end": 309,
+    "word_start": 1,
+    "word_end": 1,
+    "anchor_text": "once the eagle England being in prey, To her unguarded nest the weasel Scot Comes sneaking",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Westmoreland extends the proverb into an animal fable: England is a hunting eagle; Scotland is a weasel that sneaks into the unguarded nest to suck the eggs and 'play the mouse in absence of the cat.' These are familiar English proverbs about the weak taking advantage of a distracted stronger party. The fable is not flattering to Scotland but is also not a compliment to England — an eagle that leaves its eggs unguarded is careless.",
+    "sources": [
+      {
+        "name": "Tilley, Dictionary of Proverbs (1950)",
+        "citation": "M. P. Tilley, A Dictionary of the Proverbs in England in the Sixteenth and Seventeenth Centuries (1950), s.v. 'When the cat is away the mice will play.'"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 307"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the disputed Tilley index number (C 174 vs C 175) and cited the proverb by name; the animal-fable reading was verified."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The animal-fable reading (England = eagle, Scotland = weasel) is what the text plainly says; the observation that the fable is not purely flattering to England (a careless eagle) is a fair and defensible interpretive note, not an overreach."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the disputed Tilley index number (C 174 vs C 175) and cited the proverb by name; the animal-fable reading was verified. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "henry_v-322-honey-bee-commonwealth",
@@ -2288,6 +2432,59 @@
         "note": "'Shog off' as a blunt dismissal and 'solus' as plain Latin for 'alone' — with Pistol deliberately misreading it as an insult — is the standard editorial interpretation, clearly supported by Pistol's five-line rant that follows."
       }
     ]
+  },
+  {
+    "id": "henry_v-539-barbason",
+    "play": "henry_v",
+    "tln_start": 539,
+    "tln_end": 539,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "I am not Barbason; you cannot conjure me",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "Barbason was the name of a demon known from Elizabethan demonology. Conjuring — summoning a demon by chanting its name — was believed to give the conjuror power over it. Nym's point is sardonic: Pistol's thundering repetition of 'solus! solus! solus!' sounds like an exorcist's incantation, but Nym is not a demon and cannot be conjured or commanded by name-chanting.",
+    "detail": "Shakespeare uses the same demon-name in The Merry Wives of Windsor (2.2): 'Amaimon sounds well; Lucifer, well; Barbason, well; yet they are devils' additions.' Lists of named demons were a real feature of period magic, drawn from handbooks such as Reginald Scot's The Discoverie of Witchcraft (1584). Nym's joke assumes the audience recognizes that Pistol's verbal bluster has the absurd rhythm of such an incantation.",
+    "sources": [
+      {
+        "name": "Scot, The Discoverie of Witchcraft (1584)",
+        "citation": "Reginald Scot, The Discoverie of Witchcraft (1584), Book 15 (catalogues of named demons drawn from Weyer's Pseudomonarchia Daemonum)."
+      },
+      {
+        "name": "Shakespeare, The Merry Wives of Windsor",
+        "citation": "The Merry Wives of Windsor 2.2: 'Amaimon sounds well; Lucifer, well; Barbason, well; yet they are devils' additions' — Shakespeare's own parallel use of the name Barbason."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 539"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Generalized the Scot citation to Book 15 (the judge showed the chapter as given pointed at 'Barbatos'), removed the over-precise chapter, and promoted the robust Merry Wives parallel to a cited source; the reading was verified."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Barbason as a named demon from Elizabethan demonology, and Nym's joke that Pistol's repeated chanting of 'solus' sounds like a conjurer's incantation, is the mainstream reading and is confirmed by the Merry Wives parallel."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Generalized the Scot citation to Book 15 (the judge showed the chapter as given pointed at 'Barbatos'), removed the over-precise chapter, and promoted the robust Merry Wives parallel to a cited source; the reading was verified. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "henry_v-557-powdering-tub",
@@ -3633,6 +3830,65 @@
     ]
   },
   {
+    "id": "henry_v-807-arthurs-bosom",
+    "play": "henry_v",
+    "tln_start": 807,
+    "tln_end": 807,
+    "word_start": 2,
+    "word_end": 9,
+    "anchor_text": "he's not in hell.  He's in Arthur's bosom",
+    "type": "biblical_allusion",
+    "depth": "basic",
+    "summary": "Quickly means 'Abraham's bosom,' the biblical term for the place of rest enjoyed by the righteous dead (Luke 16:22). 'Abraham's bosom' appears in the parable of the rich man and Lazarus, where the beggar Lazarus is carried there after death. Quickly garbles 'Abraham' as 'Arthur' — almost certainly confusing the patriarch with King Arthur, the legendary British hero — and the slip is funnier because she insists on it twice.",
+    "detail": "Luke 16:22 (Geneva 1599): 'And it was so that the beggar died, and was carried by the Angels into Abraham's bosom.' The phrase was the standard English idiom for a peaceful, blessed death. Quickly's substitution of 'Arthur' for 'Abraham' is a characteristic malapropism: she reaches for a solemn word and lands on a name that sounds plausible to her. The irony is that she is describing Falstaff, the man whom Prince Hal last saw in the context of the biblical Prodigal Son and Dives parables, now translated — in Quickly's tender misreading — to the paradise she is sure he deserves. The scene lets audiences both laugh at her error and feel the genuine warmth of her faith.",
+    "sources": [
+      {
+        "name": "Geneva Bible 1599",
+        "citation": "Luke 16:22 (Geneva 1599): 'And it was so that the beggar died, and was carried by the Angels into Abraham's bosom.'"
+      },
+      {
+        "name": "Arden Shakespeare, Henry V",
+        "citation": "T. W. Craik, ed., Arden Shakespeare, Henry V (1995), note to 2.3.9: 'Abraham's bosom' garbled as 'Arthur's.'"
+      }
+    ],
+    "references": [
+      {
+        "kind": "biblical",
+        "card_id": "dives-and-lazarus"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 807"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Corrected the quotation to the actual Geneva 1599 wording ('And it was so that the beggar died...') — the original had quoted KJV text; verse Luke 16:22 was correct and verified online."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The malapropism 'Arthur's bosom' for 'Abraham's bosom' is confirmed by the text (Quickly says it twice), the Luke 16:22 identification is correct, and the intertextual Falstaff/Dives connection is a defensible reading rather than an over-reach."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Corrected the quotation to the actual Geneva 1599 wording ('And it was so that the beggar died...') — the original had quoted KJV text; verse Luke 16:22 was correct and verified online. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_v-809-christom-child",
     "play": "henry_v",
     "tln_start": 809,
@@ -3684,6 +3940,114 @@
         "note": "The chrisom-cloth gloss is accurate, the irony of comparing the dissolute Falstaff to a sinless infant is explicit in the text's logic, and no claim is over-extended beyond what the simile supports."
       }
     ]
+  },
+  {
+    "id": "henry_v-813-babbled-green-fields",
+    "play": "henry_v",
+    "tln_start": 813,
+    "tln_end": 814,
+    "word_start": 10,
+    "word_end": 0,
+    "anchor_text": "'a babbled of green fields",
+    "type": "textual_variant",
+    "depth": "scholar",
+    "summary": "This phrase does not appear in the 1600 Quarto or the 1623 Folio. The Folio reads 'a Table of greene fields,' which most editors from Lewis Theobald (1726) onward have emended to 'a babbled of green fields,' arguing that 'Table' is a compositor's misreading of an old-style script 'b' as 'T.' The emendation is now standard but remains a conjecture, not a reading from any authoritative text.",
+    "detail": "Theobald first proposed the reading in his 1726 book Shakespeare Restored: a secretary-hand 'babbled' was, he argued, misread by the Folio compositor as 'a Table.' The phrase, once accepted, became one of the most celebrated in Shakespeare: a dying man murmuring of Psalm 23 ('He maketh me to lie down in green pastures') is emotionally apt for Falstaff, who in life was associated with taverns, sack, and waste — and who at death, in Quickly's account, seems to reach toward something pastoral and innocent. Editors who defend the Folio ('a table of green fields') take it as a geographic note or a lost allusion, but the majority follow Theobald. The phrase is marked medium-confidence because it rests entirely on emendation; readers should know they are responding to a brilliant eighteenth-century guess, not a word Shakespeare demonstrably wrote.",
+    "sources": [
+      {
+        "name": "Theobald, Shakespeare Restored (1726)",
+        "citation": "Lewis Theobald, Shakespeare Restored (1726): 'a babbled' proposed as the correct reading of the Folio's 'a Table.'"
+      },
+      {
+        "name": "Oxford Shakespeare, Henry V",
+        "citation": "Gary Taylor, ed., Oxford Shakespeare, Henry V (1982), textual notes to 2.3, accepting the Theobald emendation."
+      }
+    ],
+    "references": [],
+    "confidence": "medium",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 813"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Fixed the Theobald citation: the 1726 publication was the pamphlet/book Shakespeare Restored, not 'The Works of Shakespeare' (which was 1733); the emendation itself and the medium-confidence framing were verified."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The annotation correctly presents 'babbled' as Theobald's 1726 emendation rather than a received text, marks confidence 'medium,' and frames the Psalm 23 pastoral resonance as contextual aptness rather than authorial intent — no over-reach given the hedging."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Fixed the Theobald citation: the 1726 publication was the pamphlet/book Shakespeare Restored, not 'The Works of Shakespeare' (which was 1733); the emendation itself and the medium-confidence framing were verified. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_v-826-devils-incarnate",
+    "play": "henry_v",
+    "tln_start": 826,
+    "tln_end": 826,
+    "word_start": 5,
+    "word_end": 9,
+    "anchor_text": "said they were devils incarnate",
+    "type": "wordplay",
+    "depth": "basic",
+    "summary": "'Incarnate' means 'in bodily form' (from Latin caro, flesh) — 'devils incarnate' means devils made flesh, present in human bodies. Quickly mishears or misremembers the word as 'carnation,' the flower-colour. The Boy's report that Falstaff called women 'devils incarnate' becomes, in Quickly's version, a harmless remark about a colour he never liked. The comedy turns on the gap between a theological insult and a shade of pink.",
+    "detail": "The malapropism is a compressed version of Quickly's characteristic technique throughout the Henry IV and Henry V plays: she reaches for a word just beyond her grasp and produces something that sounds similar but deflates the sense entirely. 'Incarnate' was a standard theological term (Christ 'incarnate,' God made flesh; the devil 'incarnate' in a human tempter), so the Boy's use of it is slightly elevated. Quickly's 'carnation' — a pink-red flower colour — is not simply an error; it deflates a damning report about Falstaff into a remark about interior decoration.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'incarnate' adj. 1: 'Clothed in flesh, embodied in flesh'; s.v. 'carnation' n. 3: 'A colour... pale rose-pink.'"
+      },
+      {
+        "name": "Arden Shakespeare, Henry V",
+        "citation": "T. W. Craik, ed., Arden Shakespeare, Henry V (1995), note to 2.3.30-33: the malapropism on 'incarnate' / 'carnation.'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 826"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "OED entries for 'incarnate' adj. 1 and 'carnation' n. 3 are real and support the etymological and semantic claims; T. W. Craik's Arden Shakespeare Henry V (1995) is a real edition that covers the incarnate/carnation malapropism at 2.3.30-33."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Trimmed the interpretation overreach: the detail had framed Quickly's slip as 'stripping the dying man of his last moment of piety,' but the Boy's report is Falstaff calling women devils, not a pious utterance; reworded to 'deflates a damning report.' Sources were verified."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Trimmed the interpretation overreach: the detail had framed Quickly's slip as 'stripping the dying man of his last moment of piety,' but the Boy's report is Falstaff calling women devils, not a pious utterance; reworded to 'deflates a damning report.' Sources were verified. [orig: source=verified, interp=refuted]"
   },
   {
     "id": "henry_v-844-horse-leeches",
@@ -4261,6 +4625,54 @@
         "note": "The annotation accurately traces the genealogical argument (Edward III via Isabella of France, Salic law counter-argument, Canterbury's case in 1.2) and the physical 'pedigree' scroll is grounded in the text at TLN 943-945; no overreach."
       }
     ]
+  },
+  {
+    "id": "henry_v-955-like-a-jove",
+    "play": "henry_v",
+    "tln_start": 955,
+    "tln_end": 956,
+    "word_start": 0,
+    "word_end": 6,
+    "anchor_text": "in thunder and in earthquake, like a Jove, That, if requiring fail, he will compel",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Jove (Jupiter), king of the Roman gods, wielded the thunderbolt as his weapon of absolute power. He alone commanded thunder and earthquake, and his decrees could not be appealed. Exeter compares Henry to Jove to signal that the coming invasion will not be a negotiation: it will be an act of sovereign force, as irresistible and punitive as divine wrath.",
+    "sources": [
+      {
+        "name": "Ovid, Metamorphoses",
+        "citation": "Ovid, Metamorphoses, Book 2 (Jove wields the thunderbolt against Phaethon); the thunderbolt as Jove's emblem of supreme compulsion is pervasive in Roman poetry."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 955"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Generalized the Ovid citation from the wrong precise locus (2.401-2, which is the Callisto episode) to Book 2, where Jove does wield the thunderbolt against Phaethon; the interpretation that the thunderbolt is the emblem of irresistible sovereignty was verified."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Jupiter's thunderbolt as the emblem of irresistible sovereign compulsion is a commonplace of Roman poetry and the comparison is explicitly in the text; the Ovid Met. 2 citation is to the Phaethon episode where the thunderbolt is wielded, which is a legitimate though not unique locus for this image."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Generalized the Ovid citation from the wrong precise locus (2.401-2, which is the Callisto episode) to Book 2, where Jove does wield the thunderbolt against Phaethon; the interpretation that the thunderbolt is the emblem of irresistible sovereignty was verified. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "henry_v-957-bowels-of-the-lord",
@@ -5075,6 +5487,60 @@
     ]
   },
   {
+    "id": "henry_v-1090-cullions",
+    "play": "henry_v",
+    "tln_start": 1090,
+    "tln_end": 1090,
+    "word_start": 6,
+    "word_end": 8,
+    "anchor_text": "Avaunt, you cullions",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Avaunt' means 'get away' or 'begone' — a sharp command to leave. 'Cullions' is an Elizabethan insult meaning scoundrels or base, worthless fellows, derived from the French 'couillon.' Fluellen is calling Pistol, Nym, and Bardolph cowardly trash and driving them forward to the breach.",
+    "detail": "The etymology of 'cullion' — ultimately from Latin 'coleus' (testicle) via Old French — carries a vulgar undercurrent of contempt, but by Shakespeare's day it was used generally for any despicable wretch. Fluellen deploys it appropriately: these three have just been caught using fine language to avoid fighting. The command 'Avaunt' is a forceful stage-direction in itself, typical of the Welsh captain's no-nonsense manner once he tires of elaborate speech.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'cullion, n.': 'A base fellow, rascal, rogue; a man of no account.'"
+      },
+      {
+        "name": "Schmidt, Shakespeare-Lexicon",
+        "citation": "Schmidt, A., Shakespeare-Lexicon, 3rd ed. (Berlin, 1902), s.v. 'cullion': 'a base fellow.'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1090"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Removed the wrong date range ('citations from 1508 onward'; OED's earliest is Chaucer c.1386) from the OED citation; the definitions and etymology were verified."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Both 'avaunt' (begone) and 'cullion' (base wretch, from French couillon) are accurately glossed; the vulgar etymological undercurrent noted in the detail is real but the annotation correctly notes that by Shakespeare's day it was used generally for any despicable person."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Removed the wrong date range ('citations from 1508 onward'; OED's earliest is Chaucer c.1386) from the OED citation; the definitions and etymology were verified. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_v-1091-men-of-mould",
     "play": "henry_v",
     "tln_start": 1091,
@@ -5340,6 +5806,56 @@
     ]
   },
   {
+    "id": "henry_v-1116-pocketing-up-wrongs",
+    "play": "henry_v",
+    "tln_start": 1116,
+    "tln_end": 1117,
+    "word_start": 0,
+    "word_end": 1,
+    "anchor_text": "plain pocketing up of wrongs. I must leave them, and seek some better service",
+    "type": "wordplay",
+    "depth": "basic",
+    "summary": "To 'pocket up' wrongs means to put up with insults without protest — to swallow an affront. The phrase is barbed in context: the men want the Boy to put his hand in other men's pockets and steal for them, so the dishonour he is being asked to 'pocket up' is itself a matter of picking pockets. He decides he has outgrown their service.",
+    "detail": "The Boy's speech is the scene's sharpest piece of prose comedy. His soliloquy moves from observation to judgment to a moral decision: he reasons himself out of these men's service rather than become a thief for them. The phrase 'cast it up' in the final line means to vomit — their villainy turns his stomach.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'pocket, v.', sense 'to put up with (an affront, insult, etc.) without resenting it; to swallow.'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1116"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "OED s.v. 'pocket' carries both senses (to put up with an affront; to steal/put in one's pocket) and both are cited from the 16th century onward; the double-sense wordplay claim is fully supported."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Trimmed the interpretation overreach: the judge showed the claimed simultaneous pun ('pocketing up wrongs' meaning both enduring insults AND literally pickpocketing) is an overread, and that 'cast it up' here means simply 'to vomit,' not 'to reckon/add up.' Reworded to the sound core (swallowing the dishonour of being asked to steal) and dropped the double-pun and reckon/vomit claims; the OED sense was verified."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Trimmed the interpretation overreach: the judge showed the claimed simultaneous pun ('pocketing up wrongs' meaning both enduring insults AND literally pickpocketing) is an overread, and that 'cast it up' here means simply 'to vomit,' not 'to reckon/add up.' Reworded to the sound core (swallowing the dishonour of being asked to steal) and dropped the double-pun and reckon/vomit claims; the OED sense was verified. [orig: source=verified, interp=refuted]"
+  },
+  {
     "id": "henry_v-1134-roman-disciplines",
     "play": "henry_v",
     "tln_start": 1134,
@@ -5553,6 +6069,56 @@
     ]
   },
   {
+    "id": "henry_v-1206-impious-war-prince-fiends",
+    "play": "henry_v",
+    "tln_start": 1206,
+    "tln_end": 1207,
+    "word_start": 7,
+    "word_end": 8,
+    "anchor_text": "impious War, Array'd in flames like to the prince of fiends",
+    "type": "biblical_allusion",
+    "depth": "basic",
+    "summary": "'The prince of fiends' is Satan, ruler of hell — a title drawn from his description as 'the prince of this world' (John 12:31) and as the ruling spirit of the air (Ephesians 2:2) in the New Testament. Henry personifies War as a devil in fire, implying that once unleashed it has an infernal life of its own that not even a king can restrain.",
+    "detail": "The Geneva Bible glosses both the Johannine and Pauline uses of 'prince' as titles of the Devil in his capacity as ruler of the fallen world. Wrapping War in the Devil's costume is a standard Renaissance rhetorical move (compare Marlowe's Tamburlaine), but it serves a precise dramatic function here: Henry displaces moral responsibility from himself onto an abstract, diabolical force, implying that the coming atrocities will be the town's fault for not surrendering rather than his fault for ordering the assault. 'Smirch'd complexion' (line 1208) — blackened, sooty, fire-scarred — extends the hell-imagery.",
+    "sources": [
+      {
+        "name": "Geneva Bible 1599",
+        "citation": "John 12:31 (Geneva 1599): 'Now is the iudgement of this worlde: now shal the prince of this worlde be cast out.' Cf. Ephesians 2:2 (Geneva 1599): 'the prince that ruleth in the aire, even the spirite, that nowe worketh in the children of disobedience.'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1206"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Corrected the Ephesians 2:2 quotation to the actual Geneva 1599 wording ('the prince that ruleth in the aire'); the original had quoted the KJV ('the power of the air'). John 12:31 was correct and the reading was verified; confirmed the Geneva wording online."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Identifying 'prince of fiends' with Satan via John 12:31 and Ephesians 2:2 is textually grounded, and the reading that Henry rhetorically displaces moral responsibility onto an abstract infernal force is a mainstream scholarly interpretation of this speech, not an over-reading."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Corrected the Ephesians 2:2 quotation to the actual Geneva 1599 wording ('the prince that ruleth in the aire'); the original had quoted the KJV ('the power of the air'). John 12:31 was correct and the reading was verified; confirmed the Geneva wording online. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_v-1213-career",
     "play": "henry_v",
     "tln_start": 1213,
@@ -5600,6 +6166,56 @@
         "note": "The OED-documented equestrian sense of 'career' (a full-speed charge or gallop) fits the text precisely, and the reading of the rein/downhill/horse metaphor as Henry framing soldiers' violence as an unstoppable natural force is a direct, defensible interpretation of the lines."
       }
     ]
+  },
+  {
+    "id": "henry_v-1217-leviathan",
+    "play": "henry_v",
+    "tln_start": 1217,
+    "tln_end": 1217,
+    "word_start": 1,
+    "word_end": 5,
+    "anchor_text": "send precepts to the leviathan",
+    "type": "biblical_allusion",
+    "depth": "basic",
+    "summary": "Leviathan is the enormous sea-monster of the Book of Job, where God challenges Job to show whether any mortal can command it: 'Canst thou draw out Leviathan with a hook?' (Job 40:20 in the Geneva Bible). Henry uses it as an image of absolute unstoppability: trying to order his enraged soldiers to halt once the assault begins would be as futile as sending written commands to a sea-monster to come ashore.",
+    "detail": "In Job 40-41 God uses Leviathan as proof of the chasm between divine and human power — no man can bind it, play with it, or break its scales. By Shakespeare's day the name had acquired further force from Isaiah 27:1 ('that crooked serpent, even Leviathan') and from the tradition that identified Leviathan with Satan or with the primordial chaos that God's creation holds in check. Henry's rhetorical logic is deliberately self-exculpatory: he claims he will be as powerless to stop his own army as he would be to command the sea. The simile sits in the same breath as the 'prince of fiends' image (lines 1206-7), reinforcing the speech's framing of unrestrained war as a supernatural, unchainable evil.",
+    "sources": [
+      {
+        "name": "Geneva Bible 1599",
+        "citation": "Job 40:20 (Geneva 1599): 'Canst thou draw out Leviathan with an hooke...?' Cf. Isaiah 27:1 (Geneva 1599): 'that crooked serpent, even Leviathan.'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1217"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Corrected the verse to the Geneva 1599 numbering (the Leviathan-hook verse is Job 40:20 in Geneva, not 41:1, which is KJV numbering) and generalized the supporting context to Job 40-41; Isaiah 27:1 was correct and the reading was verified."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The Job 41:1 anchor is exact and the point that 'send precepts to the leviathan to come ashore' figures an unchainable force beyond human command is a natural reading of the simile; the supplementary identification of Leviathan with Satan (Isaiah 27:1, patristic tradition) is defensible and adds context without distorting the primary sense."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Corrected the verse to the Geneva 1599 numbering (the Leviathan-hook verse is Job 40:20 in Geneva, not 41:1, which is KJV numbering) and generalized the supporting context to Job 40-41; Isaiah 27:1 was correct and the reading was verified. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "henry_v-1230-wives-of-jewry",
@@ -5702,6 +6318,60 @@
         "note": "The scene summary accurately represents the French text and action; characterizing Katharine's stumbles as deliberate comic business is the mainstream editorial view (Taylor, Craik), and no claims overreach the textual evidence."
       }
     ]
+  },
+  {
+    "id": "henry_v-1251-katharine-learns-english",
+    "play": "henry_v",
+    "tln_start": 1253,
+    "tln_end": 1253,
+    "word_start": 0,
+    "word_end": 9,
+    "anchor_text": "Je te prie, m'enseignez; il faut que j'apprenne a parler",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "Katharine tells Alice: 'I beg you, teach me; I must learn to speak.' Her urgency is pointed: the English army has just taken Harfleur and is marching through France. For a French princess, learning the language of the advancing enemy is itself a kind of preparation for what is coming.",
+    "detail": "In the play's structure, 3.4 cuts from Henry's siege to the domestic world of the French court, juxtaposing the violence of the campaign with this quiet, comic scene: Katharine learns the conqueror's tongue in a women's room while her country's army prepares to fight him. The historical Katharine de Valois (1401-1437) did marry Henry V in 1420 following the Treaty of Troyes, which made Henry heir to the French crown. Holinshed's Chronicles record the marriage but supply no such domestic scene; it is Shakespeare's invention.",
+    "sources": [
+      {
+        "name": "Holinshed",
+        "citation": "Raphael Holinshed, Chronicles (1587), on the Treaty of Troyes (1420) and the marriage of Henry V to Katherine de Valois."
+      },
+      {
+        "name": "Oxford Shakespeare",
+        "citation": "Oxford Shakespeare, Henry V (ed. Gary Taylor, 1982), commentary on the function of 3.4 in the play's structure."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1253"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Holinshed's Chronicles (1587) is confirmed as the play's primary source and does record the Treaty of Troyes (1420) and Henry V's marriage to Katherine de Valois; the dates given for Katherine (1401-1437) are accurate; the claim that the domestic French-lesson scene is Shakespeare's invention rather than Holinshed's is correct."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Trimmed the interpretation overreach: removed the claim that Katharine 'already senses she will be handed to Henry in a marriage treaty' (the line names no such foreknowledge), keeping the defensible point that she is learning the advancing enemy's language. Sources were verified."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Trimmed the interpretation overreach: removed the claim that Katharine 'already senses she will be handed to Henry in a marriage treaty' (the line names no such foreknowledge), keeping the defensible point that she is learning the advancing enemy's language. Sources were verified. [orig: source=verified, interp=refuted]"
   },
   {
     "id": "henry_v-1282-de-sin",
@@ -5902,6 +6572,60 @@
         "note": "Translation is accurate and the reading of the oath as theatrical shock and indignation is mainstream; the claim that Shakespeare writes the scene in French to remind audiences of a French-language council is a defensible dramatic-convention note, not an overreach."
       }
     ]
+  },
+  {
+    "id": "henry_v-1309-sprays-scions-grafters",
+    "play": "henry_v",
+    "tln_start": 1309,
+    "tln_end": 1313,
+    "word_start": 6,
+    "word_end": 3,
+    "anchor_text": "sprays of us, The emptying of our fathers' luxury, Our scions put in wild and savage stock, Spirt up so suddenly into the clouds, And overlook their grafters",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "The Dauphin uses the language of horticulture to sneer at the English. 'Sprays' are small shoots or twigs; 'scions' are young offshoots grafted onto older rootstock; 'grafters' are those who do the grafting — by extension, the French stock that produced the English graft. He is saying: we French are the ancient stock, the English are merely wild, inferior shoots taken from us — yet those shoots are now outgrowing us. The insult is aimed at the Normans who colonized England: the English are France's own degenerate offshoots.",
+    "detail": "The Dauphin's metaphor plays on the Norman Conquest of 1066, when French-speaking Normans became England's ruling class. He implies that the English are literally made of French ancestry ('the emptying of our fathers' luxury' means the surplus or profligate children of French fathers, scattered like seed), but they have 'gone native,' grafted onto 'wild and savage stock.' The paradox he cannot explain is why these degenerate scions now 'overlook their grafters,' i.e. rise above and look down on the French who bred them. It is self-contempt disguised as contempt for England. Bourbon's next line, 'Normans, but bastard Normans, Norman bastards,' picks up the same idea.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'scion' n. 1a (a shoot or twig); s.v. 'grafter' n. 1 (one who grafts)."
+      },
+      {
+        "name": "Arden Shakespeare, Henry V",
+        "citation": "T. W. Craik, ed., Henry V, Arden Shakespeare, 3rd series (Routledge, 1995), note at 3.5.5-8."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1309"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "OED definitions for 'scion' (shoot or twig) and 'grafter' (one who grafts; the parent stock) are standard and accurate; the Arden Craik 1995 note at 3.5.5-8 on the horticultural metaphor and Norman Conquest context is the kind of annotation that edition is documented to provide."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Corrected the definition of 'grafter' to match OED — one who performs the grafting (by extension the parent stock), not 'the established plants the graft grows on' as originally written; the metaphor's overall drift (French as originators) and the Norman-Conquest reading were sound."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Corrected the definition of 'grafter' to match OED — one who performs the grafting (by extension the parent stock), not 'the established plants the graft grows on' as originally written; the metaphor's overall drift (French as originators) and the Norman-Conquest reading were sound. [orig: source=verified, interp=refuted]"
   },
   {
     "id": "henry_v-1315-mort-de-ma-vie",
@@ -6105,6 +6829,60 @@
         "note": "Galenic humoralism, the cold-climate/cold-blood theory, and the identification of 'barley-broth' with English ale are all standard glosses fully supported by the text."
       }
     ]
+  },
+  {
+    "id": "henry_v-1337-lavoltas-corantos",
+    "play": "henry_v",
+    "tln_start": 1337,
+    "tln_end": 1339,
+    "word_start": 1,
+    "word_end": 6,
+    "anchor_text": "teach lavoltas high, and swift corantos; Saying our grace is only in our heels, And that we are most lofty runaways",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "Bourbon says French noblewomen are mocking them by suggesting they should go to English dancing schools to learn 'lavoltas' and 'corantos' — two fashionable court dances — since the French show spirit only in their heels, i.e. by running away. A lavolta was a dance with high leaps; a coranto was a fast, running dance. The gibe is that the French are fit only for leaping and sprinting — as they do when they flee.",
+    "detail": "The lavolta (Italian 'la volta,' the turn) was a vigorous partnered dance in which the man lifted the woman high into the air, fashionable in the 1580s-90s and performed at Elizabeth I's court. The coranto (French courante, a running dance) was quick and gliding. Both required agile, springy use of the legs. The noblewomen's gibe collapses two meanings: 'our grace is only in our heels' means both 'we are elegant only at dancing' and 'we show our quality only by running away.' 'Lofty runaways' completes the pun — the high leaps of the lavolta and the high speed of flight are the same motion.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'lavolta' n. (a lively dance involving high leaps; 'la volta'); s.v. 'coranto' n. (a running dance; the courante)."
+      },
+      {
+        "name": "Arden Shakespeare, Henry V",
+        "citation": "T. W. Craik, ed., Henry V, Arden Shakespeare, 3rd series (Routledge, 1995), note at 3.5.33-35."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1337"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "OED records 'lavolta' (a lively leaping dance) and 'coranto' (a running dance, from French courante) with definitions matching the annotation's claims; the lavolta's association with high leaps and Elizabethan court performance is confirmed by multiple independent sources, and the Arden Craik note at 3.5.33-35 is a plausible locus for commentary on these dances."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Corrected the speaker attribution from 'the Constable' to the Duke of Bourbon, which the judge showed is who speaks these lines (TLN 1336-1339); the dance definitions and the heel/flight pun were verified."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Corrected the speaker attribution from 'the Constable' to the Duke of Bourbon, which the judge showed is who speaks these lines (TLN 1336-1339); the dance definitions and the heel/flight pun were verified. [orig: source=verified, interp=refuted]"
   },
   {
     "id": "henry_v-1354-melted-snow-alps",
@@ -6316,6 +7094,65 @@
     ]
   },
   {
+    "id": "henry_v-1399-fortune-iconography",
+    "play": "henry_v",
+    "tln_start": 1399,
+    "tln_end": 1400,
+    "word_start": 5,
+    "word_end": 6,
+    "anchor_text": "Fortune is painted blind, with a muffler afore his eyes",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Fluellen interrupts Pistol's flowery speech to give a pedantic lecture on how Fortune is depicted in paintings and emblems: blindfolded (showing she favors no one), holding a wheel (showing she is changeable), standing on a round stone (showing she is unstable). He is giving the moral — the lesson — that the image is meant to teach.",
+    "detail": "Fluellen's breakdown of Fortune's iconography was standard Elizabethan emblematic knowledge, drawn from emblem books like Geoffrey Whitney's A Choice of Emblemes (1586) and Andrea Alciato's Emblemata, both of which illustrate Fortune with her wheel, blindfold, and sphere. When Fluellen says 'Fortune is an excellent moral,' he means the picture of Fortune conveys an excellent moral lesson. His earnest, schoolmasterly interruption is the play's best joke at his expense: he stops Pistol's plea for a man's life to deliver an art-history lecture.",
+    "sources": [
+      {
+        "name": "Boethius, Consolation of Philosophy",
+        "citation": "Boethius, Consolatio Philosophiae II, prose 1-2 (Fortune's blindness and wheel)."
+      },
+      {
+        "name": "Whitney, A Choice of Emblemes (1586)",
+        "citation": "Geoffrey Whitney, A Choice of Emblemes and Other Devises (1586) — a widely circulated English emblem book that figures Fortune with wheel, blindfold, and sphere."
+      }
+    ],
+    "references": [
+      {
+        "kind": "classical",
+        "card_id": "fortunes-wheel"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1399"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Removed the unverifiable 'emblem 181' page/number from the Whitney citation (the book is not numbered by sequential emblems), generalizing to the work; Boethius was sound and the interpretation was verified."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Fluellen's pedantic interruption to explain Fortune's emblematic meaning is fully borne out by TLN 1399-1406, and the detail that 'Fortune is an excellent moral' means the picture conveys a moral lesson is the correct Elizabethan sense of 'moral'; the characterisation of it as the play's best joke at Fluellen's expense is a matter of interpretation but not an overreach."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Removed the unverifiable 'emblem 181' page/number from the Whitney citation (the book is not numbered by sequential emblems), generalizing to the work; Boethius was sound and the interpretation was verified. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_v-1408-pax",
     "play": "henry_v",
     "tln_start": 1408,
@@ -6367,6 +7204,60 @@
         "note": "The definition of pax as a liturgical tablet kissed at Mass is accurate and well-documented; the broader claim that its theft is framed as sacrilege reinforcing Henry's providential campaign is defensible from the scene's context, though Holinshed's specific wording about 'pillaging French churches' is a modest extension of what the text itself shows."
       }
     ]
+  },
+  {
+    "id": "henry_v-1415-vital-thread",
+    "play": "henry_v",
+    "tln_start": 1415,
+    "tln_end": 1416,
+    "word_start": 1,
+    "word_end": 4,
+    "anchor_text": "let not Bardolph's vital thread be cut With edge of penny cord",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Pistol's florid language here piles two images on top of each other: 'vital thread' alludes to the three Fates of Greek myth, who spun, measured, and cut the thread of every human life at death, while 'penny cord' is plain English for the cheap hangman's rope. The contrast between mythological grandeur and cheap reality is typical of Pistol's hollow bombast.",
+    "detail": "The Fates (Greek Moirai, Latin Parcae) — Clotho who spins the thread, Lachesis who measures it, and Atropos who cuts it — are a standard classical source for the 'thread of life' metaphor, familiar to Elizabethans from school Latin and from popular emblems. Pistol wraps a mundane execution ('penny cord,' a rope that costs a penny) in classical-epic diction to make the plea sound grander than it is. A 'windpipe suffocate' (1411) with 'hemp' works the same way: strangled by rope, in grand words. All this oratory fails: Fluellen refuses to intercede.",
+    "sources": [
+      {
+        "name": "Hesiod, Theogony",
+        "citation": "Hesiod, Theogony 217-222 (the Moirai — Clotho, Lachesis, Atropos — who apportion mortals' lives)."
+      },
+      {
+        "name": "Schmidt, Shakespeare-Lexicon",
+        "citation": "Schmidt, A., Shakespeare-Lexicon (Berlin, 1874-75), s.v. 'thread': the thread of life as a standard Elizabethan metaphor for lifespan."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1415"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the wrong/fabricated Ovid locus (Met. 15.807-808 does not mention the Fates) and leaned on the genuine Hesiod Theogony reference for the Moirai plus Schmidt; the Fates/thread reading was verified."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The Fates / thread-of-life allusion is correctly identified and the contrast between mythological diction and 'penny cord' as a rhetorical marker of Pistol's hollow bombast is well-grounded in the text; the annotation does not overreach."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the wrong/fabricated Ovid locus (Met. 15.807-808 does not mention the Fates) and leaned on the genuine Hesiod Theogony reference for the Moirai plus Schmidt; the Fates/thread reading was verified. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "henry_v-1433-gull-counterfeit-soldier",
@@ -6829,6 +7720,60 @@
     ]
   },
   {
+    "id": "henry_v-1544-beast-for-perseus",
+    "play": "henry_v",
+    "tln_start": 1544,
+    "tln_end": 1545,
+    "word_start": 7,
+    "word_end": 3,
+    "anchor_text": "It is a beast for Perseus. He is pure air and fire",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Perseus was the Greek hero who killed the Gorgon Medusa and rescued Andromeda, flying through the air on the winged sandals the gods had given him. The Dauphin says his horse is fit for a hero of that stature. The next phrase — 'pure air and fire' — invokes the ancient theory that all matter is made of four elements (earth, water, air, fire); the Dauphin claims his horse belongs only to the two highest, lightest elements.",
+    "detail": "The four-element theory comes from Aristotle and earlier Greek philosophy. 'Earth and water' were heavy, base, sluggish; 'air and fire' were light, active, noble. The Dauphin says the earthly elements appear in his horse only when it stands patiently for its rider to mount — a backhanded compliment that reduces stillness to a necessary defect. Perseus's adventures are told in Ovid, Metamorphoses Books 4-5.",
+    "sources": [
+      {
+        "name": "Ovid, Metamorphoses",
+        "citation": "Ovid, Metamorphoses, Books 4-5 (Perseus, Medusa, and the rescue of Andromeda)."
+      },
+      {
+        "name": "Aristotle, De Caelo",
+        "citation": "Aristotle, De Caelo 1.2-3 (the four elements; earth and water heavy, fire and air light) — the standard cosmological framework of the period."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1544"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Corrected the factual error the source judge caught: Perseus flew with winged sandals, not on Pegasus (Pegasus is Bellerophon's mount); removed both Pegasus references and generalized the Ovid citation to Books 4-5. The four-element reading was verified."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Four-element cosmology applied correctly (air and fire = light/noble; earth and water = heavy/base), and the Perseus/Pegasus link is explicit in the text at TLN 1544."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Corrected the factual error the source judge caught: Perseus flew with winged sandals, not on Pegasus (Pegasus is Bellerophon's mount); removed both Pegasus references and generalized the Ovid citation to Books 4-5. The four-element reading was verified. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_v-1571-kern-strossers",
     "play": "henry_v",
     "tln_start": 1572,
@@ -7041,6 +7986,56 @@
     ]
   },
   {
+    "id": "henry_v-1622-proverb-exchange",
+    "play": "henry_v",
+    "tln_start": 1622,
+    "tln_end": 1622,
+    "word_start": 0,
+    "word_end": 4,
+    "anchor_text": "Ill will never said well",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Orleans and the Constable trade proverbs in a contest of wit — 'Ill will never said well,' 'There is flattery in friendship,' 'Give the devil his due,' 'A pox of the devil,' and 'A fool's bolt is soon shot.' Each proverb is deployed as a weapon in their sparring, and each is capped or deflected by the next. The exchange is a verbal duel that mirrors the battle to come.",
+    "detail": "The practice of 'capping proverbs' — trumping an opponent's saying with a better or contradictory one — was a recognized form of Elizabethan wit-play, taught in rhetoric manuals as argument by commonplace (sententia). 'A fool's bolt is soon shot' means a fool fires off his arrow quickly and is then defenceless; 'You have shot over' (you overshot the mark) lets the Constable turn it back on Orleans. 'Give the devil his due' (credit even an enemy) and 'A pox of the devil' escalate the wordplay into mock-cursing. The exchange reveals the French lords' complacency the night before a battle they expect to win easily.",
+    "sources": [
+      {
+        "name": "Tilley, Dictionary of Proverbs",
+        "citation": "M. P. Tilley, A Dictionary of the Proverbs in England in the Sixteenth and Seventeenth Centuries (1950), s.vv. 'Ill will never said (spoke) well,' 'A fool's bolt is soon shot,' and 'Give the devil his due.'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1622"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Removed the disputed Tilley index numbers (the judge showed 'A fool's bolt is soon shot' is F515, not the cited F505) and cited the proverbs by name instead; the proverb-capping reading was verified."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Proverb-capping as Elizabethan rhetorical practice is well attested; each proverb's deployment and counter is correctly tracked, and the ironic framing as pre-battle complacency is directly supported by the scene's dramatic situation."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Removed the disputed Tilley index numbers (the judge showed 'A fool's bolt is soon shot' is F515, not the cited F505) and cited the proverbs by name instead; the proverb-capping reading was verified. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_v-1644-english-mastiffs",
     "play": "henry_v",
     "tln_start": 1644,
@@ -7150,6 +8145,61 @@
         "note": "The core reading (beef-eating stereotype + Galenic humoral theory) is sound and historically grounded, but the detail introduces 'les rosbifs' as supporting context — that term and its usage as a French insult for the English is an 18th-century anachronism, not an Elizabethan one, and should not be cited in a note explaining 1599 context."
       }
     ]
+  },
+  {
+    "id": "henry_v-1660-entertain-conjecture",
+    "play": "henry_v",
+    "tln_start": 1660,
+    "tln_end": 1660,
+    "word_start": 1,
+    "word_end": 5,
+    "anchor_text": "entertain conjecture of a time",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Entertain conjecture' means 'let your imagination work' or 'form a mental picture.' The Chorus is asking the audience to picture the scene rather than see it staged. 'Entertain' often means simply 'hold' or 'admit to the mind' in Elizabethan English.",
+    "detail": "The verb 'entertain' in early modern English frequently means to hold something in the mind, to give it lodging there, rather than its modern sense of amusement. The phrase sets up the Chorus's entire rhetorical project for Act 4: constructing in words what the bare stage cannot show — the two armies in the dark before Agincourt.",
+    "sources": [
+      {
+        "name": "Schmidt, Shakespeare-Lexicon",
+        "citation": "Schmidt, A., Shakespeare-Lexicon and Quotation Dictionary, s.v. 'entertain': to harbour or keep in the mind."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "the-wooden-o"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1660"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the wrong sense-number from the Schmidt citation (the judge placed the 'keep in the mind' meaning at sense 9, not 3) and removed the now-detached quotation, generalizing to the lexicon entry; the gloss was verified."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The reading of 'entertain' as 'hold in the mind / give lodging to' is the standard Elizabethan sense and fits the Chorus's metatheatrical project precisely."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the wrong sense-number from the Schmidt citation (the judge placed the 'keep in the mind' meaning at sense 9, not 3) and removed the now-detached quotation, generalizing to the lexicon entry; the gloss was verified. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "henry_v-1667-paly-flames",
@@ -8495,6 +9545,65 @@
     ]
   },
   {
+    "id": "henry_v-1956-phoebus-hyperion",
+    "play": "henry_v",
+    "tln_start": 1956,
+    "tln_end": 1958,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "Sweats in the eye of Phoebus, and all night Sleeps in Elysium; next day after dawn, Doth rise and help Hyperion to his horse",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Phoebus (a title of Apollo) and Hyperion were both names for the sun-god, imagined as driving a chariot of fiery horses across the sky each day. 'Sweating in the eye of Phoebus' means working all day in the blazing sun. At day's end the sun-god must be helped back onto his horse for the next morning — the slave's daily labour mirrors the cosmic cycle. 'Elysium' was the paradise of the blessed dead in classical mythology.",
+    "detail": "The passage brings together several related sun names: Phoebus ('the bright one,' a title of Apollo) and Hyperion (a Titan associated with the sun). Renaissance readers freely blended these names. Elysium as the afterlife of the virtuous appears in Virgil's Aeneid Book 6. Henry's point is that the slave, who sweats in the sun all day and sleeps in bliss all night, has a more enviable existence than a king who cannot sleep; the cosmic scale of the imagery makes the king's insomnia seem cosmic too.",
+    "sources": [
+      {
+        "name": "Ovid, Metamorphoses",
+        "citation": "Ovid, Metamorphoses, Book 2 (the chariot of the sun and its fiery horses, in the Phaethon episode)."
+      },
+      {
+        "name": "Virgil, Aeneid",
+        "citation": "Virgil, Aeneid, Book 6 (Elysium, the paradise of the blessed dead)."
+      }
+    ],
+    "references": [
+      {
+        "kind": "classical",
+        "card_id": "hyperion"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1956"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Removed the unsupported parenthetical 'Hyperion as father of the sun-god' tied to Met. 2 and generalized the citations to Ovid Met. Book 2 (the sun's chariot) and Virgil Aeneid Book 6 (Elysium); the sun-god identifications were verified."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Phoebus and Hyperion as sun-god names are correctly identified; the note that Renaissance readers blended Phoebus/Apollo/Hyperion is accurate, and Elysium as classical paradise of the blessed dead is correct — though the annotation might have noted that Shakespeare uses both names in the same passage, making Hyperion here the slave who helps re-harness the chariot rather than the sun-god himself, which is an unusual image but defensible within the passage's logic."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Removed the unsupported parenthetical 'Hyperion as father of the sun-god' tied to Met. 2 and generalized the citations to Ovid Met. Book 2 (the sun's chariot) and Virgil Aeneid Book 6 (Elysium); the sun-god identifications were verified. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_v-1978-fault-compassing-crown",
     "play": "henry_v",
     "tln_start": 1978,
@@ -8692,6 +9801,106 @@
         "note": "'Hilding' meaning base or contemptible is a standard Elizabethan usage, consistently glossed in Onions, and the Constable's claim that even camp-followers would suffice against such a worthless enemy fits the speech's logic precisely."
       }
     ]
+  },
+  {
+    "id": "henry_v-2029-tucket-sonance",
+    "play": "henry_v",
+    "tln_start": 2029,
+    "tln_end": 2029,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "the tucket sonance and the note to mount",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "A 'tucket' was a personal trumpet fanfare sounded to identify a nobleman — the Elizabethan equivalent of a call-sign. 'Sonance' simply means the sound or sounding of it. 'The note to mount' is the separate bugle call ordering cavalry to get on their horses. The Constable is calling for the battle to begin: first the nobles' identifying fanfares, then the signal to mount up.",
+    "detail": "Stage directions throughout Shakespeare's history plays call for 'a tucket' or 'tuckets within' to herald the arrival of a particular lord — a short, distinctive personal flourish on the trumpet. Heralds and trumpeters each carried set calls, and the specific sequence the Constable names — tucket first, then the mount signal — is recognizable military ceremony to an Elizabethan audience.",
+    "sources": [
+      {
+        "name": "Onions, Shakespeare Glossary",
+        "citation": "Onions, C. T., A Shakespeare Glossary (Oxford, 1911; rev. Eagleson, 1986), s.v. 'tucket': 'a personal flourish on the trumpet.'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2029"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the unsupported 'from Italian toccata' etymology the source judge flagged; kept Onions's definition (verified) and the sound interpretive gloss."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The core readings — tucket as a personal noble's fanfare, sonance as the sounding of it, and 'note to mount' as a separate cavalry signal — are mainstream and well-supported; the Italian toccata etymology is noted as possible rather than proven in OED, so the detail note's confidence is slightly high, but the interpretive gloss itself is defensible."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the unsupported 'from Italian toccata' etymology the source judge flagged; kept Onions's definition (verified) and the sound interpretive gloss. [orig: source=refuted, interp=verified]"
+  },
+  {
+    "id": "henry_v-2037-mars-bankrupt",
+    "play": "henry_v",
+    "tln_start": 2037,
+    "tln_end": 2038,
+    "word_start": 0,
+    "word_end": 6,
+    "anchor_text": "Big Mars seems bankrupt in their beggar'd host, And faintly through a rusty beaver peeps",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Mars was the Roman god of war and the protector of armies; to say he 'seems bankrupt' in the English host is to say the god of war has no resources left among them — even war itself looks penniless and spent. A 'beaver' is the hinged visor or face-piece of a helmet, and a 'rusty' one signals armour neglected and ready to fall apart. Grandpre paints the English as an army so beaten-looking that the very war-god peering through their rusted visors looks like a pauper.",
+    "detail": "Mars as the patron deity of soldiers was a commonplace of classical and Renaissance literature; to invoke his name is to invoke the idea of martial vigour, which Grandpre pointedly says the English lack. The compound image — a beggar's host, a bankrupt god, a rusty visor — is Grandpre's long set-piece on the wretchedness of Henry's army, all building toward the reversal the audience knows is minutes away.",
+    "sources": [
+      {
+        "name": "Arden Shakespeare, Henry V",
+        "citation": "Arden Shakespeare, Henry V (ed. T. W. Craik, 1995), note to 4.2.42-43 (Mars 'bankrupt' and the 'rusty beaver')."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2037"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Removed the misattributed Ovid Met. 12 / Aeneid loci (the judge showed neither passage depicts Mars as a presiding battle-god) and the dependent 'stock-imagery' sentence, recategorizing the support onto the Arden note; the war-god reading was verified. Reclassified as a Renaissance commonplace under the Arden source — the type stays classical_allusion since Mars is named in the text and the gloss explains the deity, but no ancient locus is now asserted."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Grandpre's 'Big Mars seems bankrupt' as an image of the war-god impoverished among the English is the plain, mainstream reading; the citation of Ovid Met. 12 and Virgil Aeneid 1.274 as specific underlying sources is speculative stock-imagery padding in the detail note, but the core interpretation is sound and does not depend on those loci."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Removed the misattributed Ovid Met. 12 / Aeneid loci (the judge showed neither passage depicts Mars as a presiding battle-god) and the dependent 'stock-imagery' sentence, recategorizing the support onto the Arden note; the war-god reading was verified. Reclassified as a Renaissance commonplace under the Arden source — the type stays classical_allusion since Mars is named in the text and the gloss explains the deity, but no ancient locus is now asserted. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "henry_v-2043-gimmal-bit",
@@ -9289,6 +10498,55 @@
     ]
   },
   {
+    "id": "henry_v-2153-lions-skin",
+    "play": "henry_v",
+    "tln_start": 2153,
+    "tln_end": 2154,
+    "word_start": 0,
+    "word_end": 8,
+    "anchor_text": "The man that once did sell the lion's skin While the beast liv'd, was kill'd with hunting him",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Henry is alluding to a fable from the Aesopic tradition: a hunter sold a lion's (in some versions a bear's) skin before he had caught the animal, then was killed in the hunt. The moral is that it is foolish to count on gains before you have them. Henry turns it back on the French, who are already dividing up the English ransom money before the battle is fought — and who, he implies, will share the hunter's fate.",
+    "detail": "The fable was a schoolbook staple across Renaissance Europe. Henry applies it with typical cool wit: the French have been 'selling' English ransom money all night while the English are still alive and armed. The same warning against premature triumph circulated in proverb form ('do not sing the triumph before the victory').",
+    "sources": [
+      {
+        "name": "Aesop, Fables",
+        "citation": "Aesop, Fables, 'The Man who sold the Lion's (Bear's) Skin before catching it' — selling an uncaught animal's skin; a standard Renaissance schoolroom fable."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2153"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the conflated and unverifiable Erasmus Adagia reference (II.vi.5, which the judge showed is a separate 'ante victoriam' adage, not the vehicle for the animal-skin fable) and the precise number; kept the allowlisted Aesop fable, which the text's 'lion's skin' supports and the interpretation judge verified, and demoted the triumph-proverb point to a general aside."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The Aesop fable connection is sound, the play's own text specifies 'lion's skin,' the application to the French counting ransom before the battle is precise, and the Erasmus Adagia as the probable transmission route is a defensible scholarly claim."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the conflated and unverifiable Erasmus Adagia reference (II.vi.5, which the judge showed is a separate 'ante victoriam' adage, not the vehicle for the animal-skin fable) and the precise number; kept the allowlisted Aesop fable, which the text's 'lion's skin' supports and the interpretation judge verified, and demoted the triumph-proverb point to a general aside. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_v-2169-working-day",
     "play": "henry_v",
     "tln_start": 2169,
@@ -9639,6 +10897,60 @@
     ]
   },
   {
+    "id": "henry_v-2209-luxurious",
+    "play": "henry_v",
+    "tln_start": 2209,
+    "tln_end": 2209,
+    "word_start": 0,
+    "word_end": 5,
+    "anchor_text": "Thou damned and luxurious mountain goat",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Luxurious' here means 'lascivious' or 'lecherous,' not 'expensive' or 'comfortable.' Pistol is calling Le Fer a damned, lustful creature — a mountain goat being a byword for rampant lechery. The modern sense of the word did not become dominant until well after Shakespeare's time.",
+    "detail": "In Elizabethan English 'luxury' (and 'luxurious') almost always meant sexual excess, lustfulness — the sin of the flesh, not lavish spending. The same sense appears in Macbeth ('luxurious, avaricious, false, deceitful,' 4.3.58). Here Pistol hurls it as a generic insult, stacking 'damned,' 'luxurious,' and 'mountain goat' into an escalating string of abuse.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'luxurious' adj., sense 1a: 'Given to or characterized by sexual indulgence; lascivious, lustful, lecherous.'"
+      },
+      {
+        "name": "Schmidt, Shakespeare-Lexicon",
+        "citation": "Schmidt, Shakespeare-Lexicon (1874-75), s.v. 'luxurious': 'lascivious, lewd,' citing Macbeth 4.3.58 and this passage."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2209"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Removed the fabricated Othello citation ('luxury and damned incontinence,' which does not occur in Othello) from the detail and from the Schmidt citation; kept the verified OED/Schmidt support and the genuine Macbeth 4.3.58 parallel."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The archaic sense 'luxurious' = lascivious is firmly attested in OED and Schmidt, and the Othello and Macbeth parallels cited are real; no anachronism or over-reading."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Removed the fabricated Othello citation ('luxury and damned incontinence,' which does not occur in Othello) from the detail and from the Schmidt citation; kept the verified OED/Schmidt support and the genuine Macbeth 4.3.58 parallel. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_v-2218-fer-firk-ferret",
     "play": "henry_v",
     "tln_start": 2218,
@@ -9741,6 +11053,56 @@
     ]
   },
   {
+    "id": "henry_v-2255-empty-vessel",
+    "play": "henry_v",
+    "tln_start": 2255,
+    "tln_end": 2255,
+    "word_start": 0,
+    "word_end": 10,
+    "anchor_text": "the saying is true, \"The empty vessel makes the greatest sound\"",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "The Boy quotes a proverb — the emptier a container, the louder it rings when struck — to say that Pistol's enormous noise signals an equally enormous hollowness. He has just watched Pistol bluster a prisoner into a ransom with nothing but volume and a sword; his verdict is that the performance proved a want of real courage, not a presence of it.",
+    "detail": "The proverb was commonplace in the sixteenth century, circulating widely in English before Shakespeare. The Boy's soliloquy that follows is the play's sharpest exposure of Pistol: his observation that Bardolph and Nym had 'ten times more valour than this roaring devil' measures how low the bar was.",
+    "sources": [
+      {
+        "name": "Tilley, Dictionary of Proverbs",
+        "citation": "M. P. Tilley, A Dictionary of the Proverbs in England in the Sixteenth and Seventeenth Centuries (1950), s.v. 'Empty vessels make the most (greatest) sound.'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2255"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Removed both disputed index numbers (Tilley V88 vs V36 and the conflated Erasmus 'Inanis plena sunt omnia' I.x.35) and dropped the Erasmus citation entirely as misapplied, citing the proverb in Tilley by name; the proverb identification and reading were verified."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The proverb identification and the interpretation (Pistol is all noise and no substance) are fully supported by the text; Tilley V88 is the correct scholarly locus for the English form, and the reading of the Boy's soliloquy as the play's sharpest exposure of Pistol is mainstream."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Removed both disputed index numbers (Tilley V88 vs V36 and the conflated Erasmus 'Inanis plena sunt omnia' I.x.35) and dropped the Erasmus citation entirely as misapplied, citing the proverb in Tilley by name; the proverb identification and reading were verified. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_v-2257-roaring-devil-old-play",
     "play": "henry_v",
     "tln_start": 2256,
@@ -9797,6 +11159,56 @@
         "note": "The morality-play Vice/Devil with wooden dagger is a well-documented theatrical convention, the nail-paring reading is the standard one, and the comparison of Pistol to a figure even less threatening than a toothless stage devil is precisely what the Boy's grammar ('ten times more valour than this roaring devil') says."
       }
     ]
+  },
+  {
+    "id": "henry_v-2263-french-defeat-translation",
+    "play": "henry_v",
+    "tln_start": 2263,
+    "tln_end": 2264,
+    "word_start": 0,
+    "word_end": 8,
+    "anchor_text": "O diable! O Seigneur! le jour est perdu, tout est perdu",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "The Constable cries 'O devil!' and Orleans shouts 'O Lord! The day is lost, all is lost!' The Dauphin then exclaims 'Death of my life!' (an oath) and a moment later 'O wicked fortune!' These are the French commanders' first stunned reactions as Agincourt collapses around them.",
+    "detail": "The four French phrases are: 'O diable!' = 'O devil!'; 'O Seigneur! le jour est perdu, tout est perdu!' = 'O Lord! The day is lost, all is lost!'; 'Mort de ma vie!' = 'Death of my life!' (a common French oath of astonishment); 'O mechante fortune!' = 'O wicked fortune!' Shakespeare gives the French their own language at the moment of crisis, which both authenticates the scene and leaves an English-only audience reading the horror in the speakers' faces and voices. English renderings appear in Arden Shakespeare, Henry V (ed. T. W. Craik, 1995), notes to 4.5.1-6.",
+    "sources": [
+      {
+        "name": "Arden Shakespeare, Henry V (Craik, 1995)",
+        "citation": "Arden Shakespeare, Henry V, ed. T. W. Craik (Routledge, 3rd series, 1995), notes to 4.5.1-6, providing English renderings of the French exclamations."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2263"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Corrected the publisher of the Arden 3rd-series edition from Methuen to Routledge; the translations and the interpretive note were verified."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Speaker attributions match the scene text exactly, the translation glosses are accurate, and the claim that Shakespeare uses French to authenticate the scene for an English-only audience is mainstream and text-supported."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Corrected the publisher of the Arden 3rd-series edition from Methuen to Routledge; the translations and the interpretive note were verified. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "henry_v-2270-perdurable",
@@ -9997,6 +11409,60 @@
         "note": "The cooking-register reading of 'lard' (to baste/enrich with fat, transferred to blood) is mainstream, well-attested in OED and Onions, and the claim that Exeter's diction works ceremonially is confirmed by the surrounding speech (insteeped, espous'd, seal'd)."
       }
     ]
+  },
+  {
+    "id": "henry_v-2307-raught-hand",
+    "play": "henry_v",
+    "tln_start": 2307,
+    "tln_end": 2307,
+    "word_start": 6,
+    "word_end": 9,
+    "anchor_text": "raught me his hand",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Raught' is the archaic past tense of 'reach.' Exeter means York reached out and took — or offered — his hand. Modern readers would expect 'reached,' but Shakespeare's contemporaries used both forms; by the seventeenth century 'raught' was already becoming old-fashioned.",
+    "detail": "The OED lists 'raught' as a past tense and past participle of 'reach' current from the medieval period to the early seventeenth century. It appears several times in Shakespeare. Here the archaic form is not accidental: Exeter's formal, heightened diction throughout the speech (larding, insteeped, espous'd) is part of the ceremonial register he adopts to report the deaths of two noblemen to the king.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'reach' v., past-tense forms: 'raught' listed as an archaic past tense, current to the early seventeenth century."
+      },
+      {
+        "name": "Schmidt",
+        "citation": "Schmidt, Alexander, Shakespeare-Lexicon (3rd ed., 1902), s.v. 'raught': past tense of 'reach.'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2307"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Removed the wrong cross-reference scene from the Schmidt citation (the judge showed the 2 Henry VI occurrence is at 2.3, not 3.1) and dropped the specific play-line examples, keeping the verified OED/Schmidt definition."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Raught' as archaic past tense of 'reach' is a textbook gloss; the note that it was becoming old-fashioned by the seventeenth century and that it fits Exeter's heightened register is sound and not overreached."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Removed the wrong cross-reference scene from the Schmidt citation (the judge showed the 2 Henry VI occurrence is at 2.3, not 3.1) and dropped the specific play-line examples, keeping the verified OED/Schmidt definition. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "henry_v-2312-espousd-testament",
@@ -11506,6 +12972,59 @@
     ]
   },
   {
+    "id": "henry_v-2621-whiffler",
+    "play": "henry_v",
+    "tln_start": 2621,
+    "tln_end": 2621,
+    "word_start": 1,
+    "word_end": 7,
+    "anchor_text": "like a mighty whiffler 'fore the King",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "A whiffler was an official who walked at the head of a royal procession to clear the crowd and make way for the sovereign. The sea is imagined as a gigantic royal usher parting before Henry, preparing his path home from France.",
+    "detail": "Whifflers carrying staves, swords, or torches were a familiar sight at civic processions and Lord Mayor's shows in Elizabethan London; the OED traces the word to 'wifle,' a battle-axe or javelin (the weapon such officers originally carried). The Chorus reaches for a grandly civic image: even the English Channel behaves like a loyal subject, ushering Henry ashore.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'whiffler', n.: 'One of a body of attendants armed with a weapon and employed to keep the way clear for a procession'; derived from 'wifle' (a battle-axe or javelin)."
+      },
+      {
+        "name": "Craik (Arden3)",
+        "citation": "T. W. Craik, ed., King Henry V, Arden Shakespeare 3rd series (1995), note to 5.0.12."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2621"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Corrected the etymology to match the cited OED entry — from 'wifle' (a battle-axe/javelin), not from 'whiffle (to clear away)' as the detail had claimed; the processional-officer gloss and the sea-as-usher reading were verified."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The gloss correctly identifies the whiffler as a processional officer who clears the way, and the metaphor of the sea acting as a royal usher is directly supported by TLN 2621 ('Which like a mighty whiffler 'fore the King / Seems to prepare his way')."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Corrected the etymology to match the cited OED entry — from 'wifle' (a battle-axe/javelin), not from 'whiffle (to clear away)' as the detail had claimed; the processional-officer gloss and the sea-as-usher reading were verified. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_v-2635-caesar-rome",
     "play": "henry_v",
     "tln_start": 2635,
@@ -11718,6 +13237,59 @@
         "note": "Both 'Bedlam' as asylum-slang for madness and 'Troyan' as Elizabethan slang for a rogue are well-attested; the detail note's suggestion that 'Troyan' may glance at the Brutus/Britain foundation myth is flagged as a possibility rather than a certainty, which is the appropriate level of confidence."
       }
     ]
+  },
+  {
+    "id": "henry_v-2671-parca-fatal-web",
+    "play": "henry_v",
+    "tln_start": 2671,
+    "tln_end": 2671,
+    "word_start": 3,
+    "word_end": 7,
+    "anchor_text": "fold up Parca's fatal web",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Parca (plural Parcae) was the Roman name for the Fates — three goddesses who spun, measured, and cut the thread of every mortal's life. Pistol threatens Fluellen with death in grandiose, theatrical terms: to 'fold up' the Fates' 'fatal web' is to wind up and end the fabric of a life.",
+    "detail": "The three Parcae in Roman tradition correspond to the Greek Clotho, Lachesis, and Atropos: Clotho spun the thread of life, Lachesis measured it, Atropos cut it. The 'fatal web' Pistol invokes blends spinning and weaving: the fabric of life made on the Fates' loom. Pistol's inflated classical allusion is comic because it borrows old bombastic stage-rhetoric and applies it to the petty situation of being asked to eat a leek.",
+    "sources": [
+      {
+        "name": "Ovid, Metamorphoses",
+        "citation": "Ovid, Metamorphoses 8.451-455 (the Parcae spinning the thread of Meleager's fate)."
+      },
+      {
+        "name": "Craik (Arden3)",
+        "citation": "T. W. Craik, ed., King Henry V, Arden Shakespeare 3rd series (1995), note to 5.1.18: 'Parca, one of the three Fates who in Roman belief were supposed to spin the thread of life.'"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2671"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Ovid Met. 8.451-455 genuinely describes the Parcae spinning Meleager's fate at birth; Hesiod Theogony 217-222 names Clotho, Lachesis, Atropos as daughters of Night in the standard text; both citations are real and on-point."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Trimmed the interpretation overreaches: removed the unsupported absolute 'Shakespeare uses the Parcae form only here' and stopped asserting that 'fold up' equals Atropos's 'cutting' (the text says 'fold up,' i.e. wind up the web). Sources (Ovid Met. 8.451-455, Hesiod, Craik) were verified by the source judge; kept Ovid and Craik."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Trimmed the interpretation overreaches: removed the unsupported absolute 'Shakespeare uses the Parcae form only here' and stopped asserting that 'fold up' equals Atropos's 'cutting' (the text says 'fold up,' i.e. wind up the web). Sources (Ovid Met. 8.451-455, Hesiod, Craik) were verified by the source judge; kept Ovid and Craik. [orig: source=verified, interp=refuted]"
   },
   {
     "id": "henry_v-2678-cadwallader",
@@ -13885,1577 +15457,5 @@
         "note": "All historical claims are accurate: Henry VI born 1421, nine months old at Henry V's death (1422), crowned in England 1429 and France 1431, France lost by 1453, the contesting regency of Gloucester and Bedford, the Wars of the Roses connection — and the Epilogue's 'melancholy corrective' reading is standard modern criticism."
       }
     ]
-  },
-  {
-    "id": "henry_v-1090-cullions",
-    "play": "henry_v",
-    "tln_start": 1090,
-    "tln_end": 1090,
-    "word_start": 6,
-    "word_end": 8,
-    "anchor_text": "Avaunt, you cullions",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "'Avaunt' means 'get away' or 'begone' — a sharp command to leave. 'Cullions' is an Elizabethan insult meaning scoundrels or base, worthless fellows, derived from the French 'couillon.' Fluellen is calling Pistol, Nym, and Bardolph cowardly trash and driving them forward to the breach.",
-    "detail": "The etymology of 'cullion' — ultimately from Latin 'coleus' (testicle) via Old French — carries a vulgar undercurrent of contempt, but by Shakespeare's day it was used generally for any despicable wretch. Fluellen deploys it appropriately: these three have just been caught using fine language to avoid fighting. The command 'Avaunt' is a forceful stage-direction in itself, typical of the Welsh captain's no-nonsense manner once he tires of elaborate speech.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'cullion, n.': 'A base fellow, rascal, rogue; a man of no account.'"
-      },
-      {
-        "name": "Schmidt, Shakespeare-Lexicon",
-        "citation": "Schmidt, A., Shakespeare-Lexicon, 3rd ed. (Berlin, 1902), s.v. 'cullion': 'a base fellow.'"
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1090"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Removed the wrong date range ('citations from 1508 onward'; OED's earliest is Chaucer c.1386) from the OED citation; the definitions and etymology were verified."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Both 'avaunt' (begone) and 'cullion' (base wretch, from French couillon) are accurately glossed; the vulgar etymological undercurrent noted in the detail is real but the annotation correctly notes that by Shakespeare's day it was used generally for any despicable person."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Removed the wrong date range ('citations from 1508 onward'; OED's earliest is Chaucer c.1386) from the OED citation; the definitions and etymology were verified. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_v-1116-pocketing-up-wrongs",
-    "play": "henry_v",
-    "tln_start": 1116,
-    "tln_end": 1117,
-    "word_start": 0,
-    "word_end": 1,
-    "anchor_text": "plain pocketing up of wrongs. I must leave them, and seek some better service",
-    "type": "wordplay",
-    "depth": "basic",
-    "summary": "To 'pocket up' wrongs means to put up with insults without protest — to swallow an affront. The phrase is barbed in context: the men want the Boy to put his hand in other men's pockets and steal for them, so the dishonour he is being asked to 'pocket up' is itself a matter of picking pockets. He decides he has outgrown their service.",
-    "detail": "The Boy's speech is the scene's sharpest piece of prose comedy. His soliloquy moves from observation to judgment to a moral decision: he reasons himself out of these men's service rather than become a thief for them. The phrase 'cast it up' in the final line means to vomit — their villainy turns his stomach.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'pocket, v.', sense 'to put up with (an affront, insult, etc.) without resenting it; to swallow.'"
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1116"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "OED s.v. 'pocket' carries both senses (to put up with an affront; to steal/put in one's pocket) and both are cited from the 16th century onward; the double-sense wordplay claim is fully supported."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Trimmed the interpretation overreach: the judge showed the claimed simultaneous pun ('pocketing up wrongs' meaning both enduring insults AND literally pickpocketing) is an overread, and that 'cast it up' here means simply 'to vomit,' not 'to reckon/add up.' Reworded to the sound core (swallowing the dishonour of being asked to steal) and dropped the double-pun and reckon/vomit claims; the OED sense was verified."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Trimmed the interpretation overreach: the judge showed the claimed simultaneous pun ('pocketing up wrongs' meaning both enduring insults AND literally pickpocketing) is an overread, and that 'cast it up' here means simply 'to vomit,' not 'to reckon/add up.' Reworded to the sound core (swallowing the dishonour of being asked to steal) and dropped the double-pun and reckon/vomit claims; the OED sense was verified. [orig: source=verified, interp=refuted]"
-  },
-  {
-    "id": "henry_v-1206-impious-war-prince-fiends",
-    "play": "henry_v",
-    "tln_start": 1206,
-    "tln_end": 1207,
-    "word_start": 7,
-    "word_end": 8,
-    "anchor_text": "impious War, Array'd in flames like to the prince of fiends",
-    "type": "biblical_allusion",
-    "depth": "basic",
-    "summary": "'The prince of fiends' is Satan, ruler of hell — a title drawn from his description as 'the prince of this world' (John 12:31) and as the ruling spirit of the air (Ephesians 2:2) in the New Testament. Henry personifies War as a devil in fire, implying that once unleashed it has an infernal life of its own that not even a king can restrain.",
-    "detail": "The Geneva Bible glosses both the Johannine and Pauline uses of 'prince' as titles of the Devil in his capacity as ruler of the fallen world. Wrapping War in the Devil's costume is a standard Renaissance rhetorical move (compare Marlowe's Tamburlaine), but it serves a precise dramatic function here: Henry displaces moral responsibility from himself onto an abstract, diabolical force, implying that the coming atrocities will be the town's fault for not surrendering rather than his fault for ordering the assault. 'Smirch'd complexion' (line 1208) — blackened, sooty, fire-scarred — extends the hell-imagery.",
-    "sources": [
-      {
-        "name": "Geneva Bible 1599",
-        "citation": "John 12:31 (Geneva 1599): 'Now is the iudgement of this worlde: now shal the prince of this worlde be cast out.' Cf. Ephesians 2:2 (Geneva 1599): 'the prince that ruleth in the aire, even the spirite, that nowe worketh in the children of disobedience.'"
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1206"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Corrected the Ephesians 2:2 quotation to the actual Geneva 1599 wording ('the prince that ruleth in the aire'); the original had quoted the KJV ('the power of the air'). John 12:31 was correct and the reading was verified; confirmed the Geneva wording online."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Identifying 'prince of fiends' with Satan via John 12:31 and Ephesians 2:2 is textually grounded, and the reading that Henry rhetorically displaces moral responsibility onto an abstract infernal force is a mainstream scholarly interpretation of this speech, not an over-reading."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Corrected the Ephesians 2:2 quotation to the actual Geneva 1599 wording ('the prince that ruleth in the aire'); the original had quoted the KJV ('the power of the air'). John 12:31 was correct and the reading was verified; confirmed the Geneva wording online. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_v-1217-leviathan",
-    "play": "henry_v",
-    "tln_start": 1217,
-    "tln_end": 1217,
-    "word_start": 1,
-    "word_end": 5,
-    "anchor_text": "send precepts to the leviathan",
-    "type": "biblical_allusion",
-    "depth": "basic",
-    "summary": "Leviathan is the enormous sea-monster of the Book of Job, where God challenges Job to show whether any mortal can command it: 'Canst thou draw out Leviathan with a hook?' (Job 40:20 in the Geneva Bible). Henry uses it as an image of absolute unstoppability: trying to order his enraged soldiers to halt once the assault begins would be as futile as sending written commands to a sea-monster to come ashore.",
-    "detail": "In Job 40-41 God uses Leviathan as proof of the chasm between divine and human power — no man can bind it, play with it, or break its scales. By Shakespeare's day the name had acquired further force from Isaiah 27:1 ('that crooked serpent, even Leviathan') and from the tradition that identified Leviathan with Satan or with the primordial chaos that God's creation holds in check. Henry's rhetorical logic is deliberately self-exculpatory: he claims he will be as powerless to stop his own army as he would be to command the sea. The simile sits in the same breath as the 'prince of fiends' image (lines 1206-7), reinforcing the speech's framing of unrestrained war as a supernatural, unchainable evil.",
-    "sources": [
-      {
-        "name": "Geneva Bible 1599",
-        "citation": "Job 40:20 (Geneva 1599): 'Canst thou draw out Leviathan with an hooke...?' Cf. Isaiah 27:1 (Geneva 1599): 'that crooked serpent, even Leviathan.'"
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1217"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Corrected the verse to the Geneva 1599 numbering (the Leviathan-hook verse is Job 40:20 in Geneva, not 41:1, which is KJV numbering) and generalized the supporting context to Job 40-41; Isaiah 27:1 was correct and the reading was verified."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The Job 41:1 anchor is exact and the point that 'send precepts to the leviathan to come ashore' figures an unchainable force beyond human command is a natural reading of the simile; the supplementary identification of Leviathan with Satan (Isaiah 27:1, patristic tradition) is defensible and adds context without distorting the primary sense."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Corrected the verse to the Geneva 1599 numbering (the Leviathan-hook verse is Job 40:20 in Geneva, not 41:1, which is KJV numbering) and generalized the supporting context to Job 40-41; Isaiah 27:1 was correct and the reading was verified. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_v-1251-katharine-learns-english",
-    "play": "henry_v",
-    "tln_start": 1253,
-    "tln_end": 1253,
-    "word_start": 0,
-    "word_end": 9,
-    "anchor_text": "Je te prie, m'enseignez; il faut que j'apprenne a parler",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "Katharine tells Alice: 'I beg you, teach me; I must learn to speak.' Her urgency is pointed: the English army has just taken Harfleur and is marching through France. For a French princess, learning the language of the advancing enemy is itself a kind of preparation for what is coming.",
-    "detail": "In the play's structure, 3.4 cuts from Henry's siege to the domestic world of the French court, juxtaposing the violence of the campaign with this quiet, comic scene: Katharine learns the conqueror's tongue in a women's room while her country's army prepares to fight him. The historical Katharine de Valois (1401-1437) did marry Henry V in 1420 following the Treaty of Troyes, which made Henry heir to the French crown. Holinshed's Chronicles record the marriage but supply no such domestic scene; it is Shakespeare's invention.",
-    "sources": [
-      {
-        "name": "Holinshed",
-        "citation": "Raphael Holinshed, Chronicles (1587), on the Treaty of Troyes (1420) and the marriage of Henry V to Katherine de Valois."
-      },
-      {
-        "name": "Oxford Shakespeare",
-        "citation": "Oxford Shakespeare, Henry V (ed. Gary Taylor, 1982), commentary on the function of 3.4 in the play's structure."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1253"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Holinshed's Chronicles (1587) is confirmed as the play's primary source and does record the Treaty of Troyes (1420) and Henry V's marriage to Katherine de Valois; the dates given for Katherine (1401-1437) are accurate; the claim that the domestic French-lesson scene is Shakespeare's invention rather than Holinshed's is correct."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Trimmed the interpretation overreach: removed the claim that Katharine 'already senses she will be handed to Henry in a marriage treaty' (the line names no such foreknowledge), keeping the defensible point that she is learning the advancing enemy's language. Sources were verified."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Trimmed the interpretation overreach: removed the claim that Katharine 'already senses she will be handed to Henry in a marriage treaty' (the line names no such foreknowledge), keeping the defensible point that she is learning the advancing enemy's language. Sources were verified. [orig: source=verified, interp=refuted]"
-  },
-  {
-    "id": "henry_v-1309-sprays-scions-grafters",
-    "play": "henry_v",
-    "tln_start": 1309,
-    "tln_end": 1313,
-    "word_start": 6,
-    "word_end": 3,
-    "anchor_text": "sprays of us, The emptying of our fathers' luxury, Our scions put in wild and savage stock, Spirt up so suddenly into the clouds, And overlook their grafters",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "The Dauphin uses the language of horticulture to sneer at the English. 'Sprays' are small shoots or twigs; 'scions' are young offshoots grafted onto older rootstock; 'grafters' are those who do the grafting — by extension, the French stock that produced the English graft. He is saying: we French are the ancient stock, the English are merely wild, inferior shoots taken from us — yet those shoots are now outgrowing us. The insult is aimed at the Normans who colonized England: the English are France's own degenerate offshoots.",
-    "detail": "The Dauphin's metaphor plays on the Norman Conquest of 1066, when French-speaking Normans became England's ruling class. He implies that the English are literally made of French ancestry ('the emptying of our fathers' luxury' means the surplus or profligate children of French fathers, scattered like seed), but they have 'gone native,' grafted onto 'wild and savage stock.' The paradox he cannot explain is why these degenerate scions now 'overlook their grafters,' i.e. rise above and look down on the French who bred them. It is self-contempt disguised as contempt for England. Bourbon's next line, 'Normans, but bastard Normans, Norman bastards,' picks up the same idea.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'scion' n. 1a (a shoot or twig); s.v. 'grafter' n. 1 (one who grafts)."
-      },
-      {
-        "name": "Arden Shakespeare, Henry V",
-        "citation": "T. W. Craik, ed., Henry V, Arden Shakespeare, 3rd series (Routledge, 1995), note at 3.5.5-8."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1309"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "OED definitions for 'scion' (shoot or twig) and 'grafter' (one who grafts; the parent stock) are standard and accurate; the Arden Craik 1995 note at 3.5.5-8 on the horticultural metaphor and Norman Conquest context is the kind of annotation that edition is documented to provide."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Corrected the definition of 'grafter' to match OED — one who performs the grafting (by extension the parent stock), not 'the established plants the graft grows on' as originally written; the metaphor's overall drift (French as originators) and the Norman-Conquest reading were sound."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Corrected the definition of 'grafter' to match OED — one who performs the grafting (by extension the parent stock), not 'the established plants the graft grows on' as originally written; the metaphor's overall drift (French as originators) and the Norman-Conquest reading were sound. [orig: source=verified, interp=refuted]"
-  },
-  {
-    "id": "henry_v-1337-lavoltas-corantos",
-    "play": "henry_v",
-    "tln_start": 1337,
-    "tln_end": 1339,
-    "word_start": 1,
-    "word_end": 6,
-    "anchor_text": "teach lavoltas high, and swift corantos; Saying our grace is only in our heels, And that we are most lofty runaways",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "Bourbon says French noblewomen are mocking them by suggesting they should go to English dancing schools to learn 'lavoltas' and 'corantos' — two fashionable court dances — since the French show spirit only in their heels, i.e. by running away. A lavolta was a dance with high leaps; a coranto was a fast, running dance. The gibe is that the French are fit only for leaping and sprinting — as they do when they flee.",
-    "detail": "The lavolta (Italian 'la volta,' the turn) was a vigorous partnered dance in which the man lifted the woman high into the air, fashionable in the 1580s-90s and performed at Elizabeth I's court. The coranto (French courante, a running dance) was quick and gliding. Both required agile, springy use of the legs. The noblewomen's gibe collapses two meanings: 'our grace is only in our heels' means both 'we are elegant only at dancing' and 'we show our quality only by running away.' 'Lofty runaways' completes the pun — the high leaps of the lavolta and the high speed of flight are the same motion.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'lavolta' n. (a lively dance involving high leaps; 'la volta'); s.v. 'coranto' n. (a running dance; the courante)."
-      },
-      {
-        "name": "Arden Shakespeare, Henry V",
-        "citation": "T. W. Craik, ed., Henry V, Arden Shakespeare, 3rd series (Routledge, 1995), note at 3.5.33-35."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1337"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "OED records 'lavolta' (a lively leaping dance) and 'coranto' (a running dance, from French courante) with definitions matching the annotation's claims; the lavolta's association with high leaps and Elizabethan court performance is confirmed by multiple independent sources, and the Arden Craik note at 3.5.33-35 is a plausible locus for commentary on these dances."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Corrected the speaker attribution from 'the Constable' to the Duke of Bourbon, which the judge showed is who speaks these lines (TLN 1336-1339); the dance definitions and the heel/flight pun were verified."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Corrected the speaker attribution from 'the Constable' to the Duke of Bourbon, which the judge showed is who speaks these lines (TLN 1336-1339); the dance definitions and the heel/flight pun were verified. [orig: source=verified, interp=refuted]"
-  },
-  {
-    "id": "henry_v-1399-fortune-iconography",
-    "play": "henry_v",
-    "tln_start": 1399,
-    "tln_end": 1400,
-    "word_start": 5,
-    "word_end": 6,
-    "anchor_text": "Fortune is painted blind, with a muffler afore his eyes",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "Fluellen interrupts Pistol's flowery speech to give a pedantic lecture on how Fortune is depicted in paintings and emblems: blindfolded (showing she favors no one), holding a wheel (showing she is changeable), standing on a round stone (showing she is unstable). He is giving the moral — the lesson — that the image is meant to teach.",
-    "detail": "Fluellen's breakdown of Fortune's iconography was standard Elizabethan emblematic knowledge, drawn from emblem books like Geoffrey Whitney's A Choice of Emblemes (1586) and Andrea Alciato's Emblemata, both of which illustrate Fortune with her wheel, blindfold, and sphere. When Fluellen says 'Fortune is an excellent moral,' he means the picture of Fortune conveys an excellent moral lesson. His earnest, schoolmasterly interruption is the play's best joke at his expense: he stops Pistol's plea for a man's life to deliver an art-history lecture.",
-    "sources": [
-      {
-        "name": "Boethius, Consolation of Philosophy",
-        "citation": "Boethius, Consolatio Philosophiae II, prose 1-2 (Fortune's blindness and wheel)."
-      },
-      {
-        "name": "Whitney, A Choice of Emblemes (1586)",
-        "citation": "Geoffrey Whitney, A Choice of Emblemes and Other Devises (1586) — a widely circulated English emblem book that figures Fortune with wheel, blindfold, and sphere."
-      }
-    ],
-    "references": [
-      {
-        "kind": "classical",
-        "card_id": "fortunes-wheel"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1399"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Removed the unverifiable 'emblem 181' page/number from the Whitney citation (the book is not numbered by sequential emblems), generalizing to the work; Boethius was sound and the interpretation was verified."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Fluellen's pedantic interruption to explain Fortune's emblematic meaning is fully borne out by TLN 1399-1406, and the detail that 'Fortune is an excellent moral' means the picture conveys a moral lesson is the correct Elizabethan sense of 'moral'; the characterisation of it as the play's best joke at Fluellen's expense is a matter of interpretation but not an overreach."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Removed the unverifiable 'emblem 181' page/number from the Whitney citation (the book is not numbered by sequential emblems), generalizing to the work; Boethius was sound and the interpretation was verified. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_v-1415-vital-thread",
-    "play": "henry_v",
-    "tln_start": 1415,
-    "tln_end": 1416,
-    "word_start": 1,
-    "word_end": 4,
-    "anchor_text": "let not Bardolph's vital thread be cut With edge of penny cord",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "Pistol's florid language here piles two images on top of each other: 'vital thread' alludes to the three Fates of Greek myth, who spun, measured, and cut the thread of every human life at death, while 'penny cord' is plain English for the cheap hangman's rope. The contrast between mythological grandeur and cheap reality is typical of Pistol's hollow bombast.",
-    "detail": "The Fates (Greek Moirai, Latin Parcae) — Clotho who spins the thread, Lachesis who measures it, and Atropos who cuts it — are a standard classical source for the 'thread of life' metaphor, familiar to Elizabethans from school Latin and from popular emblems. Pistol wraps a mundane execution ('penny cord,' a rope that costs a penny) in classical-epic diction to make the plea sound grander than it is. A 'windpipe suffocate' (1411) with 'hemp' works the same way: strangled by rope, in grand words. All this oratory fails: Fluellen refuses to intercede.",
-    "sources": [
-      {
-        "name": "Hesiod, Theogony",
-        "citation": "Hesiod, Theogony 217-222 (the Moirai — Clotho, Lachesis, Atropos — who apportion mortals' lives)."
-      },
-      {
-        "name": "Schmidt, Shakespeare-Lexicon",
-        "citation": "Schmidt, A., Shakespeare-Lexicon (Berlin, 1874-75), s.v. 'thread': the thread of life as a standard Elizabethan metaphor for lifespan."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1415"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Dropped the wrong/fabricated Ovid locus (Met. 15.807-808 does not mention the Fates) and leaned on the genuine Hesiod Theogony reference for the Moirai plus Schmidt; the Fates/thread reading was verified."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The Fates / thread-of-life allusion is correctly identified and the contrast between mythological diction and 'penny cord' as a rhetorical marker of Pistol's hollow bombast is well-grounded in the text; the annotation does not overreach."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Dropped the wrong/fabricated Ovid locus (Met. 15.807-808 does not mention the Fates) and leaned on the genuine Hesiod Theogony reference for the Moirai plus Schmidt; the Fates/thread reading was verified. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_v-154-miscreate",
-    "play": "henry_v",
-    "tln_start": 154,
-    "tln_end": 155,
-    "word_start": 1,
-    "word_end": 7,
-    "anchor_text": "opening titles miscreate, whose right Suits not in native colours with the truth",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "'Titles miscreate' means claims to ownership (here: to the French crown) that are falsely made or illegitimately created. 'Native colours' means true colours, the honest appearance. Henry is saying: do not put forward claims whose legitimate basis does not hold up when honestly displayed.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'miscreate' adj.: 'falsely or unlawfully created.'"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 154"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Dropped the false 'first attestation in this play' claim (OED records the word before 1563); kept the OED definition, which the interpretation judge verified."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "'Miscreate' as falsely or illegitimately created is correctly glossed; 'native colours' meaning true/honest appearance is standard — the gloss does not overreach the text."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Dropped the false 'first attestation in this play' claim (OED records the word before 1563); kept the OED definition, which the interpretation judge verified. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_v-1544-beast-for-perseus",
-    "play": "henry_v",
-    "tln_start": 1544,
-    "tln_end": 1545,
-    "word_start": 7,
-    "word_end": 3,
-    "anchor_text": "It is a beast for Perseus. He is pure air and fire",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "Perseus was the Greek hero who killed the Gorgon Medusa and rescued Andromeda, flying through the air on the winged sandals the gods had given him. The Dauphin says his horse is fit for a hero of that stature. The next phrase — 'pure air and fire' — invokes the ancient theory that all matter is made of four elements (earth, water, air, fire); the Dauphin claims his horse belongs only to the two highest, lightest elements.",
-    "detail": "The four-element theory comes from Aristotle and earlier Greek philosophy. 'Earth and water' were heavy, base, sluggish; 'air and fire' were light, active, noble. The Dauphin says the earthly elements appear in his horse only when it stands patiently for its rider to mount — a backhanded compliment that reduces stillness to a necessary defect. Perseus's adventures are told in Ovid, Metamorphoses Books 4-5.",
-    "sources": [
-      {
-        "name": "Ovid, Metamorphoses",
-        "citation": "Ovid, Metamorphoses, Books 4-5 (Perseus, Medusa, and the rescue of Andromeda)."
-      },
-      {
-        "name": "Aristotle, De Caelo",
-        "citation": "Aristotle, De Caelo 1.2-3 (the four elements; earth and water heavy, fire and air light) — the standard cosmological framework of the period."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1544"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Corrected the factual error the source judge caught: Perseus flew with winged sandals, not on Pegasus (Pegasus is Bellerophon's mount); removed both Pegasus references and generalized the Ovid citation to Books 4-5. The four-element reading was verified."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Four-element cosmology applied correctly (air and fire = light/noble; earth and water = heavy/base), and the Perseus/Pegasus link is explicit in the text at TLN 1544."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Corrected the factual error the source judge caught: Perseus flew with winged sandals, not on Pegasus (Pegasus is Bellerophon's mount); removed both Pegasus references and generalized the Ovid citation to Books 4-5. The four-element reading was verified. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_v-1622-proverb-exchange",
-    "play": "henry_v",
-    "tln_start": 1622,
-    "tln_end": 1622,
-    "word_start": 0,
-    "word_end": 4,
-    "anchor_text": "Ill will never said well",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "Orleans and the Constable trade proverbs in a contest of wit — 'Ill will never said well,' 'There is flattery in friendship,' 'Give the devil his due,' 'A pox of the devil,' and 'A fool's bolt is soon shot.' Each proverb is deployed as a weapon in their sparring, and each is capped or deflected by the next. The exchange is a verbal duel that mirrors the battle to come.",
-    "detail": "The practice of 'capping proverbs' — trumping an opponent's saying with a better or contradictory one — was a recognized form of Elizabethan wit-play, taught in rhetoric manuals as argument by commonplace (sententia). 'A fool's bolt is soon shot' means a fool fires off his arrow quickly and is then defenceless; 'You have shot over' (you overshot the mark) lets the Constable turn it back on Orleans. 'Give the devil his due' (credit even an enemy) and 'A pox of the devil' escalate the wordplay into mock-cursing. The exchange reveals the French lords' complacency the night before a battle they expect to win easily.",
-    "sources": [
-      {
-        "name": "Tilley, Dictionary of Proverbs",
-        "citation": "M. P. Tilley, A Dictionary of the Proverbs in England in the Sixteenth and Seventeenth Centuries (1950), s.vv. 'Ill will never said (spoke) well,' 'A fool's bolt is soon shot,' and 'Give the devil his due.'"
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1622"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Removed the disputed Tilley index numbers (the judge showed 'A fool's bolt is soon shot' is F515, not the cited F505) and cited the proverbs by name instead; the proverb-capping reading was verified."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Proverb-capping as Elizabethan rhetorical practice is well attested; each proverb's deployment and counter is correctly tracked, and the ironic framing as pre-battle complacency is directly supported by the scene's dramatic situation."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Removed the disputed Tilley index numbers (the judge showed 'A fool's bolt is soon shot' is F515, not the cited F505) and cited the proverbs by name instead; the proverb-capping reading was verified. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_v-1660-entertain-conjecture",
-    "play": "henry_v",
-    "tln_start": 1660,
-    "tln_end": 1660,
-    "word_start": 1,
-    "word_end": 5,
-    "anchor_text": "entertain conjecture of a time",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "'Entertain conjecture' means 'let your imagination work' or 'form a mental picture.' The Chorus is asking the audience to picture the scene rather than see it staged. 'Entertain' often means simply 'hold' or 'admit to the mind' in Elizabethan English.",
-    "detail": "The verb 'entertain' in early modern English frequently means to hold something in the mind, to give it lodging there, rather than its modern sense of amusement. The phrase sets up the Chorus's entire rhetorical project for Act 4: constructing in words what the bare stage cannot show — the two armies in the dark before Agincourt.",
-    "sources": [
-      {
-        "name": "Schmidt, Shakespeare-Lexicon",
-        "citation": "Schmidt, A., Shakespeare-Lexicon and Quotation Dictionary, s.v. 'entertain': to harbour or keep in the mind."
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "the-wooden-o"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1660"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Dropped the wrong sense-number from the Schmidt citation (the judge placed the 'keep in the mind' meaning at sense 9, not 3) and removed the now-detached quotation, generalizing to the lexicon entry; the gloss was verified."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The reading of 'entertain' as 'hold in the mind / give lodging to' is the standard Elizabethan sense and fits the Chorus's metatheatrical project precisely."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Dropped the wrong sense-number from the Schmidt citation (the judge placed the 'keep in the mind' meaning at sense 9, not 3) and removed the now-detached quotation, generalizing to the lexicon entry; the gloss was verified. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_v-1956-phoebus-hyperion",
-    "play": "henry_v",
-    "tln_start": 1956,
-    "tln_end": 1958,
-    "word_start": 0,
-    "word_end": 7,
-    "anchor_text": "Sweats in the eye of Phoebus, and all night Sleeps in Elysium; next day after dawn, Doth rise and help Hyperion to his horse",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "Phoebus (a title of Apollo) and Hyperion were both names for the sun-god, imagined as driving a chariot of fiery horses across the sky each day. 'Sweating in the eye of Phoebus' means working all day in the blazing sun. At day's end the sun-god must be helped back onto his horse for the next morning — the slave's daily labour mirrors the cosmic cycle. 'Elysium' was the paradise of the blessed dead in classical mythology.",
-    "detail": "The passage brings together several related sun names: Phoebus ('the bright one,' a title of Apollo) and Hyperion (a Titan associated with the sun). Renaissance readers freely blended these names. Elysium as the afterlife of the virtuous appears in Virgil's Aeneid Book 6. Henry's point is that the slave, who sweats in the sun all day and sleeps in bliss all night, has a more enviable existence than a king who cannot sleep; the cosmic scale of the imagery makes the king's insomnia seem cosmic too.",
-    "sources": [
-      {
-        "name": "Ovid, Metamorphoses",
-        "citation": "Ovid, Metamorphoses, Book 2 (the chariot of the sun and its fiery horses, in the Phaethon episode)."
-      },
-      {
-        "name": "Virgil, Aeneid",
-        "citation": "Virgil, Aeneid, Book 6 (Elysium, the paradise of the blessed dead)."
-      }
-    ],
-    "references": [
-      {
-        "kind": "classical",
-        "card_id": "hyperion"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1956"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Removed the unsupported parenthetical 'Hyperion as father of the sun-god' tied to Met. 2 and generalized the citations to Ovid Met. Book 2 (the sun's chariot) and Virgil Aeneid Book 6 (Elysium); the sun-god identifications were verified."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Phoebus and Hyperion as sun-god names are correctly identified; the note that Renaissance readers blended Phoebus/Apollo/Hyperion is accurate, and Elysium as classical paradise of the blessed dead is correct — though the annotation might have noted that Shakespeare uses both names in the same passage, making Hyperion here the slave who helps re-harness the chariot rather than the sun-god himself, which is an unusual image but defensible within the passage's logic."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Removed the unsupported parenthetical 'Hyperion as father of the sun-god' tied to Met. 2 and generalized the citations to Ovid Met. Book 2 (the sun's chariot) and Virgil Aeneid Book 6 (Elysium); the sun-god identifications were verified. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_v-2029-tucket-sonance",
-    "play": "henry_v",
-    "tln_start": 2029,
-    "tln_end": 2029,
-    "word_start": 0,
-    "word_end": 7,
-    "anchor_text": "the tucket sonance and the note to mount",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "A 'tucket' was a personal trumpet fanfare sounded to identify a nobleman — the Elizabethan equivalent of a call-sign. 'Sonance' simply means the sound or sounding of it. 'The note to mount' is the separate bugle call ordering cavalry to get on their horses. The Constable is calling for the battle to begin: first the nobles' identifying fanfares, then the signal to mount up.",
-    "detail": "Stage directions throughout Shakespeare's history plays call for 'a tucket' or 'tuckets within' to herald the arrival of a particular lord — a short, distinctive personal flourish on the trumpet. Heralds and trumpeters each carried set calls, and the specific sequence the Constable names — tucket first, then the mount signal — is recognizable military ceremony to an Elizabethan audience.",
-    "sources": [
-      {
-        "name": "Onions, Shakespeare Glossary",
-        "citation": "Onions, C. T., A Shakespeare Glossary (Oxford, 1911; rev. Eagleson, 1986), s.v. 'tucket': 'a personal flourish on the trumpet.'"
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2029"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Dropped the unsupported 'from Italian toccata' etymology the source judge flagged; kept Onions's definition (verified) and the sound interpretive gloss."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The core readings — tucket as a personal noble's fanfare, sonance as the sounding of it, and 'note to mount' as a separate cavalry signal — are mainstream and well-supported; the Italian toccata etymology is noted as possible rather than proven in OED, so the detail note's confidence is slightly high, but the interpretive gloss itself is defensible."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Dropped the unsupported 'from Italian toccata' etymology the source judge flagged; kept Onions's definition (verified) and the sound interpretive gloss. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_v-2037-mars-bankrupt",
-    "play": "henry_v",
-    "tln_start": 2037,
-    "tln_end": 2038,
-    "word_start": 0,
-    "word_end": 6,
-    "anchor_text": "Big Mars seems bankrupt in their beggar'd host, And faintly through a rusty beaver peeps",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "Mars was the Roman god of war and the protector of armies; to say he 'seems bankrupt' in the English host is to say the god of war has no resources left among them — even war itself looks penniless and spent. A 'beaver' is the hinged visor or face-piece of a helmet, and a 'rusty' one signals armour neglected and ready to fall apart. Grandpre paints the English as an army so beaten-looking that the very war-god peering through their rusted visors looks like a pauper.",
-    "detail": "Mars as the patron deity of soldiers was a commonplace of classical and Renaissance literature; to invoke his name is to invoke the idea of martial vigour, which Grandpre pointedly says the English lack. The compound image — a beggar's host, a bankrupt god, a rusty visor — is Grandpre's long set-piece on the wretchedness of Henry's army, all building toward the reversal the audience knows is minutes away.",
-    "sources": [
-      {
-        "name": "Arden Shakespeare, Henry V",
-        "citation": "Arden Shakespeare, Henry V (ed. T. W. Craik, 1995), note to 4.2.42-43 (Mars 'bankrupt' and the 'rusty beaver')."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2037"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Removed the misattributed Ovid Met. 12 / Aeneid loci (the judge showed neither passage depicts Mars as a presiding battle-god) and the dependent 'stock-imagery' sentence, recategorizing the support onto the Arden note; the war-god reading was verified. Reclassified as a Renaissance commonplace under the Arden source — the type stays classical_allusion since Mars is named in the text and the gloss explains the deity, but no ancient locus is now asserted."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Grandpre's 'Big Mars seems bankrupt' as an image of the war-god impoverished among the English is the plain, mainstream reading; the citation of Ovid Met. 12 and Virgil Aeneid 1.274 as specific underlying sources is speculative stock-imagery padding in the detail note, but the core interpretation is sound and does not depend on those loci."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Removed the misattributed Ovid Met. 12 / Aeneid loci (the judge showed neither passage depicts Mars as a presiding battle-god) and the dependent 'stock-imagery' sentence, recategorizing the support onto the Arden note; the war-god reading was verified. Reclassified as a Renaissance commonplace under the Arden source — the type stays classical_allusion since Mars is named in the text and the gloss explains the deity, but no ancient locus is now asserted. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_v-2153-lions-skin",
-    "play": "henry_v",
-    "tln_start": 2153,
-    "tln_end": 2154,
-    "word_start": 0,
-    "word_end": 8,
-    "anchor_text": "The man that once did sell the lion's skin While the beast liv'd, was kill'd with hunting him",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "Henry is alluding to a fable from the Aesopic tradition: a hunter sold a lion's (in some versions a bear's) skin before he had caught the animal, then was killed in the hunt. The moral is that it is foolish to count on gains before you have them. Henry turns it back on the French, who are already dividing up the English ransom money before the battle is fought — and who, he implies, will share the hunter's fate.",
-    "detail": "The fable was a schoolbook staple across Renaissance Europe. Henry applies it with typical cool wit: the French have been 'selling' English ransom money all night while the English are still alive and armed. The same warning against premature triumph circulated in proverb form ('do not sing the triumph before the victory').",
-    "sources": [
-      {
-        "name": "Aesop, Fables",
-        "citation": "Aesop, Fables, 'The Man who sold the Lion's (Bear's) Skin before catching it' — selling an uncaught animal's skin; a standard Renaissance schoolroom fable."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2153"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Dropped the conflated and unverifiable Erasmus Adagia reference (II.vi.5, which the judge showed is a separate 'ante victoriam' adage, not the vehicle for the animal-skin fable) and the precise number; kept the allowlisted Aesop fable, which the text's 'lion's skin' supports and the interpretation judge verified, and demoted the triumph-proverb point to a general aside."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The Aesop fable connection is sound, the play's own text specifies 'lion's skin,' the application to the French counting ransom before the battle is precise, and the Erasmus Adagia as the probable transmission route is a defensible scholarly claim."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Dropped the conflated and unverifiable Erasmus Adagia reference (II.vi.5, which the judge showed is a separate 'ante victoriam' adage, not the vehicle for the animal-skin fable) and the precise number; kept the allowlisted Aesop fable, which the text's 'lion's skin' supports and the interpretation judge verified, and demoted the triumph-proverb point to a general aside. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_v-2209-luxurious",
-    "play": "henry_v",
-    "tln_start": 2209,
-    "tln_end": 2209,
-    "word_start": 0,
-    "word_end": 5,
-    "anchor_text": "Thou damned and luxurious mountain goat",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "'Luxurious' here means 'lascivious' or 'lecherous,' not 'expensive' or 'comfortable.' Pistol is calling Le Fer a damned, lustful creature — a mountain goat being a byword for rampant lechery. The modern sense of the word did not become dominant until well after Shakespeare's time.",
-    "detail": "In Elizabethan English 'luxury' (and 'luxurious') almost always meant sexual excess, lustfulness — the sin of the flesh, not lavish spending. The same sense appears in Macbeth ('luxurious, avaricious, false, deceitful,' 4.3.58). Here Pistol hurls it as a generic insult, stacking 'damned,' 'luxurious,' and 'mountain goat' into an escalating string of abuse.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'luxurious' adj., sense 1a: 'Given to or characterized by sexual indulgence; lascivious, lustful, lecherous.'"
-      },
-      {
-        "name": "Schmidt, Shakespeare-Lexicon",
-        "citation": "Schmidt, Shakespeare-Lexicon (1874-75), s.v. 'luxurious': 'lascivious, lewd,' citing Macbeth 4.3.58 and this passage."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2209"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Removed the fabricated Othello citation ('luxury and damned incontinence,' which does not occur in Othello) from the detail and from the Schmidt citation; kept the verified OED/Schmidt support and the genuine Macbeth 4.3.58 parallel."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The archaic sense 'luxurious' = lascivious is firmly attested in OED and Schmidt, and the Othello and Macbeth parallels cited are real; no anachronism or over-reading."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Removed the fabricated Othello citation ('luxury and damned incontinence,' which does not occur in Othello) from the detail and from the Schmidt citation; kept the verified OED/Schmidt support and the genuine Macbeth 4.3.58 parallel. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_v-2255-empty-vessel",
-    "play": "henry_v",
-    "tln_start": 2255,
-    "tln_end": 2255,
-    "word_start": 0,
-    "word_end": 10,
-    "anchor_text": "the saying is true, \"The empty vessel makes the greatest sound\"",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "The Boy quotes a proverb — the emptier a container, the louder it rings when struck — to say that Pistol's enormous noise signals an equally enormous hollowness. He has just watched Pistol bluster a prisoner into a ransom with nothing but volume and a sword; his verdict is that the performance proved a want of real courage, not a presence of it.",
-    "detail": "The proverb was commonplace in the sixteenth century, circulating widely in English before Shakespeare. The Boy's soliloquy that follows is the play's sharpest exposure of Pistol: his observation that Bardolph and Nym had 'ten times more valour than this roaring devil' measures how low the bar was.",
-    "sources": [
-      {
-        "name": "Tilley, Dictionary of Proverbs",
-        "citation": "M. P. Tilley, A Dictionary of the Proverbs in England in the Sixteenth and Seventeenth Centuries (1950), s.v. 'Empty vessels make the most (greatest) sound.'"
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2255"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Removed both disputed index numbers (Tilley V88 vs V36 and the conflated Erasmus 'Inanis plena sunt omnia' I.x.35) and dropped the Erasmus citation entirely as misapplied, citing the proverb in Tilley by name; the proverb identification and reading were verified."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The proverb identification and the interpretation (Pistol is all noise and no substance) are fully supported by the text; Tilley V88 is the correct scholarly locus for the English form, and the reading of the Boy's soliloquy as the play's sharpest exposure of Pistol is mainstream."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Removed both disputed index numbers (Tilley V88 vs V36 and the conflated Erasmus 'Inanis plena sunt omnia' I.x.35) and dropped the Erasmus citation entirely as misapplied, citing the proverb in Tilley by name; the proverb identification and reading were verified. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_v-2263-french-defeat-translation",
-    "play": "henry_v",
-    "tln_start": 2263,
-    "tln_end": 2264,
-    "word_start": 0,
-    "word_end": 8,
-    "anchor_text": "O diable! O Seigneur! le jour est perdu, tout est perdu",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "The Constable cries 'O devil!' and Orleans shouts 'O Lord! The day is lost, all is lost!' The Dauphin then exclaims 'Death of my life!' (an oath) and a moment later 'O wicked fortune!' These are the French commanders' first stunned reactions as Agincourt collapses around them.",
-    "detail": "The four French phrases are: 'O diable!' = 'O devil!'; 'O Seigneur! le jour est perdu, tout est perdu!' = 'O Lord! The day is lost, all is lost!'; 'Mort de ma vie!' = 'Death of my life!' (a common French oath of astonishment); 'O mechante fortune!' = 'O wicked fortune!' Shakespeare gives the French their own language at the moment of crisis, which both authenticates the scene and leaves an English-only audience reading the horror in the speakers' faces and voices. English renderings appear in Arden Shakespeare, Henry V (ed. T. W. Craik, 1995), notes to 4.5.1-6.",
-    "sources": [
-      {
-        "name": "Arden Shakespeare, Henry V (Craik, 1995)",
-        "citation": "Arden Shakespeare, Henry V, ed. T. W. Craik (Routledge, 3rd series, 1995), notes to 4.5.1-6, providing English renderings of the French exclamations."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2263"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Corrected the publisher of the Arden 3rd-series edition from Methuen to Routledge; the translations and the interpretive note were verified."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Speaker attributions match the scene text exactly, the translation glosses are accurate, and the claim that Shakespeare uses French to authenticate the scene for an English-only audience is mainstream and text-supported."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Corrected the publisher of the Arden 3rd-series edition from Methuen to Routledge; the translations and the interpretive note were verified. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_v-2307-raught-hand",
-    "play": "henry_v",
-    "tln_start": 2307,
-    "tln_end": 2307,
-    "word_start": 6,
-    "word_end": 9,
-    "anchor_text": "raught me his hand",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "'Raught' is the archaic past tense of 'reach.' Exeter means York reached out and took — or offered — his hand. Modern readers would expect 'reached,' but Shakespeare's contemporaries used both forms; by the seventeenth century 'raught' was already becoming old-fashioned.",
-    "detail": "The OED lists 'raught' as a past tense and past participle of 'reach' current from the medieval period to the early seventeenth century. It appears several times in Shakespeare. Here the archaic form is not accidental: Exeter's formal, heightened diction throughout the speech (larding, insteeped, espous'd) is part of the ceremonial register he adopts to report the deaths of two noblemen to the king.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'reach' v., past-tense forms: 'raught' listed as an archaic past tense, current to the early seventeenth century."
-      },
-      {
-        "name": "Schmidt",
-        "citation": "Schmidt, Alexander, Shakespeare-Lexicon (3rd ed., 1902), s.v. 'raught': past tense of 'reach.'"
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2307"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Removed the wrong cross-reference scene from the Schmidt citation (the judge showed the 2 Henry VI occurrence is at 2.3, not 3.1) and dropped the specific play-line examples, keeping the verified OED/Schmidt definition."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "'Raught' as archaic past tense of 'reach' is a textbook gloss; the note that it was becoming old-fashioned by the seventeenth century and that it fits Exeter's heightened register is sound and not overreached."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Removed the wrong cross-reference scene from the Schmidt citation (the judge showed the 2 Henry VI occurrence is at 2.3, not 3.1) and dropped the specific play-line examples, keeping the verified OED/Schmidt definition. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_v-2621-whiffler",
-    "play": "henry_v",
-    "tln_start": 2621,
-    "tln_end": 2621,
-    "word_start": 1,
-    "word_end": 7,
-    "anchor_text": "like a mighty whiffler 'fore the King",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "A whiffler was an official who walked at the head of a royal procession to clear the crowd and make way for the sovereign. The sea is imagined as a gigantic royal usher parting before Henry, preparing his path home from France.",
-    "detail": "Whifflers carrying staves, swords, or torches were a familiar sight at civic processions and Lord Mayor's shows in Elizabethan London; the OED traces the word to 'wifle,' a battle-axe or javelin (the weapon such officers originally carried). The Chorus reaches for a grandly civic image: even the English Channel behaves like a loyal subject, ushering Henry ashore.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'whiffler', n.: 'One of a body of attendants armed with a weapon and employed to keep the way clear for a procession'; derived from 'wifle' (a battle-axe or javelin)."
-      },
-      {
-        "name": "Craik (Arden3)",
-        "citation": "T. W. Craik, ed., King Henry V, Arden Shakespeare 3rd series (1995), note to 5.0.12."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2621"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Corrected the etymology to match the cited OED entry — from 'wifle' (a battle-axe/javelin), not from 'whiffle (to clear away)' as the detail had claimed; the processional-officer gloss and the sea-as-usher reading were verified."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The gloss correctly identifies the whiffler as a processional officer who clears the way, and the metaphor of the sea acting as a royal usher is directly supported by TLN 2621 ('Which like a mighty whiffler 'fore the King / Seems to prepare his way')."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Corrected the etymology to match the cited OED entry — from 'wifle' (a battle-axe/javelin), not from 'whiffle (to clear away)' as the detail had claimed; the processional-officer gloss and the sea-as-usher reading were verified. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_v-2671-parca-fatal-web",
-    "play": "henry_v",
-    "tln_start": 2671,
-    "tln_end": 2671,
-    "word_start": 3,
-    "word_end": 7,
-    "anchor_text": "fold up Parca's fatal web",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "Parca (plural Parcae) was the Roman name for the Fates — three goddesses who spun, measured, and cut the thread of every mortal's life. Pistol threatens Fluellen with death in grandiose, theatrical terms: to 'fold up' the Fates' 'fatal web' is to wind up and end the fabric of a life.",
-    "detail": "The three Parcae in Roman tradition correspond to the Greek Clotho, Lachesis, and Atropos: Clotho spun the thread of life, Lachesis measured it, Atropos cut it. The 'fatal web' Pistol invokes blends spinning and weaving: the fabric of life made on the Fates' loom. Pistol's inflated classical allusion is comic because it borrows old bombastic stage-rhetoric and applies it to the petty situation of being asked to eat a leek.",
-    "sources": [
-      {
-        "name": "Ovid, Metamorphoses",
-        "citation": "Ovid, Metamorphoses 8.451-455 (the Parcae spinning the thread of Meleager's fate)."
-      },
-      {
-        "name": "Craik (Arden3)",
-        "citation": "T. W. Craik, ed., King Henry V, Arden Shakespeare 3rd series (1995), note to 5.1.18: 'Parca, one of the three Fates who in Roman belief were supposed to spin the thread of life.'"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2671"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Ovid Met. 8.451-455 genuinely describes the Parcae spinning Meleager's fate at birth; Hesiod Theogony 217-222 names Clotho, Lachesis, Atropos as daughters of Night in the standard text; both citations are real and on-point."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Trimmed the interpretation overreaches: removed the unsupported absolute 'Shakespeare uses the Parcae form only here' and stopped asserting that 'fold up' equals Atropos's 'cutting' (the text says 'fold up,' i.e. wind up the web). Sources (Ovid Met. 8.451-455, Hesiod, Craik) were verified by the source judge; kept Ovid and Craik."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Trimmed the interpretation overreaches: removed the unsupported absolute 'Shakespeare uses the Parcae form only here' and stopped asserting that 'fold up' equals Atropos's 'cutting' (the text says 'fold up,' i.e. wind up the web). Sources (Ovid Met. 8.451-455, Hesiod, Craik) were verified by the source judge; kept Ovid and Craik. [orig: source=verified, interp=refuted]"
-  },
-  {
-    "id": "henry_v-305-france-win-scotland",
-    "play": "henry_v",
-    "tln_start": 305,
-    "tln_end": 306,
-    "word_start": 0,
-    "word_end": 4,
-    "anchor_text": "If that you will France win, Then with Scotland first begin",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "Westmoreland quotes a proverbial rhyme that had circulated for generations: secure your northern border before going abroad. The proverb reflects the real strategic problem of England's two-front exposure, and Westmoreland introduces it with 'there's a saying very old and true' to give it the weight of accumulated wisdom.",
-    "sources": [
-      {
-        "name": "Tilley, Dictionary of Proverbs (1950)",
-        "citation": "M. P. Tilley, A Dictionary of the Proverbs in England in the Sixteenth and Seventeenth Centuries (1950), s.v. the proverb 'He that will France win must with Scotland first begin' (current at least by the 16th century)."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 305"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Removed the wrong Tilley index number (S 149 is a different proverb) and cited the proverb by its catchphrase instead; the interpretation judge confirmed it is a pre-existing saying."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The proverbial rhyme is correctly identified as a pre-existing saying (Tilley S 149); Westmoreland's 'very old and true' framing is textually explicit and the strategic gloss is sound."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Removed the wrong Tilley index number (S 149 is a different proverb) and cited the proverb by its catchphrase instead; the interpretation judge confirmed it is a pre-existing saying. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_v-307-eagle-weasel-fable",
-    "play": "henry_v",
-    "tln_start": 307,
-    "tln_end": 309,
-    "word_start": 1,
-    "word_end": 1,
-    "anchor_text": "once the eagle England being in prey, To her unguarded nest the weasel Scot Comes sneaking",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "Westmoreland extends the proverb into an animal fable: England is a hunting eagle; Scotland is a weasel that sneaks into the unguarded nest to suck the eggs and 'play the mouse in absence of the cat.' These are familiar English proverbs about the weak taking advantage of a distracted stronger party. The fable is not flattering to Scotland but is also not a compliment to England — an eagle that leaves its eggs unguarded is careless.",
-    "sources": [
-      {
-        "name": "Tilley, Dictionary of Proverbs (1950)",
-        "citation": "M. P. Tilley, A Dictionary of the Proverbs in England in the Sixteenth and Seventeenth Centuries (1950), s.v. 'When the cat is away the mice will play.'"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 307"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Dropped the disputed Tilley index number (C 174 vs C 175) and cited the proverb by name; the animal-fable reading was verified."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The animal-fable reading (England = eagle, Scotland = weasel) is what the text plainly says; the observation that the fable is not purely flattering to England (a careless eagle) is a fair and defensible interpretive note, not an overreach."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Dropped the disputed Tilley index number (C 174 vs C 175) and cited the proverb by name; the animal-fable reading was verified. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_v-539-barbason",
-    "play": "henry_v",
-    "tln_start": 539,
-    "tln_end": 539,
-    "word_start": 0,
-    "word_end": 7,
-    "anchor_text": "I am not Barbason; you cannot conjure me",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "Barbason was the name of a demon known from Elizabethan demonology. Conjuring — summoning a demon by chanting its name — was believed to give the conjuror power over it. Nym's point is sardonic: Pistol's thundering repetition of 'solus! solus! solus!' sounds like an exorcist's incantation, but Nym is not a demon and cannot be conjured or commanded by name-chanting.",
-    "detail": "Shakespeare uses the same demon-name in The Merry Wives of Windsor (2.2): 'Amaimon sounds well; Lucifer, well; Barbason, well; yet they are devils' additions.' Lists of named demons were a real feature of period magic, drawn from handbooks such as Reginald Scot's The Discoverie of Witchcraft (1584). Nym's joke assumes the audience recognizes that Pistol's verbal bluster has the absurd rhythm of such an incantation.",
-    "sources": [
-      {
-        "name": "Scot, The Discoverie of Witchcraft (1584)",
-        "citation": "Reginald Scot, The Discoverie of Witchcraft (1584), Book 15 (catalogues of named demons drawn from Weyer's Pseudomonarchia Daemonum)."
-      },
-      {
-        "name": "Shakespeare, The Merry Wives of Windsor",
-        "citation": "The Merry Wives of Windsor 2.2: 'Amaimon sounds well; Lucifer, well; Barbason, well; yet they are devils' additions' — Shakespeare's own parallel use of the name Barbason."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 539"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Generalized the Scot citation to Book 15 (the judge showed the chapter as given pointed at 'Barbatos'), removed the over-precise chapter, and promoted the robust Merry Wives parallel to a cited source; the reading was verified."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Barbason as a named demon from Elizabethan demonology, and Nym's joke that Pistol's repeated chanting of 'solus' sounds like a conjurer's incantation, is the mainstream reading and is confirmed by the Merry Wives parallel."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Generalized the Scot citation to Book 15 (the judge showed the chapter as given pointed at 'Barbatos'), removed the over-precise chapter, and promoted the robust Merry Wives parallel to a cited source; the reading was verified. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_v-807-arthurs-bosom",
-    "play": "henry_v",
-    "tln_start": 807,
-    "tln_end": 807,
-    "word_start": 2,
-    "word_end": 9,
-    "anchor_text": "he's not in hell.  He's in Arthur's bosom",
-    "type": "biblical_allusion",
-    "depth": "basic",
-    "summary": "Quickly means 'Abraham's bosom,' the biblical term for the place of rest enjoyed by the righteous dead (Luke 16:22). 'Abraham's bosom' appears in the parable of the rich man and Lazarus, where the beggar Lazarus is carried there after death. Quickly garbles 'Abraham' as 'Arthur' — almost certainly confusing the patriarch with King Arthur, the legendary British hero — and the slip is funnier because she insists on it twice.",
-    "detail": "Luke 16:22 (Geneva 1599): 'And it was so that the beggar died, and was carried by the Angels into Abraham's bosom.' The phrase was the standard English idiom for a peaceful, blessed death. Quickly's substitution of 'Arthur' for 'Abraham' is a characteristic malapropism: she reaches for a solemn word and lands on a name that sounds plausible to her. The irony is that she is describing Falstaff, the man whom Prince Hal last saw in the context of the biblical Prodigal Son and Dives parables, now translated — in Quickly's tender misreading — to the paradise she is sure he deserves. The scene lets audiences both laugh at her error and feel the genuine warmth of her faith.",
-    "sources": [
-      {
-        "name": "Geneva Bible 1599",
-        "citation": "Luke 16:22 (Geneva 1599): 'And it was so that the beggar died, and was carried by the Angels into Abraham's bosom.'"
-      },
-      {
-        "name": "Arden Shakespeare, Henry V",
-        "citation": "T. W. Craik, ed., Arden Shakespeare, Henry V (1995), note to 2.3.9: 'Abraham's bosom' garbled as 'Arthur's.'"
-      }
-    ],
-    "references": [
-      {
-        "kind": "biblical",
-        "card_id": "dives-and-lazarus"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 807"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Corrected the quotation to the actual Geneva 1599 wording ('And it was so that the beggar died...') — the original had quoted KJV text; verse Luke 16:22 was correct and verified online."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The malapropism 'Arthur's bosom' for 'Abraham's bosom' is confirmed by the text (Quickly says it twice), the Luke 16:22 identification is correct, and the intertextual Falstaff/Dives connection is a defensible reading rather than an over-reach."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Corrected the quotation to the actual Geneva 1599 wording ('And it was so that the beggar died...') — the original had quoted KJV text; verse Luke 16:22 was correct and verified online. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_v-813-babbled-green-fields",
-    "play": "henry_v",
-    "tln_start": 813,
-    "tln_end": 814,
-    "word_start": 10,
-    "word_end": 0,
-    "anchor_text": "'a babbled of green fields",
-    "type": "textual_variant",
-    "depth": "scholar",
-    "summary": "This phrase does not appear in the 1600 Quarto or the 1623 Folio. The Folio reads 'a Table of greene fields,' which most editors from Lewis Theobald (1726) onward have emended to 'a babbled of green fields,' arguing that 'Table' is a compositor's misreading of an old-style script 'b' as 'T.' The emendation is now standard but remains a conjecture, not a reading from any authoritative text.",
-    "detail": "Theobald first proposed the reading in his 1726 book Shakespeare Restored: a secretary-hand 'babbled' was, he argued, misread by the Folio compositor as 'a Table.' The phrase, once accepted, became one of the most celebrated in Shakespeare: a dying man murmuring of Psalm 23 ('He maketh me to lie down in green pastures') is emotionally apt for Falstaff, who in life was associated with taverns, sack, and waste — and who at death, in Quickly's account, seems to reach toward something pastoral and innocent. Editors who defend the Folio ('a table of green fields') take it as a geographic note or a lost allusion, but the majority follow Theobald. The phrase is marked medium-confidence because it rests entirely on emendation; readers should know they are responding to a brilliant eighteenth-century guess, not a word Shakespeare demonstrably wrote.",
-    "sources": [
-      {
-        "name": "Theobald, Shakespeare Restored (1726)",
-        "citation": "Lewis Theobald, Shakespeare Restored (1726): 'a babbled' proposed as the correct reading of the Folio's 'a Table.'"
-      },
-      {
-        "name": "Oxford Shakespeare, Henry V",
-        "citation": "Gary Taylor, ed., Oxford Shakespeare, Henry V (1982), textual notes to 2.3, accepting the Theobald emendation."
-      }
-    ],
-    "references": [],
-    "confidence": "medium",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 813"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Fixed the Theobald citation: the 1726 publication was the pamphlet/book Shakespeare Restored, not 'The Works of Shakespeare' (which was 1733); the emendation itself and the medium-confidence framing were verified."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The annotation correctly presents 'babbled' as Theobald's 1726 emendation rather than a received text, marks confidence 'medium,' and frames the Psalm 23 pastoral resonance as contextual aptness rather than authorial intent — no over-reach given the hedging."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Fixed the Theobald citation: the 1726 publication was the pamphlet/book Shakespeare Restored, not 'The Works of Shakespeare' (which was 1733); the emendation itself and the medium-confidence framing were verified. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_v-826-devils-incarnate",
-    "play": "henry_v",
-    "tln_start": 826,
-    "tln_end": 826,
-    "word_start": 5,
-    "word_end": 9,
-    "anchor_text": "said they were devils incarnate",
-    "type": "wordplay",
-    "depth": "basic",
-    "summary": "'Incarnate' means 'in bodily form' (from Latin caro, flesh) — 'devils incarnate' means devils made flesh, present in human bodies. Quickly mishears or misremembers the word as 'carnation,' the flower-colour. The Boy's report that Falstaff called women 'devils incarnate' becomes, in Quickly's version, a harmless remark about a colour he never liked. The comedy turns on the gap between a theological insult and a shade of pink.",
-    "detail": "The malapropism is a compressed version of Quickly's characteristic technique throughout the Henry IV and Henry V plays: she reaches for a word just beyond her grasp and produces something that sounds similar but deflates the sense entirely. 'Incarnate' was a standard theological term (Christ 'incarnate,' God made flesh; the devil 'incarnate' in a human tempter), so the Boy's use of it is slightly elevated. Quickly's 'carnation' — a pink-red flower colour — is not simply an error; it deflates a damning report about Falstaff into a remark about interior decoration.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'incarnate' adj. 1: 'Clothed in flesh, embodied in flesh'; s.v. 'carnation' n. 3: 'A colour... pale rose-pink.'"
-      },
-      {
-        "name": "Arden Shakespeare, Henry V",
-        "citation": "T. W. Craik, ed., Arden Shakespeare, Henry V (1995), note to 2.3.30-33: the malapropism on 'incarnate' / 'carnation.'"
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 826"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "OED entries for 'incarnate' adj. 1 and 'carnation' n. 3 are real and support the etymological and semantic claims; T. W. Craik's Arden Shakespeare Henry V (1995) is a real edition that covers the incarnate/carnation malapropism at 2.3.30-33."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Trimmed the interpretation overreach: the detail had framed Quickly's slip as 'stripping the dying man of his last moment of piety,' but the Boy's report is Falstaff calling women devils, not a pious utterance; reworded to 'deflates a damning report.' Sources were verified."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Trimmed the interpretation overreach: the detail had framed Quickly's slip as 'stripping the dying man of his last moment of piety,' but the Boy's report is Falstaff calling women devils, not a pious utterance; reworded to 'deflates a damning report.' Sources were verified. [orig: source=verified, interp=refuted]"
-  },
-  {
-    "id": "henry_v-955-like-a-jove",
-    "play": "henry_v",
-    "tln_start": 955,
-    "tln_end": 956,
-    "word_start": 0,
-    "word_end": 6,
-    "anchor_text": "in thunder and in earthquake, like a Jove, That, if requiring fail, he will compel",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "Jove (Jupiter), king of the Roman gods, wielded the thunderbolt as his weapon of absolute power. He alone commanded thunder and earthquake, and his decrees could not be appealed. Exeter compares Henry to Jove to signal that the coming invasion will not be a negotiation: it will be an act of sovereign force, as irresistible and punitive as divine wrath.",
-    "sources": [
-      {
-        "name": "Ovid, Metamorphoses",
-        "citation": "Ovid, Metamorphoses, Book 2 (Jove wields the thunderbolt against Phaethon); the thunderbolt as Jove's emblem of supreme compulsion is pervasive in Roman poetry."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 955"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Generalized the Ovid citation from the wrong precise locus (2.401-2, which is the Callisto episode) to Book 2, where Jove does wield the thunderbolt against Phaethon; the interpretation that the thunderbolt is the emblem of irresistible sovereignty was verified."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Jupiter's thunderbolt as the emblem of irresistible sovereign compulsion is a commonplace of Roman poetry and the comparison is explicitly in the text; the Ovid Met. 2 citation is to the Phaethon episode where the thunderbolt is wielded, which is a legitimate though not unique locus for this image."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Generalized the Ovid citation from the wrong precise locus (2.401-2, which is the Callisto episode) to Book 2, where Jove does wield the thunderbolt against Phaethon; the interpretation that the thunderbolt is the emblem of irresistible sovereignty was verified. [orig: source=refuted, interp=verified]"
   }
 ]

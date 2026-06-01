@@ -1,0 +1,362 @@
+[
+  {
+    "id": "imogen",
+    "name": "Imogen",
+    "aliases": ["IMOGEN."],
+    "role": "protagonist",
+    "description": "Daughter of King Cymbeline by his first queen and heir to Britain. She secretly marries the worthy but low-born Posthumus against her father's will; when her husband, deceived by Iachimo's slander, orders her death, she flees toward Milford-Haven disguised as the page 'Fidele,' is taken in by the cave-dwelling Belarius and her unknown brothers, drinks a potion that counterfeits death, and wakes beside a headless body she takes for her husband. Constant and resourceful, she is the play's moral centre.",
+    "relationships": [
+      { "other_id": "posthumus", "relation": "wife of" },
+      { "other_id": "cymbeline", "relation": "daughter of" },
+      { "other_id": "queen", "relation": "stepdaughter of" },
+      { "other_id": "cloten", "relation": "pursued by" },
+      { "other_id": "guiderius", "relation": "sister of (unknowing)" },
+      { "other_id": "arviragus", "relation": "sister of (unknowing)" }
+    ],
+    "color": "#b8557f"
+  },
+  {
+    "id": "posthumus",
+    "name": "Posthumus",
+    "aliases": ["POSTHUMUS LEONATUS.", "POSTHUMUS."],
+    "role": "deuteragonist",
+    "description": "Posthumus Leonatus, an orphaned gentleman raised at court, husband to Imogen. Banished for the secret marriage, he goes to Rome, where Iachimo's false 'proof' of Imogen's infidelity goads him into ordering her murder and into a bitter rage against all women. Repenting, he returns disguised as a British peasant, fights bravely, seeks death as a Roman prisoner, and is granted a vision of Jupiter and his dead family before the final reconciliation.",
+    "relationships": [
+      { "other_id": "imogen", "relation": "husband of" },
+      { "other_id": "iachimo", "relation": "deceived by" },
+      { "other_id": "pisanio", "relation": "served by" },
+      { "other_id": "sicilius", "relation": "son of" }
+    ],
+    "color": "#3a6ea5"
+  },
+  {
+    "id": "iachimo",
+    "name": "Iachimo",
+    "aliases": ["IACHIMO."],
+    "role": "antagonist",
+    "description": "A subtle Italian who wagers with Posthumus that he can seduce the faithful Imogen. Failing honestly, he hides in a trunk carried into her bedchamber, steals her bracelet and notes intimate details of her body and room while she sleeps, and uses this counterfeit evidence to ruin the marriage. Conscience-stricken, he is defeated in battle and confesses all in the final scene.",
+    "relationships": [
+      { "other_id": "posthumus", "relation": "deceiver of" },
+      { "other_id": "philario", "relation": "friend of" }
+    ],
+    "color": "#9a3a3a"
+  },
+  {
+    "id": "cymbeline",
+    "name": "Cymbeline",
+    "aliases": ["CYMBELINE."],
+    "role": "major",
+    "description": "The legendary king of Britain, ruled in his judgement by his manipulative second queen. He banishes Posthumus, loses both his daughter Imogen and (long before) his two infant sons, and refuses the tribute demanded by Rome, provoking war. By the end, his children are restored, the Queen's villainy exposed, and he freely renews peace with Rome.",
+    "relationships": [
+      { "other_id": "imogen", "relation": "father of" },
+      { "other_id": "guiderius", "relation": "father of" },
+      { "other_id": "arviragus", "relation": "father of" },
+      { "other_id": "queen", "relation": "husband of" }
+    ],
+    "color": "#a8742c"
+  },
+  {
+    "id": "cloten",
+    "name": "Cloten",
+    "aliases": ["CLOTEN."],
+    "role": "supporting",
+    "description": "The Queen's loutish son by a former husband, whom she schemes to marry to Imogen and set on the throne. Vain, brutal, and stupid, he pursues the fled Imogen toward Wales dressed in Posthumus's clothes, meaning to rape her; he is killed and beheaded by Guiderius, and his headless body is mistaken by Imogen for her husband's.",
+    "relationships": [
+      { "other_id": "queen", "relation": "son of" },
+      { "other_id": "imogen", "relation": "would-be husband of" },
+      { "other_id": "guiderius", "relation": "killed by" }
+    ],
+    "color": "#7a7a3a"
+  },
+  {
+    "id": "queen",
+    "name": "Queen",
+    "aliases": ["QUEEN."],
+    "role": "antagonist",
+    "description": "Cymbeline's second wife, a poisoner and schemer who dominates the King, plots to marry her son Cloten to Imogen, and procures from the doctor Cornelius what she believes is a deadly drug. Her hypocrisy and her hatred of Imogen drive much of the play's danger; she dies in despair, her crimes confessed, off-stage.",
+    "relationships": [
+      { "other_id": "cymbeline", "relation": "wife of" },
+      { "other_id": "cloten", "relation": "mother of" },
+      { "other_id": "imogen", "relation": "stepmother of" }
+    ],
+    "color": "#6a3a6a"
+  },
+  {
+    "id": "belarius",
+    "name": "Belarius",
+    "aliases": ["BELARIUS."],
+    "role": "supporting",
+    "description": "A British lord wrongly banished by Cymbeline years ago, living in a Welsh cave under the name Morgan. In revenge he stole the King's two infant sons and has raised them as his own ('Polydore' and 'Cadwal'). Noble and plain-living, he shelters the disguised Imogen, leads the boys to victory in the battle, and finally restores the lost princes to their father.",
+    "relationships": [
+      { "other_id": "guiderius", "relation": "foster-father of" },
+      { "other_id": "arviragus", "relation": "foster-father of" },
+      { "other_id": "cymbeline", "relation": "banished by" }
+    ],
+    "color": "#4a7a5a"
+  },
+  {
+    "id": "guiderius",
+    "name": "Guiderius",
+    "aliases": ["GUIDERIUS."],
+    "role": "supporting",
+    "description": "Elder lost son of Cymbeline, raised in the Welsh cave by Belarius under the name Polydore, ignorant of his royal birth. Bold and martial, he kills and beheads the insolent Cloten and helps rout the Roman army; he is revealed as the King's heir in the final scene.",
+    "relationships": [
+      { "other_id": "cymbeline", "relation": "son of" },
+      { "other_id": "arviragus", "relation": "brother of" },
+      { "other_id": "belarius", "relation": "foster-son of" }
+    ],
+    "color": "#5f8a63"
+  },
+  {
+    "id": "arviragus",
+    "name": "Arviragus",
+    "aliases": ["ARVIRAGUS."],
+    "role": "supporting",
+    "description": "Younger lost son of Cymbeline, raised in the Welsh cave by Belarius under the name Cadwal. Tender and eager for honour, he grieves over the 'dead' page Fidele (the disguised Imogen, his unknown sister) and joins his brother in the battle that saves Britain.",
+    "relationships": [
+      { "other_id": "cymbeline", "relation": "son of" },
+      { "other_id": "guiderius", "relation": "brother of" },
+      { "other_id": "belarius", "relation": "foster-son of" }
+    ],
+    "color": "#6f9a78"
+  },
+  {
+    "id": "pisanio",
+    "name": "Pisanio",
+    "aliases": ["PISANIO."],
+    "role": "supporting",
+    "description": "Posthumus's loyal servant, left in Britain to attend Imogen. Ordered by letter to murder her, he instead reveals the plot, helps disguise her as the page Fidele, and works quietly throughout to keep faith with both master and mistress until the truth comes out.",
+    "relationships": [
+      { "other_id": "posthumus", "relation": "servant of" },
+      { "other_id": "imogen", "relation": "protector of" }
+    ],
+    "color": "#4a7a8a"
+  },
+  {
+    "id": "cornelius",
+    "name": "Cornelius",
+    "aliases": ["CORNELIUS."],
+    "role": "minor",
+    "description": "A court physician who distrusts the Queen. Suspecting her purpose, he gives her not poison but a drug that only counterfeits death for a time, and later reports her dying confession to the King.",
+    "color": "#5a8a8a"
+  },
+  {
+    "id": "philario",
+    "name": "Philario",
+    "aliases": ["PHILARIO."],
+    "role": "minor",
+    "description": "An Italian gentleman in Rome, friend of Posthumus's late father and his host abroad. In his house the fatal wager between Posthumus and Iachimo is made.",
+    "color": "#6a6a9a"
+  },
+  {
+    "id": "caius_lucius",
+    "name": "Caius Lucius",
+    "aliases": ["CAIUS LUCIUS."],
+    "role": "minor",
+    "description": "The Roman general and ambassador who demands Britain's overdue tribute and, refused, leads the invading army. Courteous even as a conqueror's agent, he takes the disguised Imogen into his service as a page.",
+    "color": "#8a5a3a"
+  },
+  {
+    "id": "jupiter",
+    "name": "Jupiter",
+    "aliases": ["JUPITER."],
+    "role": "minor",
+    "description": "The king of the Roman gods, who descends in thunder and lightning seated on an eagle during Posthumus's prison sleep. He rebukes the complaining ghosts, promises that Posthumus's sufferings will end in joy, and leaves a prophetic tablet on his breast — the play's emblem of providence shaping the action.",
+    "color": "#c8a93a"
+  },
+  {
+    "id": "sicilius",
+    "name": "Sicilius Leonatus",
+    "aliases": ["SICILIUS LEONATUS."],
+    "role": "minor",
+    "description": "The ghost of Posthumus's father, a warrior who died before his son was born. With the other apparitions he appeals to Jupiter to end Posthumus's undeserved miseries.",
+    "relationships": [
+      { "other_id": "posthumus", "relation": "father of" }
+    ],
+    "color": "#8a8a9c"
+  },
+  {
+    "id": "mother",
+    "name": "Mother",
+    "aliases": ["MOTHER."],
+    "role": "minor",
+    "description": "The ghost of Posthumus's mother, who died giving him birth ('from me was Posthumus ript'). She joins the Leonati spirits pleading with Jupiter on her son's behalf.",
+    "relationships": [
+      { "other_id": "posthumus", "relation": "mother of" }
+    ],
+    "color": "#9a8aa0"
+  },
+  {
+    "id": "first_brother",
+    "name": "First Brother",
+    "aliases": ["FIRST BROTHER."],
+    "role": "minor",
+    "description": "The ghost of one of Posthumus's elder brothers, slain in war in Britain's cause; with the Leonati he appeals to Jupiter to relieve Posthumus.",
+    "color": "#8a8a9c"
+  },
+  {
+    "id": "second_brother",
+    "name": "Second Brother",
+    "aliases": ["SECOND BROTHER."],
+    "role": "minor",
+    "description": "The ghost of the other of Posthumus's brothers, killed fighting for Britain; one of the apparitions that surround the sleeping Posthumus.",
+    "color": "#8a8a9c"
+  },
+  {
+    "id": "two_brothers",
+    "name": "First and Second Brother",
+    "aliases": ["FIRST BROTHER and SECOND BROTHER."],
+    "role": "ensemble",
+    "description": "Posthumus's two dead brothers speaking together in the apparition, crying to Jupiter for help.",
+    "color": "#8a8a9c"
+  },
+  {
+    "id": "guiderius_and_arviragus",
+    "name": "Guiderius and Arviragus",
+    "aliases": ["GUIDERIUS and ARVIRAGUS."],
+    "role": "ensemble",
+    "description": "Cymbeline's lost sons answering as one.",
+    "color": "#65926d"
+  },
+  {
+    "id": "cloten_and_lords",
+    "name": "Cloten and Lords",
+    "aliases": ["CLOTEN and LORDS."],
+    "role": "ensemble",
+    "description": "Cloten and the attending lords speaking together."
+  },
+  {
+    "id": "first_gentleman",
+    "name": "First Gentleman",
+    "aliases": ["FIRST GENTLEMAN."],
+    "role": "minor",
+    "description": "A courtier whose conversation with another gentleman opens the play, explaining Imogen's secret marriage and the King's anger."
+  },
+  {
+    "id": "second_gentleman",
+    "name": "Second Gentleman",
+    "aliases": ["SECOND GENTLEMAN."],
+    "role": "minor",
+    "description": "A courtier to whom the first gentleman recounts the play's background in the opening scene."
+  },
+  {
+    "id": "first_lord",
+    "name": "First Lord",
+    "aliases": ["FIRST LORD."],
+    "role": "minor",
+    "description": "A lord attending Cloten who flatters him to his face."
+  },
+  {
+    "id": "second_lord",
+    "name": "Second Lord",
+    "aliases": ["SECOND LORD."],
+    "role": "minor",
+    "description": "A lord attending Cloten who mocks his folly in cutting asides to the audience."
+  },
+  {
+    "id": "lord",
+    "name": "Lord",
+    "aliases": ["LORD."],
+    "role": "minor",
+    "description": "A British lord — including the cowardly soldier whom Posthumus rebukes for fleeing the battle in Act 5."
+  },
+  {
+    "id": "lady",
+    "name": "Lady",
+    "aliases": ["LADY.", "FIRST LADY."],
+    "role": "minor",
+    "description": "A lady-in-waiting attending Imogen (called Helen) or the Queen."
+  },
+  {
+    "id": "frenchman",
+    "name": "Frenchman",
+    "aliases": ["FRENCHMAN."],
+    "role": "minor",
+    "description": "A French gentleman at Philario's house in Rome who recalls an earlier quarrel of Posthumus's, prompting the wager."
+  },
+  {
+    "id": "soothsayer",
+    "name": "Soothsayer",
+    "aliases": ["SOOTHSAYER."],
+    "role": "minor",
+    "description": "Philarmonus, the Roman soothsayer who reads omens for the invading army and finally interprets Jupiter's prophetic tablet and the play's reconciliations.",
+    "color": "#9a7a4a"
+  },
+  {
+    "id": "captain",
+    "name": "Captain",
+    "aliases": ["CAPTAIN."],
+    "role": "minor",
+    "description": "A captain in the field during the British-Roman war."
+  },
+  {
+    "id": "first_captain",
+    "name": "First Captain",
+    "aliases": ["FIRST CAPTAIN."],
+    "role": "minor",
+    "description": "A British captain reporting in the battle of Act 5."
+  },
+  {
+    "id": "second_captain",
+    "name": "Second Captain",
+    "aliases": ["SECOND CAPTAIN."],
+    "role": "minor",
+    "description": "A British captain in the battle of Act 5."
+  },
+  {
+    "id": "first_senator",
+    "name": "First Senator",
+    "aliases": ["FIRST SENATOR."],
+    "role": "minor",
+    "description": "A Roman senator who reports the Senate's decree raising forces against rebellious Britain."
+  },
+  {
+    "id": "second_senator",
+    "name": "Second Senator",
+    "aliases": ["SECOND SENATOR."],
+    "role": "minor",
+    "description": "A Roman senator in the scene at Rome."
+  },
+  {
+    "id": "first_tribune",
+    "name": "First Tribune",
+    "aliases": ["FIRST TRIBUNE."],
+    "role": "minor",
+    "description": "A Roman tribune charged with mustering the gentry for the war on Britain."
+  },
+  {
+    "id": "first_gaoler",
+    "name": "First Gaoler",
+    "aliases": ["FIRST GAOLER."],
+    "role": "minor",
+    "description": "The talkative jailer who guards the imprisoned Posthumus and jests grimly about hanging and death."
+  },
+  {
+    "id": "second_gaoler",
+    "name": "Second Gaoler",
+    "aliases": ["SECOND GAOLER."],
+    "role": "minor",
+    "description": "A jailer assisting in the prison in Act 5."
+  },
+  {
+    "id": "messenger",
+    "name": "Messenger",
+    "aliases": ["MESSENGER."],
+    "role": "minor",
+    "description": "A messenger who brings news at court and in the camp."
+  },
+  {
+    "id": "attendant",
+    "name": "Attendant",
+    "aliases": ["ATTENDANT."],
+    "role": "minor",
+    "description": "An attendant at Cymbeline's court."
+  },
+  {
+    "id": "all",
+    "name": "All",
+    "aliases": ["ALL."],
+    "role": "ensemble",
+    "description": "Several speakers answering together — notably the apparitions thanking Jupiter."
+  }
+]

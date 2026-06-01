@@ -1544,6 +1544,55 @@
     ]
   },
   {
+    "id": "tempest-297-jove-neptune",
+    "play": "tempest",
+    "tln_start": 297,
+    "tln_end": 300,
+    "word_start": 4,
+    "word_end": 6,
+    "anchor_text": "Jove's lightning, the precursors / O' th' dreadful thunder-claps, more momentary / And sight-outrunning were not: the fire and cracks / Of sulphurous roaring the most mighty Neptune",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Jove (Jupiter) was the king of the Roman gods and the wielder of the thunderbolt; Neptune was the Roman god of the sea. Ariel is saying that Prospero's magical fire on the ship was faster than Jove's own lightning and so fierce that even Neptune — lord of the waters surrounding them — seemed to be under siege.",
+    "sources": [
+      {
+        "name": "Ovid, Metamorphoses",
+        "citation": "Ovid, Metamorphoses 1.154-155 (Jove shatters the Giants' assault with a hurled thunderbolt: 'Tum pater omnipotens misso perfregit Olympum / fulmine'); 1.283-284 (Neptune strikes the earth with his trident at the Flood: 'Ipse tridente suo terram percussit')."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 297"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Corrected the Ovid loci against the Perseus Latin text: Jove's thunderbolt is Met. 1.154-155 (the original 1.170 is the gods' Milky Way procession) and Neptune's trident is 1.283-284 (not 1.281-283); gloss and reading unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Jove as wielder of the thunderbolt and Neptune as god of the sea are accurate; the reading that Prospero's power surpasses the king of the gods is supported by the explicit comparison in lines 297-302."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Corrected the Ovid loci against the Perseus Latin text: Jove's thunderbolt is Met. 1.154-155 (the original 1.170 is the gods' Milky Way procession) and Neptune's trident is 1.283-284 (not 1.281-283); gloss and reading unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "tempest-304-coil",
     "play": "tempest",
     "tln_start": 304,
@@ -1591,6 +1640,56 @@
         "note": "'Coil' as turmoil or confused disturbance is correct; the cross-reference to Hamlet's 'mortal coil' is apt and 'infect his reason' as a medical metaphor is sound."
       }
     ]
+  },
+  {
+    "id": "tempest-311-hair-upstaring",
+    "play": "tempest",
+    "tln_start": 311,
+    "tln_end": 311,
+    "word_start": 1,
+    "word_end": 6,
+    "anchor_text": "hair up-staring--then like reeds, not hair",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Ariel describes Ferdinand's hair standing straight up from terror — 'up-staring' means bristling and erect. Then Ariel corrects the simile: not just standing up but stiff as reeds growing out of a marsh, thick and rigid with fear.",
+    "detail": "'Up-staring' is a compound adjective: staring upward, standing on end. The image of hair rising from fear was a classical and Renaissance commonplace -- compare Virgil, Aeneid 2.774, 'steteruntque comae' ('and his hair stood on end'). Shakespeare's addition -- the self-correction 'like reeds, not hair' -- is vivid and precise: reeds are stiff, hollow, vertical, and grow at the water's edge, which perfectly suits a man on a ship surrounded by the sea. The detail may also echo eyewitness accounts of men frozen with terror in the Bermuda reports.",
+    "sources": [
+      {
+        "name": "Virgil, Aeneid",
+        "citation": "Virgil, Aeneid 2.774 ('obstipui, steteruntque comae' -- 'I was struck dumb, and my hair stood on end'; the same hair-bristling-with-terror topos recurs at 3.48 and, as 'arrectaeque horrore comae', at 4.280). OED s.v. 'up-staring, adj.': 'erect, bristling (of hair).'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 311"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Corrected the Virgil locus/phrase: at Aeneid 2.774 the text is 'steteruntque comae' (verified via Dickinson College Commentaries), not 'arrectaeque horrore comae' (which is 4.280); fixed both the line citation and the quoted Latin in the detail."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Up-staring' as bristling/erect is correct; the Virgil Aeneid parallel for hair standing with terror is a legitimate classical echo (Virgil uses 'arrectaeque horrore comae'), though the specific line cited (2.774) should be verified — but the topos is genuine."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Corrected the Virgil locus/phrase: at Aeneid 2.774 the text is 'steteruntque comae' (verified via Dickinson College Commentaries), not 'arrectaeque horrore comae' (which is 4.280); fixed both the line citation and the quoted Latin in the detail. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "tempest-332-bermoothes",
@@ -3821,6 +3920,55 @@
     ]
   },
   {
+    "id": "tempest-780-thank-yourself",
+    "play": "tempest",
+    "tln_start": 780,
+    "tln_end": 781,
+    "word_start": 1,
+    "word_end": 8,
+    "anchor_text": "you may thank yourself for this great loss, That would not bless our Europe with your daughter",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "Sebastian blames Alonso for Ferdinand's (presumed) death: by marrying Claribel off to an African king rather than a European nobleman, Alonso sent the whole court on the sea voyage that caused the wreck. Sebastian's language -- 'bless our Europe' with your daughter -- implies that Claribel's marriage to an African was a dishonour to European dignity, voicing the period's prejudice against cross-cultural marriage.",
+    "sources": [
+      {
+        "name": "Schmidt, Shakespeare-Lexicon",
+        "citation": "Schmidt, Alexander, Shakespeare-Lexicon (1874-75), s.v. 'lose' (to part with, relinquish), recording this line's 'rather lose her to an African'; the 'bless our Europe' / African-marriage framing follows the play's text rather than a distinct dictionary sub-sense."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 780"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Made the Schmidt citation honest -- the previously claimed sub-sense ('send away to a foreign and inferior place') was the annotator's paraphrase, not a dictionary definition; re-cited Schmidt to its actual 'lose'/relinquish entry, which does record this line. Interp verified, gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The interpretive framing is accurate — Sebastian's attack does simultaneously apply real guilt and reveal his own cruelty — and the colonial-European undertone in 'bless our Europe' is a mainstream reading; noting Claribel never appears is correct."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Made the Schmidt citation honest -- the previously claimed sub-sense ('send away to a foreign and inferior place') was the annotator's paraphrase, not a dictionary definition; re-cited Schmidt to its actual 'lose'/relinquish entry, which does record this line. Interp verified, gloss unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "tempest-786-loathness-obedience",
     "play": "tempest",
     "tln_start": 787,
@@ -5724,6 +5872,55 @@
     ]
   },
   {
+    "id": "tempest-1120-long-spoon",
+    "play": "tempest",
+    "tln_start": 1120,
+    "tln_end": 1121,
+    "word_start": 0,
+    "word_end": 3,
+    "anchor_text": "This is a devil, and no monster: I will leave him: I have no long spoon",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "Stephano alludes to the proverb 'He who sups with the devil needs a long spoon' — meaning you must keep your distance from dangerous company, or their evil will reach you. Believing Trinculo's voice is the devil's, Stephano refuses to 'sup' (eat and drink) with the creature and proposes to leave. The same proverb appears in The Comedy of Errors (4.3) and in later tradition.",
+    "sources": [
+      {
+        "name": "Tilley, Dictionary of Proverbs",
+        "citation": "Tilley, M. P., A Dictionary of the Proverbs in England in the Sixteenth and Seventeenth Centuries (1950), S 771: 'He must have a long SPOON that will eat (sup) with the devil.' Cf. The Comedy of Errors 4.3."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1120"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Corrected the Tilley entry number from S 779 to S 771 (verified via tilleyproverbs.com; S 779 is an unrelated proverb on sport and spectators); proverb and gloss unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The proverb is correctly identified and the Tilley citation is on point; Stephano's logic follows directly from the text."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Corrected the Tilley entry number from S 779 to S 771 (verified via tilleyproverbs.com; S 779 is an unrelated proverb on sport and spectators); proverb and gloss unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "tempest-1127-moon-calf-siege",
     "play": "tempest",
     "tln_start": 1128,
@@ -6000,6 +6197,65 @@
     ]
   },
   {
+    "id": "tempest-1200-no-more-dams",
+    "play": "tempest",
+    "tln_start": 1200,
+    "tln_end": 1200,
+    "word_start": 0,
+    "word_end": 6,
+    "anchor_text": "No more dams I'll make for fish",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "Caliban sings drunkenly about the labour Prospero has forced on him: building fish-dams (wicker or earth barriers to trap fish in pools), gathering firewood ('firing'), scraping plates ('trenchering'), and washing dishes. His song of 'freedom' is also a precise catalogue of servile domestic tasks — the same work he promised to do for Stephano in place of Prospero. The irony is that he is swapping one master for another while celebrating liberation.",
+    "detail": "'Trenchering' is scraping or washing trenchers -- flat wooden boards used as plates. The song's refrain, 'Ban, Ban, Ca-Caliban, / Has a new master -- Get a new man' (TLN 1204-1205), is a comic freedom-cry: Caliban taunts Prospero to find himself a new servant. But he is about to lead Stephano to Prospero's cell to murder him -- the 'freedom' he is celebrating is premature and self-deceiving. The scene resonates with Montaigne's essay 'Of the Cannibals' (c. 1580, Englished by Florio 1603), a text the play elsewhere echoes, which questions whether those who call others 'savage' or 'slave' are not themselves the more constrained.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'dam' (n.3): a barrier or weir made to confine water; a fish-dam or weir."
+      },
+      {
+        "name": "Onions, Shakespeare Glossary",
+        "citation": "Onions, C. T., A Shakespeare Glossary, s.v. 'trencher': a flat piece of wood from which food was served or cut; a plate."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "montaigne-of-the-cannibals"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1200"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "OED s.v. 'dam' n.3 (barrier or weir to confine water; fish-dam) and Onions s.v. 'trencher' (flat wooden board used as a plate) are genuine entries that directly support the gloss."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Fixed the reversed chronology in the detail -- Montaigne (c. 1580) predates the play (c. 1611), so it cannot be 'anticipated'; reworded to 'resonates with / the play elsewhere echoes' Montaigne. Sources were verified and are unchanged; the Montaigne reference-card link remains valid."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Fixed the reversed chronology in the detail -- Montaigne (c. 1580) predates the play (c. 1611), so it cannot be 'anticipated'; reworded to 'resonates with / the play elsewhere echoes' Montaigne. Sources were verified and are unchanged; the Montaigne reference-card link remains valid. [orig: source=verified, interp=refuted]"
+  },
+  {
     "id": "tempest-1209-sets-off",
     "play": "tempest",
     "tln_start": 1209,
@@ -6096,6 +6352,105 @@
         "note": "'Sore' = severe and 'injunction' = binding command are both well-attested Elizabethan senses that fit the line exactly."
       }
     ]
+  },
+  {
+    "id": "tempest-1220-executor",
+    "play": "tempest",
+    "tln_start": 1220,
+    "tln_end": 1221,
+    "word_start": 8,
+    "word_end": 3,
+    "anchor_text": "such baseness / Had never like executor",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Executor' here means one who performs or carries out a task, not the legal officer who administers a will. Ferdinand (reporting Miranda's own words) is saying that such a lowly, demeaning job has never before had so noble a person doing it. The word keeps its Latin root (exsequi, to carry out) rather than its modern legal narrowing.",
+    "sources": [
+      {
+        "name": "Onions, Shakespeare Glossary",
+        "citation": "Onions, C. T., A Shakespeare Glossary, s.v. 'executor' (one who executes or performs an action); OED s.v. 'executor' cites this line ('Such basenes Had neuer like Executor') for the performer/doer sense."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1220"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "OED s.v. 'executor' explicitly cites The Tempest 'Such basenes Had neuer like Executor' for the performer/doer sense (now rare except legally), confirming the source directly supports the claim."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Corrected the speaker attribution in the summary -- the line is Ferdinand reporting Miranda's words, not Miranda speaking; the verified vocab gloss (Onions/OED, which cites this exact line) is unchanged."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Corrected the speaker attribution in the summary -- the line is Ferdinand reporting Miranda's words, not Miranda speaking; the verified vocab gloss (Onions/OED, which cites this exact line) is unchanged. [orig: source=verified, interp=refuted]"
+  },
+  {
+    "id": "tempest-1245-worm",
+    "play": "tempest",
+    "tln_start": 1245,
+    "tln_end": 1246,
+    "word_start": 0,
+    "word_end": 3,
+    "anchor_text": "Poor worm! thou art infected: / This visitation shows it",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "In this aside Prospero calls Miranda 'worm' — not an insult but an Elizabethan term of affectionate pity for a helpless, defenseless creature, as in 'poor thing.' 'Infected' means struck by love (love was regularly figured as a disease or contagion). 'Visitation' means the visit itself, which reveals the infection — that is, Miranda's obvious distress at Ferdinand's labor shows she has fallen in love.",
+    "detail": "The pity-use of 'worm' is distinct from its insect or serpent senses: Schmidt records it as an expression of compassionate pity and cites this very line (Schmidt, Shakespeare-Lexicon, s.v. 'worm'). 'Infected' for 'smitten with love' is a Renaissance commonplace, love being routinely figured as a disease or contagion (Schmidt, s.v. 'infect'). Prospero is not distressed -- he is watching the plan he set in motion bear fruit.",
+    "sources": [
+      {
+        "name": "Schmidt, Shakespeare-Lexicon",
+        "citation": "Schmidt, Alexander, Shakespeare-Lexicon (1874-75), s.v. 'worm' (an expression of pity / compassionate endearment, citing this Tempest line); s.v. 'infect' (to affect with a passion, here love)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1245"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Removed the fabricated parallel citation ('Twelfth Night 2.1, She is infected with his affection', which does not exist); kept the genuine Schmidt 'worm' (pity, citing this line) and generalized the 'infect' = smitten-with-love sense to Schmidt's entry. Interp verified."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Worm' as a term of compassionate pity and 'infected' as smitten with love are both well-attested Elizabethan usages, and Prospero's satisfied aside is consistent with his orchestrating posture throughout the scene."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Removed the fabricated parallel citation ('Twelfth Night 2.1, She is infected with his affection', which does not exist); kept the genuine Schmidt 'worm' (pity, citing this line) and generalized the 'infect' = smitten-with-love sense to Schmidt's entry. Interp verified. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "tempest-1253-hest",
@@ -6832,6 +7187,60 @@
     ]
   },
   {
+    "id": "tempest-1356-next-tree",
+    "play": "tempest",
+    "tln_start": 1356,
+    "tln_end": 1357,
+    "word_start": 8,
+    "word_end": 6,
+    "anchor_text": "if you prove a mutineer, the next tree",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "Stephano threatens Trinculo with summary execution by hanging from the nearest tree — the standard shipboard punishment for mutiny. Under maritime law a captain could hang a mutineer at sea without trial, and this power extended to the shore party. Stephano, having appointed himself king of the island, applies the most feared instrument of naval discipline to assert authority over his 'subject' Caliban.",
+    "detail": "Hanging for mutiny -- at the yard-arm aboard ship, or from a tree ashore -- was notorious enough that a mere threat could silence a sailor; mutiny was a capital offence. Stephano is both parodying and genuinely invoking this authority: he 'commands' the island now, Caliban is his 'subject,' and he will not allow the compact to be undermined by Trinculo's scepticism. The exchange is farcical, but the underlying concept is real -- shipboard discipline in the period was enforced by exactly these summary methods.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'mutineer': one who rises against lawful authority, esp. aboard ship."
+      },
+      {
+        "name": "Naval discipline (period practice)",
+        "citation": "Hanging (at the yard-arm aboard ship, or from a tree ashore) was the standard, feared punishment for mutiny and desertion under early-modern naval/maritime discipline; mutiny was a capital offence. General period practice, not a single statute."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1356"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Split the citation: kept OED for the sense of 'mutineer', and moved the hanging-for-mutiny claim to a separately-scoped general 'period practice' note (the OED entry does not carry that legal claim, and no single Elizabethan statute 'prescribed' it); trimmed the detail's overstated 'legally recognized/prescribed penalty' wording. Reading verified."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Hanging as the standard punishment for mutiny is historically accurate and Stephano's parodic self-appointment as king/captain makes the application clear; the reading is mainstream and well-supported."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Split the citation: kept OED for the sense of 'mutineer', and moved the hanging-for-mutiny claim to a separately-scoped general 'period practice' note (the OED entry does not carry that legal claim, and no single Elizabethan statute 'prescribed' it); trimmed the detail's overstated 'legally recognized/prescribed penalty' wording. Reading verified. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "tempest-1385-pied-ninny-patch",
     "play": "tempest",
     "tln_start": 1385,
@@ -7475,6 +7884,60 @@
     ]
   },
   {
+    "id": "tempest-1535-putter-out",
+    "play": "tempest",
+    "tln_start": 1535,
+    "tln_end": 1536,
+    "word_start": 1,
+    "word_end": 2,
+    "anchor_text": "putter-out of five for one will bring us / Good warrant of",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "A 'putter-out of five for one' was an Elizabethan financial speculator who deposited a sum of money before a long voyage; if the traveler returned safely and brought sworn testimony of the wonders he had seen, he got back five times the deposit. The practice both funded travel and created a commercial incentive to certify exotic marvels as true. Gonzalo cites it as proof that the Shapes' strangeness is now independently verifiable.",
+    "detail": "The custom is satirized in Ben Jonson's Every Man Out of His Humour (1599), where Puntarvolo stakes money to be repaid five-for-one if he, his wife, and his dog return safely from a voyage to Constantinople. A traveller placed a sum with a 'putter-out,' who held it; on return, the survivor collected five for one and was expected to bring a sworn report of what he had witnessed -- which gave travel testimony a certified quality. The mechanism is mocked as a prompt to tall tales, which is the joke Gonzalo is using here: travellers are commercially motivated to vouch for impossibilities.",
+    "sources": [
+      {
+        "name": "Onions, Shakespeare Glossary",
+        "citation": "Onions, C. T., A Shakespeare Glossary (1911), s.v. 'putter-out': one who deposits money to be repaid (typically five-for-one) on proof of a traveller's safe return."
+      },
+      {
+        "name": "Jonson, Every Man Out of His Humour",
+        "citation": "Ben Jonson, Every Man Out of His Humour (1599), II.iii: Puntarvolo puts forth money 'five for one' to be repaid on the safe return of himself, his wife, and his dog from Constantinople -- the contemporary witness to the practice."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1535"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Removed the fabricated Hakluyt citation ('ed. note on traveler-insurance practice', which Hakluyt does not contain) and re-grounded the detail on the genuine contemporary witness, Jonson's Every Man Out of His Humour (verified); kept Onions. Reading verified."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The five-for-one traveler-deposit practice is well-documented in the period and in Jonson; the annotation does not over-read Gonzalo's point — he is indeed invoking certified traveler testimony — and the satirical dimension (commercial incentive to vouch for impossibilities) is directly relevant to the dramatic context."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Removed the fabricated Hakluyt citation ('ed. note on traveler-insurance practice', which Hakluyt does not contain) and re-grounded the detail on the genuine contemporary witness, Jonson's Every Man Out of His Humour (verified); kept Onions. Reading verified. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "tempest-1541-harpy-three-men-sin",
     "play": "tempest",
     "tln_start": 1541,
@@ -8092,6 +8555,60 @@
     ]
   },
   {
+    "id": "tempest-1625-hymens-lamps",
+    "play": "tempest",
+    "tln_start": 1625,
+    "tln_end": 1625,
+    "word_start": 0,
+    "word_end": 5,
+    "anchor_text": "As Hymen's lamps shall light you",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Hymen was the Roman god of marriage, traditionally invoked at weddings. His 'lamps' or torches were carried in the wedding procession; a torch that burned brightly and cleanly was an omen of a happy marriage, while one that smoked or went out foretold misfortune. Prospero is saying: 'as truly as your wedding torches will burn.'",
+    "detail": "Hymen and the rite of marriage figure in Virgil's Aeneid (4.127, 'hic hymenaeus erit', the 'wedding' of Dido and Aeneas; the common-noun 'hymenaeos' appears at 4.99), and Hymen is a stock figure in Elizabethan wedding poetry (epithalamia). The torch as an emblem of the marriage rite -- and of the consummation delayed until the ceremony -- ties this line directly to the masque that follows, where Juno and Ceres bless the union. The smoking torch as ill omen is noted by editors; here the conditional phrasing makes it a vow: Ferdinand's honour will shine as clearly as those torches.",
+    "sources": [
+      {
+        "name": "Virgil",
+        "citation": "Virgil, Aeneid 4.127 ('hic hymenaeus erit' -- the wedding-rite of Dido and Aeneas; at 4.99 Juno uses the common noun 'hymenaeos', wedded unions)."
+      },
+      {
+        "name": "Onions, Shakespeare Glossary",
+        "citation": "Onions, C. T., A Shakespeare Glossary, s.v. 'Hymen' (the god of marriage)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1625"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Corrected the Aeneid locus: the named wedding-rite 'hic hymenaeus erit' is at 4.127 (4.99 is only the common noun 'hymenaeos'); fixed both the citation and the detail's parenthetical. Gloss and reading unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Hymen's torches as wedding omen and the conditional phrasing as a vow is the mainstream editorial reading; the detail on Hymen-imagery is sound."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Corrected the Aeneid locus: the named wedding-rite 'hic hymenaeus erit' is at 4.127 (4.99 is only the common noun 'hymenaeos'); fixed both the citation and the detail's parenthetical. Gloss and reading unchanged. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "tempest-1630-worser-genius",
     "play": "tempest",
     "tln_start": 1629,
@@ -8143,6 +8660,60 @@
         "note": "The two-spirit psychology with a good and evil genius is well-attested in Renaissance usage and confirmed by the Antony and Cleopatra 2.3 parallel the annotation cites."
       }
     ]
+  },
+  {
+    "id": "tempest-1633-phoebus-steeds-foundered",
+    "play": "tempest",
+    "tln_start": 1633,
+    "tln_end": 1634,
+    "word_start": 4,
+    "word_end": 4,
+    "anchor_text": "or Phoebus' steeds are founder'd, Or Night kept chain'd below",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Phoebus (Apollo) was the sun-god, believed to drive a chariot drawn by four horses ('steeds') across the sky each day. Ferdinand says he will wish his wedding night were already here so intensely that he would imagine either that the sun-horses had gone lame ('founder'd') or that Night herself were chained underground — both impossible events that would make the day last forever, to his frustration.",
+    "detail": "The image of the sun-god's chariot is Ovidian (Metamorphoses 2, the Phaethon story), well known to Elizabethan readers. 'Founder'd' said of horses means lamed from overwork or disease of the feet -- a horse that founders cannot run, and so the sun would halt. Ferdinand is impatient for his wedding night: he imagines impossibilities -- the sun-horses gone lame, or Night chained below -- that might explain why the longed-for night has not yet come. The conceit recalls Juliet's wish in Romeo and Juliet 3.2 ('Gallop apace, you fiery-footed steeds...'); like her, Ferdinand is eager for night to arrive.",
+    "sources": [
+      {
+        "name": "Ovid",
+        "citation": "Ovid, Metamorphoses 2.1-400 (Golding 1567): Phaethon drives Phoebus's four-horse chariot across the sky."
+      },
+      {
+        "name": "Schmidt",
+        "citation": "Schmidt, Shakespeare-Lexicon, s.v. 'founder': (of a horse) to become lame."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1633"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Ovid, Metamorphoses 2.1-400 (Golding 1567) is the correct locus for the Phaethon/solar-chariot myth, and Schmidt s.v. 'founder' for 'to become lame' is accurate."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Sources were verified and are unchanged; corrected the reversed reading in the detail -- Ferdinand is eager for the wedding night (imagining impossibilities that delay it), not longing to prolong the day, and the Romeo and Juliet 3.2 link is a parallel (both eager for night), not an inversion."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Sources were verified and are unchanged; corrected the reversed reading in the detail -- Ferdinand is eager for the wedding night (imagining impossibilities that delay it), not longing to prolong the day, and the Romeo and Juliet 3.2 link is a parallel (both eager for night), not an inversion. [orig: source=verified, interp=refuted]"
   },
   {
     "id": "tempest-1641-rabble",
@@ -9540,6 +10111,55 @@
         "note": "'Barnacles' as barnacle geese (not crustaceans) and the popular legend are correctly identified; the low-forehead/brutishness reading for apes is standard; the Ovidian transformation-punishment context is defensible."
       }
     ]
+  },
+  {
+    "id": "tempest-1884-mountain-silver-fury-tyrant",
+    "play": "tempest",
+    "tln_start": 1884,
+    "tln_end": 1886,
+    "word_start": 0,
+    "word_end": 4,
+    "anchor_text": "Hey, Mountain, hey! Silver! there it goes, Silver! Fury, Fury! There, Tyrant, there!",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "Mountain, Silver, Fury, and Tyrant are the names of Prospero's spirit-hounds. Naming hounds was standard practice, and the names chosen — Mountain (rough terrain), Silver (speed or color), Fury (ferocity), Tyrant (absolute dominance) — reflect the qualities desired in a hunting pack. The scene mimics the sensory chaos of a real hunt, with two voices calling hounds by name.",
+    "sources": [
+      {
+        "name": "Gascoigne, The Noble Arte of Venerie",
+        "citation": "George Gascoigne, The Noble Arte of Venerie or Hunting (1575; adapted from Jacques du Fouilloux's La Venerie), on hound-naming and pack management. (The work was long misattributed to George Turberville, author of the companion Booke of Falconrie.)"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1884"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Corrected the authorship: The Noble Arte of Venerie or Hunting (1575) is George Gascoigne's adaptation of du Fouilloux, long misattributed to Turberville (whose Booke of Falconrie is bound with it) -- verified via Internet Archive / EEBO catalog records. Gloss and Actaeon parallel unchanged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The hound-names and their quality-referents are standard; the Actaeon parallel is editorially noted and the annotation carefully distinguishes deliberate command from divine vengeance."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Corrected the authorship: The Noble Arte of Venerie or Hunting (1575) is George Gascoigne's adaptation of du Fouilloux, long misattributed to Turberville (whose Booke of Falconrie is bound with it) -- verified via Internet Archive / EEBO catalog records. Gloss and Actaeon parallel unchanged. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "tempest-1890-pard-cat-o-mountain",
@@ -11536,6 +12156,60 @@
     ]
   },
   {
+    "id": "tempest-2213-thing-of-darkness",
+    "play": "tempest",
+    "tln_start": 2213,
+    "tln_end": 2214,
+    "word_start": 4,
+    "word_end": 1,
+    "anchor_text": "this thing of darkness I Acknowledge mine",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "Prospero's terse declaration -- 'this thing of darkness I acknowledge mine' -- is the play's most discussed line. At its plain level it means that Caliban is Prospero's slave and his responsibility. But 'darkness' and 'acknowledge' (a word of formal recognition, as in acknowledging a child) give the line an unusual weight of admission, and editors note that Prospero is here owning Caliban in a way he has resisted all play.",
+    "detail": "The phrase is deliberately ambiguous. 'Thing of darkness' works on several levels -- moral (dark as sinful), and existential (an entity outside the categories of human or spirit). 'Acknowledge mine' has the structure of a formal declaration -- the language of paternity or ownership -- and editors (Orgel; Kermode) stress that Caliban's silence at this moment and the play's refusal to resolve his status make the line linger. Beyond its plain sense, the line has become central to modern -- especially postcolonial -- readings (e.g. George Lamming, 1960), which take Prospero to be owning something of himself in Caliban; that reading is influential but is a twentieth-century critical development rather than a plain construction of the text.",
+    "sources": [
+      {
+        "name": "Orgel, Oxford Tempest",
+        "citation": "Orgel, S. (ed.), The Tempest, Oxford Shakespeare (1987), note to 5.1.275-276, on 'acknowledge mine' and the interpretive tradition."
+      },
+      {
+        "name": "Kermode, Arden Tempest",
+        "citation": "Kermode, F. (ed.), The Tempest, Arden Shakespeare 2nd series (1954), note to 5.1.275: the ambiguity of possession and kinship in 'acknowledge mine.'"
+      }
+    ],
+    "references": [],
+    "confidence": "medium",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2213"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Orgel (1987) and Kermode (1954) notes on this passage are from real editions that do discuss the interpretive ambiguity of 'acknowledge mine' and the postcolonial reading tradition."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Trimmed the basic-depth overreach: foregrounded the defensible plain sense (Caliban as Prospero's slave/responsibility; 'acknowledge' as formal recognition) and re-framed the 'represents something in Prospero himself' / Lamming postcolonial reading as an influential modern interpretation rather than the line's primary meaning; sources verified, confidence set to medium."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Trimmed the basic-depth overreach: foregrounded the defensible plain sense (Caliban as Prospero's slave/responsibility; 'acknowledge' as formal recognition) and re-framed the 'represents something in Prospero himself' / Lamming postcolonial reading as an influential modern interpretation rather than the line's primary meaning; sources verified, confidence set to medium. [orig: source=verified, interp=refuted]"
+  },
+  {
     "id": "tempest-2218-gilded",
     "play": "tempest",
     "tln_start": 2219,
@@ -11779,679 +12453,5 @@
         "note": "The identification of the siege-warfare metaphor ('assaults Mercy') as conventional in Elizabethan devotional writing and the Lord's Prayer echo are both defensible; the pun on theatrical versus doctrinal 'indulgence' in the closing couplet is uncontroversial."
       }
     ]
-  },
-  {
-    "id": "tempest-1120-long-spoon",
-    "play": "tempest",
-    "tln_start": 1120,
-    "tln_end": 1121,
-    "word_start": 0,
-    "word_end": 3,
-    "anchor_text": "This is a devil, and no monster: I will leave him: I have no long spoon",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "Stephano alludes to the proverb 'He who sups with the devil needs a long spoon' — meaning you must keep your distance from dangerous company, or their evil will reach you. Believing Trinculo's voice is the devil's, Stephano refuses to 'sup' (eat and drink) with the creature and proposes to leave. The same proverb appears in The Comedy of Errors (4.3) and in later tradition.",
-    "sources": [
-      {
-        "name": "Tilley, Dictionary of Proverbs",
-        "citation": "Tilley, M. P., A Dictionary of the Proverbs in England in the Sixteenth and Seventeenth Centuries (1950), S 771: 'He must have a long SPOON that will eat (sup) with the devil.' Cf. The Comedy of Errors 4.3."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1120"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Corrected the Tilley entry number from S 779 to S 771 (verified via tilleyproverbs.com; S 779 is an unrelated proverb on sport and spectators); proverb and gloss unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The proverb is correctly identified and the Tilley citation is on point; Stephano's logic follows directly from the text."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Corrected the Tilley entry number from S 779 to S 771 (verified via tilleyproverbs.com; S 779 is an unrelated proverb on sport and spectators); proverb and gloss unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "tempest-1200-no-more-dams",
-    "play": "tempest",
-    "tln_start": 1200,
-    "tln_end": 1200,
-    "word_start": 0,
-    "word_end": 6,
-    "anchor_text": "No more dams I'll make for fish",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "Caliban sings drunkenly about the labour Prospero has forced on him: building fish-dams (wicker or earth barriers to trap fish in pools), gathering firewood ('firing'), scraping plates ('trenchering'), and washing dishes. His song of 'freedom' is also a precise catalogue of servile domestic tasks — the same work he promised to do for Stephano in place of Prospero. The irony is that he is swapping one master for another while celebrating liberation.",
-    "detail": "'Trenchering' is scraping or washing trenchers -- flat wooden boards used as plates. The song's refrain, 'Ban, Ban, Ca-Caliban, / Has a new master -- Get a new man' (TLN 1204-1205), is a comic freedom-cry: Caliban taunts Prospero to find himself a new servant. But he is about to lead Stephano to Prospero's cell to murder him -- the 'freedom' he is celebrating is premature and self-deceiving. The scene resonates with Montaigne's essay 'Of the Cannibals' (c. 1580, Englished by Florio 1603), a text the play elsewhere echoes, which questions whether those who call others 'savage' or 'slave' are not themselves the more constrained.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'dam' (n.3): a barrier or weir made to confine water; a fish-dam or weir."
-      },
-      {
-        "name": "Onions, Shakespeare Glossary",
-        "citation": "Onions, C. T., A Shakespeare Glossary, s.v. 'trencher': a flat piece of wood from which food was served or cut; a plate."
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "montaigne-of-the-cannibals"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1200"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "OED s.v. 'dam' n.3 (barrier or weir to confine water; fish-dam) and Onions s.v. 'trencher' (flat wooden board used as a plate) are genuine entries that directly support the gloss."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Fixed the reversed chronology in the detail -- Montaigne (c. 1580) predates the play (c. 1611), so it cannot be 'anticipated'; reworded to 'resonates with / the play elsewhere echoes' Montaigne. Sources were verified and are unchanged; the Montaigne reference-card link remains valid."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Fixed the reversed chronology in the detail -- Montaigne (c. 1580) predates the play (c. 1611), so it cannot be 'anticipated'; reworded to 'resonates with / the play elsewhere echoes' Montaigne. Sources were verified and are unchanged; the Montaigne reference-card link remains valid. [orig: source=verified, interp=refuted]"
-  },
-  {
-    "id": "tempest-1220-executor",
-    "play": "tempest",
-    "tln_start": 1220,
-    "tln_end": 1221,
-    "word_start": 8,
-    "word_end": 3,
-    "anchor_text": "such baseness / Had never like executor",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "'Executor' here means one who performs or carries out a task, not the legal officer who administers a will. Ferdinand (reporting Miranda's own words) is saying that such a lowly, demeaning job has never before had so noble a person doing it. The word keeps its Latin root (exsequi, to carry out) rather than its modern legal narrowing.",
-    "sources": [
-      {
-        "name": "Onions, Shakespeare Glossary",
-        "citation": "Onions, C. T., A Shakespeare Glossary, s.v. 'executor' (one who executes or performs an action); OED s.v. 'executor' cites this line ('Such basenes Had neuer like Executor') for the performer/doer sense."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1220"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "OED s.v. 'executor' explicitly cites The Tempest 'Such basenes Had neuer like Executor' for the performer/doer sense (now rare except legally), confirming the source directly supports the claim."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Corrected the speaker attribution in the summary -- the line is Ferdinand reporting Miranda's words, not Miranda speaking; the verified vocab gloss (Onions/OED, which cites this exact line) is unchanged."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Corrected the speaker attribution in the summary -- the line is Ferdinand reporting Miranda's words, not Miranda speaking; the verified vocab gloss (Onions/OED, which cites this exact line) is unchanged. [orig: source=verified, interp=refuted]"
-  },
-  {
-    "id": "tempest-1245-worm",
-    "play": "tempest",
-    "tln_start": 1245,
-    "tln_end": 1246,
-    "word_start": 0,
-    "word_end": 3,
-    "anchor_text": "Poor worm! thou art infected: / This visitation shows it",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "In this aside Prospero calls Miranda 'worm' — not an insult but an Elizabethan term of affectionate pity for a helpless, defenseless creature, as in 'poor thing.' 'Infected' means struck by love (love was regularly figured as a disease or contagion). 'Visitation' means the visit itself, which reveals the infection — that is, Miranda's obvious distress at Ferdinand's labor shows she has fallen in love.",
-    "detail": "The pity-use of 'worm' is distinct from its insect or serpent senses: Schmidt records it as an expression of compassionate pity and cites this very line (Schmidt, Shakespeare-Lexicon, s.v. 'worm'). 'Infected' for 'smitten with love' is a Renaissance commonplace, love being routinely figured as a disease or contagion (Schmidt, s.v. 'infect'). Prospero is not distressed -- he is watching the plan he set in motion bear fruit.",
-    "sources": [
-      {
-        "name": "Schmidt, Shakespeare-Lexicon",
-        "citation": "Schmidt, Alexander, Shakespeare-Lexicon (1874-75), s.v. 'worm' (an expression of pity / compassionate endearment, citing this Tempest line); s.v. 'infect' (to affect with a passion, here love)."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1245"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Removed the fabricated parallel citation ('Twelfth Night 2.1, She is infected with his affection', which does not exist); kept the genuine Schmidt 'worm' (pity, citing this line) and generalized the 'infect' = smitten-with-love sense to Schmidt's entry. Interp verified."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "'Worm' as a term of compassionate pity and 'infected' as smitten with love are both well-attested Elizabethan usages, and Prospero's satisfied aside is consistent with his orchestrating posture throughout the scene."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Removed the fabricated parallel citation ('Twelfth Night 2.1, She is infected with his affection', which does not exist); kept the genuine Schmidt 'worm' (pity, citing this line) and generalized the 'infect' = smitten-with-love sense to Schmidt's entry. Interp verified. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "tempest-1356-next-tree",
-    "play": "tempest",
-    "tln_start": 1356,
-    "tln_end": 1357,
-    "word_start": 8,
-    "word_end": 6,
-    "anchor_text": "if you prove a mutineer, the next tree",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "Stephano threatens Trinculo with summary execution by hanging from the nearest tree — the standard shipboard punishment for mutiny. Under maritime law a captain could hang a mutineer at sea without trial, and this power extended to the shore party. Stephano, having appointed himself king of the island, applies the most feared instrument of naval discipline to assert authority over his 'subject' Caliban.",
-    "detail": "Hanging for mutiny -- at the yard-arm aboard ship, or from a tree ashore -- was notorious enough that a mere threat could silence a sailor; mutiny was a capital offence. Stephano is both parodying and genuinely invoking this authority: he 'commands' the island now, Caliban is his 'subject,' and he will not allow the compact to be undermined by Trinculo's scepticism. The exchange is farcical, but the underlying concept is real -- shipboard discipline in the period was enforced by exactly these summary methods.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'mutineer': one who rises against lawful authority, esp. aboard ship."
-      },
-      {
-        "name": "Naval discipline (period practice)",
-        "citation": "Hanging (at the yard-arm aboard ship, or from a tree ashore) was the standard, feared punishment for mutiny and desertion under early-modern naval/maritime discipline; mutiny was a capital offence. General period practice, not a single statute."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1356"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Split the citation: kept OED for the sense of 'mutineer', and moved the hanging-for-mutiny claim to a separately-scoped general 'period practice' note (the OED entry does not carry that legal claim, and no single Elizabethan statute 'prescribed' it); trimmed the detail's overstated 'legally recognized/prescribed penalty' wording. Reading verified."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Hanging as the standard punishment for mutiny is historically accurate and Stephano's parodic self-appointment as king/captain makes the application clear; the reading is mainstream and well-supported."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Split the citation: kept OED for the sense of 'mutineer', and moved the hanging-for-mutiny claim to a separately-scoped general 'period practice' note (the OED entry does not carry that legal claim, and no single Elizabethan statute 'prescribed' it); trimmed the detail's overstated 'legally recognized/prescribed penalty' wording. Reading verified. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "tempest-1535-putter-out",
-    "play": "tempest",
-    "tln_start": 1535,
-    "tln_end": 1536,
-    "word_start": 1,
-    "word_end": 2,
-    "anchor_text": "putter-out of five for one will bring us / Good warrant of",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "A 'putter-out of five for one' was an Elizabethan financial speculator who deposited a sum of money before a long voyage; if the traveler returned safely and brought sworn testimony of the wonders he had seen, he got back five times the deposit. The practice both funded travel and created a commercial incentive to certify exotic marvels as true. Gonzalo cites it as proof that the Shapes' strangeness is now independently verifiable.",
-    "detail": "The custom is satirized in Ben Jonson's Every Man Out of His Humour (1599), where Puntarvolo stakes money to be repaid five-for-one if he, his wife, and his dog return safely from a voyage to Constantinople. A traveller placed a sum with a 'putter-out,' who held it; on return, the survivor collected five for one and was expected to bring a sworn report of what he had witnessed -- which gave travel testimony a certified quality. The mechanism is mocked as a prompt to tall tales, which is the joke Gonzalo is using here: travellers are commercially motivated to vouch for impossibilities.",
-    "sources": [
-      {
-        "name": "Onions, Shakespeare Glossary",
-        "citation": "Onions, C. T., A Shakespeare Glossary (1911), s.v. 'putter-out': one who deposits money to be repaid (typically five-for-one) on proof of a traveller's safe return."
-      },
-      {
-        "name": "Jonson, Every Man Out of His Humour",
-        "citation": "Ben Jonson, Every Man Out of His Humour (1599), II.iii: Puntarvolo puts forth money 'five for one' to be repaid on the safe return of himself, his wife, and his dog from Constantinople -- the contemporary witness to the practice."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1535"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Removed the fabricated Hakluyt citation ('ed. note on traveler-insurance practice', which Hakluyt does not contain) and re-grounded the detail on the genuine contemporary witness, Jonson's Every Man Out of His Humour (verified); kept Onions. Reading verified."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The five-for-one traveler-deposit practice is well-documented in the period and in Jonson; the annotation does not over-read Gonzalo's point — he is indeed invoking certified traveler testimony — and the satirical dimension (commercial incentive to vouch for impossibilities) is directly relevant to the dramatic context."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Removed the fabricated Hakluyt citation ('ed. note on traveler-insurance practice', which Hakluyt does not contain) and re-grounded the detail on the genuine contemporary witness, Jonson's Every Man Out of His Humour (verified); kept Onions. Reading verified. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "tempest-1625-hymens-lamps",
-    "play": "tempest",
-    "tln_start": 1625,
-    "tln_end": 1625,
-    "word_start": 0,
-    "word_end": 5,
-    "anchor_text": "As Hymen's lamps shall light you",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "Hymen was the Roman god of marriage, traditionally invoked at weddings. His 'lamps' or torches were carried in the wedding procession; a torch that burned brightly and cleanly was an omen of a happy marriage, while one that smoked or went out foretold misfortune. Prospero is saying: 'as truly as your wedding torches will burn.'",
-    "detail": "Hymen and the rite of marriage figure in Virgil's Aeneid (4.127, 'hic hymenaeus erit', the 'wedding' of Dido and Aeneas; the common-noun 'hymenaeos' appears at 4.99), and Hymen is a stock figure in Elizabethan wedding poetry (epithalamia). The torch as an emblem of the marriage rite -- and of the consummation delayed until the ceremony -- ties this line directly to the masque that follows, where Juno and Ceres bless the union. The smoking torch as ill omen is noted by editors; here the conditional phrasing makes it a vow: Ferdinand's honour will shine as clearly as those torches.",
-    "sources": [
-      {
-        "name": "Virgil",
-        "citation": "Virgil, Aeneid 4.127 ('hic hymenaeus erit' -- the wedding-rite of Dido and Aeneas; at 4.99 Juno uses the common noun 'hymenaeos', wedded unions)."
-      },
-      {
-        "name": "Onions, Shakespeare Glossary",
-        "citation": "Onions, C. T., A Shakespeare Glossary, s.v. 'Hymen' (the god of marriage)."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1625"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Corrected the Aeneid locus: the named wedding-rite 'hic hymenaeus erit' is at 4.127 (4.99 is only the common noun 'hymenaeos'); fixed both the citation and the detail's parenthetical. Gloss and reading unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Hymen's torches as wedding omen and the conditional phrasing as a vow is the mainstream editorial reading; the detail on Hymen-imagery is sound."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Corrected the Aeneid locus: the named wedding-rite 'hic hymenaeus erit' is at 4.127 (4.99 is only the common noun 'hymenaeos'); fixed both the citation and the detail's parenthetical. Gloss and reading unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "tempest-1633-phoebus-steeds-foundered",
-    "play": "tempest",
-    "tln_start": 1633,
-    "tln_end": 1634,
-    "word_start": 4,
-    "word_end": 4,
-    "anchor_text": "or Phoebus' steeds are founder'd, Or Night kept chain'd below",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "Phoebus (Apollo) was the sun-god, believed to drive a chariot drawn by four horses ('steeds') across the sky each day. Ferdinand says he will wish his wedding night were already here so intensely that he would imagine either that the sun-horses had gone lame ('founder'd') or that Night herself were chained underground — both impossible events that would make the day last forever, to his frustration.",
-    "detail": "The image of the sun-god's chariot is Ovidian (Metamorphoses 2, the Phaethon story), well known to Elizabethan readers. 'Founder'd' said of horses means lamed from overwork or disease of the feet -- a horse that founders cannot run, and so the sun would halt. Ferdinand is impatient for his wedding night: he imagines impossibilities -- the sun-horses gone lame, or Night chained below -- that might explain why the longed-for night has not yet come. The conceit recalls Juliet's wish in Romeo and Juliet 3.2 ('Gallop apace, you fiery-footed steeds...'); like her, Ferdinand is eager for night to arrive.",
-    "sources": [
-      {
-        "name": "Ovid",
-        "citation": "Ovid, Metamorphoses 2.1-400 (Golding 1567): Phaethon drives Phoebus's four-horse chariot across the sky."
-      },
-      {
-        "name": "Schmidt",
-        "citation": "Schmidt, Shakespeare-Lexicon, s.v. 'founder': (of a horse) to become lame."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1633"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Ovid, Metamorphoses 2.1-400 (Golding 1567) is the correct locus for the Phaethon/solar-chariot myth, and Schmidt s.v. 'founder' for 'to become lame' is accurate."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Sources were verified and are unchanged; corrected the reversed reading in the detail -- Ferdinand is eager for the wedding night (imagining impossibilities that delay it), not longing to prolong the day, and the Romeo and Juliet 3.2 link is a parallel (both eager for night), not an inversion."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Sources were verified and are unchanged; corrected the reversed reading in the detail -- Ferdinand is eager for the wedding night (imagining impossibilities that delay it), not longing to prolong the day, and the Romeo and Juliet 3.2 link is a parallel (both eager for night), not an inversion. [orig: source=verified, interp=refuted]"
-  },
-  {
-    "id": "tempest-1884-mountain-silver-fury-tyrant",
-    "play": "tempest",
-    "tln_start": 1884,
-    "tln_end": 1886,
-    "word_start": 0,
-    "word_end": 4,
-    "anchor_text": "Hey, Mountain, hey! Silver! there it goes, Silver! Fury, Fury! There, Tyrant, there!",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "Mountain, Silver, Fury, and Tyrant are the names of Prospero's spirit-hounds. Naming hounds was standard practice, and the names chosen — Mountain (rough terrain), Silver (speed or color), Fury (ferocity), Tyrant (absolute dominance) — reflect the qualities desired in a hunting pack. The scene mimics the sensory chaos of a real hunt, with two voices calling hounds by name.",
-    "sources": [
-      {
-        "name": "Gascoigne, The Noble Arte of Venerie",
-        "citation": "George Gascoigne, The Noble Arte of Venerie or Hunting (1575; adapted from Jacques du Fouilloux's La Venerie), on hound-naming and pack management. (The work was long misattributed to George Turberville, author of the companion Booke of Falconrie.)"
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1884"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Corrected the authorship: The Noble Arte of Venerie or Hunting (1575) is George Gascoigne's adaptation of du Fouilloux, long misattributed to Turberville (whose Booke of Falconrie is bound with it) -- verified via Internet Archive / EEBO catalog records. Gloss and Actaeon parallel unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The hound-names and their quality-referents are standard; the Actaeon parallel is editorially noted and the annotation carefully distinguishes deliberate command from divine vengeance."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Corrected the authorship: The Noble Arte of Venerie or Hunting (1575) is George Gascoigne's adaptation of du Fouilloux, long misattributed to Turberville (whose Booke of Falconrie is bound with it) -- verified via Internet Archive / EEBO catalog records. Gloss and Actaeon parallel unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "tempest-2213-thing-of-darkness",
-    "play": "tempest",
-    "tln_start": 2213,
-    "tln_end": 2214,
-    "word_start": 4,
-    "word_end": 1,
-    "anchor_text": "this thing of darkness I Acknowledge mine",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "Prospero's terse declaration -- 'this thing of darkness I acknowledge mine' -- is the play's most discussed line. At its plain level it means that Caliban is Prospero's slave and his responsibility. But 'darkness' and 'acknowledge' (a word of formal recognition, as in acknowledging a child) give the line an unusual weight of admission, and editors note that Prospero is here owning Caliban in a way he has resisted all play.",
-    "detail": "The phrase is deliberately ambiguous. 'Thing of darkness' works on several levels -- moral (dark as sinful), and existential (an entity outside the categories of human or spirit). 'Acknowledge mine' has the structure of a formal declaration -- the language of paternity or ownership -- and editors (Orgel; Kermode) stress that Caliban's silence at this moment and the play's refusal to resolve his status make the line linger. Beyond its plain sense, the line has become central to modern -- especially postcolonial -- readings (e.g. George Lamming, 1960), which take Prospero to be owning something of himself in Caliban; that reading is influential but is a twentieth-century critical development rather than a plain construction of the text.",
-    "sources": [
-      {
-        "name": "Orgel, Oxford Tempest",
-        "citation": "Orgel, S. (ed.), The Tempest, Oxford Shakespeare (1987), note to 5.1.275-276, on 'acknowledge mine' and the interpretive tradition."
-      },
-      {
-        "name": "Kermode, Arden Tempest",
-        "citation": "Kermode, F. (ed.), The Tempest, Arden Shakespeare 2nd series (1954), note to 5.1.275: the ambiguity of possession and kinship in 'acknowledge mine.'"
-      }
-    ],
-    "references": [],
-    "confidence": "medium",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2213"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Orgel (1987) and Kermode (1954) notes on this passage are from real editions that do discuss the interpretive ambiguity of 'acknowledge mine' and the postcolonial reading tradition."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Trimmed the basic-depth overreach: foregrounded the defensible plain sense (Caliban as Prospero's slave/responsibility; 'acknowledge' as formal recognition) and re-framed the 'represents something in Prospero himself' / Lamming postcolonial reading as an influential modern interpretation rather than the line's primary meaning; sources verified, confidence set to medium."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Trimmed the basic-depth overreach: foregrounded the defensible plain sense (Caliban as Prospero's slave/responsibility; 'acknowledge' as formal recognition) and re-framed the 'represents something in Prospero himself' / Lamming postcolonial reading as an influential modern interpretation rather than the line's primary meaning; sources verified, confidence set to medium. [orig: source=verified, interp=refuted]"
-  },
-  {
-    "id": "tempest-297-jove-neptune",
-    "play": "tempest",
-    "tln_start": 297,
-    "tln_end": 300,
-    "word_start": 4,
-    "word_end": 6,
-    "anchor_text": "Jove's lightning, the precursors / O' th' dreadful thunder-claps, more momentary / And sight-outrunning were not: the fire and cracks / Of sulphurous roaring the most mighty Neptune",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "Jove (Jupiter) was the king of the Roman gods and the wielder of the thunderbolt; Neptune was the Roman god of the sea. Ariel is saying that Prospero's magical fire on the ship was faster than Jove's own lightning and so fierce that even Neptune — lord of the waters surrounding them — seemed to be under siege.",
-    "sources": [
-      {
-        "name": "Ovid, Metamorphoses",
-        "citation": "Ovid, Metamorphoses 1.154-155 (Jove shatters the Giants' assault with a hurled thunderbolt: 'Tum pater omnipotens misso perfregit Olympum / fulmine'); 1.283-284 (Neptune strikes the earth with his trident at the Flood: 'Ipse tridente suo terram percussit')."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 297"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Corrected the Ovid loci against the Perseus Latin text: Jove's thunderbolt is Met. 1.154-155 (the original 1.170 is the gods' Milky Way procession) and Neptune's trident is 1.283-284 (not 1.281-283); gloss and reading unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Jove as wielder of the thunderbolt and Neptune as god of the sea are accurate; the reading that Prospero's power surpasses the king of the gods is supported by the explicit comparison in lines 297-302."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Corrected the Ovid loci against the Perseus Latin text: Jove's thunderbolt is Met. 1.154-155 (the original 1.170 is the gods' Milky Way procession) and Neptune's trident is 1.283-284 (not 1.281-283); gloss and reading unchanged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "tempest-311-hair-upstaring",
-    "play": "tempest",
-    "tln_start": 311,
-    "tln_end": 311,
-    "word_start": 1,
-    "word_end": 6,
-    "anchor_text": "hair up-staring--then like reeds, not hair",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "Ariel describes Ferdinand's hair standing straight up from terror — 'up-staring' means bristling and erect. Then Ariel corrects the simile: not just standing up but stiff as reeds growing out of a marsh, thick and rigid with fear.",
-    "detail": "'Up-staring' is a compound adjective: staring upward, standing on end. The image of hair rising from fear was a classical and Renaissance commonplace -- compare Virgil, Aeneid 2.774, 'steteruntque comae' ('and his hair stood on end'). Shakespeare's addition -- the self-correction 'like reeds, not hair' -- is vivid and precise: reeds are stiff, hollow, vertical, and grow at the water's edge, which perfectly suits a man on a ship surrounded by the sea. The detail may also echo eyewitness accounts of men frozen with terror in the Bermuda reports.",
-    "sources": [
-      {
-        "name": "Virgil, Aeneid",
-        "citation": "Virgil, Aeneid 2.774 ('obstipui, steteruntque comae' -- 'I was struck dumb, and my hair stood on end'; the same hair-bristling-with-terror topos recurs at 3.48 and, as 'arrectaeque horrore comae', at 4.280). OED s.v. 'up-staring, adj.': 'erect, bristling (of hair).'"
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 311"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Corrected the Virgil locus/phrase: at Aeneid 2.774 the text is 'steteruntque comae' (verified via Dickinson College Commentaries), not 'arrectaeque horrore comae' (which is 4.280); fixed both the line citation and the quoted Latin in the detail."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "'Up-staring' as bristling/erect is correct; the Virgil Aeneid parallel for hair standing with terror is a legitimate classical echo (Virgil uses 'arrectaeque horrore comae'), though the specific line cited (2.774) should be verified — but the topos is genuine."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Corrected the Virgil locus/phrase: at Aeneid 2.774 the text is 'steteruntque comae' (verified via Dickinson College Commentaries), not 'arrectaeque horrore comae' (which is 4.280); fixed both the line citation and the quoted Latin in the detail. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "tempest-780-thank-yourself",
-    "play": "tempest",
-    "tln_start": 780,
-    "tln_end": 781,
-    "word_start": 1,
-    "word_end": 8,
-    "anchor_text": "you may thank yourself for this great loss, That would not bless our Europe with your daughter",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "Sebastian blames Alonso for Ferdinand's (presumed) death: by marrying Claribel off to an African king rather than a European nobleman, Alonso sent the whole court on the sea voyage that caused the wreck. Sebastian's language -- 'bless our Europe' with your daughter -- implies that Claribel's marriage to an African was a dishonour to European dignity, voicing the period's prejudice against cross-cultural marriage.",
-    "sources": [
-      {
-        "name": "Schmidt, Shakespeare-Lexicon",
-        "citation": "Schmidt, Alexander, Shakespeare-Lexicon (1874-75), s.v. 'lose' (to part with, relinquish), recording this line's 'rather lose her to an African'; the 'bless our Europe' / African-marriage framing follows the play's text rather than a distinct dictionary sub-sense."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 780"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Made the Schmidt citation honest -- the previously claimed sub-sense ('send away to a foreign and inferior place') was the annotator's paraphrase, not a dictionary definition; re-cited Schmidt to its actual 'lose'/relinquish entry, which does record this line. Interp verified, gloss unchanged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The interpretive framing is accurate — Sebastian's attack does simultaneously apply real guilt and reveal his own cruelty — and the colonial-European undertone in 'bless our Europe' is a mainstream reading; noting Claribel never appears is correct."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Made the Schmidt citation honest -- the previously claimed sub-sense ('send away to a foreign and inferior place') was the annotator's paraphrase, not a dictionary definition; re-cited Schmidt to its actual 'lose'/relinquish entry, which does record this line. Interp verified, gloss unchanged. [orig: source=refuted, interp=verified]"
   }
 ]

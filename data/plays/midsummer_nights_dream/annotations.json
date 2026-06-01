@@ -2087,6 +2087,58 @@
     ]
   },
   {
+    "id": "midsummer_nights_dream-381-quern",
+    "play": "midsummer_nights_dream",
+    "tln_start": 381,
+    "tln_end": 381,
+    "word_start": 7,
+    "word_end": 7,
+    "anchor_text": "quern",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "A quern is a hand-turned stone mill for grinding grain. Robin Goodfellow was said to sometimes grind grain for a household overnight — or, as a prank, to let the quern run empty so no grinding was done.",
+    "sources": [
+      {
+        "name": "OED s.v. quern",
+        "citation": "OED s.v. quern n. 1: a simple hand-mill for grinding grain, consisting of two circular stones."
+      },
+      {
+        "name": "Scot, Discoverie of Witchcraft (1584)",
+        "citation": "Scot, Reginald (1584). The Discoverie of Witchcraft, Book VII (on hobgoblin household labours)."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 381"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Quern as a hand mill is unambiguous. The detail that Robin Goodfellow sometimes performed or frustrated grinding chores aligns with standard folklore accounts including Scot."
+      }
+    ],
+    "note_internal": "Corrected the Scot reference from Book IV to Book VII; retained OED s.v. quern."
+  },
+  {
     "id": "midsummer_nights_dream-383-barm",
     "play": "midsummer_nights_dream",
     "tln_start": 383,
@@ -2187,6 +2239,54 @@
         "note": "Crab as crab-apple (not crustacean) is standard and the annotation explicitly makes this clear. Roasted crab-apples in wassail is well-documented period practice. Correct."
       }
     ]
+  },
+  {
+    "id": "midsummer_nights_dream-412-corin-phillida",
+    "play": "midsummer_nights_dream",
+    "tln_start": 412,
+    "tln_end": 412,
+    "word_start": 5,
+    "word_end": 5,
+    "anchor_text": "Corin",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "Corin and Phillida are stock names from pastoral poetry: the shepherd-lover and his country sweetheart. Titania accuses Oberon of disguising himself as a rustic shepherd to woo a mortal woman. The names signal the pastoral-romance genre — Corin and Phillida recur across Elizabethan pastoral verse and song.",
+    "sources": [
+      {
+        "name": "Brooks (Arden 2 Dream, 1979)",
+        "citation": "Brooks, H. F., ed. (1979). A Midsummer Night's Dream, Arden 2, p. 13 n. on 'Corin' and 'Phillida'."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 412"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Corin and Phillida as stock pastoral names signaling the pastoral-romance genre is standard. The Spenser Shepheardes Calender reference is appropriate, though Corin is a common pastoral name across many Renaissance texts, not unique to Spenser."
+      }
+    ],
+    "note_internal": "Dropped the Spenser citation (the 'January' eclogue features Colin, not Corin) and the matching claim; retained Brooks Arden 2."
   },
   {
     "id": "midsummer_nights_dream-416-bouncing-amazon",
@@ -3179,6 +3279,59 @@
     ]
   },
   {
+    "id": "midsummer_nights_dream-627-spotted-snakes",
+    "play": "midsummer_nights_dream",
+    "tln_start": 627,
+    "tln_end": 629,
+    "word_start": 0,
+    "word_end": 5,
+    "anchor_text": "You spotted snakes, with double tongue,\nThorny hedgehogs, be not seen;\nNewts and blind-worms do no wrong",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "The lullaby is an apotropaic charm — a spell of warding-off — that names dangerous creatures to banish them. Elizabethan natural history held that 'blind-worms' (slow-worms) and newts were venomous. Spotted snakes with forked ('double') tongues were seen as doubly sinister. Reciting a danger by name was thought to have power over it, a charm structure found across Elizabethan folk magic.",
+    "detail": "Conrad Gesner's Historia animalium (1551) was the leading contemporary natural-history encyclopedia, and Edward Topsell's later Historie of Serpents (1608) records many Elizabethan beliefs about snakes and blind-worms. The charm structure — enumerate what must not come near — parallels the witches' incantations in Macbeth.",
+    "sources": [
+      {
+        "name": "Gesner, Historia animalium",
+        "citation": "Gesner, Conrad. Historia animalium (1551–1587), on serpents (forked-tongue snakes and their supposed danger)."
+      },
+      {
+        "name": "Brooks (Arden 2 MND, 1979)",
+        "citation": "Brooks, Harold F., ed. (1979). A Midsummer Night's Dream, Arden 2. London: Methuen, note on 2.2.9-10 (on apotropaic charm structure)."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 627"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Apotropaic charm structure is the consensus reading (Brooks, Holland, Bevington); Elizabethan belief that blind-worms and newts were venomous is documented by Topsell; parallel to Macbeth incantations is a standard observation."
+      }
+    ],
+    "note_internal": "Generalized the Gesner citation (the volume number was wrong); retained Brooks on the apotropaic charm."
+  },
+  {
     "id": "midsummer_nights_dream-631-philomel",
     "play": "midsummer_nights_dream",
     "tln_start": 631,
@@ -3337,6 +3490,59 @@
         "note": "Pard = leopard/panther is uncontested; poetic contraction attested from Spenser onward; the escalation-of-ferocity reading is the standard editorial note."
       }
     ]
+  },
+  {
+    "id": "midsummer_nights_dream-659-one-heart-one-bed",
+    "play": "midsummer_nights_dream",
+    "tln_start": 659,
+    "tln_end": 659,
+    "word_start": 0,
+    "word_end": 8,
+    "anchor_text": "One heart, one bed, two bosoms, and one troth.",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "Lysander's argument draws on the Renaissance Neoplatonic idea that true lovers share a single soul. The 'two bodies, one soul' formula derives from Ficino's commentary on Plato's Symposium and was a commonplace of Elizabethan love poetry. By claiming their hearts are one, Lysander argues they cannot be truly separated — and thus sleeping side by side is innocent.",
+    "detail": "Marsilio Ficino, Commentarium in Convivium Platonis (1469), especially Speech 2, ch. 8, on the lover's soul migrating into the beloved. The topos appears repeatedly in Sidney's Astrophil and Stella and in Donne. The rhetorical sleight is that 'one bed' is slipped between 'one heart' and 'one troth' as if it follows logically.",
+    "sources": [
+      {
+        "name": "Ficino, Commentarium in Convivium Platonis",
+        "citation": "Ficino, Marsilio. Commentarium in Convivium Platonis (De Amore), on the union of lovers' souls."
+      },
+      {
+        "name": "Brooks (Arden 2 MND, 1979)",
+        "citation": "Brooks, Harold F., ed. (1979). A Midsummer Night's Dream, Arden 2. London: Methuen, note on 2.2.41."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 659"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Ficino's 'two bodies, one soul' topos as the basis for Lysander's sophistry is the standard Arden 2 and Cambridge gloss; the rhetorical sleight of inserting 'one bed' is widely noted. No fringe element."
+      }
+    ],
+    "note_internal": "Generalized the Ficino citation (the precise speech/chapter was wrong); retained Brooks. The two-bodies-one-soul topos is the point."
   },
   {
     "id": "midsummer_nights_dream-662-take-the-sense",
@@ -3749,6 +3955,58 @@
         "note": "The physical/literal sense ('seen through') deployed as a Neoplatonic compliment is the standard editorial reading; the distinction from the modern figurative sense is accurate and well-documented."
       }
     ]
+  },
+  {
+    "id": "midsummer_nights_dream-731-raven-dove",
+    "play": "midsummer_nights_dream",
+    "tln_start": 731,
+    "tln_end": 731,
+    "word_start": 3,
+    "word_end": 8,
+    "anchor_text": "change a raven for a dove",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "The contrast of raven (black = ugly) and dove (white = beautiful/pure) was a proverbial pair in Elizabethan writing, drawing on biblical imagery. The raven appears in the Geneva Bible as a sign of God's provision (1 Kings 17:4) but also as an omen of ill; the dove is the emblem of innocence and love (Song of Solomon 1:15). Lysander recasts the dark-haired Hermia as the raven and the fair Helena as the dove.",
+    "sources": [
+      {
+        "name": "Tilley, Proverbs in England",
+        "citation": "Tilley, M. P. (1950). A Dictionary of the Proverbs in England. Ann Arbor, R 28: 'A raven is not compared with a dove.'"
+      },
+      {
+        "name": "Geneva Bible 1599",
+        "citation": "Song of Solomon 1:15 (Geneva 1599): the beloved's 'doves' eyes'; cf. 1 Kings 17:4 (ravens feed Elijah)."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 731"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Raven/dove as proverbial dark-ugly/fair-pure pair is standard (Tilley R 28); Song of Solomon resonance is defensible though the primary register is proverbial rather than specifically biblical. The annotation hedges correctly by citing both."
+      }
+    ],
+    "note_internal": "Replaced the Song of Solomon 5:11–12 citation (describes the Bridegroom) with 1:15 (the beloved's dove-eyes), matching the summary; retained Tilley R28."
   },
   {
     "id": "midsummer_nights_dream-766-serpent-dream",
@@ -7889,6 +8147,58 @@
     ]
   },
   {
+    "id": "midsummer_nights_dream-1696-helen-brow-egypt",
+    "play": "midsummer_nights_dream",
+    "tln_start": 1696,
+    "tln_end": 1696,
+    "word_start": 1,
+    "word_end": 7,
+    "anchor_text": "Helen's beauty in a brow of Egypt",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "'Helen' is Helen of Troy, whose face proverbially launched a thousand ships and stood for the supreme standard of female beauty in the classical world. 'A brow of Egypt' means a dark-complexioned or 'gypsy' face — 'Egypt' (Egyptian/Gypsy) was Elizabethan shorthand for a dark skin regarded as plain or low-status. The lover, blinded by passion, projects Hellenic beauty onto what the world considers an unremarkable face.",
+    "sources": [
+      {
+        "name": "OED s.v. Egyptian",
+        "citation": "OED s.v. Egyptian n. 2 (obsolete): 'A Gypsy'; the Elizabethan belief that Romani people came from Egypt."
+      },
+      {
+        "name": "Brooks, Arden 2 Dream",
+        "citation": "Brooks, H. F., ed. (1979). A Midsummer Night's Dream, Arden 2. note on 5.1.11 (TLN 1696)."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1696"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Helen of Troy as supreme beauty-standard and 'Egypt'/'Egyptian' = Gypsy = dark-complexioned are both well-documented (OED, Brooks). The Ovid citation for Helen is tangential but harmless; the core reading is standard and defensible."
+      }
+    ],
+    "note_internal": "Dropped the Ovid Met. 12 citation (Book 12 is the Centauromachy, not Helen-as-beauty); retained OED s.v. Egyptian and Brooks."
+  },
+  {
     "id": "midsummer_nights_dream-1700-airy-nothing",
     "play": "midsummer_nights_dream",
     "tln_start": 1701,
@@ -9544,315 +9854,5 @@
         "card_id": "robin-goodfellow"
       }
     ]
-  },
-  {
-    "id": "midsummer_nights_dream-1696-helen-brow-egypt",
-    "play": "midsummer_nights_dream",
-    "tln_start": 1696,
-    "tln_end": 1696,
-    "word_start": 1,
-    "word_end": 7,
-    "anchor_text": "Helen's beauty in a brow of Egypt",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "'Helen' is Helen of Troy, whose face proverbially launched a thousand ships and stood for the supreme standard of female beauty in the classical world. 'A brow of Egypt' means a dark-complexioned or 'gypsy' face — 'Egypt' (Egyptian/Gypsy) was Elizabethan shorthand for a dark skin regarded as plain or low-status. The lover, blinded by passion, projects Hellenic beauty onto what the world considers an unremarkable face.",
-    "sources": [
-      {
-        "name": "OED s.v. Egyptian",
-        "citation": "OED s.v. Egyptian n. 2 (obsolete): 'A Gypsy'; the Elizabethan belief that Romani people came from Egypt."
-      },
-      {
-        "name": "Brooks, Arden 2 Dream",
-        "citation": "Brooks, H. F., ed. (1979). A Midsummer Night's Dream, Arden 2. note on 5.1.11 (TLN 1696)."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1696"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Helen of Troy as supreme beauty-standard and 'Egypt'/'Egyptian' = Gypsy = dark-complexioned are both well-documented (OED, Brooks). The Ovid citation for Helen is tangential but harmless; the core reading is standard and defensible."
-      }
-    ],
-    "note_internal": "Dropped the Ovid Met. 12 citation (Book 12 is the Centauromachy, not Helen-as-beauty); retained OED s.v. Egyptian and Brooks."
-  },
-  {
-    "id": "midsummer_nights_dream-381-quern",
-    "play": "midsummer_nights_dream",
-    "tln_start": 381,
-    "tln_end": 381,
-    "word_start": 7,
-    "word_end": 7,
-    "anchor_text": "quern",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "A quern is a hand-turned stone mill for grinding grain. Robin Goodfellow was said to sometimes grind grain for a household overnight — or, as a prank, to let the quern run empty so no grinding was done.",
-    "sources": [
-      {
-        "name": "OED s.v. quern",
-        "citation": "OED s.v. quern n. 1: a simple hand-mill for grinding grain, consisting of two circular stones."
-      },
-      {
-        "name": "Scot, Discoverie of Witchcraft (1584)",
-        "citation": "Scot, Reginald (1584). The Discoverie of Witchcraft, Book VII (on hobgoblin household labours)."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 381"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Quern as a hand mill is unambiguous. The detail that Robin Goodfellow sometimes performed or frustrated grinding chores aligns with standard folklore accounts including Scot."
-      }
-    ],
-    "note_internal": "Corrected the Scot reference from Book IV to Book VII; retained OED s.v. quern."
-  },
-  {
-    "id": "midsummer_nights_dream-412-corin-phillida",
-    "play": "midsummer_nights_dream",
-    "tln_start": 412,
-    "tln_end": 412,
-    "word_start": 5,
-    "word_end": 5,
-    "anchor_text": "Corin",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "Corin and Phillida are stock names from pastoral poetry: the shepherd-lover and his country sweetheart. Titania accuses Oberon of disguising himself as a rustic shepherd to woo a mortal woman. The names signal the pastoral-romance genre — Corin and Phillida recur across Elizabethan pastoral verse and song.",
-    "sources": [
-      {
-        "name": "Brooks (Arden 2 Dream, 1979)",
-        "citation": "Brooks, H. F., ed. (1979). A Midsummer Night's Dream, Arden 2, p. 13 n. on 'Corin' and 'Phillida'."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 412"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Corin and Phillida as stock pastoral names signaling the pastoral-romance genre is standard. The Spenser Shepheardes Calender reference is appropriate, though Corin is a common pastoral name across many Renaissance texts, not unique to Spenser."
-      }
-    ],
-    "note_internal": "Dropped the Spenser citation (the 'January' eclogue features Colin, not Corin) and the matching claim; retained Brooks Arden 2."
-  },
-  {
-    "id": "midsummer_nights_dream-627-spotted-snakes",
-    "play": "midsummer_nights_dream",
-    "tln_start": 627,
-    "tln_end": 629,
-    "word_start": 0,
-    "word_end": 5,
-    "anchor_text": "You spotted snakes, with double tongue,\nThorny hedgehogs, be not seen;\nNewts and blind-worms do no wrong",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "The lullaby is an apotropaic charm — a spell of warding-off — that names dangerous creatures to banish them. Elizabethan natural history held that 'blind-worms' (slow-worms) and newts were venomous. Spotted snakes with forked ('double') tongues were seen as doubly sinister. Reciting a danger by name was thought to have power over it, a charm structure found across Elizabethan folk magic.",
-    "detail": "Conrad Gesner's Historia animalium (1551) was the leading contemporary natural-history encyclopedia, and Edward Topsell's later Historie of Serpents (1608) records many Elizabethan beliefs about snakes and blind-worms. The charm structure — enumerate what must not come near — parallels the witches' incantations in Macbeth.",
-    "sources": [
-      {
-        "name": "Gesner, Historia animalium",
-        "citation": "Gesner, Conrad. Historia animalium (1551–1587), on serpents (forked-tongue snakes and their supposed danger)."
-      },
-      {
-        "name": "Brooks (Arden 2 MND, 1979)",
-        "citation": "Brooks, Harold F., ed. (1979). A Midsummer Night's Dream, Arden 2. London: Methuen, note on 2.2.9-10 (on apotropaic charm structure)."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 627"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Apotropaic charm structure is the consensus reading (Brooks, Holland, Bevington); Elizabethan belief that blind-worms and newts were venomous is documented by Topsell; parallel to Macbeth incantations is a standard observation."
-      }
-    ],
-    "note_internal": "Generalized the Gesner citation (the volume number was wrong); retained Brooks on the apotropaic charm."
-  },
-  {
-    "id": "midsummer_nights_dream-659-one-heart-one-bed",
-    "play": "midsummer_nights_dream",
-    "tln_start": 659,
-    "tln_end": 659,
-    "word_start": 0,
-    "word_end": 8,
-    "anchor_text": "One heart, one bed, two bosoms, and one troth.",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "Lysander's argument draws on the Renaissance Neoplatonic idea that true lovers share a single soul. The 'two bodies, one soul' formula derives from Ficino's commentary on Plato's Symposium and was a commonplace of Elizabethan love poetry. By claiming their hearts are one, Lysander argues they cannot be truly separated — and thus sleeping side by side is innocent.",
-    "detail": "Marsilio Ficino, Commentarium in Convivium Platonis (1469), especially Speech 2, ch. 8, on the lover's soul migrating into the beloved. The topos appears repeatedly in Sidney's Astrophil and Stella and in Donne. The rhetorical sleight is that 'one bed' is slipped between 'one heart' and 'one troth' as if it follows logically.",
-    "sources": [
-      {
-        "name": "Ficino, Commentarium in Convivium Platonis",
-        "citation": "Ficino, Marsilio. Commentarium in Convivium Platonis (De Amore), on the union of lovers' souls."
-      },
-      {
-        "name": "Brooks (Arden 2 MND, 1979)",
-        "citation": "Brooks, Harold F., ed. (1979). A Midsummer Night's Dream, Arden 2. London: Methuen, note on 2.2.41."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 659"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Ficino's 'two bodies, one soul' topos as the basis for Lysander's sophistry is the standard Arden 2 and Cambridge gloss; the rhetorical sleight of inserting 'one bed' is widely noted. No fringe element."
-      }
-    ],
-    "note_internal": "Generalized the Ficino citation (the precise speech/chapter was wrong); retained Brooks. The two-bodies-one-soul topos is the point."
-  },
-  {
-    "id": "midsummer_nights_dream-731-raven-dove",
-    "play": "midsummer_nights_dream",
-    "tln_start": 731,
-    "tln_end": 731,
-    "word_start": 3,
-    "word_end": 8,
-    "anchor_text": "change a raven for a dove",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "The contrast of raven (black = ugly) and dove (white = beautiful/pure) was a proverbial pair in Elizabethan writing, drawing on biblical imagery. The raven appears in the Geneva Bible as a sign of God's provision (1 Kings 17:4) but also as an omen of ill; the dove is the emblem of innocence and love (Song of Solomon 1:15). Lysander recasts the dark-haired Hermia as the raven and the fair Helena as the dove.",
-    "sources": [
-      {
-        "name": "Tilley, Proverbs in England",
-        "citation": "Tilley, M. P. (1950). A Dictionary of the Proverbs in England. Ann Arbor, R 28: 'A raven is not compared with a dove.'"
-      },
-      {
-        "name": "Geneva Bible 1599",
-        "citation": "Song of Solomon 1:15 (Geneva 1599): the beloved's 'doves' eyes'; cf. 1 Kings 17:4 (ravens feed Elijah)."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 731"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Raven/dove as proverbial dark-ugly/fair-pure pair is standard (Tilley R 28); Song of Solomon resonance is defensible though the primary register is proverbial rather than specifically biblical. The annotation hedges correctly by citing both."
-      }
-    ],
-    "note_internal": "Replaced the Song of Solomon 5:11–12 citation (describes the Bridegroom) with 1:15 (the beloved's dove-eyes), matching the summary; retained Tilley R28."
   }
 ]

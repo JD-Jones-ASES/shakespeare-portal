@@ -1,0 +1,51 @@
+{
+  "play": "winters_tale",
+  "overview": "A late romance in two sharply contrasted halves, hinged by Time as Chorus. In the first, wintry half, King Leontes of Sicilia is overtaken by a sudden, baseless jealousy that his pregnant wife Hermione loves his boyhood friend Polixenes, king of Bohemia. He tries to have Polixenes poisoned (the honest Camillo warns him and they flee), imprisons Hermione, and puts her on trial; he defies the oracle of Apollo, which proclaims her innocent — and is punished at once by the death of his young son Mamillius and the apparent death of his queen. He orders his newborn daughter cast away, and she is left on the coast of Bohemia, where a shepherd finds her as Antigonus exits 'pursued by a bear.' Time then leaps sixteen years. In the warm, pastoral second half, that lost daughter, Perdita, raised as a shepherdess, is loved by Polixenes's son Florizel; amid the sheep-shearing feast, the songs and thefts of the rogue Autolycus, and Polixenes's furious opposition, the young lovers flee to Sicilia. There a cascade of discoveries restores Perdita to her grieving father, and Paulina unveils a 'statue' of Hermione that breathes and steps down alive — a wonder of forgiveness, time, and grace.",
+  "acts": [
+    {
+      "number": 1,
+      "summary": "At the Sicilian court, the long, loving visit of Polixenes of Bohemia turns to disaster when Leontes is seized by jealousy. Convinced his wife and friend are lovers, he orders Camillo to poison Polixenes; Camillo instead warns him, and the two flee to Bohemia.",
+      "scenes": [
+        { "number": 1, "summary": "The courtiers Archidamus (of Bohemia) and Camillo (of Sicilia) praise the deep friendship of their two kings, raised together as boys, and the promise of the young prince Mamillius.", "themes": ["friendship", "courtesy", "childhood"] },
+        { "number": 2, "summary": "When Polixenes makes to leave, Hermione warmly persuades him to stay — and the sight of her success kindles in Leontes an instant, groundless jealousy. He orders his trusted lord Camillo to poison Polixenes; appalled, Camillo warns Polixenes instead, and the two flee Sicilia together that night.", "themes": ["jealousy", "friendship", "loyalty", "tyranny"] }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "Leontes tears his son from Hermione, publicly accuses her, and imprisons her, where she bears a daughter. The bold Paulina carries the baby to the king to soften him, but he rejects it as a bastard and commands Antigonus to abandon the infant in some wild place.",
+      "scenes": [
+        { "number": 1, "summary": "Leontes takes Mamillius from his mother, openly accuses Hermione of adultery and pregnancy by Polixenes, and commits her to prison despite his lords' protests. He has sent to Apollo's oracle at Delphos — but vows to act on his own certainty regardless.", "themes": ["accusation", "jealousy", "imprisonment", "oracle"] },
+        { "number": 2, "summary": "At the prison, Paulina learns that Hermione has given birth to a daughter; she resolves to carry the baby to Leontes herself, trusting the sight of the innocent child to shame him out of his madness.", "themes": ["birth", "advocacy", "innocence"] },
+        { "number": 3, "summary": "Paulina defies the king and lays the newborn before him, denouncing his tyranny; enraged, Leontes nearly has her burned, rejects the child as a bastard, and orders Antigonus to carry it to some remote place and abandon it to chance.", "themes": ["defiance", "tyranny", "abandonment"] }
+      ]
+    },
+    {
+      "number": 3,
+      "summary": "The oracle declares Hermione innocent, but Leontes denies it — and is struck by news of Mamillius's death; the queen collapses and is reported dead. On the far coast of Bohemia, Antigonus leaves the baby and is killed by a bear, and an old shepherd finds the child.",
+      "scenes": [
+        { "number": 1, "summary": "Returning from Delphos, the envoys Cleomenes and Dion marvel at the temple and the oracle, and hope its sealed answer will clear the queen.", "themes": ["oracle", "religion", "hope"] },
+        { "number": 2, "summary": "At Hermione's trial she defends herself with grave dignity. Apollo's oracle is read aloud — she is chaste, Leontes a jealous tyrant, 'and the king shall live without an heir if that which is lost be not found.' Leontes blasphemously rejects it; word comes that Mamillius has died of grief, the queen swoons and is carried off, reported dead, and the stricken king repents.", "themes": ["trial", "oracle", "divine_justice", "repentance", "death"] },
+        { "number": 3, "summary": "On the Bohemian coast Antigonus lays down the baby with gold and the name 'Perdita,' recounts a dream of Hermione, and makes his famous exit 'pursued by a bear.' An old shepherd finds the child — 'thou met'st with things dying, I with things new-born' — and resolves to raise her.", "themes": ["abandonment", "death", "rescue", "fortune"] }
+      ]
+    },
+    {
+      "number": 4,
+      "summary": "Time leaps sixteen years to Bohemia. Polixenes and Camillo plan to spy on Prince Florizel's love for a shepherdess; at the sheep-shearing feast — enlivened by the thieving balladeer Autolycus — Florizel and Perdita pledge their love, Polixenes reveals himself and forbids the match in fury, and Camillo sends the lovers fleeing to Sicilia.",
+      "scenes": [
+        { "number": 1, "summary": "Time, as Chorus, turns his glass and slides over sixteen years, carrying the story from Leontes's grief to Bohemia, where Perdita has grown up and Polixenes's son Florizel loves her.", "themes": ["time", "chorus", "transition"] },
+        { "number": 2, "summary": "Polixenes and the homesick Camillo discuss the prince's neglect of the court for a shepherd's daughter; the king proposes they go in disguise to the sheep-shearing to discover the truth.", "themes": ["surveillance", "fatherhood", "homesickness"] },
+        { "number": 3, "summary": "The merry rogue Autolycus — peddler, ballad-seller, and pickpocket — sings of spring and the open road, then picks the pocket of the Clown by pretending to have been robbed and beaten.", "themes": ["roguery", "song", "trickery"] },
+        { "number": 4, "summary": "At the sheep-shearing feast Perdita, queen of the day, gives out flowers and pledges love with the disguised Florizel. Autolycus sells ballads and trinkets and cuts purses. Polixenes and Camillo, disguised, watch; when Florizel betroths himself, the king reveals himself and furiously forbids the match, threatening Perdita and the shepherd. Camillo, longing for home, secretly steers the desperate lovers to take ship for Sicilia, and turns Autolycus's tricks to use.", "themes": ["pastoral", "love", "disguise", "festivity", "wrath"] }
+      ]
+    },
+    {
+      "number": 5,
+      "summary": "In Sicilia the still-grieving Leontes welcomes Florizel and Perdita; Polixenes arrives in pursuit, and the discovery of Perdita's tokens reveals her as the lost princess. Reconciled, the company goes to Paulina's house, where a 'statue' of Hermione comes to life.",
+      "scenes": [
+        { "number": 1, "summary": "Leontes, sixteen years penitent and urged by Paulina never to remarry, receives the fugitive Florizel and Perdita warmly — until news comes that Polixenes has followed them to Sicilia.", "themes": ["penitence", "hospitality", "pursuit"] },
+        { "number": 2, "summary": "Gentlemen breathlessly report the off-stage wonders: the shepherd's tokens prove Perdita to be Leontes's lost daughter, the kings are reconciled, and all hurry to Paulina's to see a newly finished statue of Hermione by the master Giulio Romano. Autolycus hears how the shepherd and Clown have been made gentlemen.", "themes": ["recognition", "reunion", "wonder", "art"] },
+        { "number": 3, "summary": "At Paulina's house a lifelike statue of Hermione is unveiled. As music plays, Paulina bids it descend; the 'statue' steps down alive, the long-lost queen restored to her husband and to the daughter she never knew. Forgiveness is sealed and Paulina matched with Camillo.", "themes": ["resurrection", "forgiveness", "reunion", "grace", "art"] }
+      ]
+    }
+  ]
+}

@@ -250,6 +250,56 @@
     ]
   },
   {
+    "id": "henry_vi_part_1-33-thread-of-life",
+    "play": "henry_vi_part_1",
+    "tln_start": 34,
+    "tln_end": 34,
+    "word_start": 0,
+    "word_end": 8,
+    "anchor_text": "His thread of life had not so soon decay'd",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "The 'thread of life' refers to the myth of the three Fates (Greek Moirai, Roman Parcae), who spin each person's life as a thread and end the life when they cut it. Gloucester blames the church for Henry V's early death, but his metaphor is classical: even the Fates' thread, he implies, was cut too soon by church neglect.",
+    "detail": "In Greek myth the three Fates — Clotho (the spinner), Lachesis (the allotter), and Atropos (the cutter) — controlled every human life, and 'cutting the thread' was a standard ancient figure for death. The image was common enough in Shakespeare's England to function as ordinary idiom, but its origin in classical fate-mythology would have been recognized by educated playgoers. Gloucester is simultaneously attacking Winchester's competence and invoking an image of destiny.",
+    "sources": [
+      {
+        "name": "Hesiod, Theogony",
+        "citation": "Hesiod, Theogony 218 (the Moirai who spin and allot mortal lives); the Fates' cutting of the thread of life is a standard image throughout Ovid's Metamorphoses."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 34"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Kept the gloss; dropped the wrong Ovid Met. 15.781 locus and generalized the Ovid reference to work level, leaning on the accurate Hesiod Theogony 218 citation."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The three Fates spinning and cutting the thread of life is a genuine classical image; 'thread of life' was a recognized English idiom with classical roots; Gloucester's simultaneous attack on Winchester and invocation of destiny is supported by the speech context."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Kept the gloss; dropped the wrong Ovid Met. 15.781 locus and generalized the Ovid reference to work level, leaning on the accurate Hesiod Theogony 218 citation. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_vi_part_1-50-marish-salt-tears",
     "play": "henry_vi_part_1",
     "tln_start": 50,
@@ -758,6 +808,60 @@
         "note": "'Stern' as the steering position of a ship is correct; 'public weal' as the commonwealth is correct; the ship-of-state metaphor reading and the characterization of Winchester's closing couplet as a revelation of sinister ambition to control the infant king are both textually supported by TLN 175-177."
       }
     ]
+  },
+  {
+    "id": "henry_vi_part_1-178-mars-true-moving",
+    "play": "henry_vi_part_1",
+    "tln_start": 178,
+    "tln_end": 178,
+    "word_start": 0,
+    "word_end": 8,
+    "anchor_text": "Mars his true moving, even as in the heavens",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Mars was the Roman god of war; 'his true moving' compares Mars's orbit in the sky (irregular to Elizabethan astrologers, who counted Mars a wandering planet) to the shifting fortunes of battle. Charles says that just as Mars's path through the heavens is unknown, so on earth the god now smiles on France rather than England.",
+    "detail": "Ptolemaic astronomy held that Mars, unlike the fixed stars, had an irregular 'motion' — at times appearing to move backward (retrograde) against the sky. Military fate was thought to depend on planetary favor, so Charles casts France's recent victories in astrological as well as mythological terms. Mars is a major Olympian throughout Ovid's Metamorphoses, and the association of the planet Mars with warfare was standard in Renaissance astrology.",
+    "sources": [
+      {
+        "name": "Schmidt, Shakespeare-Lexicon",
+        "citation": "Schmidt, Shakespeare-Lexicon, s.v. 'Mars' (the god and planet as types of martial power)."
+      },
+      {
+        "name": "Ovid, Metamorphoses",
+        "citation": "Ovid, Metamorphoses (Mars treated as a major Olympian war-god throughout)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 178"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Kept the gloss and the verified Schmidt citation; dropped the two wrong Ovid loci (2.543, 5.31) and the mischaracterized Tetrabiblos 1.4 locus, generalizing Ovid to work level and 'Ptolemy' to Ptolemaic astronomy."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Charles's opening speech ('Mars his true moving, even as in the heavens / So in the earth, to this day is not known') explicitly invokes the planet's unpredictable motion as an analogy for shifting military fortune; the astrological reading is straightforward and well-supported."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Kept the gloss and the verified Schmidt citation; dropped the two wrong Ovid loci (2.543, 5.31) and the mischaracterized Tetrabiblos 1.4 locus, generalizing Ovid to work level and 'Ptolemy' to Ptolemaic astronomy. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "henry_vi_part_1-184-otherwhiles",
@@ -2597,6 +2701,65 @@
     ]
   },
   {
+    "id": "henry_vi_part_1-543-devils-dam",
+    "play": "henry_vi_part_1",
+    "tln_start": 543,
+    "tln_end": 543,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "Devil or devil's dam, I 'll conjure thee",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Dam' means mother (the same word used for a female animal's offspring). Talbot is calling Joan either the devil himself or the devil's own mother — both are insults framing her as supernatural evil. 'Conjure thee' means to exorcise or overpower by a magic formula; he will draw blood to prove she is a witch, since folk belief held a witch could be defeated by drawing her blood.",
+    "detail": "The pairing 'devil or devil's dam' was a standard Elizabethan curse-intensifier: if she is not Satan herself she is his mother, which amounts to the same condemnation. Talbot's logic in the next line — 'Blood will I draw on thee, thou art a witch' — reflects the period belief, discussed and debunked in Reginald Scot's Discoverie of Witchcraft, that scratching a suspected witch to draw blood would break her power. The whole exchange establishes the play's hostile framing of Joan: where the French see a divinely inspired champion, the English see a diabolical deceiver.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'dam' n.2: 'The mother of a four-footed animal; extended to any female parent, esp. in insult.'"
+      },
+      {
+        "name": "Scot, Discoverie of Witchcraft",
+        "citation": "Reginald Scot, The Discoverie of Witchcraft (1584): the popular practice of scratching a suspected witch to draw blood as a means of defeating her power."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "joan-la-pucelle"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 543"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Kept the gloss and OED citation; dropped the fabricated Scot 'Book 1, ch. 10' locus (Book 1 has only nine chapters) and generalized the Scot citation to the work."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The 'devil or devil's dam' idiom is well-attested Elizabethan intensifier, and the gloss accurately connects 'conjure thee' plus the blood-drawing threat to Elizabethan witch-trial practice (Scot) without over-reading the line."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Kept the gloss and OED citation; dropped the fabricated Scot 'Book 1, ch. 10' locus (Book 1 has only nine chapters) and generalized the Scot citation to the work. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_vi_part_1-552-victual-orleans",
     "play": "henry_vi_part_1",
     "tln_start": 552,
@@ -2862,6 +3025,60 @@
         "note": "The Astraea-as-justice / last-immortal identification is mainstream classical scholarship, the Elizabeth I = Astraea poetic type is well-established (Yates 1975), and the theatrical irony that a French character usurps England's royal symbol is a defensible, standard critical reading of the scene."
       }
     ]
+  },
+  {
+    "id": "henry_vi_part_1-583-adonis-gardens",
+    "play": "henry_vi_part_1",
+    "tln_start": 583,
+    "tln_end": 583,
+    "word_start": 0,
+    "word_end": 5,
+    "anchor_text": "Thy promises are like Adonis' gardens",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "In antiquity, 'gardens of Adonis' were small pots of fast-sprouting, fast-withering herbs grown for the summer festival of Adonis. They stood for things that bloom beautifully but briefly. Charles means the opposite: Joan's promises bloomed one day and bore fruit the very next — she was even quicker to deliver than those notoriously hasty little plants.",
+    "detail": "The Greek and Roman festival of Adonis (the Adonia) involved planting seeds in shallow baskets or pots that germinated quickly in the summer heat but had no roots and wilted within days — a ritual mourning for the beautiful youth Adonis who died young. Plato uses the phrase in the Phaedrus to describe writing that looks lush but has no depth. The allusion was current in Renaissance England as shorthand for fragile, hasty beauty. Charles turns that proverb into a compliment: Joan's word was fulfilled so swiftly it outdid even those legendary fast-bloomers.",
+    "sources": [
+      {
+        "name": "Plato, Phaedrus",
+        "citation": "Plato, Phaedrus 276B (Socrates dismisses writing as mere 'gardens of Adonis' — pleasant-looking but rootless)."
+      },
+      {
+        "name": "Plutarch, Lives",
+        "citation": "Plutarch, Life of Alcibiades (the gardens of Adonis as a token of short-lived enterprise); the fast-sprouting pots are a general feature of the Adonia festival."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 583"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Kept the gloss and the verified Plato 276B citation; generalized the Plutarch citation to the Life of Alcibiades (dropping the wrong 'ch. 18' content claim)."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The core gloss (Adonis gardens = things that bloom quickly but wither) is accurate, and the annotation's reading that Charles inverts the proverb into a compliment — Joan's promises bloomed AND bore fruit the next day, outpacing even the fast-withering plants — is defensible given the celebratory context, though the ambiguity is real and noted."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Kept the gloss and the verified Plato 276B citation; generalized the Plutarch citation to the Life of Alcibiades (dropping the wrong 'ch. 18' content claim). [orig: source=refuted, interp=verified]"
   },
   {
     "id": "henry_vi_part_1-598-rhodope-pyramis",
@@ -3252,6 +3469,65 @@
         "note": "'Quittance' as 'to repay in kind' and 'baleful' as 'deadly/evil' are both accurate; the note that the English commanders frame Joan as a sorceress is directly supported by the scene text (TLN 620-24) and the play's consistent English perspective."
       }
     ]
+  },
+  {
+    "id": "henry_vi_part_1-629-prove-not-masculine",
+    "play": "henry_vi_part_1",
+    "tln_start": 629,
+    "tln_end": 631,
+    "word_start": 0,
+    "word_end": 2,
+    "anchor_text": "Pray God she prove not masculine ere long, If underneath the standard of the French She carry armour",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "Burgundy voices a common English jeer at Joan: a woman who keeps fighting in armor will, in time, turn masculine. 'Standard' means battle-flag or banner. The crude joke draws on Elizabethan anxieties about women in male roles — cross-dressing and gender transgression were deeply controversial — and on the broader hostility the English characters show toward a woman bearing arms.",
+    "detail": "Wearing male clothing and armor was, historically, one of the charges brought against Joan at her 1431 trial, where the tribunal treated it as heresy; Holinshed reproduces that charge from the trial records. Shakespeare's Burgundy is not staging the trial here, but his sneer belongs to the same hostile framing — a fighting woman is treated as unnatural. The line is part of the play's running degradation of Joan.",
+    "sources": [
+      {
+        "name": "Holinshed, Chronicles",
+        "citation": "Holinshed, Chronicles (1587): the record of Joan's 1431 trial and the charge of wearing male clothing and armor."
+      },
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'standard' (n.): a military flag or banner under which troops fight."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "joan-la-pucelle"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 629"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Holinshed 1587 does record Joan's appearance in male armor and the cross-dressing charge at her 1431 trial; OED 'standard' (military flag) is a real entry — both sources support the claims."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Interp over-reach trimmed: removed the claim that the line itself enacts the 1431 trial charge and the 'audience knows she will be burned' dramatic-irony frame; kept it as crude Elizabethan gender-mockery with the trial charge as historical background (still Holinshed-sourced)."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Interp over-reach trimmed: removed the claim that the line itself enacts the 1431 trial charge and the 'audience knows she will be burned' dramatic-irony frame; kept it as crude Elizabethan gender-mockery with the trial charge as historical background (still Holinshed-sourced). [orig: source=verified, interp=refuted]"
   },
   {
     "id": "henry_vi_part_1-642-mount-or-make-grave",
@@ -3799,6 +4075,61 @@
         "note": "Both glosses are standard: 'fain' as 'gladly/eagerly' and 'censure' as neutral 'judgment/opinion' are well-attested Shakespearean senses; the reading matches the Countess's stated desire to verify reports with her own eyes."
       }
     ]
+  },
+  {
+    "id": "henry_vi_part_1-771-hercules-hector",
+    "play": "henry_vi_part_1",
+    "tln_start": 771,
+    "tln_end": 772,
+    "word_start": 6,
+    "word_end": 6,
+    "anchor_text": "some Hercules, A second Hector, for his grim aspect",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Hercules was the strongest hero of Greek myth, famous for twelve near-impossible labors; Hector was the greatest warrior of Troy, described throughout Homer's Iliad as tall and terrifying in appearance. The Countess expected a physically imposing giant. Finding Talbot small, she dismisses the reports of his terror — only to discover that, like both heroes, his power is not in his body alone.",
+    "detail": "Hercules (Herakles) represented superlative physical strength; his twelve labors were the ancient benchmark for feats of force (told in Apollodorus, Library, Book 2). Hector, the Trojan champion, is repeatedly named by Homer as the greatest fighter in aspect and deed (Iliad 22). Pairing the two — one Greek, one Trojan — is the standard classical doubling for overwhelming martial prowess. The scene then inverts the expectation: Talbot's 'substance' is his army, not his body, making the joke at the Countess's expense about what real power looks like.",
+    "sources": [
+      {
+        "name": "Apollodorus, Library; Homer, Iliad",
+        "citation": "Apollodorus, Library, Book 2 (Hercules' twelve labors); Homer, Iliad 22 (Hector as supreme Trojan warrior)."
+      }
+    ],
+    "references": [
+      {
+        "kind": "classical",
+        "card_id": "hercules"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 771"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Kept the gloss and the verified Iliad 22 citation; generalized the garbled Apollodorus locus '2.4.8-2.7' to Library Book 2 (the labors)."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The Countess literally says she expected 'some Hercules, / A second Hector, for his grim aspect,' so the gloss is grounded in the text; the interpretation that she expected a physically imposing giant, then discovers his power is collective, tracks accurately with the scene's action."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Kept the gloss and the verified Iliad 22 citation; generalized the garbled Apollodorus locus '2.4.8-2.7' to Library Book 2 (the labors). [orig: source=refuted, interp=verified]"
   },
   {
     "id": "henry_vi_part_1-775-writhled-shrimp",
@@ -4732,6 +5063,56 @@
         "note": "Pursuivant as herald or advance messenger is the standard Elizabethan usage, and the heraldic conceit fits the line exactly."
       }
     ]
+  },
+  {
+    "id": "henry_vi_part_1-978-nestor-aged",
+    "play": "henry_vi_part_1",
+    "tln_start": 978,
+    "tln_end": 978,
+    "word_start": 0,
+    "word_end": 6,
+    "anchor_text": "Nestor-like aged in an age of care",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Nestor was the oldest of the Greek heroes at Troy — Homer says he had already outlived two generations of fighting men and was ruling among a third — so his name became a byword for extreme old age. Mortimer compares his gray hair to Nestor's, linking his long imprisonment to drawn-out suffering.",
+    "detail": "Homer's Nestor in the Iliad boasts of having outlived two generations and now ruling among the third; his name was proverbial in Elizabethan writing for venerable longevity. The doubled 'age' — Nestor-like aged / in an age of care — is deliberate wordplay: Mortimer is old both in years and in grief.",
+    "sources": [
+      {
+        "name": "Homer, Iliad",
+        "citation": "Homer, Iliad 1.247-252 (Nestor as elder statesman who has outlived two generations of heroes and rules among the third)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 978"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Corrected the count: Homer (Iliad 1.247-252, locus confirmed) has Nestor outlive two generations and rule among the third, not 'three generations'; fixed both summary and detail, kept the otherwise-accurate citation."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The Nestor comparison is solidly Homeric and proverbial in Elizabethan writing; the doubled-'age' wordplay observation is a reasonable and unforced reading of the line."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Corrected the count: Homer (Iliad 1.247-252, locus confirmed) has Nestor outlive two generations and rule among the third, not 'three generations'; fixed both summary and detail, kept the otherwise-accurate citation. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "henry_vi_part_1-981-drawing-to-exigent",
@@ -6640,6 +7021,60 @@
     ]
   },
   {
+    "id": "henry_vi_part_1-1370-railing-hecate",
+    "play": "henry_vi_part_1",
+    "tln_start": 1370,
+    "tln_end": 1370,
+    "word_start": 0,
+    "word_end": 6,
+    "anchor_text": "I speak not to that railing Hecate",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Hecate was the Greek goddess of magic, witchcraft, and the dark of the moon — the patron deity of sorcerers. Talbot calls Joan 'that railing Hecate' to dismiss her as a screaming witch rather than a person worthy of address. The allusion links to Talbot's repeated characterization of Joan as a sorceress rather than a soldier.",
+    "detail": "In classical and Renaissance tradition, Hecate was the goddess of crossroads, the night, and harmful magic; she was invoked by witches and associated with the howling of dogs, and she appears as a triple deity (sky, earth, underworld). Calling Joan 'Hecate' does double work: it insults her as a witch (rather than a warrior deserving chivalric respect) and lets Talbot refuse to dignify her with a reply — he addresses the French lords instead.",
+    "sources": [
+      {
+        "name": "Hesiod, Theogony",
+        "citation": "Hesiod, Theogony 411-452 (Hecate's triple domains of sky, earth, and sea; her awesome, dark power)."
+      },
+      {
+        "name": "Ovid, Metamorphoses",
+        "citation": "Ovid, Metamorphoses, Book 7 (Medea's invocation of Hecate in her witchcraft)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1370"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Kept the gloss and the verified Hesiod Theogony 411-452 citation; dropped the wrong Ovid line loci (7.94-99, 7.218-219) and generalized the Ovid reference to Metamorphoses Book 7 (the Medea episode)."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Hecate as witch-goddess fits Talbot's consistent witch-framing of Joan throughout the play (cf. TLN 1344 'that witch, that damned sorceress')."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Kept the gloss and the verified Hesiod Theogony 411-452 citation; dropped the wrong Ovid line loci (7.94-99, 7.218-219) and generalized the Ovid reference to Metamorphoses Book 7 (the Medea episode). [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_vi_part_1-1374-base-muleters",
     "play": "henry_vi_part_1",
     "tln_start": 1374,
@@ -7281,6 +7716,61 @@
     ]
   },
   {
+    "id": "henry_vi_part_1-1480-fortune-favor",
+    "play": "henry_vi_part_1",
+    "tln_start": 1480,
+    "tln_end": 1480,
+    "word_start": 0,
+    "word_end": 6,
+    "anchor_text": "Fortune in favor makes him lag behind",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Joan reads the situation as Fortune's work: because Fortune currently favors the French, Burgundy has fallen behind Talbot's march — trailing at the rear. 'Fortune in favor' invokes the classical goddess Fortuna, who spun her wheel to raise and cast down great men at random; the image is the running Fortune's-wheel motif of the history plays.",
+    "detail": "The figure of Fortune turning her wheel — favoring one side, then casting it down — descends from Boethius's Consolation of Philosophy, the foundational medieval and Renaissance account, and recurs across Shakespeare's histories. Here it gives Joan a ready way to read the French advantage: with Fortune favoring them, the moment has come to peel Burgundy away from the English.",
+    "sources": [
+      {
+        "name": "Boethius, Consolation of Philosophy",
+        "citation": "Boethius, Consolatio Philosophiae, Book II (Fortune turning her wheel and the instability of worldly favor); the standard medieval and Renaissance text for the idea."
+      }
+    ],
+    "references": [
+      {
+        "kind": "classical",
+        "card_id": "fortunes-wheel"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1480"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Boethius Consolation of Philosophy Book II, prose 1-2 is the standard locus for Fortune's wheel speech and is accurately described; the citation is correct and supportive."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Interp over-reach trimmed: removed the sustained Boethian-theology reading and the claim that Fortune is already 'separating Burgundy from England'; kept the defensible core that 'Fortune in favor' invokes Fortuna/the wheel as Joan reads the French advantage. Boethius source kept (verified) and generalized to Book II."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Interp over-reach trimmed: removed the sustained Boethian-theology reading and the claim that Fortune is already 'separating Burgundy from England'; kept the defensible core that 'Fortune in favor' invokes Fortuna/the wheel as Joan reads the French advantage. Boethius source kept (verified) and generalized to Book II. [orig: source=verified, interp=refuted]"
+  },
+  {
     "id": "henry_vi_part_1-1494-mother-lowly-babe",
     "play": "henry_vi_part_1",
     "tln_start": 1494,
@@ -7439,6 +7929,61 @@
         "note": "The historical facts cited (Orleans captured at Agincourt, held in England, released 1440) are accurate; the annotation correctly identifies the argument Joan makes and appropriately hedges that the cynical anti-Burgundy motive is Joan's rhetorical spin, not established history."
       }
     ]
+  },
+  {
+    "id": "henry_vi_part_1-1532-done-like-a-frenchman",
+    "play": "henry_vi_part_1",
+    "tln_start": 1532,
+    "tln_end": 1533,
+    "word_start": 0,
+    "word_end": 0,
+    "anchor_text": "Done like a Frenchman: turn and turn again!",
+    "type": "historical_topical",
+    "depth": "scholar",
+    "summary": "Joan's aside undercuts the triumphant scene: 'Done like a Frenchman: turn and turn again!' is a contemptuous English proverb about French inconstancy. Shakespeare shows Joan's cynicism — she has just argued for French loyalty, but privately scorns Burgundy as a predictable turncoat — while handing the English audience a knowing laugh at French fickleness. The line is an aside, heard only by the audience.",
+    "detail": "The proverb that the French 'turn with the wind' was a standard English ethnic slur: the French were stereotyped as vain, inconstant, and easily swayed (see Tilley/Dent on the proverb of French inconstancy). For an Elizabethan audience watching the French celebrate Burgundy's defection, Joan's private comment signals she has no real loyalty to the ideals of her own speech — she used them as tools. The aside echoes the English audience's own contempt back through the mouth of the French champion, a deft dramatic irony: Joan voices the anti-French stereotype about a man she just successfully manipulated.",
+    "sources": [
+      {
+        "name": "Tilley, Proverbs",
+        "citation": "M. P. Tilley, A Dictionary of the Proverbs in England in the Sixteenth and Seventeenth Centuries (1950), the proverb of French inconstancy ('Frenchmen turn with the wind')."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "joan-la-pucelle"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1532"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Kept the gloss; dropped the wrong Tilley number 'F681' (that entry is a Friday proverb) and generalized to Tilley/Dent's proverb of French inconstancy without inventing a new number."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The ethnic proverb, the aside as heard-only-by-audience convention, and the dramatic irony of Joan voicing an anti-French stereotype are all well-grounded in the text; the claim that Joan is a 'cynical political operator' is a mainstream interpretive position firmly supported by the scene's action."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Kept the gloss; dropped the wrong Tilley number 'F681' (that entry is a Friday proverb) and generalized to Tilley/Dent's proverb of French inconstancy without inventing a new number. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "henry_vi_part_1-1563-reguerdon",
@@ -7604,6 +8149,60 @@
         "note": "Reading 'colors' as the Yorkist rose livery from the Temple Garden scene is consistent with the text and standard Tudor stage convention for livery allegiance."
       }
     ]
+  },
+  {
+    "id": "henry_vi_part_1-1578-law-of-arms",
+    "play": "henry_vi_part_1",
+    "tln_start": 1578,
+    "tln_end": 1579,
+    "word_start": 3,
+    "word_end": 7,
+    "anchor_text": "the law of arms is such That whoso draws a sword, 'tis present death",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "Drawing a weapon within the royal precincts — the 'verge' around the king's person — was a capital offense under Tudor law. Basset invokes this 'law of arms' to explain why he cannot draw his sword and strike back at Vernon on the spot, but must instead petition the king for a formal duel. 'Standard' is not in play here; 'present death' means immediate death.",
+    "detail": "The relevant English statute is the Offences within the Court Act (33 Henry VIII c.12, 1541-42), building on the medieval law of arms administered by the Court of the Constable and Marshal: to wound anyone within the verge of the court was punishable by loss of the right hand, and to kill was a capital offense. Because he cannot lawfully retaliate in the king's presence, Basset must channel his grievance into a petition — 'I'll unto his majesty, and crave / I may have liberty to venge this wrong' — which puts the rose quarrel before Henry in Act 4.",
+    "sources": [
+      {
+        "name": "Statutes of the Realm",
+        "citation": "Statute 33 Henry VIII c.12 (Offences within the Court Act, 1541-42): drawing blood within the royal verge punishable by loss of the right hand, killing as a capital offense; building on the medieval jurisdiction of the Constable's Court."
+      },
+      {
+        "name": "Schmidt",
+        "citation": "Schmidt, Shakespeare-Lexicon, s.v. 'present': 'immediate, instant.'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1578"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "33 Henry VIII c.12 (Offences within the Court Act 1541) is a real statute whose long title explicitly references 'Murther and malicious Bloudshed within the Courte'; the provision that drawing blood within the royal verge was punishable by loss of the right hand is consistent with the act's known subject matter and widely cited in Tudor legal history; the Holinshed citation for the same point is plausible and the statute reference is precise and correct."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Interp over-reach corrected: the law-of-arms invocation explains why Basset himself cannot draw his sword in retaliation, not that Vernon's hand-blow was a capital offense; rewrote summary/detail to that reading. Verified statute citation kept."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Interp over-reach corrected: the law-of-arms invocation explains why Basset himself cannot draw his sword in retaliation, not that Vernon's hand-blow was a capital offense; rewrote summary/detail to that reading. Verified statute citation kept. [orig: source=verified, interp=refuted]"
   },
   {
     "id": "henry_vi_part_1-1587-coronation-paris",
@@ -8699,6 +9298,60 @@
     ]
   },
   {
+    "id": "henry_vi_part_1-1826-deer-rascal",
+    "play": "henry_vi_part_1",
+    "tln_start": 1826,
+    "tln_end": 1827,
+    "word_start": 3,
+    "word_end": 6,
+    "anchor_text": "park'd and bounded in a pale, A little herd of England's timorous deer",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Talbot extends a hunting metaphor across ten lines to rally his surrounded men. 'Park'd' means penned inside a deer-park; 'pale' is the fence enclosing it; 'rascal' is a technical hunting term for a lean, inferior deer unfit to be hunted — Talbot urges his men not to be like 'rascals' that collapse at a mere pinch, but like full-blooded stags who turn on the hounds. The final line pays the pun off: 'dear deer of us' plays on dear (costly, beloved) and deer (the animal).",
+    "detail": "All the technical vocabulary is hunting jargon: 'in blood' means a deer in prime condition at the height of the season; 'rascal' specifically denotes young or scrawny animals excluded from a proper hunt; 'kennel' is the pack of hounds; 'at bay' is the posture of hounds forced to keep their distance by a stag. The metaphor both shames (they are penned deer) and elevates (they can be noble stags); Talbot turns the trap into a test of courage. The dear/deer pun simultaneously inverts the insult — they will cost the French dearly — and affirms the men's value.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'rascal' n. 1 (a young, lean, inferior deer, excluded from the count of proper game); s.v. 'in blood' phr. (of deer: in full vigour, in hunting season)."
+      },
+      {
+        "name": "The Noble Art of Venerie (1575)",
+        "citation": "The Noble Art of Venerie or Hunting (1575; attributed to George Gascoigne), on the technical vocabulary of deer-hunting — 'rascal' for an inferior deer, 'in blood' for a deer in prime condition, and 'bay' for the stag's last stand."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1826"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Kept the gloss and verified OED citation; corrected the authorship of The Noble Art of Venerie (modern scholarship attributes it to Gascoigne, not Turbervile) and noted the attribution rather than asserting the wrong author, and dropped the unverifiable page numbers."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "All technical hunting vocabulary ('rascal', 'in blood', 'pale', 'kennel', 'bay') is correctly glossed per Turbervile and OED, and the dear/deer pun is explicit in the text at TLN 1835; no overreach."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Kept the gloss and verified OED citation; corrected the authorship of The Noble Art of Venerie (modern scholarship attributes it to Gascoigne, not Turbervile) and noted the attribution rather than asserting the wrong author, and dropped the unverifiable page numbers. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_vi_part_1-1836-saint-george",
     "play": "henry_vi_part_1",
     "tln_start": 1836,
@@ -9132,6 +9785,65 @@
     ]
   },
   {
+    "id": "henry_vi_part_1-1927-fraud-of-england",
+    "play": "henry_vi_part_1",
+    "tln_start": 1927,
+    "tln_end": 1927,
+    "word_start": 0,
+    "word_end": 8,
+    "anchor_text": "The fraud of England, not the force of France",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Lucy's line is built on a sharp antithesis: the thing killing Talbot is not the military power of the enemy (France) but the treachery of his own side (England). The parallel structure — 'fraud of England / force of France' — makes the contrast impossible to miss and gives it the weight of an epigram. It is the scene's moral verdict in a single line.",
+    "detail": "The device is antithesis (setting two opposed ideas in parallel grammatical structure), deployed at the scene's turning point: 'fraud' (treachery) is set against 'force' (military power), 'England' against 'France.' The line inverts the expected heroic narrative — the English hero should die by French strength, not English betrayal — and that inversion is what makes it memorable; the nobles' mutual accusation ('York set him on; York should have sent him aid') merely confirms the 'fraud.' Thomas Nashe, in Pierce Penniless (1592), famously praised the Talbot scenes — 'How would it haue ioyed braue Talbot... to thinke that after he had lyne two hundred yeares in his Tombe, hee should triumphe againe on the Stage' — testimony to the emotional power of lines like this one.",
+    "sources": [
+      {
+        "name": "Holinshed, Chronicles (1587)",
+        "citation": "Raphael Holinshed, Chronicles of England, Scotland, and Ireland (1587): the death of Talbot at Castillon (1453) and the failure of English reinforcement — the historical seed of this scene's accusation."
+      },
+      {
+        "name": "Nashe, Pierce Penniless (1592)",
+        "citation": "Thomas Nashe, Pierce Penniless his Supplication to the Devil (1592): 'How would it haue ioyed braue Talbot... to thinke that after he had lyne two hundred yeares in his Tombe, hee should triumphe againe on the Stage.'"
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "lord-talbot"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1927"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Kept the gloss and both sources; corrected the garbled Nashe quotation from 'How it would haue ioyed' to the witnessed reading 'How would it haue ioyed' in both detail and citation."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The antithesis (fraud/force, England/France) is plainly present in the parallel structure; the Nashe reception note is accurate and the Holinshed reference is used as contextual background, not over-claimed as a source of the device."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Kept the gloss and both sources; corrected the garbled Nashe quotation from 'How it would haue ioyed' to the witnessed reading 'How would it haue ioyed' in both detail and citation. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_vi_part_1-1929-betrayd-to-fortune",
     "play": "henry_vi_part_1",
     "tln_start": 1929,
@@ -9298,6 +10010,65 @@
         "note": "Astrological sense of 'malignant' for a hostile planetary influence is mainstream Elizabethan usage, and the annotation's framing of cosmically inevitable catastrophe against the political reality (Somerset's failure) is a sound dramatic-irony reading."
       }
     ]
+  },
+  {
+    "id": "henry_vi_part_1-1950-bastard-slave",
+    "play": "henry_vi_part_1",
+    "tln_start": 1951,
+    "tln_end": 1952,
+    "word_start": 0,
+    "word_end": 8,
+    "anchor_text": "Dishonor not her honorable name, To make a bastard and a slave of me",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "John Talbot argues that if he flees the battle he will effectively deny being his father's son: a 'bastard' is an illegitimate child who cannot claim his father's name or honor, and a 'slave' is a person with no free-born dignity. In Elizabethan honor culture cowardice was equated with low birth; fleeing would prove — to the world's eyes — that John could not truly be Talbot's son. He also invokes his mother's honor: she bore a legitimate son, and cowardice would retroactively shame her.",
+    "detail": "The logic is that aristocratic courage was thought hereditary, passed through blood. A man who behaved dishonorably cast doubt on his own legitimacy, since nobility was inseparable from valor; to run away would be to perform bastardy, whatever the biological fact. 'Slave' reinforces this — a born slave could not be expected to fight bravely; a free-born gentleman could. The appeal to his mother's name sharpens it: Lady Talbot's honor rests on having borne a true Talbot, not a coward.",
+    "sources": [
+      {
+        "name": "Holinshed",
+        "citation": "Holinshed, Chronicles (1587): the Talbot family honor and the double death at Castillon (1453), treated as exemplary of the chivalric ideal the history plays inherit."
+      },
+      {
+        "name": "Schmidt",
+        "citation": "Schmidt, Shakespeare-Lexicon, s.v. 'bastard': 'an illegitimate child; one born out of wedlock.'"
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "lord-talbot"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1951"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Kept the gloss (the honor-culture reading is interp-verified); corrected the Schmidt citation to its actual definition ('born out of wedlock'), dropping the invented extended sense the judge flagged."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The core argument — cowardly flight performs bastardy by denying noble blood, and 'slave' opposes the free-born courage expected of a gentleman — is a mainstream reading of Elizabethan honor culture as dramatized in the text."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Kept the gloss (the honor-culture reading is interp-verified); corrected the Schmidt citation to its actual definition ('born out of wedlock'), dropping the invented extended sense the judge flagged. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "henry_vi_part_1-1969-beg-mortality",
@@ -9929,6 +10700,65 @@
     ]
   },
   {
+    "id": "henry_vi_part_1-2109-alcides",
+    "play": "henry_vi_part_1",
+    "tln_start": 2109,
+    "tln_end": 2109,
+    "word_start": 3,
+    "word_end": 7,
+    "anchor_text": "great Alcides of the field",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Alcides was another name for Hercules, derived from his grandfather Alcaeus. Sir William Lucy applies it to the dead Talbot, comparing him to the greatest strongman-hero of classical myth. The epithet raises Talbot's military feats to the level of the legendary labours of Hercules.",
+    "detail": "In classical tradition Hercules was sometimes called Alcides (descendant of Alcaeus) to distinguish him from others sharing the name Heracles. By calling Talbot 'the great Alcides of the field,' Lucy insists the dead general's superhuman courage belongs in that heroic lineage. The comparison picks up the play's running emphasis on Talbot's almost mythic power to terrify the French. Holinshed and Hall both treat Talbot as an almost legendary figure — Shakespeare heightens that with the Herculean epithet.",
+    "sources": [
+      {
+        "name": "Apollodorus, Library; Ovid, Metamorphoses",
+        "citation": "Apollodorus, Library, Book 2 (Heracles called Alcides, after his grandfather Alcaeus); Ovid, Metamorphoses, Book 9 ('Alcides' used for Hercules in the Achelous episode)."
+      }
+    ],
+    "references": [
+      {
+        "kind": "classical",
+        "card_id": "hercules"
+      },
+      {
+        "kind": "historical",
+        "card_id": "lord-talbot"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2109"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Kept the gloss; generalized the two wrong loci (Apollodorus 2.4.8 and Ovid Met. 9.23) to Library Book 2 and Metamorphoses Book 9, where the Alcides epithet genuinely occurs."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Alcides as a patronymic-derived epithet for Hercules is standard classical usage, and applying it to Talbot in this superhero-catalogue context is straightforward; the claim that Holinshed and Hall treat Talbot as near-legendary is accurate."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Kept the gloss; generalized the two wrong loci (Apollodorus 2.4.8 and Ovid Met. 9.23) to Library Book 2 and Metamorphoses Book 9, where the Alcides epithet genuinely occurs. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_vi_part_1-2117-garter-golden-fleece",
     "play": "henry_vi_part_1",
     "tln_start": 2117,
@@ -10030,6 +10860,56 @@
         "note": "Joan's sardonic use of the Ottoman emperor as the benchmark for grandiose titles is a natural reading of 'silly stately style' (TLN 2121); the gloss correctly frames 'two and fifty kingdoms' as a conventional hyperbole rather than a literal count, which avoids the overreach of treating it as precise data."
       }
     ]
+  },
+  {
+    "id": "henry_vi_part_1-2127-black-nemesis",
+    "play": "henry_vi_part_1",
+    "tln_start": 2126,
+    "tln_end": 2127,
+    "word_start": 3,
+    "word_end": 5,
+    "anchor_text": "the Frenchman's only scourge, Your kingdom's terror and black Nemesis",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Nemesis was the Greek goddess of divine retribution — she pursued those who escaped justice or grew too proud, bringing them down inescapably. Lucy calls Talbot France's 'black Nemesis': the unstoppable avenger the French could never escape, the doom that followed them on the battlefield. 'Black' adds the color of death and menace, intensifying the mythological force.",
+    "detail": "In Greek religion Nemesis was the balancing force that cut down excessive good fortune and punished arrogance (hubris); she is described as swift, winged, and inevitable. In Elizabethan usage 'Nemesis' had become general for any inescapable punisher or avenger. The phrase 'black Nemesis' reaches for the darkest register of that tradition — Lucy casts Talbot's loss as a cosmic wrong, as if the one figure who embodied divine vengeance against France has been removed, leaving the French unpunished. Hesiod, Theogony 223, names Nemesis among the children of Night.",
+    "sources": [
+      {
+        "name": "Hesiod, Theogony",
+        "citation": "Hesiod, Theogony 223 (Nemesis, daughter of Night, the avenger of excess)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2126"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Kept the gloss and the verified Hesiod Theogony 223 citation; dropped the wrong Ovid Met. 3.406 locus (the Narcissus fountain, where Nemesis appears as 'Rhamnusia,' not 'ultrix Nemesis')."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The core gloss — Nemesis as inescapable divine retribution — is sound and the word had fully entered Elizabethan general usage; 'black' as an intensifier of death and doom is straightforward, and the reading of Lucy casting Talbot's death as a cosmic wrong is supported by the rhetorical force of the scene."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Kept the gloss and the verified Hesiod Theogony 223 citation; dropped the wrong Ovid Met. 3.406 locus (the Narcissus fountain, where Nemesis appears as 'Rhamnusia,' not 'ultrix Nemesis'). [orig: source=refuted, interp=verified]"
   },
   {
     "id": "henry_vi_part_1-2141-phoenix",
@@ -10612,6 +11492,60 @@
     ]
   },
   {
+    "id": "henry_vi_part_1-2231-periapts",
+    "play": "henry_vi_part_1",
+    "tln_start": 2231,
+    "tln_end": 2231,
+    "word_start": 3,
+    "word_end": 6,
+    "anchor_text": "charming spells and periapts",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Charming spells' are magical incantations (from Latin carmen, a song or verse); 'periapts' are amulets or charms worn on the body to ward off evil or to invoke supernatural power. Joan is calling on both spoken magic and physical talismans as she faces defeat.",
+    "detail": "The pairing of verbal spells (charming) and object-amulets (periapts, from Greek periapton, 'something hung around') reflects the standard Elizabethan taxonomy of witchcraft: magic could work through voice, through gesture, or through a physical object. Reginald Scot, The Discoverie of Witchcraft (1584), catalogues all three categories; the play's audience would have recognized the vocabulary immediately as the language of forbidden occult practice, which added to the frisson of actually staging the fiends.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'periapt, n.': 'An amulet or charm worn about the person; a phylactery' (earliest evidence 1584, from Scot)."
+      },
+      {
+        "name": "Scot",
+        "citation": "Reginald Scot, The Discoverie of Witchcraft (1584), Book 12 (on charms, spells, and amulets)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2231"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Kept the gloss and Scot citation; corrected the OED first-attestation date from 'c. 1592' to 1584 (Scot), and generalized the Scot locus to Book 12."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The gloss correctly identifies 'periapts' as amulets (Greek periapton) and the Scot taxonomy of verbal/gestural/object magic is a legitimate and well-attested Elizabethan framework for understanding Joan's invocation."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Kept the gloss and Scot citation; corrected the OED first-attestation date from 'c. 1592' to 1584 (Scot), and generalized the Scot locus to Book 12. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_vi_part_1-2234-monarch-of-the-north",
     "play": "henry_vi_part_1",
     "tln_start": 2235,
@@ -10668,6 +11602,65 @@
         "note": "The Isaiah 14:13-14 identification of the north with Lucifer's seat is standard Protestant exegesis, and James VI's Daemonologie does treat the devil as lord of familiars; the gloss correctly reads 'substitutes under the lordly monarch of the north' as a demonological hierarchy without overreaching."
       }
     ]
+  },
+  {
+    "id": "henry_vi_part_1-2239-familiar-spirits",
+    "play": "henry_vi_part_1",
+    "tln_start": 2239,
+    "tln_end": 2239,
+    "word_start": 2,
+    "word_end": 6,
+    "anchor_text": "familiar spirits, that are cull'd",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "A 'familiar spirit' (or familiar) was a demon believed to serve a witch, often appearing as an animal — a cat, toad, or bird — but here Joan summons them as visibly human-shaped fiends. 'Culled' means chosen and drawn out. Keeping a familiar was a defining mark of witchcraft in English law and trial practice.",
+    "detail": "The stage direction 'Enter Fiends' makes the demonic pact visible, far more theatrically sensational than anything in the historical record of Joan. The term 'familiar' was in common legal use: indictments in English witch trials of the 1560s-1580s regularly charged defendants with keeping a 'familiar.' Statute drove the point home — the 1604 Witchcraft Act (1 Jas. I c.12) made it a felony to 'consult, covenant with, entertain, employ, feed or reward any evil and wicked spirit,' criminalizing the mere keeping of a familiar (the earlier 1563 Act, 5 Eliz. c.16, had punished only harm actually done). The fiends walking, hanging their heads, and finally departing dramatize Joan's loss of the supernatural contract that has driven French fortunes.",
+    "sources": [
+      {
+        "name": "Witchcraft Act 1604",
+        "citation": "An Act against Conjuration, Witchcraft and dealing with evil and wicked Spirits (1 Jas. I c.12, 1604), making it a felony to 'consult, covenant with, entertain, employ, feed or reward any evil and wicked spirit'; the earlier 5 Eliz. c.16 (1563) punished only harm done."
+      },
+      {
+        "name": "Scot",
+        "citation": "Reginald Scot, The Discoverie of Witchcraft (1584), Book 3 (on familiar spirits and their supposed compact with witches)."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "joan-la-pucelle"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2239"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Kept the gloss; corrected the misattributed quotation (confirmed via search that the 'feed or reward any evil and wicked spirit' language is the 1604 Act, not the 1563 Act) and reframed the legal note accordingly; kept Scot and generalized to Book 3."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The legal and theatrical context for familiar spirits is accurate; the Witchcraft Act 1563 language is correctly quoted and the stage direction 'Enter Fiends' confirms the visual conceit; nothing here overreads the text."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Kept the gloss; corrected the misattributed quotation (confirmed via search that the 'feed or reward any evil and wicked spirit' language is the 1604 Act, not the 1563 Act) and reframed the legal note accordingly; kept Scot and generalized to Book 3. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "henry_vi_part_1-2243-feed-you-with-my-blood",
@@ -11383,6 +12376,56 @@
     ]
   },
   {
+    "id": "henry_vi_part_1-2434-timeless-death",
+    "play": "henry_vi_part_1",
+    "tln_start": 2434,
+    "tln_end": 2434,
+    "word_start": 4,
+    "word_end": 6,
+    "anchor_text": "timeless cruel death",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Timeless' here means untimely or premature — cut off before its natural time. The Shepherd mourns that Joan's death comes too soon, not that it is somehow outside of time.",
+    "detail": "The sense 'untimely, premature' for 'timeless' was current in Shakespeare's period and survives in other plays (compare 'timeless deaths' in Richard III 1.2). The word does not yet carry its modern sense of 'not bound by time' or 'enduring forever.' The OED records the 'premature' sense from the 14th century.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'timeless,' adj., sense 1a: 'untimely, premature' (cited from the late 14th century onward)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2434"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Kept the gloss and OED citation; corrected the cross-reference from Richard III '4.4' to '1.2', where 'timeless deaths' actually occurs."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Timeless' meaning 'untimely, premature' is the well-attested early modern sense and the reading required by the Shepherd's grief at Joan's imminent death."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Kept the gloss and OED citation; corrected the cross-reference from Richard III '4.4' to '1.2', where 'timeless deaths' actually occurs. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_vi_part_1-2436-decrepit-miser",
     "play": "henry_vi_part_1",
     "tln_start": 2436,
@@ -11795,6 +12838,60 @@
         "note": "'Discover' meaning 'reveal' and the explanation of the 'pleading the belly' legal doctrine are both accurate and directly relevant to what Joan does at TLN 2491."
       }
     ]
+  },
+  {
+    "id": "henry_vi_part_1-2497-juggling",
+    "play": "henry_vi_part_1",
+    "tln_start": 2497,
+    "tln_end": 2497,
+    "word_start": 0,
+    "word_end": 6,
+    "anchor_text": "she and the Dauphin have been juggling",
+    "type": "bawdy_pun",
+    "depth": "scholar",
+    "summary": "York means Joan and the Dauphin have been playing tricks or colluding deceitfully ('juggling' = practising trickery or deceit), but the word also carried a bawdy meaning, 'to have sexual intercourse,' so his line functions as both a political insult and a sexual accusation. The double meaning fits the play's relentless degradation of Joan in this scene.",
+    "detail": "OED records 'juggle' in the sense 'to use trickery, practise deception' (s.v. 'juggle,' v., sense 3), which is the surface sense here. The secondary bawdy sense, 'to copulate,' is documented for this passage by Partridge, Shakespeare's Bawdy. The double meaning allows York to accuse Joan and Charles of both political connivance and an illicit sexual liaison in a single word.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'juggle,' v., sense 3: 'to use deception, play tricks; to tamper deceitfully.'"
+      },
+      {
+        "name": "Partridge, Shakespeare's Bawdy",
+        "citation": "Eric Partridge, Shakespeare's Bawdy, s.v. 'juggle' (the bawdy sense 'to copulate')."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2497"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Kept the gloss and OED citation; swapped the misattributed Schmidt citation (Schmidt has only the trickery sense) for Partridge, Shakespeare's Bawdy, which the judge itself confirms documents the bawdy sense."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The surface sense of trickery/deceit is clear in context; Partridge does document a bawdy sense for 'juggle,' and the double meaning fits the scene's sustained degradation of Joan, making the scholar-depth annotation defensible."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Kept the gloss and OED citation; swapped the misattributed Schmidt citation (Schmidt has only the trickery sense) for Partridge, Shakespeare's Bawdy, which the judge itself confirms documents the bawdy sense. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "henry_vi_part_1-2503-notorious-machiavel",
@@ -12735,1102 +13832,5 @@
         "note": "The Vice-figure identification for a self-disclosing rhymed couplet exit is a well-established critical framework for this play, and the triple inversion (subject rules queen rules king) is accurately observed from the literal text of the two lines."
       }
     ]
-  },
-  {
-    "id": "henry_vi_part_1-1370-railing-hecate",
-    "play": "henry_vi_part_1",
-    "tln_start": 1370,
-    "tln_end": 1370,
-    "word_start": 0,
-    "word_end": 6,
-    "anchor_text": "I speak not to that railing Hecate",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "Hecate was the Greek goddess of magic, witchcraft, and the dark of the moon — the patron deity of sorcerers. Talbot calls Joan 'that railing Hecate' to dismiss her as a screaming witch rather than a person worthy of address. The allusion links to Talbot's repeated characterization of Joan as a sorceress rather than a soldier.",
-    "detail": "In classical and Renaissance tradition, Hecate was the goddess of crossroads, the night, and harmful magic; she was invoked by witches and associated with the howling of dogs, and she appears as a triple deity (sky, earth, underworld). Calling Joan 'Hecate' does double work: it insults her as a witch (rather than a warrior deserving chivalric respect) and lets Talbot refuse to dignify her with a reply — he addresses the French lords instead.",
-    "sources": [
-      {
-        "name": "Hesiod, Theogony",
-        "citation": "Hesiod, Theogony 411-452 (Hecate's triple domains of sky, earth, and sea; her awesome, dark power)."
-      },
-      {
-        "name": "Ovid, Metamorphoses",
-        "citation": "Ovid, Metamorphoses, Book 7 (Medea's invocation of Hecate in her witchcraft)."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1370"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Kept the gloss and the verified Hesiod Theogony 411-452 citation; dropped the wrong Ovid line loci (7.94-99, 7.218-219) and generalized the Ovid reference to Metamorphoses Book 7 (the Medea episode)."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Hecate as witch-goddess fits Talbot's consistent witch-framing of Joan throughout the play (cf. TLN 1344 'that witch, that damned sorceress')."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Kept the gloss and the verified Hesiod Theogony 411-452 citation; dropped the wrong Ovid line loci (7.94-99, 7.218-219) and generalized the Ovid reference to Metamorphoses Book 7 (the Medea episode). [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_vi_part_1-1480-fortune-favor",
-    "play": "henry_vi_part_1",
-    "tln_start": 1480,
-    "tln_end": 1480,
-    "word_start": 0,
-    "word_end": 6,
-    "anchor_text": "Fortune in favor makes him lag behind",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "Joan reads the situation as Fortune's work: because Fortune currently favors the French, Burgundy has fallen behind Talbot's march — trailing at the rear. 'Fortune in favor' invokes the classical goddess Fortuna, who spun her wheel to raise and cast down great men at random; the image is the running Fortune's-wheel motif of the history plays.",
-    "detail": "The figure of Fortune turning her wheel — favoring one side, then casting it down — descends from Boethius's Consolation of Philosophy, the foundational medieval and Renaissance account, and recurs across Shakespeare's histories. Here it gives Joan a ready way to read the French advantage: with Fortune favoring them, the moment has come to peel Burgundy away from the English.",
-    "sources": [
-      {
-        "name": "Boethius, Consolation of Philosophy",
-        "citation": "Boethius, Consolatio Philosophiae, Book II (Fortune turning her wheel and the instability of worldly favor); the standard medieval and Renaissance text for the idea."
-      }
-    ],
-    "references": [
-      {
-        "kind": "classical",
-        "card_id": "fortunes-wheel"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1480"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Boethius Consolation of Philosophy Book II, prose 1-2 is the standard locus for Fortune's wheel speech and is accurately described; the citation is correct and supportive."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Interp over-reach trimmed: removed the sustained Boethian-theology reading and the claim that Fortune is already 'separating Burgundy from England'; kept the defensible core that 'Fortune in favor' invokes Fortuna/the wheel as Joan reads the French advantage. Boethius source kept (verified) and generalized to Book II."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Interp over-reach trimmed: removed the sustained Boethian-theology reading and the claim that Fortune is already 'separating Burgundy from England'; kept the defensible core that 'Fortune in favor' invokes Fortuna/the wheel as Joan reads the French advantage. Boethius source kept (verified) and generalized to Book II. [orig: source=verified, interp=refuted]"
-  },
-  {
-    "id": "henry_vi_part_1-1532-done-like-a-frenchman",
-    "play": "henry_vi_part_1",
-    "tln_start": 1532,
-    "tln_end": 1533,
-    "word_start": 0,
-    "word_end": 0,
-    "anchor_text": "Done like a Frenchman: turn and turn again!",
-    "type": "historical_topical",
-    "depth": "scholar",
-    "summary": "Joan's aside undercuts the triumphant scene: 'Done like a Frenchman: turn and turn again!' is a contemptuous English proverb about French inconstancy. Shakespeare shows Joan's cynicism — she has just argued for French loyalty, but privately scorns Burgundy as a predictable turncoat — while handing the English audience a knowing laugh at French fickleness. The line is an aside, heard only by the audience.",
-    "detail": "The proverb that the French 'turn with the wind' was a standard English ethnic slur: the French were stereotyped as vain, inconstant, and easily swayed (see Tilley/Dent on the proverb of French inconstancy). For an Elizabethan audience watching the French celebrate Burgundy's defection, Joan's private comment signals she has no real loyalty to the ideals of her own speech — she used them as tools. The aside echoes the English audience's own contempt back through the mouth of the French champion, a deft dramatic irony: Joan voices the anti-French stereotype about a man she just successfully manipulated.",
-    "sources": [
-      {
-        "name": "Tilley, Proverbs",
-        "citation": "M. P. Tilley, A Dictionary of the Proverbs in England in the Sixteenth and Seventeenth Centuries (1950), the proverb of French inconstancy ('Frenchmen turn with the wind')."
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "joan-la-pucelle"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1532"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Kept the gloss; dropped the wrong Tilley number 'F681' (that entry is a Friday proverb) and generalized to Tilley/Dent's proverb of French inconstancy without inventing a new number."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The ethnic proverb, the aside as heard-only-by-audience convention, and the dramatic irony of Joan voicing an anti-French stereotype are all well-grounded in the text; the claim that Joan is a 'cynical political operator' is a mainstream interpretive position firmly supported by the scene's action."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Kept the gloss; dropped the wrong Tilley number 'F681' (that entry is a Friday proverb) and generalized to Tilley/Dent's proverb of French inconstancy without inventing a new number. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_vi_part_1-1578-law-of-arms",
-    "play": "henry_vi_part_1",
-    "tln_start": 1578,
-    "tln_end": 1579,
-    "word_start": 3,
-    "word_end": 7,
-    "anchor_text": "the law of arms is such That whoso draws a sword, 'tis present death",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "Drawing a weapon within the royal precincts — the 'verge' around the king's person — was a capital offense under Tudor law. Basset invokes this 'law of arms' to explain why he cannot draw his sword and strike back at Vernon on the spot, but must instead petition the king for a formal duel. 'Standard' is not in play here; 'present death' means immediate death.",
-    "detail": "The relevant English statute is the Offences within the Court Act (33 Henry VIII c.12, 1541-42), building on the medieval law of arms administered by the Court of the Constable and Marshal: to wound anyone within the verge of the court was punishable by loss of the right hand, and to kill was a capital offense. Because he cannot lawfully retaliate in the king's presence, Basset must channel his grievance into a petition — 'I'll unto his majesty, and crave / I may have liberty to venge this wrong' — which puts the rose quarrel before Henry in Act 4.",
-    "sources": [
-      {
-        "name": "Statutes of the Realm",
-        "citation": "Statute 33 Henry VIII c.12 (Offences within the Court Act, 1541-42): drawing blood within the royal verge punishable by loss of the right hand, killing as a capital offense; building on the medieval jurisdiction of the Constable's Court."
-      },
-      {
-        "name": "Schmidt",
-        "citation": "Schmidt, Shakespeare-Lexicon, s.v. 'present': 'immediate, instant.'"
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1578"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "33 Henry VIII c.12 (Offences within the Court Act 1541) is a real statute whose long title explicitly references 'Murther and malicious Bloudshed within the Courte'; the provision that drawing blood within the royal verge was punishable by loss of the right hand is consistent with the act's known subject matter and widely cited in Tudor legal history; the Holinshed citation for the same point is plausible and the statute reference is precise and correct."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Interp over-reach corrected: the law-of-arms invocation explains why Basset himself cannot draw his sword in retaliation, not that Vernon's hand-blow was a capital offense; rewrote summary/detail to that reading. Verified statute citation kept."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Interp over-reach corrected: the law-of-arms invocation explains why Basset himself cannot draw his sword in retaliation, not that Vernon's hand-blow was a capital offense; rewrote summary/detail to that reading. Verified statute citation kept. [orig: source=verified, interp=refuted]"
-  },
-  {
-    "id": "henry_vi_part_1-178-mars-true-moving",
-    "play": "henry_vi_part_1",
-    "tln_start": 178,
-    "tln_end": 178,
-    "word_start": 0,
-    "word_end": 8,
-    "anchor_text": "Mars his true moving, even as in the heavens",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "Mars was the Roman god of war; 'his true moving' compares Mars's orbit in the sky (irregular to Elizabethan astrologers, who counted Mars a wandering planet) to the shifting fortunes of battle. Charles says that just as Mars's path through the heavens is unknown, so on earth the god now smiles on France rather than England.",
-    "detail": "Ptolemaic astronomy held that Mars, unlike the fixed stars, had an irregular 'motion' — at times appearing to move backward (retrograde) against the sky. Military fate was thought to depend on planetary favor, so Charles casts France's recent victories in astrological as well as mythological terms. Mars is a major Olympian throughout Ovid's Metamorphoses, and the association of the planet Mars with warfare was standard in Renaissance astrology.",
-    "sources": [
-      {
-        "name": "Schmidt, Shakespeare-Lexicon",
-        "citation": "Schmidt, Shakespeare-Lexicon, s.v. 'Mars' (the god and planet as types of martial power)."
-      },
-      {
-        "name": "Ovid, Metamorphoses",
-        "citation": "Ovid, Metamorphoses (Mars treated as a major Olympian war-god throughout)."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 178"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Kept the gloss and the verified Schmidt citation; dropped the two wrong Ovid loci (2.543, 5.31) and the mischaracterized Tetrabiblos 1.4 locus, generalizing Ovid to work level and 'Ptolemy' to Ptolemaic astronomy."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Charles's opening speech ('Mars his true moving, even as in the heavens / So in the earth, to this day is not known') explicitly invokes the planet's unpredictable motion as an analogy for shifting military fortune; the astrological reading is straightforward and well-supported."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Kept the gloss and the verified Schmidt citation; dropped the two wrong Ovid loci (2.543, 5.31) and the mischaracterized Tetrabiblos 1.4 locus, generalizing Ovid to work level and 'Ptolemy' to Ptolemaic astronomy. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_vi_part_1-1826-deer-rascal",
-    "play": "henry_vi_part_1",
-    "tln_start": 1826,
-    "tln_end": 1827,
-    "word_start": 3,
-    "word_end": 6,
-    "anchor_text": "park'd and bounded in a pale, A little herd of England's timorous deer",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "Talbot extends a hunting metaphor across ten lines to rally his surrounded men. 'Park'd' means penned inside a deer-park; 'pale' is the fence enclosing it; 'rascal' is a technical hunting term for a lean, inferior deer unfit to be hunted — Talbot urges his men not to be like 'rascals' that collapse at a mere pinch, but like full-blooded stags who turn on the hounds. The final line pays the pun off: 'dear deer of us' plays on dear (costly, beloved) and deer (the animal).",
-    "detail": "All the technical vocabulary is hunting jargon: 'in blood' means a deer in prime condition at the height of the season; 'rascal' specifically denotes young or scrawny animals excluded from a proper hunt; 'kennel' is the pack of hounds; 'at bay' is the posture of hounds forced to keep their distance by a stag. The metaphor both shames (they are penned deer) and elevates (they can be noble stags); Talbot turns the trap into a test of courage. The dear/deer pun simultaneously inverts the insult — they will cost the French dearly — and affirms the men's value.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'rascal' n. 1 (a young, lean, inferior deer, excluded from the count of proper game); s.v. 'in blood' phr. (of deer: in full vigour, in hunting season)."
-      },
-      {
-        "name": "The Noble Art of Venerie (1575)",
-        "citation": "The Noble Art of Venerie or Hunting (1575; attributed to George Gascoigne), on the technical vocabulary of deer-hunting — 'rascal' for an inferior deer, 'in blood' for a deer in prime condition, and 'bay' for the stag's last stand."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1826"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Kept the gloss and verified OED citation; corrected the authorship of The Noble Art of Venerie (modern scholarship attributes it to Gascoigne, not Turbervile) and noted the attribution rather than asserting the wrong author, and dropped the unverifiable page numbers."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "All technical hunting vocabulary ('rascal', 'in blood', 'pale', 'kennel', 'bay') is correctly glossed per Turbervile and OED, and the dear/deer pun is explicit in the text at TLN 1835; no overreach."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Kept the gloss and verified OED citation; corrected the authorship of The Noble Art of Venerie (modern scholarship attributes it to Gascoigne, not Turbervile) and noted the attribution rather than asserting the wrong author, and dropped the unverifiable page numbers. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_vi_part_1-1927-fraud-of-england",
-    "play": "henry_vi_part_1",
-    "tln_start": 1927,
-    "tln_end": 1927,
-    "word_start": 0,
-    "word_end": 8,
-    "anchor_text": "The fraud of England, not the force of France",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "Lucy's line is built on a sharp antithesis: the thing killing Talbot is not the military power of the enemy (France) but the treachery of his own side (England). The parallel structure — 'fraud of England / force of France' — makes the contrast impossible to miss and gives it the weight of an epigram. It is the scene's moral verdict in a single line.",
-    "detail": "The device is antithesis (setting two opposed ideas in parallel grammatical structure), deployed at the scene's turning point: 'fraud' (treachery) is set against 'force' (military power), 'England' against 'France.' The line inverts the expected heroic narrative — the English hero should die by French strength, not English betrayal — and that inversion is what makes it memorable; the nobles' mutual accusation ('York set him on; York should have sent him aid') merely confirms the 'fraud.' Thomas Nashe, in Pierce Penniless (1592), famously praised the Talbot scenes — 'How would it haue ioyed braue Talbot... to thinke that after he had lyne two hundred yeares in his Tombe, hee should triumphe againe on the Stage' — testimony to the emotional power of lines like this one.",
-    "sources": [
-      {
-        "name": "Holinshed, Chronicles (1587)",
-        "citation": "Raphael Holinshed, Chronicles of England, Scotland, and Ireland (1587): the death of Talbot at Castillon (1453) and the failure of English reinforcement — the historical seed of this scene's accusation."
-      },
-      {
-        "name": "Nashe, Pierce Penniless (1592)",
-        "citation": "Thomas Nashe, Pierce Penniless his Supplication to the Devil (1592): 'How would it haue ioyed braue Talbot... to thinke that after he had lyne two hundred yeares in his Tombe, hee should triumphe againe on the Stage.'"
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "lord-talbot"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1927"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Kept the gloss and both sources; corrected the garbled Nashe quotation from 'How it would haue ioyed' to the witnessed reading 'How would it haue ioyed' in both detail and citation."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The antithesis (fraud/force, England/France) is plainly present in the parallel structure; the Nashe reception note is accurate and the Holinshed reference is used as contextual background, not over-claimed as a source of the device."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Kept the gloss and both sources; corrected the garbled Nashe quotation from 'How it would haue ioyed' to the witnessed reading 'How would it haue ioyed' in both detail and citation. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_vi_part_1-1950-bastard-slave",
-    "play": "henry_vi_part_1",
-    "tln_start": 1951,
-    "tln_end": 1952,
-    "word_start": 0,
-    "word_end": 8,
-    "anchor_text": "Dishonor not her honorable name, To make a bastard and a slave of me",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "John Talbot argues that if he flees the battle he will effectively deny being his father's son: a 'bastard' is an illegitimate child who cannot claim his father's name or honor, and a 'slave' is a person with no free-born dignity. In Elizabethan honor culture cowardice was equated with low birth; fleeing would prove — to the world's eyes — that John could not truly be Talbot's son. He also invokes his mother's honor: she bore a legitimate son, and cowardice would retroactively shame her.",
-    "detail": "The logic is that aristocratic courage was thought hereditary, passed through blood. A man who behaved dishonorably cast doubt on his own legitimacy, since nobility was inseparable from valor; to run away would be to perform bastardy, whatever the biological fact. 'Slave' reinforces this — a born slave could not be expected to fight bravely; a free-born gentleman could. The appeal to his mother's name sharpens it: Lady Talbot's honor rests on having borne a true Talbot, not a coward.",
-    "sources": [
-      {
-        "name": "Holinshed",
-        "citation": "Holinshed, Chronicles (1587): the Talbot family honor and the double death at Castillon (1453), treated as exemplary of the chivalric ideal the history plays inherit."
-      },
-      {
-        "name": "Schmidt",
-        "citation": "Schmidt, Shakespeare-Lexicon, s.v. 'bastard': 'an illegitimate child; one born out of wedlock.'"
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "lord-talbot"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1951"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Kept the gloss (the honor-culture reading is interp-verified); corrected the Schmidt citation to its actual definition ('born out of wedlock'), dropping the invented extended sense the judge flagged."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The core argument — cowardly flight performs bastardy by denying noble blood, and 'slave' opposes the free-born courage expected of a gentleman — is a mainstream reading of Elizabethan honor culture as dramatized in the text."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Kept the gloss (the honor-culture reading is interp-verified); corrected the Schmidt citation to its actual definition ('born out of wedlock'), dropping the invented extended sense the judge flagged. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_vi_part_1-2109-alcides",
-    "play": "henry_vi_part_1",
-    "tln_start": 2109,
-    "tln_end": 2109,
-    "word_start": 3,
-    "word_end": 7,
-    "anchor_text": "great Alcides of the field",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "Alcides was another name for Hercules, derived from his grandfather Alcaeus. Sir William Lucy applies it to the dead Talbot, comparing him to the greatest strongman-hero of classical myth. The epithet raises Talbot's military feats to the level of the legendary labours of Hercules.",
-    "detail": "In classical tradition Hercules was sometimes called Alcides (descendant of Alcaeus) to distinguish him from others sharing the name Heracles. By calling Talbot 'the great Alcides of the field,' Lucy insists the dead general's superhuman courage belongs in that heroic lineage. The comparison picks up the play's running emphasis on Talbot's almost mythic power to terrify the French. Holinshed and Hall both treat Talbot as an almost legendary figure — Shakespeare heightens that with the Herculean epithet.",
-    "sources": [
-      {
-        "name": "Apollodorus, Library; Ovid, Metamorphoses",
-        "citation": "Apollodorus, Library, Book 2 (Heracles called Alcides, after his grandfather Alcaeus); Ovid, Metamorphoses, Book 9 ('Alcides' used for Hercules in the Achelous episode)."
-      }
-    ],
-    "references": [
-      {
-        "kind": "classical",
-        "card_id": "hercules"
-      },
-      {
-        "kind": "historical",
-        "card_id": "lord-talbot"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2109"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Kept the gloss; generalized the two wrong loci (Apollodorus 2.4.8 and Ovid Met. 9.23) to Library Book 2 and Metamorphoses Book 9, where the Alcides epithet genuinely occurs."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Alcides as a patronymic-derived epithet for Hercules is standard classical usage, and applying it to Talbot in this superhero-catalogue context is straightforward; the claim that Holinshed and Hall treat Talbot as near-legendary is accurate."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Kept the gloss; generalized the two wrong loci (Apollodorus 2.4.8 and Ovid Met. 9.23) to Library Book 2 and Metamorphoses Book 9, where the Alcides epithet genuinely occurs. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_vi_part_1-2127-black-nemesis",
-    "play": "henry_vi_part_1",
-    "tln_start": 2126,
-    "tln_end": 2127,
-    "word_start": 3,
-    "word_end": 5,
-    "anchor_text": "the Frenchman's only scourge, Your kingdom's terror and black Nemesis",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "Nemesis was the Greek goddess of divine retribution — she pursued those who escaped justice or grew too proud, bringing them down inescapably. Lucy calls Talbot France's 'black Nemesis': the unstoppable avenger the French could never escape, the doom that followed them on the battlefield. 'Black' adds the color of death and menace, intensifying the mythological force.",
-    "detail": "In Greek religion Nemesis was the balancing force that cut down excessive good fortune and punished arrogance (hubris); she is described as swift, winged, and inevitable. In Elizabethan usage 'Nemesis' had become general for any inescapable punisher or avenger. The phrase 'black Nemesis' reaches for the darkest register of that tradition — Lucy casts Talbot's loss as a cosmic wrong, as if the one figure who embodied divine vengeance against France has been removed, leaving the French unpunished. Hesiod, Theogony 223, names Nemesis among the children of Night.",
-    "sources": [
-      {
-        "name": "Hesiod, Theogony",
-        "citation": "Hesiod, Theogony 223 (Nemesis, daughter of Night, the avenger of excess)."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2126"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Kept the gloss and the verified Hesiod Theogony 223 citation; dropped the wrong Ovid Met. 3.406 locus (the Narcissus fountain, where Nemesis appears as 'Rhamnusia,' not 'ultrix Nemesis')."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The core gloss — Nemesis as inescapable divine retribution — is sound and the word had fully entered Elizabethan general usage; 'black' as an intensifier of death and doom is straightforward, and the reading of Lucy casting Talbot's death as a cosmic wrong is supported by the rhetorical force of the scene."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Kept the gloss and the verified Hesiod Theogony 223 citation; dropped the wrong Ovid Met. 3.406 locus (the Narcissus fountain, where Nemesis appears as 'Rhamnusia,' not 'ultrix Nemesis'). [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_vi_part_1-2231-periapts",
-    "play": "henry_vi_part_1",
-    "tln_start": 2231,
-    "tln_end": 2231,
-    "word_start": 3,
-    "word_end": 6,
-    "anchor_text": "charming spells and periapts",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "'Charming spells' are magical incantations (from Latin carmen, a song or verse); 'periapts' are amulets or charms worn on the body to ward off evil or to invoke supernatural power. Joan is calling on both spoken magic and physical talismans as she faces defeat.",
-    "detail": "The pairing of verbal spells (charming) and object-amulets (periapts, from Greek periapton, 'something hung around') reflects the standard Elizabethan taxonomy of witchcraft: magic could work through voice, through gesture, or through a physical object. Reginald Scot, The Discoverie of Witchcraft (1584), catalogues all three categories; the play's audience would have recognized the vocabulary immediately as the language of forbidden occult practice, which added to the frisson of actually staging the fiends.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'periapt, n.': 'An amulet or charm worn about the person; a phylactery' (earliest evidence 1584, from Scot)."
-      },
-      {
-        "name": "Scot",
-        "citation": "Reginald Scot, The Discoverie of Witchcraft (1584), Book 12 (on charms, spells, and amulets)."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2231"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Kept the gloss and Scot citation; corrected the OED first-attestation date from 'c. 1592' to 1584 (Scot), and generalized the Scot locus to Book 12."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The gloss correctly identifies 'periapts' as amulets (Greek periapton) and the Scot taxonomy of verbal/gestural/object magic is a legitimate and well-attested Elizabethan framework for understanding Joan's invocation."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Kept the gloss and Scot citation; corrected the OED first-attestation date from 'c. 1592' to 1584 (Scot), and generalized the Scot locus to Book 12. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_vi_part_1-2239-familiar-spirits",
-    "play": "henry_vi_part_1",
-    "tln_start": 2239,
-    "tln_end": 2239,
-    "word_start": 2,
-    "word_end": 6,
-    "anchor_text": "familiar spirits, that are cull'd",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "A 'familiar spirit' (or familiar) was a demon believed to serve a witch, often appearing as an animal — a cat, toad, or bird — but here Joan summons them as visibly human-shaped fiends. 'Culled' means chosen and drawn out. Keeping a familiar was a defining mark of witchcraft in English law and trial practice.",
-    "detail": "The stage direction 'Enter Fiends' makes the demonic pact visible, far more theatrically sensational than anything in the historical record of Joan. The term 'familiar' was in common legal use: indictments in English witch trials of the 1560s-1580s regularly charged defendants with keeping a 'familiar.' Statute drove the point home — the 1604 Witchcraft Act (1 Jas. I c.12) made it a felony to 'consult, covenant with, entertain, employ, feed or reward any evil and wicked spirit,' criminalizing the mere keeping of a familiar (the earlier 1563 Act, 5 Eliz. c.16, had punished only harm actually done). The fiends walking, hanging their heads, and finally departing dramatize Joan's loss of the supernatural contract that has driven French fortunes.",
-    "sources": [
-      {
-        "name": "Witchcraft Act 1604",
-        "citation": "An Act against Conjuration, Witchcraft and dealing with evil and wicked Spirits (1 Jas. I c.12, 1604), making it a felony to 'consult, covenant with, entertain, employ, feed or reward any evil and wicked spirit'; the earlier 5 Eliz. c.16 (1563) punished only harm done."
-      },
-      {
-        "name": "Scot",
-        "citation": "Reginald Scot, The Discoverie of Witchcraft (1584), Book 3 (on familiar spirits and their supposed compact with witches)."
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "joan-la-pucelle"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2239"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Kept the gloss; corrected the misattributed quotation (confirmed via search that the 'feed or reward any evil and wicked spirit' language is the 1604 Act, not the 1563 Act) and reframed the legal note accordingly; kept Scot and generalized to Book 3."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The legal and theatrical context for familiar spirits is accurate; the Witchcraft Act 1563 language is correctly quoted and the stage direction 'Enter Fiends' confirms the visual conceit; nothing here overreads the text."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Kept the gloss; corrected the misattributed quotation (confirmed via search that the 'feed or reward any evil and wicked spirit' language is the 1604 Act, not the 1563 Act) and reframed the legal note accordingly; kept Scot and generalized to Book 3. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_vi_part_1-2434-timeless-death",
-    "play": "henry_vi_part_1",
-    "tln_start": 2434,
-    "tln_end": 2434,
-    "word_start": 4,
-    "word_end": 6,
-    "anchor_text": "timeless cruel death",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "'Timeless' here means untimely or premature — cut off before its natural time. The Shepherd mourns that Joan's death comes too soon, not that it is somehow outside of time.",
-    "detail": "The sense 'untimely, premature' for 'timeless' was current in Shakespeare's period and survives in other plays (compare 'timeless deaths' in Richard III 1.2). The word does not yet carry its modern sense of 'not bound by time' or 'enduring forever.' The OED records the 'premature' sense from the 14th century.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'timeless,' adj., sense 1a: 'untimely, premature' (cited from the late 14th century onward)."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2434"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Kept the gloss and OED citation; corrected the cross-reference from Richard III '4.4' to '1.2', where 'timeless deaths' actually occurs."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "'Timeless' meaning 'untimely, premature' is the well-attested early modern sense and the reading required by the Shepherd's grief at Joan's imminent death."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Kept the gloss and OED citation; corrected the cross-reference from Richard III '4.4' to '1.2', where 'timeless deaths' actually occurs. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_vi_part_1-2497-juggling",
-    "play": "henry_vi_part_1",
-    "tln_start": 2497,
-    "tln_end": 2497,
-    "word_start": 0,
-    "word_end": 6,
-    "anchor_text": "she and the Dauphin have been juggling",
-    "type": "bawdy_pun",
-    "depth": "scholar",
-    "summary": "York means Joan and the Dauphin have been playing tricks or colluding deceitfully ('juggling' = practising trickery or deceit), but the word also carried a bawdy meaning, 'to have sexual intercourse,' so his line functions as both a political insult and a sexual accusation. The double meaning fits the play's relentless degradation of Joan in this scene.",
-    "detail": "OED records 'juggle' in the sense 'to use trickery, practise deception' (s.v. 'juggle,' v., sense 3), which is the surface sense here. The secondary bawdy sense, 'to copulate,' is documented for this passage by Partridge, Shakespeare's Bawdy. The double meaning allows York to accuse Joan and Charles of both political connivance and an illicit sexual liaison in a single word.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'juggle,' v., sense 3: 'to use deception, play tricks; to tamper deceitfully.'"
-      },
-      {
-        "name": "Partridge, Shakespeare's Bawdy",
-        "citation": "Eric Partridge, Shakespeare's Bawdy, s.v. 'juggle' (the bawdy sense 'to copulate')."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2497"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Kept the gloss and OED citation; swapped the misattributed Schmidt citation (Schmidt has only the trickery sense) for Partridge, Shakespeare's Bawdy, which the judge itself confirms documents the bawdy sense."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The surface sense of trickery/deceit is clear in context; Partridge does document a bawdy sense for 'juggle,' and the double meaning fits the scene's sustained degradation of Joan, making the scholar-depth annotation defensible."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Kept the gloss and OED citation; swapped the misattributed Schmidt citation (Schmidt has only the trickery sense) for Partridge, Shakespeare's Bawdy, which the judge itself confirms documents the bawdy sense. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_vi_part_1-33-thread-of-life",
-    "play": "henry_vi_part_1",
-    "tln_start": 34,
-    "tln_end": 34,
-    "word_start": 0,
-    "word_end": 8,
-    "anchor_text": "His thread of life had not so soon decay'd",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "The 'thread of life' refers to the myth of the three Fates (Greek Moirai, Roman Parcae), who spin each person's life as a thread and end the life when they cut it. Gloucester blames the church for Henry V's early death, but his metaphor is classical: even the Fates' thread, he implies, was cut too soon by church neglect.",
-    "detail": "In Greek myth the three Fates — Clotho (the spinner), Lachesis (the allotter), and Atropos (the cutter) — controlled every human life, and 'cutting the thread' was a standard ancient figure for death. The image was common enough in Shakespeare's England to function as ordinary idiom, but its origin in classical fate-mythology would have been recognized by educated playgoers. Gloucester is simultaneously attacking Winchester's competence and invoking an image of destiny.",
-    "sources": [
-      {
-        "name": "Hesiod, Theogony",
-        "citation": "Hesiod, Theogony 218 (the Moirai who spin and allot mortal lives); the Fates' cutting of the thread of life is a standard image throughout Ovid's Metamorphoses."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 34"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Kept the gloss; dropped the wrong Ovid Met. 15.781 locus and generalized the Ovid reference to work level, leaning on the accurate Hesiod Theogony 218 citation."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The three Fates spinning and cutting the thread of life is a genuine classical image; 'thread of life' was a recognized English idiom with classical roots; Gloucester's simultaneous attack on Winchester and invocation of destiny is supported by the speech context."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Kept the gloss; dropped the wrong Ovid Met. 15.781 locus and generalized the Ovid reference to work level, leaning on the accurate Hesiod Theogony 218 citation. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_vi_part_1-543-devils-dam",
-    "play": "henry_vi_part_1",
-    "tln_start": 543,
-    "tln_end": 543,
-    "word_start": 0,
-    "word_end": 7,
-    "anchor_text": "Devil or devil's dam, I 'll conjure thee",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "'Dam' means mother (the same word used for a female animal's offspring). Talbot is calling Joan either the devil himself or the devil's own mother — both are insults framing her as supernatural evil. 'Conjure thee' means to exorcise or overpower by a magic formula; he will draw blood to prove she is a witch, since folk belief held a witch could be defeated by drawing her blood.",
-    "detail": "The pairing 'devil or devil's dam' was a standard Elizabethan curse-intensifier: if she is not Satan herself she is his mother, which amounts to the same condemnation. Talbot's logic in the next line — 'Blood will I draw on thee, thou art a witch' — reflects the period belief, discussed and debunked in Reginald Scot's Discoverie of Witchcraft, that scratching a suspected witch to draw blood would break her power. The whole exchange establishes the play's hostile framing of Joan: where the French see a divinely inspired champion, the English see a diabolical deceiver.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'dam' n.2: 'The mother of a four-footed animal; extended to any female parent, esp. in insult.'"
-      },
-      {
-        "name": "Scot, Discoverie of Witchcraft",
-        "citation": "Reginald Scot, The Discoverie of Witchcraft (1584): the popular practice of scratching a suspected witch to draw blood as a means of defeating her power."
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "joan-la-pucelle"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 543"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Kept the gloss and OED citation; dropped the fabricated Scot 'Book 1, ch. 10' locus (Book 1 has only nine chapters) and generalized the Scot citation to the work."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The 'devil or devil's dam' idiom is well-attested Elizabethan intensifier, and the gloss accurately connects 'conjure thee' plus the blood-drawing threat to Elizabethan witch-trial practice (Scot) without over-reading the line."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Kept the gloss and OED citation; dropped the fabricated Scot 'Book 1, ch. 10' locus (Book 1 has only nine chapters) and generalized the Scot citation to the work. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_vi_part_1-583-adonis-gardens",
-    "play": "henry_vi_part_1",
-    "tln_start": 583,
-    "tln_end": 583,
-    "word_start": 0,
-    "word_end": 5,
-    "anchor_text": "Thy promises are like Adonis' gardens",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "In antiquity, 'gardens of Adonis' were small pots of fast-sprouting, fast-withering herbs grown for the summer festival of Adonis. They stood for things that bloom beautifully but briefly. Charles means the opposite: Joan's promises bloomed one day and bore fruit the very next — she was even quicker to deliver than those notoriously hasty little plants.",
-    "detail": "The Greek and Roman festival of Adonis (the Adonia) involved planting seeds in shallow baskets or pots that germinated quickly in the summer heat but had no roots and wilted within days — a ritual mourning for the beautiful youth Adonis who died young. Plato uses the phrase in the Phaedrus to describe writing that looks lush but has no depth. The allusion was current in Renaissance England as shorthand for fragile, hasty beauty. Charles turns that proverb into a compliment: Joan's word was fulfilled so swiftly it outdid even those legendary fast-bloomers.",
-    "sources": [
-      {
-        "name": "Plato, Phaedrus",
-        "citation": "Plato, Phaedrus 276B (Socrates dismisses writing as mere 'gardens of Adonis' — pleasant-looking but rootless)."
-      },
-      {
-        "name": "Plutarch, Lives",
-        "citation": "Plutarch, Life of Alcibiades (the gardens of Adonis as a token of short-lived enterprise); the fast-sprouting pots are a general feature of the Adonia festival."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 583"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Kept the gloss and the verified Plato 276B citation; generalized the Plutarch citation to the Life of Alcibiades (dropping the wrong 'ch. 18' content claim)."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The core gloss (Adonis gardens = things that bloom quickly but wither) is accurate, and the annotation's reading that Charles inverts the proverb into a compliment — Joan's promises bloomed AND bore fruit the next day, outpacing even the fast-withering plants — is defensible given the celebratory context, though the ambiguity is real and noted."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Kept the gloss and the verified Plato 276B citation; generalized the Plutarch citation to the Life of Alcibiades (dropping the wrong 'ch. 18' content claim). [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_vi_part_1-629-prove-not-masculine",
-    "play": "henry_vi_part_1",
-    "tln_start": 629,
-    "tln_end": 631,
-    "word_start": 0,
-    "word_end": 2,
-    "anchor_text": "Pray God she prove not masculine ere long, If underneath the standard of the French She carry armour",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "Burgundy voices a common English jeer at Joan: a woman who keeps fighting in armor will, in time, turn masculine. 'Standard' means battle-flag or banner. The crude joke draws on Elizabethan anxieties about women in male roles — cross-dressing and gender transgression were deeply controversial — and on the broader hostility the English characters show toward a woman bearing arms.",
-    "detail": "Wearing male clothing and armor was, historically, one of the charges brought against Joan at her 1431 trial, where the tribunal treated it as heresy; Holinshed reproduces that charge from the trial records. Shakespeare's Burgundy is not staging the trial here, but his sneer belongs to the same hostile framing — a fighting woman is treated as unnatural. The line is part of the play's running degradation of Joan.",
-    "sources": [
-      {
-        "name": "Holinshed, Chronicles",
-        "citation": "Holinshed, Chronicles (1587): the record of Joan's 1431 trial and the charge of wearing male clothing and armor."
-      },
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'standard' (n.): a military flag or banner under which troops fight."
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "joan-la-pucelle"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 629"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Holinshed 1587 does record Joan's appearance in male armor and the cross-dressing charge at her 1431 trial; OED 'standard' (military flag) is a real entry — both sources support the claims."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Interp over-reach trimmed: removed the claim that the line itself enacts the 1431 trial charge and the 'audience knows she will be burned' dramatic-irony frame; kept it as crude Elizabethan gender-mockery with the trial charge as historical background (still Holinshed-sourced)."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Interp over-reach trimmed: removed the claim that the line itself enacts the 1431 trial charge and the 'audience knows she will be burned' dramatic-irony frame; kept it as crude Elizabethan gender-mockery with the trial charge as historical background (still Holinshed-sourced). [orig: source=verified, interp=refuted]"
-  },
-  {
-    "id": "henry_vi_part_1-771-hercules-hector",
-    "play": "henry_vi_part_1",
-    "tln_start": 771,
-    "tln_end": 772,
-    "word_start": 6,
-    "word_end": 6,
-    "anchor_text": "some Hercules, A second Hector, for his grim aspect",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "Hercules was the strongest hero of Greek myth, famous for twelve near-impossible labors; Hector was the greatest warrior of Troy, described throughout Homer's Iliad as tall and terrifying in appearance. The Countess expected a physically imposing giant. Finding Talbot small, she dismisses the reports of his terror — only to discover that, like both heroes, his power is not in his body alone.",
-    "detail": "Hercules (Herakles) represented superlative physical strength; his twelve labors were the ancient benchmark for feats of force (told in Apollodorus, Library, Book 2). Hector, the Trojan champion, is repeatedly named by Homer as the greatest fighter in aspect and deed (Iliad 22). Pairing the two — one Greek, one Trojan — is the standard classical doubling for overwhelming martial prowess. The scene then inverts the expectation: Talbot's 'substance' is his army, not his body, making the joke at the Countess's expense about what real power looks like.",
-    "sources": [
-      {
-        "name": "Apollodorus, Library; Homer, Iliad",
-        "citation": "Apollodorus, Library, Book 2 (Hercules' twelve labors); Homer, Iliad 22 (Hector as supreme Trojan warrior)."
-      }
-    ],
-    "references": [
-      {
-        "kind": "classical",
-        "card_id": "hercules"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 771"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Kept the gloss and the verified Iliad 22 citation; generalized the garbled Apollodorus locus '2.4.8-2.7' to Library Book 2 (the labors)."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The Countess literally says she expected 'some Hercules, / A second Hector, for his grim aspect,' so the gloss is grounded in the text; the interpretation that she expected a physically imposing giant, then discovers his power is collective, tracks accurately with the scene's action."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Kept the gloss and the verified Iliad 22 citation; generalized the garbled Apollodorus locus '2.4.8-2.7' to Library Book 2 (the labors). [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_vi_part_1-978-nestor-aged",
-    "play": "henry_vi_part_1",
-    "tln_start": 978,
-    "tln_end": 978,
-    "word_start": 0,
-    "word_end": 6,
-    "anchor_text": "Nestor-like aged in an age of care",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "Nestor was the oldest of the Greek heroes at Troy — Homer says he had already outlived two generations of fighting men and was ruling among a third — so his name became a byword for extreme old age. Mortimer compares his gray hair to Nestor's, linking his long imprisonment to drawn-out suffering.",
-    "detail": "Homer's Nestor in the Iliad boasts of having outlived two generations and now ruling among the third; his name was proverbial in Elizabethan writing for venerable longevity. The doubled 'age' — Nestor-like aged / in an age of care — is deliberate wordplay: Mortimer is old both in years and in grief.",
-    "sources": [
-      {
-        "name": "Homer, Iliad",
-        "citation": "Homer, Iliad 1.247-252 (Nestor as elder statesman who has outlived two generations of heroes and rules among the third)."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 978"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Corrected the count: Homer (Iliad 1.247-252, locus confirmed) has Nestor outlive two generations and rule among the third, not 'three generations'; fixed both summary and detail, kept the otherwise-accurate citation."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The Nestor comparison is solidly Homeric and proverbial in Elizabethan writing; the doubled-'age' wordplay observation is a reasonable and unforced reading of the line."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Corrected the count: Homer (Iliad 1.247-252, locus confirmed) has Nestor outlive two generations and rule among the third, not 'three generations'; fixed both summary and detail, kept the otherwise-accurate citation. [orig: source=refuted, interp=verified]"
   }
 ]

@@ -25,7 +25,18 @@ const MODERN_SOURCE_ALIAS: Record<string, string> = {
   titus_andronicus: 'tragedy_of_titus_andronicus',
 };
 
+// The vendored modern cymbeline_gut.txt is INCOMPLETE — it is missing Acts III and IV (the
+// whole Welsh storyline). A complete modern-spelling text, converted from the vendored
+// public-domain Moby Shakespeare XML by scripts/pipeline/_moby-to-gut.mjs, is committed at
+// data/sources/cymbeline_gut.txt; point the slug there. Absolute override (the Moby-derived
+// text lives outside the read-only vendor dir). One key only, so every other slug is
+// unaffected and re-ingests byte-identical.
+const FULL_SOURCE_OVERRIDE: Record<string, string> = {
+  cymbeline: resolve(DATA_DIR, 'sources', 'cymbeline_gut.txt'),
+};
+
 export function gutenbergModernPath(slug: string): string {
+  if (FULL_SOURCE_OVERRIDE[slug]) return FULL_SOURCE_OVERRIDE[slug];
   const base = MODERN_SOURCE_ALIAS[slug] ?? slug;
   return resolve(GUTENBERG_DIR, `${base}_gut.txt`);
 }

@@ -58,7 +58,17 @@ for (const [a, s] of scenes) {
   if (m2) { tShip += +m2[1]; tRev += +m2[2]; tDrop += +m2[3]; console.log(`  ${a}-${s}: ${m2[0]}`); }
   else console.log(`  ${a}-${s}: ${r2.trim().split('\n').pop()}`);
 }
-const total = JSON.parse(readFileSync(annPath, 'utf8')).length;
+// Finalize in canonical TLN order. apply-verdicts appends scene-by-scene (TLN-ordered across
+// scenes but not guaranteed strictly within a scene), and the review-queue rescue appends items
+// onto the end, so sort the shipped file by (tln_start, word_start, word_end, id). The reader
+// also sorts at render time (loader.ts annotationsForScene); this keeps the committed DATA
+// canonical too, so any consumer that trusts array order shows notes in TLN order.
+const finalAnns = JSON.parse(readFileSync(annPath, 'utf8'));
+finalAnns.sort((x, y) =>
+  (x.tln_start - y.tln_start) || ((x.word_start ?? 0) - (y.word_start ?? 0)) ||
+  ((x.word_end ?? 0) - (y.word_end ?? 0)) || String(x.id).localeCompare(String(y.id)));
+writeFileSync(annPath, JSON.stringify(finalAnns, null, 2), 'utf8');
+const total = finalAnns.length;
 console.log(`\npostprocess ${slug}: ${tShip} shipped, ${tRev} review, ${tDrop} dropped, ${tUnres} anchor-unresolved, ${skipped} scene(s) without candidates.`);
 console.log(`annotations.json now ${total}.`);
 if (tUnres) console.log('Anchor-unresolved candidates were dropped: check the candidate anchor_text matches the source verbatim.');

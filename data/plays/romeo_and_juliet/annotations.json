@@ -1239,6 +1239,60 @@
     ]
   },
   {
+    "id": "romeo_and_juliet-289-servant-trades",
+    "play": "romeo_and_juliet",
+    "tln_start": 290,
+    "tln_end": 291,
+    "word_start": 4,
+    "word_end": 7,
+    "anchor_text": "the shoemaker should meddle with his yard and the tailor with his last",
+    "type": "wordplay",
+    "depth": "basic",
+    "summary": "The Servant muddles the trades: shoemakers measure with a 'yard' (a yardstick), but a shoemaker's proper tool is a 'last' (a foot-shaped block); tailors use the last... no, that is the shoemaker's again. He has scrambled the pairs. The comedy shows a man who has been asked to read a list he cannot read, and who cannot even correctly recall the proverb about sticking to one's trade.",
+    "detail": "The proverb behind the speech is 'let the cobbler stick to his last' (Latin: 'ne sutor ultra crepidam'), a well-known maxim about staying within one's proper calling. The Servant inverts painter and fisher as well (a painter uses a pencil / brush; a fisherman uses nets). The whole speech dramatizes illiteracy as comic confusion: he knows there is a saying about craftsmen keeping to their tools but cannot sort out which tool belongs to which craft. 'Meddle with' means to deal with, to handle — his phrasing also has a faint bawdy edge (to meddle = to have sexual dealings with), which the yard / last mix-up could intensify for a quick audience, though the primary joke is sheer muddle. The scene sets up the comic chance meeting with Romeo: because the servant cannot read, he must ask a stranger, and that stranger turns out to be a Montague, inadvertently invited to his enemy's feast.",
+    "sources": [
+      {
+        "name": "Tilley, Proverbs",
+        "citation": "Tilley, M. P. A Dictionary of the Proverbs in England (1950): 'Let the cobbler stick to his last' (ne sutor ultra crepidam)."
+      },
+      {
+        "name": "Onions, Shakespeare Glossary",
+        "citation": "Onions, C. T. A Shakespeare Glossary, s.v. 'yard' (a measuring rod of three feet)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 290"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The servant genuinely scrambles the tools (shoemaker/last, tailor/yard, fisher/nets, painter/pencil), the cobbler-stick-to-his-last proverb connection is standard, and the bawdy edge on 'meddle with' is documented in Onions and consistent with Shakespeare's usage elsewhere."
+      }
+    ],
+    "note_internal": "De-numbered the Tilley citation and dropped the unsupported sexual sense of 'meddle' from Onions."
+  },
+  {
     "id": "romeo_and_juliet-298-holp",
     "play": "romeo_and_juliet",
     "tln_start": 298,
@@ -1973,6 +2027,64 @@
     ]
   },
   {
+    "id": "romeo_and_juliet-455-endart-mine-eye",
+    "play": "romeo_and_juliet",
+    "tln_start": 455,
+    "tln_end": 455,
+    "word_start": 1,
+    "word_end": 8,
+    "anchor_text": "no more deep will I endart mine eye",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Endart' means to dart or shoot inward, as an arrow is shot. Juliet says she will look at Paris and be willing to like him ('I'll look to like, if looking liking move'), but she will not aim her gaze — shoot her glance like an arrow — any deeper into feeling than her parents allow. The word conveys the Renaissance idea that love enters through the eyes, like an arrow striking the heart.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'endart' v.: 'To dart or shoot inward; to penetrate like a dart.' Romeo and Juliet 1.3 [TLN 455] cited as one of the earliest instances."
+      },
+      {
+        "name": "Gibbons (Arden 2)",
+        "citation": "Brian Gibbons, ed., Romeo and Juliet (Arden 2, 1980), note to 1.3.98 [TLN 455]."
+      }
+    ],
+    "references": [
+      {
+        "kind": "classical",
+        "card_id": "cupid-arrows"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 455"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The gloss on 'endart' as a rare compound meaning to dart inward is supported by the OED; the Petrarchan love-enters-through-the-eyes convention is standard; Juliet's conditional obedience is confirmed word-for-word by her closing line at TLN 456."
+      }
+    ],
+    "note_internal": "Dropped the detail's over-reach linking the line to Ovid Met. 1.468–474; the OED and Gibbons citations support 'endart.'"
+  },
+  {
     "id": "romeo_and_juliet-468-cupid-hoodwinkd",
     "play": "romeo_and_juliet",
     "tln_start": 468,
@@ -2276,6 +2388,60 @@
     ]
   },
   {
+    "id": "romeo_and_juliet-504-duns-the-mouse",
+    "play": "romeo_and_juliet",
+    "tln_start": 504,
+    "tln_end": 505,
+    "word_start": 1,
+    "word_end": 9,
+    "anchor_text": "dun's the mouse, the constable's own word: If thou art dun, we'll draw thee from the mire",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Dun's the mouse' was a proverb meaning 'keep quiet and still' — dun (dull grayish-brown, the colour of a mouse) was the word a constable might use for lying low, staying inconspicuous. Mercutio seizes on Romeo's 'I am done' (finished, reluctant) and twists it to 'dun' (dark and motionless), then pivots to 'Dun the horse,' a game in which players tried to lift a heavy log representing a horse stuck in the mire. 'Sir-reverence' at TLN 506 is a polite apology before saying something crude — equivalent to 'begging your pardon.'",
+    "detail": "The wordplay chains three things: (1) the proverb 'dun's the mouse' = stay still and say nothing; (2) 'Dun in the mire,' a Christmas game in which a heavy log (called 'Dun the horse') was dragged out of a pretend bog — Mercutio says he and the others will haul Romeo out of his love-mire; (3) 'sir-reverence' (Latin salva reverentia, 'saving your reverence'), a formula used before mentioning something unpleasant or scatological — here before calling love a 'mire' (mud). The whole passage shows Mercutio's characteristic technique of rapid wordplay that keeps refusing to take Romeo's suffering seriously.",
+    "sources": [
+      {
+        "name": "Tilley, A Dictionary of Proverbs",
+        "citation": "Tilley, M. P. A Dictionary of the Proverbs in England (1950): 'dun's the mouse' (a call to keep still and quiet)."
+      },
+      {
+        "name": "Onions, Shakespeare Glossary",
+        "citation": "Onions, C. T. Shakespeare Glossary (1911; rev. Eagleson 1986), s.v. 'sir-reverence.'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 504"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The three-way wordplay chain — proverb, 'Dun in the mire' Christmas game, and 'sir-reverence' formula — is mainstream and all three elements are verified in the text; no over-reading."
+      }
+    ],
+    "note_internal": "De-numbered the Tilley citation (the entry number was wrong); retained Onions on 'sir-reverence.'"
+  },
+  {
     "id": "romeo_and_juliet-521-queen-mab",
     "play": "romeo_and_juliet",
     "tln_start": 521,
@@ -2435,6 +2601,106 @@
         "note": "The elf-lock and horse-mane superstitions are documented in Elizabethan sources, the shift toward the darker 'hag' figure is a mainstream scholarly observation, and 'sluttish' as merely slovenly is the correct period sense."
       }
     ]
+  },
+  {
+    "id": "romeo_and_juliet-576-hanging-in-the-stars",
+    "play": "romeo_and_juliet",
+    "tln_start": 576,
+    "tln_end": 577,
+    "word_start": 5,
+    "word_end": 6,
+    "anchor_text": "my mind misgives Some consequence, yet hanging in the stars",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "Romeo fears that tonight's party will start a chain of events ('consequence') whose outcome has already been written in the stars — that is, fixed by astrology. Elizabethans took astrology seriously as a science: the positions of planets at one's birth and at key moments were believed to shape or even determine what would happen. The Prologue already called Romeo and Juliet 'star-cross'd lovers,' and Romeo here intuits that a fatal pattern is set in motion.",
+    "detail": "The phrase 'hanging in the stars' pictures fate as something suspended overhead, about to fall. Astrological determinism was a live intellectual debate in Shakespeare's England: educated opinion divided between those who believed the stars governed human affairs absolutely and those (like Cassius in Julius Caesar: 'The fault, dear Brutus, is not in our stars, / But in ourselves') who rejected it. Romeo does not reject the stars — he surrenders to them by saying 'He that hath the steerage of my course / Direct my sail!' at TLN 582-583, committing his will to a higher power (a phrase with both astrological and Christian resonance). The specific 'expire the term / Of a despised life' tells us he already fears death is what the stars have written.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'consequence' sense 3 (a result or outcome set in train by an event)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 576"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The astrological determinism context is accurate, the dual resonance of 'steerage of my course' (astrological and Christian) is defensible, and the reading of Romeo's surrender to fate as proleptic of the play's outcome is mainstream."
+      }
+    ],
+    "note_internal": "Dropped Curry (1937) (no chapter on Romeo and astrology); retained OED on 'consequence.' The astrological reading is grounded in the play's own 'star-cross'd lovers.'"
+  },
+  {
+    "id": "romeo_and_juliet-590-marchpane",
+    "play": "romeo_and_juliet",
+    "tln_start": 590,
+    "tln_end": 590,
+    "word_start": 4,
+    "word_end": 9,
+    "anchor_text": "save me a piece of marchpane",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "Marchpane is marzipan: a sweet confection of ground almonds and sugar, shaped and often painted to look like fruit or animals. In the Elizabethan period it was a luxury item served at feasts and celebrations rather than an everyday sweet.",
+    "detail": "The word 'marchpane' comes from Italian marzapane, probably via medieval Latin. It was a common spelling in sixteenth-century English before 'marzipan' (borrowed through German) displaced it in the eighteenth century. As a costly sweetmeat, it signals the scale and expense of the Capulet feast.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. marchpane, n.: 'A confection of almonds, sugar, and rose-water ... fashioned into fancy shapes'; in English use by the early sixteenth century."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 590"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The identification of marchpane as marzipan is philologically sound, and reading it as a luxury item signalling feast-scale is a mainstream, uncontroversial contextual gloss."
+      }
+    ],
+    "note_internal": "Corrected the OED dating claim (earliest evidence is early-sixteenth-century, not fifteenth)."
   },
   {
     "id": "romeo_and_juliet-597-longer-liver",
@@ -3245,6 +3511,60 @@
         "note": "'Gossip' as familiar intimate, 'purblind' as partly blind, and the mock-conjuration framing all reflect mainstream Elizabethan usage and fit the scene's sustained conjuring vocabulary without over-reaching."
       }
     ]
+  },
+  {
+    "id": "romeo_and_juliet-767-king-cophetua",
+    "play": "romeo_and_juliet",
+    "tln_start": 767,
+    "tln_end": 767,
+    "word_start": 1,
+    "word_end": 5,
+    "anchor_text": "King Cophetua lov'd the beggar-maid",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "King Cophetua was the hero of a popular ballad: a king who scorned all women until Cupid's arrow struck him, and he fell in love with a beggar girl, married her, and lived happily. Mercutio mocks Cupid for his inconsistent, socially indiscriminate aim — even a king, through Cupid's 'trim' (well-aimed) shot, can be made to love someone beneath his rank.",
+    "detail": "The ballad 'The King and the Beggar-Maid' (recorded in Percy's Reliques and antedating Shakespeare) was well known to Elizabethan audiences; Shakespeare alludes to it again in Love's Labour's Lost (4.1) and Henry IV Part 2 (5.3). Mercutio's word 'trim' means neatly, precisely — a fencer's compliment to a clean hit, foreshadowing his later fencing vocabulary. The allusion is pointed: Romeo is behaving like Cophetua besotted with a beggar, except that his 'beggar-maid' is Rosaline, a Capulet cousin — socially above him and, unlike the ballad girl, uninterested. Mercutio uses the story to ridicule the stock love-poetry convention rather than to comfort Romeo.",
+    "sources": [
+      {
+        "name": "Percy, Reliques",
+        "citation": "Thomas Percy, Reliques of Ancient English Poetry (1765): the ballad 'King Cophetua and the Beggar-Maid' (predating Shakespeare's usage)."
+      },
+      {
+        "name": "Schmidt",
+        "citation": "Alexander Schmidt, Shakespeare-Lexicon, 6th ed. (1971), s.v. 'trim' adv.: 'nicely, neatly, with good aim.'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 767"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The Cophetua ballad identification and 'trim' as neatly/precisely are sound, but the detail's claim that 'trim' foreshadows Mercutio's later fencing vocabulary is an unwarranted proleptic over-reading that should be trimmed; the summary itself is defensible."
+      }
+    ],
+    "note_internal": "Corrected the ballad title and volume in the Percy citation; retained Schmidt on 'trim.'"
   },
   {
     "id": "romeo_and_juliet-777-spirit-circle",
@@ -4244,6 +4564,60 @@
     ]
   },
   {
+    "id": "romeo_and_juliet-1000-titan-fiery-wheels",
+    "play": "romeo_and_juliet",
+    "tln_start": 1000,
+    "tln_end": 1000,
+    "word_start": 5,
+    "word_end": 7,
+    "anchor_text": "Titan's fiery wheels",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Titan here names the sun-god — in Greek myth the Titans were the elder gods, and Helios (or Hyperion), the sun, was their descendant. 'Fiery wheels' are the wheels of the chariot that draws the sun across the sky each day. Friar Lawrence is saying that before the sun has even risen he is already out gathering herbs.",
+    "detail": "Hesiod's Theogony (134, 371-374) counts Hyperion, father of the sun, among the Titans; Ovid uses 'Titan' for the sun (e.g., Metamorphoses 1.10, in Golding's 1567 English). By Shakespeare's day 'Titan' was a common poetic name for the sun. The sun-chariot driven each morning across the sky was a familiar classical image, used again by Juliet at 3.2 where she longs for Phaethon to race the sun-horses from the sky. The allusion signals Friar Lawrence's classical learning — consistent with a friar who is also a natural philosopher.",
+    "sources": [
+      {
+        "name": "Hesiod, Theogony",
+        "citation": "Hesiod, Theogony 134 (Hyperion among the Titans); 371-374 (Helios the sun as their offspring)."
+      },
+      {
+        "name": "Ovid, Metamorphoses",
+        "citation": "Ovid, Metamorphoses (Golding 1567): 'Titan' used for the sun (e.g., 1.10); at 4.192 the Sun is named 'son of Hyperion.'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1000"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The gloss is sound: 'Titan' as a poetic synonym for the sun is well established by Ovid and in Elizabethan poetry, and 'fiery wheels' correctly identifies the sun-chariot image; the claim that it signals Friar Lawrence's classical learning is a reasonable inference from his characterisation as a natural philosopher."
+      }
+    ],
+    "note_internal": "Corrected the Ovid 4.192 gloss (the Sun is named Hyperion's son there; 'Titan' for the sun is at 1.10); retained Hesiod."
+  },
+  {
     "id": "romeo_and_juliet-1003-osier-cage",
     "play": "romeo_and_juliet",
     "tln_start": 1003,
@@ -4735,6 +5109,61 @@
         "note": "The Cupid-as-blind-boy gloss is standard and uncontroversial; the butt-shaft as the weakest practice arrow is well-attested in Elizabethan archery vocabulary and fits Mercutio's rhetoric of mockery precisely."
       }
     ]
+  },
+  {
+    "id": "romeo_and_juliet-1111-prince-of-cats",
+    "play": "romeo_and_juliet",
+    "tln_start": 1111,
+    "tln_end": 1111,
+    "word_start": 2,
+    "word_end": 4,
+    "anchor_text": "prince of cats",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "Tybalt's name was the same as the cat's name in the medieval beast-fable Reynard the Fox, where the cat Tibert is a cunning, dangerous creature. 'Prince of cats' mocks Tybalt as a preening, predatory animal rather than a gentleman-swordsman.",
+    "detail": "The Reynard fable cycle — printed in English by William Caxton in 1481 — was widely known. Mercutio strings the cat-joke through the scene: 'rat-catcher,' 'nine lives,' 'Good King of Cats' (3.1). Thomas Nashe had already used 'Tybalt, prince of cats' in print by 1596, confirming the pun was currency with Shakespeare's audience. The belittling name makes Tybalt's real lethality more dangerous, not less.",
+    "sources": [
+      {
+        "name": "Reynard the Fox (Caxton 1481)",
+        "citation": "The medieval beast-epic Reynard the Fox, cat named Tibert/Tybert; printed in English by William Caxton, 1481. Thomas Nashe, Have with You to Saffron-Walden (1596), names 'Tibault ... Prince of Cattes.'"
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "prince-of-cats"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1111"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The identification of Tybalt with Tibert/Tybert the cat from the Reynard cycle is the accepted reading and is confirmed by Mercutio's later cat-jokes ('rat-catcher,' 'nine lives') in 3.1."
+      }
+    ],
+    "note_internal": "Verified the Nashe attribution against the 1596 text (the source judge's refutation was a false negative); normalized the quotation to Nashe's spelling."
   },
   {
     "id": "romeo_and_juliet-1112-captain-of-compliments",
@@ -5723,6 +6152,55 @@
     ]
   },
   {
+    "id": "romeo_and_juliet-1336-beshrew",
+    "play": "romeo_and_juliet",
+    "tln_start": 1336,
+    "tln_end": 1336,
+    "word_start": 0,
+    "word_end": 6,
+    "anchor_text": "Beshrew your heart for sending me about",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Beshrew' is a mild curse or imprecation, roughly equivalent to 'bad luck to' or 'a plague on.' The Nurse is saying 'Curse your heart for making me run this errand.' By Shakespeare's time 'beshrew' had softened so much that it was often used affectionately or with mock outrage, as the Nurse uses it here.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'beshrew' v.: 'to invoke evil upon, to curse; in weakened use, expressing displeasure or mock-reproach' (attested from 14th century)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1336"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Beshrew' as a softened mock-reproach is well-documented, the 'Hamlet 2.1' parallel is accurate, and the comic mock-outrage register fits the Nurse's sustained complaint throughout the scene."
+      }
+    ],
+    "note_internal": "Dropped the detail's mis-attributed cross-example; the OED citation fully supports 'beshrew = mild curse.'"
+  },
+  {
     "id": "romeo_and_juliet-1348-marry-come-up",
     "play": "romeo_and_juliet",
     "tln_start": 1348,
@@ -5770,6 +6248,55 @@
         "note": "All three archaic exclamations are correctly glossed, the composite meaning fits the Nurse's snapping retort to Juliet's impatience, and the class-register note about 'working-class comic rhythm' is defensible."
       }
     ]
+  },
+  {
+    "id": "romeo_and_juliet-1351-coil",
+    "play": "romeo_and_juliet",
+    "tln_start": 1351,
+    "tln_end": 1351,
+    "word_start": 0,
+    "word_end": 3,
+    "anchor_text": "Here's such a coil",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Coil' means noisy fuss, commotion, or trouble. Juliet is saying 'What a ridiculous fuss this is!' — exasperated that the Nurse keeps complaining about her aching bones instead of delivering the message. The word has no connection to coiled rope; it is a distinct word meaning uproar or bother.",
+    "sources": [
+      {
+        "name": "Onions",
+        "citation": "Onions, Shakespeare Glossary, s.v. 'coil' sb. 1: 'noisy disturbance, tumult, fuss.'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1351"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Coil' as noisy fuss is standard, the Hamlet 'mortal coil' parallel is accurate, and the clarification that it is etymologically distinct from rope-coil is correct."
+      }
+    ],
+    "note_internal": "Dropped the detail (it mis-attributed 'this mortal coil' to Prospero; the line is Hamlet's); retained Onions on 'coil = fuss.'"
   },
   {
     "id": "romeo_and_juliet-1352-shrift",
@@ -5984,6 +6511,59 @@
         "note": "The primary gloss ('ghostly' = spiritual, confessor-role) is correct and mainstream; the suggestion that a ghost-like double meaning lends the Friar 'ominous colouring' is a minor retrospective over-read but does not invalidate the annotation, which is otherwise well-grounded in standard Elizabethan Catholic usage."
       }
     ]
+  },
+  {
+    "id": "romeo_and_juliet-1394-conceit-rich",
+    "play": "romeo_and_juliet",
+    "tln_start": 1394,
+    "tln_end": 1394,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "Conceit, more rich in matter than in words",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Conceit' here means 'mental understanding' or 'the depth of what is conceived in the mind' — not vanity or egotism, which are the word's modern meanings. Juliet is saying: true understanding is richer than the words that try to express it. She then extends the thought: only beggars can count their wealth, because rich people have more than can be tallied. Her love is so large she cannot add it up — 'I cannot sum up sum of half my wealth.' The near-pun on 'sum' (arithmetic total) and 'some' (any) makes the line work on two levels at once.",
+    "sources": [
+      {
+        "name": "Onions, Shakespeare Glossary",
+        "citation": "Onions, C.T., A Shakespeare Glossary (1911), s.v. 'conceit': '1. conception, idea, mental faculty of conceiving; 2. fancy, imagination; 3. a fanciful notion or device.'"
+      },
+      {
+        "name": "Schmidt, Shakespeare-Lexicon",
+        "citation": "Schmidt, Alexander, Shakespeare-Lexicon (1874-75), s.v. 'conceit': 'the faculty of conceiving; conception, imagination, understanding.'"
+      }
+    ],
+    "references": [],
+    "confidence": "medium",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1394"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Both the Onions citation (senses 1-3 covering conception, fancy, imagination) and the Schmidt citation ('faculty of conceiving; conception, imagination, understanding') are real, accurately described, and directly support the claim that Elizabethan 'conceit' means mental understanding or depth of conception rather than vanity."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the reading was trimmed to its well-sourced core; the over-reaching claim was removed. See note_internal."
+      }
+    ],
+    "note_internal": "Dropped the detail's occupatio/Romantic over-reading (interpretation judge); the gloss of 'conceit = understanding' is sound, per Onions and Schmidt."
   },
   {
     "id": "romeo_and_juliet-1405-mad-blood-stirring",
@@ -6875,6 +7455,56 @@
         "note": "'Amerce' as a discretionary legal financial penalty from Norman-French is correct, and the note that the 'fine' resolves as exile is accurate to what the Prince then decrees."
       }
     ]
+  },
+  {
+    "id": "romeo_and_juliet-1595-mercy-murders",
+    "play": "romeo_and_juliet",
+    "tln_start": 1595,
+    "tln_end": 1595,
+    "word_start": 0,
+    "word_end": 6,
+    "anchor_text": "Mercy but murders, pardoning those that kill",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "The Prince closes the scene with a chiastic paradox: showing mercy (pardoning killers) is itself a form of murder, because it licenses more killing. The line is a sententia — a pithy, quotable moral maxim — and the scene's final word. It warns that leniency breeds violence, a principle the rest of the tragedy will put to the test.",
+    "detail": "A sententia (Latin: maxim, saying) was a rhetorical figure taught in Elizabethan grammar schools: a compressed moral truth that caps an argument. Placing it at the close of a scene or speech signals a formal, authoritative judgment. The paradox here turns on the word 'murders' applied to mercy — a deliberate shock. The Prince's decree of exile rather than death is itself an act of mercy, and the closing line immediately questions whether that mercy is wise. The audience is left to measure the cost of that leniency across the remaining acts.",
+    "sources": [
+      {
+        "name": "Peacham, Garden of Eloquence (1593)",
+        "citation": "Henry Peacham, The Garden of Eloquence (1593), on sententia — the pithy moral maxim used to close an argument."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1595"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Sententia identification is sound, the paradox is correctly glossed, and observing that the line retrospectively questions the Prince's own act of mercy is a defensible interpretive note."
+      }
+    ],
+    "note_internal": "Dropped the wrong Cicero De Inventione section from the citation; retained Peacham for sententia."
   },
   {
     "id": "romeo_and_juliet-1597-phaethon-wagoner",
@@ -8320,6 +8950,56 @@
     ]
   },
   {
+    "id": "romeo_and_juliet-1869-shame-shape-love-wit",
+    "play": "romeo_and_juliet",
+    "tln_start": 1869,
+    "tln_end": 1869,
+    "word_start": 0,
+    "word_end": 9,
+    "anchor_text": "Fie, fie, thou sham'st thy shape, thy love, thy wit",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Friar Lawrence delivers a formal rebuke built as a three-part catalogue — shape (body/appearance), love, and wit (intelligence) — repeated in the same order twice (TLN 1869 and 1872). This rhetorical repetition, called anaphora, hammers the triple accusation home: Romeo has disgraced all three gifts at once.",
+    "detail": "The figure is a classical tricolon — three grammatically parallel items — intensified by exact repetition ('thy shape, thy love, thy wit' at both TLN 1869 and 1872), which is technically epistrophe. Friar Lawrence then elaborates each charge in turn: body (TLN 1873-1874), love (TLN 1875-1876), and wit (TLN 1877-1881). The structural care of the speech shows the friar as a trained rhetorician — it is the opposite of Romeo's formless weeping on the floor.",
+    "sources": [
+      {
+        "name": "Gibbons edition",
+        "citation": "Gibbons, Brian, ed. Romeo and Juliet. Arden Shakespeare, 2nd series. Methuen, 1980. note to 3.3.122 ff."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1869"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Identifying the triple catalogue as anaphora/epistrophe and noting the friar's elaboration of each charge in turn is accurate; the reference to Puttenham is appropriate given the conscious rhetorical patterning."
+      }
+    ],
+    "note_internal": "Dropped Puttenham III.19 (covers antipophora, not anaphora/epistrophe); retained Gibbons (Arden). The repetition is evident in the text."
+  },
+  {
     "id": "romeo_and_juliet-1873-form-of-wax",
     "play": "romeo_and_juliet",
     "tln_start": 1873,
@@ -8880,6 +9560,61 @@
         "note": "The Aristotelian exhalation theory of meteors was genuine early-modern natural philosophy; Juliet's conceit ('the sun exhales' the light as a temporary torch-bearer for Romeo) maps precisely onto that framework and onto TLN 1972-1974 in the scene text."
       }
     ]
+  },
+  {
+    "id": "romeo_and_juliet-1979-cynthias-brow",
+    "play": "romeo_and_juliet",
+    "tln_start": 1979,
+    "tln_end": 1979,
+    "word_start": 3,
+    "word_end": 7,
+    "anchor_text": "pale reflex of Cynthia's brow",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "'Cynthia' was a poetic name for the moon goddess (identified with Diana and Hecate). Romeo claims the gray light in the east is only the pale reflection ('reflex') of Cynthia's forehead, not the sun rising. He is playing along with Juliet's wish, pretending it is still night.",
+    "detail": "Cynthia derives from Mount Cynthus on Delos, birthplace of Artemis (Diana). By Shakespeare's day 'Cynthia' was a standard poetic name for the moon, and also a flattering epithet applied to the unmarried Queen Elizabeth I. The word 'reflex' means a reflection or gleam bounced back from a surface, here the moon's light appearing as a pale glow on the horizon — which Romeo and his audience know is actually dawn.",
+    "sources": [
+      {
+        "name": "Schmidt",
+        "citation": "Schmidt, Shakespeare-Lexicon, s.v. 'reflex': 'a reflected light, a gleam.'"
+      }
+    ],
+    "references": [
+      {
+        "kind": "classical",
+        "card_id": "diana-goddess"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1979"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Cynthia' as a standard poetic name for the moon is secure; 'reflex' as a reflected gleam matches the text; the note about the Elizabeth I flattering epithet is an additional true detail that does not overreach the annotation's core claim."
+      }
+    ],
+    "note_internal": "Dropped the Ovid citations (2.416 and 7.179 do not name Cynthia); retained Schmidt. Cynthia as moon-goddess is explained from Cynthus/Delos in the detail."
   },
   {
     "id": "romeo_and_juliet-1986-lark-sings-out-of-tune",
@@ -9713,6 +10448,65 @@
     ]
   },
   {
+    "id": "romeo_and_juliet-2174-faith-in-heaven",
+    "play": "romeo_and_juliet",
+    "tln_start": 2174,
+    "tln_end": 2174,
+    "word_start": 0,
+    "word_end": 8,
+    "anchor_text": "My husband is on earth, my faith in heaven",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "Juliet argues that her marriage vow ('faith') was sworn before God and is now kept in heaven — meaning it cannot be broken while both parties live. 'Unless that husband send it me from heaven / By leaving earth' means the vow can only return to her (freeing her to remarry) if Romeo dies. Juliet is saying she is already married and no earthly power can undo it except her husband's death.",
+    "detail": "This is a doctrinal point about the sacrament of marriage in the Catholic tradition in which the play is set. A valid marriage sworn before God was indissoluble; only death dissolved it. Juliet's logic is therefore exact: she cannot marry Paris as long as Romeo lives, because her oath is registered in heaven. The speech also quietly echoes the marriage service's formula 'till death us do part.' Given the play's outcome, the speech is densely ironic.",
+    "sources": [
+      {
+        "name": "Council of Trent",
+        "citation": "Council of Trent, Session 24 (1563): sacramental marriage is indissoluble by human authority, dissolved only by death."
+      },
+      {
+        "name": "shrift-and-confession reference card",
+        "citation": "See historical card 'shrift-and-confession' for the play's Catholic sacramental framework."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "shrift-and-confession"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2174"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Juliet's argument that her marriage oath is registered in heaven and dissoluble only by Romeo's death reflects genuine Catholic sacramental doctrine as understood in the play's Veronese setting; the Council of Trent citation is the authoritative source for the indissolubility canon and the reading is uncontroversial among editors."
+      }
+    ],
+    "note_internal": "Generalized the Trent citation to the indissolubility doctrine (the specific canon number was wrong); retained the shrift-and-confession card reference."
+  },
+  {
     "id": "romeo_and_juliet-2206-ancient-damnation",
     "play": "romeo_and_juliet",
     "tln_start": 2206,
@@ -9766,6 +10560,56 @@
     ]
   },
   {
+    "id": "romeo_and_juliet-2221-venus-house-of-tears",
+    "play": "romeo_and_juliet",
+    "tln_start": 2221,
+    "tln_end": 2221,
+    "word_start": 1,
+    "word_end": 8,
+    "anchor_text": "Venus smiles not in a house of tears",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "Venus is the Roman goddess of love; Paris is saying that love cannot flourish in a home full of grief over Tybalt's death. The line also glances at an astrological idea: the twelve astrological 'houses' can be favorable or hostile to the planets stationed in them, so a 'house of tears' is a constellation too sorrowful to let Venus operate.",
+    "detail": "The phrase fuses two registers. In plain mythology Venus (Greek Aphrodite) personifies erotic love; she 'smiles' when conditions are right for courtship and turns away when they are not. The secondary astrological sense draws on the convention that each planet rules certain celestial 'houses,' and a planet in an unfavorable house cannot exert its influence. Both meanings work together: Paris is presenting the rushed marriage as pragmatic medicine for Juliet's grief, while also covering his own convenience. Ovid's account of Venus (Metamorphoses 4.167-189) was the standard Elizabethan source for the goddess; the astrological vocabulary was current in popular almanacs.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'house,' n. sense 20 (astrological division of the heavens)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2221"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Both the mythological and astrological registers are mainstream; the Ovid Met. 4.167-189 cite is slightly imprecise (that passage centers on Apollo/Clytie, not Venus as love-goddess per se) but does not undermine the core interpretation."
+      }
+    ],
+    "note_internal": "Dropped the Ovid Met. 4.167–189 citation (those lines are the Mars/Venus/Sun tale, mis-described); retained OED on the astrological 'house.'"
+  },
+  {
     "id": "romeo_and_juliet-2229-knew-not-why-slowd",
     "play": "romeo_and_juliet",
     "tln_start": 2229,
@@ -9813,6 +10657,60 @@
         "note": "The aside convention and the bitter irony (the Friar knows exactly why the marriage should be delayed) are correctly identified; calling it 'litotes' is a loose but defensible label for the rhetorical negation."
       }
     ]
+  },
+  {
+    "id": "romeo_and_juliet-2235-certain-text",
+    "play": "romeo_and_juliet",
+    "tln_start": 2234,
+    "tln_end": 2234,
+    "word_start": 0,
+    "word_end": 4,
+    "anchor_text": "What must be shall be",
+    "type": "biblical_allusion",
+    "depth": "basic",
+    "summary": "Juliet echoes a proverbial formula for resigned acceptance of God's will, and Friar Lawrence approves it: 'That's a certain text.' He treats her words as sound religious doctrine. But the audience knows she means something different — she is committed to Romeo and is deflecting Paris, not submitting to her father's plan.",
+    "detail": "The phrase 'what must be shall be' (and its mirror 'what will be, will be') is a commonplace of Christian providentialism: God's decrees cannot be resisted, and acceptance is the pious response. Compare the Geneva Bible's 'the Lord's counsel shall stand' (Proverbs 19:21). Friar Lawrence, hearing only the surface meaning, calls it 'a certain text' — the language of scripture or a firm doctrinal point. The dramatic irony turns on the double meaning: Juliet submits to Romeo's will, not Paris's, but she cannot say so. The phrase also anticipates the play's catastrophe, in which events do overwhelm everyone's attempts to control them.",
+    "sources": [
+      {
+        "name": "Geneva Bible 1599",
+        "citation": "Proverbs 19:21 (Geneva 1599): the counsel of the Lord shall stand — God's purpose prevails over human plans."
+      },
+      {
+        "name": "Onions, Shakespeare Glossary",
+        "citation": "Onions, Shakespeare Glossary, s.v. 'text' (a scriptural or doctrinal saying used as authority)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2234"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The providentialist reading and the dramatic irony (Juliet submitting to Romeo's will, not Paris's, while using pious language) are mainstream and well-supported by the text."
+      }
+    ],
+    "note_internal": "De-quoted the Geneva citation to avoid an inexact verbatim wording; the reference is sound. Retained Onions on 'text.'"
   },
   {
     "id": "romeo_and_juliet-2249-face-is-mine",
@@ -10022,6 +10920,59 @@
     ]
   },
   {
+    "id": "romeo_and_juliet-2310-cold-drowsy-humour",
+    "play": "romeo_and_juliet",
+    "tln_start": 2309,
+    "tln_end": 2311,
+    "word_start": 2,
+    "word_end": 6,
+    "anchor_text": "through all thy veins shall run A cold and drowsy humour; for no pulse Shall keep his native progress, but surcease",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "'Humour' here is a medical term, not the modern sense of comedy. Elizabethan medicine held that the body contained four humours — blood, phlegm, yellow bile, and black bile — whose balance determined health, temperament, and body temperature. A 'cold and drowsy humour' would be an excess of cold phlegm, which was thought to slow or stop the vital processes. 'Surcease' means to stop entirely.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. surcease v. sense 1: 'to cease, come to an end; to stop.'"
+      },
+      {
+        "name": "Onions, Shakespeare Glossary",
+        "citation": "Onions, Shakespeare Glossary, s.v. 'humour' (the four fluids of the body; also a physical or mental temperament governed by them)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2309"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The Galenic four-humour framework, the identification of cold phlegm suppressing vital heat and pulse, and the gloss of 'surcease' are all correct within Elizabethan medical theory."
+      }
+    ],
+    "note_internal": "Removed the misquoted Macbeth cross-reference from the OED citation and dropped the detail's version of it; retained Onions on 'humour.'"
+  },
+  {
     "id": "romeo_and_juliet-2313-paly-ashes",
     "play": "romeo_and_juliet",
     "tln_start": 2313,
@@ -10121,6 +11072,110 @@
         "note": "The Galenic basis for gendering inconstancy and fear as feminine, the precise gloss of 'toy' as idle whim, and the ironic counter-reading (Juliet immediately refutes the stereotype) are all mainstream and accurate."
       }
     ]
+  },
+  {
+    "id": "romeo_and_juliet-2343-lick-fingers",
+    "play": "romeo_and_juliet",
+    "tln_start": 2343,
+    "tln_end": 2344,
+    "word_start": 8,
+    "word_end": 2,
+    "anchor_text": "try if they can lick their fingers",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "A proverbial test for a cook: a good cook tastes his own food and licks his fingers in pleasure. The Second Servant reasons that a cook who cannot enjoy his own cooking will not satisfy guests — so anyone who refuses to lick his fingers proves himself a bad cook and is dismissed. The joke turns on the servant outwitting Capulet with simple logic.",
+    "detail": "The proverb 'it is an ill cook that cannot lick his own fingers' circulated in early modern England and appears in John Heywood's 1546 proverb collection. The scene is the play's one moment of below-stairs comedy — a brief release of tension before Juliet re-enters and the plot tightens again around the false wedding. Capulet's willing acceptance of the servant's logic ('Go, begone') shows him in a relatively genial mood, which makes his sudden delight at Juliet's apparent submission all the more credible.",
+    "sources": [
+      {
+        "name": "Heywood, Proverbs",
+        "citation": "John Heywood, A Dialogue ... of Proverbs (1546): 'It is an ill cook that cannot lick his own fingers.'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2343"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The proverb reading is exact and contextually secure; the comic-relief framing and Capulet's genial dismissal ('Go, begone') are straightforwardly supported by the scene."
+      }
+    ],
+    "note_internal": "Generalized the Heywood citation (the chapter reference was wrong); the proverb is genuine."
+  },
+  {
+    "id": "romeo_and_juliet-2353-harlotry",
+    "play": "romeo_and_juliet",
+    "tln_start": 2353,
+    "tln_end": 2353,
+    "word_start": 1,
+    "word_end": 5,
+    "anchor_text": "peevish self-will'd harlotry it is",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Harlotry' here does not mean prostitution. In Elizabethan usage the word could simply mean a wayward, good-for-nothing, or troublesome creature — roughly 'wretched girl' or 'obstinate little wretch.' Capulet is calling Juliet headstrong and disobedient, not sexually immoral.",
+    "detail": "The shift in meaning is nearly total: modern readers hear a sexual insult where Shakespeare's audience heard plain exasperation. Capulet has already called Juliet 'headstrong' (TLN 2355) and is frustrated by her 'peevish' (fretful, obstinate) resistance to his will. 'Harlotry' as a generic term of reproach for a scolding or unruly woman is recorded in Schmidt's Shakespeare-Lexicon and Onions's Glossary, and occurs elsewhere in Shakespeare without sexual meaning — compare Mistress Quickly's 'harlotry players' in 1 Henry IV 2.4, plainly meaning 'rascally, worthless.'",
+    "sources": [
+      {
+        "name": "Onions, Shakespeare Glossary",
+        "citation": "Onions, C. T. A Shakespeare Glossary, s.v. harlotry: a contemptuous term for a person of either sex — a rascal or good-for-nothing."
+      },
+      {
+        "name": "Schmidt, Shakespeare-Lexicon",
+        "citation": "Schmidt, Alexander. Shakespeare-Lexicon, 3rd ed. (Berlin, 1902), s.v. 'harlotry': 'a term of reproach; a scold, a worthless creature.'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2353"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The non-sexual sense of 'harlotry' as generic reproach for an unruly person is well-grounded in Schmidt, Onions, and the 1H4 parallel; Capulet's speech is manifestly about stubbornness, not sexual misconduct."
+      }
+    ],
+    "note_internal": "De-quoted the Onions citation to a faithful paraphrase (the verbatim quotation did not match); retained Schmidt."
   },
   {
     "id": "romeo_and_juliet-2354-shrift",
@@ -10489,6 +11544,65 @@
         "note": "'Green' as fresh or recent is well-attested in Elizabethan English and the pairing with 'festering' in the same speech directly supports the 'newly buried, still decomposing' reading."
       }
     ]
+  },
+  {
+    "id": "romeo_and_juliet-2436-mandrakes",
+    "play": "romeo_and_juliet",
+    "tln_start": 2436,
+    "tln_end": 2437,
+    "word_start": 1,
+    "word_end": 6,
+    "anchor_text": "shrieks like mandrakes torn out of the earth, That living mortals, hearing them, run mad",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "The mandrake (mandragora) is a real narcotic plant whose forked root resembles a human body. Folklore held that it shrieked fatally when pulled from the ground and that hearing the shriek drove listeners insane. Juliet imagines the tomb full of such a sound.",
+    "detail": "John Gerard's Herball (1597) reports the legend — including the precaution of tying a dog to the root to draw it out, so the deadly shriek kills the dog rather than the gardener. The mandrake's genuine sedative power (the same plant provides 'mandragora' in Othello 3.3 and Antony and Cleopatra 1.5) sits beside this supernatural lore. Here the shriek is imagined as an ambient horror of the vault itself, not necessarily tied to anyone pulling a root — Juliet's mind is free-associating among the worst sounds she can picture.",
+    "sources": [
+      {
+        "name": "Gerard, Herball",
+        "citation": "John Gerard, The Herball, or Generall Historie of Plantes (1597), 'Of Mandrake': describes the shrieking legend and the dog-on-a-rope method of uprooting."
+      },
+      {
+        "name": "Pliny",
+        "citation": "Pliny, Natural History Book 25 (mandragora as a narcotic plant); the deadly shriek is medieval folklore, not classical."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "mandrake-folklore"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2436"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The mandrake-shriek-madness folklore is real, well-documented, and the characterization of it as free-associative ambient horror (rather than a literal root-pulling scene) is a defensible and modest reading of what the text actually says."
+      }
+    ],
+    "note_internal": "Generalized the Pliny citation and clarified the shriek as folklore; retained Gerard's Herball."
   },
   {
     "id": "romeo_and_juliet-2450-second-cock",
@@ -11172,6 +12286,59 @@
     ]
   },
   {
+    "id": "romeo_and_juliet-2567-ordained-festival",
+    "play": "romeo_and_juliet",
+    "tln_start": 2567,
+    "tln_end": 2568,
+    "word_start": 0,
+    "word_end": 6,
+    "anchor_text": "All things that we ordained festival Turn from their office to black funeral",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Capulet lists four pairs of contraries — instruments/bells, wedding feast/burial feast, hymns/dirges, bridal flowers/funeral flowers — each a festival thing turned to its funeral opposite. The repeated grammatical pattern (our X / to Y) is a figure of antithesis; 'ordained festival' means things appointed for celebration.",
+    "sources": [
+      {
+        "name": "Schmidt",
+        "citation": "Schmidt, Shakespeare-Lexicon, s.v. 'ordained': 'appointed, arranged beforehand.'"
+      },
+      {
+        "name": "Gibbons ed.",
+        "citation": "Brian Gibbons, ed., Romeo and Juliet, Arden Shakespeare 2nd series (1980), note to 4.5.84-90."
+      }
+    ],
+    "references": [],
+    "confidence": "medium",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2567"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Schmidt s.v. 'ordained' and Gibbons Arden 1980 note to 4.5.84-90 are both real, legitimate citations that support the antithesis and vocabulary claims."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the reading was trimmed to its well-sourced core; the over-reaching claim was removed. See note_internal."
+      }
+    ],
+    "note_internal": "Dropped the detail's false 'sullen/solemn' shared-root etymology (interpretation judge); the antithesis gloss and 'ordained = appointed' stand, per Schmidt and Gibbons."
+  },
+  {
     "id": "romeo_and_juliet-2583-hearts-ease",
     "play": "romeo_and_juliet",
     "tln_start": 2583,
@@ -11388,6 +12555,56 @@
     ]
   },
   {
+    "id": "romeo_and_juliet-2623-bosoms-lord",
+    "play": "romeo_and_juliet",
+    "tln_start": 2623,
+    "tln_end": 2623,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "My bosom's lord sits lightly in his throne",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "Romeo means his heart: in Elizabethan usage, the heart was commonly called the 'lord' or 'ruler' that sat enthroned in the breast (bosom). 'Sits lightly' means it weighs nothing — he feels buoyant, without grief.",
+    "detail": "The figure of the heart as a monarch governing the body was a commonplace of humoral psychology, drawn from medical writers who described the heart as the seat of the vital spirits and therefore the chief organ of life. Shakespeare uses similar phrasing in Sonnet 46 ('Mine eye and heart are at a mortal war / How to divide the conquest of thy sight') and in Richard III 4.4. Here the ease of the image — the lord sitting lightly — sets a bitterly ironic tone: the same heart is about to be crushed by news of Juliet's death.",
+    "sources": [
+      {
+        "name": "Schmidt, Shakespeare-Lexicon",
+        "citation": "Schmidt, Alexander. Shakespeare-Lexicon (rev. Sarrazin, 1902), s.v. 'bosom' (seat of the affections) and 'lord' (the heart as ruler of the body)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2623"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The reading of 'bosom's lord' as the heart enthroned in the breast is standard and well-supported by humoral psychology; the ironic contrast with the imminent bad news is a sound and mainstream observation."
+      }
+    ],
+    "note_internal": "Corrected the Schmidt edition designation (1902 is the revised 3rd edition, not the 5th)."
+  },
+  {
     "id": "romeo_and_juliet-2644-defy-stars",
     "play": "romeo_and_juliet",
     "tln_start": 2644,
@@ -11497,6 +12714,60 @@
         "note": "'Weeds' as garments, 'overwhelming brows' as heavy overhanging eyebrows, and 'simples' as single-ingredient plant remedies are all standard Elizabethan usages accurately glossed here."
       }
     ]
+  },
+  {
+    "id": "romeo_and_juliet-2674-caitiff-wretch",
+    "play": "romeo_and_juliet",
+    "tln_start": 2674,
+    "tln_end": 2674,
+    "word_start": 3,
+    "word_end": 8,
+    "anchor_text": "caitiff wretch would sell it him",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Caitiff' is a medieval word for a wretched, cowardly, or base person — someone contemptible because of poverty and moral weakness combined. Romeo is not insulting the apothecary cruelly; he is noting that only someone desperate enough to risk death would sell poison at all.",
+    "detail": "The word derives from Old North French caitif (captive, hence wretched), and carried a double meaning in Elizabethan English: physical wretchedness (poverty, sickness) and moral cowardice or baseness. OED traces it to the 13th century; by Shakespeare's day it was already slightly archaic and used for deliberate rhetorical weight. The line turns on a grim logic Romeo works out for himself — that only the truly destitute, whose life is already forfeit to misery, would take the legal risk. This observation is what Romeo is recording for himself, not for anyone else: he speaks it aloud as a memory trace before approaching the man.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'caitiff' n. and adj. (cowardly, despicable, wretched; derived from Old North French caitif, captive)."
+      },
+      {
+        "name": "Schmidt, Shakespeare-Lexicon",
+        "citation": "Schmidt, Alexander. Shakespeare-Lexicon (rev. Sarrazin, 1902), s.v. 'caitiff': miserable, despicable."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2674"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Caitiff' as wretched, contemptible, cowardly — drawn from Old French caitif (captive) — is a standard etymology and usage well-attested by OED; the reading that Romeo uses it as self-addressed observation rather than direct insult fits the monologue context."
+      }
+    ],
+    "note_internal": "Corrected the Schmidt edition designation; retained OED on the etymology."
   },
   {
     "id": "romeo_and_juliet-2683-dram-gear",
@@ -11759,6 +13030,55 @@
         "note": "The gloss of 'nice' as trivial or trifling and 'charge' as weighty importance are standard Elizabethan senses; the reading is correct, unambiguous in context, and does not over-reach."
       }
     ]
+  },
+  {
+    "id": "romeo_and_juliet-2730-iron-crow",
+    "play": "romeo_and_juliet",
+    "tln_start": 2730,
+    "tln_end": 2730,
+    "word_start": 0,
+    "word_end": 8,
+    "anchor_text": "Get me an iron crow and bring it straight",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "An 'iron crow' (also 'crowbar' or 'crow of iron') is a heavy iron bar with a bent or forked end, used to pry open locks, doors, or lids. Friar Lawrence needs it to force open the Capulet monument before Juliet wakes. The word 'crow' for this tool was standard in Elizabethan English and survives today as 'crowbar.'",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'crow' n.1, sense 8: 'An iron bar with a bent or flattened end, used as a lever; a crowbar.' Earliest cite 1481."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-05-31",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2730"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The identification of 'iron crow' as a pry-bar is unambiguous and correct; the beak-resemblance etymology is appropriately hedged as probable rather than asserted as certain, avoiding folk-etymology overreach."
+      }
+    ],
+    "note_internal": "Dropped the detail's wrong Comedy of Errors scene reference; the OED citation supports 'iron crow = crowbar.'"
   },
   {
     "id": "romeo_and_juliet-2739-living-corse",
@@ -13402,1325 +14722,5 @@
         "note": "The legal definition is accurate; the bitter irony of applying a marriage-property term to a scene of mourning — completing in death the contract never consummated in life — is mainstream and clearly supported by the text."
       }
     ]
-  },
-  {
-    "id": "romeo_and_juliet-1000-titan-fiery-wheels",
-    "play": "romeo_and_juliet",
-    "tln_start": 1000,
-    "tln_end": 1000,
-    "word_start": 5,
-    "word_end": 7,
-    "anchor_text": "Titan's fiery wheels",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "Titan here names the sun-god — in Greek myth the Titans were the elder gods, and Helios (or Hyperion), the sun, was their descendant. 'Fiery wheels' are the wheels of the chariot that draws the sun across the sky each day. Friar Lawrence is saying that before the sun has even risen he is already out gathering herbs.",
-    "detail": "Hesiod's Theogony (134, 371-374) counts Hyperion, father of the sun, among the Titans; Ovid uses 'Titan' for the sun (e.g., Metamorphoses 1.10, in Golding's 1567 English). By Shakespeare's day 'Titan' was a common poetic name for the sun. The sun-chariot driven each morning across the sky was a familiar classical image, used again by Juliet at 3.2 where she longs for Phaethon to race the sun-horses from the sky. The allusion signals Friar Lawrence's classical learning — consistent with a friar who is also a natural philosopher.",
-    "sources": [
-      {
-        "name": "Hesiod, Theogony",
-        "citation": "Hesiod, Theogony 134 (Hyperion among the Titans); 371-374 (Helios the sun as their offspring)."
-      },
-      {
-        "name": "Ovid, Metamorphoses",
-        "citation": "Ovid, Metamorphoses (Golding 1567): 'Titan' used for the sun (e.g., 1.10); at 4.192 the Sun is named 'son of Hyperion.'"
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1000"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The gloss is sound: 'Titan' as a poetic synonym for the sun is well established by Ovid and in Elizabethan poetry, and 'fiery wheels' correctly identifies the sun-chariot image; the claim that it signals Friar Lawrence's classical learning is a reasonable inference from his characterisation as a natural philosopher."
-      }
-    ],
-    "note_internal": "Corrected the Ovid 4.192 gloss (the Sun is named Hyperion's son there; 'Titan' for the sun is at 1.10); retained Hesiod."
-  },
-  {
-    "id": "romeo_and_juliet-1111-prince-of-cats",
-    "play": "romeo_and_juliet",
-    "tln_start": 1111,
-    "tln_end": 1111,
-    "word_start": 2,
-    "word_end": 4,
-    "anchor_text": "prince of cats",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "Tybalt's name was the same as the cat's name in the medieval beast-fable Reynard the Fox, where the cat Tibert is a cunning, dangerous creature. 'Prince of cats' mocks Tybalt as a preening, predatory animal rather than a gentleman-swordsman.",
-    "detail": "The Reynard fable cycle — printed in English by William Caxton in 1481 — was widely known. Mercutio strings the cat-joke through the scene: 'rat-catcher,' 'nine lives,' 'Good King of Cats' (3.1). Thomas Nashe had already used 'Tybalt, prince of cats' in print by 1596, confirming the pun was currency with Shakespeare's audience. The belittling name makes Tybalt's real lethality more dangerous, not less.",
-    "sources": [
-      {
-        "name": "Reynard the Fox (Caxton 1481)",
-        "citation": "The medieval beast-epic Reynard the Fox, cat named Tibert/Tybert; printed in English by William Caxton, 1481. Thomas Nashe, Have with You to Saffron-Walden (1596), names 'Tibault ... Prince of Cattes.'"
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "prince-of-cats"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1111"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The identification of Tybalt with Tibert/Tybert the cat from the Reynard cycle is the accepted reading and is confirmed by Mercutio's later cat-jokes ('rat-catcher,' 'nine lives') in 3.1."
-      }
-    ],
-    "note_internal": "Verified the Nashe attribution against the 1596 text (the source judge's refutation was a false negative); normalized the quotation to Nashe's spelling."
-  },
-  {
-    "id": "romeo_and_juliet-1336-beshrew",
-    "play": "romeo_and_juliet",
-    "tln_start": 1336,
-    "tln_end": 1336,
-    "word_start": 0,
-    "word_end": 6,
-    "anchor_text": "Beshrew your heart for sending me about",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "'Beshrew' is a mild curse or imprecation, roughly equivalent to 'bad luck to' or 'a plague on.' The Nurse is saying 'Curse your heart for making me run this errand.' By Shakespeare's time 'beshrew' had softened so much that it was often used affectionately or with mock outrage, as the Nurse uses it here.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'beshrew' v.: 'to invoke evil upon, to curse; in weakened use, expressing displeasure or mock-reproach' (attested from 14th century)."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1336"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "'Beshrew' as a softened mock-reproach is well-documented, the 'Hamlet 2.1' parallel is accurate, and the comic mock-outrage register fits the Nurse's sustained complaint throughout the scene."
-      }
-    ],
-    "note_internal": "Dropped the detail's mis-attributed cross-example; the OED citation fully supports 'beshrew = mild curse.'"
-  },
-  {
-    "id": "romeo_and_juliet-1351-coil",
-    "play": "romeo_and_juliet",
-    "tln_start": 1351,
-    "tln_end": 1351,
-    "word_start": 0,
-    "word_end": 3,
-    "anchor_text": "Here's such a coil",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "'Coil' means noisy fuss, commotion, or trouble. Juliet is saying 'What a ridiculous fuss this is!' — exasperated that the Nurse keeps complaining about her aching bones instead of delivering the message. The word has no connection to coiled rope; it is a distinct word meaning uproar or bother.",
-    "sources": [
-      {
-        "name": "Onions",
-        "citation": "Onions, Shakespeare Glossary, s.v. 'coil' sb. 1: 'noisy disturbance, tumult, fuss.'"
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1351"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "'Coil' as noisy fuss is standard, the Hamlet 'mortal coil' parallel is accurate, and the clarification that it is etymologically distinct from rope-coil is correct."
-      }
-    ],
-    "note_internal": "Dropped the detail (it mis-attributed 'this mortal coil' to Prospero; the line is Hamlet's); retained Onions on 'coil = fuss.'"
-  },
-  {
-    "id": "romeo_and_juliet-1394-conceit-rich",
-    "play": "romeo_and_juliet",
-    "tln_start": 1394,
-    "tln_end": 1394,
-    "word_start": 0,
-    "word_end": 7,
-    "anchor_text": "Conceit, more rich in matter than in words",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "'Conceit' here means 'mental understanding' or 'the depth of what is conceived in the mind' — not vanity or egotism, which are the word's modern meanings. Juliet is saying: true understanding is richer than the words that try to express it. She then extends the thought: only beggars can count their wealth, because rich people have more than can be tallied. Her love is so large she cannot add it up — 'I cannot sum up sum of half my wealth.' The near-pun on 'sum' (arithmetic total) and 'some' (any) makes the line work on two levels at once.",
-    "sources": [
-      {
-        "name": "Onions, Shakespeare Glossary",
-        "citation": "Onions, C.T., A Shakespeare Glossary (1911), s.v. 'conceit': '1. conception, idea, mental faculty of conceiving; 2. fancy, imagination; 3. a fanciful notion or device.'"
-      },
-      {
-        "name": "Schmidt, Shakespeare-Lexicon",
-        "citation": "Schmidt, Alexander, Shakespeare-Lexicon (1874-75), s.v. 'conceit': 'the faculty of conceiving; conception, imagination, understanding.'"
-      }
-    ],
-    "references": [],
-    "confidence": "medium",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1394"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Both the Onions citation (senses 1-3 covering conception, fancy, imagination) and the Schmidt citation ('faculty of conceiving; conception, imagination, understanding') are real, accurately described, and directly support the claim that Elizabethan 'conceit' means mental understanding or depth of conception rather than vanity."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the reading was trimmed to its well-sourced core; the over-reaching claim was removed. See note_internal."
-      }
-    ],
-    "note_internal": "Dropped the detail's occupatio/Romantic over-reading (interpretation judge); the gloss of 'conceit = understanding' is sound, per Onions and Schmidt."
-  },
-  {
-    "id": "romeo_and_juliet-1595-mercy-murders",
-    "play": "romeo_and_juliet",
-    "tln_start": 1595,
-    "tln_end": 1595,
-    "word_start": 0,
-    "word_end": 6,
-    "anchor_text": "Mercy but murders, pardoning those that kill",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "The Prince closes the scene with a chiastic paradox: showing mercy (pardoning killers) is itself a form of murder, because it licenses more killing. The line is a sententia — a pithy, quotable moral maxim — and the scene's final word. It warns that leniency breeds violence, a principle the rest of the tragedy will put to the test.",
-    "detail": "A sententia (Latin: maxim, saying) was a rhetorical figure taught in Elizabethan grammar schools: a compressed moral truth that caps an argument. Placing it at the close of a scene or speech signals a formal, authoritative judgment. The paradox here turns on the word 'murders' applied to mercy — a deliberate shock. The Prince's decree of exile rather than death is itself an act of mercy, and the closing line immediately questions whether that mercy is wise. The audience is left to measure the cost of that leniency across the remaining acts.",
-    "sources": [
-      {
-        "name": "Peacham, Garden of Eloquence (1593)",
-        "citation": "Henry Peacham, The Garden of Eloquence (1593), on sententia — the pithy moral maxim used to close an argument."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1595"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Sententia identification is sound, the paradox is correctly glossed, and observing that the line retrospectively questions the Prince's own act of mercy is a defensible interpretive note."
-      }
-    ],
-    "note_internal": "Dropped the wrong Cicero De Inventione section from the citation; retained Peacham for sententia."
-  },
-  {
-    "id": "romeo_and_juliet-1869-shame-shape-love-wit",
-    "play": "romeo_and_juliet",
-    "tln_start": 1869,
-    "tln_end": 1869,
-    "word_start": 0,
-    "word_end": 9,
-    "anchor_text": "Fie, fie, thou sham'st thy shape, thy love, thy wit",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "Friar Lawrence delivers a formal rebuke built as a three-part catalogue — shape (body/appearance), love, and wit (intelligence) — repeated in the same order twice (TLN 1869 and 1872). This rhetorical repetition, called anaphora, hammers the triple accusation home: Romeo has disgraced all three gifts at once.",
-    "detail": "The figure is a classical tricolon — three grammatically parallel items — intensified by exact repetition ('thy shape, thy love, thy wit' at both TLN 1869 and 1872), which is technically epistrophe. Friar Lawrence then elaborates each charge in turn: body (TLN 1873-1874), love (TLN 1875-1876), and wit (TLN 1877-1881). The structural care of the speech shows the friar as a trained rhetorician — it is the opposite of Romeo's formless weeping on the floor.",
-    "sources": [
-      {
-        "name": "Gibbons edition",
-        "citation": "Gibbons, Brian, ed. Romeo and Juliet. Arden Shakespeare, 2nd series. Methuen, 1980. note to 3.3.122 ff."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1869"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Identifying the triple catalogue as anaphora/epistrophe and noting the friar's elaboration of each charge in turn is accurate; the reference to Puttenham is appropriate given the conscious rhetorical patterning."
-      }
-    ],
-    "note_internal": "Dropped Puttenham III.19 (covers antipophora, not anaphora/epistrophe); retained Gibbons (Arden). The repetition is evident in the text."
-  },
-  {
-    "id": "romeo_and_juliet-1979-cynthias-brow",
-    "play": "romeo_and_juliet",
-    "tln_start": 1979,
-    "tln_end": 1979,
-    "word_start": 3,
-    "word_end": 7,
-    "anchor_text": "pale reflex of Cynthia's brow",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "'Cynthia' was a poetic name for the moon goddess (identified with Diana and Hecate). Romeo claims the gray light in the east is only the pale reflection ('reflex') of Cynthia's forehead, not the sun rising. He is playing along with Juliet's wish, pretending it is still night.",
-    "detail": "Cynthia derives from Mount Cynthus on Delos, birthplace of Artemis (Diana). By Shakespeare's day 'Cynthia' was a standard poetic name for the moon, and also a flattering epithet applied to the unmarried Queen Elizabeth I. The word 'reflex' means a reflection or gleam bounced back from a surface, here the moon's light appearing as a pale glow on the horizon — which Romeo and his audience know is actually dawn.",
-    "sources": [
-      {
-        "name": "Schmidt",
-        "citation": "Schmidt, Shakespeare-Lexicon, s.v. 'reflex': 'a reflected light, a gleam.'"
-      }
-    ],
-    "references": [
-      {
-        "kind": "classical",
-        "card_id": "diana-goddess"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1979"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "'Cynthia' as a standard poetic name for the moon is secure; 'reflex' as a reflected gleam matches the text; the note about the Elizabeth I flattering epithet is an additional true detail that does not overreach the annotation's core claim."
-      }
-    ],
-    "note_internal": "Dropped the Ovid citations (2.416 and 7.179 do not name Cynthia); retained Schmidt. Cynthia as moon-goddess is explained from Cynthus/Delos in the detail."
-  },
-  {
-    "id": "romeo_and_juliet-2174-faith-in-heaven",
-    "play": "romeo_and_juliet",
-    "tln_start": 2174,
-    "tln_end": 2174,
-    "word_start": 0,
-    "word_end": 8,
-    "anchor_text": "My husband is on earth, my faith in heaven",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "Juliet argues that her marriage vow ('faith') was sworn before God and is now kept in heaven — meaning it cannot be broken while both parties live. 'Unless that husband send it me from heaven / By leaving earth' means the vow can only return to her (freeing her to remarry) if Romeo dies. Juliet is saying she is already married and no earthly power can undo it except her husband's death.",
-    "detail": "This is a doctrinal point about the sacrament of marriage in the Catholic tradition in which the play is set. A valid marriage sworn before God was indissoluble; only death dissolved it. Juliet's logic is therefore exact: she cannot marry Paris as long as Romeo lives, because her oath is registered in heaven. The speech also quietly echoes the marriage service's formula 'till death us do part.' Given the play's outcome, the speech is densely ironic.",
-    "sources": [
-      {
-        "name": "Council of Trent",
-        "citation": "Council of Trent, Session 24 (1563): sacramental marriage is indissoluble by human authority, dissolved only by death."
-      },
-      {
-        "name": "shrift-and-confession reference card",
-        "citation": "See historical card 'shrift-and-confession' for the play's Catholic sacramental framework."
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "shrift-and-confession"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2174"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Juliet's argument that her marriage oath is registered in heaven and dissoluble only by Romeo's death reflects genuine Catholic sacramental doctrine as understood in the play's Veronese setting; the Council of Trent citation is the authoritative source for the indissolubility canon and the reading is uncontroversial among editors."
-      }
-    ],
-    "note_internal": "Generalized the Trent citation to the indissolubility doctrine (the specific canon number was wrong); retained the shrift-and-confession card reference."
-  },
-  {
-    "id": "romeo_and_juliet-2221-venus-house-of-tears",
-    "play": "romeo_and_juliet",
-    "tln_start": 2221,
-    "tln_end": 2221,
-    "word_start": 1,
-    "word_end": 8,
-    "anchor_text": "Venus smiles not in a house of tears",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "Venus is the Roman goddess of love; Paris is saying that love cannot flourish in a home full of grief over Tybalt's death. The line also glances at an astrological idea: the twelve astrological 'houses' can be favorable or hostile to the planets stationed in them, so a 'house of tears' is a constellation too sorrowful to let Venus operate.",
-    "detail": "The phrase fuses two registers. In plain mythology Venus (Greek Aphrodite) personifies erotic love; she 'smiles' when conditions are right for courtship and turns away when they are not. The secondary astrological sense draws on the convention that each planet rules certain celestial 'houses,' and a planet in an unfavorable house cannot exert its influence. Both meanings work together: Paris is presenting the rushed marriage as pragmatic medicine for Juliet's grief, while also covering his own convenience. Ovid's account of Venus (Metamorphoses 4.167-189) was the standard Elizabethan source for the goddess; the astrological vocabulary was current in popular almanacs.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'house,' n. sense 20 (astrological division of the heavens)."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2221"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Both the mythological and astrological registers are mainstream; the Ovid Met. 4.167-189 cite is slightly imprecise (that passage centers on Apollo/Clytie, not Venus as love-goddess per se) but does not undermine the core interpretation."
-      }
-    ],
-    "note_internal": "Dropped the Ovid Met. 4.167–189 citation (those lines are the Mars/Venus/Sun tale, mis-described); retained OED on the astrological 'house.'"
-  },
-  {
-    "id": "romeo_and_juliet-2235-certain-text",
-    "play": "romeo_and_juliet",
-    "tln_start": 2234,
-    "tln_end": 2234,
-    "word_start": 0,
-    "word_end": 4,
-    "anchor_text": "What must be shall be",
-    "type": "biblical_allusion",
-    "depth": "basic",
-    "summary": "Juliet echoes a proverbial formula for resigned acceptance of God's will, and Friar Lawrence approves it: 'That's a certain text.' He treats her words as sound religious doctrine. But the audience knows she means something different — she is committed to Romeo and is deflecting Paris, not submitting to her father's plan.",
-    "detail": "The phrase 'what must be shall be' (and its mirror 'what will be, will be') is a commonplace of Christian providentialism: God's decrees cannot be resisted, and acceptance is the pious response. Compare the Geneva Bible's 'the Lord's counsel shall stand' (Proverbs 19:21). Friar Lawrence, hearing only the surface meaning, calls it 'a certain text' — the language of scripture or a firm doctrinal point. The dramatic irony turns on the double meaning: Juliet submits to Romeo's will, not Paris's, but she cannot say so. The phrase also anticipates the play's catastrophe, in which events do overwhelm everyone's attempts to control them.",
-    "sources": [
-      {
-        "name": "Geneva Bible 1599",
-        "citation": "Proverbs 19:21 (Geneva 1599): the counsel of the Lord shall stand — God's purpose prevails over human plans."
-      },
-      {
-        "name": "Onions, Shakespeare Glossary",
-        "citation": "Onions, Shakespeare Glossary, s.v. 'text' (a scriptural or doctrinal saying used as authority)."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2234"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The providentialist reading and the dramatic irony (Juliet submitting to Romeo's will, not Paris's, while using pious language) are mainstream and well-supported by the text."
-      }
-    ],
-    "note_internal": "De-quoted the Geneva citation to avoid an inexact verbatim wording; the reference is sound. Retained Onions on 'text.'"
-  },
-  {
-    "id": "romeo_and_juliet-2310-cold-drowsy-humour",
-    "play": "romeo_and_juliet",
-    "tln_start": 2309,
-    "tln_end": 2311,
-    "word_start": 2,
-    "word_end": 6,
-    "anchor_text": "through all thy veins shall run A cold and drowsy humour; for no pulse Shall keep his native progress, but surcease",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "'Humour' here is a medical term, not the modern sense of comedy. Elizabethan medicine held that the body contained four humours — blood, phlegm, yellow bile, and black bile — whose balance determined health, temperament, and body temperature. A 'cold and drowsy humour' would be an excess of cold phlegm, which was thought to slow or stop the vital processes. 'Surcease' means to stop entirely.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. surcease v. sense 1: 'to cease, come to an end; to stop.'"
-      },
-      {
-        "name": "Onions, Shakespeare Glossary",
-        "citation": "Onions, Shakespeare Glossary, s.v. 'humour' (the four fluids of the body; also a physical or mental temperament governed by them)."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2309"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The Galenic four-humour framework, the identification of cold phlegm suppressing vital heat and pulse, and the gloss of 'surcease' are all correct within Elizabethan medical theory."
-      }
-    ],
-    "note_internal": "Removed the misquoted Macbeth cross-reference from the OED citation and dropped the detail's version of it; retained Onions on 'humour.'"
-  },
-  {
-    "id": "romeo_and_juliet-2343-lick-fingers",
-    "play": "romeo_and_juliet",
-    "tln_start": 2343,
-    "tln_end": 2344,
-    "word_start": 8,
-    "word_end": 2,
-    "anchor_text": "try if they can lick their fingers",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "A proverbial test for a cook: a good cook tastes his own food and licks his fingers in pleasure. The Second Servant reasons that a cook who cannot enjoy his own cooking will not satisfy guests — so anyone who refuses to lick his fingers proves himself a bad cook and is dismissed. The joke turns on the servant outwitting Capulet with simple logic.",
-    "detail": "The proverb 'it is an ill cook that cannot lick his own fingers' circulated in early modern England and appears in John Heywood's 1546 proverb collection. The scene is the play's one moment of below-stairs comedy — a brief release of tension before Juliet re-enters and the plot tightens again around the false wedding. Capulet's willing acceptance of the servant's logic ('Go, begone') shows him in a relatively genial mood, which makes his sudden delight at Juliet's apparent submission all the more credible.",
-    "sources": [
-      {
-        "name": "Heywood, Proverbs",
-        "citation": "John Heywood, A Dialogue ... of Proverbs (1546): 'It is an ill cook that cannot lick his own fingers.'"
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2343"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The proverb reading is exact and contextually secure; the comic-relief framing and Capulet's genial dismissal ('Go, begone') are straightforwardly supported by the scene."
-      }
-    ],
-    "note_internal": "Generalized the Heywood citation (the chapter reference was wrong); the proverb is genuine."
-  },
-  {
-    "id": "romeo_and_juliet-2353-harlotry",
-    "play": "romeo_and_juliet",
-    "tln_start": 2353,
-    "tln_end": 2353,
-    "word_start": 1,
-    "word_end": 5,
-    "anchor_text": "peevish self-will'd harlotry it is",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "'Harlotry' here does not mean prostitution. In Elizabethan usage the word could simply mean a wayward, good-for-nothing, or troublesome creature — roughly 'wretched girl' or 'obstinate little wretch.' Capulet is calling Juliet headstrong and disobedient, not sexually immoral.",
-    "detail": "The shift in meaning is nearly total: modern readers hear a sexual insult where Shakespeare's audience heard plain exasperation. Capulet has already called Juliet 'headstrong' (TLN 2355) and is frustrated by her 'peevish' (fretful, obstinate) resistance to his will. 'Harlotry' as a generic term of reproach for a scolding or unruly woman is recorded in Schmidt's Shakespeare-Lexicon and Onions's Glossary, and occurs elsewhere in Shakespeare without sexual meaning — compare Mistress Quickly's 'harlotry players' in 1 Henry IV 2.4, plainly meaning 'rascally, worthless.'",
-    "sources": [
-      {
-        "name": "Onions, Shakespeare Glossary",
-        "citation": "Onions, C. T. A Shakespeare Glossary, s.v. harlotry: a contemptuous term for a person of either sex — a rascal or good-for-nothing."
-      },
-      {
-        "name": "Schmidt, Shakespeare-Lexicon",
-        "citation": "Schmidt, Alexander. Shakespeare-Lexicon, 3rd ed. (Berlin, 1902), s.v. 'harlotry': 'a term of reproach; a scold, a worthless creature.'"
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2353"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The non-sexual sense of 'harlotry' as generic reproach for an unruly person is well-grounded in Schmidt, Onions, and the 1H4 parallel; Capulet's speech is manifestly about stubbornness, not sexual misconduct."
-      }
-    ],
-    "note_internal": "De-quoted the Onions citation to a faithful paraphrase (the verbatim quotation did not match); retained Schmidt."
-  },
-  {
-    "id": "romeo_and_juliet-2436-mandrakes",
-    "play": "romeo_and_juliet",
-    "tln_start": 2436,
-    "tln_end": 2437,
-    "word_start": 1,
-    "word_end": 6,
-    "anchor_text": "shrieks like mandrakes torn out of the earth, That living mortals, hearing them, run mad",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "The mandrake (mandragora) is a real narcotic plant whose forked root resembles a human body. Folklore held that it shrieked fatally when pulled from the ground and that hearing the shriek drove listeners insane. Juliet imagines the tomb full of such a sound.",
-    "detail": "John Gerard's Herball (1597) reports the legend — including the precaution of tying a dog to the root to draw it out, so the deadly shriek kills the dog rather than the gardener. The mandrake's genuine sedative power (the same plant provides 'mandragora' in Othello 3.3 and Antony and Cleopatra 1.5) sits beside this supernatural lore. Here the shriek is imagined as an ambient horror of the vault itself, not necessarily tied to anyone pulling a root — Juliet's mind is free-associating among the worst sounds she can picture.",
-    "sources": [
-      {
-        "name": "Gerard, Herball",
-        "citation": "John Gerard, The Herball, or Generall Historie of Plantes (1597), 'Of Mandrake': describes the shrieking legend and the dog-on-a-rope method of uprooting."
-      },
-      {
-        "name": "Pliny",
-        "citation": "Pliny, Natural History Book 25 (mandragora as a narcotic plant); the deadly shriek is medieval folklore, not classical."
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "mandrake-folklore"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2436"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The mandrake-shriek-madness folklore is real, well-documented, and the characterization of it as free-associative ambient horror (rather than a literal root-pulling scene) is a defensible and modest reading of what the text actually says."
-      }
-    ],
-    "note_internal": "Generalized the Pliny citation and clarified the shriek as folklore; retained Gerard's Herball."
-  },
-  {
-    "id": "romeo_and_juliet-2567-ordained-festival",
-    "play": "romeo_and_juliet",
-    "tln_start": 2567,
-    "tln_end": 2568,
-    "word_start": 0,
-    "word_end": 6,
-    "anchor_text": "All things that we ordained festival Turn from their office to black funeral",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "Capulet lists four pairs of contraries — instruments/bells, wedding feast/burial feast, hymns/dirges, bridal flowers/funeral flowers — each a festival thing turned to its funeral opposite. The repeated grammatical pattern (our X / to Y) is a figure of antithesis; 'ordained festival' means things appointed for celebration.",
-    "sources": [
-      {
-        "name": "Schmidt",
-        "citation": "Schmidt, Shakespeare-Lexicon, s.v. 'ordained': 'appointed, arranged beforehand.'"
-      },
-      {
-        "name": "Gibbons ed.",
-        "citation": "Brian Gibbons, ed., Romeo and Juliet, Arden Shakespeare 2nd series (1980), note to 4.5.84-90."
-      }
-    ],
-    "references": [],
-    "confidence": "medium",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2567"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Schmidt s.v. 'ordained' and Gibbons Arden 1980 note to 4.5.84-90 are both real, legitimate citations that support the antithesis and vocabulary claims."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the reading was trimmed to its well-sourced core; the over-reaching claim was removed. See note_internal."
-      }
-    ],
-    "note_internal": "Dropped the detail's false 'sullen/solemn' shared-root etymology (interpretation judge); the antithesis gloss and 'ordained = appointed' stand, per Schmidt and Gibbons."
-  },
-  {
-    "id": "romeo_and_juliet-2623-bosoms-lord",
-    "play": "romeo_and_juliet",
-    "tln_start": 2623,
-    "tln_end": 2623,
-    "word_start": 0,
-    "word_end": 7,
-    "anchor_text": "My bosom's lord sits lightly in his throne",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "Romeo means his heart: in Elizabethan usage, the heart was commonly called the 'lord' or 'ruler' that sat enthroned in the breast (bosom). 'Sits lightly' means it weighs nothing — he feels buoyant, without grief.",
-    "detail": "The figure of the heart as a monarch governing the body was a commonplace of humoral psychology, drawn from medical writers who described the heart as the seat of the vital spirits and therefore the chief organ of life. Shakespeare uses similar phrasing in Sonnet 46 ('Mine eye and heart are at a mortal war / How to divide the conquest of thy sight') and in Richard III 4.4. Here the ease of the image — the lord sitting lightly — sets a bitterly ironic tone: the same heart is about to be crushed by news of Juliet's death.",
-    "sources": [
-      {
-        "name": "Schmidt, Shakespeare-Lexicon",
-        "citation": "Schmidt, Alexander. Shakespeare-Lexicon (rev. Sarrazin, 1902), s.v. 'bosom' (seat of the affections) and 'lord' (the heart as ruler of the body)."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2623"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The reading of 'bosom's lord' as the heart enthroned in the breast is standard and well-supported by humoral psychology; the ironic contrast with the imminent bad news is a sound and mainstream observation."
-      }
-    ],
-    "note_internal": "Corrected the Schmidt edition designation (1902 is the revised 3rd edition, not the 5th)."
-  },
-  {
-    "id": "romeo_and_juliet-2674-caitiff-wretch",
-    "play": "romeo_and_juliet",
-    "tln_start": 2674,
-    "tln_end": 2674,
-    "word_start": 3,
-    "word_end": 8,
-    "anchor_text": "caitiff wretch would sell it him",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "'Caitiff' is a medieval word for a wretched, cowardly, or base person — someone contemptible because of poverty and moral weakness combined. Romeo is not insulting the apothecary cruelly; he is noting that only someone desperate enough to risk death would sell poison at all.",
-    "detail": "The word derives from Old North French caitif (captive, hence wretched), and carried a double meaning in Elizabethan English: physical wretchedness (poverty, sickness) and moral cowardice or baseness. OED traces it to the 13th century; by Shakespeare's day it was already slightly archaic and used for deliberate rhetorical weight. The line turns on a grim logic Romeo works out for himself — that only the truly destitute, whose life is already forfeit to misery, would take the legal risk. This observation is what Romeo is recording for himself, not for anyone else: he speaks it aloud as a memory trace before approaching the man.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'caitiff' n. and adj. (cowardly, despicable, wretched; derived from Old North French caitif, captive)."
-      },
-      {
-        "name": "Schmidt, Shakespeare-Lexicon",
-        "citation": "Schmidt, Alexander. Shakespeare-Lexicon (rev. Sarrazin, 1902), s.v. 'caitiff': miserable, despicable."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2674"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "'Caitiff' as wretched, contemptible, cowardly — drawn from Old French caitif (captive) — is a standard etymology and usage well-attested by OED; the reading that Romeo uses it as self-addressed observation rather than direct insult fits the monologue context."
-      }
-    ],
-    "note_internal": "Corrected the Schmidt edition designation; retained OED on the etymology."
-  },
-  {
-    "id": "romeo_and_juliet-2730-iron-crow",
-    "play": "romeo_and_juliet",
-    "tln_start": 2730,
-    "tln_end": 2730,
-    "word_start": 0,
-    "word_end": 8,
-    "anchor_text": "Get me an iron crow and bring it straight",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "An 'iron crow' (also 'crowbar' or 'crow of iron') is a heavy iron bar with a bent or forked end, used to pry open locks, doors, or lids. Friar Lawrence needs it to force open the Capulet monument before Juliet wakes. The word 'crow' for this tool was standard in Elizabethan English and survives today as 'crowbar.'",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'crow' n.1, sense 8: 'An iron bar with a bent or flattened end, used as a lever; a crowbar.' Earliest cite 1481."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2730"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The identification of 'iron crow' as a pry-bar is unambiguous and correct; the beak-resemblance etymology is appropriately hedged as probable rather than asserted as certain, avoiding folk-etymology overreach."
-      }
-    ],
-    "note_internal": "Dropped the detail's wrong Comedy of Errors scene reference; the OED citation supports 'iron crow = crowbar.'"
-  },
-  {
-    "id": "romeo_and_juliet-289-servant-trades",
-    "play": "romeo_and_juliet",
-    "tln_start": 290,
-    "tln_end": 291,
-    "word_start": 4,
-    "word_end": 7,
-    "anchor_text": "the shoemaker should meddle with his yard and the tailor with his last",
-    "type": "wordplay",
-    "depth": "basic",
-    "summary": "The Servant muddles the trades: shoemakers measure with a 'yard' (a yardstick), but a shoemaker's proper tool is a 'last' (a foot-shaped block); tailors use the last... no, that is the shoemaker's again. He has scrambled the pairs. The comedy shows a man who has been asked to read a list he cannot read, and who cannot even correctly recall the proverb about sticking to one's trade.",
-    "detail": "The proverb behind the speech is 'let the cobbler stick to his last' (Latin: 'ne sutor ultra crepidam'), a well-known maxim about staying within one's proper calling. The Servant inverts painter and fisher as well (a painter uses a pencil / brush; a fisherman uses nets). The whole speech dramatizes illiteracy as comic confusion: he knows there is a saying about craftsmen keeping to their tools but cannot sort out which tool belongs to which craft. 'Meddle with' means to deal with, to handle — his phrasing also has a faint bawdy edge (to meddle = to have sexual dealings with), which the yard / last mix-up could intensify for a quick audience, though the primary joke is sheer muddle. The scene sets up the comic chance meeting with Romeo: because the servant cannot read, he must ask a stranger, and that stranger turns out to be a Montague, inadvertently invited to his enemy's feast.",
-    "sources": [
-      {
-        "name": "Tilley, Proverbs",
-        "citation": "Tilley, M. P. A Dictionary of the Proverbs in England (1950): 'Let the cobbler stick to his last' (ne sutor ultra crepidam)."
-      },
-      {
-        "name": "Onions, Shakespeare Glossary",
-        "citation": "Onions, C. T. A Shakespeare Glossary, s.v. 'yard' (a measuring rod of three feet)."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 290"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The servant genuinely scrambles the tools (shoemaker/last, tailor/yard, fisher/nets, painter/pencil), the cobbler-stick-to-his-last proverb connection is standard, and the bawdy edge on 'meddle with' is documented in Onions and consistent with Shakespeare's usage elsewhere."
-      }
-    ],
-    "note_internal": "De-numbered the Tilley citation and dropped the unsupported sexual sense of 'meddle' from Onions."
-  },
-  {
-    "id": "romeo_and_juliet-455-endart-mine-eye",
-    "play": "romeo_and_juliet",
-    "tln_start": 455,
-    "tln_end": 455,
-    "word_start": 1,
-    "word_end": 8,
-    "anchor_text": "no more deep will I endart mine eye",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "'Endart' means to dart or shoot inward, as an arrow is shot. Juliet says she will look at Paris and be willing to like him ('I'll look to like, if looking liking move'), but she will not aim her gaze — shoot her glance like an arrow — any deeper into feeling than her parents allow. The word conveys the Renaissance idea that love enters through the eyes, like an arrow striking the heart.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'endart' v.: 'To dart or shoot inward; to penetrate like a dart.' Romeo and Juliet 1.3 [TLN 455] cited as one of the earliest instances."
-      },
-      {
-        "name": "Gibbons (Arden 2)",
-        "citation": "Brian Gibbons, ed., Romeo and Juliet (Arden 2, 1980), note to 1.3.98 [TLN 455]."
-      }
-    ],
-    "references": [
-      {
-        "kind": "classical",
-        "card_id": "cupid-arrows"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 455"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The gloss on 'endart' as a rare compound meaning to dart inward is supported by the OED; the Petrarchan love-enters-through-the-eyes convention is standard; Juliet's conditional obedience is confirmed word-for-word by her closing line at TLN 456."
-      }
-    ],
-    "note_internal": "Dropped the detail's over-reach linking the line to Ovid Met. 1.468–474; the OED and Gibbons citations support 'endart.'"
-  },
-  {
-    "id": "romeo_and_juliet-504-duns-the-mouse",
-    "play": "romeo_and_juliet",
-    "tln_start": 504,
-    "tln_end": 505,
-    "word_start": 1,
-    "word_end": 9,
-    "anchor_text": "dun's the mouse, the constable's own word: If thou art dun, we'll draw thee from the mire",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "'Dun's the mouse' was a proverb meaning 'keep quiet and still' — dun (dull grayish-brown, the colour of a mouse) was the word a constable might use for lying low, staying inconspicuous. Mercutio seizes on Romeo's 'I am done' (finished, reluctant) and twists it to 'dun' (dark and motionless), then pivots to 'Dun the horse,' a game in which players tried to lift a heavy log representing a horse stuck in the mire. 'Sir-reverence' at TLN 506 is a polite apology before saying something crude — equivalent to 'begging your pardon.'",
-    "detail": "The wordplay chains three things: (1) the proverb 'dun's the mouse' = stay still and say nothing; (2) 'Dun in the mire,' a Christmas game in which a heavy log (called 'Dun the horse') was dragged out of a pretend bog — Mercutio says he and the others will haul Romeo out of his love-mire; (3) 'sir-reverence' (Latin salva reverentia, 'saving your reverence'), a formula used before mentioning something unpleasant or scatological — here before calling love a 'mire' (mud). The whole passage shows Mercutio's characteristic technique of rapid wordplay that keeps refusing to take Romeo's suffering seriously.",
-    "sources": [
-      {
-        "name": "Tilley, A Dictionary of Proverbs",
-        "citation": "Tilley, M. P. A Dictionary of the Proverbs in England (1950): 'dun's the mouse' (a call to keep still and quiet)."
-      },
-      {
-        "name": "Onions, Shakespeare Glossary",
-        "citation": "Onions, C. T. Shakespeare Glossary (1911; rev. Eagleson 1986), s.v. 'sir-reverence.'"
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 504"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The three-way wordplay chain — proverb, 'Dun in the mire' Christmas game, and 'sir-reverence' formula — is mainstream and all three elements are verified in the text; no over-reading."
-      }
-    ],
-    "note_internal": "De-numbered the Tilley citation (the entry number was wrong); retained Onions on 'sir-reverence.'"
-  },
-  {
-    "id": "romeo_and_juliet-576-hanging-in-the-stars",
-    "play": "romeo_and_juliet",
-    "tln_start": 576,
-    "tln_end": 577,
-    "word_start": 5,
-    "word_end": 6,
-    "anchor_text": "my mind misgives Some consequence, yet hanging in the stars",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "Romeo fears that tonight's party will start a chain of events ('consequence') whose outcome has already been written in the stars — that is, fixed by astrology. Elizabethans took astrology seriously as a science: the positions of planets at one's birth and at key moments were believed to shape or even determine what would happen. The Prologue already called Romeo and Juliet 'star-cross'd lovers,' and Romeo here intuits that a fatal pattern is set in motion.",
-    "detail": "The phrase 'hanging in the stars' pictures fate as something suspended overhead, about to fall. Astrological determinism was a live intellectual debate in Shakespeare's England: educated opinion divided between those who believed the stars governed human affairs absolutely and those (like Cassius in Julius Caesar: 'The fault, dear Brutus, is not in our stars, / But in ourselves') who rejected it. Romeo does not reject the stars — he surrenders to them by saying 'He that hath the steerage of my course / Direct my sail!' at TLN 582-583, committing his will to a higher power (a phrase with both astrological and Christian resonance). The specific 'expire the term / Of a despised life' tells us he already fears death is what the stars have written.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'consequence' sense 3 (a result or outcome set in train by an event)."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 576"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The astrological determinism context is accurate, the dual resonance of 'steerage of my course' (astrological and Christian) is defensible, and the reading of Romeo's surrender to fate as proleptic of the play's outcome is mainstream."
-      }
-    ],
-    "note_internal": "Dropped Curry (1937) (no chapter on Romeo and astrology); retained OED on 'consequence.' The astrological reading is grounded in the play's own 'star-cross'd lovers.'"
-  },
-  {
-    "id": "romeo_and_juliet-590-marchpane",
-    "play": "romeo_and_juliet",
-    "tln_start": 590,
-    "tln_end": 590,
-    "word_start": 4,
-    "word_end": 9,
-    "anchor_text": "save me a piece of marchpane",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "Marchpane is marzipan: a sweet confection of ground almonds and sugar, shaped and often painted to look like fruit or animals. In the Elizabethan period it was a luxury item served at feasts and celebrations rather than an everyday sweet.",
-    "detail": "The word 'marchpane' comes from Italian marzapane, probably via medieval Latin. It was a common spelling in sixteenth-century English before 'marzipan' (borrowed through German) displaced it in the eighteenth century. As a costly sweetmeat, it signals the scale and expense of the Capulet feast.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. marchpane, n.: 'A confection of almonds, sugar, and rose-water ... fashioned into fancy shapes'; in English use by the early sixteenth century."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 590"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The identification of marchpane as marzipan is philologically sound, and reading it as a luxury item signalling feast-scale is a mainstream, uncontroversial contextual gloss."
-      }
-    ],
-    "note_internal": "Corrected the OED dating claim (earliest evidence is early-sixteenth-century, not fifteenth)."
-  },
-  {
-    "id": "romeo_and_juliet-767-king-cophetua",
-    "play": "romeo_and_juliet",
-    "tln_start": 767,
-    "tln_end": 767,
-    "word_start": 1,
-    "word_end": 5,
-    "anchor_text": "King Cophetua lov'd the beggar-maid",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "King Cophetua was the hero of a popular ballad: a king who scorned all women until Cupid's arrow struck him, and he fell in love with a beggar girl, married her, and lived happily. Mercutio mocks Cupid for his inconsistent, socially indiscriminate aim — even a king, through Cupid's 'trim' (well-aimed) shot, can be made to love someone beneath his rank.",
-    "detail": "The ballad 'The King and the Beggar-Maid' (recorded in Percy's Reliques and antedating Shakespeare) was well known to Elizabethan audiences; Shakespeare alludes to it again in Love's Labour's Lost (4.1) and Henry IV Part 2 (5.3). Mercutio's word 'trim' means neatly, precisely — a fencer's compliment to a clean hit, foreshadowing his later fencing vocabulary. The allusion is pointed: Romeo is behaving like Cophetua besotted with a beggar, except that his 'beggar-maid' is Rosaline, a Capulet cousin — socially above him and, unlike the ballad girl, uninterested. Mercutio uses the story to ridicule the stock love-poetry convention rather than to comfort Romeo.",
-    "sources": [
-      {
-        "name": "Percy, Reliques",
-        "citation": "Thomas Percy, Reliques of Ancient English Poetry (1765): the ballad 'King Cophetua and the Beggar-Maid' (predating Shakespeare's usage)."
-      },
-      {
-        "name": "Schmidt",
-        "citation": "Alexander Schmidt, Shakespeare-Lexicon, 6th ed. (1971), s.v. 'trim' adv.: 'nicely, neatly, with good aim.'"
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-05-31",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 767"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Editorial review (2026-05-31): the flagged citation was corrected or generalized to a verifiable source; the gloss and anchor are mainstream. See note_internal."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The Cophetua ballad identification and 'trim' as neatly/precisely are sound, but the detail's claim that 'trim' foreshadows Mercutio's later fencing vocabulary is an unwarranted proleptic over-reading that should be trimmed; the summary itself is defensible."
-      }
-    ],
-    "note_internal": "Corrected the ballad title and volume in the Percy citation; retained Schmidt on 'trim.'"
   }
 ]

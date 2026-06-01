@@ -210,6 +210,56 @@
     ]
   },
   {
+    "id": "henry_viii-56-clinquant-heathen-gods",
+    "play": "henry_viii",
+    "tln_start": 56,
+    "tln_end": 57,
+    "word_start": 0,
+    "word_end": 3,
+    "anchor_text": "All clinquant, all in gold, like heathen gods, Shone down the English",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Clinquant' (pronounced 'CLINK-ant') means glittering with gold or silver — flashing and shimmering. Norfolk is describing the French courtiers at the Field of the Cloth of Gold: so heavily covered in gold cloth and ornament that they looked like pagan idols, and their brilliance out-dazzled ('shone down') the English contingent that day.",
+    "detail": "'Clinquant' is a French loan-word, from clinquer, of the tinkling or glittering of metal — an apt importation for a description of a French display. To 'shine down' means to outshine, to eclipse by sheer brightness. Calling the French courtiers 'heathen gods' is hyperbole for their superhuman magnificence and the idolatrous excess of the occasion — a contrast with the Protestant register the play will gradually develop.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'clinquant' adj.: 'Glittering with gold or tinsel; glittering, glistening'; a borrowing of French clinquant, the present participle of clinquer 'to clink, glitter.'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 56"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the inaccurate 'first recorded use c. 1598' claim (OED's earliest evidence is in fact 1613) from both the source citation and the detail, keeping only the uncontroversial OED definition and French etymology."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Clinquant' as a French loan meaning glittering with gold and 'shone down' as outshone are standard readings; the note on 'heathen gods' as hyperbole for magnificent excess is appropriately hedged and defensible."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the inaccurate 'first recorded use c. 1598' claim (OED's earliest evidence is in fact 1613) from both the source citation and the detail, keeping only the uncontroversial OED definition and French etymology. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_viii-58-made-britain-india",
     "play": "henry_viii",
     "tln_start": 58,
@@ -2327,6 +2377,55 @@
     ]
   },
   {
+    "id": "henry_viii-481-confession-seal",
+    "play": "henry_viii",
+    "tln_start": 484,
+    "tln_end": 487,
+    "word_start": 2,
+    "word_end": 3,
+    "anchor_text": "under the confession's seal He solemnly had sworn, that what he spoke My chaplain to no creature living but To me should utter",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "In Catholic practice, the seal of confession ('sigillum confessionis') was an absolute and inviolable duty of secrecy: a priest who heard confession could never repeat what was told to him, under any circumstances. The monk bound Buckingham's chaplain to the same secrecy by having him swear an oath. What makes the Surveyor's report so legally explosive is that it was originally shared under this seal — the Surveyor is now violating the very privacy that made Buckingham feel safe to speak.",
+    "sources": [
+      {
+        "name": "Council of Trent",
+        "citation": "Council of Trent, Session 14 (1551), Doctrine on Penance, ch. 5, affirms the inviolable secrecy of sacramental confession; the rule was long established in canon law (Decretum Gratiani, c. 1140), with breaking the seal punishable by deposition and excommunication."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 484"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Trent's affirmation of the seal is in the Session 14 doctrinal chapters (ch. 5), not in a numbered canon; removed the fabricated 'Canon 7' and its quoted phrase and cited the chapter plus the Decretum Gratiani instead."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The sacramental seal of confession as an absolute canonical obligation inviolable under pain of excommunication is accurately stated; the gloss that Buckingham believed himself protected by the seal and that its violation is what makes the Surveyor's testimony explosive is well-supported by the text's dramatic logic."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Trent's affirmation of the seal is in the Session 14 doctrinal chapters (ch. 5), not in a numbered canon; removed the fabricated 'Canon 7' and its quoted phrase and cited the chapter plus the Decretum Gratiani instead. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_viii-492-duke-surveyor-lost-office",
     "play": "henry_viii",
     "tln_start": 493,
@@ -3278,6 +3377,61 @@
     ]
   },
   {
+    "id": "henry_viii-739-you-are-a-churchman",
+    "play": "henry_viii",
+    "tln_start": 740,
+    "tln_end": 741,
+    "word_start": 0,
+    "word_end": 4,
+    "anchor_text": "You are a churchman, or, I'll tell you, Cardinal, / I should judge now unhappily",
+    "type": "wordplay",
+    "depth": "scholar",
+    "summary": "Having been introduced to Anne, Henry turns to Wolsey with a compliment that carries a light warning: 'You hold a fair assembly; you do well, lord. / You are a churchman.' The sense is that because Wolsey is a man of the church, Henry can praise the evening's pleasures freely — if Wolsey were not a churchman, Henry says, 'I should judge now unhappily,' i.e. he would view the entertainment with disapproval. The exchange also marks the King's first sight of Anne, making Wolsey the unwitting host to the woman who will undo him.",
+    "detail": "Wolsey's reply — 'I am glad your Grace is grown so pleasant' — is a courtier's deflection, neither admitting the compliment nor challenging it. The scene quietly sets up the central irony of the play's first half: the cardinal whose feast brings Henry and Anne together is sowing his own downfall.",
+    "sources": [
+      {
+        "name": "Schmidt",
+        "citation": "Schmidt, Shakespeare-Lexicon, s.v. 'unhappily' sense 2: 'unfortunately, so as to give offence; in a way that causes dissatisfaction.'"
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "the-kings-great-matter"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 740"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Schmidt's Shakespeare-Lexicon is a genuine reference and 'unhappily' in the sense of causing dissatisfaction or offence is a documented Shakespearean usage."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Trimmed the speculative 'a Cardinal cannot be a rival in love' subtext (the interp judge's objection) to the defensible core — Henry praises the assembly and uses 'you are a churchman' as the condition under which he can do so without offending propriety; kept depth scholar and the verified Schmidt source."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Trimmed the speculative 'a Cardinal cannot be a rival in love' subtext (the interp judge's objection) to the defensible core — Henry praises the assembly and uses 'you are a churchman' as the condition under which he can do so without offending propriety; kept depth scholar and the verified Schmidt source. [orig: source=verified, interp=refuted]"
+  },
+  {
     "id": "henry_viii-746-viscount-rochford",
     "play": "henry_viii",
     "tln_start": 746,
@@ -3847,6 +4001,55 @@
     ]
   },
   {
+    "id": "henry_viii-833-tipstaves-axe",
+    "play": "henry_viii",
+    "tln_start": 833,
+    "tln_end": 834,
+    "word_start": 0,
+    "word_end": 8,
+    "anchor_text": "Stay there, sir, And see the noble ruin'd man you speak of",
+    "type": "stage_direction_note",
+    "depth": "basic",
+    "summary": "The stage direction specifies that Buckingham enters with 'tipstaves before him' and 'the axe with the edge towards him.' Tipstaves were officers who carried a white-tipped staff as a badge of authority; they escorted condemned prisoners. The axe was the symbol of an attainted lord's imminent execution: carried with the blade pointing toward the prisoner, it showed the death sentence had been passed. Turned the other way it would have meant acquittal.",
+    "sources": [
+      {
+        "name": "Holinshed, Chronicles",
+        "citation": "Raphael Holinshed, Chronicles (1587), on the formal procession of condemned nobles to execution; the edge of the axe turned toward a prisoner returning from judgment signified a passed death-sentence (a convention noted in the editorial tradition of the play)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 833"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Removed the invented 'Holinshed's account of Anne Boleyn's procession' detail (Anne was beheaded by sword, not axe); kept the accurate, editorially attested axe-edge convention and a general Holinshed cite for execution procession."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The tipstaves and axe-edge convention are accurately described; the axe turned toward the prisoner for guilt and away for acquittal is a documented Elizabethan convention, though the note acknowledges it via editorial citation rather than direct Holinshed authority, which is appropriate."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Removed the invented 'Holinshed's account of Anne Boleyn's procession' detail (Anne was beheaded by sword, not axe); kept the accurate, editorially attested axe-edge convention and a general Holinshed cite for execution procession. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_viii-841-conscience-sink-me",
     "play": "henry_viii",
     "tln_start": 841,
@@ -4043,6 +4246,55 @@
         "note": "The reading of 'black envy' as wicked/malignant envy that Buckingham refuses to carry into death is accurate and supported by the context of his full forgiveness speech."
       }
     ]
+  },
+  {
+    "id": "henry_viii-885-lord-high-constable",
+    "play": "henry_viii",
+    "tln_start": 885,
+    "tln_end": 886,
+    "word_start": 4,
+    "word_end": 7,
+    "anchor_text": "I was Lord High Constable And Duke of Buckingham; now, poor Edward Bohun",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "The Lord High Constable was one of the great officers of state — responsible for military justice and precedence at royal ceremonies. Convicted of treason, Buckingham loses all his titles and falls back to a plain personal style, 'Edward Bohun.' His actual family surname was Stafford; 'Bohun' was the ancient dynastic line through which the Staffords claimed the hereditary constableship, and the play uses it for the stripped-down man. The attainder for treason automatically forfeited a peer's title and lands and 'corrupted' his blood, erasing his noble rank.",
+    "sources": [
+      {
+        "name": "Holinshed, Chronicles",
+        "citation": "Raphael Holinshed, Chronicles (1587), on Edward Stafford, Duke of Buckingham, Lord High Constable; and on attainder's effect of forfeiting title and lands to the Crown."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 885"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Corrected the inaccurate claim that 'Bohun' was Buckingham's surname (it was Stafford); 'Bohun' was the ancestral line behind the hereditary constableship and ducal claim — exactly as the play's own usage and Holinshed have it."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Buckingham's role as Lord High Constable, the family surname Bohun behind the ducal title, and the automatic loss of rank on attainder are all accurate."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Corrected the inaccurate claim that 'Bohun' was Buckingham's surname (it was Stafford); 'Bohun' was the ancestral line behind the hereditary constableship and ducal claim — exactly as the play's own usage and Holinshed have it. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "henry_viii-891-henry-of-buckingham",
@@ -6126,6 +6378,54 @@
     ]
   },
   {
+    "id": "henry_viii-1337-blown-this-coal",
+    "play": "henry_viii",
+    "tln_start": 1337,
+    "tln_end": 1337,
+    "word_start": 0,
+    "word_end": 8,
+    "anchor_text": "Have blown this coal betwixt my lord and me",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Blown this coal' is a proverbial phrase meaning to fan or stoke a fire of discord — to inflame the quarrel between two people, as a bellows feeds a coal. Katherine accuses Wolsey of having deliberately stirred up Henry's doubts about their marriage and driven them apart.",
+    "sources": [
+      {
+        "name": "Tilley, Proverbs",
+        "citation": "M. P. Tilley, A Dictionary of the Proverbs in England in the Sixteenth and Seventeenth Centuries (1950), records 'to blow the coal/fire' for inflaming a quarrel or passion; cf. R. W. Dent, Shakespeare's Proverbial Language."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1337"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the incorrect entry number 'C443' and cited Tilley (and Dent) at work level for the well-attested 'blow the coal' proverb; the interp judge confirmed the proverb and its application."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Blow the coal' as a proverb for inflaming discord is well-attested, and the application to Katherine's accusation against Wolsey is directly supported by the text."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the incorrect entry number 'C443' and cited Tilley (and Dent) at work level for the well-attested 'blow the coal' proverb; the interp judge confirmed the proverb and its application. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_viii-1348-spleen",
     "play": "henry_viii",
     "tln_start": 1348,
@@ -6495,6 +6795,54 @@
     ]
   },
   {
+    "id": "henry_viii-1409-robbd-and-bound",
+    "play": "henry_viii",
+    "tln_start": 1409,
+    "tln_end": 1410,
+    "word_start": 4,
+    "word_end": 4,
+    "anchor_text": "where I am robb'd and bound, / There must I be unloos'd",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Wolsey asks Henry to clear his name in the same court where he has been publicly accused, by analogy: a man robbed and tied up should be set free in the very place it happened, so that the witnesses to the accusation also witness the exoneration. The figure insists that a private clearing of his name will not be enough — only public vindication answers a public charge.",
+    "sources": [
+      {
+        "name": "Schmidt, Shakespeare-Lexicon",
+        "citation": "Schmidt, A. Shakespeare-Lexicon, s.v. 'unloose': 'to release, to free from bonds.'"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1409"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Limited the Schmidt citation to the word-level gloss of 'unloos'd' (its actual scope) and recast the robbed-and-bound analogy as the annotation's own paraphrase of the lines rather than a maxim sourced to Schmidt; the interp judge verified the core reading."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The core reading — Wolsey demands public vindication in the same public court where he was publicly accused — is clearly supported by the text; the 'legal proverb' framing is speculative but does not distort the meaning."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Limited the Schmidt citation to the word-level gloss of 'unloos'd' (its actual scope) and recast the robbed-and-bound analogy as the annotation's own paraphrase of the lines rather than a maxim sourced to Schmidt; the interp judge verified the core reading. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_viii-1434-conscience-received-tenderness",
     "play": "henry_viii",
     "tln_start": 1434,
@@ -6547,6 +6895,60 @@
         "note": "The vocabulary of religious self-examination is correctly identified, and the annotation appropriately holds open the ambiguity between genuine scruple and convenient rationalization."
       }
     ]
+  },
+  {
+    "id": "henry_viii-1436-bishop-of-bayonne",
+    "play": "henry_viii",
+    "tln_start": 1435,
+    "tln_end": 1436,
+    "word_start": 5,
+    "word_end": 7,
+    "anchor_text": "speeches utter'd / By the Bishop of Bayonne, then French ambassador",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "The French ambassador the play calls 'the Bishop of Bayonne' is Gabriel de Gramont, sent to England in 1527 to negotiate a marriage between the French king's son and Henry's daughter Mary. According to Henry's account, the ambassador's question whether Mary was legitimate — i.e. whether Henry's marriage to Katherine was valid — first planted the 'scruple' in his conscience. (Historically Gramont was Bishop of Tarbes; 'Bayonne' is a slip the play inherits from its sources.)",
+    "sources": [
+      {
+        "name": "Holinshed, Chronicles (1587)",
+        "citation": "Raphael Holinshed, Chronicles (1587), on the French embassy of 1527 and the question of Princess Mary's legitimacy; the ambassador was Gabriel de Gramont, Bishop of Tarbes (1524-1529)."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "the-kings-great-matter"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1435"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Kept the historically accurate episode but corrected the see: Gabriel de Gramont was Bishop of Tarbes, not Bayonne; flagged 'Bayonne' as the play's inherited error rather than repeating it as fact."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Gabriel de Grammont as Bishop of Bayonne, his 1527 embassy, and his question about Mary's legitimacy as Henry's stated trigger are all historically accurate and match the play's speech."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Kept the historically accurate episode but corrected the see: Gabriel de Gramont was Bishop of Tarbes, not Bayonne; flagged 'Bayonne' as the play's inherited error rather than repeating it as fact. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "henry_viii-1444-dowager-brothers-wife",
@@ -6933,6 +7335,55 @@
         "note": "The identification of Wolsey and Campeius, the Blackfriars legatine hearing (1529), and the back-channel pressure on Katherine are all historically accurate and well-supported by Holinshed."
       }
     ]
+  },
+  {
+    "id": "henry_viii-1534-poor-weak-woman",
+    "play": "henry_viii",
+    "tln_start": 1534,
+    "tln_end": 1534,
+    "word_start": 2,
+    "word_end": 8,
+    "anchor_text": "a poor weak woman, fallen from favour",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Katherine's calling herself 'a poor weak woman' is a deliberate rhetorical move — captatio benevolentiae, the bid for sympathy by stressing one's helplessness, here edged with irony. She is in fact the rightful queen of England, a princess of Spain, and niece to the Holy Roman Emperor. The formula of feminine weakness lets her expose the cardinals' bullying of someone they assume cannot fight back on equal terms.",
+    "sources": [
+      {
+        "name": "Onions, Shakespeare Glossary",
+        "citation": "C. T. Onions, A Shakespeare Glossary (1911), s.v. 'poor' (used for self-deprecating sympathy) and 'weak.'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1534"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Onions Shakespeare Glossary (1911) is a real reference work and its entry for 'poor' in the self-deprecating sympathy sense is within its documented scope; the source supports the word-level gloss claimed."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Replaced the mislabel 'occupatio' (a figure of passing over while mentioning) with the accurate term captatio benevolentiae / self-deprecating irony, as the interp judge urged; kept the verified Onions source."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Replaced the mislabel 'occupatio' (a figure of passing over while mentioning) with the accurate term captatio benevolentiae / self-deprecating irony, as the interp judge urged; kept the verified Onions source. [orig: source=verified, interp=refuted]"
   },
   {
     "id": "henry_viii-1537-hoods-make-not-monks",
@@ -7444,6 +7895,55 @@
     ]
   },
   {
+    "id": "henry_viii-1629-cordial",
+    "play": "henry_viii",
+    "tln_start": 1629,
+    "tln_end": 1629,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "The cordial that ye bring a wretched lady",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "A 'cordial' was a medicinal drink or restorative believed to strengthen the heart (from Latin cor, heart) — a warm, sweet tonic given to the sick. Katherine is being savagely sarcastic: the cardinals have just advised her to surrender her case to the king who has already discarded her, and she calls this supposed comfort their 'cordial.'",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'cordial' n., sense 1: 'a medicine, food, or drink that invigorates the heart and stimulates the circulation'; from medieval Latin cordialis, from cor 'heart.'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1629"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "OED 'cordial' n. sense 1 (medicine or drink invigorating the heart) and the Latin etymology from cor (heart) are correctly described and support the gloss."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Removed the unsupported colour-association claim that 'cordial' glances at the cardinals' red robes (folk etymology flagged by the interp judge); kept the correct OED sense and Latin etymology."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Removed the unsupported colour-association claim that 'cordial' glances at the cardinals' red robes (folk etymology flagged by the interp judge); kept the correct OED sense and Latin etymology. [orig: source=verified, interp=refuted]"
+  },
+  {
     "id": "henry_viii-1638-false-professors",
     "play": "henry_viii",
     "tln_start": 1638,
@@ -7640,6 +8140,56 @@
         "note": "Katherine's refusal to surrender her queenly title, the logic that compliance would make her 'guilty,' and the historical record of her maintaining the title until death are all accurately stated."
       }
     ]
+  },
+  {
+    "id": "henry_viii-1674-shipwreckd-upon-a-kingdom",
+    "play": "henry_viii",
+    "tln_start": 1674,
+    "tln_end": 1678,
+    "word_start": 0,
+    "word_end": 5,
+    "anchor_text": "Shipwreck'd upon a kingdom, where no pity, No friends, no hope; no kindred weep for me; Almost no grave allow'd me. Like the lily, That once was mistress of the field and flourish'd, I'll hang my head and perish",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Katherine extends her distress into a sequence of images: a shipwreck (disaster on arrival in a foreign land), followed by the lily — the flower of royal majesty and purity — that has flourished in the field but now hangs its head in death. The lily was a standard emblem of royalty and of female virtue; to 'hang the head' is both the natural drooping of a cut flower and a gesture of mourning. 'Almost no grave allow'd me' is not hyperbole — in exile, without the king's favor, she genuinely feared she would be denied a queen's burial.",
+    "detail": "The shipwreck is a conventional metaphor for catastrophic loss, and the lily a standard emblem of royal majesty and female virtue (cf. Whitney, A Choice of Emblemes, 1586); to 'hang the head' is both the natural drooping of a cut flower and a gesture of mourning. Historically Katherine's end bore out the dread of 'almost no grave allow'd me': after the divorce she was moved to a series of cold, unhealthy residences (Ampthill, Kimbolton) and forbidden to see her daughter Mary; she died at Kimbolton in January 1536 and was buried not as queen but as Princess Dowager.",
+    "sources": [
+      {
+        "name": "Holinshed, Chronicles (1587)",
+        "citation": "Raphael Holinshed, Chronicles (1587), on Katherine's removal from court and her treatment in the years after the divorce."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1674"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The sole entry in sources[] is Holinshed 1587, which does cover Katherine's removal from court and her treatment at Ampthill and Kimbolton — that citation is real and supportive; the Whitney detail appears only in the prose, not in a separate source entry."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Cut the biographical over-reading that the 'shipwreck' alludes to storms on Katherine's actual 1501 voyage (interp judge's objection); kept the conventional-metaphor reading plus the documented, Holinshed-supported facts of her exile and burial."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Cut the biographical over-reading that the 'shipwreck' alludes to storms on Katherine's actual 1501 voyage (interp judge's objection); kept the conventional-metaphor reading plus the documented, Holinshed-supported facts of her exile and burial. [orig: source=verified, interp=refuted]"
   },
   {
     "id": "henry_viii-1688-hearts-of-princes-kiss-obedience",
@@ -10805,6 +11355,64 @@
     ]
   },
   {
+    "id": "henry_viii-2279-kings-late-scruple",
+    "play": "henry_viii",
+    "tln_start": 2279,
+    "tln_end": 2280,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "the King's late scruple, by the main assent Of all these learned men she was divorc'd",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "'Scruple' means a conscientious doubt — Henry's stated reason for seeking the annulment was a troubled conscience about whether his marriage to Katherine was ever lawful, since she had first been the wife of his dead brother Arthur. Leviticus 20:21 forbade marrying a brother's wife. The 'learned men' are the canon lawyers and theologians assembled to confirm the divorce.",
+    "sources": [
+      {
+        "name": "Holinshed, Chronicles (1587)",
+        "citation": "Raphael Holinshed, Chronicles (1587), on Henry's appeal to Leviticus and the assembly of divines at Dunstable."
+      },
+      {
+        "name": "Geneva Bible 1599",
+        "citation": "Leviticus 20:21 (Geneva 1599): 'So the man that taketh his brothers wife, committeth filthines... they shalbe childles'; cf. Leviticus 18:16."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "the-kings-great-matter"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2279"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Corrected the Leviticus 20:21 quotation to the genuine Geneva 1599 wording ('committeth filthines') — the previous text ('it is an unclean thing') was KJV; verified against the GNV text. Interp judge had verified the gloss."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The gloss of 'scruple' as a conscientious doubt is correct, and the annotation accurately frames the Levitical argument as the official justification while noting the contested nature of that framing — neither endorsing nor dismissing the 'pretext' reading."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Corrected the Leviticus 20:21 quotation to the genuine Geneva 1599 wording ('committeth filthines') — the previous text ('it is an unclean thing') was KJV; verified against the GNV text. Interp judge had verified the gloss. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_viii-2291-garter-gilt-copper",
     "play": "henry_viii",
     "tln_start": 2291,
@@ -11327,6 +11935,55 @@
     ]
   },
   {
+    "id": "henry_viii-2408-sick-to-death",
+    "play": "henry_viii",
+    "tln_start": 2409,
+    "tln_end": 2410,
+    "word_start": 2,
+    "word_end": 8,
+    "anchor_text": "sick to death! My legs, like loaden branches, bow to the earth",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Katherine opens the scene with a simile that folds two meanings: 'sick to death' means critically ill, but it also carries the sense of being weary unto death, a longing for release. The image of her legs as 'loaden branches' bowing to the earth portrays her body as a tree giving back its weight to the ground — heavy with fruit and age, yielding rather than breaking.",
+    "detail": "The tree-bough simile was conventional for a body near death (the branches have borne their fruit and now droop earthward), and the scenic placing reinforces it: Katherine enters 'led between' two attendants, staging the image before she speaks it. The historical Katherine died after a long final illness at Kimbolton in January 1536.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'laden' adj.: 'burdened, loaded' (with the variant 'loaden')."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2409"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Removed the overreaching claim that Cavendish (whose memoir is Wolsey's life and ends in 1530) describes Katherine's illness at Kimbolton; dropped that source and kept the conventional simile gloss with the OED 'laden' cite."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The tree-bough simile is straightforwardly staged by the entrance direction ('led between'), and the double sense of 'sick to death' as both critically ill and weary-unto-death is a natural reading; attributing the 'borne fruit' sub-meaning (daughter Mary) is a slight over-reading but does not dominate the gloss, which stays on the mainstream simile."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Removed the overreaching claim that Cavendish (whose memoir is Wolsey's life and ends in 1530) describes Katherine's illness at Kimbolton; dropped that source and kept the conventional simile gloss with the OED 'laden' cite. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_viii-2413-great-child-of-honour",
     "play": "henry_viii",
     "tln_start": 2414,
@@ -11752,6 +12409,55 @@
         "note": "The definition of simony and its derivation from Acts 8 are accurate; the claim that Wolsey's accumulation of ecclesiastical offices made charges of simony credible is historically mainstream and the gloss does not overreach."
       }
     ]
+  },
+  {
+    "id": "henry_viii-2457-mens-evil-manners-brass",
+    "play": "henry_viii",
+    "tln_start": 2457,
+    "tln_end": 2458,
+    "word_start": 0,
+    "word_end": 3,
+    "anchor_text": "Men's evil manners live in brass; their virtues We write in water",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Griffith's antithesis states a common human failing: people remember bad behaviour permanently (engraved in brass, which endures) while good deeds are forgotten as quickly as writing on water. It is a proverb-like formulation urging Katherine to give Wolsey's virtues the same lasting memory she is giving his faults.",
+    "detail": "The contrast belongs to a wide proverbial family about permanent versus impermanent records (e.g. 'injuries written in marble, benefits in dust/sand'). By placing the sententia in the mouth of the man urging charity, the play turns the commonplace to its purpose: if virtues are too easily forgotten, Griffith will make Wolsey's permanent.",
+    "sources": [
+      {
+        "name": "Schmidt, Shakespeare-Lexicon",
+        "citation": "Schmidt, Shakespeare-Lexicon, s.v. 'brass': used for permanence and durability, as opposed to perishable materials."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2457"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the unverifiable specific attributions to an Erasmus adage and to Plutarch's 'Life of Alexander'; recast as a proverbial sententia about lasting vs. perishable record, keeping the sound Schmidt 'brass' cite."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The brass/water antithesis is proverbial and the Erasmus connection is a legitimate parallel, though the Plutarch reference in the detail is vague ('near Plutarch's Life of Alexander') and slightly speculative; the core gloss — this is a sententia urging charitable memory — is sound and sufficient."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the unverifiable specific attributions to an Erasmus adage and to Plutarch's 'Life of Alexander'; recast as a proverbial sententia about lasting vs. perishable record, keeping the sound Schmidt 'brass' cite. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "henry_viii-2463-humble-stock",
@@ -12770,6 +13476,55 @@
     ]
   },
   {
+    "id": "henry_viii-2733-winnowed-chaff-corn",
+    "play": "henry_viii",
+    "tln_start": 2733,
+    "tln_end": 2734,
+    "word_start": 0,
+    "word_end": 4,
+    "anchor_text": "most throughly to be winnowed, where my chaff And corn shall fly asunder",
+    "type": "biblical_allusion",
+    "depth": "basic",
+    "summary": "Cranmer welcomes the council inquiry as a chance to be 'winnowed' — the agricultural process by which grain is tossed in the wind to separate the light chaff (husks) from the heavier corn (grain). It is a biblical image for judgment that separates the innocent from the guilty: 'his fan is in his hand, and he will throughly purge his floor, and gather his wheat into the garner; but he will burn up the chaff with unquenchable fire' (Matthew 3:12).",
+    "sources": [
+      {
+        "name": "Geneva Bible 1599",
+        "citation": "Matthew 3:12 (Geneva 1599): 'Which hath his fanne in his hand, and wil make cleane his floore, and gather his wheate into his garner, but will burne vp the chaffe with vnquenchable fire'; cf. Luke 3:17."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2733"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Corrected the Matthew 3:12 quotation to the genuine Geneva 1599 wording ('Which hath his fanne in his hand...'); the previous opening ('whose fanne is in his hand') was KJV. Verified against the GNV text; interp judge confirmed the allusion."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The Matthew 3:12 allusion is unambiguous — the winnowing-fan judgment image is a direct echo — and Cranmer's confident irony (his innocence will survive the tossing) is plainly readable from his speech at 2731-36."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Corrected the Matthew 3:12 quotation to the genuine Geneva 1599 wording ('Which hath his fanne in his hand...'); the previous opening ('whose fanne is in his hand') was KJV. Verified against the GNV text; interp judge confirmed the allusion. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_viii-2740-holidame",
     "play": "henry_viii",
     "tln_start": 2740,
@@ -13363,6 +14118,60 @@
     ]
   },
   {
+    "id": "henry_viii-2884-upper-germany",
+    "play": "henry_viii",
+    "tln_start": 2884,
+    "tln_end": 2886,
+    "word_start": 0,
+    "word_end": 5,
+    "anchor_text": "Commotions, uproars, with a general taint / Of the whole state; as, of late days, our neighbours, / The upper Germany, can dearly witness",
+    "type": "historical_topical",
+    "depth": "basic",
+    "summary": "Gardiner is invoking the German Peasants' War of 1524-25, in which the Protestant Reformation sparked a massive and bloody peasant uprising across German-speaking lands. Roughly 100,000 people died before the revolt was crushed. Gardiner's argument is that allowing 'new opinions' in religion leads directly to social revolution — heresy in church produces 'commotions and uproars' in the state.",
+    "sources": [
+      {
+        "name": "German Peasants' War (1524-25)",
+        "citation": "The German Peasants' War (Bauernkrieg), 1524-25, a mass revolt across the southern German lands in the wake of the Reformation, suppressed with great loss of life; cited by English conservatives as proof that religious innovation breeds civil disorder."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "the-break-with-rome"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2884"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Replaced the unsupported Holinshed citation (an English chronicle that does not cover the event) with a direct citation to the historical German Peasants' War of 1524-25, the standard scholarly identification of Gardiner's 'upper Germany' that the interp judge endorsed."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Identifying 'upper Germany' with the Peasants' War of 1524-25 is the standard scholarly gloss for this passage; the argument that Gardiner deploys it as a proof that heresy produces political chaos is exactly what the text says."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Replaced the unsupported Holinshed citation (an English chronicle that does not cover the event) with a direct citation to the historical German Peasants' War of 1524-25, the standard scholarly identification of Gardiner's 'upper Germany' that the interp judge endorsed. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_viii-2900-crooked-malice",
     "play": "henry_viii",
     "tln_start": 2900,
@@ -13807,6 +14616,58 @@
     ]
   },
   {
+    "id": "henry_viii-2985-whose-honesty-devil",
+    "play": "henry_viii",
+    "tln_start": 2985,
+    "tln_end": 2987,
+    "word_start": 3,
+    "word_end": 6,
+    "anchor_text": "whose honesty the devil / And his disciples only envy at, / Ye blew the fire that burns ye",
+    "type": "biblical_allusion",
+    "depth": "basic",
+    "summary": "Cromwell frames the conservative councillors as satanic agents: those who envy Cranmer's honesty are doing the devil's work. 'Ye blew the fire that burns ye' continues the thought — the council has kindled a flame now consuming them. The image of the devil as the envious enemy of the righteous draws on the New Testament picture of Satan as 'adversary' (1 Peter 5:8), and the fire-blowing line on the proverb that one who blows the fire is scorched by its sparks.",
+    "sources": [
+      {
+        "name": "Geneva Bible 1599",
+        "citation": "1 Peter 5:8 (Geneva 1599): 'your aduersarie the deuil as a roaring lyon walketh about, seeking whom he may deuoure.'"
+      },
+      {
+        "name": "Tilley, Dictionary of Proverbs",
+        "citation": "M. P. Tilley, A Dictionary of the Proverbs in England in the Sixteenth and Seventeenth Centuries (1950), records the proverb that he who blows the fire/coal is scorched by the sparks; cf. R. W. Dent, Shakespeare's Proverbial Language."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2985"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Softened the 1 Peter 5:8 link to a general 'adversary' resonance (the verse is about the devil, presented as a draw-on rather than exact source) and dropped the incorrect Tilley number 'F 277', citing Tilley/Dent at work level for the fire-blowing proverb; interp judge verified the reading."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Framing the conservative councillors as doing the devil's work is what the text says, and 1 Peter 5:8 on the adversary who envies the righteous is a plausible biblical resonance; the annotation does not over-claim a deliberate citation, only that it 'draws on' the tradition."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Softened the 1 Peter 5:8 link to a general 'adversary' resonance (the verse is about the devil, presented as a draw-on rather than exact source) and dropped the incorrect Tilley number 'F 277', citing Tilley/Dent at work level for the fire-blowing proverb; interp judge verified the reading. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_viii-2996-sudden-commendations",
     "play": "henry_viii",
     "tln_start": 2996,
@@ -13852,6 +14713,54 @@
         "note": "Henry's remark is clearly satirising Gardiner's on-demand flattery, and the image of praise 'too thin and bare to hide offences' as a transparent cloth is a natural reading of the metaphor — nothing here overreaches the plain text."
       }
     ]
+  },
+  {
+    "id": "henry_viii-3000-play-the-spaniel",
+    "play": "henry_viii",
+    "tln_start": 3000,
+    "tln_end": 3001,
+    "word_start": 0,
+    "word_end": 9,
+    "anchor_text": "To me you cannot reach you play the spaniel, / And think with wagging of your tongue to win me",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "Henry piles a second animal image on Gardiner: 'playing the spaniel' means fawning and cringing — spaniels were proverbially the type of servile flattery, crouching and wagging to please their masters. Henry is telling Gardiner that he sees through flattery designed to manipulate him, and that it will not work.",
+    "sources": [
+      {
+        "name": "Tilley, Dictionary of Proverbs",
+        "citation": "M. P. Tilley, A Dictionary of the Proverbs in England in the Sixteenth and Seventeenth Centuries (1950), records the spaniel/dog that fawns on those who beat it; the spaniel as type of the sycophant is proverbial. Cf. R. W. Dent, Shakespeare's Proverbial Language."
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 3000"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Removed the fabricated cross-reference to Wolsey using 'play the spaniel' in 3.2 (verified absent from the scene in Folger/OSS/MIT) and dropped the unverifiable Tilley number 'D 249', keeping the proverbial spaniel-as-flatterer gloss at work level."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The spaniel as type of sycophantic flattery is proverbially attested, and the observation that Wolsey used the same image in 3.2 is correct and relevant — though the Wolsey echo is a scholar-level observation the annotation rightly keeps in the summary rather than overclaiming it as deliberate authorial mirroring."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Removed the fabricated cross-reference to Wolsey using 'play the spaniel' in 3.2 (verified absent from the scene in Folger/OSS/MIT) and dropped the unverifiable Tilley number 'D 249', keeping the proverbial spaniel-as-flatterer gloss at work level. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "henry_viii-3014-lousy-footboy",
@@ -14106,6 +15015,64 @@
         "note": "The May Day morning gloss is sound — the proverbial impossibility of keeping people indoors on May morning was a genuine cultural topos, and the Porter's Man's simile works straightforwardly in that register; invoking Evil May Day 1517 adds context but does not overreach the line."
       }
     ]
+  },
+  {
+    "id": "henry_viii-3079-samson-guy-colbrand",
+    "play": "henry_viii",
+    "tln_start": 3079,
+    "tln_end": 3080,
+    "word_start": 0,
+    "word_end": 5,
+    "anchor_text": "I am not Samson, nor Sir Guy, nor Colbrand, To mow 'em down before me",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "Samson is the biblical strongman who slew a thousand Philistines with the jawbone of an ass (Judges 15:15). Sir Guy of Warwick and Colbrand are English romance heroes: Guy was a legendary Earl of Warwick, and Colbrand the Danish giant he killed in single combat to save England. All three are bywords for superhuman strength. The Porter's Man says he cannot single-handedly mow down the mob the way these champions could.",
+    "detail": "Guy of Warwick was the hero of a widely read Middle English romance who defeated the Danish champion Colbrand in trial-by-combat at Winchester, thereby saving England from Danish tribute; the story was still well known to popular audiences in 1613. Together with Samson, the trio represents the most familiar legendary examples of one man overcoming a multitude by sheer force — which sharpens the joke: even they could not have controlled this crowd. Onions, Shakespeare Glossary, notes 'Guy' as a proverbial figure for champion strength.",
+    "sources": [
+      {
+        "name": "Judges 15:15 (Geneva 1599)",
+        "citation": "Judges 15:15-16 (Geneva Bible 1599): Samson kills a thousand men with the jawbone of an ass."
+      },
+      {
+        "name": "Guy of Warwick (romance)",
+        "citation": "The Romance of Guy of Warwick (Middle English), in which Guy defeats the Danish giant Colbrand in single combat; printed in England from the late 15th century (Wynkyn de Worde, c. 1497; Pynson) and in a complete edition by W. Copland (c. 1565)."
+      },
+      {
+        "name": "Onions, Shakespeare Glossary",
+        "citation": "Onions, C. T., A Shakespeare Glossary (Oxford, 1911), s.v. 'Guy of Warwick.'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 3079"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Corrected the unverifiable 'Wynkyn de Worde, 1506' printing date to the documented history (de Worde c. 1497 fragment; Pynson; complete W. Copland c. 1565); kept Judges 15:15-16 and Onions, both confirmed genuine."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "All three figures are standard bywords for superhuman strength and the trio is well attested as a comic litany in Elizabethan-Jacobean usage; the annotation reads the joke correctly as hyperbolic self-deprecation and does not overstate."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Corrected the unverifiable 'Wynkyn de Worde, 1506' printing date to the documented history (de Worde c. 1497 fragment; Pynson; complete W. Copland c. 1565); kept Judges 15:15-16 and Onions, both confirmed genuine. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "henry_viii-3092-fry-of-fornication",
@@ -14530,6 +15497,56 @@
     ]
   },
   {
+    "id": "henry_viii-3180-beaten-corn",
+    "play": "henry_viii",
+    "tln_start": 3180,
+    "tln_end": 3180,
+    "word_start": 0,
+    "word_end": 8,
+    "anchor_text": "Her foes shake like a field of beaten corn",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "This is a simile: Elizabeth's enemies will tremble and bow their heads the way a field of ripe grain bends and shakes when beaten down by wind or rain. The image is agricultural — 'beaten corn' is grain flattened by a storm — and it captures both involuntary fear and total prostration. The contrast with the safe 'vine' of the next lines (TLN 3182-83) gives the speech a pattern of terror for enemies alongside peace and plenty for the loyal.",
+    "detail": "'Corn' in sixteenth-century English means grain in general (wheat, rye, barley), not maize, which was barely known in England at the play's writing. The image of a wind-flattened field of grain for a defeated, cowering enemy belongs to the common stock of biblical and prophetic harvest-imagery, so Cranmer's audience would feel a scriptural resonance even without a single proof-text. The rhetorical figure across the surrounding speech is gradatio or climax — building from personal blessing (TLN 3166-78) to public dominion (enemies shaking, TLN 3180) to communal pastoral peace (TLN 3182-84).",
+    "sources": [
+      {
+        "name": "Schmidt, Shakespeare-Lexicon",
+        "citation": "Alexander Schmidt, Shakespeare-Lexicon (1874-75), s.v. 'corn' (grain in general, esp. wheat)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 3180"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Dropped the specific Isaiah 17:5 citation (a reaping image, not the storm-beaten field the gloss describes) and generalized to the common stock of biblical harvest-imagery; kept the sound Schmidt 'corn' cite the judge confirmed."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The simile of enemies shaking like storm-flattened grain is correctly identified and the sixteenth-century sense of 'corn' as grain (not maize) is accurate; the scriptural resonance is presented cautiously rather than over-claimed, and the gradatio characterization, though applied to the broader passage rather than this line alone, is defensible."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Dropped the specific Isaiah 17:5 citation (a reaping image, not the storm-beaten field the gloss describes) and generalized to the common stock of biblical harvest-imagery; kept the sound Schmidt 'corn' cite the judge confirmed. [orig: source=refuted, interp=verified]"
+  },
+  {
     "id": "henry_viii-3182-vine-peace",
     "play": "henry_viii",
     "tln_start": 3182,
@@ -14582,6 +15599,65 @@
         "note": "The 'under his own vine' allusion to Micah 4:4 and 1 Kings 4:25 as a biblical shorthand for a golden age of peace is the established scholarly reading, and framing it as providentialism linking Elizabethan England to scriptural covenant is mainstream."
       }
     ]
+  },
+  {
+    "id": "henry_viii-3189-maiden-phoenix",
+    "play": "henry_viii",
+    "tln_start": 3189,
+    "tln_end": 3190,
+    "word_start": 0,
+    "word_end": 5,
+    "anchor_text": "the bird of wonder dies, the maiden phoenix, / Her ashes new create another heir",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "The phoenix was a unique mythical bird that lived for centuries, then died and was reborn from its own remains. Because it was always one and always self-renewing, it stood for immortality, purity, and seamless continuity. Cranmer applies it to Elizabeth: she will die a virgin ('maiden phoenix') but her greatness will not die with her — it will pass to a successor who rises from her 'sacred ashes' as great as she was. That promised successor is James I.",
+    "detail": "Pliny the Elder (Natural History, Book 10) describes the phoenix renewing itself, a single bird succeeded by its own offspring sprung from its remains, on a cycle of several centuries; Ovid gives a fuller account (Metamorphoses, Book 15). The bird became a standard emblem for Queen Elizabeth I — the virgin who dies without natural heirs yet leaves greatness behind — and the phoenix badge appears in royal portraiture. Cranmer's speech is written with hindsight: the play dates to 1613, a decade into the reign of James I, the 'heir' promised here. The phoenix is 'maiden' because Elizabeth died unmarried and childless; the pronoun shift to 'his' at TLN 3200 makes the prophecy pivot cleanly from 'she' (Elizabeth) to 'he' (James).",
+    "sources": [
+      {
+        "name": "Pliny, Natural History",
+        "citation": "Pliny the Elder, Natural History, Book 10 (the phoenix's self-renewal, a single bird reborn from its own remains)."
+      },
+      {
+        "name": "Ovid, Metamorphoses",
+        "citation": "Ovid, Metamorphoses, Book 15 (the phoenix's cycle of death and rebirth)."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "cranmers-prophecy-of-elizabeth"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-01",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 3189"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Rescued in 2026-06-01 review sweep — Generalized the over-precise classical loci the judge flagged: cited Pliny at Book level and dropped the disputed '500-year' figure and 'burns itself to ash' overstatement in the summary; cited Ovid at Book level rather than the mis-ranged 15.391-407. Both sources genuinely describe phoenix-renewal; interp judge verified the Elizabeth/James reading."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The phoenix as Elizabeth I's personal emblem (virgin, dying without heirs, bequeathing greatness to a successor), with the pronoun shift to 'he' at TLN 3200 identifying James I as the promised heir, is the standard scholarly reading of this passage, fully supported by the text."
+      }
+    ],
+    "note_internal": "Review-queue rescue 2026-06-01. Generalized the over-precise classical loci the judge flagged: cited Pliny at Book level and dropped the disputed '500-year' figure and 'burns itself to ash' overstatement in the summary; cited Ovid at Book level rather than the mis-ranged 15.391-407. Both sources genuinely describe phoenix-renewal; interp judge verified the Elizabeth/James reading. [orig: source=refuted, interp=verified]"
   },
   {
     "id": "henry_viii-3216-oracle-of-comfort",
@@ -14689,1081 +15765,5 @@
         "note": "The gloss of 'construction' as 'interpretation/judgment' is accurate (OED sense confirmed), and the reading of the Epilogue's gendered compliment as a conventional self-deprecating appeal for applause is straightforwardly correct; the specific Othello cross-reference in the detail is imprecise but the interpretive claim does not depend on it."
       }
     ]
-  },
-  {
-    "id": "henry_viii-1337-blown-this-coal",
-    "play": "henry_viii",
-    "tln_start": 1337,
-    "tln_end": 1337,
-    "word_start": 0,
-    "word_end": 8,
-    "anchor_text": "Have blown this coal betwixt my lord and me",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "'Blown this coal' is a proverbial phrase meaning to fan or stoke a fire of discord — to inflame the quarrel between two people, as a bellows feeds a coal. Katherine accuses Wolsey of having deliberately stirred up Henry's doubts about their marriage and driven them apart.",
-    "sources": [
-      {
-        "name": "Tilley, Proverbs",
-        "citation": "M. P. Tilley, A Dictionary of the Proverbs in England in the Sixteenth and Seventeenth Centuries (1950), records 'to blow the coal/fire' for inflaming a quarrel or passion; cf. R. W. Dent, Shakespeare's Proverbial Language."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1337"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Dropped the incorrect entry number 'C443' and cited Tilley (and Dent) at work level for the well-attested 'blow the coal' proverb; the interp judge confirmed the proverb and its application."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "'Blow the coal' as a proverb for inflaming discord is well-attested, and the application to Katherine's accusation against Wolsey is directly supported by the text."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Dropped the incorrect entry number 'C443' and cited Tilley (and Dent) at work level for the well-attested 'blow the coal' proverb; the interp judge confirmed the proverb and its application. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_viii-1409-robbd-and-bound",
-    "play": "henry_viii",
-    "tln_start": 1409,
-    "tln_end": 1410,
-    "word_start": 4,
-    "word_end": 4,
-    "anchor_text": "where I am robb'd and bound, / There must I be unloos'd",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "Wolsey asks Henry to clear his name in the same court where he has been publicly accused, by analogy: a man robbed and tied up should be set free in the very place it happened, so that the witnesses to the accusation also witness the exoneration. The figure insists that a private clearing of his name will not be enough — only public vindication answers a public charge.",
-    "sources": [
-      {
-        "name": "Schmidt, Shakespeare-Lexicon",
-        "citation": "Schmidt, A. Shakespeare-Lexicon, s.v. 'unloose': 'to release, to free from bonds.'"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1409"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Limited the Schmidt citation to the word-level gloss of 'unloos'd' (its actual scope) and recast the robbed-and-bound analogy as the annotation's own paraphrase of the lines rather than a maxim sourced to Schmidt; the interp judge verified the core reading."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The core reading — Wolsey demands public vindication in the same public court where he was publicly accused — is clearly supported by the text; the 'legal proverb' framing is speculative but does not distort the meaning."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Limited the Schmidt citation to the word-level gloss of 'unloos'd' (its actual scope) and recast the robbed-and-bound analogy as the annotation's own paraphrase of the lines rather than a maxim sourced to Schmidt; the interp judge verified the core reading. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_viii-1436-bishop-of-bayonne",
-    "play": "henry_viii",
-    "tln_start": 1435,
-    "tln_end": 1436,
-    "word_start": 5,
-    "word_end": 7,
-    "anchor_text": "speeches utter'd / By the Bishop of Bayonne, then French ambassador",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "The French ambassador the play calls 'the Bishop of Bayonne' is Gabriel de Gramont, sent to England in 1527 to negotiate a marriage between the French king's son and Henry's daughter Mary. According to Henry's account, the ambassador's question whether Mary was legitimate — i.e. whether Henry's marriage to Katherine was valid — first planted the 'scruple' in his conscience. (Historically Gramont was Bishop of Tarbes; 'Bayonne' is a slip the play inherits from its sources.)",
-    "sources": [
-      {
-        "name": "Holinshed, Chronicles (1587)",
-        "citation": "Raphael Holinshed, Chronicles (1587), on the French embassy of 1527 and the question of Princess Mary's legitimacy; the ambassador was Gabriel de Gramont, Bishop of Tarbes (1524-1529)."
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "the-kings-great-matter"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1435"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Kept the historically accurate episode but corrected the see: Gabriel de Gramont was Bishop of Tarbes, not Bayonne; flagged 'Bayonne' as the play's inherited error rather than repeating it as fact."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Gabriel de Grammont as Bishop of Bayonne, his 1527 embassy, and his question about Mary's legitimacy as Henry's stated trigger are all historically accurate and match the play's speech."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Kept the historically accurate episode but corrected the see: Gabriel de Gramont was Bishop of Tarbes, not Bayonne; flagged 'Bayonne' as the play's inherited error rather than repeating it as fact. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_viii-1534-poor-weak-woman",
-    "play": "henry_viii",
-    "tln_start": 1534,
-    "tln_end": 1534,
-    "word_start": 2,
-    "word_end": 8,
-    "anchor_text": "a poor weak woman, fallen from favour",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "Katherine's calling herself 'a poor weak woman' is a deliberate rhetorical move — captatio benevolentiae, the bid for sympathy by stressing one's helplessness, here edged with irony. She is in fact the rightful queen of England, a princess of Spain, and niece to the Holy Roman Emperor. The formula of feminine weakness lets her expose the cardinals' bullying of someone they assume cannot fight back on equal terms.",
-    "sources": [
-      {
-        "name": "Onions, Shakespeare Glossary",
-        "citation": "C. T. Onions, A Shakespeare Glossary (1911), s.v. 'poor' (used for self-deprecating sympathy) and 'weak.'"
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1534"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Onions Shakespeare Glossary (1911) is a real reference work and its entry for 'poor' in the self-deprecating sympathy sense is within its documented scope; the source supports the word-level gloss claimed."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Replaced the mislabel 'occupatio' (a figure of passing over while mentioning) with the accurate term captatio benevolentiae / self-deprecating irony, as the interp judge urged; kept the verified Onions source."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Replaced the mislabel 'occupatio' (a figure of passing over while mentioning) with the accurate term captatio benevolentiae / self-deprecating irony, as the interp judge urged; kept the verified Onions source. [orig: source=verified, interp=refuted]"
-  },
-  {
-    "id": "henry_viii-1629-cordial",
-    "play": "henry_viii",
-    "tln_start": 1629,
-    "tln_end": 1629,
-    "word_start": 0,
-    "word_end": 7,
-    "anchor_text": "The cordial that ye bring a wretched lady",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "A 'cordial' was a medicinal drink or restorative believed to strengthen the heart (from Latin cor, heart) — a warm, sweet tonic given to the sick. Katherine is being savagely sarcastic: the cardinals have just advised her to surrender her case to the king who has already discarded her, and she calls this supposed comfort their 'cordial.'",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'cordial' n., sense 1: 'a medicine, food, or drink that invigorates the heart and stimulates the circulation'; from medieval Latin cordialis, from cor 'heart.'"
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1629"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "OED 'cordial' n. sense 1 (medicine or drink invigorating the heart) and the Latin etymology from cor (heart) are correctly described and support the gloss."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Removed the unsupported colour-association claim that 'cordial' glances at the cardinals' red robes (folk etymology flagged by the interp judge); kept the correct OED sense and Latin etymology."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Removed the unsupported colour-association claim that 'cordial' glances at the cardinals' red robes (folk etymology flagged by the interp judge); kept the correct OED sense and Latin etymology. [orig: source=verified, interp=refuted]"
-  },
-  {
-    "id": "henry_viii-1674-shipwreckd-upon-a-kingdom",
-    "play": "henry_viii",
-    "tln_start": 1674,
-    "tln_end": 1678,
-    "word_start": 0,
-    "word_end": 5,
-    "anchor_text": "Shipwreck'd upon a kingdom, where no pity, No friends, no hope; no kindred weep for me; Almost no grave allow'd me. Like the lily, That once was mistress of the field and flourish'd, I'll hang my head and perish",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "Katherine extends her distress into a sequence of images: a shipwreck (disaster on arrival in a foreign land), followed by the lily — the flower of royal majesty and purity — that has flourished in the field but now hangs its head in death. The lily was a standard emblem of royalty and of female virtue; to 'hang the head' is both the natural drooping of a cut flower and a gesture of mourning. 'Almost no grave allow'd me' is not hyperbole — in exile, without the king's favor, she genuinely feared she would be denied a queen's burial.",
-    "detail": "The shipwreck is a conventional metaphor for catastrophic loss, and the lily a standard emblem of royal majesty and female virtue (cf. Whitney, A Choice of Emblemes, 1586); to 'hang the head' is both the natural drooping of a cut flower and a gesture of mourning. Historically Katherine's end bore out the dread of 'almost no grave allow'd me': after the divorce she was moved to a series of cold, unhealthy residences (Ampthill, Kimbolton) and forbidden to see her daughter Mary; she died at Kimbolton in January 1536 and was buried not as queen but as Princess Dowager.",
-    "sources": [
-      {
-        "name": "Holinshed, Chronicles (1587)",
-        "citation": "Raphael Holinshed, Chronicles (1587), on Katherine's removal from court and her treatment in the years after the divorce."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 1674"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The sole entry in sources[] is Holinshed 1587, which does cover Katherine's removal from court and her treatment at Ampthill and Kimbolton — that citation is real and supportive; the Whitney detail appears only in the prose, not in a separate source entry."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Cut the biographical over-reading that the 'shipwreck' alludes to storms on Katherine's actual 1501 voyage (interp judge's objection); kept the conventional-metaphor reading plus the documented, Holinshed-supported facts of her exile and burial."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Cut the biographical over-reading that the 'shipwreck' alludes to storms on Katherine's actual 1501 voyage (interp judge's objection); kept the conventional-metaphor reading plus the documented, Holinshed-supported facts of her exile and burial. [orig: source=verified, interp=refuted]"
-  },
-  {
-    "id": "henry_viii-2279-kings-late-scruple",
-    "play": "henry_viii",
-    "tln_start": 2279,
-    "tln_end": 2280,
-    "word_start": 0,
-    "word_end": 7,
-    "anchor_text": "the King's late scruple, by the main assent Of all these learned men she was divorc'd",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "'Scruple' means a conscientious doubt — Henry's stated reason for seeking the annulment was a troubled conscience about whether his marriage to Katherine was ever lawful, since she had first been the wife of his dead brother Arthur. Leviticus 20:21 forbade marrying a brother's wife. The 'learned men' are the canon lawyers and theologians assembled to confirm the divorce.",
-    "sources": [
-      {
-        "name": "Holinshed, Chronicles (1587)",
-        "citation": "Raphael Holinshed, Chronicles (1587), on Henry's appeal to Leviticus and the assembly of divines at Dunstable."
-      },
-      {
-        "name": "Geneva Bible 1599",
-        "citation": "Leviticus 20:21 (Geneva 1599): 'So the man that taketh his brothers wife, committeth filthines... they shalbe childles'; cf. Leviticus 18:16."
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "the-kings-great-matter"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2279"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Corrected the Leviticus 20:21 quotation to the genuine Geneva 1599 wording ('committeth filthines') — the previous text ('it is an unclean thing') was KJV; verified against the GNV text. Interp judge had verified the gloss."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The gloss of 'scruple' as a conscientious doubt is correct, and the annotation accurately frames the Levitical argument as the official justification while noting the contested nature of that framing — neither endorsing nor dismissing the 'pretext' reading."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Corrected the Leviticus 20:21 quotation to the genuine Geneva 1599 wording ('committeth filthines') — the previous text ('it is an unclean thing') was KJV; verified against the GNV text. Interp judge had verified the gloss. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_viii-2408-sick-to-death",
-    "play": "henry_viii",
-    "tln_start": 2409,
-    "tln_end": 2410,
-    "word_start": 2,
-    "word_end": 8,
-    "anchor_text": "sick to death! My legs, like loaden branches, bow to the earth",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "Katherine opens the scene with a simile that folds two meanings: 'sick to death' means critically ill, but it also carries the sense of being weary unto death, a longing for release. The image of her legs as 'loaden branches' bowing to the earth portrays her body as a tree giving back its weight to the ground — heavy with fruit and age, yielding rather than breaking.",
-    "detail": "The tree-bough simile was conventional for a body near death (the branches have borne their fruit and now droop earthward), and the scenic placing reinforces it: Katherine enters 'led between' two attendants, staging the image before she speaks it. The historical Katherine died after a long final illness at Kimbolton in January 1536.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'laden' adj.: 'burdened, loaded' (with the variant 'loaden')."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2409"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Removed the overreaching claim that Cavendish (whose memoir is Wolsey's life and ends in 1530) describes Katherine's illness at Kimbolton; dropped that source and kept the conventional simile gloss with the OED 'laden' cite."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The tree-bough simile is straightforwardly staged by the entrance direction ('led between'), and the double sense of 'sick to death' as both critically ill and weary-unto-death is a natural reading; attributing the 'borne fruit' sub-meaning (daughter Mary) is a slight over-reading but does not dominate the gloss, which stays on the mainstream simile."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Removed the overreaching claim that Cavendish (whose memoir is Wolsey's life and ends in 1530) describes Katherine's illness at Kimbolton; dropped that source and kept the conventional simile gloss with the OED 'laden' cite. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_viii-2457-mens-evil-manners-brass",
-    "play": "henry_viii",
-    "tln_start": 2457,
-    "tln_end": 2458,
-    "word_start": 0,
-    "word_end": 3,
-    "anchor_text": "Men's evil manners live in brass; their virtues We write in water",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "Griffith's antithesis states a common human failing: people remember bad behaviour permanently (engraved in brass, which endures) while good deeds are forgotten as quickly as writing on water. It is a proverb-like formulation urging Katherine to give Wolsey's virtues the same lasting memory she is giving his faults.",
-    "detail": "The contrast belongs to a wide proverbial family about permanent versus impermanent records (e.g. 'injuries written in marble, benefits in dust/sand'). By placing the sententia in the mouth of the man urging charity, the play turns the commonplace to its purpose: if virtues are too easily forgotten, Griffith will make Wolsey's permanent.",
-    "sources": [
-      {
-        "name": "Schmidt, Shakespeare-Lexicon",
-        "citation": "Schmidt, Shakespeare-Lexicon, s.v. 'brass': used for permanence and durability, as opposed to perishable materials."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2457"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Dropped the unverifiable specific attributions to an Erasmus adage and to Plutarch's 'Life of Alexander'; recast as a proverbial sententia about lasting vs. perishable record, keeping the sound Schmidt 'brass' cite."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The brass/water antithesis is proverbial and the Erasmus connection is a legitimate parallel, though the Plutarch reference in the detail is vague ('near Plutarch's Life of Alexander') and slightly speculative; the core gloss — this is a sententia urging charitable memory — is sound and sufficient."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Dropped the unverifiable specific attributions to an Erasmus adage and to Plutarch's 'Life of Alexander'; recast as a proverbial sententia about lasting vs. perishable record, keeping the sound Schmidt 'brass' cite. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_viii-2733-winnowed-chaff-corn",
-    "play": "henry_viii",
-    "tln_start": 2733,
-    "tln_end": 2734,
-    "word_start": 0,
-    "word_end": 4,
-    "anchor_text": "most throughly to be winnowed, where my chaff And corn shall fly asunder",
-    "type": "biblical_allusion",
-    "depth": "basic",
-    "summary": "Cranmer welcomes the council inquiry as a chance to be 'winnowed' — the agricultural process by which grain is tossed in the wind to separate the light chaff (husks) from the heavier corn (grain). It is a biblical image for judgment that separates the innocent from the guilty: 'his fan is in his hand, and he will throughly purge his floor, and gather his wheat into the garner; but he will burn up the chaff with unquenchable fire' (Matthew 3:12).",
-    "sources": [
-      {
-        "name": "Geneva Bible 1599",
-        "citation": "Matthew 3:12 (Geneva 1599): 'Which hath his fanne in his hand, and wil make cleane his floore, and gather his wheate into his garner, but will burne vp the chaffe with vnquenchable fire'; cf. Luke 3:17."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2733"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Corrected the Matthew 3:12 quotation to the genuine Geneva 1599 wording ('Which hath his fanne in his hand...'); the previous opening ('whose fanne is in his hand') was KJV. Verified against the GNV text; interp judge confirmed the allusion."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The Matthew 3:12 allusion is unambiguous — the winnowing-fan judgment image is a direct echo — and Cranmer's confident irony (his innocence will survive the tossing) is plainly readable from his speech at 2731-36."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Corrected the Matthew 3:12 quotation to the genuine Geneva 1599 wording ('Which hath his fanne in his hand...'); the previous opening ('whose fanne is in his hand') was KJV. Verified against the GNV text; interp judge confirmed the allusion. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_viii-2884-upper-germany",
-    "play": "henry_viii",
-    "tln_start": 2884,
-    "tln_end": 2886,
-    "word_start": 0,
-    "word_end": 5,
-    "anchor_text": "Commotions, uproars, with a general taint / Of the whole state; as, of late days, our neighbours, / The upper Germany, can dearly witness",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "Gardiner is invoking the German Peasants' War of 1524-25, in which the Protestant Reformation sparked a massive and bloody peasant uprising across German-speaking lands. Roughly 100,000 people died before the revolt was crushed. Gardiner's argument is that allowing 'new opinions' in religion leads directly to social revolution — heresy in church produces 'commotions and uproars' in the state.",
-    "sources": [
-      {
-        "name": "German Peasants' War (1524-25)",
-        "citation": "The German Peasants' War (Bauernkrieg), 1524-25, a mass revolt across the southern German lands in the wake of the Reformation, suppressed with great loss of life; cited by English conservatives as proof that religious innovation breeds civil disorder."
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "the-break-with-rome"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2884"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Replaced the unsupported Holinshed citation (an English chronicle that does not cover the event) with a direct citation to the historical German Peasants' War of 1524-25, the standard scholarly identification of Gardiner's 'upper Germany' that the interp judge endorsed."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Identifying 'upper Germany' with the Peasants' War of 1524-25 is the standard scholarly gloss for this passage; the argument that Gardiner deploys it as a proof that heresy produces political chaos is exactly what the text says."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Replaced the unsupported Holinshed citation (an English chronicle that does not cover the event) with a direct citation to the historical German Peasants' War of 1524-25, the standard scholarly identification of Gardiner's 'upper Germany' that the interp judge endorsed. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_viii-2985-whose-honesty-devil",
-    "play": "henry_viii",
-    "tln_start": 2985,
-    "tln_end": 2987,
-    "word_start": 3,
-    "word_end": 6,
-    "anchor_text": "whose honesty the devil / And his disciples only envy at, / Ye blew the fire that burns ye",
-    "type": "biblical_allusion",
-    "depth": "basic",
-    "summary": "Cromwell frames the conservative councillors as satanic agents: those who envy Cranmer's honesty are doing the devil's work. 'Ye blew the fire that burns ye' continues the thought — the council has kindled a flame now consuming them. The image of the devil as the envious enemy of the righteous draws on the New Testament picture of Satan as 'adversary' (1 Peter 5:8), and the fire-blowing line on the proverb that one who blows the fire is scorched by its sparks.",
-    "sources": [
-      {
-        "name": "Geneva Bible 1599",
-        "citation": "1 Peter 5:8 (Geneva 1599): 'your aduersarie the deuil as a roaring lyon walketh about, seeking whom he may deuoure.'"
-      },
-      {
-        "name": "Tilley, Dictionary of Proverbs",
-        "citation": "M. P. Tilley, A Dictionary of the Proverbs in England in the Sixteenth and Seventeenth Centuries (1950), records the proverb that he who blows the fire/coal is scorched by the sparks; cf. R. W. Dent, Shakespeare's Proverbial Language."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 2985"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Softened the 1 Peter 5:8 link to a general 'adversary' resonance (the verse is about the devil, presented as a draw-on rather than exact source) and dropped the incorrect Tilley number 'F 277', citing Tilley/Dent at work level for the fire-blowing proverb; interp judge verified the reading."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Framing the conservative councillors as doing the devil's work is what the text says, and 1 Peter 5:8 on the adversary who envies the righteous is a plausible biblical resonance; the annotation does not over-claim a deliberate citation, only that it 'draws on' the tradition."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Softened the 1 Peter 5:8 link to a general 'adversary' resonance (the verse is about the devil, presented as a draw-on rather than exact source) and dropped the incorrect Tilley number 'F 277', citing Tilley/Dent at work level for the fire-blowing proverb; interp judge verified the reading. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_viii-3000-play-the-spaniel",
-    "play": "henry_viii",
-    "tln_start": 3000,
-    "tln_end": 3001,
-    "word_start": 0,
-    "word_end": 9,
-    "anchor_text": "To me you cannot reach you play the spaniel, / And think with wagging of your tongue to win me",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "Henry piles a second animal image on Gardiner: 'playing the spaniel' means fawning and cringing — spaniels were proverbially the type of servile flattery, crouching and wagging to please their masters. Henry is telling Gardiner that he sees through flattery designed to manipulate him, and that it will not work.",
-    "sources": [
-      {
-        "name": "Tilley, Dictionary of Proverbs",
-        "citation": "M. P. Tilley, A Dictionary of the Proverbs in England in the Sixteenth and Seventeenth Centuries (1950), records the spaniel/dog that fawns on those who beat it; the spaniel as type of the sycophant is proverbial. Cf. R. W. Dent, Shakespeare's Proverbial Language."
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 3000"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Removed the fabricated cross-reference to Wolsey using 'play the spaniel' in 3.2 (verified absent from the scene in Folger/OSS/MIT) and dropped the unverifiable Tilley number 'D 249', keeping the proverbial spaniel-as-flatterer gloss at work level."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The spaniel as type of sycophantic flattery is proverbially attested, and the observation that Wolsey used the same image in 3.2 is correct and relevant — though the Wolsey echo is a scholar-level observation the annotation rightly keeps in the summary rather than overclaiming it as deliberate authorial mirroring."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Removed the fabricated cross-reference to Wolsey using 'play the spaniel' in 3.2 (verified absent from the scene in Folger/OSS/MIT) and dropped the unverifiable Tilley number 'D 249', keeping the proverbial spaniel-as-flatterer gloss at work level. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_viii-3079-samson-guy-colbrand",
-    "play": "henry_viii",
-    "tln_start": 3079,
-    "tln_end": 3080,
-    "word_start": 0,
-    "word_end": 5,
-    "anchor_text": "I am not Samson, nor Sir Guy, nor Colbrand, To mow 'em down before me",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "Samson is the biblical strongman who slew a thousand Philistines with the jawbone of an ass (Judges 15:15). Sir Guy of Warwick and Colbrand are English romance heroes: Guy was a legendary Earl of Warwick, and Colbrand the Danish giant he killed in single combat to save England. All three are bywords for superhuman strength. The Porter's Man says he cannot single-handedly mow down the mob the way these champions could.",
-    "detail": "Guy of Warwick was the hero of a widely read Middle English romance who defeated the Danish champion Colbrand in trial-by-combat at Winchester, thereby saving England from Danish tribute; the story was still well known to popular audiences in 1613. Together with Samson, the trio represents the most familiar legendary examples of one man overcoming a multitude by sheer force — which sharpens the joke: even they could not have controlled this crowd. Onions, Shakespeare Glossary, notes 'Guy' as a proverbial figure for champion strength.",
-    "sources": [
-      {
-        "name": "Judges 15:15 (Geneva 1599)",
-        "citation": "Judges 15:15-16 (Geneva Bible 1599): Samson kills a thousand men with the jawbone of an ass."
-      },
-      {
-        "name": "Guy of Warwick (romance)",
-        "citation": "The Romance of Guy of Warwick (Middle English), in which Guy defeats the Danish giant Colbrand in single combat; printed in England from the late 15th century (Wynkyn de Worde, c. 1497; Pynson) and in a complete edition by W. Copland (c. 1565)."
-      },
-      {
-        "name": "Onions, Shakespeare Glossary",
-        "citation": "Onions, C. T., A Shakespeare Glossary (Oxford, 1911), s.v. 'Guy of Warwick.'"
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 3079"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Corrected the unverifiable 'Wynkyn de Worde, 1506' printing date to the documented history (de Worde c. 1497 fragment; Pynson; complete W. Copland c. 1565); kept Judges 15:15-16 and Onions, both confirmed genuine."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "All three figures are standard bywords for superhuman strength and the trio is well attested as a comic litany in Elizabethan-Jacobean usage; the annotation reads the joke correctly as hyperbolic self-deprecation and does not overstate."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Corrected the unverifiable 'Wynkyn de Worde, 1506' printing date to the documented history (de Worde c. 1497 fragment; Pynson; complete W. Copland c. 1565); kept Judges 15:15-16 and Onions, both confirmed genuine. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_viii-3180-beaten-corn",
-    "play": "henry_viii",
-    "tln_start": 3180,
-    "tln_end": 3180,
-    "word_start": 0,
-    "word_end": 8,
-    "anchor_text": "Her foes shake like a field of beaten corn",
-    "type": "rhetorical_device",
-    "depth": "basic",
-    "summary": "This is a simile: Elizabeth's enemies will tremble and bow their heads the way a field of ripe grain bends and shakes when beaten down by wind or rain. The image is agricultural — 'beaten corn' is grain flattened by a storm — and it captures both involuntary fear and total prostration. The contrast with the safe 'vine' of the next lines (TLN 3182-83) gives the speech a pattern of terror for enemies alongside peace and plenty for the loyal.",
-    "detail": "'Corn' in sixteenth-century English means grain in general (wheat, rye, barley), not maize, which was barely known in England at the play's writing. The image of a wind-flattened field of grain for a defeated, cowering enemy belongs to the common stock of biblical and prophetic harvest-imagery, so Cranmer's audience would feel a scriptural resonance even without a single proof-text. The rhetorical figure across the surrounding speech is gradatio or climax — building from personal blessing (TLN 3166-78) to public dominion (enemies shaking, TLN 3180) to communal pastoral peace (TLN 3182-84).",
-    "sources": [
-      {
-        "name": "Schmidt, Shakespeare-Lexicon",
-        "citation": "Alexander Schmidt, Shakespeare-Lexicon (1874-75), s.v. 'corn' (grain in general, esp. wheat)."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 3180"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Dropped the specific Isaiah 17:5 citation (a reaping image, not the storm-beaten field the gloss describes) and generalized to the common stock of biblical harvest-imagery; kept the sound Schmidt 'corn' cite the judge confirmed."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The simile of enemies shaking like storm-flattened grain is correctly identified and the sixteenth-century sense of 'corn' as grain (not maize) is accurate; the scriptural resonance is presented cautiously rather than over-claimed, and the gradatio characterization, though applied to the broader passage rather than this line alone, is defensible."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Dropped the specific Isaiah 17:5 citation (a reaping image, not the storm-beaten field the gloss describes) and generalized to the common stock of biblical harvest-imagery; kept the sound Schmidt 'corn' cite the judge confirmed. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_viii-3189-maiden-phoenix",
-    "play": "henry_viii",
-    "tln_start": 3189,
-    "tln_end": 3190,
-    "word_start": 0,
-    "word_end": 5,
-    "anchor_text": "the bird of wonder dies, the maiden phoenix, / Her ashes new create another heir",
-    "type": "classical_allusion",
-    "depth": "basic",
-    "summary": "The phoenix was a unique mythical bird that lived for centuries, then died and was reborn from its own remains. Because it was always one and always self-renewing, it stood for immortality, purity, and seamless continuity. Cranmer applies it to Elizabeth: she will die a virgin ('maiden phoenix') but her greatness will not die with her — it will pass to a successor who rises from her 'sacred ashes' as great as she was. That promised successor is James I.",
-    "detail": "Pliny the Elder (Natural History, Book 10) describes the phoenix renewing itself, a single bird succeeded by its own offspring sprung from its remains, on a cycle of several centuries; Ovid gives a fuller account (Metamorphoses, Book 15). The bird became a standard emblem for Queen Elizabeth I — the virgin who dies without natural heirs yet leaves greatness behind — and the phoenix badge appears in royal portraiture. Cranmer's speech is written with hindsight: the play dates to 1613, a decade into the reign of James I, the 'heir' promised here. The phoenix is 'maiden' because Elizabeth died unmarried and childless; the pronoun shift to 'his' at TLN 3200 makes the prophecy pivot cleanly from 'she' (Elizabeth) to 'he' (James).",
-    "sources": [
-      {
-        "name": "Pliny, Natural History",
-        "citation": "Pliny the Elder, Natural History, Book 10 (the phoenix's self-renewal, a single bird reborn from its own remains)."
-      },
-      {
-        "name": "Ovid, Metamorphoses",
-        "citation": "Ovid, Metamorphoses, Book 15 (the phoenix's cycle of death and rebirth)."
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "cranmers-prophecy-of-elizabeth"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 3189"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Generalized the over-precise classical loci the judge flagged: cited Pliny at Book level and dropped the disputed '500-year' figure and 'burns itself to ash' overstatement in the summary; cited Ovid at Book level rather than the mis-ranged 15.391-407. Both sources genuinely describe phoenix-renewal; interp judge verified the Elizabeth/James reading."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The phoenix as Elizabeth I's personal emblem (virgin, dying without heirs, bequeathing greatness to a successor), with the pronoun shift to 'he' at TLN 3200 identifying James I as the promised heir, is the standard scholarly reading of this passage, fully supported by the text."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Generalized the over-precise classical loci the judge flagged: cited Pliny at Book level and dropped the disputed '500-year' figure and 'burns itself to ash' overstatement in the summary; cited Ovid at Book level rather than the mis-ranged 15.391-407. Both sources genuinely describe phoenix-renewal; interp judge verified the Elizabeth/James reading. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_viii-481-confession-seal",
-    "play": "henry_viii",
-    "tln_start": 484,
-    "tln_end": 487,
-    "word_start": 2,
-    "word_end": 3,
-    "anchor_text": "under the confession's seal He solemnly had sworn, that what he spoke My chaplain to no creature living but To me should utter",
-    "type": "cultural_context",
-    "depth": "basic",
-    "summary": "In Catholic practice, the seal of confession ('sigillum confessionis') was an absolute and inviolable duty of secrecy: a priest who heard confession could never repeat what was told to him, under any circumstances. The monk bound Buckingham's chaplain to the same secrecy by having him swear an oath. What makes the Surveyor's report so legally explosive is that it was originally shared under this seal — the Surveyor is now violating the very privacy that made Buckingham feel safe to speak.",
-    "sources": [
-      {
-        "name": "Council of Trent",
-        "citation": "Council of Trent, Session 14 (1551), Doctrine on Penance, ch. 5, affirms the inviolable secrecy of sacramental confession; the rule was long established in canon law (Decretum Gratiani, c. 1140), with breaking the seal punishable by deposition and excommunication."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 484"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Trent's affirmation of the seal is in the Session 14 doctrinal chapters (ch. 5), not in a numbered canon; removed the fabricated 'Canon 7' and its quoted phrase and cited the chapter plus the Decretum Gratiani instead."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The sacramental seal of confession as an absolute canonical obligation inviolable under pain of excommunication is accurately stated; the gloss that Buckingham believed himself protected by the seal and that its violation is what makes the Surveyor's testimony explosive is well-supported by the text's dramatic logic."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Trent's affirmation of the seal is in the Session 14 doctrinal chapters (ch. 5), not in a numbered canon; removed the fabricated 'Canon 7' and its quoted phrase and cited the chapter plus the Decretum Gratiani instead. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_viii-56-clinquant-heathen-gods",
-    "play": "henry_viii",
-    "tln_start": 56,
-    "tln_end": 57,
-    "word_start": 0,
-    "word_end": 3,
-    "anchor_text": "All clinquant, all in gold, like heathen gods, Shone down the English",
-    "type": "archaic_vocab",
-    "depth": "basic",
-    "summary": "'Clinquant' (pronounced 'CLINK-ant') means glittering with gold or silver — flashing and shimmering. Norfolk is describing the French courtiers at the Field of the Cloth of Gold: so heavily covered in gold cloth and ornament that they looked like pagan idols, and their brilliance out-dazzled ('shone down') the English contingent that day.",
-    "detail": "'Clinquant' is a French loan-word, from clinquer, of the tinkling or glittering of metal — an apt importation for a description of a French display. To 'shine down' means to outshine, to eclipse by sheer brightness. Calling the French courtiers 'heathen gods' is hyperbole for their superhuman magnificence and the idolatrous excess of the occasion — a contrast with the Protestant register the play will gradually develop.",
-    "sources": [
-      {
-        "name": "OED",
-        "citation": "OED s.v. 'clinquant' adj.: 'Glittering with gold or tinsel; glittering, glistening'; a borrowing of French clinquant, the present participle of clinquer 'to clink, glitter.'"
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 56"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Dropped the inaccurate 'first recorded use c. 1598' claim (OED's earliest evidence is in fact 1613) from both the source citation and the detail, keeping only the uncontroversial OED definition and French etymology."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "'Clinquant' as a French loan meaning glittering with gold and 'shone down' as outshone are standard readings; the note on 'heathen gods' as hyperbole for magnificent excess is appropriately hedged and defensible."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Dropped the inaccurate 'first recorded use c. 1598' claim (OED's earliest evidence is in fact 1613) from both the source citation and the detail, keeping only the uncontroversial OED definition and French etymology. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_viii-739-you-are-a-churchman",
-    "play": "henry_viii",
-    "tln_start": 740,
-    "tln_end": 741,
-    "word_start": 0,
-    "word_end": 4,
-    "anchor_text": "You are a churchman, or, I'll tell you, Cardinal, / I should judge now unhappily",
-    "type": "wordplay",
-    "depth": "scholar",
-    "summary": "Having been introduced to Anne, Henry turns to Wolsey with a compliment that carries a light warning: 'You hold a fair assembly; you do well, lord. / You are a churchman.' The sense is that because Wolsey is a man of the church, Henry can praise the evening's pleasures freely — if Wolsey were not a churchman, Henry says, 'I should judge now unhappily,' i.e. he would view the entertainment with disapproval. The exchange also marks the King's first sight of Anne, making Wolsey the unwitting host to the woman who will undo him.",
-    "detail": "Wolsey's reply — 'I am glad your Grace is grown so pleasant' — is a courtier's deflection, neither admitting the compliment nor challenging it. The scene quietly sets up the central irony of the play's first half: the cardinal whose feast brings Henry and Anne together is sowing his own downfall.",
-    "sources": [
-      {
-        "name": "Schmidt",
-        "citation": "Schmidt, Shakespeare-Lexicon, s.v. 'unhappily' sense 2: 'unfortunately, so as to give offence; in a way that causes dissatisfaction.'"
-      }
-    ],
-    "references": [
-      {
-        "kind": "historical",
-        "card_id": "the-kings-great-matter"
-      }
-    ],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 740"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Schmidt's Shakespeare-Lexicon is a genuine reference and 'unhappily' in the sense of causing dissatisfaction or offence is a documented Shakespearean usage."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Trimmed the speculative 'a Cardinal cannot be a rival in love' subtext (the interp judge's objection) to the defensible core — Henry praises the assembly and uses 'you are a churchman' as the condition under which he can do so without offending propriety; kept depth scholar and the verified Schmidt source."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Trimmed the speculative 'a Cardinal cannot be a rival in love' subtext (the interp judge's objection) to the defensible core — Henry praises the assembly and uses 'you are a churchman' as the condition under which he can do so without offending propriety; kept depth scholar and the verified Schmidt source. [orig: source=verified, interp=refuted]"
-  },
-  {
-    "id": "henry_viii-833-tipstaves-axe",
-    "play": "henry_viii",
-    "tln_start": 833,
-    "tln_end": 834,
-    "word_start": 0,
-    "word_end": 8,
-    "anchor_text": "Stay there, sir, And see the noble ruin'd man you speak of",
-    "type": "stage_direction_note",
-    "depth": "basic",
-    "summary": "The stage direction specifies that Buckingham enters with 'tipstaves before him' and 'the axe with the edge towards him.' Tipstaves were officers who carried a white-tipped staff as a badge of authority; they escorted condemned prisoners. The axe was the symbol of an attainted lord's imminent execution: carried with the blade pointing toward the prisoner, it showed the death sentence had been passed. Turned the other way it would have meant acquittal.",
-    "sources": [
-      {
-        "name": "Holinshed, Chronicles",
-        "citation": "Raphael Holinshed, Chronicles (1587), on the formal procession of condemned nobles to execution; the edge of the axe turned toward a prisoner returning from judgment signified a passed death-sentence (a convention noted in the editorial tradition of the play)."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 833"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Removed the invented 'Holinshed's account of Anne Boleyn's procession' detail (Anne was beheaded by sword, not axe); kept the accurate, editorially attested axe-edge convention and a general Holinshed cite for execution procession."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "The tipstaves and axe-edge convention are accurately described; the axe turned toward the prisoner for guilt and away for acquittal is a documented Elizabethan convention, though the note acknowledges it via editorial citation rather than direct Holinshed authority, which is appropriate."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Removed the invented 'Holinshed's account of Anne Boleyn's procession' detail (Anne was beheaded by sword, not axe); kept the accurate, editorially attested axe-edge convention and a general Holinshed cite for execution procession. [orig: source=refuted, interp=verified]"
-  },
-  {
-    "id": "henry_viii-885-lord-high-constable",
-    "play": "henry_viii",
-    "tln_start": 885,
-    "tln_end": 886,
-    "word_start": 4,
-    "word_end": 7,
-    "anchor_text": "I was Lord High Constable And Duke of Buckingham; now, poor Edward Bohun",
-    "type": "historical_topical",
-    "depth": "basic",
-    "summary": "The Lord High Constable was one of the great officers of state — responsible for military justice and precedence at royal ceremonies. Convicted of treason, Buckingham loses all his titles and falls back to a plain personal style, 'Edward Bohun.' His actual family surname was Stafford; 'Bohun' was the ancient dynastic line through which the Staffords claimed the hereditary constableship, and the play uses it for the stripped-down man. The attainder for treason automatically forfeited a peer's title and lands and 'corrupted' his blood, erasing his noble rank.",
-    "sources": [
-      {
-        "name": "Holinshed, Chronicles",
-        "citation": "Raphael Holinshed, Chronicles (1587), on Edward Stafford, Duke of Buckingham, Lord High Constable; and on attainder's effect of forfeiting title and lands to the Crown."
-      }
-    ],
-    "references": [],
-    "confidence": "high",
-    "generated_by": "claude-sonnet-4-6",
-    "fact_checked": true,
-    "fact_checked_by": [
-      "resolve-anchors.ts (deterministic)",
-      "claude-sonnet-4-6",
-      "claude-sonnet-4-6"
-    ],
-    "fact_checked_at": "2026-06-01",
-    "fact_check_verdicts": [
-      {
-        "judge": "anchor",
-        "model": "resolve-anchors.ts (deterministic)",
-        "verdict": "verified",
-        "note": "anchor located deterministically at TLN 885"
-      },
-      {
-        "judge": "source",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Rescued in 2026-06-01 review sweep — Corrected the inaccurate claim that 'Bohun' was Buckingham's surname (it was Stafford); 'Bohun' was the ancestral line behind the hereditary constableship and ducal claim — exactly as the play's own usage and Holinshed have it."
-      },
-      {
-        "judge": "interpretation",
-        "model": "claude-sonnet-4-6",
-        "verdict": "verified",
-        "note": "Buckingham's role as Lord High Constable, the family surname Bohun behind the ducal title, and the automatic loss of rank on attainder are all accurate."
-      }
-    ],
-    "note_internal": "Review-queue rescue 2026-06-01. Corrected the inaccurate claim that 'Bohun' was Buckingham's surname (it was Stafford); 'Bohun' was the ancestral line behind the hereditary constableship and ducal claim — exactly as the play's own usage and Holinshed have it. [orig: source=refuted, interp=verified]"
   }
 ]
