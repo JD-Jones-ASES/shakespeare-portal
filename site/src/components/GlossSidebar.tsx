@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import type { Annotation, ReferenceCard } from '../data/types.ts';
+import { tidyText } from '../data/glossary.ts';
 
 interface Props {
   annotations: Annotation[];
@@ -80,7 +81,7 @@ export default function GlossSidebar({ annotations, cards = [] }: Props) {
               <span className="gloss-tln">TLN {a.tln_start}</span>
               <span className="gloss-type">{a.type.replace(/_/g, ' ')}</span>
             </header>
-            <p className="anchor">&ldquo;{a.anchor_text}&rdquo;</p>
+            <p className="anchor">&ldquo;{tidyText(a.anchor_text)}&rdquo;</p>
             <p className="summary">{a.summary}</p>
             {depth === 'study' && a.detail && <p className="detail">{a.detail}</p>}
             {(a.references ?? []).map((ref) => {

@@ -31,6 +31,18 @@ export interface GlossSeg {
   d?: string;
 }
 
+/** Light typographic normalization for the vendored Gutenberg texts, applied at render
+ *  time so the reader stays clean across every play without a data migration:
+ *   - a run of 2+ hyphens (Gutenberg's dash convention) becomes a real em-dash;
+ *   - a comma/semicolon/colon glued directly to the next WORD gets a space
+ *     ("Henceforward,do" -> "Henceforward, do"). A following DIGIT is left alone, so
+ *     "1,000" is untouched, and single hyphens ("to-day", "wind-swift") are untouched. */
+export function tidyText(s: string): string {
+  return s
+    .replace(/-{2,}/g, '—')
+    .replace(/([,;:])(?=[A-Za-z])/gu, '$1 ');
+}
+
 /** Split a line of verse into text + glossable segments (longest-match; multi-word phrases first). */
 export function glossarize(text: string, g: GlossLookup): GlossSeg[] {
   if (!text) return [{ t: 'text', v: text }];

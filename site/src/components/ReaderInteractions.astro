@@ -34,14 +34,19 @@
       return;
     }
 
-    // Clicking anywhere on an annotated line focuses its first note.
+    // Clicking anywhere on an annotated line focuses its first VISIBLE note. In Read mode a
+    // line whose only note is scholar/bawdy has its marker hidden (display:none, so
+    // offsetParent is null) — treat it as unannotated rather than focus a hidden note.
     const line = target.closest('.play-line[data-has-annotation="true"]');
     if (line) {
-      clearFocus();
-      line.classList.add('line-focused');
-      const firstMarker = line.querySelector('.ann-marker');
-      const id = firstMarker?.getAttribute('data-annotation-id');
-      if (id) flashNote(id);
+      const firstMarker = Array.from(line.querySelectorAll('.ann-marker'))
+        .find((m) => (m as HTMLElement).offsetParent !== null);
+      if (firstMarker) {
+        clearFocus();
+        line.classList.add('line-focused');
+        const id = firstMarker.getAttribute('data-annotation-id');
+        if (id) flashNote(id);
+      }
     }
   });
 

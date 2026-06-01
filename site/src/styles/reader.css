@@ -54,7 +54,12 @@
 }
 .scene-text .line-number { color: var(--color-muted); font-size: 0.72rem; font-family: var(--font-sans); text-align: right; user-select: none; padding-top: 0.3em; }
 .scene-text .line-text { white-space: pre-wrap; padding-left: 0.6rem; }
-.scene-text .play-line[data-has-annotation="true"] .line-text { border-bottom: 1px dotted color-mix(in srgb, var(--color-accent) 45%, var(--color-rule)); }
+/* Underline annotated lines, but only for notes visible at the current depth: Read
+   underlines lines with a basic note (data-ann-basic); Study underlines any annotated
+   line; Off, none. No data-depth yet = the initial 'read' before the toggle hydrates. */
+body[data-depth="study"] .scene-text .play-line[data-has-annotation="true"] .line-text,
+body[data-depth="read"] .scene-text .play-line[data-ann-basic="true"] .line-text,
+body:not([data-depth]) .scene-text .play-line[data-ann-basic="true"] .line-text { border-bottom: 1px dotted color-mix(in srgb, var(--color-accent) 45%, var(--color-rule)); }
 .scene-text .stage-direction {
   font-style: italic;
   color: var(--color-muted);
@@ -136,7 +141,7 @@ body[data-depth="read"] .scene-text .ann-marker[data-anntype="bawdy_pun"],
 body[data-depth="read"] .scene-text .ann-marker[data-anntype="textual_variant"],
 body[data-depth="read"] .scene-text .ann-marker[data-anndepth="scholar"] { display: none; }
 body[data-depth="off"] .scene-text .annotation-markers { display: none; }
-body[data-depth="off"] .scene-text .play-line[data-has-annotation="true"] .line-text { border-bottom: none; }
+/* (Off needs no underline-removal rule: it matches none of the depth-scoped rules above.) */
 
 /* Reference card shown collapsed as a chip in Read mode. */
 .gloss-item .ref-chip { display: inline-block; font-size: 0.75rem; margin: 0.35rem 0.35rem 0 0; padding: 0.12rem 0.45rem; border: 1px solid var(--color-rule); border-radius: 0.25rem; color: var(--color-muted); }

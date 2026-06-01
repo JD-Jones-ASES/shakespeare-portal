@@ -137,7 +137,7 @@ export function annotationsForScene(
   if (!bundle?.text) return [];
   const scene = bundle.text.acts.find((a) => a.number === actNumber)?.scenes.find((s) => s.number === sceneNumber);
   if (!scene?.tln_start || !scene.tln_end) return [];
-  return bundle.annotations.filter(
-    (a) => a.tln_start >= scene.tln_start! && a.tln_start <= scene.tln_end!,
-  );
+  return bundle.annotations
+    .filter((a) => a.tln_start >= scene.tln_start! && a.tln_start <= scene.tln_end!)
+    .sort((a, b) => a.tln_start - b.tln_start || (a.word_start ?? 0) - (b.word_start ?? 0));
 }
