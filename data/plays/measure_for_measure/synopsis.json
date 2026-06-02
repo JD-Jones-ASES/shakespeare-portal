@@ -1,0 +1,54 @@
+{
+  "play": "Measure for Measure",
+  "overview": "Duke Vincentio of Vienna, troubled that he has let the city's strict morality laws fall asleep, hands his power to the austere deputy Angelo and pretends to leave on a journey — but stays behind, disguised as a friar, to watch how Angelo rules. Angelo at once revives the dead law against sex outside marriage and condemns young Claudio to death for getting his betrothed, Juliet, with child. Claudio's sister Isabella, a novice nun, comes to plead for his life; Angelo, inflamed, offers to spare Claudio only if she will yield her virginity to him. She refuses — 'more than our brother is our chastity' — and the disguised Duke intervenes, arranging a 'bed-trick' in which Angelo's own jilted betrothed, Mariana, takes Isabella's place, and a substitute head to fake Claudio's execution. Returning in his own person, the Duke stages a public reckoning that exposes Angelo, pardons the condemned, and ends in a flurry of marriages — including a proposal to Isabella she is given no chance to answer. A 'problem play' that probes justice, mercy, hypocrisy, and the uses of power.",
+  "acts": [
+    {
+      "number": 1,
+      "summary": "The Duke deputizes Angelo and goes into hiding as a friar; Angelo's revived law condemns Claudio; Isabella is fetched to plead.",
+      "scenes": [
+        { "number": 1, "summary": "In his palace the Duke unexpectedly delegates his full authority to the strict deputy Angelo, with the older Escalus as second, and departs in apparent haste — keeping his true plan secret.", "themes": ["power", "delegation", "political_legitimacy"] },
+        { "number": 2, "summary": "On a street, Lucio and two gentlemen trade bawdy jokes about disease and war; Mistress Overdone brings word that Claudio is arrested for getting Juliet with child, and Pompey reports Angelo's proclamation to pull down the suburb brothels.", "themes": ["sexuality", "law", "the_brothel"] },
+        { "number": 3, "summary": "Claudio is paraded to prison by the Provost. He explains that he and Juliet are betrothed and lack only the public ceremony, and sends Lucio to fetch his sister Isabella from the nunnery to plead for him.", "themes": ["law", "marriage", "justice"] },
+        { "number": 4, "summary": "At a monastery the Duke confides his real intent to Friar Thomas: he will stay disguised as a friar to observe Angelo enforce the laws he himself let sleep, and to test the deputy's famously cold virtue.", "themes": ["disguise", "surveillance", "hypocrisy"] },
+        { "number": 5, "summary": "At the nunnery, as Isabella learns the strict rule of the order from the nun Francisca, Lucio arrives with news of Claudio's sentence and urges her to go and move Angelo to mercy.", "themes": ["chastity", "religion", "mercy"] }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "Isabella pleads with Angelo, who finds himself lusting after her and demands her chastity for Claudio's life.",
+      "scenes": [
+        { "number": 1, "summary": "Angelo, deaf to Escalus's pleas for Claudio, condemns him to die tomorrow. The constable Elbow then drags in Pompey and Froth on a muddled charge, and the comic examination exposes how clumsy the law is at policing vice.", "themes": ["justice", "comedy", "law"] },
+        { "number": 2, "summary": "Coached by Lucio, Isabella begs Angelo for mercy, arguing that the great should imagine themselves judged as they judge others. Angelo, unmoved in words, is secretly seized by desire for her and bids her return tomorrow.", "themes": ["mercy", "temptation", "rhetoric"] },
+        { "number": 3, "summary": "In the prison the disguised Duke, as a friar, hears the penitence of the pregnant Juliet, who accepts her share of the offence as freely committed.", "themes": ["penitence", "religion", "shame"] },
+        { "number": 4, "summary": "Angelo, alone, confesses his lust, then makes his offer plain: Isabella may save Claudio only by surrendering her virginity. She refuses — 'more than our brother is our chastity' — and resolves to tell Claudio he must die rather than buy life with her shame.", "themes": ["sexual_coercion", "chastity", "hypocrisy"] }
+      ]
+    },
+    {
+      "number": 3,
+      "summary": "Claudio begs Isabella to yield; the disguised Duke proposes the bed-trick with Mariana.",
+      "scenes": [
+        { "number": 1, "summary": "The friar-Duke counsels Claudio to 'be absolute for death,' but the terror of dying ('Ay, but to die, and go we know not where') makes Claudio beg his sister to save him. Disgusted, Isabella rounds on him — until the disguised Duke proposes a plan: substitute Mariana, Angelo's forsaken betrothed, in her place.", "themes": ["death", "fear", "the_bed_trick"] },
+        { "number": 2, "summary": "Outside the prison the friar-Duke watches Pompey arrested and Lucio slander the absent Duke to his very face. Left alone, the Duke reflects in rhymed verse that he who wields 'the sword of heaven' must himself be holy.", "themes": ["slander", "justice", "providence"] }
+      ]
+    },
+    {
+      "number": 4,
+      "summary": "The bed-trick is set; Barnardine refuses execution; a pirate's head saves Claudio; the Duke prepares his return.",
+      "scenes": [
+        { "number": 1, "summary": "At the moated grange a boy sings 'Take, O take those lips away' to the forsaken Mariana. The disguised Duke brings Isabella, and the two women agree that Mariana will keep Isabella's midnight assignation with Angelo in the dark.", "themes": ["the_bed_trick", "music", "betrayal"] },
+        { "number": 2, "summary": "In the prison Pompey is pressed as the hangman Abhorson's assistant. Word comes that Angelo, breaking his bargain, has ordered Claudio executed early and his head sent as proof; the Duke awaits a reprieve that does not come.", "themes": ["execution", "betrayal", "comedy"] },
+        { "number": 3, "summary": "The drunken prisoner Barnardine flatly refuses to be executed. By luck a pirate, Ragozine, has just died of a fever; his head is sent to Angelo in Claudio's place. The Duke, testing her, tells Isabella that Claudio is already dead.", "themes": ["execution", "substitution", "mercy"] },
+        { "number": 4, "summary": "Angelo and Escalus, unsettled by letters announcing the Duke's sudden return and his odd command that petitions be made at the city gate, prepare to receive him. Angelo confesses his guilt and dread in soliloquy.", "themes": ["guilt", "fear", "power"] },
+        { "number": 5, "summary": "The Duke, now out of disguise, gives Friar Peter letters and arranges the staging of his public return.", "themes": ["staging", "justice"] },
+        { "number": 6, "summary": "Near the gate, Isabella and Mariana ready themselves to accuse Angelo publicly, on the friar's instruction to speak boldly however strange it seems.", "themes": ["accusation", "justice"] }
+      ]
+    },
+    {
+      "number": 5,
+      "summary": "The public reckoning: Angelo exposed, the Duke unmasked, and a rush of pardons and marriages.",
+      "scenes": [
+        { "number": 1, "summary": "At the city gate Isabella accuses Angelo, who denies all; Mariana reveals the bed-trick. The Duke withdraws and returns as the friar, then is unmasked. Angelo is condemned to marry Mariana and die, but is pardoned when Claudio is revealed alive; Lucio is sentenced to wed the woman he wronged; Barnardine is pardoned. The Duke proposes marriage to Isabella, who makes no reply.", "themes": ["justice", "mercy", "marriage", "judgement"] }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+[
+  {
+    "id": "portia",
+    "name": "Portia",
+    "aliases": ["PORTIA."],
+    "role": "protagonist",
+    "description": "A wealthy, witty heiress of Belmont, bound by her dead father's will to marry whichever suitor chooses the right one of three caskets (gold, silver, lead). She loves Bassanio and steers him to the lead casket. In the Venetian trial she appears disguised as a young male lawyer, 'Balthazar' (her disguise-name is spoken only in dialogue; her speeches keep the prefix PORTIA.), delivers the 'quality of mercy' plea, and out-argues Shylock to save Antonio. Resourceful and commanding, she also engineers the ring trick that closes the play.",
+    "relationships": [
+      { "other_id": "bassanio", "relation": "loves and weds" },
+      { "other_id": "nerissa", "relation": "served by her waiting-gentlewoman and confidante" },
+      { "other_id": "antonio", "relation": "saves in the trial, disguised as a lawyer" },
+      { "other_id": "shylock", "relation": "defeats in court" }
+    ],
+    "color": "#2f6aa0"
+  },
+  {
+    "id": "shylock",
+    "name": "Shylock",
+    "aliases": ["SHYLOCK."],
+    "role": "antagonist",
+    "description": "A Jewish moneylender of Venice, scorned and spat upon by the Christian merchants who borrow from him. He lends Antonio 3,000 ducats on a 'merry bond' forfeiting a pound of flesh, and when Antonio's ships fail he demands the penalty in earnest, partly in revenge for his daughter Jessica's elopement and his own long humiliation. His speeches ('Hath not a Jew eyes?') voice the play's deepest protest against bigotry even as the plot casts him as villain; in court he is defeated and forced to convert. The role sits at the centre of the play's troubling treatment of antisemitism.",
+    "relationships": [
+      { "other_id": "antonio", "relation": "lends to on the flesh-bond; his enemy" },
+      { "other_id": "jessica", "relation": "father of, who elopes and converts" },
+      { "other_id": "tubal", "relation": "fellow Jew and friend" },
+      { "other_id": "launcelot", "relation": "former master of the servant who deserts him" }
+    ],
+    "color": "#8a4a6a"
+  },
+  {
+    "id": "antonio",
+    "name": "Antonio",
+    "aliases": ["ANTONIO."],
+    "role": "deuteragonist",
+    "description": "The title 'merchant of Venice': a grave, generous, inexplicably melancholy trader who borrows from Shylock — whom he has openly despised — to fund his beloved friend Bassanio's courtship of Portia. When his merchant ships are reported lost, he forfeits the pound-of-flesh bond and faces death with resignation, until Portia's legal stratagem saves him. His intense devotion to Bassanio anchors the play's exploration of male friendship. (One of several Antonios in Shakespeare.)",
+    "relationships": [
+      { "other_id": "bassanio", "relation": "devoted friend who bankrolls his suit" },
+      { "other_id": "shylock", "relation": "borrows from and is bound to; his enemy" },
+      { "other_id": "portia", "relation": "saved by, in her lawyer's disguise" }
+    ],
+    "color": "#4f7a8a"
+  },
+  {
+    "id": "bassanio",
+    "name": "Bassanio",
+    "aliases": ["BASSANIO."],
+    "role": "major",
+    "description": "A young Venetian gentleman who has run through his fortune and borrows from his friend Antonio (who borrows in turn from Shylock) to court the rich heiress Portia. He chooses the humble lead casket and wins her, then must watch his suit endanger Antonio's life. He gives away Portia's ring to the disguised lawyer, triggering the play's closing comedy.",
+    "relationships": [
+      { "other_id": "portia", "relation": "courts and weds" },
+      { "other_id": "antonio", "relation": "dearest friend and creditor" },
+      { "other_id": "gratiano", "relation": "companion who weds Nerissa" }
+    ],
+    "color": "#2f8a5a"
+  },
+  {
+    "id": "gratiano",
+    "name": "Gratiano",
+    "aliases": ["GRATIANO."],
+    "role": "supporting",
+    "description": "A loud, free-talking friend of Bassanio and Antonio who accompanies Bassanio to Belmont and woos Portia's gentlewoman Nerissa, winning her by the same casket lottery. Coarse and merry, he is also the most openly abusive toward Shylock in the trial scene.",
+    "relationships": [
+      { "other_id": "bassanio", "relation": "companion of" },
+      { "other_id": "nerissa", "relation": "courts and weds" },
+      { "other_id": "shylock", "relation": "taunts in court" }
+    ],
+    "color": "#8a8a3a"
+  },
+  {
+    "id": "lorenzo",
+    "name": "Lorenzo",
+    "aliases": ["LORENZO."],
+    "role": "supporting",
+    "description": "A Christian friend of Bassanio and Antonio who is in love with Shylock's daughter Jessica and helps her elope, carrying off her father's ducats and jewels. He and Jessica take refuge at Belmont, where they share the play's famous moonlit 'In such a night' duet on music and love.",
+    "relationships": [
+      { "other_id": "jessica", "relation": "loves and elopes with" },
+      { "other_id": "bassanio", "relation": "friend of" }
+    ],
+    "color": "#5a7a4a"
+  },
+  {
+    "id": "jessica",
+    "name": "Jessica",
+    "aliases": ["JESSICA."],
+    "role": "supporting",
+    "description": "Shylock's daughter, who calls her father's house 'hell,' disguises herself as a boy to elope with the Christian Lorenzo, takes her father's money and her dead mother's ring, and converts to Christianity. Her flight is the personal wound that hardens Shylock toward his bond. Her own happiness at Belmont is shaded with unease.",
+    "relationships": [
+      { "other_id": "shylock", "relation": "daughter of, who flees him" },
+      { "other_id": "lorenzo", "relation": "elopes with and weds" },
+      { "other_id": "launcelot", "relation": "befriended by her father's former servant" }
+    ],
+    "color": "#b0567a"
+  },
+  {
+    "id": "nerissa",
+    "name": "Nerissa",
+    "aliases": ["NERISSA."],
+    "role": "supporting",
+    "description": "Portia's sharp-tongued waiting-gentlewoman and confidante, who marries Gratiano and accompanies Portia to the trial disguised as a lawyer's clerk (her disguise is named only in dialogue; her speeches keep the prefix NERISSA.). She shares the ring trick that teases the new husbands in Act 5.",
+    "relationships": [
+      { "other_id": "portia", "relation": "waiting-gentlewoman and confidante to" },
+      { "other_id": "gratiano", "relation": "weds" }
+    ],
+    "color": "#4f8a8a"
+  },
+  {
+    "id": "launcelot",
+    "name": "Launcelot Gobbo",
+    "aliases": ["LAUNCELOT.", "LAUNCELOT GOBBO.", "CLOWN."],
+    "role": "supporting",
+    "description": "The play's clown: Shylock's servant, who in a comic debate with his own conscience deserts 'the Jew' for the more generous Bassanio. Given to malapropisms and wordplay, he teases his blind father Old Gobbo, jokes with Jessica, and provides the low comedy between the Venice and Belmont plots.",
+    "relationships": [
+      { "other_id": "gobbo", "relation": "son of the blind Old Gobbo" },
+      { "other_id": "shylock", "relation": "leaves the service of" },
+      { "other_id": "bassanio", "relation": "takes service with" }
+    ],
+    "color": "#c8862a"
+  },
+  {
+    "id": "gobbo",
+    "name": "Old Gobbo",
+    "aliases": ["GOBBO."],
+    "role": "minor",
+    "description": "Launcelot's purblind old father, who comes to Venice with a present of doves to find his son and, failing to recognize him, is teased before being told the truth. He helps petition Bassanio to take Launcelot into service.",
+    "relationships": [
+      { "other_id": "launcelot", "relation": "father of" }
+    ],
+    "color": "#a0764a"
+  },
+  {
+    "id": "salarino",
+    "name": "Salarino",
+    "aliases": ["SALARINO."],
+    "role": "minor",
+    "description": "One of a pair of Venetian gentlemen, friends of Antonio, who open the play guessing at the cause of his sadness and report the news of the sea. He and Salanio are easily confused; this edition spells the two consistently SALARINO and SALANIO.",
+    "relationships": [
+      { "other_id": "antonio", "relation": "friend of" },
+      { "other_id": "salanio", "relation": "constant companion" }
+    ],
+    "color": "#7a6a9a"
+  },
+  {
+    "id": "salanio",
+    "name": "Salanio",
+    "aliases": ["SALANIO."],
+    "role": "minor",
+    "description": "The second of the two near-interchangeable Venetian gentlemen who attend Antonio, gossip about Shylock's reaction to Jessica's flight, and relay the rumours of Antonio's wrecked ships. (Often modernized 'Solanio'; this edition prints SALANIO.)",
+    "relationships": [
+      { "other_id": "antonio", "relation": "friend of" },
+      { "other_id": "salarino", "relation": "constant companion" }
+    ],
+    "color": "#6a7a9a"
+  },
+  {
+    "id": "morocco",
+    "name": "Prince of Morocco",
+    "aliases": ["PRINCE OF MOROCCO.", "PRINCE OF Morocco."],
+    "role": "minor",
+    "description": "A proud Moorish prince who comes to Belmont to try the caskets for Portia's hand, asking her not to mistrust him 'for my complexion.' He reasons his way to the gold casket — 'All that glisters is not gold' — and chooses wrong, departing rejected. His courtship frames the play's recurring talk of race and outward show.",
+    "relationships": [
+      { "other_id": "portia", "relation": "unsuccessful suitor of" }
+    ],
+    "color": "#9a5a3a"
+  },
+  {
+    "id": "arragon",
+    "name": "Prince of Arragon",
+    "aliases": ["ARRAGON."],
+    "role": "minor",
+    "description": "A vain Spanish prince, the second on-stage suitor for Portia, who scorns the 'fool multitude' and chooses the silver casket — 'Who chooseth me shall get as much as he deserves' — only to find the portrait of a blinking idiot. He leaves humiliated, clearing the way for Bassanio.",
+    "relationships": [
+      { "other_id": "portia", "relation": "unsuccessful suitor of" }
+    ],
+    "color": "#8a7a4a"
+  },
+  {
+    "id": "duke",
+    "name": "Duke of Venice",
+    "aliases": ["DUKE."],
+    "role": "minor",
+    "description": "The presiding authority at Antonio's trial, who pities the merchant and presses Shylock to show mercy, but holds that the law of Venice cannot be denied to a creditor. After Portia's verdict he tempers Shylock's punishment, sparing his life and commuting the forfeiture.",
+    "relationships": [
+      { "other_id": "antonio", "relation": "presides over the trial of" },
+      { "other_id": "shylock", "relation": "judges and sentences" }
+    ],
+    "color": "#8a3f3f"
+  },
+  {
+    "id": "tubal",
+    "name": "Tubal",
+    "aliases": ["TUBAL."],
+    "role": "minor",
+    "description": "A Jew of Venice and Shylock's friend, who reports on his hunt for the runaway Jessica — alternately tormenting and comforting Shylock with news of her spending and of Antonio's losses ('Thou stick'st a dagger in me... I shall never see my gold again').",
+    "relationships": [
+      { "other_id": "shylock", "relation": "friend and fellow Jew of" }
+    ],
+    "color": "#6a5a8a"
+  },
+  {
+    "id": "balthasar",
+    "name": "Balthasar",
+    "aliases": ["BALTHASAR."],
+    "role": "minor",
+    "description": "A servant of Portia, sent in haste from Belmont to her cousin Doctor Bellario in Padua to fetch the lawyer's notes and garments she will use in her disguise. (His name happens to be the one Portia later borrows for her own male disguise — a separate use, spoken only in dialogue.)",
+    "relationships": [
+      { "other_id": "portia", "relation": "servant of" }
+    ],
+    "color": "#7a7a6a"
+  },
+  {
+    "id": "clerk",
+    "name": "Clerk",
+    "aliases": ["CLERK."],
+    "role": "minor",
+    "description": "A clerk of the Venetian court who reads aloud the letter from the learned Doctor Bellario commending the young lawyer 'Balthazar' (the disguised Portia) to the Duke. A distinct functionary from Nerissa's lawyer's-clerk disguise.",
+    "relationships": [
+      { "other_id": "duke", "relation": "reads Bellario's letter to the court of" }
+    ],
+    "color": "#6a7a7a"
+  },
+  {
+    "id": "stephano",
+    "name": "Stephano",
+    "aliases": ["STEPHANO."],
+    "role": "minor",
+    "description": "A messenger of Portia's household who, in Act 5, brings word to Belmont that his mistress is on her way home, walking by the holy crosses 'and prays for happy wedlock hours.' (A different character from the drunken butler Stephano of The Tempest.)",
+    "relationships": [
+      { "other_id": "portia", "relation": "messenger of" }
+    ],
+    "color": "#5f8a7a"
+  },
+  {
+    "id": "leonardo",
+    "name": "Leonardo",
+    "aliases": ["LEONARDO."],
+    "role": "minor",
+    "description": "A servant of Bassanio, sent to provision his master for the journey to Belmont.",
+    "relationships": [
+      { "other_id": "bassanio", "relation": "servant of" }
+    ],
+    "color": "#7a8a5a"
+  },
+  {
+    "id": "servant",
+    "name": "Servant",
+    "aliases": ["SERVANT."],
+    "role": "minor",
+    "description": "Unnamed serving-men of Belmont and Venice who announce arrivals and carry messages between the households.",
+    "color": "#7a7a7a"
+  },
+  {
+    "id": "musicians",
+    "name": "Musicians",
+    "aliases": ["SONG.", "SONG"],
+    "role": "ensemble",
+    "description": "The unnamed singer(s) of Portia's household who perform the song 'Tell me where is fancy bred' (3.2) while Bassanio deliberates over the caskets — a song whose rhymes (bred / head / nourished) are sometimes thought to hint 'lead' to him.",
+    "color": "#80807a"
+  }
+]

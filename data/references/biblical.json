@@ -186,6 +186,41 @@
       "related_plays": [
         "comedy_of_errors"
       ]
+    },
+    {
+      "id": "jacob-and-laban",
+      "kind": "biblical",
+      "title": "Jacob and Laban's sheep",
+      "source": {
+        "name": "Geneva Bible 1599",
+        "citation": "Genesis 30:25-43 (Geneva 1599): serving his uncle Laban, Jacob takes as his wages the speckled and spotted of the flock, and increases them by setting peeled rods before the ewes as they breed; compare Genesis 29-31 for the wider story of Jacob and Laban."
+      },
+      "summary_basic": "In Genesis, Jacob agrees to work for his uncle Laban for wages of all the speckled and spotted lambs born to the flock, then makes the ewes bear more of them by a trick with peeled rods. Shylock retells this in 1.3 to argue that profit shrewdly won is a blessing from God: 'This was a way to thrive, and he was blest; / And thrift is blessing, if men steal it not.' Antonio rejects the analogy — Jacob's increase was 'sway'd and fashion'd by the hand of heaven,' not gained, like interest, by making money breed money.",
+      "detail_scholar": "The deal and the rods are at Genesis 30:25-43; the 'eanlings' (newborn lambs) that fall 'streak'd and pied' are Jacob's hire. Shylock uses Hebrew scripture to defend lending at interest (see usury-and-the-bond); Antonio counters that a venture under God's providence is not the same as usury. The exchange stages Jew and Christian each laying claim to the Old Testament — a recurring move in a play where both sides quote the same God against each other.",
+      "related_plays": [
+        "merchant_of_venice"
+      ],
+      "see_also": [
+        { "kind": "historical", "card_id": "usury-and-the-bond" }
+      ]
+    },
+    {
+      "id": "measure-for-measure-sermon-on-the-mount",
+      "kind": "biblical",
+      "title": "'With what measure ye mete': the title from the Sermon on the Mount",
+      "source": {
+        "name": "Geneva Bible 1599",
+        "citation": "Matthew 7:1-2 (Geneva 1599): 'Judge not, that ye be not judged. For with what judgement ye judge, ye shall be judged; and with what measure ye mete, it shall be measured to you again.' Compare the Duke's sentence 'measure still for measure' (5.1) and the law of retaliation, 'eye for eye,' at Exodus 21:23-25."
+      },
+      "summary_basic": "The play's title comes from Jesus's warning in the Sermon on the Mount: judge others and you invite the same judgement, for the standard ('measure') you apply will be applied to you. The Duke pronounces 'measure still for measure' (5.1) when he turns Angelo's own death-sentence back upon him. The play tests whether human justice can ever live up to the divine standard of mercy that Jesus urges — or whether, applied strictly, 'measure for measure' would damn every judge.",
+      "detail_scholar": "The same chapter (Matthew 7:3-5) tells the judge to 'first cast out the beam out of thine own eye' before the mote in his brother's — precisely Angelo's failing as he condemns Claudio for the very sin he then commits. 'Measure for measure' also echoes the lex talionis ('an eye for an eye') of Exodus and Leviticus, which the Sermon on the Mount revises toward mercy ('resist not evil'). Isabella's plea — 'How would you be / If He, which is the top of judgement, should / But judge you as you are?' (2.2) — is the Sermon's lesson turned on Angelo, and looks ahead to Portia's 'in the course of justice none of us / Should see salvation.'",
+      "related_plays": [
+        "measure_for_measure"
+      ],
+      "see_also": [
+        { "kind": "historical", "card_id": "the-quality-of-mercy" },
+        { "kind": "historical", "card_id": "chastity-and-the-double-standard" }
+      ]
     }
   ]
 }

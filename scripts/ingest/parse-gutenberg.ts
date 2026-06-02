@@ -174,6 +174,26 @@ const TITLE_SONG_CUE = slug === 'twelfth_night';
 // "SONG" stage direction out of a "[SONG]" bracket.
 const SONG_SD_SETS_SINGER = slug === 'two_gentlemen_of_verona';
 
+// The Merchant of Venice 3.2 cues its song "Tell me where is fancy bred" with a DESCRIPTIVE
+// bracketed stage direction — "[A Song, whilst BASSANIO comments on the caskets to himself.]" —
+// that names no singer and is followed by unlabeled lyrics, which would otherwise fold into the
+// prior speaker (Portia, who has just finished "Away then! I am lock'd in one of them"). Unlike
+// Two Gentlemen's bare "[SONG]", the cue is a sentence beginning "A Song", so SONG_SD_SETS_SINGER
+// does not match it. When gated, a stage direction beginning "A Song" routes the lyrics to the
+// play's `musicians` ensemble (aliased "SONG.", so nameToChar resolves "SONG" to it). GATED on the
+// slug; no other shipped play has a "[A Song...]" stage direction, so every other play re-ingests
+// byte-identical (confirmed by the original-vs-patched re-ingest hash diff).
+const SONG_SD_DESC_SETS_SINGER = slug === 'merchant_of_venice';
+
+// Measure for Measure 5.1 prints a unison cue as "ANGELO and ESCALUS." — the LEADING name is
+// undotted, so the dotted-parts unison test (which requires every part to end in '.') misses it,
+// and the 19-char line then trips the single-name length cap and is read as dialogue, injecting a
+// stray "ANGELO and ESCALUS." line into the Duke's speech. When gated, the "NAME and NAME." form
+// (both names known aliases) is accepted as a unison prefix and canonical() joins the two proper
+// names ("Angelo and Escalus"), exactly as the dotted-parts path does for "TITINIUS. MESSALA."
+// GATED on the slug; every other shipped play is byte-identical (confirmed by the re-ingest diff).
+const UNISON_AND_UNDOTTED = slug === 'measure_for_measure';
+
 // Roman numeral -> int via standard subtractive notation. Returns identical values to the
 // prior I..X lookup table for 1-10, so every play whose acts never exceed ten scenes
 // re-ingests byte-identical; it additionally handles XI+ (Antony and Cleopatra is the first
@@ -220,6 +240,12 @@ function looksLikeSpeaker(line: string): boolean {
   // such prefix is unaffected; JC's <=18-char unison labels already passed the length cap.
   const uni = line.match(/[^.\s]+\./g);
   if (uni && uni.length >= 2 && uni.every((p) => /^[A-Z][A-Z]+\.$/.test(p) && aliasToChar.has(p))) return true;
+  // Gated: an undotted-first unison cue ("ANGELO and ESCALUS.", Measure for Measure 5.1) — accept
+  // it before the length cap rejects the 19-char line. Both names must be known aliases.
+  if (UNISON_AND_UNDOTTED) {
+    const m = line.match(/^([A-Z][A-Za-z]+) and ([A-Z][A-Za-z]+)\.$/);
+    if (m && aliasToChar.has(m[1] + '.') && aliasToChar.has(m[2] + '.')) return true;
+  }
   if (line.length > 18) return false;
   const tokens = line.replace(/\.$/, '').split(/\s+/).filter(Boolean);
   if (tokens.length === 0 || tokens.length > 4) return false;
@@ -248,6 +274,14 @@ function canonical(label: string): { id?: string; name: string } {
   if (parts && parts.length >= 2 && parts.every((p) => /^[A-Z][A-Z]+\.$/.test(p) && aliasToChar.has(p))) {
     const names = parts.map((p) => aliasToChar.get(p)!.name);
     return { name: names.join(' and ') };
+  }
+  // Gated undotted-first unison ("ANGELO and ESCALUS.", Measure for Measure 5.1): join the two
+  // known proper names, mirroring the dotted-parts branch above.
+  if (UNISON_AND_UNDOTTED) {
+    const m = label.match(/^([A-Z][A-Za-z]+) and ([A-Z][A-Za-z]+)\.$/);
+    if (m && aliasToChar.has(m[1] + '.') && aliasToChar.has(m[2] + '.')) {
+      return { name: `${aliasToChar.get(m[1] + '.')!.name} and ${aliasToChar.get(m[2] + '.')!.name}` };
+    }
   }
   return { name: label.replace(/\.$/, '') };
 }
@@ -660,6 +694,12 @@ function emitSD(text: string) {
   // A bare "[SONG]" stage direction (Two Gentlemen of Verona 4.2) names no singer; route the
   // unlabeled serenade that follows to the `Musicians` ensemble. GATED (SONG_SD_SETS_SINGER).
   if (SONG_SD_SETS_SINGER && /^SONG\.?$/i.test(text.trim())) {
+    const s = nameToChar.get('SONG');
+    if (s) { curSpeaker = { id: s.id, name: s.name }; curSpeakerRaw = s.name; }
+  }
+  // A descriptive "[A Song, whilst ...]" stage direction (Merchant of Venice 3.2) names no singer;
+  // route the unlabeled lyrics that follow to the `musicians` ensemble. GATED (SONG_SD_DESC_SETS_SINGER).
+  if (SONG_SD_DESC_SETS_SINGER && /^a song\b/i.test(text.trim())) {
     const s = nameToChar.get('SONG');
     if (s) { curSpeaker = { id: s.id, name: s.name }; curSpeakerRaw = s.name; }
   }

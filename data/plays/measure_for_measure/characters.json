@@ -1,0 +1,288 @@
+[
+  {
+    "id": "duke",
+    "name": "Duke Vincentio",
+    "aliases": ["DUKE."],
+    "role": "protagonist",
+    "description": "Vincentio, Duke of Vienna, who hands his power to the strict deputy Angelo and pretends to leave the city, but stays disguised as a friar ('Friar Lodowick' — a name spoken only in dialogue; his speeches keep the prefix DUKE.) to watch how Angelo rules. As the secret friar he counsels the condemned, engineers the bed-trick and the substitute head, and returns to judge in person. A manipulative, providence-like stage-manager whose motives readers still debate.",
+    "relationships": [
+      { "other_id": "angelo", "relation": "deputizes and then tests" },
+      { "other_id": "isabella", "relation": "secretly aids, then proposes to" },
+      { "other_id": "escalus", "relation": "leaves as Angelo's secondary" },
+      { "other_id": "lucio", "relation": "slandered by, who does not know him" }
+    ],
+    "color": "#2f6aa0"
+  },
+  {
+    "id": "isabella",
+    "name": "Isabella",
+    "aliases": ["ISABELLA."],
+    "role": "deuteragonist",
+    "description": "Claudio's sister, a novice about to enter the strict order of Saint Clare, who pleads with Angelo for her condemned brother's life. When Angelo offers to spare Claudio only if she yields her virginity to him, she refuses — 'more than our brother is our chastity' — and exposes him. Eloquent, fierce in her purity, and morally severe, she is guided by the disguised Duke into the bed-trick that saves both her honour and her brother.",
+    "relationships": [
+      { "other_id": "claudio", "relation": "sister of, whom she pleads for" },
+      { "other_id": "angelo", "relation": "blackmailed by" },
+      { "other_id": "duke", "relation": "directed by the disguised friar" },
+      { "other_id": "mariana", "relation": "joins in the bed-trick to save" }
+    ],
+    "color": "#7a3f8a"
+  },
+  {
+    "id": "angelo",
+    "name": "Angelo",
+    "aliases": ["ANGELO."],
+    "role": "antagonist",
+    "description": "The Duke's deputy, a man of cold, 'precise' reputation who enforces the long-dormant law against fornication by condemning Claudio to death. Tempted by the novice Isabella, he abuses his authority to demand her chastity as the price of her brother's life, then orders the execution anyway — exposing the hypocrisy beneath his austerity. He is unmasked, made to marry the wronged Mariana, and pardoned.",
+    "relationships": [
+      { "other_id": "duke", "relation": "deputy to" },
+      { "other_id": "isabella", "relation": "blackmails for her chastity" },
+      { "other_id": "mariana", "relation": "jilted betrothed, whom he is forced to wed" },
+      { "other_id": "claudio", "relation": "condemns to death" }
+    ],
+    "color": "#8a4a2f"
+  },
+  {
+    "id": "claudio",
+    "name": "Claudio",
+    "aliases": ["CLAUDIO."],
+    "role": "major",
+    "description": "A young gentleman sentenced to death under the revived law for getting his betrothed, Juliet, with child before their marriage was made public. He accepts his fate nobly until, in the great prison scene, the fear of death overwhelms him ('Ay, but to die, and go we know not where') and he begs his sister Isabella to save him at the cost of her honour.",
+    "relationships": [
+      { "other_id": "isabella", "relation": "brother of" },
+      { "other_id": "juliet", "relation": "betrothed and lover of" },
+      { "other_id": "angelo", "relation": "condemned by" }
+    ],
+    "color": "#2f8a5a"
+  },
+  {
+    "id": "lucio",
+    "name": "Lucio",
+    "aliases": ["LUCIO."],
+    "role": "supporting",
+    "description": "A 'fantastic,' a foppish, free-living Viennese gallant and Claudio's friend, who fetches Isabella to plead for her brother and keeps up a stream of bawdy jest. Not knowing the friar is the Duke, he slanders the Duke to his face; at the end he is sentenced to marry the prostitute he got with child. A cynical, comic chorus to the play's darker action.",
+    "relationships": [
+      { "other_id": "claudio", "relation": "friend of" },
+      { "other_id": "isabella", "relation": "urges and coaches her pleading" },
+      { "other_id": "duke", "relation": "unknowingly slanders the disguised friar" }
+    ],
+    "color": "#c8862a"
+  },
+  {
+    "id": "escalus",
+    "name": "Escalus",
+    "aliases": ["ESCALUS."],
+    "role": "supporting",
+    "description": "An ancient, just lord, appointed as Angelo's secondary in governing Vienna. More merciful and humane than Angelo, he pleads (in vain) for Claudio, deals patiently with the comic constable Elbow, and stands by the order even as he doubts its severity.",
+    "relationships": [
+      { "other_id": "angelo", "relation": "secondary to" },
+      { "other_id": "duke", "relation": "trusted lord of" },
+      { "other_id": "elbow", "relation": "hears the constable's muddled cases" }
+    ],
+    "color": "#4f7a8a"
+  },
+  {
+    "id": "provost",
+    "name": "Provost",
+    "aliases": ["PROVOST."],
+    "role": "supporting",
+    "description": "The humane keeper of the Vienna prison, charged with Claudio's execution, who pities his prisoners and reluctantly serves Angelo's harsh orders. Won over by the disguised Duke, he hides Claudio and substitutes the head of a dead pirate to foil Angelo's command.",
+    "relationships": [
+      { "other_id": "claudio", "relation": "humane keeper of" },
+      { "other_id": "duke", "relation": "aids the disguised friar's scheme" },
+      { "other_id": "abhorson", "relation": "oversees the executioner" }
+    ],
+    "color": "#5a7a6a"
+  },
+  {
+    "id": "pompey",
+    "name": "Pompey",
+    "aliases": ["CLOWN."],
+    "role": "supporting",
+    "description": "Pompey Bum, a tapster and bawd who works for Mistress Overdone — the play's clown (his speeches are prefixed CLOWN.). Arrested for his trade, he reasons comically that the law cannot stop lechery, and in prison cheerfully turns assistant to the hangman Abhorson. His low wit keeps the brothel world and its absurdities before the audience.",
+    "relationships": [
+      { "other_id": "mistress_overdone", "relation": "bawd and tapster to" },
+      { "other_id": "abhorson", "relation": "made the hangman's assistant" },
+      { "other_id": "escalus", "relation": "examined and warned by" }
+    ],
+    "color": "#b06a2a"
+  },
+  {
+    "id": "elbow",
+    "name": "Elbow",
+    "aliases": ["ELBOW."],
+    "role": "supporting",
+    "description": "A simple, well-meaning constable who arrests Pompey and Froth and muddles every word he uses ('benefactors' for malefactors), a malapropping forerunner of Dogberry. His confused depositions before Angelo and Escalus turn the law's machinery into farce.",
+    "relationships": [
+      { "other_id": "pompey", "relation": "arrests" },
+      { "other_id": "froth", "relation": "charges" },
+      { "other_id": "escalus", "relation": "examined by" }
+    ],
+    "color": "#8a8a3a"
+  },
+  {
+    "id": "mariana",
+    "name": "Mariana",
+    "aliases": ["MARIANA."],
+    "role": "major",
+    "description": "A gentlewoman betrothed to Angelo, who cast her off when her dowry was lost at sea, leaving her to mourn at a moated grange. The disguised Duke recruits her for the 'bed-trick': she takes Isabella's place in the dark to keep the assignation with Angelo, fulfilling their old betrothal. At the end she begs for her husband's life and is granted it.",
+    "relationships": [
+      { "other_id": "angelo", "relation": "jilted betrothed of, then wife to" },
+      { "other_id": "isabella", "relation": "takes her place in the bed-trick" },
+      { "other_id": "duke", "relation": "recruited by the disguised friar" }
+    ],
+    "color": "#b0567a"
+  },
+  {
+    "id": "mistress_overdone",
+    "name": "Mistress Overdone",
+    "aliases": ["BAWD."],
+    "role": "minor",
+    "description": "A bawd who keeps a brothel in the Vienna suburbs (her speeches are prefixed BAWD.), nine times married and now threatened with ruin as Angelo orders the suburb stews pulled down. She first brings word of Claudio's arrest and is herself hauled off to prison.",
+    "relationships": [
+      { "other_id": "pompey", "relation": "employs as tapster and bawd" }
+    ],
+    "color": "#9a4a6a"
+  },
+  {
+    "id": "juliet",
+    "name": "Juliet",
+    "aliases": ["JULIET."],
+    "role": "minor",
+    "description": "Claudio's beloved, pregnant by him, whose visible condition is the evidence of the 'crime' for which he is condemned. She appears chiefly in the prison, where the disguised Duke hears her penitence. (A different character from the Juliet of Romeo and Juliet.)",
+    "relationships": [
+      { "other_id": "claudio", "relation": "betrothed and lover of" },
+      { "other_id": "duke", "relation": "confessed to by the disguised friar" }
+    ],
+    "color": "#c2569a"
+  },
+  {
+    "id": "barnardine",
+    "name": "Barnardine",
+    "aliases": ["BARNARDINE."],
+    "role": "minor",
+    "description": "A dissolute, long-imprisoned murderer who flatly refuses to be executed — 'I will not consent to die this day, that's certain' — too drunk and unrepentant to hang. His comic obstinacy forces the substitution of a dead pirate's head; at the close the Duke pardons even him.",
+    "relationships": [
+      { "other_id": "provost", "relation": "prisoner of" },
+      { "other_id": "duke", "relation": "pardoned by" }
+    ],
+    "color": "#7a6a4a"
+  },
+  {
+    "id": "abhorson",
+    "name": "Abhorson",
+    "aliases": ["ABHORSON."],
+    "role": "minor",
+    "description": "The prison's executioner, proud of his 'mystery' (trade), who grudgingly takes the bawd Pompey as his assistant. His grim trade-jokes darken the prison's gallows humour.",
+    "relationships": [
+      { "other_id": "provost", "relation": "executioner under" },
+      { "other_id": "pompey", "relation": "given as his assistant" }
+    ],
+    "color": "#6a5a5a"
+  },
+  {
+    "id": "froth",
+    "name": "Froth",
+    "aliases": ["FROTH."],
+    "role": "minor",
+    "description": "A foolish young gentleman of means, hauled before Escalus with Pompey on Elbow's muddled charge involving the constable's wife. Harmless and dim, he is warned off the taverns and dismissed.",
+    "relationships": [
+      { "other_id": "pompey", "relation": "tavern companion, charged alongside" },
+      { "other_id": "elbow", "relation": "accused by" }
+    ],
+    "color": "#8a7a5a"
+  },
+  {
+    "id": "friar_thomas",
+    "name": "Friar Thomas",
+    "aliases": ["FRIAR."],
+    "role": "minor",
+    "description": "The friar to whom, in 1.3, the Duke confides his real plan — to leave Angelo in charge and stay behind disguised as a friar — and from whom he borrows the habit and the cover of holy orders.",
+    "relationships": [
+      { "other_id": "duke", "relation": "lends the friar's habit and hears the plan of" }
+    ],
+    "color": "#5f7f6f"
+  },
+  {
+    "id": "friar_peter",
+    "name": "Friar Peter",
+    "aliases": ["PETER."],
+    "role": "minor",
+    "description": "A friar who assists the Duke in the public unmasking of the final scene, bringing Mariana forward and marshalling the witnesses against Angelo before the returned Duke.",
+    "relationships": [
+      { "other_id": "duke", "relation": "assists in the final reckoning" },
+      { "other_id": "mariana", "relation": "brings forward to accuse Angelo" }
+    ],
+    "color": "#6a7a5f"
+  },
+  {
+    "id": "justice",
+    "name": "Justice",
+    "aliases": ["JUSTICE."],
+    "role": "minor",
+    "description": "A justice who attends Escalus and, after the long comic examination of Elbow's case, briefly laments the severity of Claudio's sentence: 'Lord Angelo is severe.'",
+    "relationships": [
+      { "other_id": "escalus", "relation": "attends" }
+    ],
+    "color": "#7a7a6a"
+  },
+  {
+    "id": "first_gentleman",
+    "name": "First Gentleman",
+    "aliases": ["FIRST GENTLEMAN."],
+    "role": "minor",
+    "description": "One of two loose Viennese gentlemen who trade bawdy quips with Lucio in the street and at Mistress Overdone's, bantering about disease and the wars before the news of Claudio's arrest sobers them.",
+    "relationships": [
+      { "other_id": "lucio", "relation": "jests with" }
+    ],
+    "color": "#6a6a8a"
+  },
+  {
+    "id": "second_gentleman",
+    "name": "Second Gentleman",
+    "aliases": ["SECOND GENTLEMAN."],
+    "role": "minor",
+    "description": "The second of Lucio's bawdy companions, who matches him jest for jest in the play's opening street scene.",
+    "relationships": [
+      { "other_id": "lucio", "relation": "jests with" }
+    ],
+    "color": "#5a5a8a"
+  },
+  {
+    "id": "francisca",
+    "name": "Francisca",
+    "aliases": ["FRANCISCA."],
+    "role": "minor",
+    "description": "A nun of the sisterhood of Saint Clare who, in 1.4, explains to the novice Isabella the strict rule of the order just before Lucio arrives with news of Claudio.",
+    "relationships": [
+      { "other_id": "isabella", "relation": "instructs the novice" }
+    ],
+    "color": "#4f8a8a"
+  },
+  {
+    "id": "servant",
+    "name": "Servant",
+    "aliases": ["SERVANT."],
+    "role": "minor",
+    "description": "A servant of Angelo's who announces Isabella's suit to his master.",
+    "color": "#7a7a7a"
+  },
+  {
+    "id": "messenger",
+    "name": "Messenger",
+    "aliases": ["MESSENGER."],
+    "role": "minor",
+    "description": "A messenger who brings Angelo the Duke's letters near the close, including the order Angelo reads as Claudio's death warrant.",
+    "color": "#6a7a7a"
+  },
+  {
+    "id": "boy",
+    "name": "Boy",
+    "aliases": ["SONG", "SONG."],
+    "role": "minor",
+    "description": "A page-boy who opens Act 4 at Mariana's moated grange by singing 'Take, O take those lips away' — the song that voices Mariana's grief over the lover who forsook her.",
+    "relationships": [
+      { "other_id": "mariana", "relation": "sings to" }
+    ],
+    "color": "#80807a"
+  }
+]

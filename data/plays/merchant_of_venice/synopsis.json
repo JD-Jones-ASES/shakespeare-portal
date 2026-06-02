@@ -1,0 +1,56 @@
+{
+  "play": "The Merchant of Venice",
+  "overview": "In Venice, the merchant Antonio borrows three thousand ducats from the Jewish moneylender Shylock — whom he has long despised — to bankroll his friend Bassanio's courtship of the rich heiress Portia of Belmont. The loan is sealed with a 'merry bond': if Antonio defaults, Shylock may cut a pound of his flesh. Bassanio wins Portia by choosing rightly among three caskets, but word comes that Antonio's ships are lost. Embittered by his daughter Jessica's elopement with a Christian, Shylock demands his forfeit in earnest. Disguised as a young lawyer, Portia pleads for mercy and then, by the bond's own strict letter, denies Shylock a single drop of blood — saving Antonio and ruining Shylock, who is stripped of his wealth and forced to convert. A play that is at once a romantic comedy and a disturbing study of prejudice, mercy, and the letter of the law.",
+  "acts": [
+    {
+      "number": 1,
+      "summary": "Antonio borrows from Shylock to fund Bassanio's suit; the deadly bond is sealed.",
+      "scenes": [
+        { "number": 1, "summary": "On a Venice street the merchant Antonio confesses an inexplicable sadness. His friend Bassanio, deep in debt, asks to borrow money to court the wealthy heiress Portia of Belmont; Antonio, his own cash tied up in ships at sea, offers his credit instead.", "themes": ["friendship", "money", "melancholy"] },
+        { "number": 2, "summary": "At Belmont, Portia complains to Nerissa of the lottery in her dead father's will, which binds her to marry whoever chooses the right one of three caskets. They mock the parade of foreign suitors; Portia recalls Bassanio with favour.", "themes": ["marriage", "the_caskets", "wit"] },
+        { "number": 3, "summary": "Shylock agrees to lend three thousand ducats, recalling Antonio's insults and spittings. He proposes a 'merry bond': forfeit is a pound of Antonio's flesh. Citing Jacob and Laban, he defends thrift; Antonio, confident his ships will return, signs.", "themes": ["usury", "prejudice", "the_bond"] }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "Morocco and Arragon fail the casket test; Launcelot changes masters; Jessica elopes with Lorenzo.",
+      "scenes": [
+        { "number": 1, "summary": "The Prince of Morocco arrives at Belmont to try the caskets, asking Portia not to mistrust him 'for my complexion.'", "themes": ["the_caskets", "race", "marriage"] },
+        { "number": 2, "summary": "Shylock's servant Launcelot Gobbo debates his conscience and resolves to leave 'the Jew' for Bassanio. His blind father, Old Gobbo, fails to know him; together they petition Bassanio, who takes Launcelot into service.", "themes": ["comedy", "service", "conscience"] },
+        { "number": 3, "summary": "Jessica bids the departing Launcelot a fond farewell, ashamed of her father's house, and sends a secret letter to her beloved Lorenzo.", "themes": ["love", "family", "religion"] },
+        { "number": 4, "summary": "Lorenzo and friends plan a masque; Launcelot brings Jessica's letter, and Lorenzo arranges to carry her off that night, disguised as his torch-bearer.", "themes": ["elopement", "disguise"] },
+        { "number": 5, "summary": "Shylock, uneasy, goes to sup with the Christians, charging Jessica to lock up the house against the masque's noise.", "themes": ["family", "foreboding"] },
+        { "number": 6, "summary": "Jessica, disguised as a boy, escapes with Lorenzo, taking a casket of her father's ducats and jewels.", "themes": ["elopement", "disguise", "money"] },
+        { "number": 7, "summary": "At Belmont, Morocco reasons his way to the gold casket — and finds a skull and the motto 'All that glisters is not gold.' He departs rejected.", "themes": ["the_caskets", "appearance_vs_reality"] },
+        { "number": 8, "summary": "Salarino and Salanio report Shylock's raving at his stolen daughter and ducats, and the rumour that one of Antonio's ships has wrecked. They note Antonio's tender love for Bassanio.", "themes": ["money", "friendship", "rumour"] },
+        { "number": 9, "summary": "The Prince of Arragon chooses the silver casket — 'as much as he deserves' — and gets a fool's head. As he leaves, word comes of a young Venetian (Bassanio) newly arrived.", "themes": ["the_caskets", "pride"] }
+      ]
+    },
+    {
+      "number": 3,
+      "summary": "Shylock whets his knife; Bassanio wins Portia; Antonio's bond falls due.",
+      "scenes": [
+        { "number": 1, "summary": "Salarino and Salanio taunt Shylock, who answers with 'Hath not a Jew eyes?' and vows revenge. His friend Tubal alternately torments and comforts him with news of Jessica's spending and of Antonio's further losses.", "themes": ["prejudice", "revenge", "shared_humanity"] },
+        { "number": 2, "summary": "At Belmont, Bassanio rejects gold and silver as mere 'ornament' and chooses the lead casket, winning Portia, who gives him a ring. Gratiano pairs with Nerissa. A letter brings word that Antonio's ships are all lost and his bond forfeit; Bassanio hurries to Venice with Portia's gold.", "themes": ["the_caskets", "love", "the_ring"] },
+        { "number": 3, "summary": "Shylock, deaf to pleas, insists on his bond and has Antonio led to prison; Antonio resigns himself, longing only to see Bassanio before he dies.", "themes": ["the_bond", "law", "despair"] },
+        { "number": 4, "summary": "Entrusting Belmont to Lorenzo, Portia sends her servant Balthasar to her lawyer cousin Bellario in Padua, and tells Nerissa they will go to Venice disguised as men.", "themes": ["disguise", "resourcefulness"] },
+        { "number": 5, "summary": "Launcelot jokes with Jessica that her conversion only raises the price of pork; Lorenzo praises Portia. A comic interlude before the trial.", "themes": ["comedy", "religion", "conversion"] }
+      ]
+    },
+    {
+      "number": 4,
+      "summary": "The trial: mercy pleaded, the bond defeated by its own letter, Shylock undone.",
+      "scenes": [
+        { "number": 1, "summary": "In the Duke's court Shylock demands his pound of flesh. Disguised as the lawyer Balthazar, Portia urges that 'the quality of mercy is not strain'd'; when Shylock refuses, she grants the bond — but allows 'no jot of blood,' nor more or less than a pound. Shylock is undone, his goods seized and his conversion ordered. He begs to keep his ring.", "themes": ["mercy", "justice", "law", "prejudice"] },
+        { "number": 2, "summary": "Still disguised, Portia and Nerissa coax their own rings from Bassanio and Gratiano as a lawyer's fee — setting up the play's last test.", "themes": ["the_ring", "disguise", "marriage"] }
+      ]
+    },
+    {
+      "number": 5,
+      "summary": "Moonlit Belmont: the ring trick resolved and the lovers reconciled.",
+      "scenes": [
+        { "number": 1, "summary": "At Belmont, Lorenzo and Jessica trade a moonlit duet on music and famous lovers. The wives confront their husbands over the missing rings, reveal that they themselves were the lawyer and clerk, and pardon them. Antonio learns his ships have safely returned.", "themes": ["love", "music", "reconciliation", "the_ring"] }
+      ]
+    }
+  ]
+}
