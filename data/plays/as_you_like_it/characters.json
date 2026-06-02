@@ -1,0 +1,327 @@
+[
+  {
+    "id": "rosalind",
+    "name": "Rosalind",
+    "aliases": ["ROSALIND."],
+    "role": "protagonist",
+    "description": "Daughter of the banished Duke Senior and the play's quick-witted heart. Falling for Orlando at the wrestling, then banished herself by her uncle Frederick, she flees to the Forest of Arden disguised as a young man, 'Ganymede.' In that disguise she meets the lovesick Orlando and offers to 'cure' him of love by letting him woo 'Ganymede' as if he were Rosalind — directing her own courtship and anatomizing romantic folly even as she shares it. The prefix is always 'ROSALIND.'; 'Ganymede' is her assumed name, never a separate speaker.",
+    "relationships": [
+      { "other_id": "orlando", "relation": "loves; woos in disguise as 'Ganymede'" },
+      { "other_id": "celia", "relation": "cousin and inseparable friend" },
+      { "other_id": "duke_senior", "relation": "daughter of" },
+      { "other_id": "duke_frederick", "relation": "niece banished by" },
+      { "other_id": "phebe", "relation": "wooed by, as 'Ganymede'" }
+    ],
+    "color": "#b0396e"
+  },
+  {
+    "id": "orlando",
+    "name": "Orlando",
+    "aliases": ["ORLANDO."],
+    "role": "deuteragonist",
+    "description": "The youngest son of the late Sir Rowland de Bois, kept down and denied education by his eldest brother Oliver. He throws the Duke's champion wrestler Charles, falls in love with Rosalind at first sight, and flees Oliver's murderous envy into Arden, where he hangs love-verses on the trees and is schooled in love by 'Ganymede' (Rosalind disguised) without knowing it. Loyal and generous, he rescues the brother who wronged him from a lioness.",
+    "relationships": [
+      { "other_id": "rosalind", "relation": "loves; tutored in love by her as 'Ganymede'" },
+      { "other_id": "oliver", "relation": "youngest brother of" },
+      { "other_id": "adam", "relation": "served and saved by the old retainer" },
+      { "other_id": "duke_senior", "relation": "welcomed by, in Arden" }
+    ],
+    "color": "#2f6aa0"
+  },
+  {
+    "id": "celia",
+    "name": "Celia",
+    "aliases": ["CELIA."],
+    "role": "major",
+    "description": "Daughter of the usurping Duke Frederick and devoted cousin to Rosalind, whom she loves 'dearer than the natural bond of sisters.' When her father banishes Rosalind, Celia chooses exile with her, fleeing to Arden disguised as a shepherdess, 'Aliena' (the estranged one). There she falls in love with the reformed Oliver. The prefix is always 'CELIA.'; 'Aliena' is her disguise name, not a separate speaker.",
+    "relationships": [
+      { "other_id": "rosalind", "relation": "cousin and inseparable friend" },
+      { "other_id": "duke_frederick", "relation": "daughter of" },
+      { "other_id": "oliver", "relation": "falls in love with" }
+    ],
+    "color": "#c2569a"
+  },
+  {
+    "id": "touchstone",
+    "name": "Touchstone",
+    "aliases": ["TOUCHSTONE."],
+    "role": "supporting",
+    "description": "The court jester ('clown') who follows Rosalind and Celia into exile. A licensed fool whose name is the dark stone used to test gold, he tests the pastoral idyll against worldly wit — parodying the shepherds' love, courting the goatherd Audrey, and burlesquing courtly quarrels with his mock-treatise on 'the lie' (the Retort Courteous, the Quip Modest, and so on up to the Lie Direct). Jaques delights in him as 'a material fool.'",
+    "relationships": [
+      { "other_id": "audrey", "relation": "courts and marries" },
+      { "other_id": "rosalind", "relation": "follows into exile" },
+      { "other_id": "jaques", "relation": "admired as a fool by" },
+      { "other_id": "william", "relation": "rival for Audrey, whom he routs" }
+    ],
+    "color": "#c8862a"
+  },
+  {
+    "id": "jaques",
+    "name": "Jaques",
+    "aliases": ["JAQUES."],
+    "role": "major",
+    "description": "A melancholy lord attending the banished Duke Senior in Arden — the play's resident malcontent and detached observer, who 'can suck melancholy out of a song as a weasel sucks eggs.' He weeps over a wounded stag, longs for a fool's motley and 'liberty to blow on whom I please,' and delivers the play's most famous set-piece, the 'Seven Ages of Man' ('All the world's a stage'). At the close he alone refuses the weddings, withdrawing to the converted Duke Frederick. Distinct from Jaques de Bois, Orlando's brother.",
+    "relationships": [
+      { "other_id": "duke_senior", "relation": "melancholy attendant lord of" },
+      { "other_id": "touchstone", "relation": "delights in, as a fool" },
+      { "other_id": "orlando", "relation": "trades wit with" }
+    ],
+    "color": "#5a6a7a"
+  },
+  {
+    "id": "duke_senior",
+    "name": "Duke Senior",
+    "aliases": ["DUKE SENIOR."],
+    "role": "supporting",
+    "description": "The rightful duke, banished by his younger brother Frederick and living in the Forest of Arden with a band of loyal lords 'like the old Robin Hood of England.' Philosophical and content, he finds 'tongues in trees, books in the running brooks, sermons in stones, and good in everything,' and 'sweet are the uses of adversity.' Rosalind's father, he is restored to his dukedom when Frederick is converted. (Called 'Duke Senior' to distinguish him from the usurper.)",
+    "relationships": [
+      { "other_id": "rosalind", "relation": "father of" },
+      { "other_id": "duke_frederick", "relation": "elder brother, usurped by" },
+      { "other_id": "amiens", "relation": "attended by" },
+      { "other_id": "jaques", "relation": "attended by" }
+    ],
+    "color": "#3f7a4f"
+  },
+  {
+    "id": "duke_frederick",
+    "name": "Duke Frederick",
+    "aliases": ["DUKE FREDERICK."],
+    "role": "antagonist",
+    "description": "The usurping duke, who has banished his elder brother Duke Senior and seized his dominions, keeping only his niece Rosalind for his daughter Celia's sake. Tyrannical and quick to suspicion, he banishes Rosalind on a whim and threatens Oliver. Marching on Arden to destroy his brother, he meets 'an old religious man,' is suddenly converted, and restores the crown — the comedy's improbable reconciliation. (Called 'Duke Frederick' to distinguish him from his banished brother.)",
+    "relationships": [
+      { "other_id": "celia", "relation": "father of" },
+      { "other_id": "duke_senior", "relation": "younger brother who usurped him" },
+      { "other_id": "rosalind", "relation": "uncle who banishes" }
+    ],
+    "color": "#8a2f2f"
+  },
+  {
+    "id": "oliver",
+    "name": "Oliver",
+    "aliases": ["OLIVER."],
+    "role": "supporting",
+    "description": "The eldest de Bois brother, who inherits everything and cruelly denies his youngest brother Orlando the breeding due a gentleman, confessing 'I hope I shall see an end of him, for my soul... hates nothing more than he.' He plots Orlando's death, is dispossessed and sent by Frederick to hunt him, but is saved by Orlando from a snake and a lioness — a rescue that converts him. In Arden he falls in love with 'Aliena' (Celia) and is reconciled.",
+    "relationships": [
+      { "other_id": "orlando", "relation": "eldest brother who oppresses, then is reconciled to" },
+      { "other_id": "celia", "relation": "falls in love with, as 'Aliena'" },
+      { "other_id": "adam", "relation": "master of the old servant" }
+    ],
+    "color": "#a0562f"
+  },
+  {
+    "id": "adam",
+    "name": "Adam",
+    "aliases": ["ADAM."],
+    "role": "supporting",
+    "description": "An old servant of the de Bois family, faithful to Orlando, whom he warns of Oliver's plot and follows into exile, offering his life savings of 'five hundred crowns' and his service. Near death from hunger in the forest, he is carried in by Orlando to Duke Senior's table. The role is traditionally said to have been played by Shakespeare himself.",
+    "relationships": [
+      { "other_id": "orlando", "relation": "devoted old servant of" },
+      { "other_id": "oliver", "relation": "former servant of" }
+    ],
+    "color": "#6a6a8a"
+  },
+  {
+    "id": "amiens",
+    "name": "Amiens",
+    "aliases": ["AMIENS."],
+    "role": "supporting",
+    "description": "A lord attending Duke Senior in his banishment and the play's principal singer. He sings the forest songs 'Under the greenwood tree' and 'Blow, blow, thou winter wind, / Thou art not so unkind / As man's ingratitude' — lyrics that voice the play's pastoral debate between court and country, false friendship and the simple life.",
+    "relationships": [
+      { "other_id": "duke_senior", "relation": "attendant lord and singer to" },
+      { "other_id": "jaques", "relation": "sings at the prompting of" }
+    ],
+    "color": "#4f8a5a"
+  },
+  {
+    "id": "silvius",
+    "name": "Silvius",
+    "aliases": ["SILVIUS."],
+    "role": "supporting",
+    "description": "A young shepherd hopelessly in love with the disdainful shepherdess Phebe — the conventional Petrarchan lover of pastoral, sighing, abject, and faithful. His complaint that to love is to 'break from company abruptly' draws Rosalind into the shepherds' love-tangle. He wins Phebe only when her infatuation with 'Ganymede' collapses.",
+    "relationships": [
+      { "other_id": "phebe", "relation": "loves devotedly and finally marries" },
+      { "other_id": "corin", "relation": "fellow shepherd" }
+    ],
+    "color": "#4f8a8a"
+  },
+  {
+    "id": "phebe",
+    "name": "Phebe",
+    "aliases": ["PHEBE."],
+    "role": "supporting",
+    "description": "A scornful shepherdess who disdains the faithful Silvius — until she falls suddenly in love with 'Ganymede' (the disguised Rosalind), quoting Marlowe ('Who ever lov'd that lov'd not at first sight?'). Rosalind rebukes her pride and binds her to a promise: if she ever refuses 'Ganymede,' she must take Silvius. When 'Ganymede' proves a woman, Phebe keeps the bargain and weds Silvius.",
+    "relationships": [
+      { "other_id": "silvius", "relation": "disdains, then marries" },
+      { "other_id": "rosalind", "relation": "infatuated with, as 'Ganymede'" }
+    ],
+    "color": "#b0623f"
+  },
+  {
+    "id": "corin",
+    "name": "Corin",
+    "aliases": ["CORIN."],
+    "role": "supporting",
+    "description": "An old shepherd, plain, kind, and content — the genuine countryman against whom the courtly exiles measure the pastoral ideal. He helps Rosalind and Celia buy a cottage and flock, and in his debate with Touchstone over court versus country manners defends the honest life: 'I earn that I eat, get that I wear; owe no man hate, envy no man's happiness.'",
+    "relationships": [
+      { "other_id": "silvius", "relation": "fellow shepherd" },
+      { "other_id": "touchstone", "relation": "debates court vs. country with" }
+    ],
+    "color": "#7a6a4a"
+  },
+  {
+    "id": "audrey",
+    "name": "Audrey",
+    "aliases": ["AUDREY."],
+    "role": "minor",
+    "description": "A simple, unlettered goatherd whom Touchstone courts and marries in Arden, baffled by his wit ('I do not know what poetical is... is it honest in deed and word? is it a true thing?'). She abandons her country suitor William for the jester.",
+    "relationships": [
+      { "other_id": "touchstone", "relation": "courted and married by" },
+      { "other_id": "william", "relation": "abandoned suitor of" }
+    ],
+    "color": "#a07a3a"
+  },
+  {
+    "id": "william",
+    "name": "William",
+    "aliases": ["WILLIAM."],
+    "role": "minor",
+    "description": "A slow country fellow in love with Audrey, routed in a one-sided exchange by Touchstone, who orders him to 'abandon the society of this female' on pain of comic death. He yields with a docile 'God rest you merry, sir.'",
+    "relationships": [
+      { "other_id": "audrey", "relation": "country suitor of" },
+      { "other_id": "touchstone", "relation": "out-talked and dismissed by" }
+    ],
+    "color": "#8a8a4a"
+  },
+  {
+    "id": "charles",
+    "name": "Charles",
+    "aliases": ["CHARLES."],
+    "role": "minor",
+    "description": "Duke Frederick's professional wrestler, who has maimed three challengers before the match. Warned by Oliver (falsely) that Orlando means him harm, he intends to hurt him — but Orlando throws him before the court, the upset that sets the comedy in motion.",
+    "relationships": [
+      { "other_id": "orlando", "relation": "defeated in the wrestling by" },
+      { "other_id": "duke_frederick", "relation": "court wrestler to" }
+    ],
+    "color": "#7a4f3a"
+  },
+  {
+    "id": "le_beau",
+    "name": "Le Beau",
+    "aliases": ["LE BEAU."],
+    "role": "minor",
+    "description": "A mannered courtier in Frederick's court who relates news of the wrestling to Rosalind and Celia, and afterward — more decently than his affected style suggests — warns Orlando to leave, hinting at the Duke's growing malice.",
+    "relationships": [
+      { "other_id": "duke_frederick", "relation": "courtier to" },
+      { "other_id": "orlando", "relation": "privately warns" }
+    ],
+    "color": "#9a6a8a"
+  },
+  {
+    "id": "dennis",
+    "name": "Dennis",
+    "aliases": ["DENNIS."],
+    "role": "minor",
+    "description": "A servant of Oliver's, who announces the wrestler Charles at Oliver's door in the opening scene.",
+    "relationships": [
+      { "other_id": "oliver", "relation": "servant to" }
+    ],
+    "color": "#7a7a5a"
+  },
+  {
+    "id": "sir_oliver_martext",
+    "name": "Sir Oliver Martext",
+    "aliases": ["MARTEXT."],
+    "role": "minor",
+    "description": "A hedge-priest (a poorly qualified country vicar) whom Touchstone summons to marry him to Audrey under a bush — until Jaques talks him out of so irregular a wedding. His name ('mar-text') mocks ignorant clergy who garble the liturgy.",
+    "relationships": [
+      { "other_id": "touchstone", "relation": "engaged to perform the bush-wedding of" }
+    ],
+    "color": "#8a7a6a"
+  },
+  {
+    "id": "first_lord",
+    "name": "First Lord",
+    "aliases": ["FIRST LORD."],
+    "role": "minor",
+    "description": "A lord attending the banished Duke Senior, who reports how the melancholy Jaques moralized over the weeping wounded stag.",
+    "relationships": [
+      { "other_id": "duke_senior", "relation": "attendant lord of" }
+    ],
+    "color": "#6a7a6a"
+  },
+  {
+    "id": "second_lord",
+    "name": "Second Lord",
+    "aliases": ["SECOND LORD."],
+    "role": "minor",
+    "description": "A second lord attending Duke Senior, who with the First Lord reports on Jaques and later brings word of the encounter with Orlando.",
+    "relationships": [
+      { "other_id": "duke_senior", "relation": "attendant lord of" }
+    ],
+    "color": "#6a7a7a"
+  },
+  {
+    "id": "lord",
+    "name": "Lord",
+    "aliases": ["LORD."],
+    "role": "minor",
+    "description": "One of the lords turned foresters in Arden; in the hunting scene (4.2) he is the one who has killed the deer, set with the deer's horns on his head 'for a branch of victory' while the company sings the horn song.",
+    "relationships": [
+      { "other_id": "jaques", "relation": "hunts with" }
+    ],
+    "color": "#5a7a5a"
+  },
+  {
+    "id": "first_page",
+    "name": "First Page",
+    "aliases": ["FIRST PAGE."],
+    "role": "minor",
+    "description": "One of two pages of the banished Duke who, meeting Touchstone and Audrey, sing the spring song 'It was a lover and his lass' — both 'in a tune, like two gipsies on a horse.'",
+    "relationships": [
+      { "other_id": "second_page", "relation": "fellow page and singer" }
+    ],
+    "color": "#7a8a5a"
+  },
+  {
+    "id": "second_page",
+    "name": "Second Page",
+    "aliases": ["SECOND PAGE."],
+    "role": "minor",
+    "description": "The second of the Duke's two pages, who with the First Page sings 'It was a lover and his lass' to Touchstone in the forest.",
+    "relationships": [
+      { "other_id": "first_page", "relation": "fellow page and singer" }
+    ],
+    "color": "#7a8a6a"
+  },
+  {
+    "id": "hymen",
+    "name": "Hymen",
+    "aliases": ["HYMEN."],
+    "role": "minor",
+    "description": "The Roman god of marriage, who appears in the wedding masque of the final scene to present Rosalind in her own person and to join the four couples, singing 'Wedding is great Juno's crown.' The figure ('A person representing Hymen') is part of the staged masque rather than a literal deity — a theatrical flourish that resolves the disguise plot and sanctifies the marriages.",
+    "relationships": [
+      { "other_id": "rosalind", "relation": "presents, un-disguised, to her father and Orlando" }
+    ],
+    "color": "#b09a3a"
+  },
+  {
+    "id": "jaques_de_bois",
+    "name": "Jaques de Bois",
+    "aliases": ["JAQUES DE BOIS."],
+    "role": "minor",
+    "description": "The middle son of Sir Rowland de Bois, brother to Oliver and Orlando, who appears only in the final scene to bring news that Duke Frederick has been converted by 'an old religious man' and has restored the dukedom. Distinct from the melancholy lord Jaques.",
+    "relationships": [
+      { "other_id": "orlando", "relation": "brother of" },
+      { "other_id": "oliver", "relation": "brother of" }
+    ],
+    "color": "#4f6a8a"
+  },
+  {
+    "id": "song",
+    "name": "Song",
+    "aliases": ["SONG."],
+    "role": "ensemble",
+    "description": "Ensemble voice for the two songs printed under a bare 'SONG.' cue with no individual singer named: the foresters' horn song 'What shall he have that kill'd the deer' (4.2) and the pages' 'It was a lover and his lass' (5.3, sung by the two pages together).",
+    "color": "#80807a"
+  }
+]

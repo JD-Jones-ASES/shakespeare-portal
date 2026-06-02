@@ -1,0 +1,56 @@
+{
+  "play": "two_gentlemen_of_verona",
+  "overview": "One of Shakespeare's earliest comedies, The Two Gentlemen of Verona sets the claims of friendship against the claims of love. Two young gentlemen of Verona, the constant Valentine and the lovesick Proteus, are parted when Valentine leaves to better himself at the Duke of Milan's court while Proteus stays behind for love of Julia. Soon Proteus is sent after him — and at Milan everything unravels. Valentine has fallen for the Duke's daughter Silvia and plans to carry her off by a rope-ladder; but Proteus, the moment he sees Silvia, abandons Julia, betrays his friend's elopement to the Duke (getting Valentine banished), and sets about winning Silvia by slandering Valentine and serenading her himself. Meanwhile Julia, refusing to be left behind, disguises herself as a page-boy, 'Sebastian,' follows Proteus to Milan, and finds herself carrying his love-tokens to her own rival. Valentine, banished, is captured by a band of gentlemanly forest outlaws who make him their captain. The strands converge in the forest: Silvia, fleeing to find Valentine with the help of Sir Eglamour, is seized by the outlaws and then cornered by Proteus, who threatens to force her — until Valentine steps from hiding. Proteus repents in an instant; Valentine, in the play's most debated gesture, offers to surrender 'all that was mine in Silvia' to his friend; the disguised Julia faints and reveals herself; and the comedy closes with both couples reconciled and the outlaws pardoned. Slight, uneven, and sometimes troubling, the play is a workshop of devices — cross-dressing heroines, witty servants (Launce and his dog Crab), love-letters and disguises — that Shakespeare would perfect in the later comedies.",
+  "acts": [
+    {
+      "number": 1,
+      "summary": "In Verona, the two friends part: Valentine sets off to see the world at the Duke of Milan's court, teasing the homebound, lovesick Proteus. Julia, courted by Proteus, coyly tears up and then pieces back together his love-letter. Proteus's father Antonio decides to send his idle son to Milan too — just as Proteus has won a letter back from Julia.",
+      "scenes": [
+        { "number": 1, "summary": "Valentine leaves for Milan, mocking his friend Proteus for staying behind 'to be in love.' Proteus's servant Speed and Valentine banter about a letter Speed carried to Julia, for which he got nothing.", "themes": ["friendship", "love", "travel"] },
+        { "number": 2, "summary": "Julia asks her waiting-woman Lucetta which of her suitors to favour; when Lucetta delivers Proteus's letter, Julia tears it up in feigned disdain, then gathers and kisses the pieces, reading the lovers' names.", "themes": ["love", "courtship", "coyness"] },
+        { "number": 3, "summary": "On Panthino's advice, Antonio resolves to send Proteus to the Duke's court at Milan to be schooled in the world. Proteus, who has just received a loving letter from Julia, must hide his dismay and obey.", "themes": ["fathers_and_children", "duty", "love"] }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "At Milan, Valentine has himself fallen in love — with the Duke's daughter Silvia, who teasingly makes him write a love-letter to a 'friend' that is really for himself. Proteus and Julia exchange rings and vows before he leaves; Launce makes his farewell to his unfeeling dog Crab. But the moment Proteus reaches Milan and sees Silvia, he resolves to betray friend and love alike, while Julia plans to follow him disguised as a boy.",
+      "scenes": [
+        { "number": 1, "summary": "Speed teases the now-lovesick Valentine, who fails to see that Silvia, by having him pen a love-letter to an unnamed friend, has cleverly made him write to herself.", "themes": ["love", "wit", "courtship"] },
+        { "number": 2, "summary": "Proteus and Julia exchange rings and vows of constancy as he prepares to leave Verona for Milan.", "themes": ["love", "vows", "constancy"] },
+        { "number": 3, "summary": "Launce, with his dog Crab, delivers his great comic monologue on leaving home: he stages the tearful family farewell using his shoes, his staff, and the tearless dog as stand-ins.", "themes": ["comedy", "service", "parting"] },
+        { "number": 4, "summary": "At court Valentine and Thurio spar for Silvia's favour before the Duke. Proteus arrives; Valentine praises Silvia to him and confides their plan to elope. Left alone, Proteus admits he is already smitten with Silvia and feels his love for Julia melting away.", "themes": ["rivalry", "love", "betrayal"] },
+        { "number": 5, "summary": "In Milan, Launce and Speed joke about whether Proteus and Julia's match will hold, and about Launce's own love.", "themes": ["comedy", "love"] },
+        { "number": 6, "summary": "Proteus, alone, reasons himself into treachery: he will betray Valentine's elopement to the Duke and abandon Julia, since 'I to myself am dearer than a friend' and love of Silvia outweighs every oath.", "themes": ["betrayal", "self_interest", "broken_vows"] },
+        { "number": 7, "summary": "Back in Verona, Julia resolves to follow Proteus to Milan disguised as a page, and has Lucetta fit her with a boy's clothes, trusting in his constancy.", "themes": ["disguise", "love", "constancy"] }
+      ]
+    },
+    {
+      "number": 3,
+      "summary": "Proteus betrays Valentine's elopement plan to the Duke, who discovers the rope-ladder and banishes Valentine. With Valentine gone, Proteus pretends to help the foolish Thurio woo Silvia — by slandering Valentine to her and serenading her — all to win her for himself.",
+      "scenes": [
+        { "number": 1, "summary": "Tipped off by Proteus, the Duke traps Valentine, finds the rope-ladder and a love-letter to Silvia under his cloak, and banishes him on pain of death. Launce reads out the comic catalogue of his own sweetheart's virtues and faults while consoling the heartbroken Valentine.", "themes": ["betrayal", "banishment", "comedy"] },
+        { "number": 2, "summary": "The Duke and Thurio enlist the treacherous Proteus to turn Silvia against the banished Valentine; Proteus advises slander and a serenade — secretly meaning the wooing for himself.", "themes": ["slander", "deception", "courtship"] }
+      ]
+    },
+    {
+      "number": 4,
+      "summary": "Banished Valentine is captured by a band of gentleman-outlaws in the forest and made their leader. At Milan, Proteus serenades Silvia ('Who is Silvia?') as the disguised Julia looks on heartbroken; Silvia scorns his suit and his falseness. Silvia arranges to flee to Valentine with Sir Eglamour's help, while Julia, now Proteus's page, is sent to carry his ring to her rival.",
+      "scenes": [
+        { "number": 1, "summary": "Outlaws — themselves banished gentlemen — seize Valentine and Speed in the forest; impressed by Valentine, they make him their captain, on condition he does the band no wrong.", "themes": ["outlaws", "greenwood", "fortune"] },
+        { "number": 2, "summary": "Proteus has the musicians serenade Silvia with 'Who is Silvia?' The disguised Julia and the Host look on; Julia hears her love woo her rival. Silvia rebukes Proteus for his falseness to Valentine and to Julia.", "themes": ["music", "betrayal", "disguise", "heartbreak"] },
+        { "number": 3, "summary": "Silvia begs the courteous knight Sir Eglamour, himself mourning a dead love, to escort her in flight from Milan to find the banished Valentine.", "themes": ["escape", "loyalty", "chivalry"] },
+        { "number": 4, "summary": "Launce despairs over Crab's misbehaviour at court. Proteus takes on the disguised Julia as his page 'Sebastian' and sends 'him' with his ring — the very ring Julia gave him — to Silvia. Silvia refuses it and pities the absent Julia, while Julia, in disguise, hears herself praised and wronged at once.", "themes": ["disguise", "irony", "comedy", "pity"] }
+      ]
+    },
+    {
+      "number": 5,
+      "summary": "All parties converge on the forest. Silvia flees with Eglamour but is taken by the outlaws; Proteus rescues her, only to threaten to force her when she still refuses him. Valentine intervenes; Proteus repents; Valentine offers to yield Silvia to him; the disguised Julia faints and reveals herself, recalling Proteus to his first love. The Duke, captured by the outlaws, pardons everyone, and two marriages are promised.",
+      "scenes": [
+        { "number": 1, "summary": "Silvia meets Eglamour at the friar's cell and they flee the city together.", "themes": ["escape", "love"] },
+        { "number": 2, "summary": "Thurio, Proteus, and the disguised Julia tell the Duke of Silvia's flight, and all set off in pursuit toward the forest.", "themes": ["pursuit", "rivalry"] },
+        { "number": 3, "summary": "The outlaws capture Silvia (Eglamour having fled) and bring her toward their captain.", "themes": ["outlaws", "capture"] },
+        { "number": 4, "summary": "In the forest Proteus rescues Silvia from the outlaws, then, enraged by her continued scorn, threatens to force her — until Valentine steps out and denounces him. Proteus repents at once; Valentine, moved, offers him 'all that was mine in Silvia.' The page 'Sebastian' swoons and is revealed as Julia, recalling Proteus to his first love. The Duke, brought in captive, pardons Valentine and the outlaws and blesses both couples.", "themes": ["sexual_assault", "friendship", "repentance", "reconciliation", "disguise"] }
+      ]
+    }
+  ]
+}

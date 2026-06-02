@@ -142,9 +142,15 @@ const SEQUENTIAL_SCENES = slug === 'loves_labours_lost';
 // otherwise be folded into the prior speaker (Benedick). When a "[<Name> sings]" direction names
 // a known character, set the current speaker to that singer so the unprefixed lyrics that follow
 // are attributed correctly (the play's second song, "Pardon, goddess of the night," has its own
-// "SONG." prefix and is unaffected). GATED on the slug, so every other shipped play — including
-// those with their own "[X sings]" directions whose lyrics ARE prefixed — re-ingests byte-identical.
-const SINGER_SD_SETS_SPEAKER = slug === 'much_ado_about_nothing';
+// "SONG." prefix and is unaffected). As You Like It has the identical pattern: "Blow, blow, thou
+// winter wind" (2.7) is cued by "[AMIENS sings.]" then a "SONG" header and unlabeled lyrics, which
+// would otherwise fold into the prior speaker (Duke Senior); widening the gate to that slug
+// attributes them to Amiens. (Its other songs need no help: 2.5 "Under the greenwood tree" and 5.4
+// "Wedding is great Juno's crown" follow a real AMIENS./HYMEN. prefix, and the two bare-"SONG."
+// cues in 4.2/5.3 are caught by a `song` ensemble alias.) GATED on the slugs, so every other
+// shipped play — including those with their own "[X sings]" directions whose lyrics ARE prefixed —
+// re-ingests byte-identical (confirmed by the original-vs-patched re-ingest hash diff).
+const SINGER_SD_SETS_SPEAKER = slug === 'much_ado_about_nothing' || slug === 'as_you_like_it';
 
 // Twelfth Night prints its closing song's cue (5.1, "When that I was and a little tiny boy")
 // as a title-case "Song." line; its other two song cues (2.3, 2.4) are the all-caps "SONG"
@@ -156,6 +162,17 @@ const SINGER_SD_SETS_SPEAKER = slug === 'much_ado_about_nothing';
 // other play is byte-identical; a lowercase "air." in the as-yet-unbuilt Two Gentlemen — which
 // is dialogue, not a cue — is likewise untouched.
 const TITLE_SONG_CUE = slug === 'twelfth_night';
+
+// The Two Gentlemen of Verona's serenade "Who is Silvia?" (4.2) is cued by a bracketed "[SONG]"
+// stage direction, with the lyric lines unlabeled, so they would fold into the prior speaker — the
+// Host, who has just said "let's hear 'em" and is plainly NOT the singer (Thurio's hired Musicians
+// perform it). When gated, a bare "[SONG]" stage direction sets the current speaker to the play's
+// `Musicians` ensemble (aliased "SONG.", so nameToChar resolves "SONG" to it) and the lyrics that
+// follow attribute to it. GATED on the slug: every other shipped play is byte-identical — their song
+// cues are an all-caps SONG/SONG. header caught at the SONG_HEADER branch, a "[X sings]" naming a
+// singer (SINGER_SD_SETS_SPEAKER), or a title-case "Song." (TITLE_SONG_CUE); none emits a bare
+// "SONG" stage direction out of a "[SONG]" bracket.
+const SONG_SD_SETS_SINGER = slug === 'two_gentlemen_of_verona';
 
 // Roman numeral -> int via standard subtractive notation. Returns identical values to the
 // prior I..X lookup table for 1-10, so every play whose acts never exceed ten scenes
@@ -424,6 +441,24 @@ allLines = allLines.flatMap((l) => {
   return m ? [m[1].trim(), m[2]] : [l];
 });
 
+// The Two Gentlemen of Verona's vendored edition prints a few rapid exchanges (the 1.1
+// "nod/ay/noddy" stichomythia and several asides) with the speaker label INLINE on the same
+// physical line as the dialogue — either bracketed ("[SPEED] Ay.") or dotted ("PROTEUS. Nod, ay?
+// Why, that's noddy."), rather than on its own line. Left as-is, a bracketed label is read as a
+// stage direction (so the trailing "Ay." becomes a phantom speaker) and a dotted label folds into
+// the prior speaker. Split a leading speaker label (a known alias, in either form) onto its own
+// line so the standard speaker-prefix path attributes the dialogue correctly. GATED on the slug,
+// and the alias check means only real speaker labels are split — every other play is byte-identical.
+if (slug === 'two_gentlemen_of_verona') {
+  allLines = allLines.flatMap((l) => {
+    let m = l.match(/^\[([A-Z][A-Za-z]+)\]\s+(\S.*)$/); // "[SPEED] Ay."
+    if (m && aliasToChar.has(m[1] + '.')) return [m[1] + '.', m[2]];
+    m = l.match(/^([A-Z][A-Z]+\.)\s+(\S.*)$/); // "PROTEUS. Nod, ay?..." / "SPEED. [Aside] ..."
+    if (m && aliasToChar.has(m[1])) return [m[1], m[2]];
+    return [l];
+  });
+}
+
 // find content start: the first ACT header, or an earlier framing header (a Chorus
 // prologue or an Induction) if one precedes it. Plays with no leading framing speech
 // are unaffected — the ACT header is still the first match (isFramingHeader reduces to
@@ -621,6 +656,12 @@ function emitSD(text: string) {
     const sm = text.match(/^(.+?)\s+sings\b/i);
     const singer = sm && nameToChar.get(sm[1].trim().toUpperCase());
     if (singer) { curSpeaker = { id: singer.id, name: singer.name }; curSpeakerRaw = singer.name; }
+  }
+  // A bare "[SONG]" stage direction (Two Gentlemen of Verona 4.2) names no singer; route the
+  // unlabeled serenade that follows to the `Musicians` ensemble. GATED (SONG_SD_SETS_SINGER).
+  if (SONG_SD_SETS_SINGER && /^SONG\.?$/i.test(text.trim())) {
+    const s = nameToChar.get('SONG');
+    if (s) { curSpeaker = { id: s.id, name: s.name }; curSpeakerRaw = s.name; }
   }
   // An "Enter Chorus"/"Enter Rumour" direction opens a prologue/chorus passage we buffer and
   // prepend to the next scene of the act it introduces. Pericles' Presenter, Gower, is framed

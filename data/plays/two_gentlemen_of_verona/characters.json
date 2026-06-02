@@ -1,0 +1,237 @@
+[
+  {
+    "id": "valentine",
+    "name": "Valentine",
+    "aliases": ["VALENTINE."],
+    "role": "protagonist",
+    "description": "One of the two gentlemen of Verona, who leaves for the Duke's court at Milan to 'see the wonders of the world' and there falls genuinely in love with the Duke's daughter Silvia. Constant and idealistic, he is betrayed by his friend Proteus, banished, and made captain of a band of forest outlaws. In the startling final scene, believing Proteus repentant, he offers 'All that was mine in Silvia I give thee' — a gesture of extreme male friendship that has troubled readers ever since.",
+    "relationships": [
+      { "other_id": "silvia", "relation": "loves and finally wins" },
+      { "other_id": "proteus", "relation": "sworn friend, who betrays him" },
+      { "other_id": "speed", "relation": "served by the clownish page" },
+      { "other_id": "duke", "relation": "banished by" }
+    ],
+    "color": "#2f6aa0"
+  },
+  {
+    "id": "proteus",
+    "name": "Proteus",
+    "aliases": ["PROTEUS."],
+    "role": "antagonist",
+    "description": "The other 'gentleman,' named for the shape-changing sea-god — fittingly, since he proves utterly inconstant. Devoted to Julia in Verona, he no sooner reaches Milan than he falls for his friend Valentine's beloved Silvia, betrays Valentine to the Duke, and abandons Julia. His pursuit of Silvia ends in an attempted assault in the forest (5.4), interrupted by Valentine; he repents at once and is forgiven and reunited with the disguised Julia. The play presents his treachery and abrupt redemption as a problem, not a model.",
+    "relationships": [
+      { "other_id": "julia", "relation": "loves, abandons, and is finally restored to" },
+      { "other_id": "valentine", "relation": "sworn friend whom he betrays" },
+      { "other_id": "silvia", "relation": "treacherously pursues" },
+      { "other_id": "antonio", "relation": "son of" },
+      { "other_id": "launce", "relation": "served by the clownish page" }
+    ],
+    "color": "#8a4a8a"
+  },
+  {
+    "id": "julia",
+    "name": "Julia",
+    "aliases": ["JULIA."],
+    "role": "major",
+    "description": "A lady of Verona, beloved of Proteus. After tearing up and then kissing his love-letter, she follows him to Milan disguised as a page-boy, 'Sebastian,' and ends up carrying his love-tokens to her rival Silvia and hearing his betrayal at first hand. Loyal and resourceful, she reveals herself only at the close. The prefix is always 'JULIA.'; 'Sebastian' is her disguise-name (a different character from the Sebastian of Twelfth Night).",
+    "relationships": [
+      { "other_id": "proteus", "relation": "loves; serves in disguise as 'Sebastian'" },
+      { "other_id": "lucetta", "relation": "advised by her waiting-woman" },
+      { "other_id": "silvia", "relation": "unknowing rival, whom she serves in disguise" }
+    ],
+    "color": "#b0396e"
+  },
+  {
+    "id": "silvia",
+    "name": "Silvia",
+    "aliases": ["SILVIA."],
+    "role": "major",
+    "description": "The Duke of Milan's spirited daughter, beloved of Valentine and pestered by the wealthy fool Thurio (her father's choice) and the treacherous Proteus. Witty and steadfast, she helps plan her elopement with the banished Valentine, flees with the help of Sir Eglamour, and is seized by outlaws and then by Proteus in the forest. She has almost no lines in the play's troubling final scene.",
+    "relationships": [
+      { "other_id": "valentine", "relation": "loves and finally weds" },
+      { "other_id": "duke", "relation": "daughter of" },
+      { "other_id": "thurio", "relation": "unwanted suitor" },
+      { "other_id": "proteus", "relation": "pursued and assaulted by" },
+      { "other_id": "eglamour", "relation": "aided in flight by" }
+    ],
+    "color": "#c2569a"
+  },
+  {
+    "id": "speed",
+    "name": "Speed",
+    "aliases": ["SPEED."],
+    "role": "supporting",
+    "description": "Valentine's quick-tongued, punning page, a stage 'clown' who mocks his master's lovesickness and trades nimble wordplay (he reads the comic catalogue of a milkmaid's virtues and vices). His name fits his ready wit, if not always his errands.",
+    "relationships": [
+      { "other_id": "valentine", "relation": "clownish servant to" },
+      { "other_id": "launce", "relation": "fellow servant and joking companion" }
+    ],
+    "color": "#c8862a"
+  },
+  {
+    "id": "launce",
+    "name": "Launce",
+    "aliases": ["LAUNCE."],
+    "role": "supporting",
+    "description": "Proteus's servant, a slow, good-hearted clown famous for his monologues to his unresponsive dog, Crab — 'the sourest-natured dog that lives.' He describes weeping the whole family's farewell with his shoe and staff as stand-ins, and takes the blame (and the whipping) for Crab's misdeeds at court. His earthy, blundering humour counterpoints the play's high romance.",
+    "relationships": [
+      { "other_id": "proteus", "relation": "clownish servant to" },
+      { "other_id": "crab", "relation": "long-suffering master of the dog" },
+      { "other_id": "speed", "relation": "fellow servant and joking companion" }
+    ],
+    "color": "#a0562f"
+  },
+  {
+    "id": "crab",
+    "name": "Crab",
+    "aliases": [],
+    "role": "minor",
+    "description": "Launce's dog — a silent, non-speaking role, but the object of two of Shakespeare's funniest monologues. Launce complains that Crab shed no tear at their parting and disgraced him by misbehaving under the Duke's table, for which Launce took the punishment. Often counted the most scene-stealing animal part in the canon.",
+    "relationships": [
+      { "other_id": "launce", "relation": "owned and lectured by" }
+    ],
+    "color": "#8a7a5a"
+  },
+  {
+    "id": "lucetta",
+    "name": "Lucetta",
+    "aliases": ["LUCETTA."],
+    "role": "supporting",
+    "description": "Julia's shrewd waiting-woman, who teases her mistress about her suitors, delivers Proteus's letter, and watches Julia tear it up only to gather the pieces. Worldly and affectionate, she helps Julia plan her boy's disguise and warns, drily, of men's inconstancy.",
+    "relationships": [
+      { "other_id": "julia", "relation": "waiting-woman and confidante to" }
+    ],
+    "color": "#4f8a8a"
+  },
+  {
+    "id": "duke",
+    "name": "Duke of Milan",
+    "aliases": ["DUKE."],
+    "role": "supporting",
+    "description": "Silvia's father, who intends her for the rich fool Thurio and, tipped off by the treacherous Proteus, discovers and foils Valentine's plan to elope by rope-ladder — banishing him from Milan. He is reconciled to Valentine at the end and consents to the marriage.",
+    "relationships": [
+      { "other_id": "silvia", "relation": "father of" },
+      { "other_id": "valentine", "relation": "banishes, then accepts as son-in-law" },
+      { "other_id": "thurio", "relation": "favours as a suitor" }
+    ],
+    "color": "#8a2f2f"
+  },
+  {
+    "id": "thurio",
+    "name": "Thurio",
+    "aliases": ["THURIO."],
+    "role": "supporting",
+    "description": "A rich, foolish, cowardly rival to Valentine for Silvia, favoured by the Duke for his wealth. He hires musicians to serenade Silvia ('Who is Silvia?') with the help of Proteus, who is secretly wooing her himself. At the end he renounces his claim the moment Valentine threatens him, exposing his hollowness.",
+    "relationships": [
+      { "other_id": "silvia", "relation": "unwanted, wealthy suitor of" },
+      { "other_id": "duke", "relation": "favoured suitor of his daughter" },
+      { "other_id": "valentine", "relation": "rival who outfaces him" }
+    ],
+    "color": "#8a8a4a"
+  },
+  {
+    "id": "antonio",
+    "name": "Antonio",
+    "aliases": ["ANTONIO."],
+    "role": "minor",
+    "description": "Proteus's father, who on his servant Panthino's advice decides to send his idle son to the Duke's court at Milan to be schooled in the world — the decision that launches the plot. (A different character from the several other Antonios in Shakespeare.)",
+    "relationships": [
+      { "other_id": "proteus", "relation": "father of" },
+      { "other_id": "panthino", "relation": "advised by his servant" }
+    ],
+    "color": "#6a6a8a"
+  },
+  {
+    "id": "panthino",
+    "name": "Panthino",
+    "aliases": ["PANTHINO."],
+    "role": "minor",
+    "description": "Antonio's servant, who urges his master to send Proteus to court and later hurries Launce to the ship so his master will not be left behind.",
+    "relationships": [
+      { "other_id": "antonio", "relation": "servant to" }
+    ],
+    "color": "#7a7a5a"
+  },
+  {
+    "id": "host",
+    "name": "Host",
+    "aliases": ["HOST."],
+    "role": "minor",
+    "description": "The kindly host of the inn where the disguised Julia lodges in Milan. He takes 'Sebastian' to overhear Proteus's serenade of Silvia, and falls asleep during the very scene in which Julia's heart breaks.",
+    "relationships": [
+      { "other_id": "julia", "relation": "lodges and befriends the disguised" }
+    ],
+    "color": "#5f7f9f"
+  },
+  {
+    "id": "eglamour",
+    "name": "Eglamour",
+    "aliases": ["EGLAMOUR."],
+    "role": "minor",
+    "description": "A courtly gentleman who, himself mourning a dead love, agrees to help Silvia escape Milan to seek the banished Valentine. He guides her flight but flees when the outlaws attack, leaving her taken.",
+    "relationships": [
+      { "other_id": "silvia", "relation": "agent and guide in her escape" }
+    ],
+    "color": "#7a6a9a"
+  },
+  {
+    "id": "first_outlaw",
+    "name": "First Outlaw",
+    "aliases": ["FIRST OUTLAW."],
+    "role": "minor",
+    "description": "One of the band of banished gentlemen turned forest outlaws who capture Valentine and, impressed by him, make him their captain. They live in the greenwood 'as the old Robin Hood,' on a code that spares women and the poor.",
+    "relationships": [
+      { "other_id": "valentine", "relation": "makes their captain" }
+    ],
+    "color": "#5a7a5a"
+  },
+  {
+    "id": "second_outlaw",
+    "name": "Second Outlaw",
+    "aliases": ["SECOND OUTLAW."],
+    "role": "minor",
+    "description": "A second of the forest outlaws, himself banished (he says) for a stabbing, who helps recruit Valentine to lead the band.",
+    "relationships": [
+      { "other_id": "valentine", "relation": "helps make him their captain" }
+    ],
+    "color": "#6a7a55"
+  },
+  {
+    "id": "third_outlaw",
+    "name": "Third Outlaw",
+    "aliases": ["THIRD OUTLAW."],
+    "role": "minor",
+    "description": "A third of the banished outlaws, who lists the crimes that drove the band to the greenwood and swears Valentine in as their leader.",
+    "relationships": [
+      { "other_id": "valentine", "relation": "swears him in as captain" }
+    ],
+    "color": "#5a7a6a"
+  },
+  {
+    "id": "outlaw",
+    "name": "Outlaw",
+    "aliases": ["OUTLAW."],
+    "role": "minor",
+    "description": "An unnumbered member of the outlaw band, who cries 'A prize, a prize!' as the outlaws bring in the captured Duke and Thurio in the final scene.",
+    "relationships": [
+      { "other_id": "valentine", "relation": "follows as captain" }
+    ],
+    "color": "#6a8a6a"
+  },
+  {
+    "id": "servant",
+    "name": "Servant",
+    "aliases": ["SERVANT."],
+    "role": "minor",
+    "description": "A servant in the Duke's household at Milan who announces the arrival of suitors and messengers.",
+    "color": "#7a6a5a"
+  },
+  {
+    "id": "musicians",
+    "name": "Musicians",
+    "aliases": ["SONG."],
+    "role": "ensemble",
+    "description": "The hired musicians who perform the serenade 'Who is Silvia? What is she' beneath Silvia's window (4.2), set on by Thurio but turned by Proteus to his own secret wooing while the disguised Julia looks on heartbroken.",
+    "color": "#80807a"
+  }
+]
