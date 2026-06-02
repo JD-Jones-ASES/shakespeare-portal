@@ -1,0 +1,554 @@
+[
+  {
+    "id": "timon",
+    "name": "Timon",
+    "aliases": ["TIMON."],
+    "role": "protagonist",
+    "description": "A wealthy, open-handed lord of Athens who ruins himself with lavish gifts, banquets, and bailing out of friends, trusting that his generosity has bought him love. When his money runs out and every flattering friend refuses to help, his faith in mankind collapses into furious misanthropy. He curses Athens, exiles himself to a cave by the sea, digs up gold he no longer wants, rains it on thieves and enemies of the city, and dies alone — his epitaph cursing all who pass. The role is a study in the swing from boundless bounty to total hatred of humankind.",
+    "relationships": [
+      { "other_id": "flavius", "relation": "served faithfully by his steward" },
+      { "other_id": "apemantus", "relation": "scorned by, then matched in misanthropy by the cynic" },
+      { "other_id": "alcibiades", "relation": "friend who alone honours him at the end" }
+    ],
+    "color": "#c0892a"
+  },
+  {
+    "id": "apemantus",
+    "name": "Apemantus",
+    "aliases": ["APEMANTUS."],
+    "role": "major",
+    "description": "A churlish philosopher of the Cynic school who despises mankind on principle and mocks Timon's flatterers from the very first feast. When the ruined Timon turns misanthrope, Apemantus visits his cave and the two trade savage insults — Apemantus arguing that Timon's hatred is mere disappointed appetite, not true philosophy. He embodies professional, chosen cynicism against Timon's wounded idealism.",
+    "relationships": [
+      { "other_id": "timon", "relation": "mocks his bounty, then disputes his misanthropy" }
+    ],
+    "color": "#5f7a3a"
+  },
+  {
+    "id": "flavius",
+    "name": "Flavius",
+    "aliases": ["FLAVIUS.", "STEWARD."],
+    "role": "major",
+    "description": "Timon's honest steward, who keeps the accounts and tries in vain to warn his master that the lavish giving has emptied the coffers. He weeps at Timon's fall, shares what little he has with the dismissed servants, and seeks Timon out in the wilderness to offer his own savings — proving, against the play's bitter thesis, that one faithful man exists.",
+    "relationships": [
+      { "other_id": "timon", "relation": "loyal steward of" }
+    ],
+    "color": "#3f7a8a"
+  },
+  {
+    "id": "alcibiades",
+    "name": "Alcibiades",
+    "aliases": ["ALCIBIADES."],
+    "role": "major",
+    "description": "An Athenian captain and friend of Timon. When the Senate condemns a soldier of his and banishes Alcibiades for pleading too hotly on the man's behalf, he raises an army and marches on ungrateful Athens in revenge — a public mirror of Timon's private wrath. Accompanied by his mistresses Phrynia and Timandra, he meets the misanthrope Timon, who funds his war with found gold, and finally enters Athens to impose a tempered, merciful justice.",
+    "relationships": [
+      { "other_id": "timon", "relation": "soldier-friend of, funded by his gold" },
+      { "other_id": "first_senator", "relation": "banished by the Senate, on which he marches" },
+      { "other_id": "phrynia_and_timandra", "relation": "accompanied by his two mistresses" }
+    ],
+    "color": "#8a4a4a"
+  },
+  {
+    "id": "poet",
+    "name": "Poet",
+    "aliases": ["POET."],
+    "role": "supporting",
+    "description": "A poet who flatters Timon for patronage, presenting a verse-fable that (ironically) describes Fortune dropping a favourite once he falls. He and the Painter return to Timon's cave near the end, hoping the rumour of his new-found gold is true, and are driven off.",
+    "relationships": [
+      { "other_id": "timon", "relation": "seeks patronage from, then his gold" },
+      { "other_id": "painter", "relation": "fellow artist and flatterer" }
+    ],
+    "color": "#6a5a8a"
+  },
+  {
+    "id": "painter",
+    "name": "Painter",
+    "aliases": ["PAINTER."],
+    "role": "supporting",
+    "description": "A painter who, with the Poet, offers his work to Timon for reward and later schemes to win the misanthrope's gold with promised flattery. Timon overhears their hypocrisy and beats them off.",
+    "relationships": [
+      { "other_id": "timon", "relation": "seeks reward from, then his gold" },
+      { "other_id": "poet", "relation": "fellow artist and flatterer" }
+    ],
+    "color": "#7a5a6a"
+  },
+  {
+    "id": "lucullus",
+    "name": "Lucullus",
+    "aliases": ["LUCULLUS.", "LUCULLIUS."],
+    "role": "minor",
+    "description": "One of the flattering lords who feasted at Timon's table. When Timon's servant Flaminius comes to borrow money, Lucullus pretends to advise thrift and tries to bribe the servant to say he was not found in — the first of the friends to refuse.",
+    "relationships": [
+      { "other_id": "timon", "relation": "feasted with, then refuses to help" }
+    ],
+    "color": "#7a6a4a"
+  },
+  {
+    "id": "lucius",
+    "name": "Lucius",
+    "aliases": ["LUCIUS."],
+    "role": "minor",
+    "description": "A flattering lord who, hearing that Lucullus has denied Timon, loudly protests he would never be so ungrateful — and then, asked for a loan himself, refuses on the excuse that his money is all tied up. (Distinct from his own serving-man, who appears as 'Lucius' Servant'.)",
+    "relationships": [
+      { "other_id": "timon", "relation": "professes gratitude, then refuses to help" }
+    ],
+    "color": "#8a7a4a"
+  },
+  {
+    "id": "sempronius",
+    "name": "Sempronius",
+    "aliases": ["SEMPRONIUS."],
+    "role": "minor",
+    "description": "Another lord who refuses Timon a loan — taking offence that he was asked only after the others, and using the slight as his excuse to deny help.",
+    "relationships": [
+      { "other_id": "timon", "relation": "refuses to help, pleading offence" }
+    ],
+    "color": "#7a8a4a"
+  },
+  {
+    "id": "ventidius",
+    "name": "Ventidius",
+    "aliases": ["VENTIDIUS."],
+    "role": "minor",
+    "description": "A friend whom Timon ransomed out of debtors' prison by paying his debts; when his own father dies and leaves him rich, he does not repay the kindness, and when Timon falls he too refuses help — the sharpest instance of ingratitude.",
+    "relationships": [
+      { "other_id": "timon", "relation": "ransomed from prison by, then fails to repay" }
+    ],
+    "color": "#6a7a5a"
+  },
+  {
+    "id": "first_lord",
+    "name": "First Lord",
+    "aliases": ["FIRST LORD."],
+    "role": "minor",
+    "description": "One of the lords who flatter and feast with Timon in his prosperity.",
+    "color": "#6a6a8a"
+  },
+  {
+    "id": "second_lord",
+    "name": "Second Lord",
+    "aliases": ["SECOND LORD."],
+    "role": "minor",
+    "description": "A second flattering lord at Timon's feasts.",
+    "color": "#7a7a9a"
+  },
+  {
+    "id": "third_lord",
+    "name": "Third Lord",
+    "aliases": ["THIRD LORD."],
+    "role": "minor",
+    "description": "A third lord among Timon's guests.",
+    "color": "#5a5a8a"
+  },
+  {
+    "id": "fourth_lord",
+    "name": "Fourth Lord",
+    "aliases": ["FOURTH LORD."],
+    "role": "minor",
+    "description": "A fourth lord at Timon's table.",
+    "color": "#8a8aaa"
+  },
+  {
+    "id": "jeweller",
+    "name": "Jeweller",
+    "aliases": ["JEWELLER."],
+    "role": "minor",
+    "description": "A jeweller who sells Timon a costly jewel in the opening scene of conspicuous spending.",
+    "relationships": [
+      { "other_id": "timon", "relation": "sells a jewel to" }
+    ],
+    "color": "#6a8a7a"
+  },
+  {
+    "id": "merchant",
+    "name": "Merchant",
+    "aliases": ["MERCHANT."],
+    "role": "minor",
+    "description": "A merchant who, with the Jeweller, Poet, and Painter, gathers in Timon's hall to profit from his open purse.",
+    "color": "#5a8a8a"
+  },
+  {
+    "id": "flaminius",
+    "name": "Flaminius",
+    "aliases": ["FLAMINIUS."],
+    "role": "minor",
+    "description": "One of Timon's serving-men, sent to borrow money from Lucullus; he indignantly throws back the bribe Lucullus offers him.",
+    "relationships": [
+      { "other_id": "timon", "relation": "servant of" }
+    ],
+    "color": "#7a7a5a"
+  },
+  {
+    "id": "servilius",
+    "name": "Servilius",
+    "aliases": ["SERVILIUS."],
+    "role": "minor",
+    "description": "A serving-man of Timon, sent among the false friends to ask for loans and turned away.",
+    "relationships": [
+      { "other_id": "timon", "relation": "servant of" }
+    ],
+    "color": "#8a7a6a"
+  },
+  {
+    "id": "lucilius",
+    "name": "Lucilius",
+    "aliases": ["LUCILIUS."],
+    "role": "minor",
+    "description": "A serving-man of Timon in love with the daughter of an Old Athenian; Timon generously matches the old man's dowry so the two may marry. (A distinct person from the lord Lucius and the lord Lucullus.)",
+    "relationships": [
+      { "other_id": "timon", "relation": "servant whose marriage is funded by" },
+      { "other_id": "old_athenian", "relation": "loves the daughter of" }
+    ],
+    "color": "#7a8a5a"
+  },
+  {
+    "id": "old_athenian",
+    "name": "Old Athenian",
+    "aliases": ["OLD ATHENIAN."],
+    "role": "minor",
+    "description": "An old citizen who complains that Timon's servant Lucilius is courting his daughter above his station; Timon settles wealth on Lucilius so the match can go forward.",
+    "relationships": [
+      { "other_id": "lucilius", "relation": "objects to as his daughter's suitor" }
+    ],
+    "color": "#6a6a5a"
+  },
+  {
+    "id": "caphis",
+    "name": "Caphis",
+    "aliases": ["CAPHIS."],
+    "role": "minor",
+    "description": "A servant sent by a senator (one of Timon's creditors) to demand repayment, joining the crowd of duns who besiege Timon's door.",
+    "color": "#7a6a5a"
+  },
+  {
+    "id": "titus",
+    "name": "Titus",
+    "aliases": ["TITUS."],
+    "role": "minor",
+    "description": "A serving-man of one of Timon's creditors, among those who press Timon for money. (Unrelated to the Roman of Titus Andronicus; here simply a dunning servant.)",
+    "color": "#6a5a5a"
+  },
+  {
+    "id": "hortensius",
+    "name": "Hortensius",
+    "aliases": ["HORTENSIUS."],
+    "role": "minor",
+    "description": "A serving-man of a creditor, sent to collect a debt from the ruined Timon and uneasy at the errand.",
+    "color": "#5a6a6a"
+  },
+  {
+    "id": "philotus",
+    "name": "Philotus",
+    "aliases": ["PHILOTUS."],
+    "role": "minor",
+    "description": "Another creditor's serving-man in the crowd of duns waiting on Timon for payment.",
+    "color": "#5a7a6a"
+  },
+  {
+    "id": "lucius_servant",
+    "name": "Lucius' Servant",
+    "aliases": ["LUCIUS' SERVANT."],
+    "role": "minor",
+    "description": "The serving-man of the lord Lucius, sent to demand repayment from Timon — ashamed that his master, who lately professed such love, now duns the man who enriched him.",
+    "color": "#6a7a7a"
+  },
+  {
+    "id": "varros_servant",
+    "name": "Varro's Servant",
+    "aliases": ["VARRO'S SERVANT."],
+    "role": "minor",
+    "description": "A serving-man of the creditor Varro, among those demanding payment of Timon's debts.",
+    "color": "#7a7a6a"
+  },
+  {
+    "id": "isidores_servant",
+    "name": "Isidore's Servant",
+    "aliases": ["ISIDORE'S SERVANT."],
+    "role": "minor",
+    "description": "A serving-man of the creditor Isidore, sent to dun Timon for repayment.",
+    "color": "#6a7a5a"
+  },
+  {
+    "id": "first_varros_servant",
+    "name": "First Varro's Servant",
+    "aliases": ["FIRST VARRO'S SERVANT."],
+    "role": "minor",
+    "description": "One of two servants of Varro who join the creditors' men besieging Timon's gate.",
+    "color": "#7a8a6a"
+  },
+  {
+    "id": "second_varros_servant",
+    "name": "Second Varro's Servant",
+    "aliases": ["SECOND VARRO'S SERVANT."],
+    "role": "minor",
+    "description": "The second of Varro's two servants among the duns at Timon's door.",
+    "color": "#6a8a5a"
+  },
+  {
+    "id": "servant",
+    "name": "Servant",
+    "aliases": ["SERVANT."],
+    "role": "minor",
+    "description": "An unnamed serving-man (of Timon's or a creditor's household) carrying messages and demands.",
+    "color": "#7a7a7a"
+  },
+  {
+    "id": "first_servant",
+    "name": "First Servant",
+    "aliases": ["FIRST SERVANT."],
+    "role": "minor",
+    "description": "One of the serving-men, of Timon's household or a creditor's.",
+    "color": "#777777"
+  },
+  {
+    "id": "second_servant",
+    "name": "Second Servant",
+    "aliases": ["SECOND SERVANT."],
+    "role": "minor",
+    "description": "A second unnamed serving-man.",
+    "color": "#808080"
+  },
+  {
+    "id": "third_servant",
+    "name": "Third Servant",
+    "aliases": ["THIRD SERVANT."],
+    "role": "minor",
+    "description": "A third unnamed serving-man.",
+    "color": "#888888"
+  },
+  {
+    "id": "first_senator",
+    "name": "First Senator",
+    "aliases": ["FIRST SENATOR."],
+    "role": "minor",
+    "description": "A senator of Athens. The senators are Timon's creditors who call in his debts, condemn Alcibiades's soldier and banish Alcibiades, and finally sue for terms when he besieges the city.",
+    "relationships": [
+      { "other_id": "alcibiades", "relation": "banished by, then sued for terms by" }
+    ],
+    "color": "#5a5a7a"
+  },
+  {
+    "id": "second_senator",
+    "name": "Second Senator",
+    "aliases": ["SECOND SENATOR."],
+    "role": "minor",
+    "description": "A second senator of Athens among Timon's creditors and Alcibiades's judges.",
+    "color": "#6a6a8a"
+  },
+  {
+    "id": "third_senator",
+    "name": "Third Senator",
+    "aliases": ["THIRD SENATOR."],
+    "role": "minor",
+    "description": "A third senator of Athens.",
+    "color": "#4a4a6a"
+  },
+  {
+    "id": "senator",
+    "name": "Senator",
+    "aliases": ["SENATOR."],
+    "role": "minor",
+    "description": "A senator of Athens (the generic prefix used where only one speaks), reckoning up the debts Timon owes him.",
+    "color": "#5a5a6a"
+  },
+  {
+    "id": "first_stranger",
+    "name": "First Stranger",
+    "aliases": ["FIRST STRANGER."],
+    "role": "minor",
+    "description": "One of several strangers who, watching Lucius refuse Timon, comment on the ingratitude of Athens — the play's choric outsiders. (Also called Hostilius in some editions.)",
+    "color": "#6a7a8a"
+  },
+  {
+    "id": "second_stranger",
+    "name": "Second Stranger",
+    "aliases": ["SECOND STRANGER."],
+    "role": "minor",
+    "description": "A second stranger commenting on the friends' ingratitude to Timon.",
+    "color": "#7a8a9a"
+  },
+  {
+    "id": "third_stranger",
+    "name": "Third Stranger",
+    "aliases": ["THIRD STRANGER."],
+    "role": "minor",
+    "description": "A third stranger among the choric observers.",
+    "color": "#5a6a7a"
+  },
+  {
+    "id": "first_bandit",
+    "name": "First Bandit",
+    "aliases": ["FIRST BANDIT."],
+    "role": "minor",
+    "description": "One of a band of thieves who, hearing Timon has found gold, come to rob him; he gives them gold and urges them to go and rob the equally thievish city.",
+    "relationships": [
+      { "other_id": "timon", "relation": "comes to rob; is given gold by" }
+    ],
+    "color": "#6a5a4a"
+  },
+  {
+    "id": "second_bandit",
+    "name": "Second Bandit",
+    "aliases": ["SECOND BANDIT."],
+    "role": "minor",
+    "description": "A second of the thieves who visit Timon's cave for his gold.",
+    "color": "#7a6a4a"
+  },
+  {
+    "id": "third_bandit",
+    "name": "Third Bandit",
+    "aliases": ["THIRD BANDIT."],
+    "role": "minor",
+    "description": "A third of the thieves, struck despite himself by Timon's bitter logic.",
+    "color": "#5a4a3a"
+  },
+  {
+    "id": "fool",
+    "name": "Fool",
+    "aliases": ["FOOL."],
+    "role": "minor",
+    "description": "A fool attending a courtesan's mistress, who trades quips with Apemantus and the creditors' servants in a brief comic scene.",
+    "color": "#9a7a3a"
+  },
+  {
+    "id": "page",
+    "name": "Page",
+    "aliases": ["PAGE."],
+    "role": "minor",
+    "description": "A page carrying letters, who appears with the Fool among the duns.",
+    "color": "#8a7a5a"
+  },
+  {
+    "id": "messenger",
+    "name": "Messenger",
+    "aliases": ["MESSENGER."],
+    "role": "minor",
+    "description": "A messenger bringing news — of Alcibiades's approach and of the senators' moves.",
+    "color": "#7a7a8a"
+  },
+  {
+    "id": "soldier",
+    "name": "Soldier",
+    "aliases": ["SOLDIER."],
+    "role": "minor",
+    "description": "A soldier of Alcibiades who discovers Timon's grave by the sea and takes an impression of the cursing epitaph to carry to his captain.",
+    "color": "#6a5a5a"
+  },
+  {
+    "id": "cupid",
+    "name": "Cupid",
+    "aliases": ["CUPID."],
+    "role": "minor",
+    "description": "Cupid presents the masque of Amazons that entertains Timon's banquet guests (1.2), praising his bounty.",
+    "color": "#b06a8a"
+  },
+  {
+    "id": "first_lady",
+    "name": "First Lady",
+    "aliases": ["FIRST LADY."],
+    "role": "minor",
+    "description": "One of the masquing ladies (dressed as Amazons) at Timon's feast.",
+    "color": "#c08aaa"
+  },
+  {
+    "id": "phrynia",
+    "name": "Phrynia",
+    "aliases": ["PHRYNIA."],
+    "role": "minor",
+    "description": "One of Alcibiades's two mistresses (named for a famous Athenian courtesan). When the pair come upon Timon in the wilderness, he gives them gold with a savage prayer that they spread disease through Athens.",
+    "relationships": [
+      { "other_id": "alcibiades", "relation": "mistress of" }
+    ],
+    "color": "#a86a8a"
+  },
+  {
+    "id": "timandra",
+    "name": "Timandra",
+    "aliases": ["TIMANDRA."],
+    "role": "minor",
+    "description": "The second of Alcibiades's mistresses (a name drawn from Plutarch), cursed by Timon along with Phrynia when he flings them gold in the woods.",
+    "relationships": [
+      { "other_id": "alcibiades", "relation": "mistress of" }
+    ],
+    "color": "#9a5a7a"
+  },
+  {
+    "id": "all",
+    "name": "All",
+    "aliases": ["ALL."],
+    "role": "ensemble",
+    "description": "Several characters speaking together.",
+    "color": "#777777"
+  },
+  {
+    "id": "both",
+    "name": "Both",
+    "aliases": ["BOTH."],
+    "role": "ensemble",
+    "description": "Two characters speaking together (variously the Poet and Painter, two lords, or two servants).",
+    "color": "#7a7a7a"
+  },
+  {
+    "id": "all_lords",
+    "name": "All the Lords",
+    "aliases": ["ALL LORDS."],
+    "role": "ensemble",
+    "description": "Timon's guest-lords answering together.",
+    "color": "#7a7a9a"
+  },
+  {
+    "id": "all_ladies",
+    "name": "All the Ladies",
+    "aliases": ["ALL LADIES."],
+    "role": "ensemble",
+    "description": "The masquing ladies (Amazons) answering together at the feast.",
+    "color": "#bb8aaa"
+  },
+  {
+    "id": "all_servants",
+    "name": "All the Servants",
+    "aliases": ["ALL SERVANTS.", "SERVANTS."],
+    "role": "ensemble",
+    "description": "Timon's dismissed serving-men lamenting together as the household breaks up.",
+    "color": "#888878"
+  },
+  {
+    "id": "banditti",
+    "name": "Banditti",
+    "aliases": ["BANDITTI."],
+    "role": "ensemble",
+    "description": "The band of thieves answering together at Timon's cave.",
+    "color": "#6a5a4a"
+  },
+  {
+    "id": "phrynia_and_timandra",
+    "name": "Phrynia and Timandra",
+    "aliases": ["PHRYNIA AND TIMANDRA."],
+    "role": "ensemble",
+    "description": "Alcibiades's two mistresses answering Timon together, holding out their aprons for his gold (4.3).",
+    "color": "#a06a80"
+  },
+  {
+    "id": "both_varros_servants",
+    "name": "Both Varro's Servants",
+    "aliases": ["BOTH VARRO'S SERVANTS."],
+    "role": "ensemble",
+    "description": "Varro's two serving-men speaking together among the creditors' duns.",
+    "color": "#7a8a7a"
+  },
+  {
+    "id": "some_speak",
+    "name": "A Lord (speaking out)",
+    "aliases": ["SOME SPEAK."],
+    "role": "ensemble",
+    "description": "One of the guests crying out at Timon's mock-banquet — 'What does his lordship mean?' (3.6).",
+    "color": "#8a8a9a"
+  },
+  {
+    "id": "some_other",
+    "name": "Another Lord",
+    "aliases": ["SOME OTHER."],
+    "role": "ensemble",
+    "description": "Another guest answering at the mock-banquet — 'I know not' (3.6).",
+    "color": "#9a9aaa"
+  }
+]

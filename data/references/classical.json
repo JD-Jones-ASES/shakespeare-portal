@@ -139,7 +139,8 @@
         "hamlet",
         "lear",
         "henry_v",
-        "romeo_and_juliet"
+        "romeo_and_juliet",
+        "timon_of_athens"
       ]
     },
     {
@@ -331,11 +332,18 @@
       "detail_scholar": "Shakespeare followed North's Plutarch unusually closely for 'Julius Caesar,' 'Antony and Cleopatra,' and 'Coriolanus,' drawing especially on the Lives of Caesar, Brutus, and Antony. Whole speeches (Antony's funeral oration, the quarrel of Brutus and Cassius) and incidents (the soothsayer, the omens, the proscriptions) come from North, sometimes nearly verbatim. North translated not from the Greek but from Jacques Amyot's French version of 1559; the resulting English prose was itself admired as a masterpiece.",
       "related_plays": [
         "julius_caesar",
-        "hamlet"
+        "hamlet",
+        "timon_of_athens"
       ],
       "see_also": [
-        { "kind": "classical", "card_id": "theseus-plutarch" },
-        { "kind": "classical", "card_id": "alexander-and-caesar" }
+        {
+          "kind": "classical",
+          "card_id": "theseus-plutarch"
+        },
+        {
+          "kind": "classical",
+          "card_id": "alexander-and-caesar"
+        }
       ]
     },
     {
@@ -370,8 +378,14 @@
         "pericles"
       ],
       "see_also": [
-        { "kind": "classical", "card_id": "triple-hecate" },
-        { "kind": "classical", "card_id": "cupid-arrows" }
+        {
+          "kind": "classical",
+          "card_id": "triple-hecate"
+        },
+        {
+          "kind": "classical",
+          "card_id": "cupid-arrows"
+        }
       ]
     },
     {
@@ -459,8 +473,14 @@
         "tempest"
       ],
       "see_also": [
-        { "kind": "classical", "card_id": "ceres-and-proserpina" },
-        { "kind": "classical", "card_id": "iris-rainbow" }
+        {
+          "kind": "classical",
+          "card_id": "ceres-and-proserpina"
+        },
+        {
+          "kind": "classical",
+          "card_id": "iris-rainbow"
+        }
       ]
     },
     {
@@ -478,8 +498,14 @@
         "winters_tale"
       ],
       "see_also": [
-        { "kind": "classical", "card_id": "juno-goddess" },
-        { "kind": "classical", "card_id": "cupid-arrows" }
+        {
+          "kind": "classical",
+          "card_id": "juno-goddess"
+        },
+        {
+          "kind": "classical",
+          "card_id": "cupid-arrows"
+        }
       ]
     },
     {
@@ -496,7 +522,10 @@
         "tempest"
       ],
       "see_also": [
-        { "kind": "classical", "card_id": "juno-goddess" }
+        {
+          "kind": "classical",
+          "card_id": "juno-goddess"
+        }
       ]
     },
     {
@@ -514,7 +543,10 @@
         "antony_and_cleopatra"
       ],
       "see_also": [
-        { "kind": "classical", "card_id": "aeneas-and-anchises" }
+        {
+          "kind": "classical",
+          "card_id": "aeneas-and-anchises"
+        }
       ]
     },
     {
@@ -564,8 +596,14 @@
         "titus_andronicus"
       ],
       "see_also": [
-        { "kind": "classical", "card_id": "juno-goddess" },
-        { "kind": "classical", "card_id": "diana-goddess" }
+        {
+          "kind": "classical",
+          "card_id": "juno-goddess"
+        },
+        {
+          "kind": "classical",
+          "card_id": "diana-goddess"
+        }
       ]
     },
     {
@@ -583,7 +621,10 @@
         "loves_labours_lost"
       ],
       "see_also": [
-        { "kind": "classical", "card_id": "hercules" }
+        {
+          "kind": "classical",
+          "card_id": "hercules"
+        }
       ]
     },
     {
@@ -600,7 +641,10 @@
         "cymbeline"
       ],
       "see_also": [
-        { "kind": "classical", "card_id": "juno-goddess" }
+        {
+          "kind": "classical",
+          "card_id": "juno-goddess"
+        }
       ]
     },
     {
@@ -618,7 +662,10 @@
         "macbeth"
       ],
       "see_also": [
-        { "kind": "historical", "card_id": "tarquin-and-the-first-brutus" }
+        {
+          "kind": "historical",
+          "card_id": "tarquin-and-the-first-brutus"
+        }
       ]
     },
     {
@@ -649,7 +696,10 @@
         "winters_tale"
       ],
       "see_also": [
-        { "kind": "classical", "card_id": "ceres-and-proserpina" }
+        {
+          "kind": "classical",
+          "card_id": "ceres-and-proserpina"
+        }
       ]
     },
     {
@@ -667,7 +717,10 @@
         "venus_and_adonis"
       ],
       "see_also": [
-        { "kind": "classical", "card_id": "cupid-arrows" }
+        {
+          "kind": "classical",
+          "card_id": "cupid-arrows"
+        }
       ]
     },
     {
@@ -714,7 +767,10 @@
         "alls_well_that_ends_well"
       ],
       "see_also": [
-        { "kind": "historical", "card_id": "apollonius-of-tyre" }
+        {
+          "kind": "historical",
+          "card_id": "apollonius-of-tyre"
+        }
       ]
     },
     {
@@ -746,7 +802,10 @@
         "midsummer_nights_dream"
       ],
       "see_also": [
-        { "kind": "classical", "card_id": "philomela" }
+        {
+          "kind": "classical",
+          "card_id": "philomela"
+        }
       ]
     },
     {
@@ -763,8 +822,14 @@
         "antony_and_cleopatra"
       ],
       "see_also": [
-        { "kind": "classical", "card_id": "plutarchs-lives" },
-        { "kind": "historical", "card_id": "the-ptolemies-and-egypt" }
+        {
+          "kind": "classical",
+          "card_id": "plutarchs-lives"
+        },
+        {
+          "kind": "historical",
+          "card_id": "the-ptolemies-and-egypt"
+        }
       ]
     },
     {
@@ -781,8 +846,14 @@
         "antony_and_cleopatra"
       ],
       "see_also": [
-        { "kind": "classical", "card_id": "plutarchs-lives" },
-        { "kind": "classical", "card_id": "cleopatra-as-isis" }
+        {
+          "kind": "classical",
+          "card_id": "plutarchs-lives"
+        },
+        {
+          "kind": "classical",
+          "card_id": "cleopatra-as-isis"
+        }
       ]
     },
     {
@@ -801,7 +872,10 @@
         "two_gentlemen_of_verona"
       ],
       "see_also": [
-        { "kind": "classical", "card_id": "helen-of-troy" }
+        {
+          "kind": "classical",
+          "card_id": "helen-of-troy"
+        }
       ]
     },
     {
@@ -847,7 +921,10 @@
         "merchant_of_venice"
       ],
       "see_also": [
-        { "kind": "classical", "card_id": "ovids-metamorphoses" }
+        {
+          "kind": "classical",
+          "card_id": "ovids-metamorphoses"
+        }
       ]
     },
     {
@@ -864,7 +941,10 @@
         "as_you_like_it"
       ],
       "see_also": [
-        { "kind": "classical", "card_id": "jupiter-king-of-gods" }
+        {
+          "kind": "classical",
+          "card_id": "jupiter-king-of-gods"
+        }
       ]
     },
     {
@@ -881,7 +961,10 @@
         "as_you_like_it"
       ],
       "see_also": [
-        { "kind": "classical", "card_id": "juno-goddess" }
+        {
+          "kind": "classical",
+          "card_id": "juno-goddess"
+        }
       ]
     },
     {
@@ -899,7 +982,10 @@
         "tempest"
       ],
       "see_also": [
-        { "kind": "classical", "card_id": "ovids-metamorphoses" }
+        {
+          "kind": "classical",
+          "card_id": "ovids-metamorphoses"
+        }
       ]
     },
     {
@@ -930,7 +1016,10 @@
         "alls_well_that_ends_well"
       ],
       "see_also": [
-        { "kind": "classical", "card_id": "plautus-and-roman-comedy" }
+        {
+          "kind": "classical",
+          "card_id": "plautus-and-roman-comedy"
+        }
       ]
     },
     {
@@ -947,7 +1036,10 @@
         "troilus_and_cressida"
       ],
       "see_also": [
-        { "kind": "historical", "card_id": "the-matter-of-troy" }
+        {
+          "kind": "historical",
+          "card_id": "the-matter-of-troy"
+        }
       ]
     },
     {
@@ -964,7 +1056,10 @@
         "troilus_and_cressida"
       ],
       "see_also": [
-        { "kind": "classical", "card_id": "the-greek-and-trojan-heroes" }
+        {
+          "kind": "classical",
+          "card_id": "the-greek-and-trojan-heroes"
+        }
       ]
     },
     {
@@ -981,7 +1076,65 @@
         "troilus_and_cressida"
       ],
       "see_also": [
-        { "kind": "classical", "card_id": "helen-of-troy" }
+        {
+          "kind": "classical",
+          "card_id": "helen-of-troy"
+        }
+      ]
+    },
+    {
+      "id": "the-pontic-sea",
+      "kind": "classical",
+      "title": "The Pontic sea (Othello's vow)",
+      "source": {
+        "name": "Pliny, Natural History (trans. Philemon Holland, 1601)",
+        "citation": "Pliny the Elder, Natural History, Book 2 (the perpetual current of the Pontic sea, which never ebbs back) and Book 6 (the geography of the Pontus, Propontis, and Hellespont), trans. Philemon Holland (London, 1601). Othello 3.3: 'Like to the Pontic sea, / Whose icy current and compulsive course / Ne'er feels retiring ebb...'"
+      },
+      "summary_basic": "Swearing he will never relent from revenge, Othello likens himself to the 'Pontic sea' — the Black Sea — whose cold current was reported to flow only one way, out through the narrows (the Propontis, or Sea of Marmara, and the Hellespont, the Dardanelles) and never to ebb back. The simile makes his 'bloody thoughts' a tide that cannot turn. The detail comes from Pliny's Natural History, widely read in Philemon Holland's English translation of 1601.",
+      "detail_scholar": "Pliny reports that the Black Sea continually discharges into the Mediterranean through the Bosphorus and Hellespont and never takes a returning tide — an observation Shakespeare converts into a vow: 'Even so my bloody thoughts, with violent pace, / Shall ne'er look back, ne'er ebb to humble love, / Till that a capable and wide revenge / Swallow them up' (3.3). The precise chain of waters (Pontus → Propontis → Hellespont) suggests first-hand acquaintance with Holland's Pliny. The lines appear in the Folio text of the play and add a learned, geographical grandeur to Othello's surrender to Iago's poison, just as the kneeling 'sacred vow' that follows parodies a marriage rite.",
+      "related_plays": [
+        "othello"
+      ]
+    },
+    {
+      "id": "timon-the-misanthrope",
+      "kind": "classical",
+      "title": "Timon the misanthrope (Lucian and the man-hater tradition)",
+      "source": {
+        "name": "Lucian, Timon, or the Misanthrope; Plutarch, Life of Antony",
+        "citation": "Lucian of Samosata, Timon, or the Misanthrope (2nd c. AD); Plutarch, Life of Antony 70–71 (the Timon digression), trans. North (1579). Timon was already proverbial for misanthropy in antiquity (cf. Aristophanes, Lysistrata 805–20)."
+      },
+      "summary_basic": "Timon of Athens was a byword in antiquity for misanthropy — hatred of all mankind. Lucian's satirical dialogue 'Timon, or the Misanthrope' is the play's key source: there the ruined Timon, deserted by his flatterers, digs in the fields, turns up a hoard of gold, and uses it to torment the false friends who come crawling back — exactly the turn the play takes in Acts 4–5. Plutarch's Life of Antony adds Timon's friendship with the equally biting Apemantus and his epitaph cursing all who pass his grave.",
+      "detail_scholar": "Lucian supplies the gold-finding and the bitter reversal — wealth returns to the one man who has learned to despise both it and the world that worships it. Plutarch's Antony (chs. 70–71), which Shakespeare knew in North's translation, supplies the frame: Antony withdrawing to a solitary house he called the 'Timoneum,' Timon's companionship only with Apemantus and Alcibiades, and the two epitaphs on his sea-side tomb (one beginning 'Here lies a wretched corse'). The play, written with Thomas Middleton, also drew on an anonymous academic comedy, Timon (c. 1602). Where the classical Timon was a satiric exemplum of ingratitude punished, Shakespeare makes him a figure of genuine, ruinous disillusion.",
+      "related_plays": [
+        "timon_of_athens"
+      ],
+      "see_also": [
+        {
+          "kind": "classical",
+          "card_id": "plutarchs-lives"
+        }
+      ]
+    },
+    {
+      "id": "alcibiades-and-athens",
+      "kind": "classical",
+      "title": "Alcibiades and ungrateful Athens",
+      "source": {
+        "name": "Plutarch, Life of Alcibiades (trans. North, 1579)",
+        "citation": "Plutarch, Life of Alcibiades, trans. Sir Thomas North (1579); for the historical figure, Thucydides, History of the Peloponnesian War. Alcibiades (c. 450–404 BC), Athenian general, ward of Pericles, associate of Socrates."
+      },
+      "summary_basic": "Alcibiades was a real Athenian general (c. 450–404 BC) — brilliant, charming, and treacherous by turns — repeatedly honoured and then exiled by Athens, who defected to Sparta and to Persia and more than once led armies against his own city. In the play he is Timon's soldier-friend; banished by the Senate for pleading too hotly for a condemned soldier, he marches on Athens in revenge — a public counterpart to Timon's private rage at the ungrateful city. Shakespeare took the figure from Plutarch's Life.",
+      "detail_scholar": "Plutarch's Life of Alcibiades (North 1579) gave Shakespeare and Middleton the wronged general who turns his sword on his homeland; historically (in Plutarch and Thucydides) Alcibiades was exiled over the mutilation of the Hermae and the Sicilian expedition, not over a single soldier's pardon — the play invents the immediate cause so that his story mirrors Timon's. Alcibiades's measured, civic anger — he enters Athens to punish only his and Timon's enemies, vowing to 'use the olive with my sword' — is set against Timon's total, self-destroying misanthropy: two answers to the same ingratitude. The pairing is itself Plutarchan, for Plutarch set the Life of Alcibiades beside that of the Roman Coriolanus, another great soldier who attacked his own city.",
+      "related_plays": [
+        "timon_of_athens",
+        "coriolanus"
+      ],
+      "see_also": [
+        {
+          "kind": "classical",
+          "card_id": "plutarchs-lives"
+        }
       ]
     }
   ]

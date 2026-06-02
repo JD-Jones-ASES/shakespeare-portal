@@ -1,0 +1,272 @@
+[
+  {
+    "id": "othello",
+    "name": "Othello",
+    "aliases": ["OTHELLO."],
+    "role": "protagonist",
+    "description": "A Moorish general in the service of Venice, valued for his military skill and his dignity, who has secretly married the Venetian senator's daughter Desdemona. A commanding, eloquent, deeply loving man, he is worked on by his ensign Iago until jealous suspicion of Desdemona's faith destroys his judgement; he smothers her and, learning the truth, kills himself. The play treats him as both a noble outsider and the target of the other characters' racist contempt ('the Moor', 'thick-lips').",
+    "relationships": [
+      { "other_id": "desdemona", "relation": "husband of, whom he loves and then murders" },
+      { "other_id": "iago", "relation": "trusts as his ensign; is destroyed by" },
+      { "other_id": "cassio", "relation": "promotes as lieutenant, then suspects" },
+      { "other_id": "brabantio", "relation": "secretly marries the daughter of" }
+    ],
+    "color": "#b5652a"
+  },
+  {
+    "id": "iago",
+    "name": "Iago",
+    "aliases": ["IAGO."],
+    "role": "antagonist",
+    "description": "Othello's ensign (ancient), passed over for the lieutenancy in favour of Cassio. One of Shakespeare's great villains: a brilliant, motiveless-seeming manipulator who confides his schemes to the audience and engineers Othello's jealousy with insinuation and the planted handkerchief. He calls himself honest while ruining everyone around him — Othello, Cassio, Roderigo, and his own wife Emilia, whom he kills. At the end he refuses to explain himself: 'Demand me nothing.'",
+    "relationships": [
+      { "other_id": "othello", "relation": "ensign to, whom he destroys with false proof" },
+      { "other_id": "emilia", "relation": "husband of, whom he kills" },
+      { "other_id": "roderigo", "relation": "cheats and uses as a dupe" },
+      { "other_id": "cassio", "relation": "resents and frames" }
+    ],
+    "color": "#5f7a35"
+  },
+  {
+    "id": "desdemona",
+    "name": "Desdemona",
+    "aliases": ["DESDEMONA."],
+    "role": "deuteragonist",
+    "description": "The daughter of the Venetian senator Brabantio, who elopes with Othello for love of his character and his story. Frank, loyal, and warm, she defends her choice before the senate and pleads (innocently) for Cassio's reinstatement — the very kindness Iago twists into 'proof' of an affair. She remains devoted even as Othello turns on her; he smothers her in her bed, and with her last breath she refuses to blame him.",
+    "relationships": [
+      { "other_id": "othello", "relation": "wife of, murdered by him" },
+      { "other_id": "emilia", "relation": "served by her waiting-gentlewoman and friend" },
+      { "other_id": "cassio", "relation": "innocently pleads for" },
+      { "other_id": "brabantio", "relation": "daughter of" }
+    ],
+    "color": "#c75f8a"
+  },
+  {
+    "id": "cassio",
+    "name": "Cassio",
+    "aliases": ["CASSIO."],
+    "role": "major",
+    "description": "Michael Cassio, the well-bred Florentine officer whom Othello promotes to lieutenant over Iago. Courteous and a touch vain, he has a weak head for drink; Iago exploits this to get him cashiered, then uses his courtesy toward Desdemona and his affair with Bianca to feed Othello's jealousy. He survives the play, wounded, and is left to govern Cyprus.",
+    "relationships": [
+      { "other_id": "othello", "relation": "lieutenant to" },
+      { "other_id": "iago", "relation": "unknowingly framed by" },
+      { "other_id": "bianca", "relation": "courtesan mistress of" },
+      { "other_id": "desdemona", "relation": "innocently championed by" }
+    ],
+    "color": "#3f7fa5"
+  },
+  {
+    "id": "emilia",
+    "name": "Emilia",
+    "aliases": ["EMILIA."],
+    "role": "major",
+    "description": "Iago's wife and Desdemona's waiting-gentlewoman. Worldly and outspoken (her 4.3 speech defends wives who err), she unwittingly aids the plot by giving Iago the dropped handkerchief, then exposes him once she grasps what he has done — denouncing him over Desdemona's body, for which he kills her.",
+    "relationships": [
+      { "other_id": "iago", "relation": "wife of, who exposes and is killed by him" },
+      { "other_id": "desdemona", "relation": "attendant and loyal friend to" }
+    ],
+    "color": "#a85f9a"
+  },
+  {
+    "id": "roderigo",
+    "name": "Roderigo",
+    "aliases": ["RODERIGO."],
+    "role": "supporting",
+    "description": "A foolish, love-sick Venetian gentleman who lusts after Desdemona and keeps paying Iago to procure her for him. Iago strings him along, pocketing his money and jewels and using him to discredit Cassio; in the final night Iago has him attack Cassio, then kills him to silence him.",
+    "relationships": [
+      { "other_id": "iago", "relation": "dupe and purse of, killed by him" },
+      { "other_id": "desdemona", "relation": "hopelessly desires" }
+    ],
+    "color": "#8a7a3a"
+  },
+  {
+    "id": "brabantio",
+    "name": "Brabantio",
+    "aliases": ["BRABANTIO."],
+    "role": "supporting",
+    "description": "A Venetian senator, Desdemona's father, roused at night by Iago and Roderigo with the news that his daughter has married the Moor. He accuses Othello of using witchcraft to seduce her, brings the charge before the Duke, and — overruled — disowns her with a warning Iago will later weaponize: 'She has deceived her father, and may thee.'",
+    "relationships": [
+      { "other_id": "desdemona", "relation": "father of, who disowns her" },
+      { "other_id": "othello", "relation": "accuses of bewitching his daughter" }
+    ],
+    "color": "#7a5a4a"
+  },
+  {
+    "id": "lodovico",
+    "name": "Lodovico",
+    "aliases": ["LODOVICO."],
+    "role": "supporting",
+    "description": "A noble kinsman of Brabantio who arrives from Venice with letters recalling Othello and naming Cassio governor of Cyprus. He witnesses Othello strike Desdemona ('Is this the noble Moor...?') and, at the end, takes charge, seizing Iago for torture and judgement.",
+    "relationships": [
+      { "other_id": "othello", "relation": "brings the recall of, and judges his fall" },
+      { "other_id": "iago", "relation": "orders the arrest and torture of" }
+    ],
+    "color": "#4f7a6a"
+  },
+  {
+    "id": "montano",
+    "name": "Montano",
+    "aliases": ["MONTANO."],
+    "role": "supporting",
+    "description": "The governor of Cyprus whom Othello succeeds. He greets the Venetians, is wounded by the drunken Cassio in the brawl Iago provokes, and returns at the end to help expose the truth.",
+    "relationships": [
+      { "other_id": "othello", "relation": "yields the governorship of Cyprus to" },
+      { "other_id": "cassio", "relation": "wounded by, while Cassio is drunk" }
+    ],
+    "color": "#5a6a8a"
+  },
+  {
+    "id": "duke",
+    "name": "Duke of Venice",
+    "aliases": ["DUKE."],
+    "role": "minor",
+    "description": "The Duke of Venice, who hears Brabantio's charge against Othello in the night council, is won over by Othello's account and Desdemona's testimony, and dispatches Othello to defend Cyprus against the Turkish fleet.",
+    "relationships": [
+      { "other_id": "othello", "relation": "confirms the marriage of and sends to Cyprus" }
+    ],
+    "color": "#8a3f3f"
+  },
+  {
+    "id": "gratiano",
+    "name": "Gratiano",
+    "aliases": ["GRATIANO."],
+    "role": "minor",
+    "description": "A Venetian nobleman, Brabantio's brother and Desdemona's uncle, who comes to Cyprus with Lodovico and is present at the bloody climax, reporting that Brabantio has died of grief at the marriage.",
+    "relationships": [
+      { "other_id": "brabantio", "relation": "brother of" },
+      { "other_id": "lodovico", "relation": "companion of" }
+    ],
+    "color": "#6a5a7a"
+  },
+  {
+    "id": "bianca",
+    "name": "Bianca",
+    "aliases": ["BIANCA."],
+    "role": "minor",
+    "description": "A courtesan of Cyprus in love with Cassio. He gives her Desdemona's handkerchief (found in his lodging) to copy, and her jealous return of it in front of Othello becomes the 'ocular proof' Iago needs. Iago later tries to pin Cassio's wounding on her.",
+    "relationships": [
+      { "other_id": "cassio", "relation": "loves; given the handkerchief by" }
+    ],
+    "color": "#c08a4a"
+  },
+  {
+    "id": "clown",
+    "name": "Clown",
+    "aliases": ["CLOWN."],
+    "role": "minor",
+    "description": "Othello's servant, a jester who quibbles with the musicians (3.1) and carries a message to Desdemona (3.4) — the play's brief comic relief.",
+    "color": "#c8862a"
+  },
+  {
+    "id": "first_senator",
+    "name": "First Senator",
+    "aliases": ["FIRST SENATOR."],
+    "role": "minor",
+    "description": "A senator of Venice in the night council, who questions the conflicting reports of the Turkish fleet and helps weigh Brabantio's complaint against Othello.",
+    "color": "#6a7a8a"
+  },
+  {
+    "id": "second_senator",
+    "name": "Second Senator",
+    "aliases": ["SECOND SENATOR."],
+    "role": "minor",
+    "description": "A second senator in the Venetian council scene.",
+    "color": "#7a8a9a"
+  },
+  {
+    "id": "first_gentleman",
+    "name": "First Gentleman",
+    "aliases": ["FIRST GENTLEMAN."],
+    "role": "minor",
+    "description": "One of the gentlemen of Cyprus who watch the storm and report the scattering of the Turkish fleet and the arrival of the Venetian ships (2.1).",
+    "color": "#6a8a7a"
+  },
+  {
+    "id": "second_gentleman",
+    "name": "Second Gentleman",
+    "aliases": ["SECOND GENTLEMAN."],
+    "role": "minor",
+    "description": "A second Cyprus gentleman describing the tempest and the safe landing of Cassio and Desdemona (2.1).",
+    "color": "#5a8a6a"
+  },
+  {
+    "id": "third_gentleman",
+    "name": "Third Gentleman",
+    "aliases": ["THIRD GENTLEMAN."],
+    "role": "minor",
+    "description": "A third gentleman of Cyprus who brings news during the watch for Othello's ship (2.1).",
+    "color": "#4a8a5a"
+  },
+  {
+    "id": "fourth_gentleman",
+    "name": "Fourth Gentleman",
+    "aliases": ["FOURTH GENTLEMAN."],
+    "role": "minor",
+    "description": "A gentleman of Cyprus with a single line during the harbour-watch (2.1).",
+    "color": "#3a8a4a"
+  },
+  {
+    "id": "first_officer",
+    "name": "First Officer",
+    "aliases": ["FIRST OFFICER."],
+    "role": "minor",
+    "description": "An officer attending the Duke's council in Venice, reporting the latest dispatches about the Turkish galleys (1.3).",
+    "color": "#7a7a5a"
+  },
+  {
+    "id": "first_musician",
+    "name": "First Musician",
+    "aliases": ["FIRST MUSICIAN."],
+    "role": "minor",
+    "description": "One of the musicians Cassio brings to play beneath Othello's window the morning after the wedding, dismissed by the Clown (3.1).",
+    "color": "#80807a"
+  },
+  {
+    "id": "sailor",
+    "name": "Sailor",
+    "aliases": ["SAILOR."],
+    "role": "minor",
+    "description": "A sailor who brings word to the Venetian council that the Turkish fleet is bearing for Rhodes, not Cyprus (1.3).",
+    "color": "#5a7a8a"
+  },
+  {
+    "id": "messenger",
+    "name": "Messenger",
+    "aliases": ["MESSENGER."],
+    "role": "minor",
+    "description": "A messenger who reports the movements of the Turkish fleet to the senate (1.3).",
+    "color": "#7a7a7a"
+  },
+  {
+    "id": "herald",
+    "name": "Herald",
+    "aliases": ["HERALD."],
+    "role": "minor",
+    "description": "Othello's herald, who proclaims a night of feasting and bonfires to celebrate the destruction of the Turkish fleet and Othello's marriage (2.2).",
+    "color": "#8a7a6a"
+  },
+  {
+    "id": "gentlemen",
+    "name": "Gentlemen",
+    "aliases": ["GENTLEMEN."],
+    "role": "ensemble",
+    "description": "Gentlemen of Cyprus speaking together.",
+    "color": "#6a7a6a"
+  },
+  {
+    "id": "all",
+    "name": "All",
+    "aliases": ["ALL."],
+    "role": "ensemble",
+    "description": "Several characters speaking together.",
+    "color": "#7a7a7a"
+  },
+  {
+    "id": "duke_and_senators",
+    "name": "Duke and Senators",
+    "aliases": ["DUKE and SENATORS."],
+    "role": "ensemble",
+    "description": "The Duke and the senators of Venice reacting together in the council scene (1.3).",
+    "color": "#8a5a5a"
+  }
+]

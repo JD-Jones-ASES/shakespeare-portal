@@ -1,0 +1,292 @@
+[
+  {
+    "id": "falstaff",
+    "name": "Sir John Falstaff",
+    "aliases": ["FALSTAFF."],
+    "role": "protagonist",
+    "description": "The fat, boastful, perpetually broke knight, here transplanted to middle-class Windsor. Short of money, he sends identical love-letters to two married townswomen, Mistress Ford and Mistress Page, meaning to fleece their husbands' purses. The wives, comparing notes, gull him three times: dumped in a basket of dirty laundry into the Thames, beaten while disguised as the fat woman of Brentford, and finally pinched by mock-fairies at Herne's Oak wearing a buck's horns.",
+    "relationships": [
+      { "other_id": "mrs_ford", "relation": "tries to seduce for money; gulled by" },
+      { "other_id": "mrs_page", "relation": "tries to seduce for money; gulled by" },
+      { "other_id": "ford", "relation": "unknowingly confides his scheme to (disguised as 'Brook')" },
+      { "other_id": "host", "relation": "lodges at the Garter Inn kept by" }
+    ],
+    "color": "#a8893f"
+  },
+  {
+    "id": "mrs_ford",
+    "name": "Mistress Ford",
+    "aliases": ["MRS. FORD."],
+    "role": "major",
+    "description": "One of the two 'merry wives', married to the jealous Ford. Insulted by Falstaff's identical love-letter, she joins Mistress Page to lead him on and humiliate him, while her suspicious husband's spying nearly catches them. Honest and quick-witted, she proves the play's thesis that 'wives may be merry and yet honest too.'",
+    "relationships": [
+      { "other_id": "mrs_page", "relation": "fellow wife and co-conspirator" },
+      { "other_id": "ford", "relation": "wife of, who tests her with jealousy" },
+      { "other_id": "falstaff", "relation": "pretends to entertain, to gull him" }
+    ],
+    "color": "#c75f8a"
+  },
+  {
+    "id": "mrs_page",
+    "name": "Mistress Page",
+    "aliases": ["MRS. PAGE."],
+    "role": "major",
+    "description": "The second 'merry wife', married to the easy-going Page and mother of Anne. With Mistress Ford she devises the gullings of Falstaff. She schemes (against her husband's wishes) to marry Anne to the French Doctor Caius — one of three rival plots for Anne's hand that all misfire in the final fairy masque.",
+    "relationships": [
+      { "other_id": "mrs_ford", "relation": "fellow wife and co-conspirator" },
+      { "other_id": "page", "relation": "wife of" },
+      { "other_id": "anne", "relation": "mother of, whom she would wed to Caius" },
+      { "other_id": "falstaff", "relation": "pretends to entertain, to gull him" }
+    ],
+    "color": "#9a5a9a"
+  },
+  {
+    "id": "ford",
+    "name": "Ford",
+    "aliases": ["FORD."],
+    "role": "major",
+    "description": "Mistress Ford's husband, consumed by jealousy. To catch his wife he disguises himself as a stranger named 'Brook' (Folio) and bribes Falstaff to woo her on his behalf, so Falstaff unknowingly reports the affair to the very husband he is cuckolding. His ransacking of his own house (for Falstaff hidden in the laundry basket) is the comic centre of his jealous folly; he is cured and reconciled by the end.",
+    "relationships": [
+      { "other_id": "mrs_ford", "relation": "husband of, whom he wrongly suspects" },
+      { "other_id": "falstaff", "relation": "dupes while disguised as 'Brook'" },
+      { "other_id": "page", "relation": "neighbour and friend" }
+    ],
+    "color": "#7a5a3a"
+  },
+  {
+    "id": "page",
+    "name": "Page",
+    "aliases": ["PAGE."],
+    "role": "supporting",
+    "description": "Master George Page, a comfortable Windsor citizen, Anne's father and Ford's friend. Unlike Ford he trusts his wife. He favours the foolish Slender as a husband for Anne and plots to marry her to him at the masque — a scheme that, like his wife's, is foiled when Anne weds Fenton.",
+    "relationships": [
+      { "other_id": "mrs_page", "relation": "husband of" },
+      { "other_id": "anne", "relation": "father of, whom he would wed to Slender" },
+      { "other_id": "ford", "relation": "neighbour who counsels against jealousy" }
+    ],
+    "color": "#4f7a8a"
+  },
+  {
+    "id": "evans",
+    "name": "Sir Hugh Evans",
+    "aliases": ["EVANS."],
+    "role": "supporting",
+    "description": "A Welsh parson and schoolmaster whose heavily accented English ('pribbles and prabbles', 'fery good') is a running joke. He tries to arrange Slender's match with Anne, is goaded into a duel with Doctor Caius (which the Host defuses by sending them to different places), examines the boy William in Latin, and leads the children dressed as fairies in the final masque.",
+    "relationships": [
+      { "other_id": "caius", "relation": "rival nearly duelled, then fellow victim of the Host's prank" },
+      { "other_id": "slender", "relation": "promotes as Anne's suitor" },
+      { "other_id": "william", "relation": "schoolmaster who tests his Latin" }
+    ],
+    "color": "#3f8a6a"
+  },
+  {
+    "id": "caius",
+    "name": "Doctor Caius",
+    "aliases": ["CAIUS."],
+    "role": "supporting",
+    "description": "A hot-tempered French physician whose broken English ('by gar', 'vat is de matter') marks him as a comic foreigner. He courts Anne Page with Mistress Page's backing, challenges Parson Evans to a duel over Mistress Quickly's meddling, and at the masque is tricked into eloping with a disguised boy instead of Anne.",
+    "relationships": [
+      { "other_id": "anne", "relation": "unsuccessful suitor of, backed by her mother" },
+      { "other_id": "evans", "relation": "duel rival, then fellow gull of the Host" },
+      { "other_id": "rugby", "relation": "master of" },
+      { "other_id": "quickly", "relation": "employs as his housekeeper" }
+    ],
+    "color": "#8a4a4a"
+  },
+  {
+    "id": "quickly",
+    "name": "Mistress Quickly",
+    "aliases": ["QUICKLY."],
+    "role": "supporting",
+    "description": "Doctor Caius's housekeeper, who cheerfully serves as go-between for all three of Anne's suitors at once, taking fees from each. Good-natured and given to malapropism, she carries the wives' messages to Falstaff and plays the Fairy Queen in the closing masque at Herne's Oak.",
+    "relationships": [
+      { "other_id": "caius", "relation": "housekeeper to" },
+      { "other_id": "anne", "relation": "go-between for Anne's three suitors" }
+    ],
+    "color": "#b06a8a"
+  },
+  {
+    "id": "host",
+    "name": "Host of the Garter",
+    "aliases": ["HOST."],
+    "role": "supporting",
+    "description": "The jovial, slang-slinging keeper of the Garter Inn, where Falstaff lodges. He calls everyone 'bully' and 'my heart of gold', stage-manages the aborted Caius–Evans duel by sending the two combatants to different fields, and is himself cheated of three horses by sham Germans.",
+    "relationships": [
+      { "other_id": "falstaff", "relation": "innkeeper to" },
+      { "other_id": "caius", "relation": "tricks out of his duel" },
+      { "other_id": "evans", "relation": "tricks out of his duel" }
+    ],
+    "color": "#c0862a"
+  },
+  {
+    "id": "shallow",
+    "name": "Justice Shallow",
+    "aliases": ["SHALLOW."],
+    "role": "supporting",
+    "description": "A country justice of the peace, full of his own importance and his ancient coat of arms (the 'luces'/'louses' pun). He comes to Windsor with a grievance against Falstaff and tries to broker a marriage between his dim cousin Slender and Anne Page.",
+    "relationships": [
+      { "other_id": "slender", "relation": "cousin who he pushes as Anne's suitor" },
+      { "other_id": "falstaff", "relation": "complains of being wronged by" },
+      { "other_id": "page", "relation": "ally in the Slender match" }
+    ],
+    "color": "#6a6a4a"
+  },
+  {
+    "id": "slender",
+    "name": "Slender",
+    "aliases": ["SLENDER."],
+    "role": "supporting",
+    "description": "Abraham Slender, Justice Shallow's foolish, bashful young cousin, pushed forward as a suitor to Anne Page. Incapable of wooing for himself ('I had rather than forty shillings I had my Book of Songs and Sonnets here'), he is supposed to carry Anne off at the masque but elopes by mistake with a disguised boy.",
+    "relationships": [
+      { "other_id": "shallow", "relation": "cousin and sponsor" },
+      { "other_id": "anne", "relation": "unsuccessful suitor of, backed by her father" },
+      { "other_id": "simple", "relation": "served by" }
+    ],
+    "color": "#8a8a4a"
+  },
+  {
+    "id": "anne",
+    "name": "Anne Page",
+    "aliases": ["ANNE."],
+    "role": "supporting",
+    "description": "The Pages' marriageable daughter, with a dowry that draws three suitors: Slender (her father's choice), Doctor Caius (her mother's), and Fenton (her own). She quietly outwits both parents, slipping away during the fairy masque to marry Fenton for love.",
+    "relationships": [
+      { "other_id": "fenton", "relation": "loves and secretly weds" },
+      { "other_id": "page", "relation": "daughter of" },
+      { "other_id": "mrs_page", "relation": "daughter of" }
+    ],
+    "color": "#d07a9a"
+  },
+  {
+    "id": "fenton",
+    "name": "Fenton",
+    "aliases": ["FENTON."],
+    "role": "supporting",
+    "description": "A young gentleman of good family, once one of Prince Hal's wild companions, who loves Anne Page (and admits her fortune first drew him). Rejected by both her parents, he wins her by his own scheme at the masque and presents the marriage as a fait accompli.",
+    "relationships": [
+      { "other_id": "anne", "relation": "loves and secretly weds" },
+      { "other_id": "host", "relation": "aided by, in his elopement" }
+    ],
+    "color": "#3f7a6a"
+  },
+  {
+    "id": "pistol",
+    "name": "Pistol",
+    "aliases": ["PISTOL."],
+    "role": "minor",
+    "description": "One of Falstaff's swaggering, bombastic hangers-on. When Falstaff refuses to carry his love-letters, Pistol revenges himself by warning Master Ford that Falstaff aims at his wife. He plays Hobgoblin in the fairy masque.",
+    "relationships": [
+      { "other_id": "falstaff", "relation": "follower who betrays his scheme" }
+    ],
+    "color": "#7a5a6a"
+  },
+  {
+    "id": "nym",
+    "name": "Nym",
+    "aliases": ["NYM."],
+    "role": "minor",
+    "description": "Another of Falstaff's followers, whose catchword is 'humour'. Like Pistol he refuses the letter-carrying errand and betrays Falstaff's designs to Master Page.",
+    "relationships": [
+      { "other_id": "falstaff", "relation": "follower who betrays his scheme" }
+    ],
+    "color": "#6a5a7a"
+  },
+  {
+    "id": "bardolph",
+    "name": "Bardolph",
+    "aliases": ["BARDOLPH."],
+    "role": "minor",
+    "description": "Falstaff's red-faced follower, set up as a tapster (under-bartender) at the Garter Inn. He helps the Host and is suborned to rob Slender of his purse.",
+    "relationships": [
+      { "other_id": "falstaff", "relation": "follower of" },
+      { "other_id": "host", "relation": "made a tapster by" }
+    ],
+    "color": "#9a5a4a"
+  },
+  {
+    "id": "simple",
+    "name": "Simple",
+    "aliases": ["SIMPLE."],
+    "role": "minor",
+    "description": "Slender's dull servant, sent on errands between the suitors and Mistress Quickly, and at one point hidden in Falstaff's chamber to consult the 'wise woman' of Brentford.",
+    "relationships": [
+      { "other_id": "slender", "relation": "servant of" }
+    ],
+    "color": "#7a7a5a"
+  },
+  {
+    "id": "rugby",
+    "name": "Rugby",
+    "aliases": ["RUGBY."],
+    "role": "minor",
+    "description": "Doctor Caius's serving-man, sent to watch for intruders and to carry his master's challenge to Parson Evans.",
+    "relationships": [
+      { "other_id": "caius", "relation": "servant of" }
+    ],
+    "color": "#6a7a6a"
+  },
+  {
+    "id": "robin",
+    "name": "Robin",
+    "aliases": ["ROBIN."],
+    "role": "minor",
+    "description": "Falstaff's young page, lent to Mistress Page as a messenger, who carries notes between the knight and the wives and helps the wives' counter-plot.",
+    "relationships": [
+      { "other_id": "falstaff", "relation": "page of" },
+      { "other_id": "mrs_page", "relation": "lent as a messenger to" }
+    ],
+    "color": "#8a7a4a"
+  },
+  {
+    "id": "william",
+    "name": "William Page",
+    "aliases": ["WILLIAM."],
+    "role": "minor",
+    "description": "The Pages' young son, a schoolboy. In a scene of bawdy double meanings he is examined in his Latin grammar by Parson Evans while Mistress Quickly mishears the Latin as indecent English.",
+    "relationships": [
+      { "other_id": "page", "relation": "son of" },
+      { "other_id": "evans", "relation": "schoolboy of" }
+    ],
+    "color": "#7a8a6a"
+  },
+  {
+    "id": "first_servant",
+    "name": "First Servant",
+    "aliases": ["FIRST SERVANT."],
+    "role": "minor",
+    "description": "One of Ford's servants who carries the buck-basket of dirty laundry (with Falstaff hidden in it) to the Thames.",
+    "color": "#80807a"
+  },
+  {
+    "id": "second_servant",
+    "name": "Second Servant",
+    "aliases": ["SECOND SERVANT."],
+    "role": "minor",
+    "description": "A second servant of Ford's who helps carry the buck-basket.",
+    "color": "#88887a"
+  },
+  {
+    "id": "servant",
+    "name": "Servant",
+    "aliases": ["SERVANT."],
+    "role": "minor",
+    "description": "An unnamed serving-man carrying word between the households.",
+    "color": "#7a7a7a"
+  },
+  {
+    "id": "all",
+    "name": "All",
+    "aliases": ["ALL."],
+    "role": "ensemble",
+    "description": "Several characters speaking together.",
+    "color": "#777777"
+  },
+  {
+    "id": "fairies",
+    "name": "Fairies",
+    "aliases": ["SONG.", "SONG"],
+    "role": "ensemble",
+    "description": "The children and adults disguised as fairies at Herne's Oak, who sing the mock-fairy song 'Fie on sinful fantasy' as they pinch and burn the kneeling Falstaff (5.5).",
+    "color": "#6a8a8a"
+  }
+]

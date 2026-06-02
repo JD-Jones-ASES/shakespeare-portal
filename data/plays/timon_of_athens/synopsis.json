@@ -1,0 +1,53 @@
+{
+  "play": "The Life of Timon of Athens",
+  "overview": "Timon, a rich lord of Athens, is so open-handed — paying friends' debts, dowering servants, showering gifts and feasts — that he believes his bounty has bought him universal love. When his fortune is exhausted and his creditors close in, he sends to the friends he enriched, and every one of them refuses him. Enraged at such ingratitude, Timon gives a last mock-banquet of warm water and stones, curses Athens, and exiles himself to a cave in the wilderness, where he digs for roots and instead finds gold — which he now uses only to fund Athens's enemies and to feed his hatred of mankind. The banished general Alcibiades, wronged by the same ungrateful city, marches on it in a public version of Timon's private rage. Timon dies a misanthrope by the sea; Alcibiades enters Athens to impose a tempered justice. A bleak, satiric tragedy written with Thomas Middleton, drawing on Plutarch and Lucian.",
+  "acts": [
+    {
+      "number": 1,
+      "summary": "Timon's lavish bounty on display: gifts, a dowry, art, and a feast — with Apemantus and the steward looking on.",
+      "scenes": [
+        { "number": 1, "summary": "Poet, Painter, Jeweller, and Merchant gather to sell their wares and flattery to the generous Timon. He pays a debt to free the imprisoned Ventidius and settles money on his servant Lucilius so the youth may marry above his station. The churlish philosopher Apemantus mocks the fawning crowd.", "themes": ["bounty", "flattery", "wealth"] },
+        { "number": 2, "summary": "At a great banquet Ventidius, now rich, offers to repay Timon, who refuses on principle. Apemantus rails at the guests' false friendship. Cupid presents a masque of Amazons; Timon gives extravagant gifts to all. Aside, his steward Flavius despairs that the coffers are empty.", "themes": ["bounty", "flattery", "feasting"] }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "The reckoning: creditors call in their debts and Flavius reveals that Timon is ruined.",
+      "scenes": [
+        { "number": 1, "summary": "A senator, calculating that Timon owes far more than he can pay, sends his servant Caphis to demand immediate repayment before the crash comes.", "themes": ["debt", "money"] },
+        { "number": 2, "summary": "Creditors' servants besiege Timon's gate. Flavius at last makes him understand that he is bankrupt and that his lands are mortgaged. Confident his friends will help as he helped them, Timon sends servants to borrow from Lucullus, Lucius, and Sempronius and to the senators, and counts on Ventidius's repayment. A Fool and Apemantus jest with the duns.", "themes": ["debt", "ingratitude", "friendship"] }
+      ]
+    },
+    {
+      "number": 3,
+      "summary": "Every friend refuses; Alcibiades is banished; Timon curses his guests at a mock-feast and quits Athens.",
+      "scenes": [
+        { "number": 1, "summary": "Timon's servant Flaminius asks Lucullus for a loan; Lucullus refuses and tries to bribe the servant to say he was not at home.", "themes": ["ingratitude", "money"] },
+        { "number": 2, "summary": "Lucius, hearing how shamefully Lucullus refused, loudly declares he never would — then, asked himself, pleads that his money is tied up and refuses too. Strangers marvel at such ingratitude.", "themes": ["ingratitude", "hypocrisy"] },
+        { "number": 3, "summary": "Sempronius refuses as well, affecting offence that he was asked only after the others.", "themes": ["ingratitude", "hypocrisy"] },
+        { "number": 4, "summary": "The creditors' servants crowd Timon's house for payment. Timon rages at them and drives them out, then bids Flavius invite all his false friends to one more feast.", "themes": ["debt", "anger"] },
+        { "number": 5, "summary": "In the Senate, Alcibiades pleads for the life of a soldier-friend condemned for killing a man in hot blood; the senators refuse and, angered by his pressing, banish Alcibiades, who vows to bring his army against the ungrateful city.", "themes": ["justice", "mercy", "banishment"] },
+        { "number": 6, "summary": "At the promised feast the covered dishes hold only warm water and stones. Timon mocks his guests with a bitter grace, pelts them with the stones and water, and drives them out, abandoning Athens.", "themes": ["the_mock_banquet", "ingratitude", "anger"] }
+      ]
+    },
+    {
+      "number": 4,
+      "summary": "Timon curses Athens and turns misanthrope in the woods, where he digs up gold; the faithful steward seeks him out.",
+      "scenes": [
+        { "number": 1, "summary": "Outside the walls Timon delivers a sweeping curse on Athens — wishing every bond of society into chaos — and departs for the wilderness.", "themes": ["misanthropy", "curse"] },
+        { "number": 2, "summary": "Flavius and the dismissed servants lament their master's fall and part; Flavius resolves to find Timon and serve him still, the play's one faithful man.", "themes": ["loyalty", "service"] },
+        { "number": 3, "summary": "Digging for roots, Timon uncovers buried gold and, despising it, uses it only to do harm: he gives it to Alcibiades and his mistresses Phrynia and Timandra to ruin Athens (cursing the women to spread disease there), and to a band of thieves whom he urges to rob the equally thievish world. Apemantus visits and the two trade savage insults over which of them is the truer hater of mankind. Last comes Flavius; Timon weeps at the one honest man, gives him gold, and bids him live far from all others.", "themes": ["misanthropy", "gold", "loyalty"] }
+      ]
+    },
+    {
+      "number": 5,
+      "summary": "Petitioners come to the cave in vain; Timon dies by the sea as Alcibiades brings Athens to terms.",
+      "scenes": [
+        { "number": 1, "summary": "The Poet and Painter come to the cave, hoping the rumour of gold is true; Timon overhears their hypocrisy and drives them off. Two senators beg him to return and lead Athens against Alcibiades; Timon refuses, mockingly offers them a tree on which to hang themselves, and tells them he will soon be dead.", "themes": ["misanthropy", "flattery"] },
+        { "number": 2, "summary": "In Athens the senators learn that Alcibiades is near with his army, and that Timon will not help them.", "themes": ["war", "fear"] },
+        { "number": 3, "summary": "A soldier of Alcibiades finds Timon's tomb by the sea and, unable to read the epitaph, takes an impression of it in wax to carry to his general.", "themes": ["death", "epitaph"] },
+        { "number": 4, "summary": "Alcibiades brings his army before Athens; the senators sue for peace, and he agrees to spare the city and punish only his and Timon's enemies. The soldier brings Timon's epitaph, which Alcibiades reads aloud — a last curse on mankind from beyond the grave — before making peace.", "themes": ["justice", "mercy", "death"] }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6275 @@
+{
+  "play": "othello",
+  "entries": [
+    {
+      "surface": "'fore",
+      "normalized": "'fore",
+      "definition": "before; I swear before",
+      "pos": "preposition"
+    },
+    {
+      "surface": "'gainst",
+      "normalized": "'gainst",
+      "definition": "against",
+      "pos": "preposition"
+    },
+    {
+      "surface": "'las",
+      "normalized": "'las",
+      "definition": "alas; exclamation of sorrow",
+      "pos": "interjection"
+    },
+    {
+      "surface": "'sblood",
+      "normalized": "'sblood",
+      "definition": "oath: 'God's blood'; expression of anger or surprise",
+      "pos": "interjection"
+    },
+    {
+      "surface": "'scap'd",
+      "normalized": "'scap'd",
+      "definition": "escaped",
+      "pos": "verb"
+    },
+    {
+      "surface": "'scuse",
+      "normalized": "'scuse",
+      "definition": "excuse; a pretext offered",
+      "pos": "noun"
+    },
+    {
+      "surface": "'tis",
+      "normalized": "'tis",
+      "definition": "it is",
+      "pos": "contraction"
+    },
+    {
+      "surface": "'twas",
+      "normalized": "'twas",
+      "definition": "it was",
+      "pos": "contraction"
+    },
+    {
+      "surface": "'twere",
+      "normalized": "'twere",
+      "definition": "it were",
+      "pos": "contraction"
+    },
+    {
+      "surface": "'twill",
+      "normalized": "'twill",
+      "definition": "it will",
+      "pos": "contraction"
+    },
+    {
+      "surface": "'twixt",
+      "normalized": "'twixt",
+      "definition": "between",
+      "pos": "preposition"
+    },
+    {
+      "surface": "'twould",
+      "normalized": "'twould",
+      "definition": "it would",
+      "pos": "contraction"
+    },
+    {
+      "surface": "a fig",
+      "normalized": "a fig",
+      "definition": "expression of contempt; worthless nonsense",
+      "pos": "idiom"
+    },
+    {
+      "surface": "a pox of",
+      "normalized": "a pox of",
+      "definition": "a plague on; curse upon (expression of contempt)",
+      "pos": "idiom"
+    },
+    {
+      "surface": "abhor",
+      "normalized": "abhor",
+      "definition": "fill with disgust; cause loathing",
+      "pos": "verb"
+    },
+    {
+      "surface": "abroad",
+      "normalized": "abroad",
+      "definition": "widely spread; current as common rumor; in circulation",
+      "pos": "adverb"
+    },
+    {
+      "surface": "abus'd",
+      "normalized": "abus'd",
+      "definition": "deceived; cheated; wronged",
+      "pos": "verb"
+    },
+    {
+      "surface": "abuse",
+      "normalized": "abuse",
+      "definition": "deceive; lead astray; mislead",
+      "pos": "verb"
+    },
+    {
+      "surface": "abused",
+      "normalized": "abused",
+      "definition": "deceived; wronged; corrupted",
+      "pos": "verb"
+    },
+    {
+      "surface": "accountant",
+      "normalized": "accountant",
+      "definition": "accountable; answerable; responsible",
+      "pos": "adjective"
+    },
+    {
+      "surface": "acerb",
+      "normalized": "acerb",
+      "definition": "bitter; sour; harsh to the taste",
+      "pos": "adjective"
+    },
+    {
+      "surface": "act upon the blood",
+      "normalized": "act upon the blood",
+      "definition": "work on the passions; stir the emotions",
+      "pos": "noun phrase"
+    },
+    {
+      "surface": "addiction",
+      "normalized": "addiction",
+      "definition": "inclination; preference; desire",
+      "pos": "noun"
+    },
+    {
+      "surface": "addition",
+      "normalized": "addition",
+      "definition": "title; honorific rank or name given to someone",
+      "pos": "noun"
+    },
+    {
+      "surface": "advantage",
+      "normalized": "advantage",
+      "definition": "opportunity; fortunate chance",
+      "pos": "noun"
+    },
+    {
+      "surface": "advocation",
+      "normalized": "advocation",
+      "definition": "advocacy; pleading on someone's behalf",
+      "pos": "noun"
+    },
+    {
+      "surface": "affect",
+      "normalized": "affect",
+      "definition": "desire; be drawn to; prefer",
+      "pos": "verb"
+    },
+    {
+      "surface": "affection",
+      "normalized": "affection",
+      "definition": "desire; inclination; emotional appetite",
+      "pos": "noun"
+    },
+    {
+      "surface": "affects",
+      "normalized": "affects",
+      "definition": "passions; desires; inclinations",
+      "pos": "noun"
+    },
+    {
+      "surface": "affin'd",
+      "normalized": "affin'd",
+      "definition": "bound by obligation; obligated",
+      "pos": "adjective"
+    },
+    {
+      "surface": "affinity",
+      "normalized": "affinity",
+      "definition": "family connections; kinship ties",
+      "pos": "noun"
+    },
+    {
+      "surface": "afore",
+      "normalized": "afore",
+      "definition": "ahead; in front; before (me)",
+      "pos": "adverb"
+    },
+    {
+      "surface": "agnize",
+      "normalized": "agnize",
+      "definition": "acknowledge; recognize in oneself",
+      "pos": "verb"
+    },
+    {
+      "surface": "aim",
+      "normalized": "aim",
+      "definition": "estimate; rough reckoning; intelligence report",
+      "pos": "noun"
+    },
+    {
+      "surface": "alabaster",
+      "normalized": "alabaster",
+      "definition": "smooth white stone used for sculpted tombs",
+      "pos": "noun"
+    },
+    {
+      "surface": "alacrity",
+      "normalized": "alacrity",
+      "definition": "eager readiness; brisk willingness",
+      "pos": "noun"
+    },
+    {
+      "surface": "albeit",
+      "normalized": "albeit",
+      "definition": "although; even though",
+      "pos": "conjunction"
+    },
+    {
+      "surface": "allowance",
+      "normalized": "allowance",
+      "definition": "approval; sanction; permission",
+      "pos": "noun"
+    },
+    {
+      "surface": "almain",
+      "normalized": "almain",
+      "definition": "a German (archaic word for German)",
+      "pos": "noun"
+    },
+    {
+      "surface": "alteration",
+      "normalized": "alteration",
+      "definition": "change; upheaval; extraordinary event",
+      "pos": "noun"
+    },
+    {
+      "surface": "amiable",
+      "normalized": "amiable",
+      "definition": "lovable; worthy of being loved; attractive",
+      "pos": "adjective"
+    },
+    {
+      "surface": "ancient",
+      "normalized": "ancient",
+      "definition": "ensign; standard-bearer; junior officer",
+      "pos": "noun"
+    },
+    {
+      "surface": "anon",
+      "normalized": "anon",
+      "definition": "very soon; shortly",
+      "pos": "adverb"
+    },
+    {
+      "surface": "antique",
+      "normalized": "antique",
+      "definition": "ancient; of great age; heirloom",
+      "pos": "adjective"
+    },
+    {
+      "surface": "antres",
+      "normalized": "antres",
+      "definition": "caves; caverns",
+      "pos": "noun"
+    },
+    {
+      "surface": "appetite",
+      "normalized": "appetite",
+      "definition": "desire; will; craving",
+      "pos": "noun"
+    },
+    {
+      "surface": "apprehend",
+      "normalized": "apprehend",
+      "definition": "arrest; seize; take into custody",
+      "pos": "verb"
+    },
+    {
+      "surface": "apprehensions",
+      "normalized": "apprehensions",
+      "definition": "thoughts; mental impressions; notions",
+      "pos": "noun"
+    },
+    {
+      "surface": "approv'd allowance",
+      "normalized": "approv'd allowance",
+      "definition": "proven, tested competence",
+      "pos": "phrase"
+    },
+    {
+      "surface": "approv'd in this offense",
+      "normalized": "approv'd in this offense",
+      "definition": "proven guilty of this wrongdoing",
+      "pos": "phrase"
+    },
+    {
+      "surface": "approved",
+      "normalized": "approved",
+      "definition": "proved; confirmed; found to be true",
+      "pos": "adjective"
+    },
+    {
+      "surface": "apt",
+      "normalized": "apt",
+      "definition": "ready; willing; naturally inclined",
+      "pos": "adjective"
+    },
+    {
+      "surface": "arch-mock",
+      "normalized": "arch-mock",
+      "definition": "supreme mockery; the greatest trick of derision",
+      "pos": "noun"
+    },
+    {
+      "surface": "arithmetician",
+      "normalized": "arithmetician",
+      "definition": "one skilled only in numbers; theorist, not a fighter",
+      "pos": "noun"
+    },
+    {
+      "surface": "arraigning",
+      "normalized": "arraigning",
+      "definition": "accusing formally; putting on trial in the mind",
+      "pos": "verb"
+    },
+    {
+      "surface": "arrivance",
+      "normalized": "arrivance",
+      "definition": "arrival; the coming of vessels",
+      "pos": "noun"
+    },
+    {
+      "surface": "art",
+      "normalized": "art",
+      "definition": "are (second-person singular)",
+      "pos": "verb"
+    },
+    {
+      "surface": "article",
+      "normalized": "article",
+      "definition": "particular point; specific detail",
+      "pos": "noun"
+    },
+    {
+      "surface": "arts inhibited",
+      "normalized": "arts inhibited",
+      "definition": "forbidden practices; outlawed magic arts",
+      "pos": "noun phrase"
+    },
+    {
+      "surface": "aspics'",
+      "normalized": "aspics'",
+      "definition": "asps'; belonging to the asp (a deadly snake)",
+      "pos": "adjective"
+    },
+    {
+      "surface": "assay",
+      "normalized": "assay",
+      "definition": "try; attempt; put to the test",
+      "pos": "verb"
+    },
+    {
+      "surface": "assays",
+      "normalized": "assays",
+      "definition": "attempts; tries; strives",
+      "pos": "verb"
+    },
+    {
+      "surface": "assur'd",
+      "normalized": "assur'd",
+      "definition": "assured; certain",
+      "pos": "adjective"
+    },
+    {
+      "surface": "atone",
+      "normalized": "atone",
+      "definition": "reconcile; bring into harmony again; make at one",
+      "pos": "verb"
+    },
+    {
+      "surface": "attach",
+      "normalized": "attach",
+      "definition": "arrest; seize by legal authority",
+      "pos": "verb"
+    },
+    {
+      "surface": "attend",
+      "normalized": "attend",
+      "definition": "wait; await; are waiting for",
+      "pos": "verb"
+    },
+    {
+      "surface": "aught",
+      "normalized": "aught",
+      "definition": "anything",
+      "pos": "pronoun"
+    },
+    {
+      "surface": "auld",
+      "normalized": "auld",
+      "definition": "old (Scottish/northern dialect form)",
+      "pos": "adjective"
+    },
+    {
+      "surface": "avaunt",
+      "normalized": "avaunt",
+      "definition": "begone; go away at once (command)",
+      "pos": "interjection"
+    },
+    {
+      "surface": "balmy",
+      "normalized": "balmy",
+      "definition": "fragrant; soothing; sweet-smelling",
+      "pos": "adjective"
+    },
+    {
+      "surface": "bare",
+      "normalized": "bare",
+      "definition": "unsheathed; drawn",
+      "pos": "adjective"
+    },
+    {
+      "surface": "bark",
+      "normalized": "bark",
+      "definition": "a sailing vessel; a ship",
+      "pos": "noun"
+    },
+    {
+      "surface": "base",
+      "normalized": "base",
+      "definition": "low-born; of common rank",
+      "pos": "adjective"
+    },
+    {
+      "surface": "base men",
+      "normalized": "base men",
+      "definition": "low-born men; men of low social rank",
+      "pos": "phrase"
+    },
+    {
+      "surface": "baseness",
+      "normalized": "baseness",
+      "definition": "low instincts; ignoble impulses",
+      "pos": "noun"
+    },
+    {
+      "surface": "bauble",
+      "normalized": "bauble",
+      "definition": "trinket; worthless trifle; here contemptuous for a person",
+      "pos": "noun"
+    },
+    {
+      "surface": "bawd",
+      "normalized": "bawd",
+      "definition": "procurer; keeper of a brothel; go-between for sex",
+      "pos": "noun"
+    },
+    {
+      "surface": "bawdy",
+      "normalized": "bawdy",
+      "definition": "sexually coarse; licentious",
+      "pos": "adjective"
+    },
+    {
+      "surface": "be advis'd",
+      "normalized": "be advis'd",
+      "definition": "be warned; take care; be on your guard",
+      "pos": "idiom"
+    },
+    {
+      "surface": "be not acknown on't",
+      "normalized": "be not acknown on't",
+      "definition": "pretend you know nothing about it",
+      "pos": "verb phrase"
+    },
+    {
+      "surface": "be'st",
+      "normalized": "be'st",
+      "definition": "you are (thou art)",
+      "pos": "verb"
+    },
+    {
+      "surface": "bearing up",
+      "normalized": "bearing up",
+      "definition": "sailing toward; heading for (nautical)",
+      "pos": "idiom"
+    },
+    {
+      "surface": "befall'n",
+      "normalized": "befall'n",
+      "definition": "happened; come to pass",
+      "pos": "verb"
+    },
+    {
+      "surface": "beguil'd",
+      "normalized": "beguil'd",
+      "definition": "deceived; tricked",
+      "pos": "verb"
+    },
+    {
+      "surface": "beguile",
+      "normalized": "beguile",
+      "definition": "deceive; trick; charm into foolishness",
+      "pos": "verb"
+    },
+    {
+      "surface": "beguile her of her tears",
+      "normalized": "beguile her of her tears",
+      "definition": "draw her tears out; steal her tears away",
+      "pos": "idiom"
+    },
+    {
+      "surface": "beguiled",
+      "normalized": "beguiled",
+      "definition": "cheated; deceived; robbed by trickery",
+      "pos": "verb"
+    },
+    {
+      "surface": "behold",
+      "normalized": "behold",
+      "definition": "look; see",
+      "pos": "verb"
+    },
+    {
+      "surface": "belee'd",
+      "normalized": "belee'd",
+      "definition": "placed on the sheltered side of wind; blocked, becalmed",
+      "pos": "verb"
+    },
+    {
+      "surface": "belie",
+      "normalized": "belie",
+      "definition": "slander; speak falsely about",
+      "pos": "verb"
+    },
+    {
+      "surface": "belike",
+      "normalized": "belike",
+      "definition": "probably; it seems likely that",
+      "pos": "adverb"
+    },
+    {
+      "surface": "bereft",
+      "normalized": "bereft",
+      "definition": "deprived; taken away from",
+      "pos": "verb"
+    },
+    {
+      "surface": "beseech",
+      "normalized": "beseech",
+      "definition": "beg; earnestly ask",
+      "pos": "verb"
+    },
+    {
+      "surface": "beshrew",
+      "normalized": "beshrew",
+      "definition": "curse (mild imprecation); a pox on",
+      "pos": "verb"
+    },
+    {
+      "surface": "beshrew me",
+      "normalized": "beshrew me",
+      "definition": "a mild self-reproving oath: 'shame on me'",
+      "pos": "interjection"
+    },
+    {
+      "surface": "besort",
+      "normalized": "besort",
+      "definition": "fitting company; suitable attendants",
+      "pos": "noun"
+    },
+    {
+      "surface": "bestow't",
+      "normalized": "bestow't",
+      "definition": "bestow it; give it away",
+      "pos": "contraction"
+    },
+    {
+      "surface": "bestows",
+      "normalized": "bestows",
+      "definition": "gives; spends; lavishes",
+      "pos": "verb"
+    },
+    {
+      "surface": "bethink yourself",
+      "normalized": "bethink yourself",
+      "definition": "call to mind; consider; reflect upon",
+      "pos": "phrase"
+    },
+    {
+      "surface": "betimes",
+      "normalized": "betimes",
+      "definition": "early; in good time; before long",
+      "pos": "adverb"
+    },
+    {
+      "surface": "bewhor'd",
+      "normalized": "bewhor'd",
+      "definition": "called a whore; defamed as a prostitute",
+      "pos": "verb"
+    },
+    {
+      "surface": "billeted",
+      "normalized": "billeted",
+      "definition": "lodged; quartered; assigned quarters",
+      "pos": "verb"
+    },
+    {
+      "surface": "billow",
+      "normalized": "billow",
+      "definition": "a large wave or surge of the sea",
+      "pos": "noun"
+    },
+    {
+      "surface": "birdlime",
+      "normalized": "birdlime",
+      "definition": "sticky substance smeared on branches to catch birds",
+      "pos": "noun"
+    },
+    {
+      "surface": "blab",
+      "normalized": "blab",
+      "definition": "talk indiscreetly; reveal secrets",
+      "pos": "verb"
+    },
+    {
+      "surface": "black",
+      "normalized": "black",
+      "definition": "dark-complexioned; dark-haired; here: morally dark",
+      "pos": "adjective"
+    },
+    {
+      "surface": "blank",
+      "normalized": "blank",
+      "definition": "the target's centre; full force of aimed displeasure",
+      "pos": "noun"
+    },
+    {
+      "surface": "blazoning",
+      "normalized": "blazoning",
+      "definition": "praising in ornate or extravagant language",
+      "pos": "adjective"
+    },
+    {
+      "surface": "blood",
+      "normalized": "blood",
+      "definition": "passion; hot emotion; carnal desire",
+      "pos": "noun"
+    },
+    {
+      "surface": "bloody accidents",
+      "normalized": "bloody accidents",
+      "definition": "violent events; bloody emergencies",
+      "pos": "phrase"
+    },
+    {
+      "surface": "blotted",
+      "normalized": "blotted",
+      "definition": "wiped out; erased from memory",
+      "pos": "verb"
+    },
+    {
+      "surface": "blown",
+      "normalized": "blown",
+      "definition": "fly-blown; tainted; inflated",
+      "pos": "adjective"
+    },
+    {
+      "surface": "board",
+      "normalized": "board",
+      "definition": "table; specifically the dinner table",
+      "pos": "noun"
+    },
+    {
+      "surface": "bobb'd",
+      "normalized": "bobb'd",
+      "definition": "cheated; swindled; tricked out of",
+      "pos": "verb"
+    },
+    {
+      "surface": "bode",
+      "normalized": "bode",
+      "definition": "be an omen of; foretell; predict",
+      "pos": "verb"
+    },
+    {
+      "surface": "boding",
+      "normalized": "boding",
+      "definition": "foretelling evil; ominous",
+      "pos": "adjective"
+    },
+    {
+      "surface": "bold cure",
+      "normalized": "bold cure",
+      "definition": "confident prospect of good outcome",
+      "pos": "phrase"
+    },
+    {
+      "surface": "bolster",
+      "normalized": "bolster",
+      "definition": "share a bolster (pillow); lie in bed together",
+      "pos": "verb"
+    },
+    {
+      "surface": "bookish",
+      "normalized": "bookish",
+      "definition": "learned only from books; lacking practical experience",
+      "pos": "adjective"
+    },
+    {
+      "surface": "boon",
+      "normalized": "boon",
+      "definition": "a special favor or gift requested",
+      "pos": "noun"
+    },
+    {
+      "surface": "bootless",
+      "normalized": "bootless",
+      "definition": "useless; profitless; unavailing",
+      "pos": "adjective"
+    },
+    {
+      "surface": "bosom",
+      "normalized": "bosom",
+      "definition": "heart; innermost mind or feeling",
+      "pos": "noun"
+    },
+    {
+      "surface": "bound to speak",
+      "normalized": "bound to speak",
+      "definition": "obliged to speak; duty-bound to tell the truth",
+      "pos": "phrase"
+    },
+    {
+      "surface": "bounteous",
+      "normalized": "bounteous",
+      "definition": "generous; liberal; freely giving",
+      "pos": "adjective"
+    },
+    {
+      "surface": "brace",
+      "normalized": "brace",
+      "definition": "a pair; two",
+      "pos": "noun"
+    },
+    {
+      "surface": "bravery",
+      "normalized": "bravery",
+      "definition": "bravado; defiant insolence (not courage)",
+      "pos": "noun"
+    },
+    {
+      "surface": "breach",
+      "normalized": "breach",
+      "definition": "rift; break in a relationship; quarrel",
+      "pos": "noun"
+    },
+    {
+      "surface": "breathe my censure",
+      "normalized": "breathe my censure",
+      "definition": "voice my judgment; utter my opinion openly",
+      "pos": "phrase"
+    },
+    {
+      "surface": "breeding",
+      "normalized": "breeding",
+      "definition": "upbringing; education; good manners",
+      "pos": "noun"
+    },
+    {
+      "surface": "bridal",
+      "normalized": "bridal",
+      "definition": "the early period of marriage; honeymoon behaviour",
+      "pos": "noun"
+    },
+    {
+      "surface": "broil",
+      "normalized": "broil",
+      "definition": "battle; noisy armed conflict",
+      "pos": "noun"
+    },
+    {
+      "surface": "bulk",
+      "normalized": "bulk",
+      "definition": "projecting stall or framework outside a shop front",
+      "pos": "noun"
+    },
+    {
+      "surface": "bumbast",
+      "normalized": "bumbast",
+      "definition": "bombastic; inflated, padded language (bumbast = stuffing)",
+      "pos": "adjective"
+    },
+    {
+      "surface": "butt",
+      "normalized": "butt",
+      "definition": "final limit; target; destination; end point",
+      "pos": "noun"
+    },
+    {
+      "surface": "by and by",
+      "normalized": "by and by",
+      "definition": "very soon; in just a moment",
+      "pos": "adverb"
+    },
+    {
+      "surface": "by the mass",
+      "normalized": "by the mass",
+      "definition": "a mild oath swearing by the Catholic Mass",
+      "pos": "interjection"
+    },
+    {
+      "surface": "cable",
+      "normalized": "cable",
+      "definition": "scope; latitude; room to act (nautical image)",
+      "pos": "noun"
+    },
+    {
+      "surface": "caitiff",
+      "normalized": "caitiff",
+      "definition": "villain; wretch; base coward",
+      "pos": "noun"
+    },
+    {
+      "surface": "callet",
+      "normalized": "callet",
+      "definition": "prostitute; low or disreputable woman",
+      "pos": "noun"
+    },
+    {
+      "surface": "canakin",
+      "normalized": "canakin",
+      "definition": "a small drinking can or cup",
+      "pos": "noun"
+    },
+    {
+      "surface": "canst",
+      "normalized": "canst",
+      "definition": "can (second-person singular)",
+      "pos": "verb"
+    },
+    {
+      "surface": "capable",
+      "normalized": "capable",
+      "definition": "comprehensive; all-encompassing; sweeping",
+      "pos": "adjective"
+    },
+    {
+      "surface": "carack",
+      "normalized": "carack",
+      "definition": "large merchant ship; galleon (a prize cargo vessel)",
+      "pos": "noun"
+    },
+    {
+      "surface": "carous'd",
+      "normalized": "carous'd",
+      "definition": "drank deeply; toasted freely; reveled",
+      "pos": "verb"
+    },
+    {
+      "surface": "carve for his own rage",
+      "normalized": "carve for his own rage",
+      "definition": "act solely on his anger; satisfy his fury",
+      "pos": "phrase"
+    },
+    {
+      "surface": "cashier'd",
+      "normalized": "cashier'd",
+      "definition": "dismissed from service; discharged",
+      "pos": "verb"
+    },
+    {
+      "surface": "cast",
+      "normalized": "cast",
+      "definition": "dismiss; discharge from office",
+      "pos": "verb"
+    },
+    {
+      "surface": "cast in his mood",
+      "normalized": "cast in his mood",
+      "definition": "dismissed in a fit of anger; sacked while he was angry",
+      "pos": "phrase"
+    },
+    {
+      "surface": "castigation",
+      "normalized": "castigation",
+      "definition": "severe discipline; correction; chastisement",
+      "pos": "noun"
+    },
+    {
+      "surface": "catechize",
+      "normalized": "catechize",
+      "definition": "question systematically; interrogate by asking",
+      "pos": "verb"
+    },
+    {
+      "surface": "censure",
+      "normalized": "censure",
+      "definition": "judgment; opinion; critical assessment",
+      "pos": "noun"
+    },
+    {
+      "surface": "certes",
+      "normalized": "certes",
+      "definition": "certainly; in truth",
+      "pos": "adverb"
+    },
+    {
+      "surface": "chamberers",
+      "normalized": "chamberers",
+      "definition": "men who idle in ladies' chambers; gallants; courtiers",
+      "pos": "noun"
+    },
+    {
+      "surface": "chaos",
+      "normalized": "chaos",
+      "definition": "the void of disorder before creation",
+      "pos": "noun"
+    },
+    {
+      "surface": "charm your tongue",
+      "normalized": "charm your tongue",
+      "definition": "silence yourself; hold your tongue",
+      "pos": "phrase"
+    },
+    {
+      "surface": "charmer",
+      "normalized": "charmer",
+      "definition": "a sorceress; one who works magic charms",
+      "pos": "noun"
+    },
+    {
+      "surface": "charms",
+      "normalized": "charms",
+      "definition": "magic spells; enchantments",
+      "pos": "noun"
+    },
+    {
+      "surface": "charter",
+      "normalized": "charter",
+      "definition": "right; license; formal permission",
+      "pos": "noun"
+    },
+    {
+      "surface": "chaste",
+      "normalized": "chaste",
+      "definition": "sexually pure; faithful; virtuous",
+      "pos": "adjective"
+    },
+    {
+      "surface": "check",
+      "normalized": "check",
+      "definition": "rebuff; thwart; stop here",
+      "pos": "noun"
+    },
+    {
+      "surface": "checks",
+      "normalized": "checks",
+      "definition": "rebukes; sharp scolding words",
+      "pos": "noun"
+    },
+    {
+      "surface": "cherubin",
+      "normalized": "cherubin",
+      "definition": "cherub; an angelic being associated with innocence",
+      "pos": "noun"
+    },
+    {
+      "surface": "chidden",
+      "normalized": "chidden",
+      "definition": "driven; scolded; beaten back (here: driven by wind)",
+      "pos": "adjective"
+    },
+    {
+      "surface": "chide",
+      "normalized": "chide",
+      "definition": "scold; rebuke; find fault with",
+      "pos": "verb"
+    },
+    {
+      "surface": "choler",
+      "normalized": "choler",
+      "definition": "anger; rage (one of the four humors)",
+      "pos": "noun"
+    },
+    {
+      "surface": "chronicle small beer",
+      "normalized": "chronicle small beer",
+      "definition": "keep trivial household accounts; concern herself with trifles",
+      "pos": "phrase"
+    },
+    {
+      "surface": "chrysolite",
+      "normalized": "chrysolite",
+      "definition": "precious greenish-gold gemstone (topaz or peridot)",
+      "pos": "noun"
+    },
+    {
+      "surface": "chuck",
+      "normalized": "chuck",
+      "definition": "darling; a term of endearment",
+      "pos": "noun"
+    },
+    {
+      "surface": "circumscription",
+      "normalized": "circumscription",
+      "definition": "confinement; restriction; limitation",
+      "pos": "noun"
+    },
+    {
+      "surface": "circumstanc'd",
+      "normalized": "circumstanc'd",
+      "definition": "governed by circumstances; bound to accept what is offered",
+      "pos": "adjective"
+    },
+    {
+      "surface": "circumstance",
+      "normalized": "circumstance",
+      "definition": "chance events; shifting conditions",
+      "pos": "noun"
+    },
+    {
+      "surface": "cistern",
+      "normalized": "cistern",
+      "definition": "tank for holding water; foul stagnant pool",
+      "pos": "noun"
+    },
+    {
+      "surface": "civil",
+      "normalized": "civil",
+      "definition": "urban; living in civilized society (ironic here)",
+      "pos": "adjective"
+    },
+    {
+      "surface": "clime",
+      "normalized": "clime",
+      "definition": "climate; region; country",
+      "pos": "noun"
+    },
+    {
+      "surface": "clip",
+      "normalized": "clip",
+      "definition": "embrace; encircle; surround",
+      "pos": "verb"
+    },
+    {
+      "surface": "clogs",
+      "normalized": "clogs",
+      "definition": "wooden blocks tied to restrain movement; fetters",
+      "pos": "noun"
+    },
+    {
+      "surface": "close delations",
+      "normalized": "close delations",
+      "definition": "hidden accusations working inwardly",
+      "pos": "noun phrase"
+    },
+    {
+      "surface": "close prisoner",
+      "normalized": "close prisoner",
+      "definition": "prisoner held in strict confinement",
+      "pos": "phrase"
+    },
+    {
+      "surface": "clyster-pipes",
+      "normalized": "clyster-pipes",
+      "definition": "enema tubes; a crude insult about Cassio's fingers",
+      "pos": "noun"
+    },
+    {
+      "surface": "coffers",
+      "normalized": "coffers",
+      "definition": "strongboxes; trunks for valuables",
+      "pos": "noun"
+    },
+    {
+      "surface": "cogging",
+      "normalized": "cogging",
+      "definition": "cheating; deceiving; using fraudulent tricks",
+      "pos": "adjective"
+    },
+    {
+      "surface": "collied",
+      "normalized": "collied",
+      "definition": "darkened; smudged like coal; obscured",
+      "pos": "adjective"
+    },
+    {
+      "surface": "coloquintida",
+      "normalized": "coloquintida",
+      "definition": "colocynth; bitter apple; a purgative plant",
+      "pos": "noun"
+    },
+    {
+      "surface": "common thing",
+      "normalized": "common thing",
+      "definition": "something widely shared; bawdy pun on 'common' woman",
+      "pos": "noun phrase"
+    },
+    {
+      "surface": "commoner",
+      "normalized": "commoner",
+      "definition": "prostitute; woman available to all (bawdy sense)",
+      "pos": "noun"
+    },
+    {
+      "surface": "companions",
+      "normalized": "companions",
+      "definition": "rascals; base fellows (contemptuous term)",
+      "pos": "noun"
+    },
+    {
+      "surface": "compass",
+      "normalized": "compass",
+      "definition": "achieve; accomplish; attain",
+      "pos": "verb"
+    },
+    {
+      "surface": "compasses",
+      "normalized": "compasses",
+      "definition": "circuits; annual revolutions of the sun (one year each)",
+      "pos": "noun"
+    },
+    {
+      "surface": "compassing",
+      "normalized": "compassing",
+      "definition": "achieving; gaining; going about to obtain",
+      "pos": "verb"
+    },
+    {
+      "surface": "complement extern",
+      "normalized": "complement extern",
+      "definition": "outward show; external display of feeling",
+      "pos": "noun phrase"
+    },
+    {
+      "surface": "complexion",
+      "normalized": "complexion",
+      "definition": "natural makeup; temperament; skin colour",
+      "pos": "noun"
+    },
+    {
+      "surface": "comply with heat",
+      "normalized": "comply with heat",
+      "definition": "yield to sexual passion; indulge carnal appetite",
+      "pos": "idiom"
+    },
+    {
+      "surface": "composition",
+      "normalized": "composition",
+      "definition": "consistency; agreement; coherence",
+      "pos": "noun"
+    },
+    {
+      "surface": "compt",
+      "normalized": "compt",
+      "definition": "the Last Judgement; the final accounting",
+      "pos": "noun"
+    },
+    {
+      "surface": "compulsive",
+      "normalized": "compulsive",
+      "definition": "forcing; irresistible; driven by inner compulsion",
+      "pos": "adjective"
+    },
+    {
+      "surface": "conceit",
+      "normalized": "conceit",
+      "definition": "thought; idea; notion (often dark or obsessive)",
+      "pos": "noun"
+    },
+    {
+      "surface": "conceits",
+      "normalized": "conceits",
+      "definition": "notions; fancies; mental images",
+      "pos": "noun"
+    },
+    {
+      "surface": "conception",
+      "normalized": "conception",
+      "definition": "firm belief; conviction; settled idea",
+      "pos": "noun"
+    },
+    {
+      "surface": "conjunctive",
+      "normalized": "conjunctive",
+      "definition": "united; joined together; acting in concert",
+      "pos": "adjective"
+    },
+    {
+      "surface": "conjur'd",
+      "normalized": "conjur'd",
+      "definition": "solemnly charged; bound by a sacred oath or spell",
+      "pos": "verb"
+    },
+    {
+      "surface": "conjuration",
+      "normalized": "conjuration",
+      "definition": "magic spell; solemn appeal to supernatural powers",
+      "pos": "noun"
+    },
+    {
+      "surface": "conscience",
+      "normalized": "conscience",
+      "definition": "moral sense; inward knowledge; awareness",
+      "pos": "noun"
+    },
+    {
+      "surface": "conscionable",
+      "normalized": "conscionable",
+      "definition": "guided by conscience; scrupulous",
+      "pos": "adjective"
+    },
+    {
+      "surface": "consecrate",
+      "normalized": "consecrate",
+      "definition": "dedicate wholly; devote solemnly",
+      "pos": "verb"
+    },
+    {
+      "surface": "consent",
+      "normalized": "consent",
+      "definition": "agreed; conspired together",
+      "pos": "verb"
+    },
+    {
+      "surface": "conserv'd",
+      "normalized": "conserv'd",
+      "definition": "prepared and preserved; kept by special treatment",
+      "pos": "verb"
+    },
+    {
+      "surface": "construe",
+      "normalized": "construe",
+      "definition": "interpret; read the meaning of",
+      "pos": "verb"
+    },
+    {
+      "surface": "contaminated",
+      "normalized": "contaminated",
+      "definition": "defiled; made impure by sin",
+      "pos": "adjective"
+    },
+    {
+      "surface": "content",
+      "normalized": "content",
+      "definition": "be patient; restrain yourself; calm down",
+      "pos": "verb"
+    },
+    {
+      "surface": "continuate",
+      "normalized": "continuate",
+      "definition": "continuous; uninterrupted; at leisure",
+      "pos": "adjective"
+    },
+    {
+      "surface": "conveniences",
+      "normalized": "conveniences",
+      "definition": "fitting qualities; suitable attributes",
+      "pos": "noun"
+    },
+    {
+      "surface": "conveniency",
+      "normalized": "conveniency",
+      "definition": "opportunity; favorable occasion or advantage",
+      "pos": "noun"
+    },
+    {
+      "surface": "converse",
+      "normalized": "converse",
+      "definition": "conversation; talk; dealings",
+      "pos": "noun"
+    },
+    {
+      "surface": "conveyance",
+      "normalized": "conveyance",
+      "definition": "escort; safe conduct; management of transport",
+      "pos": "noun"
+    },
+    {
+      "surface": "convinced",
+      "normalized": "convinced",
+      "definition": "overcome; seduced; prevailed upon",
+      "pos": "verb"
+    },
+    {
+      "surface": "cope",
+      "normalized": "cope",
+      "definition": "have sexual intercourse with; encounter intimately",
+      "pos": "verb"
+    },
+    {
+      "surface": "corrigible",
+      "normalized": "corrigible",
+      "definition": "corrective; able to correct and govern",
+      "pos": "adjective"
+    },
+    {
+      "surface": "couch",
+      "normalized": "couch",
+      "definition": "lie down; go to bed (sexual euphemism here)",
+      "pos": "verb"
+    },
+    {
+      "surface": "counter-caster",
+      "normalized": "counter-caster",
+      "definition": "bookkeeper who counts on a counting board; bean-counter",
+      "pos": "noun"
+    },
+    {
+      "surface": "counterfeit",
+      "normalized": "counterfeit",
+      "definition": "imitate; copy; reproduce the sound of",
+      "pos": "verb"
+    },
+    {
+      "surface": "counterfeit advantages",
+      "normalized": "counterfeit advantages",
+      "definition": "fabricate opportunities that do not really exist",
+      "pos": "phrase"
+    },
+    {
+      "surface": "counterfeits",
+      "normalized": "counterfeits",
+      "definition": "false alarms; imposters; fakes",
+      "pos": "noun"
+    },
+    {
+      "surface": "coursers",
+      "normalized": "coursers",
+      "definition": "swift horses; warhorses",
+      "pos": "noun"
+    },
+    {
+      "surface": "courses",
+      "normalized": "courses",
+      "definition": "actions; line of conduct; behavior over time",
+      "pos": "noun"
+    },
+    {
+      "surface": "court of guard",
+      "normalized": "court of guard",
+      "definition": "guardhouse; place where the watch is kept",
+      "pos": "noun"
+    },
+    {
+      "surface": "courtship",
+      "normalized": "courtship",
+      "definition": "courtly manners; gallant behavior toward ladies",
+      "pos": "noun"
+    },
+    {
+      "surface": "coxcomb",
+      "normalized": "coxcomb",
+      "definition": "fool; vain idiot (from a jester's cap)",
+      "pos": "noun"
+    },
+    {
+      "surface": "cozening",
+      "normalized": "cozening",
+      "definition": "swindling; cheating by deception",
+      "pos": "adjective"
+    },
+    {
+      "surface": "craftily qualified",
+      "normalized": "craftily qualified",
+      "definition": "cleverly diluted; mixed to reduce strength",
+      "pos": "phrase"
+    },
+    {
+      "surface": "credulous",
+      "normalized": "credulous",
+      "definition": "too easily believing; gullible",
+      "pos": "adjective"
+    },
+    {
+      "surface": "cries on",
+      "normalized": "cries on",
+      "definition": "cries out about; raises the alarm of",
+      "pos": "phrase"
+    },
+    {
+      "surface": "critical",
+      "normalized": "critical",
+      "definition": "fault-finding; censorious; sharp in judgment",
+      "pos": "adjective"
+    },
+    {
+      "surface": "crusadoes",
+      "normalized": "crusadoes",
+      "definition": "Portuguese gold coins; a sum of money",
+      "pos": "noun"
+    },
+    {
+      "surface": "cry you mercy",
+      "normalized": "cry you mercy",
+      "definition": "I beg your pardon; forgive me",
+      "pos": "phrase"
+    },
+    {
+      "surface": "cuckold",
+      "normalized": "cuckold",
+      "definition": "a man whose wife is unfaithful to him",
+      "pos": "verb"
+    },
+    {
+      "surface": "cudgell'd",
+      "normalized": "cudgell'd",
+      "definition": "beaten with a cudgel (heavy stick); thrashed",
+      "pos": "verb"
+    },
+    {
+      "surface": "cunning",
+      "normalized": "cunning",
+      "definition": "skillful; clever; crafty",
+      "pos": "adjective"
+    },
+    {
+      "surface": "cunning'st",
+      "normalized": "cunning'st",
+      "definition": "most skillfully made; most artfully crafted",
+      "pos": "adjective"
+    },
+    {
+      "surface": "custody",
+      "normalized": "custody",
+      "definition": "keeping; guardianship; possession",
+      "pos": "noun"
+    },
+    {
+      "surface": "customer",
+      "normalized": "customer",
+      "definition": "prostitute; woman who sells sexual favors",
+      "pos": "noun"
+    },
+    {
+      "surface": "daffest",
+      "normalized": "daffest",
+      "definition": "put off; brush aside; deflect with excuses",
+      "pos": "verb"
+    },
+    {
+      "surface": "dam",
+      "normalized": "dam",
+      "definition": "mother (of a devil or animal; contemptuous)",
+      "pos": "noun"
+    },
+    {
+      "surface": "dames",
+      "normalized": "dames",
+      "definition": "ladies; women of respectable standing",
+      "pos": "noun"
+    },
+    {
+      "surface": "dash'd",
+      "normalized": "dash'd",
+      "definition": "shaken; discouraged; cast down",
+      "pos": "verb"
+    },
+    {
+      "surface": "daws",
+      "normalized": "daws",
+      "definition": "jackdaws; foolish birds (symbol of worthlessness)",
+      "pos": "noun"
+    },
+    {
+      "surface": "defeat thy favour",
+      "normalized": "defeat thy favour",
+      "definition": "disguise your face; alter your appearance",
+      "pos": "idiom"
+    },
+    {
+      "surface": "defective in",
+      "normalized": "defective in",
+      "definition": "lacking in; short of",
+      "pos": "phrase"
+    },
+    {
+      "surface": "defend",
+      "normalized": "defend",
+      "definition": "forbid; keep away from; guard against",
+      "pos": "verb"
+    },
+    {
+      "surface": "deficient",
+      "normalized": "deficient",
+      "definition": "lacking; impaired in sense or faculties",
+      "pos": "adjective"
+    },
+    {
+      "surface": "defunct",
+      "normalized": "defunct",
+      "definition": "dead; no longer active; extinguished",
+      "pos": "adjective"
+    },
+    {
+      "surface": "degree",
+      "normalized": "degree",
+      "definition": "rank; social station",
+      "pos": "noun"
+    },
+    {
+      "surface": "delighted",
+      "normalized": "delighted",
+      "definition": "capable of delight; delightful; pleasing",
+      "pos": "adjective"
+    },
+    {
+      "surface": "demanded",
+      "normalized": "demanded",
+      "definition": "asked for; claimed back; required",
+      "pos": "verb"
+    },
+    {
+      "surface": "demerits",
+      "normalized": "demerits",
+      "definition": "merits; deserts; worth (archaic positive sense)",
+      "pos": "noun"
+    },
+    {
+      "surface": "demi-devil",
+      "normalized": "demi-devil",
+      "definition": "half-devil; agent of the devil",
+      "pos": "noun"
+    },
+    {
+      "surface": "demonstrate thinly",
+      "normalized": "demonstrate thinly",
+      "definition": "offer only weak or thin evidence",
+      "pos": "verb phrase"
+    },
+    {
+      "surface": "denote",
+      "normalized": "denote",
+      "definition": "show plainly; indicate; reveal",
+      "pos": "verb"
+    },
+    {
+      "surface": "denotement",
+      "normalized": "denotement",
+      "definition": "observation; careful noting; marking",
+      "pos": "noun"
+    },
+    {
+      "surface": "deputing",
+      "normalized": "deputing",
+      "definition": "appointing as a deputy; designating as a substitute",
+      "pos": "verb"
+    },
+    {
+      "surface": "descry",
+      "normalized": "descry",
+      "definition": "catch sight of; discern at a distance",
+      "pos": "verb"
+    },
+    {
+      "surface": "deserve your pains",
+      "normalized": "deserve your pains",
+      "definition": "reward your efforts; repay your trouble",
+      "pos": "idiom"
+    },
+    {
+      "surface": "designment",
+      "normalized": "designment",
+      "definition": "plan; design; intended enterprise",
+      "pos": "noun"
+    },
+    {
+      "surface": "desir'd",
+      "normalized": "desir'd",
+      "definition": "welcome; sought after; well-liked",
+      "pos": "adjective"
+    },
+    {
+      "surface": "despatch",
+      "normalized": "despatch",
+      "definition": "be quick; hurry up; do it promptly",
+      "pos": "verb"
+    },
+    {
+      "surface": "desperate of",
+      "normalized": "desperate of",
+      "definition": "without hope of; despairing of",
+      "pos": "phrase"
+    },
+    {
+      "surface": "despite",
+      "normalized": "despite",
+      "definition": "out of spite; malicious ill will",
+      "pos": "noun"
+    },
+    {
+      "surface": "determin'd sword",
+      "normalized": "determin'd sword",
+      "definition": "sword drawn with firm resolve; purposeful weapon",
+      "pos": "phrase"
+    },
+    {
+      "surface": "determinate",
+      "normalized": "determinate",
+      "definition": "decisive; effective in bringing about a result",
+      "pos": "adjective"
+    },
+    {
+      "surface": "devesting",
+      "normalized": "devesting",
+      "definition": "undressing; taking off clothes",
+      "pos": "verb"
+    },
+    {
+      "surface": "device",
+      "normalized": "device",
+      "definition": "scheme; plan; stratagem",
+      "pos": "noun"
+    },
+    {
+      "surface": "devise",
+      "normalized": "devise",
+      "definition": "plan; contrive; think up",
+      "pos": "verb"
+    },
+    {
+      "surface": "devotion",
+      "normalized": "devotion",
+      "definition": "enthusiasm; commitment; strong inclination",
+      "pos": "noun"
+    },
+    {
+      "surface": "didst",
+      "normalized": "didst",
+      "definition": "did (second-person singular)",
+      "pos": "verb"
+    },
+    {
+      "surface": "diet",
+      "normalized": "diet",
+      "definition": "feed; nourish; maintain",
+      "pos": "verb"
+    },
+    {
+      "surface": "dilate",
+      "normalized": "dilate",
+      "definition": "narrate at length; relate in full detail",
+      "pos": "verb"
+    },
+    {
+      "surface": "dilatory",
+      "normalized": "dilatory",
+      "definition": "slow; causing delay; taking its time",
+      "pos": "adjective"
+    },
+    {
+      "surface": "direful",
+      "normalized": "direful",
+      "definition": "dreadful; terrible",
+      "pos": "adjective"
+    },
+    {
+      "surface": "discern'st",
+      "normalized": "discern'st",
+      "definition": "do you perceive or detect",
+      "pos": "verb"
+    },
+    {
+      "surface": "discontented",
+      "normalized": "discontented",
+      "definition": "complaining; full of grievance",
+      "pos": "adjective"
+    },
+    {
+      "surface": "discourse of thought",
+      "normalized": "discourse of thought",
+      "definition": "the course of thought; process of thinking",
+      "pos": "phrase"
+    },
+    {
+      "surface": "discover",
+      "normalized": "discover",
+      "definition": "reveal the whereabouts of; find out; disclose",
+      "pos": "verb"
+    },
+    {
+      "surface": "dislikes me",
+      "normalized": "dislikes me",
+      "definition": "displeases me; I am reluctant about it",
+      "pos": "phrase"
+    },
+    {
+      "surface": "dismay'd",
+      "normalized": "dismay'd",
+      "definition": "alarmed; frightened; thrown into panic",
+      "pos": "adjective"
+    },
+    {
+      "surface": "displanting",
+      "normalized": "displanting",
+      "definition": "removing from position; displacing",
+      "pos": "noun"
+    },
+    {
+      "surface": "disports",
+      "normalized": "disports",
+      "definition": "pleasures; pastimes; sexual diversions",
+      "pos": "noun"
+    },
+    {
+      "surface": "dispose",
+      "normalized": "dispose",
+      "definition": "manner; bearing; way of conducting oneself",
+      "pos": "noun"
+    },
+    {
+      "surface": "disposition",
+      "normalized": "disposition",
+      "definition": "natural temperament; character; inclination",
+      "pos": "noun"
+    },
+    {
+      "surface": "disproportion",
+      "normalized": "disproportion",
+      "definition": "improper mismatch; something unnatural",
+      "pos": "noun"
+    },
+    {
+      "surface": "disproportion'd",
+      "normalized": "disproportion'd",
+      "definition": "inconsistent; not in agreement with each other",
+      "pos": "adjective"
+    },
+    {
+      "surface": "disputed on",
+      "normalized": "disputed on",
+      "definition": "argued before a court; examined in legal dispute",
+      "pos": "idiom"
+    },
+    {
+      "surface": "disrelish",
+      "normalized": "disrelish",
+      "definition": "find distasteful; lose appetite for",
+      "pos": "verb"
+    },
+    {
+      "surface": "distaste",
+      "normalized": "distaste",
+      "definition": "leave an unpleasant taste; be detected as offensive",
+      "pos": "verb"
+    },
+    {
+      "surface": "distempering",
+      "normalized": "distempering",
+      "definition": "intoxicating; disturbing the humors",
+      "pos": "adjective"
+    },
+    {
+      "surface": "divinity of hell",
+      "normalized": "divinity of hell",
+      "definition": "the theology of devils; hell's inverted scripture",
+      "pos": "phrase"
+    },
+    {
+      "surface": "division",
+      "normalized": "division",
+      "definition": "disagreement; falling out; rift between people",
+      "pos": "noun"
+    },
+    {
+      "surface": "dolt",
+      "normalized": "dolt",
+      "definition": "stupid person; blockhead",
+      "pos": "noun"
+    },
+    {
+      "surface": "dost",
+      "normalized": "dost",
+      "definition": "do (second-person singular)",
+      "pos": "verb"
+    },
+    {
+      "surface": "dotage",
+      "normalized": "dotage",
+      "definition": "foolish infatuation or excessive fondness",
+      "pos": "noun"
+    },
+    {
+      "surface": "dote",
+      "normalized": "dote",
+      "definition": "be excessively fond; lose judgment through love",
+      "pos": "verb"
+    },
+    {
+      "surface": "dotes",
+      "normalized": "dotes",
+      "definition": "is blindly infatuated; loves to excess",
+      "pos": "verb"
+    },
+    {
+      "surface": "doth",
+      "normalized": "doth",
+      "definition": "does",
+      "pos": "verb"
+    },
+    {
+      "surface": "double set",
+      "normalized": "double set",
+      "definition": "twice round the clock; twice twelve hours",
+      "pos": "phrase"
+    },
+    {
+      "surface": "downright violence",
+      "normalized": "downright violence",
+      "definition": "open, outright boldness; undisguised action",
+      "pos": "noun phrase"
+    },
+    {
+      "surface": "draughts",
+      "normalized": "draughts",
+      "definition": "drinks; doses of liquor",
+      "pos": "noun"
+    },
+    {
+      "surface": "dress'd",
+      "normalized": "dress'd",
+      "definition": "have his wound dressed; receive medical treatment",
+      "pos": "verb"
+    },
+    {
+      "surface": "drowsy syrups",
+      "normalized": "drowsy syrups",
+      "definition": "sleep-inducing potions; narcotic medicines",
+      "pos": "noun phrase"
+    },
+    {
+      "surface": "durst",
+      "normalized": "durst",
+      "definition": "dared; was bold enough to",
+      "pos": "verb"
+    },
+    {
+      "surface": "duties",
+      "normalized": "duties",
+      "definition": "formal respects; official greetings conveyed on behalf",
+      "pos": "noun"
+    },
+    {
+      "surface": "e'en",
+      "normalized": "e'en",
+      "definition": "even",
+      "pos": "contraction"
+    },
+    {
+      "surface": "e'er",
+      "normalized": "e'er",
+      "definition": "ever",
+      "pos": "adverb"
+    },
+    {
+      "surface": "earliest",
+      "normalized": "earliest",
+      "definition": "earliest convenience; first thing in the morning",
+      "pos": "noun"
+    },
+    {
+      "surface": "ecstasy",
+      "normalized": "ecstasy",
+      "definition": "fit of madness; trance of overwhelming emotion",
+      "pos": "noun"
+    },
+    {
+      "surface": "egregiously",
+      "normalized": "egregiously",
+      "definition": "outrageously; notoriously; in a glaring manner",
+      "pos": "adverb"
+    },
+    {
+      "surface": "election",
+      "normalized": "election",
+      "definition": "choice; selection for a position",
+      "pos": "noun"
+    },
+    {
+      "surface": "elements",
+      "normalized": "elements",
+      "definition": "representative men; essential types; the very stuff",
+      "pos": "noun"
+    },
+    {
+      "surface": "embay'd",
+      "normalized": "embay'd",
+      "definition": "driven into a bay; harboured",
+      "pos": "adjective"
+    },
+    {
+      "surface": "encave",
+      "normalized": "encave",
+      "definition": "hide yourself as in a cave; conceal yourself",
+      "pos": "verb"
+    },
+    {
+      "surface": "enchafed",
+      "normalized": "enchafed",
+      "definition": "enraged; furiously stirred",
+      "pos": "adjective"
+    },
+    {
+      "surface": "enchanted",
+      "normalized": "enchanted",
+      "definition": "put under a magic spell; bewitched",
+      "pos": "verb"
+    },
+    {
+      "surface": "enfetter'd",
+      "normalized": "enfetter'd",
+      "definition": "fettered; shackled; bound fast",
+      "pos": "adjective"
+    },
+    {
+      "surface": "engage my words",
+      "normalized": "engage my words",
+      "definition": "pledge; formally commit by a solemn vow",
+      "pos": "verb phrase"
+    },
+    {
+      "surface": "engender'd",
+      "normalized": "engender'd",
+      "definition": "conceived; brought to life; generated in the mind",
+      "pos": "verb"
+    },
+    {
+      "surface": "engines",
+      "normalized": "engines",
+      "definition": "plots; schemes; instruments of destruction",
+      "pos": "noun"
+    },
+    {
+      "surface": "engluts",
+      "normalized": "engluts",
+      "definition": "swallows up; engulfs completely",
+      "pos": "verb"
+    },
+    {
+      "surface": "enmesh",
+      "normalized": "enmesh",
+      "definition": "entangle; catch in a net; trap",
+      "pos": "verb"
+    },
+    {
+      "surface": "enshelter'd",
+      "normalized": "enshelter'd",
+      "definition": "sheltered; brought into harbour for protection",
+      "pos": "adjective"
+    },
+    {
+      "surface": "ensnar'd",
+      "normalized": "ensnar'd",
+      "definition": "trapped; caught as in a snare",
+      "pos": "verb"
+    },
+    {
+      "surface": "ensteep'd",
+      "normalized": "ensteep'd",
+      "definition": "submerged; steeped beneath the water",
+      "pos": "adjective"
+    },
+    {
+      "surface": "entreats his pause",
+      "normalized": "entreats his pause",
+      "definition": "begs him to stop; asks him to desist",
+      "pos": "phrase"
+    },
+    {
+      "surface": "enwheel",
+      "normalized": "enwheel",
+      "definition": "encircle; surround like a wheel",
+      "pos": "verb"
+    },
+    {
+      "surface": "epithets",
+      "normalized": "epithets",
+      "definition": "descriptive terms; military jargon",
+      "pos": "noun"
+    },
+    {
+      "surface": "equinox",
+      "normalized": "equinox",
+      "definition": "exact balance; equal counterpart",
+      "pos": "noun"
+    },
+    {
+      "surface": "equivocal",
+      "normalized": "equivocal",
+      "definition": "double-edged; having two possible meanings",
+      "pos": "adjective"
+    },
+    {
+      "surface": "ere",
+      "normalized": "ere",
+      "definition": "before",
+      "pos": "conjunction"
+    },
+    {
+      "surface": "erring",
+      "normalized": "erring",
+      "definition": "wandering; straying; a foreigner who roams",
+      "pos": "adjective"
+    },
+    {
+      "surface": "error",
+      "normalized": "error",
+      "definition": "wandering; deviation from normal course",
+      "pos": "noun"
+    },
+    {
+      "surface": "escape",
+      "normalized": "escape",
+      "definition": "transgression; misdeed; a running away",
+      "pos": "noun"
+    },
+    {
+      "surface": "estimation",
+      "normalized": "estimation",
+      "definition": "reputation; honor; standing in others' eyes",
+      "pos": "noun"
+    },
+    {
+      "surface": "even'd",
+      "normalized": "even'd",
+      "definition": "made equal; revenged; got even",
+      "pos": "verb"
+    },
+    {
+      "surface": "evermore",
+      "normalized": "evermore",
+      "definition": "always; at all times; perpetually",
+      "pos": "adverb"
+    },
+    {
+      "surface": "excelling",
+      "normalized": "excelling",
+      "definition": "surpassing; supreme",
+      "pos": "adjective"
+    },
+    {
+      "surface": "exception",
+      "normalized": "exception",
+      "definition": "objection; formal complaint or grievance",
+      "pos": "noun"
+    },
+    {
+      "surface": "execute upon",
+      "normalized": "execute upon",
+      "definition": "carry out violence on; attack",
+      "pos": "phrase"
+    },
+    {
+      "surface": "execution",
+      "normalized": "execution",
+      "definition": "carrying out; exercise; use of faculties or power",
+      "pos": "noun"
+    },
+    {
+      "surface": "exhibition",
+      "normalized": "exhibition",
+      "definition": "allowance; payment; a small gift of money",
+      "pos": "noun"
+    },
+    {
+      "surface": "expostulate",
+      "normalized": "expostulate",
+      "definition": "argue or reason with; make a formal protest to",
+      "pos": "verb"
+    },
+    {
+      "surface": "exsufflicate",
+      "normalized": "exsufflicate",
+      "definition": "inflated; puffed up; blown out of proportion",
+      "pos": "adjective"
+    },
+    {
+      "surface": "extenuate",
+      "normalized": "extenuate",
+      "definition": "lessen; soften; make seem less serious",
+      "pos": "verb"
+    },
+    {
+      "surface": "extravagant",
+      "normalized": "extravagant",
+      "definition": "wandering abroad; vagrant; foreign",
+      "pos": "adjective"
+    },
+    {
+      "surface": "facile question",
+      "normalized": "facile question",
+      "definition": "easy conquest; little difficulty in taking it",
+      "pos": "noun phrase"
+    },
+    {
+      "surface": "fain",
+      "normalized": "fain",
+      "definition": "gladly; willingly; eager",
+      "pos": "adverb"
+    },
+    {
+      "surface": "fair",
+      "normalized": "fair",
+      "definition": "light-skinned; blonde; beautiful",
+      "pos": "adjective"
+    },
+    {
+      "surface": "fall'n",
+      "normalized": "fall'n",
+      "definition": "fallen; arisen; come about",
+      "pos": "verb"
+    },
+    {
+      "surface": "fall'n in the practice",
+      "normalized": "fall'n in the practice",
+      "definition": "brought down by the scheming",
+      "pos": "phrase"
+    },
+    {
+      "surface": "false gaze",
+      "normalized": "false gaze",
+      "definition": "looking in the wrong direction; misdirection",
+      "pos": "noun phrase"
+    },
+    {
+      "surface": "familiar",
+      "normalized": "familiar",
+      "definition": "a helpful spirit; a household companion",
+      "pos": "noun"
+    },
+    {
+      "surface": "fantasy",
+      "normalized": "fantasy",
+      "definition": "whim; fancy; desire; caprice",
+      "pos": "noun"
+    },
+    {
+      "surface": "fast",
+      "normalized": "fast",
+      "definition": "firm; faithful; reliable",
+      "pos": "adjective"
+    },
+    {
+      "surface": "fatal",
+      "normalized": "fatal",
+      "definition": "deadly; bringing death; also: fated",
+      "pos": "adjective"
+    },
+    {
+      "surface": "fathom",
+      "normalized": "fathom",
+      "definition": "depth of ability; caliber; capacity",
+      "pos": "noun"
+    },
+    {
+      "surface": "favour",
+      "normalized": "favour",
+      "definition": "appearance; looks; face",
+      "pos": "noun"
+    },
+    {
+      "surface": "fell",
+      "normalized": "fell",
+      "definition": "fierce; cruel; savage; deadly",
+      "pos": "adjective"
+    },
+    {
+      "surface": "fellowship",
+      "normalized": "fellowship",
+      "definition": "company; companionship; being together",
+      "pos": "noun"
+    },
+    {
+      "surface": "fie",
+      "normalized": "fie",
+      "definition": "exclamation of disapproval or disgust",
+      "pos": "interjection"
+    },
+    {
+      "surface": "fife",
+      "normalized": "fife",
+      "definition": "a small high-pitched flute used in military bands",
+      "pos": "noun"
+    },
+    {
+      "surface": "filch",
+      "normalized": "filch",
+      "definition": "steal; pilfer; take sneakily",
+      "pos": "verb"
+    },
+    {
+      "surface": "filches",
+      "normalized": "filches",
+      "definition": "steals; pilfers; takes by petty theft",
+      "pos": "verb"
+    },
+    {
+      "surface": "fills up the cry",
+      "normalized": "fills up the cry",
+      "definition": "makes up the pack in a hunt; plays a minor, useless role",
+      "pos": "phrase"
+    },
+    {
+      "surface": "fineless",
+      "normalized": "fineless",
+      "definition": "boundless; without limit or end",
+      "pos": "adjective"
+    },
+    {
+      "surface": "fitchew",
+      "normalized": "fitchew",
+      "definition": "polecat; also slang for a prostitute",
+      "pos": "noun"
+    },
+    {
+      "surface": "fleers",
+      "normalized": "fleers",
+      "definition": "sneers; mocking looks",
+      "pos": "noun"
+    },
+    {
+      "surface": "flood-gate",
+      "normalized": "flood-gate",
+      "definition": "overwhelming; bursting like a floodgate opened",
+      "pos": "adjective"
+    },
+    {
+      "surface": "fluster'd",
+      "normalized": "fluster'd",
+      "definition": "made flustered and drunk; confused with wine",
+      "pos": "verb"
+    },
+    {
+      "surface": "fobbed",
+      "normalized": "fobbed",
+      "definition": "tricked; cheated; deceived and put off",
+      "pos": "verb"
+    },
+    {
+      "surface": "foh",
+      "normalized": "foh",
+      "definition": "exclamation of strong disgust",
+      "pos": "interjection"
+    },
+    {
+      "surface": "folly",
+      "normalized": "folly",
+      "definition": "immorality; wantonness; sexual misconduct",
+      "pos": "noun"
+    },
+    {
+      "surface": "fond",
+      "normalized": "fond",
+      "definition": "foolish; trivial; doting",
+      "pos": "adjective"
+    },
+    {
+      "surface": "footing",
+      "normalized": "footing",
+      "definition": "arrival; setting foot on land",
+      "pos": "noun"
+    },
+    {
+      "surface": "forbear",
+      "normalized": "forbear",
+      "definition": "stop; hold back; refrain",
+      "pos": "verb"
+    },
+    {
+      "surface": "forc'd content",
+      "normalized": "forc'd content",
+      "definition": "a contentment that is compelled rather than felt",
+      "pos": "noun phrase"
+    },
+    {
+      "surface": "fordoes",
+      "normalized": "fordoes",
+      "definition": "destroys; ruins utterly",
+      "pos": "verb"
+    },
+    {
+      "surface": "fordoes me quite",
+      "normalized": "fordoes me quite",
+      "definition": "ruins me completely",
+      "pos": "phrase"
+    },
+    {
+      "surface": "foregone conclusion",
+      "normalized": "foregone conclusion",
+      "definition": "something already done; a prior act now proven",
+      "pos": "noun phrase"
+    },
+    {
+      "surface": "forfend",
+      "normalized": "forfend",
+      "definition": "forbid; prevent",
+      "pos": "verb"
+    },
+    {
+      "surface": "forked plague",
+      "normalized": "forked plague",
+      "definition": "the cuckold's horns; the disgrace of a betrayed husband",
+      "pos": "noun phrase"
+    },
+    {
+      "surface": "forsake",
+      "normalized": "forsake",
+      "definition": "leave; depart from; give up",
+      "pos": "verb"
+    },
+    {
+      "surface": "forsook",
+      "normalized": "forsook",
+      "definition": "abandoned; gave up; renounced",
+      "pos": "verb"
+    },
+    {
+      "surface": "forsooth",
+      "normalized": "forsooth",
+      "definition": "in truth; indeed (often ironic)",
+      "pos": "adverb"
+    },
+    {
+      "surface": "forswear",
+      "normalized": "forswear",
+      "definition": "abandon; renounce; desert completely",
+      "pos": "verb"
+    },
+    {
+      "surface": "forthwith",
+      "normalized": "forthwith",
+      "definition": "immediately; without delay",
+      "pos": "adverb"
+    },
+    {
+      "surface": "fortitude",
+      "normalized": "fortitude",
+      "definition": "strength; defensive capacity; military strength of a place",
+      "pos": "noun"
+    },
+    {
+      "surface": "fortune's alms",
+      "normalized": "fortune's alms",
+      "definition": "whatever chance charity fate might spare",
+      "pos": "noun phrase"
+    },
+    {
+      "surface": "foul",
+      "normalized": "foul",
+      "definition": "ugly; dark; unpleasant",
+      "pos": "adjective"
+    },
+    {
+      "surface": "frailty",
+      "normalized": "frailty",
+      "definition": "moral weakness; tendency to give in to temptation",
+      "pos": "noun"
+    },
+    {
+      "surface": "fram'd",
+      "normalized": "fram'd",
+      "definition": "fashioned; shaped; made as if by design",
+      "pos": "verb"
+    },
+    {
+      "surface": "frank",
+      "normalized": "frank",
+      "definition": "free; open; here implying sexually uninhibited",
+      "pos": "adjective"
+    },
+    {
+      "surface": "fraught",
+      "normalized": "fraught",
+      "definition": "a cargo or load; a burden (noun here)",
+      "pos": "noun"
+    },
+    {
+      "surface": "free",
+      "normalized": "free",
+      "definition": "frank; open; generous of nature",
+      "pos": "adjective"
+    },
+    {
+      "surface": "free duty",
+      "normalized": "free duty",
+      "definition": "willing, loyal service freely given",
+      "pos": "noun phrase"
+    },
+    {
+      "surface": "free elements",
+      "normalized": "free elements",
+      "definition": "the unconstrained forces of nature (air, water, fire, earth)",
+      "pos": "phrase"
+    },
+    {
+      "surface": "frize",
+      "normalized": "frize",
+      "definition": "rough woollen cloth; coarse fabric",
+      "pos": "noun"
+    },
+    {
+      "surface": "front",
+      "normalized": "front",
+      "definition": "forelock; the fore part of the head",
+      "pos": "noun"
+    },
+    {
+      "surface": "fruitful",
+      "normalized": "fruitful",
+      "definition": "generous; abundantly giving; bountiful",
+      "pos": "adjective"
+    },
+    {
+      "surface": "fruitfulness",
+      "normalized": "fruitfulness",
+      "definition": "generosity; fertility; an open and giving nature",
+      "pos": "noun"
+    },
+    {
+      "surface": "fulsome",
+      "normalized": "fulsome",
+      "definition": "disgusting; offensive; grossly excessive",
+      "pos": "adjective"
+    },
+    {
+      "surface": "function",
+      "normalized": "function",
+      "definition": "rational faculty; power of mind; mental operation",
+      "pos": "noun"
+    },
+    {
+      "surface": "fustian",
+      "normalized": "fustian",
+      "definition": "pompous, pretentious nonsense; absurd ranting",
+      "pos": "noun"
+    },
+    {
+      "surface": "gait",
+      "normalized": "gait",
+      "definition": "manner of walking; step",
+      "pos": "noun"
+    },
+    {
+      "surface": "gall",
+      "normalized": "gall",
+      "definition": "irritate; chafe; annoy",
+      "pos": "verb"
+    },
+    {
+      "surface": "gallants",
+      "normalized": "gallants",
+      "definition": "fashionable young gentlemen; fine men",
+      "pos": "noun"
+    },
+    {
+      "surface": "galls",
+      "normalized": "galls",
+      "definition": "spirit of resentment; capacity for anger and bitterness",
+      "pos": "noun"
+    },
+    {
+      "surface": "garland",
+      "normalized": "garland",
+      "definition": "wreath; circlet of flowers worn on the head",
+      "pos": "noun"
+    },
+    {
+      "surface": "garner'd",
+      "normalized": "garner'd",
+      "definition": "stored; laid up as grain in a granary",
+      "pos": "verb"
+    },
+    {
+      "surface": "garter",
+      "normalized": "garter",
+      "definition": "band or strip of cloth used as a bandage or tie",
+      "pos": "noun"
+    },
+    {
+      "surface": "gastness",
+      "normalized": "gastness",
+      "definition": "terror; frightened look; pallor from fear",
+      "pos": "noun"
+    },
+    {
+      "surface": "gay",
+      "normalized": "gay",
+      "definition": "richly dressed; splendidly adorned",
+      "pos": "adjective"
+    },
+    {
+      "surface": "gender",
+      "normalized": "gender",
+      "definition": "kind; species; sort; variety",
+      "pos": "noun"
+    },
+    {
+      "surface": "generous",
+      "normalized": "generous",
+      "definition": "noble; of gentle birth; high-bred",
+      "pos": "adjective"
+    },
+    {
+      "surface": "gennets",
+      "normalized": "gennets",
+      "definition": "small Spanish horses",
+      "pos": "noun"
+    },
+    {
+      "surface": "gentle pardon",
+      "normalized": "gentle pardon",
+      "definition": "kind forgiveness; polite apology",
+      "pos": "phrase"
+    },
+    {
+      "surface": "germans",
+      "normalized": "germans",
+      "definition": "close blood-relatives; kinsmen",
+      "pos": "noun"
+    },
+    {
+      "surface": "get",
+      "normalized": "get",
+      "definition": "beget; father; sire (a child)",
+      "pos": "verb"
+    },
+    {
+      "surface": "gibes",
+      "normalized": "gibes",
+      "definition": "taunts; jeering remarks",
+      "pos": "noun"
+    },
+    {
+      "surface": "go to",
+      "normalized": "go to",
+      "definition": "come now; enough; expression of dismissal",
+      "pos": "interjection"
+    },
+    {
+      "surface": "government",
+      "normalized": "government",
+      "definition": "command; the position of military governor",
+      "pos": "noun"
+    },
+    {
+      "surface": "grace",
+      "normalized": "grace",
+      "definition": "lend credit to; honor; serve well",
+      "pos": "verb"
+    },
+    {
+      "surface": "gradation",
+      "normalized": "gradation",
+      "definition": "step-by-step promotion by seniority",
+      "pos": "noun"
+    },
+    {
+      "surface": "grange",
+      "normalized": "grange",
+      "definition": "isolated farmhouse; remote country estate",
+      "pos": "noun"
+    },
+    {
+      "surface": "gratify",
+      "normalized": "gratify",
+      "definition": "reward; repay; satisfy",
+      "pos": "verb"
+    },
+    {
+      "surface": "graze",
+      "normalized": "graze",
+      "definition": "touch lightly; scratch the surface; barely affect",
+      "pos": "verb"
+    },
+    {
+      "surface": "green-ey'd monster",
+      "normalized": "green-ey'd monster",
+      "definition": "jealousy, imagined as a mocking beast",
+      "pos": "noun phrase"
+    },
+    {
+      "surface": "gripe",
+      "normalized": "gripe",
+      "definition": "grip; clutch; seize tightly",
+      "pos": "verb"
+    },
+    {
+      "surface": "grise",
+      "normalized": "grise",
+      "definition": "step; rung of a staircase",
+      "pos": "noun"
+    },
+    {
+      "surface": "groan withal",
+      "normalized": "groan withal",
+      "definition": "am in labour with; am burdened by",
+      "pos": "phrase"
+    },
+    {
+      "surface": "gross",
+      "normalized": "gross",
+      "definition": "blatant; disgusting; outrageous",
+      "pos": "adjective"
+    },
+    {
+      "surface": "gross in sense",
+      "normalized": "gross in sense",
+      "definition": "obvious to plain perception; plainly evident",
+      "pos": "idiom"
+    },
+    {
+      "surface": "guardage",
+      "normalized": "guardage",
+      "definition": "guardianship; care and protection of a guardian",
+      "pos": "noun"
+    },
+    {
+      "surface": "gull",
+      "normalized": "gull",
+      "definition": "dupe; easily fooled person",
+      "pos": "noun"
+    },
+    {
+      "surface": "gutter'd",
+      "normalized": "gutter'd",
+      "definition": "channeled; jagged; cut into ridges (of rocks)",
+      "pos": "adjective"
+    },
+    {
+      "surface": "gyve",
+      "normalized": "gyve",
+      "definition": "fetter; shackle; trap",
+      "pos": "verb"
+    },
+    {
+      "surface": "haggard",
+      "normalized": "haggard",
+      "definition": "a wild hawk that cannot be tamed; an unfaithful woman",
+      "pos": "noun/adjective"
+    },
+    {
+      "surface": "hales",
+      "normalized": "hales",
+      "definition": "drags; pulls roughly",
+      "pos": "verb"
+    },
+    {
+      "surface": "hallow'd",
+      "normalized": "hallow'd",
+      "definition": "consecrated; made holy; blessed",
+      "pos": "adjective"
+    },
+    {
+      "surface": "halter",
+      "normalized": "halter",
+      "definition": "hangman's noose; rope for execution",
+      "pos": "noun"
+    },
+    {
+      "surface": "haply",
+      "normalized": "haply",
+      "definition": "perhaps; by chance",
+      "pos": "adverb"
+    },
+    {
+      "surface": "happ'd",
+      "normalized": "happ'd",
+      "definition": "happened; occurred; come to pass",
+      "pos": "verb"
+    },
+    {
+      "surface": "happily",
+      "normalized": "happily",
+      "definition": "perhaps; by chance; haply",
+      "pos": "adverb"
+    },
+    {
+      "surface": "hardness",
+      "normalized": "hardness",
+      "definition": "hardship; difficult conditions; rough living",
+      "pos": "noun"
+    },
+    {
+      "surface": "hark",
+      "normalized": "hark",
+      "definition": "listen!",
+      "pos": "interjection"
+    },
+    {
+      "surface": "harlotry",
+      "normalized": "harlotry",
+      "definition": "prostitute; a woman of loose morals",
+      "pos": "noun"
+    },
+    {
+      "surface": "hast",
+      "normalized": "hast",
+      "definition": "have (second-person singular)",
+      "pos": "verb"
+    },
+    {
+      "surface": "hath",
+      "normalized": "hath",
+      "definition": "has",
+      "pos": "verb"
+    },
+    {
+      "surface": "hath spoke",
+      "normalized": "hath spoke",
+      "definition": "has spoken",
+      "pos": "verb phrase"
+    },
+    {
+      "surface": "having",
+      "normalized": "having",
+      "definition": "allowance; income; what one is given to live on",
+      "pos": "noun"
+    },
+    {
+      "surface": "hearted",
+      "normalized": "hearted",
+      "definition": "rooted in the heart; deeply felt; heartfelt",
+      "pos": "adjective"
+    },
+    {
+      "surface": "heathenish",
+      "normalized": "heathenish",
+      "definition": "barbarous; savage; uncivilised",
+      "pos": "adjective"
+    },
+    {
+      "surface": "heave the gorge",
+      "normalized": "heave the gorge",
+      "definition": "feel sick; be nauseated; gag",
+      "pos": "phrase"
+    },
+    {
+      "surface": "heavenly shows",
+      "normalized": "heavenly shows",
+      "definition": "appearances of goodness; angelic-seeming pretences",
+      "pos": "phrase"
+    },
+    {
+      "surface": "heavy",
+      "normalized": "heavy",
+      "definition": "grievous; burdensome; sorrowful",
+      "pos": "adjective"
+    },
+    {
+      "surface": "hem",
+      "normalized": "hem",
+      "definition": "a cough or throat-clearing used as a signal",
+      "pos": "noun"
+    },
+    {
+      "surface": "hence",
+      "normalized": "hence",
+      "definition": "away from here; from this place",
+      "pos": "adverb"
+    },
+    {
+      "surface": "hereabout",
+      "normalized": "hereabout",
+      "definition": "nearby; somewhere in this area",
+      "pos": "adverb"
+    },
+    {
+      "surface": "hie",
+      "normalized": "hie",
+      "definition": "hurry; hasten",
+      "pos": "verb"
+    },
+    {
+      "surface": "hie thee",
+      "normalized": "hie thee",
+      "definition": "hurry; make haste; go quickly",
+      "pos": "verb phrase"
+    },
+    {
+      "surface": "hies",
+      "normalized": "hies",
+      "definition": "hurries; hastens",
+      "pos": "verb"
+    },
+    {
+      "surface": "hinge",
+      "normalized": "hinge",
+      "definition": "pivot point; a link that allows doubt to hang on",
+      "pos": "noun"
+    },
+    {
+      "surface": "hint",
+      "normalized": "hint",
+      "definition": "opportunity; occasion; fitting moment",
+      "pos": "noun"
+    },
+    {
+      "surface": "hither",
+      "normalized": "hither",
+      "definition": "to here; to this place",
+      "pos": "adverb"
+    },
+    {
+      "surface": "hobby-horse",
+      "normalized": "hobby-horse",
+      "definition": "loose woman; prostitute (slang)",
+      "pos": "noun"
+    },
+    {
+      "surface": "hold their honours in a wary distance",
+      "normalized": "hold their honours in a wary distance",
+      "definition": "are quick to defend their honour if slighted",
+      "pos": "phrase"
+    },
+    {
+      "surface": "holds his soul light",
+      "normalized": "holds his soul light",
+      "definition": "values his life cheaply; has no care for his life",
+      "pos": "phrase"
+    },
+    {
+      "surface": "honest",
+      "normalized": "honest",
+      "definition": "chaste; sexually faithful (of a woman)",
+      "pos": "adjective"
+    },
+    {
+      "surface": "honesty",
+      "normalized": "honesty",
+      "definition": "virtue; moral integrity; chastity",
+      "pos": "noun"
+    },
+    {
+      "surface": "honour",
+      "normalized": "honour",
+      "definition": "reputation for courage and integrity",
+      "pos": "noun"
+    },
+    {
+      "surface": "horologe",
+      "normalized": "horologe",
+      "definition": "a clock; a timepiece",
+      "pos": "noun"
+    },
+    {
+      "surface": "housewife",
+      "normalized": "housewife",
+      "definition": "here: hussy; loose woman (derogatory)",
+      "pos": "noun"
+    },
+    {
+      "surface": "housewifery",
+      "normalized": "housewifery",
+      "definition": "household management; domestic duties",
+      "pos": "noun"
+    },
+    {
+      "surface": "housewives",
+      "normalized": "housewives",
+      "definition": "here: hussies; loose women (wordplay)",
+      "pos": "noun"
+    },
+    {
+      "surface": "howbeit",
+      "normalized": "howbeit",
+      "definition": "although; nevertheless; even though",
+      "pos": "conjunction"
+    },
+    {
+      "surface": "humane",
+      "normalized": "humane",
+      "definition": "courteous; civil; polite",
+      "pos": "adjective"
+    },
+    {
+      "surface": "humbled",
+      "normalized": "humbled",
+      "definition": "brought low; in a state of contrition",
+      "pos": "adjective"
+    },
+    {
+      "surface": "humour",
+      "normalized": "humour",
+      "definition": "mood; disposition; temperament",
+      "pos": "noun"
+    },
+    {
+      "surface": "humours",
+      "normalized": "humours",
+      "definition": "bodily fluids thought to govern temperament",
+      "pos": "noun"
+    },
+    {
+      "surface": "hyssop",
+      "normalized": "hyssop",
+      "definition": "an aromatic herb; used here as garden example",
+      "pos": "noun"
+    },
+    {
+      "surface": "i cry you mercy",
+      "normalized": "i cry you mercy",
+      "definition": "I beg your pardon; excuse me",
+      "pos": "phrase"
+    },
+    {
+      "surface": "i'",
+      "normalized": "i'",
+      "definition": "in (clipped preposition)",
+      "pos": "contraction"
+    },
+    {
+      "surface": "i' the",
+      "normalized": "i' the",
+      "definition": "in the",
+      "pos": "contraction"
+    },
+    {
+      "surface": "i'faith",
+      "normalized": "i'faith",
+      "definition": "in faith; indeed (mild oath)",
+      "pos": "interjection"
+    },
+    {
+      "surface": "ice-brook's temper",
+      "normalized": "ice-brook's temper",
+      "definition": "blade hardened by quenching in ice-cold water",
+      "pos": "phrase"
+    },
+    {
+      "surface": "idle",
+      "normalized": "idle",
+      "definition": "worthless; empty; baseless",
+      "pos": "adjective"
+    },
+    {
+      "surface": "ill-starr'd",
+      "normalized": "ill-starr'd",
+      "definition": "born under an unlucky star; fated for misfortune",
+      "pos": "adjective"
+    },
+    {
+      "surface": "immediate",
+      "normalized": "immediate",
+      "definition": "nearest; closest; most direct",
+      "pos": "adjective"
+    },
+    {
+      "surface": "impediments",
+      "normalized": "impediments",
+      "definition": "obstacles; things blocking the way",
+      "pos": "noun"
+    },
+    {
+      "surface": "imperious",
+      "normalized": "imperious",
+      "definition": "commanding; powerful; lordly",
+      "pos": "adjective"
+    },
+    {
+      "surface": "import",
+      "normalized": "import",
+      "definition": "mean; signify; convey in meaning",
+      "pos": "verb"
+    },
+    {
+      "surface": "importancy",
+      "normalized": "importancy",
+      "definition": "importance; strategic significance",
+      "pos": "noun"
+    },
+    {
+      "surface": "importing",
+      "normalized": "importing",
+      "definition": "signifying; conveying the news of",
+      "pos": "verb"
+    },
+    {
+      "surface": "imports",
+      "normalized": "imports",
+      "definition": "concerns; is about; states the content of",
+      "pos": "verb"
+    },
+    {
+      "surface": "importunate",
+      "normalized": "importunate",
+      "definition": "persistently demanding or insistent",
+      "pos": "adjective"
+    },
+    {
+      "surface": "importune",
+      "normalized": "importune",
+      "definition": "beg persistently; press earnestly",
+      "pos": "verb"
+    },
+    {
+      "surface": "importunes",
+      "normalized": "importunes",
+      "definition": "presses urgently; begs persistently",
+      "pos": "verb"
+    },
+    {
+      "surface": "imposition",
+      "normalized": "imposition",
+      "definition": "something imposed from outside; a false charge",
+      "pos": "noun"
+    },
+    {
+      "surface": "impotent",
+      "normalized": "impotent",
+      "definition": "weak; powerless; without force",
+      "pos": "adjective"
+    },
+    {
+      "surface": "impudent",
+      "normalized": "impudent",
+      "definition": "shameless; boldly disrespectful",
+      "pos": "adjective"
+    },
+    {
+      "surface": "imputation",
+      "normalized": "imputation",
+      "definition": "an accusation; attribution of guilt",
+      "pos": "noun"
+    },
+    {
+      "surface": "in faith",
+      "normalized": "in faith",
+      "definition": "truly; indeed (mild oath)",
+      "pos": "interjection"
+    },
+    {
+      "surface": "in good time",
+      "normalized": "in good time",
+      "definition": "forsooth; indeed (ironic: 'a fine thing indeed')",
+      "pos": "idiom"
+    },
+    {
+      "surface": "in policy",
+      "normalized": "in policy",
+      "definition": "for political reasons; as a matter of strategy",
+      "pos": "phrase"
+    },
+    {
+      "surface": "in quarter",
+      "normalized": "in quarter",
+      "definition": "in good terms; keeping proper relations",
+      "pos": "phrase"
+    },
+    {
+      "surface": "in sooth",
+      "normalized": "in sooth",
+      "definition": "in truth; truly; indeed",
+      "pos": "adverb phrase"
+    },
+    {
+      "surface": "in troth",
+      "normalized": "in troth",
+      "definition": "in truth; honestly; truly",
+      "pos": "phrase"
+    },
+    {
+      "surface": "inclining",
+      "normalized": "inclining",
+      "definition": "party; side; those who side with one",
+      "pos": "noun"
+    },
+    {
+      "surface": "incontinent",
+      "normalized": "incontinent",
+      "definition": "immediately; at once; without pause",
+      "pos": "adverb"
+    },
+    {
+      "surface": "incontinently",
+      "normalized": "incontinently",
+      "definition": "immediately; at once; without delay",
+      "pos": "adverb"
+    },
+    {
+      "surface": "incorporate",
+      "normalized": "incorporate",
+      "definition": "bodily; physical; united in one body",
+      "pos": "adjective"
+    },
+    {
+      "surface": "index",
+      "normalized": "index",
+      "definition": "prologue; preliminary indication; pointer",
+      "pos": "noun"
+    },
+    {
+      "surface": "indign",
+      "normalized": "indign",
+      "definition": "unworthy; shameful; degrading",
+      "pos": "adjective"
+    },
+    {
+      "surface": "indited",
+      "normalized": "indited",
+      "definition": "indicted; formally accused; charged",
+      "pos": "verb"
+    },
+    {
+      "surface": "indues",
+      "normalized": "indues",
+      "definition": "brings; leads; draws in; infects with the same feeling",
+      "pos": "verb"
+    },
+    {
+      "surface": "inference",
+      "normalized": "inference",
+      "definition": "implication; insinuation; conclusion drawn",
+      "pos": "noun"
+    },
+    {
+      "surface": "infirmity",
+      "normalized": "infirmity",
+      "definition": "weakness; failing; physical or moral fault",
+      "pos": "noun"
+    },
+    {
+      "surface": "ingener",
+      "normalized": "ingener",
+      "definition": "inventor; deviser; one who engineers praise",
+      "pos": "noun"
+    },
+    {
+      "surface": "ingraft infirmity",
+      "normalized": "ingraft infirmity",
+      "definition": "deep-rooted weakness; an ingrained failing",
+      "pos": "phrase"
+    },
+    {
+      "surface": "ingredient",
+      "normalized": "ingredient",
+      "definition": "what is put in; the contents; here: wine itself",
+      "pos": "noun"
+    },
+    {
+      "surface": "iniquity",
+      "normalized": "iniquity",
+      "definition": "wickedness; moral wrongdoing; sinful act",
+      "pos": "noun"
+    },
+    {
+      "surface": "injointed",
+      "normalized": "injointed",
+      "definition": "joined; united together (the fleets merged)",
+      "pos": "verb"
+    },
+    {
+      "surface": "injury",
+      "normalized": "injury",
+      "definition": "wrongdoing; harm; criminal act",
+      "pos": "noun"
+    },
+    {
+      "surface": "innovation",
+      "normalized": "innovation",
+      "definition": "disturbance; upheaval; change (here: intoxication's effect)",
+      "pos": "noun"
+    },
+    {
+      "surface": "inordinate",
+      "normalized": "inordinate",
+      "definition": "excessive; immoderate; beyond proper measure",
+      "pos": "adjective"
+    },
+    {
+      "surface": "instruction",
+      "normalized": "instruction",
+      "definition": "prompting; evidence; signal from outside oneself",
+      "pos": "noun"
+    },
+    {
+      "surface": "intendment",
+      "normalized": "intendment",
+      "definition": "intention; firm purpose or resolution",
+      "pos": "noun"
+    },
+    {
+      "surface": "intentively",
+      "normalized": "intentively",
+      "definition": "attentively; with sustained close attention",
+      "pos": "adverb"
+    },
+    {
+      "surface": "interim",
+      "normalized": "interim",
+      "definition": "period of waiting; interval of absence",
+      "pos": "noun"
+    },
+    {
+      "surface": "intermingle",
+      "normalized": "intermingle",
+      "definition": "weave in; mix together constantly",
+      "pos": "verb"
+    },
+    {
+      "surface": "interprets",
+      "normalized": "interprets",
+      "definition": "understands; reads meaning into (events)",
+      "pos": "verb"
+    },
+    {
+      "surface": "inwards",
+      "normalized": "inwards",
+      "definition": "inner parts; vital organs; guts",
+      "pos": "noun"
+    },
+    {
+      "surface": "issue",
+      "normalized": "issue",
+      "definition": "outcome; result; how the matter turns out",
+      "pos": "noun"
+    },
+    {
+      "surface": "issues",
+      "normalized": "issues",
+      "definition": "consequences; conclusions; outcomes",
+      "pos": "noun"
+    },
+    {
+      "surface": "iterance",
+      "normalized": "iterance",
+      "definition": "repetition; saying the same thing over and over",
+      "pos": "noun"
+    },
+    {
+      "surface": "jealous toy",
+      "normalized": "jealous toy",
+      "definition": "a trivial suspicion; a whim of jealousy",
+      "pos": "noun phrase"
+    },
+    {
+      "surface": "jealousy",
+      "normalized": "jealousy",
+      "definition": "suspicious anxiety; fearful mistrust",
+      "pos": "noun"
+    },
+    {
+      "surface": "jesses",
+      "normalized": "jesses",
+      "definition": "short straps tied round a hawk's legs for the falconer",
+      "pos": "noun"
+    },
+    {
+      "surface": "joint-ring",
+      "normalized": "joint-ring",
+      "definition": "a ring made in two interlocking halves; cheap love token",
+      "pos": "noun"
+    },
+    {
+      "surface": "jump",
+      "normalized": "jump",
+      "definition": "agree; tally; match exactly",
+      "pos": "verb"
+    },
+    {
+      "surface": "just",
+      "normalized": "just",
+      "definition": "upright; honest; righteous",
+      "pos": "adjective"
+    },
+    {
+      "surface": "keel",
+      "normalized": "keel",
+      "definition": "the bottom-most timber of a ship",
+      "pos": "noun"
+    },
+    {
+      "surface": "knave",
+      "normalized": "knave",
+      "definition": "a rogue; a dishonest or unscrupulous man",
+      "pos": "noun"
+    },
+    {
+      "surface": "lack",
+      "normalized": "lack",
+      "definition": "miss; be without; need",
+      "pos": "verb"
+    },
+    {
+      "surface": "lack'd",
+      "normalized": "lack'd",
+      "definition": "needed; were without; missed",
+      "pos": "verb"
+    },
+    {
+      "surface": "lame",
+      "normalized": "lame",
+      "definition": "weak; poor; inadequate",
+      "pos": "adjective"
+    },
+    {
+      "surface": "lascivious",
+      "normalized": "lascivious",
+      "definition": "lustful; lewd",
+      "pos": "adjective"
+    },
+    {
+      "surface": "lawn",
+      "normalized": "lawn",
+      "definition": "fine linen fabric; a sheer cloth used for garments",
+      "pos": "noun"
+    },
+    {
+      "surface": "lay",
+      "normalized": "lay",
+      "definition": "a wager; a bet",
+      "pos": "noun"
+    },
+    {
+      "surface": "leagu'd in office",
+      "normalized": "leagu'd in office",
+      "definition": "allied by shared position; bound by official ties",
+      "pos": "phrase"
+    },
+    {
+      "surface": "leap'd into my seat",
+      "normalized": "leap'd into my seat",
+      "definition": "cuckolded me; slept with my wife",
+      "pos": "phrase"
+    },
+    {
+      "surface": "leets and law-days",
+      "normalized": "leets and law-days",
+      "definition": "local courts held periodically; legal sessions",
+      "pos": "noun phrase"
+    },
+    {
+      "surface": "lend me a garter",
+      "normalized": "lend me a garter",
+      "definition": "give me a strip of cloth (to bind the wound)",
+      "pos": "phrase"
+    },
+    {
+      "surface": "lethargy",
+      "normalized": "lethargy",
+      "definition": "a stupor or fit of unconscious collapse",
+      "pos": "noun"
+    },
+    {
+      "surface": "levels with",
+      "normalized": "levels with",
+      "definition": "is suited to; matches; is proportionate to",
+      "pos": "idiom"
+    },
+    {
+      "surface": "lewd",
+      "normalized": "lewd",
+      "definition": "lascivious; lustful; wicked",
+      "pos": "adjective"
+    },
+    {
+      "surface": "liberal",
+      "normalized": "liberal",
+      "definition": "loose-tongued; licentious; unrestrained",
+      "pos": "adjective"
+    },
+    {
+      "surface": "lies",
+      "normalized": "lies",
+      "definition": "lodges; resides; dwells (archaic sense)",
+      "pos": "verb"
+    },
+    {
+      "surface": "lieutenantry",
+      "normalized": "lieutenantry",
+      "definition": "the rank or position of lieutenant",
+      "pos": "noun"
+    },
+    {
+      "surface": "light of brain",
+      "normalized": "light of brain",
+      "definition": "mentally unsound; disturbed in mind; unhinged",
+      "pos": "phrase"
+    },
+    {
+      "surface": "likings",
+      "normalized": "likings",
+      "definition": "personal goodwill; favorable inclinations",
+      "pos": "noun"
+    },
+    {
+      "surface": "lin'd their coats",
+      "normalized": "lin'd their coats",
+      "definition": "lined their own pockets; enriched themselves",
+      "pos": "idiom"
+    },
+    {
+      "surface": "lip",
+      "normalized": "lip",
+      "definition": "kiss; to touch with the lips",
+      "pos": "verb"
+    },
+    {
+      "surface": "list",
+      "normalized": "list",
+      "definition": "listen; pay attention; also: desire",
+      "pos": "verb"
+    },
+    {
+      "surface": "lo, the happiness",
+      "normalized": "lo, the happiness",
+      "definition": "see, what a lucky coincidence!",
+      "pos": "interjection phrase"
+    },
+    {
+      "surface": "loading",
+      "normalized": "loading",
+      "definition": "burden; weight; cargo (here, the bodies on the bed)",
+      "pos": "noun"
+    },
+    {
+      "surface": "loose of soul",
+      "normalized": "loose of soul",
+      "definition": "careless in self-control; unguarded in mind",
+      "pos": "adjective phrase"
+    },
+    {
+      "surface": "lost fear",
+      "normalized": "lost fear",
+      "definition": "needless fear; wasted alarm",
+      "pos": "phrase"
+    },
+    {
+      "surface": "lown",
+      "normalized": "lown",
+      "definition": "rascal; scoundrel; low fellow",
+      "pos": "noun"
+    },
+    {
+      "surface": "magnifico",
+      "normalized": "magnifico",
+      "definition": "great man of Venice; Venetian nobleman of highest rank",
+      "pos": "noun"
+    },
+    {
+      "surface": "maidhood",
+      "normalized": "maidhood",
+      "definition": "maidenhood; state of being an unmarried girl",
+      "pos": "noun"
+    },
+    {
+      "surface": "maim'd",
+      "normalized": "maim'd",
+      "definition": "crippled; seriously wounded",
+      "pos": "verb"
+    },
+    {
+      "surface": "main",
+      "normalized": "main",
+      "definition": "the open sea; the ocean",
+      "pos": "noun"
+    },
+    {
+      "surface": "make away",
+      "normalized": "make away",
+      "definition": "escape; get away",
+      "pos": "phrase"
+    },
+    {
+      "surface": "man but a rush",
+      "normalized": "man but a rush",
+      "definition": "attack with only a reed; make the smallest attack",
+      "pos": "phrase"
+    },
+    {
+      "surface": "mandate",
+      "normalized": "mandate",
+      "definition": "official command; order from a superior authority",
+      "pos": "noun"
+    },
+    {
+      "surface": "mandragora",
+      "normalized": "mandragora",
+      "definition": "mandrake plant; used as a powerful sedative",
+      "pos": "noun"
+    },
+    {
+      "surface": "manured",
+      "normalized": "manured",
+      "definition": "cultivated; worked and improved (not just fertilized)",
+      "pos": "verb"
+    },
+    {
+      "surface": "marry",
+      "normalized": "marry",
+      "definition": "mild oath; indeed; why",
+      "pos": "interjection"
+    },
+    {
+      "surface": "marshal",
+      "normalized": "marshal",
+      "definition": "lead the way; prepare; arrange in order",
+      "pos": "verb"
+    },
+    {
+      "surface": "match",
+      "normalized": "match",
+      "definition": "marriage; the union he made with Othello",
+      "pos": "noun"
+    },
+    {
+      "surface": "mazard",
+      "normalized": "mazard",
+      "definition": "head; skull (familiar or contemptuous)",
+      "pos": "noun"
+    },
+    {
+      "surface": "mean",
+      "normalized": "mean",
+      "definition": "means; method; way",
+      "pos": "noun"
+    },
+    {
+      "surface": "measure",
+      "normalized": "measure",
+      "definition": "a cup (of drink); a portion; a toast",
+      "pos": "noun"
+    },
+    {
+      "surface": "medicinal gum",
+      "normalized": "medicinal gum",
+      "definition": "healing resin that trees drip (like tears)",
+      "pos": "phrase"
+    },
+    {
+      "surface": "meet",
+      "normalized": "meet",
+      "definition": "fitting; appropriate; proper",
+      "pos": "adjective"
+    },
+    {
+      "surface": "melting mood",
+      "normalized": "melting mood",
+      "definition": "state of weeping; tender emotional softness",
+      "pos": "phrase"
+    },
+    {
+      "surface": "mere perdition",
+      "normalized": "mere perdition",
+      "definition": "utter destruction; complete ruin",
+      "pos": "phrase"
+    },
+    {
+      "surface": "messes",
+      "normalized": "messes",
+      "definition": "small portions; scraps; pieces of cut-up food",
+      "pos": "noun"
+    },
+    {
+      "surface": "methinks",
+      "normalized": "methinks",
+      "definition": "it seems to me",
+      "pos": "verb"
+    },
+    {
+      "surface": "mettle",
+      "normalized": "mettle",
+      "definition": "spirit; courage; strength of character",
+      "pos": "noun"
+    },
+    {
+      "surface": "mince this matter",
+      "normalized": "mince this matter",
+      "definition": "soften or understate the facts",
+      "pos": "phrase"
+    },
+    {
+      "surface": "mine",
+      "normalized": "mine",
+      "definition": "underground cavity; hollow pit or tunnel",
+      "pos": "noun"
+    },
+    {
+      "surface": "minerals",
+      "normalized": "minerals",
+      "definition": "chemical drugs; mineral-based poisons",
+      "pos": "noun"
+    },
+    {
+      "surface": "minion",
+      "normalized": "minion",
+      "definition": "darling; favourite (here contemptuous: hussy)",
+      "pos": "noun"
+    },
+    {
+      "surface": "minister",
+      "normalized": "minister",
+      "definition": "provide; supply; offer",
+      "pos": "verb"
+    },
+    {
+      "surface": "minx",
+      "normalized": "minx",
+      "definition": "impudent or wanton woman",
+      "pos": "noun"
+    },
+    {
+      "surface": "miscarry",
+      "normalized": "miscarry",
+      "definition": "fail; go wrong; come to harm",
+      "pos": "verb"
+    },
+    {
+      "surface": "misgives",
+      "normalized": "misgives",
+      "definition": "gives a feeling of doubt or foreboding",
+      "pos": "verb"
+    },
+    {
+      "surface": "misuse",
+      "normalized": "misuse",
+      "definition": "misbehavior; fault; smallest wrong action",
+      "pos": "noun"
+    },
+    {
+      "surface": "mo",
+      "normalized": "mo",
+      "definition": "more (archaic form of 'more')",
+      "pos": "adjective"
+    },
+    {
+      "surface": "moist",
+      "normalized": "moist",
+      "definition": "damp; here a sign of a warm and lustful temperament",
+      "pos": "adjective"
+    },
+    {
+      "surface": "monstrous",
+      "normalized": "monstrous",
+      "definition": "enormous; extraordinary in size or force",
+      "pos": "adjective"
+    },
+    {
+      "surface": "monumental",
+      "normalized": "monumental",
+      "definition": "of or like a monument; used for tomb effigies",
+      "pos": "adjective"
+    },
+    {
+      "surface": "moorship's",
+      "normalized": "moorship's",
+      "definition": "his lordship's (mocking title for Othello as a Moor)",
+      "pos": "noun"
+    },
+    {
+      "surface": "mortal",
+      "normalized": "mortal",
+      "definition": "deadly; destructive",
+      "pos": "adjective"
+    },
+    {
+      "surface": "mortal engines",
+      "normalized": "mortal engines",
+      "definition": "deadly weapons; cannon capable of killing",
+      "pos": "noun phrase"
+    },
+    {
+      "surface": "moth of peace",
+      "normalized": "moth of peace",
+      "definition": "idle creature consuming in peacetime; useless figure",
+      "pos": "noun phrase"
+    },
+    {
+      "surface": "motion",
+      "normalized": "motion",
+      "definition": "natural impulse; faculty of feeling or desire",
+      "pos": "noun"
+    },
+    {
+      "surface": "motions",
+      "normalized": "motions",
+      "definition": "impulses; stirrings of desire; inner urgings",
+      "pos": "noun"
+    },
+    {
+      "surface": "mountebanks",
+      "normalized": "mountebanks",
+      "definition": "traveling quack doctors; fraudulent medicine-sellers",
+      "pos": "noun"
+    },
+    {
+      "surface": "mov'd",
+      "normalized": "mov'd",
+      "definition": "emotionally disturbed; upset",
+      "pos": "adjective"
+    },
+    {
+      "surface": "move for",
+      "normalized": "move for",
+      "definition": "plead on behalf of; intercede for",
+      "pos": "phrase"
+    },
+    {
+      "surface": "mummy",
+      "normalized": "mummy",
+      "definition": "a drug or dye made from embalmed human flesh",
+      "pos": "noun"
+    },
+    {
+      "surface": "murderous",
+      "normalized": "murderous",
+      "definition": "capable of murder; deadly",
+      "pos": "adjective"
+    },
+    {
+      "surface": "muse",
+      "normalized": "muse",
+      "definition": "poetic inspiration; creative faculty",
+      "pos": "noun"
+    },
+    {
+      "surface": "mutiny",
+      "normalized": "mutiny",
+      "definition": "riot; public disorder; armed uprising",
+      "pos": "noun"
+    },
+    {
+      "surface": "mutualities",
+      "normalized": "mutualities",
+      "definition": "mutual exchanges; reciprocal intimacies",
+      "pos": "noun"
+    },
+    {
+      "surface": "mystery",
+      "normalized": "mystery",
+      "definition": "trade; craft; professional skill (here: brothel-keeping)",
+      "pos": "noun"
+    },
+    {
+      "surface": "naked",
+      "normalized": "naked",
+      "definition": "unarmed; without weapons",
+      "pos": "adjective"
+    },
+    {
+      "surface": "napkin",
+      "normalized": "napkin",
+      "definition": "a handkerchief; small cloth",
+      "pos": "noun"
+    },
+    {
+      "surface": "native",
+      "normalized": "native",
+      "definition": "natural; innate; inborn",
+      "pos": "adjective"
+    },
+    {
+      "surface": "naught",
+      "normalized": "naught",
+      "definition": "nothing",
+      "pos": "pronoun"
+    },
+    {
+      "surface": "ne'er",
+      "normalized": "ne'er",
+      "definition": "never",
+      "pos": "adverb"
+    },
+    {
+      "surface": "negligence",
+      "normalized": "negligence",
+      "definition": "carelessness; inattention",
+      "pos": "noun"
+    },
+    {
+      "surface": "nephews",
+      "normalized": "nephews",
+      "definition": "grandsons or close male descendants (archaic broader meaning)",
+      "pos": "noun"
+    },
+    {
+      "surface": "nether",
+      "normalized": "nether",
+      "definition": "lower",
+      "pos": "adjective"
+    },
+    {
+      "surface": "new heraldry",
+      "normalized": "new heraldry",
+      "definition": "new custom or practice (ironic); hands pledged without hearts",
+      "pos": "noun phrase"
+    },
+    {
+      "surface": "nice",
+      "normalized": "nice",
+      "definition": "trivial; fussy; insubstantial",
+      "pos": "adjective"
+    },
+    {
+      "surface": "nightly wearing",
+      "normalized": "nightly wearing",
+      "definition": "nightclothes; garments worn to bed",
+      "pos": "noun phrase"
+    },
+    {
+      "surface": "nonsuits",
+      "normalized": "nonsuits",
+      "definition": "rejects; dismisses (a legal term: to nonsuit = to refuse)",
+      "pos": "verb"
+    },
+    {
+      "surface": "notorious",
+      "normalized": "notorious",
+      "definition": "notorious; brazen; known to all as wicked",
+      "pos": "adjective"
+    },
+    {
+      "surface": "nuptial",
+      "normalized": "nuptial",
+      "definition": "marriage; wedding",
+      "pos": "noun"
+    },
+    {
+      "surface": "o' the",
+      "normalized": "o' the",
+      "definition": "of the",
+      "pos": "contraction"
+    },
+    {
+      "surface": "o'er",
+      "normalized": "o'er",
+      "definition": "over",
+      "pos": "preposition"
+    },
+    {
+      "surface": "o'erbearing",
+      "normalized": "o'erbearing",
+      "definition": "overpowering; drowning out everything else",
+      "pos": "adjective"
+    },
+    {
+      "surface": "oak",
+      "normalized": "oak",
+      "definition": "close-grained wood; hence 'as tight as grain'",
+      "pos": "noun"
+    },
+    {
+      "surface": "obsequious",
+      "normalized": "obsequious",
+      "definition": "servilely obedient; fawning",
+      "pos": "adjective"
+    },
+    {
+      "surface": "observance",
+      "normalized": "observance",
+      "definition": "observation; a noting of details",
+      "pos": "noun"
+    },
+    {
+      "surface": "observancy",
+      "normalized": "observancy",
+      "definition": "attentiveness; courtly or devoted attention",
+      "pos": "noun"
+    },
+    {
+      "surface": "ocular proof",
+      "normalized": "ocular proof",
+      "definition": "visible evidence; proof seen with one's own eyes",
+      "pos": "noun phrase"
+    },
+    {
+      "surface": "odd-even",
+      "normalized": "odd-even",
+      "definition": "the dead hour between night and morning; midnight hour",
+      "pos": "noun"
+    },
+    {
+      "surface": "of moment",
+      "normalized": "of moment",
+      "definition": "of great importance; of serious consequence",
+      "pos": "adjective phrase"
+    },
+    {
+      "surface": "offends me",
+      "normalized": "offends me",
+      "definition": "pains me; hurts me; causes me difficulty",
+      "pos": "phrase"
+    },
+    {
+      "surface": "offense",
+      "normalized": "offense",
+      "definition": "harm done; injury caused",
+      "pos": "noun"
+    },
+    {
+      "surface": "office",
+      "normalized": "office",
+      "definition": "devoted service; duty performed with the heart",
+      "pos": "noun"
+    },
+    {
+      "surface": "offices",
+      "normalized": "offices",
+      "definition": "service rooms; pantries and kitchens stocked with food and drink",
+      "pos": "noun"
+    },
+    {
+      "surface": "on the hip",
+      "normalized": "on the hip",
+      "definition": "at a disadvantage; in a vulnerable position",
+      "pos": "phrase"
+    },
+    {
+      "surface": "on't",
+      "normalized": "on't",
+      "definition": "of it",
+      "pos": "contraction"
+    },
+    {
+      "surface": "opinion",
+      "normalized": "opinion",
+      "definition": "reputation; public esteem; standing",
+      "pos": "noun"
+    },
+    {
+      "surface": "out of warrant",
+      "normalized": "out of warrant",
+      "definition": "illegal; without legal authority",
+      "pos": "idiom"
+    },
+    {
+      "surface": "out-sport discretion",
+      "normalized": "out-sport discretion",
+      "definition": "carry celebration beyond what prudence allows",
+      "pos": "phrase"
+    },
+    {
+      "surface": "ow'dst",
+      "normalized": "ow'dst",
+      "definition": "owned; possessed (archaic past tense of 'owe' = own)",
+      "pos": "verb"
+    },
+    {
+      "surface": "owe",
+      "normalized": "owe",
+      "definition": "own; possess",
+      "pos": "verb"
+    },
+    {
+      "surface": "paddle",
+      "normalized": "paddle",
+      "definition": "play with; fondle with the hand",
+      "pos": "verb"
+    },
+    {
+      "surface": "pageant",
+      "normalized": "pageant",
+      "definition": "show; deceptive display; pretense",
+      "pos": "noun"
+    },
+    {
+      "surface": "palpable",
+      "normalized": "palpable",
+      "definition": "obvious; easily perceived; plain",
+      "pos": "adjective"
+    },
+    {
+      "surface": "paradoxes",
+      "normalized": "paradoxes",
+      "definition": "statements contradicting common belief, meant to provoke",
+      "pos": "noun"
+    },
+    {
+      "surface": "paragons",
+      "normalized": "paragons",
+      "definition": "surpasses; excels beyond comparison",
+      "pos": "verb"
+    },
+    {
+      "surface": "parallel course",
+      "normalized": "parallel course",
+      "definition": "course that runs alongside the truth; indirect route",
+      "pos": "phrase"
+    },
+    {
+      "surface": "parcels",
+      "normalized": "parcels",
+      "definition": "portions; parts; fragments",
+      "pos": "noun"
+    },
+    {
+      "surface": "partially affin'd",
+      "normalized": "partially affin'd",
+      "definition": "biased by personal ties; partial due to allegiance",
+      "pos": "phrase"
+    },
+    {
+      "surface": "particular",
+      "normalized": "particular",
+      "definition": "personal; private; individual (as opposed to general)",
+      "pos": "adjective"
+    },
+    {
+      "surface": "passage",
+      "normalized": "passage",
+      "definition": "passersby; people going by in the street",
+      "pos": "noun"
+    },
+    {
+      "surface": "passing",
+      "normalized": "passing",
+      "definition": "surpassingly; exceedingly; extremely",
+      "pos": "adverb"
+    },
+    {
+      "surface": "pate",
+      "normalized": "pate",
+      "definition": "head; top of the head",
+      "pos": "noun"
+    },
+    {
+      "surface": "patent",
+      "normalized": "patent",
+      "definition": "license; official permission or open leave to do wrong",
+      "pos": "noun"
+    },
+    {
+      "surface": "patient list",
+      "normalized": "patient list",
+      "definition": "bounds of patience; the limits of calm endurance",
+      "pos": "noun phrase"
+    },
+    {
+      "surface": "peculiar",
+      "normalized": "peculiar",
+      "definition": "personal; private; one's own",
+      "pos": "adjective"
+    },
+    {
+      "surface": "peevish",
+      "normalized": "peevish",
+      "definition": "irritable; petty and fretful; spitefully childish",
+      "pos": "adjective"
+    },
+    {
+      "surface": "peevish odds",
+      "normalized": "peevish odds",
+      "definition": "foolish quarrel; childish dispute",
+      "pos": "phrase"
+    },
+    {
+      "surface": "pegs",
+      "normalized": "pegs",
+      "definition": "tuning pegs of a stringed instrument",
+      "pos": "noun"
+    },
+    {
+      "surface": "peradventure",
+      "normalized": "peradventure",
+      "definition": "perhaps; possibly",
+      "pos": "adverb"
+    },
+    {
+      "surface": "perceive",
+      "normalized": "perceive",
+      "definition": "see; notice; observe",
+      "pos": "verb"
+    },
+    {
+      "surface": "perchance",
+      "normalized": "perchance",
+      "definition": "perhaps; possibly; maybe",
+      "pos": "adverb"
+    },
+    {
+      "surface": "perdition",
+      "normalized": "perdition",
+      "definition": "eternal damnation; utter ruin",
+      "pos": "noun"
+    },
+    {
+      "surface": "perdurable",
+      "normalized": "perdurable",
+      "definition": "permanent; enduring; extremely durable",
+      "pos": "adjective"
+    },
+    {
+      "surface": "perforce",
+      "normalized": "perforce",
+      "definition": "by force; of necessity; inevitably",
+      "pos": "adverb"
+    },
+    {
+      "surface": "period",
+      "normalized": "period",
+      "definition": "end; conclusion; full stop to a life",
+      "pos": "noun"
+    },
+    {
+      "surface": "perjury",
+      "normalized": "perjury",
+      "definition": "lying under oath; false swearing",
+      "pos": "noun"
+    },
+    {
+      "surface": "pernicious",
+      "normalized": "pernicious",
+      "definition": "destructive; deadly; causing great harm",
+      "pos": "adjective"
+    },
+    {
+      "surface": "perplex'd",
+      "normalized": "perplex'd",
+      "definition": "maddened; tormented; utterly confused",
+      "pos": "adjective"
+    },
+    {
+      "surface": "pestilent",
+      "normalized": "pestilent",
+      "definition": "pestilential; morally corrupting; vicious",
+      "pos": "adjective"
+    },
+    {
+      "surface": "pioners",
+      "normalized": "pioners",
+      "definition": "foot soldiers who dig trenches; the lowest military rank",
+      "pos": "noun"
+    },
+    {
+      "surface": "pitch",
+      "normalized": "pitch",
+      "definition": "dark sticky tar; blackness; corruption",
+      "pos": "noun"
+    },
+    {
+      "surface": "pith",
+      "normalized": "pith",
+      "definition": "strength; vigor; the prime of life",
+      "pos": "noun"
+    },
+    {
+      "surface": "pliant",
+      "normalized": "pliant",
+      "definition": "favorable; yielding; a suitable opportunity",
+      "pos": "adjective"
+    },
+    {
+      "surface": "plies",
+      "normalized": "plies",
+      "definition": "urges persistently; works at steadily",
+      "pos": "verb"
+    },
+    {
+      "surface": "plume up",
+      "normalized": "plume up",
+      "definition": "gratify; feed the pride of; make proud",
+      "pos": "verb"
+    },
+    {
+      "surface": "poise",
+      "normalized": "poise",
+      "definition": "weight; heaviness; gravity",
+      "pos": "verb"
+    },
+    {
+      "surface": "politic",
+      "normalized": "politic",
+      "definition": "expedient; dictated by policy; calculated",
+      "pos": "adjective"
+    },
+    {
+      "surface": "pomp",
+      "normalized": "pomp",
+      "definition": "ceremonial splendor; grand display",
+      "pos": "noun"
+    },
+    {
+      "surface": "poppy",
+      "normalized": "poppy",
+      "definition": "opium poppy; source of a sedative drug",
+      "pos": "noun"
+    },
+    {
+      "surface": "portance",
+      "normalized": "portance",
+      "definition": "deportment; bearing; conduct and behavior",
+      "pos": "noun"
+    },
+    {
+      "surface": "portents",
+      "normalized": "portents",
+      "definition": "omens; warning signs of something dreadful",
+      "pos": "noun"
+    },
+    {
+      "surface": "position",
+      "normalized": "position",
+      "definition": "formal assertion; definite statement",
+      "pos": "noun"
+    },
+    {
+      "surface": "potations",
+      "normalized": "potations",
+      "definition": "large drinks; deep draughts of wine",
+      "pos": "noun"
+    },
+    {
+      "surface": "potential",
+      "normalized": "potential",
+      "definition": "powerful; having great force or authority",
+      "pos": "adjective"
+    },
+    {
+      "surface": "potting",
+      "normalized": "potting",
+      "definition": "heavy drinking; drinking from pots",
+      "pos": "noun"
+    },
+    {
+      "surface": "pottle",
+      "normalized": "pottle",
+      "definition": "a half-gallon measure; a large drinking vessel",
+      "pos": "noun"
+    },
+    {
+      "surface": "pottle-deep",
+      "normalized": "pottle-deep",
+      "definition": "to the bottom of a pottle (half-gallon measure)",
+      "pos": "adverb"
+    },
+    {
+      "surface": "pr'ythee",
+      "normalized": "pr'ythee",
+      "definition": "I pray thee; please",
+      "pos": "idiom"
+    },
+    {
+      "surface": "practicing upon",
+      "normalized": "practicing upon",
+      "definition": "plotting against; scheming to undermine",
+      "pos": "phrase"
+    },
+    {
+      "surface": "practis'd",
+      "normalized": "practis'd",
+      "definition": "used arts or tricks against; acted by craft on",
+      "pos": "verb"
+    },
+    {
+      "surface": "pranks",
+      "normalized": "pranks",
+      "definition": "tricks; mischievous or lewd acts",
+      "pos": "noun"
+    },
+    {
+      "surface": "prate",
+      "normalized": "prate",
+      "definition": "talk foolishly or impudently; chatter",
+      "pos": "verb"
+    },
+    {
+      "surface": "prated",
+      "normalized": "prated",
+      "definition": "talked idly and at length; chattered",
+      "pos": "verb"
+    },
+    {
+      "surface": "prattle",
+      "normalized": "prattle",
+      "definition": "talk idly; chatter without substance",
+      "pos": "verb"
+    },
+    {
+      "surface": "precious",
+      "normalized": "precious",
+      "definition": "utter (intensifier of contempt: 'precious villain')",
+      "pos": "adjective"
+    },
+    {
+      "surface": "prefer",
+      "normalized": "prefer",
+      "definition": "advance; promote; further",
+      "pos": "verb"
+    },
+    {
+      "surface": "preferment",
+      "normalized": "preferment",
+      "definition": "promotion; advancement in rank or position",
+      "pos": "noun"
+    },
+    {
+      "surface": "pregnant",
+      "normalized": "pregnant",
+      "definition": "compelling; obvious; persuasive",
+      "pos": "adjective"
+    },
+    {
+      "surface": "preposterous",
+      "normalized": "preposterous",
+      "definition": "contrary to nature; absurd; putting last first",
+      "pos": "adjective"
+    },
+    {
+      "surface": "preposterously",
+      "normalized": "preposterously",
+      "definition": "unnaturally; contrary to the proper order of things",
+      "pos": "adverb"
+    },
+    {
+      "surface": "prerogativ'd",
+      "normalized": "prerogativ'd",
+      "definition": "having special privilege; holding high rank",
+      "pos": "adjective"
+    },
+    {
+      "surface": "prescription",
+      "normalized": "prescription",
+      "definition": "right established by long custom; title through precedent",
+      "pos": "noun"
+    },
+    {
+      "surface": "presently",
+      "normalized": "presently",
+      "definition": "at once; immediately",
+      "pos": "adverb"
+    },
+    {
+      "surface": "prick'd",
+      "normalized": "prick'd",
+      "definition": "goaded; spurred on; driven",
+      "pos": "verb"
+    },
+    {
+      "surface": "pride",
+      "normalized": "pride",
+      "definition": "sexual heat; mating desire (in animals)",
+      "pos": "noun"
+    },
+    {
+      "surface": "prime",
+      "normalized": "prime",
+      "definition": "in heat; driven by lust",
+      "pos": "adjective"
+    },
+    {
+      "surface": "prithee",
+      "normalized": "prithee",
+      "definition": "I pray thee; please",
+      "pos": "interjection"
+    },
+    {
+      "surface": "prize",
+      "normalized": "prize",
+      "definition": "captured ship or goods; lawful spoil of war",
+      "pos": "noun"
+    },
+    {
+      "surface": "probal",
+      "normalized": "probal",
+      "definition": "probable; likely; plausible",
+      "pos": "adjective"
+    },
+    {
+      "surface": "probation",
+      "normalized": "probation",
+      "definition": "proof; process of testing or proving",
+      "pos": "noun"
+    },
+    {
+      "surface": "procreants",
+      "normalized": "procreants",
+      "definition": "those engaged in procreation; lovers coupling",
+      "pos": "noun"
+    },
+    {
+      "surface": "produc'd",
+      "normalized": "produc'd",
+      "definition": "brought forward; presented as a witness",
+      "pos": "verb"
+    },
+    {
+      "surface": "profane",
+      "normalized": "profane",
+      "definition": "irreverent; coarse; impudent",
+      "pos": "adjective"
+    },
+    {
+      "surface": "profit",
+      "normalized": "profit",
+      "definition": "lesson learned; benefit received",
+      "pos": "noun"
+    },
+    {
+      "surface": "promethean heat",
+      "normalized": "promethean heat",
+      "definition": "life-giving fire; divine creative spark",
+      "pos": "phrase"
+    },
+    {
+      "surface": "promis'd",
+      "normalized": "promis'd",
+      "definition": "promised",
+      "pos": "verb"
+    },
+    {
+      "surface": "proper",
+      "normalized": "proper",
+      "definition": "handsome; fine-looking; good-looking",
+      "pos": "adjective"
+    },
+    {
+      "surface": "prophetic fury",
+      "normalized": "prophetic fury",
+      "definition": "inspired frenzy of a prophet or oracle at work",
+      "pos": "noun phrase"
+    },
+    {
+      "surface": "propriety",
+      "normalized": "propriety",
+      "definition": "proper or orderly condition; its natural state",
+      "pos": "noun"
+    },
+    {
+      "surface": "prosperous",
+      "normalized": "prosperous",
+      "definition": "favorable; propitious; lending good fortune",
+      "pos": "adjective"
+    },
+    {
+      "surface": "protest",
+      "normalized": "protest",
+      "definition": "declare solemnly; affirm earnestly",
+      "pos": "verb"
+    },
+    {
+      "surface": "provender",
+      "normalized": "provender",
+      "definition": "animal fodder; food (contemptuous here)",
+      "pos": "noun"
+    },
+    {
+      "surface": "pry'thee",
+      "normalized": "pry'thee",
+      "definition": "I pray thee; please",
+      "pos": "interjection"
+    },
+    {
+      "surface": "puddled",
+      "normalized": "puddled",
+      "definition": "muddied; stirred up and made cloudy",
+      "pos": "verb"
+    },
+    {
+      "surface": "puny whipster",
+      "normalized": "puny whipster",
+      "definition": "small, contemptible braggart or novice fighter",
+      "pos": "noun phrase"
+    },
+    {
+      "surface": "purgatory",
+      "normalized": "purgatory",
+      "definition": "place of punishment after death before heaven",
+      "pos": "noun"
+    },
+    {
+      "surface": "purse",
+      "normalized": "purse",
+      "definition": "wrinkle; pucker up (the brow)",
+      "pos": "verb"
+    },
+    {
+      "surface": "put on",
+      "normalized": "put on",
+      "definition": "carry out; commit; perform (sins)",
+      "pos": "phrase"
+    },
+    {
+      "surface": "put up",
+      "normalized": "put up",
+      "definition": "endure; tolerate without complaint; pocket",
+      "pos": "verb phrase"
+    },
+    {
+      "surface": "qualification",
+      "normalized": "qualification",
+      "definition": "appeased temper; pacified disposition",
+      "pos": "noun"
+    },
+    {
+      "surface": "quality",
+      "normalized": "quality",
+      "definition": "profession; calling; nature and occupation",
+      "pos": "noun"
+    },
+    {
+      "surface": "quat",
+      "normalized": "quat",
+      "definition": "pimple; insignificant upstart",
+      "pos": "noun"
+    },
+    {
+      "surface": "quicken",
+      "normalized": "quicken",
+      "definition": "come alive; are born; receive life",
+      "pos": "verb"
+    },
+    {
+      "surface": "quillets",
+      "normalized": "quillets",
+      "definition": "quibbles; clever verbal tricks",
+      "pos": "noun"
+    },
+    {
+      "surface": "quirks",
+      "normalized": "quirks",
+      "definition": "clever turns; ingenious devices; tricks of expression",
+      "pos": "noun"
+    },
+    {
+      "surface": "rack",
+      "normalized": "rack",
+      "definition": "a torture device that stretches the body",
+      "pos": "noun"
+    },
+    {
+      "surface": "rail",
+      "normalized": "rail",
+      "definition": "scold loudly; rant abusively in public",
+      "pos": "verb"
+    },
+    {
+      "surface": "rank",
+      "normalized": "rank",
+      "definition": "offensive; foul; grossly improper",
+      "pos": "adjective"
+    },
+    {
+      "surface": "rank garb",
+      "normalized": "rank garb",
+      "definition": "gross, offensive manner; crude fashion",
+      "pos": "phrase"
+    },
+    {
+      "surface": "ransom",
+      "normalized": "ransom",
+      "definition": "redeem; buy back; recover from forfeiture",
+      "pos": "verb"
+    },
+    {
+      "surface": "rapier",
+      "normalized": "rapier",
+      "definition": "light thrusting sword",
+      "pos": "noun"
+    },
+    {
+      "surface": "rash",
+      "normalized": "rash",
+      "definition": "hastily; without thought; rashly",
+      "pos": "adverb"
+    },
+    {
+      "surface": "re-stem",
+      "normalized": "re-stem",
+      "definition": "turn back on; reverse course along (nautical)",
+      "pos": "verb"
+    },
+    {
+      "surface": "reach",
+      "normalized": "reach",
+      "definition": "scope; extent; range of meaning",
+      "pos": "noun"
+    },
+    {
+      "surface": "recognizance",
+      "normalized": "recognizance",
+      "definition": "token of pledge; symbol of a sworn bond",
+      "pos": "noun"
+    },
+    {
+      "surface": "recoiling",
+      "normalized": "recoiling",
+      "definition": "drawing back; reverting",
+      "pos": "verb"
+    },
+    {
+      "surface": "recommends",
+      "normalized": "recommends",
+      "definition": "commends; sends greetings from",
+      "pos": "verb"
+    },
+    {
+      "surface": "recover",
+      "normalized": "recover",
+      "definition": "regain; win back favor with",
+      "pos": "verb"
+    },
+    {
+      "surface": "refrain",
+      "normalized": "refrain",
+      "definition": "hold back; restrain oneself",
+      "pos": "verb"
+    },
+    {
+      "surface": "relate",
+      "normalized": "relate",
+      "definition": "recount; tell; narrate",
+      "pos": "verb"
+    },
+    {
+      "surface": "relish",
+      "normalized": "relish",
+      "definition": "appreciate; understand the flavor of",
+      "pos": "verb"
+    },
+    {
+      "surface": "relume",
+      "normalized": "relume",
+      "definition": "relight; rekindle",
+      "pos": "verb"
+    },
+    {
+      "surface": "remembrance",
+      "normalized": "remembrance",
+      "definition": "a keepsake; a token of memory",
+      "pos": "noun"
+    },
+    {
+      "surface": "remorse",
+      "normalized": "remorse",
+      "definition": "compassion; pity; tender feeling",
+      "pos": "noun"
+    },
+    {
+      "surface": "repair",
+      "normalized": "repair",
+      "definition": "go; make your way; proceed",
+      "pos": "verb"
+    },
+    {
+      "surface": "repair his fortune",
+      "normalized": "repair his fortune",
+      "definition": "restore his position; mend his broken career",
+      "pos": "phrase"
+    },
+    {
+      "surface": "repeals him",
+      "normalized": "repeals him",
+      "definition": "pleads for his recall; campaigns for his reinstatement",
+      "pos": "verb phrase"
+    },
+    {
+      "surface": "repent me",
+      "normalized": "repent me",
+      "definition": "repent; change my mind; feel regret",
+      "pos": "phrase"
+    },
+    {
+      "surface": "reprobance",
+      "normalized": "reprobance",
+      "definition": "damnation; the state of being rejected by God",
+      "pos": "noun"
+    },
+    {
+      "surface": "repute",
+      "normalized": "repute",
+      "definition": "consider; regard; think of",
+      "pos": "verb"
+    },
+    {
+      "surface": "requite",
+      "normalized": "requite",
+      "definition": "repay; give back in return; punish in kind",
+      "pos": "verb"
+    },
+    {
+      "surface": "resolution",
+      "normalized": "resolution",
+      "definition": "firm determination; settled decision to act",
+      "pos": "noun"
+    },
+    {
+      "surface": "resolv'd",
+      "normalized": "resolv'd",
+      "definition": "settled; determined; freed from doubt",
+      "pos": "adjective"
+    },
+    {
+      "surface": "restitution",
+      "normalized": "restitution",
+      "definition": "repayment; giving back what was taken",
+      "pos": "noun"
+    },
+    {
+      "surface": "revels",
+      "normalized": "revels",
+      "definition": "festive merrymaking; noisy celebrations",
+      "pos": "noun"
+    },
+    {
+      "surface": "revive",
+      "normalized": "revive",
+      "definition": "come back to life; recover consciousness",
+      "pos": "verb"
+    },
+    {
+      "surface": "revolt",
+      "normalized": "revolt",
+      "definition": "turning away; unfaithfulness; rebellion",
+      "pos": "noun"
+    },
+    {
+      "surface": "rheum",
+      "normalized": "rheum",
+      "definition": "a watery discharge; a cold; catarrh",
+      "pos": "noun"
+    },
+    {
+      "surface": "rites",
+      "normalized": "rites",
+      "definition": "duties and privileges (of marriage); conjugal rights",
+      "pos": "noun"
+    },
+    {
+      "surface": "round",
+      "normalized": "round",
+      "definition": "plain; direct; straightforward; blunt",
+      "pos": "adjective"
+    },
+    {
+      "surface": "rouse",
+      "normalized": "rouse",
+      "definition": "a bumper; a full cup drunk as a toast",
+      "pos": "noun"
+    },
+    {
+      "surface": "rout",
+      "normalized": "rout",
+      "definition": "brawl; riot; disorderly crowd fight",
+      "pos": "noun"
+    },
+    {
+      "surface": "rubb'd",
+      "normalized": "rubb'd",
+      "definition": "chafed; irritated; rubbed raw (like a blister)",
+      "pos": "verb"
+    },
+    {
+      "surface": "rude",
+      "normalized": "rude",
+      "definition": "rough; harsh; violent",
+      "pos": "adjective"
+    },
+    {
+      "surface": "sad",
+      "normalized": "sad",
+      "definition": "serious; grave; troubled",
+      "pos": "adjective"
+    },
+    {
+      "surface": "sadly",
+      "normalized": "sadly",
+      "definition": "seriously; gravely; with concern",
+      "pos": "adverb"
+    },
+    {
+      "surface": "said'st",
+      "normalized": "said'st",
+      "definition": "said (second-person past tense)",
+      "pos": "verb"
+    },
+    {
+      "surface": "salt",
+      "normalized": "salt",
+      "definition": "lustful; lecherous; sexually eager",
+      "pos": "adjective"
+    },
+    {
+      "surface": "salt and sorry rheum",
+      "normalized": "salt and sorry rheum",
+      "definition": "a troublesome head cold; a runny and painful catarrh",
+      "pos": "noun phrase"
+    },
+    {
+      "surface": "sanctimony",
+      "normalized": "sanctimony",
+      "definition": "outward show of holiness; sacred vow or ceremony",
+      "pos": "noun"
+    },
+    {
+      "surface": "sans",
+      "normalized": "sans",
+      "definition": "without (French; used in Elizabethan English)",
+      "pos": "preposition"
+    },
+    {
+      "surface": "satiety",
+      "normalized": "satiety",
+      "definition": "the state of being fully satisfied; excess",
+      "pos": "noun"
+    },
+    {
+      "surface": "satisfied him",
+      "normalized": "satisfied him",
+      "definition": "pacified him; convinced him; paid him off",
+      "pos": "phrase"
+    },
+    {
+      "surface": "saucy",
+      "normalized": "saucy",
+      "definition": "insolent; impudent; presumptuous",
+      "pos": "adjective"
+    },
+    {
+      "surface": "scant",
+      "normalized": "scant",
+      "definition": "reduce; cut short; withhold from",
+      "pos": "verb"
+    },
+    {
+      "surface": "scattering",
+      "normalized": "scattering",
+      "definition": "random; scattered; unsystematic",
+      "pos": "adjective"
+    },
+    {
+      "surface": "score",
+      "normalized": "score",
+      "definition": "a debt or tally; here a record of absences to settle",
+      "pos": "noun"
+    },
+    {
+      "surface": "scored",
+      "normalized": "scored",
+      "definition": "marked; branded; put a notch against someone",
+      "pos": "verb"
+    },
+    {
+      "surface": "scurvy",
+      "normalized": "scurvy",
+      "definition": "contemptible; vile; insulting",
+      "pos": "adjective"
+    },
+    {
+      "surface": "se'nnight",
+      "normalized": "se'nnight",
+      "definition": "a week (seven nights)",
+      "pos": "noun"
+    },
+    {
+      "surface": "sea-mark",
+      "normalized": "sea-mark",
+      "definition": "landmark used by sailors to fix position; final limit",
+      "pos": "noun"
+    },
+    {
+      "surface": "seal her father's eyes up",
+      "normalized": "seal her father's eyes up",
+      "definition": "blind her father's perception; deceive him",
+      "pos": "verb phrase"
+    },
+    {
+      "surface": "seamy side without",
+      "normalized": "seamy side without",
+      "definition": "wrong side outward; inside-out (as a garment's seam)",
+      "pos": "phrase"
+    },
+    {
+      "surface": "sect or scion",
+      "normalized": "sect or scion",
+      "definition": "offshoot; small cutting from a plant; minor branch",
+      "pos": "noun phrase"
+    },
+    {
+      "surface": "secure",
+      "normalized": "secure",
+      "definition": "unguarded; carelessly overconfident",
+      "pos": "adjective"
+    },
+    {
+      "surface": "seel",
+      "normalized": "seel",
+      "definition": "blind; close the eyes of (falconry: sewing a hawk's eyes shut)",
+      "pos": "verb"
+    },
+    {
+      "surface": "seeming",
+      "normalized": "seeming",
+      "definition": "outward appearance; a false show",
+      "pos": "noun"
+    },
+    {
+      "surface": "segregation",
+      "normalized": "segregation",
+      "definition": "scattering; dispersal",
+      "pos": "noun"
+    },
+    {
+      "surface": "seize upon",
+      "normalized": "seize upon",
+      "definition": "take legal possession of; confiscate",
+      "pos": "phrase"
+    },
+    {
+      "surface": "self-bounty",
+      "normalized": "self-bounty",
+      "definition": "natural goodness; innate generosity of character",
+      "pos": "noun"
+    },
+    {
+      "surface": "sense",
+      "normalized": "sense",
+      "definition": "feeling; physical sensation; capacity to feel",
+      "pos": "noun"
+    },
+    {
+      "surface": "sentence",
+      "normalized": "sentence",
+      "definition": "maxim; moral saying; wise proverb",
+      "pos": "noun"
+    },
+    {
+      "surface": "sequent",
+      "normalized": "sequent",
+      "definition": "successive; one after another",
+      "pos": "adjective"
+    },
+    {
+      "surface": "sequester",
+      "normalized": "sequester",
+      "definition": "a period of separation; withdrawal; seclusion",
+      "pos": "noun"
+    },
+    {
+      "surface": "sequestration",
+      "normalized": "sequestration",
+      "definition": "separation; estrangement; parting",
+      "pos": "noun"
+    },
+    {
+      "surface": "servitor",
+      "normalized": "servitor",
+      "definition": "servant; officer serving a superior",
+      "pos": "noun"
+    },
+    {
+      "surface": "set her on",
+      "normalized": "set her on",
+      "definition": "urge her forward; prompt her to act",
+      "pos": "phrase"
+    },
+    {
+      "surface": "set on",
+      "normalized": "set on",
+      "definition": "attacked; set upon; assaulted",
+      "pos": "phrase"
+    },
+    {
+      "surface": "several",
+      "normalized": "several",
+      "definition": "separate; distinct; individual",
+      "pos": "adjective"
+    },
+    {
+      "surface": "shambles",
+      "normalized": "shambles",
+      "definition": "slaughterhouse; a place of butchery and blood",
+      "pos": "noun"
+    },
+    {
+      "surface": "shore his old thread in twain",
+      "normalized": "shore his old thread in twain",
+      "definition": "cut his life's thread in two; killed him",
+      "pos": "phrase"
+    },
+    {
+      "surface": "shouldst",
+      "normalized": "shouldst",
+      "definition": "should (second person singular: 'you should')",
+      "pos": "verb"
+    },
+    {
+      "surface": "shrewd",
+      "normalized": "shrewd",
+      "definition": "sharp; cutting; troublesome; hard to bear",
+      "pos": "adjective"
+    },
+    {
+      "surface": "shrift",
+      "normalized": "shrift",
+      "definition": "confession to a priest; absolution",
+      "pos": "noun"
+    },
+    {
+      "surface": "shroud",
+      "normalized": "shroud",
+      "definition": "wrap in a burial cloth; prepare a body for burial",
+      "pos": "verb"
+    },
+    {
+      "surface": "sibyl",
+      "normalized": "sibyl",
+      "definition": "a prophetess; a woman with divine foresight",
+      "pos": "noun"
+    },
+    {
+      "surface": "siege",
+      "normalized": "siege",
+      "definition": "rank; seat; station; social standing",
+      "pos": "noun"
+    },
+    {
+      "surface": "signiory",
+      "normalized": "signiory",
+      "definition": "the governing council of Venice; the Venetian state",
+      "pos": "noun"
+    },
+    {
+      "surface": "sirrah",
+      "normalized": "sirrah",
+      "definition": "address to a social inferior, or showing contempt",
+      "pos": "noun"
+    },
+    {
+      "surface": "sith",
+      "normalized": "sith",
+      "definition": "since",
+      "pos": "conjunction"
+    },
+    {
+      "surface": "slack",
+      "normalized": "slack",
+      "definition": "neglect; fail to perform; be remiss in",
+      "pos": "verb"
+    },
+    {
+      "surface": "slipper",
+      "normalized": "slipper",
+      "definition": "slippery; elusive; not to be trusted",
+      "pos": "adjective"
+    },
+    {
+      "surface": "slubber",
+      "normalized": "slubber",
+      "definition": "tarnish; soil; do carelessly or slovenly",
+      "pos": "verb"
+    },
+    {
+      "surface": "smock",
+      "normalized": "smock",
+      "definition": "woman's undergarment; shift",
+      "pos": "noun"
+    },
+    {
+      "surface": "smote",
+      "normalized": "smote",
+      "definition": "struck; hit hard",
+      "pos": "verb"
+    },
+    {
+      "surface": "snorting",
+      "normalized": "snorting",
+      "definition": "snoring; deeply asleep",
+      "pos": "adjective"
+    },
+    {
+      "surface": "soft",
+      "normalized": "soft",
+      "definition": "wait; hold on; go slowly (mild command)",
+      "pos": "interjection"
+    },
+    {
+      "surface": "solemn",
+      "normalized": "solemn",
+      "definition": "serious; earnest; grave",
+      "pos": "adjective"
+    },
+    {
+      "surface": "solicit",
+      "normalized": "solicit",
+      "definition": "seek; beg for; pray for (forgiveness)",
+      "pos": "verb"
+    },
+    {
+      "surface": "soliciting",
+      "normalized": "soliciting",
+      "definition": "petitioning; making requests of; beseeching",
+      "pos": "verb"
+    },
+    {
+      "surface": "solicitor",
+      "normalized": "solicitor",
+      "definition": "advocate; one who pleads a cause for another",
+      "pos": "noun"
+    },
+    {
+      "surface": "sooth",
+      "normalized": "sooth",
+      "definition": "truth; truly; in truth",
+      "pos": "noun/adverb"
+    },
+    {
+      "surface": "span",
+      "normalized": "span",
+      "definition": "a short measure; the width of a hand; a brief time",
+      "pos": "noun"
+    },
+    {
+      "surface": "spartan dog",
+      "normalized": "spartan dog",
+      "definition": "cruel, fierce dog; Sparta was famed for ferocious hounds",
+      "pos": "phrase"
+    },
+    {
+      "surface": "speak parrot",
+      "normalized": "speak parrot",
+      "definition": "babble nonsense; repeat words without meaning",
+      "pos": "phrase"
+    },
+    {
+      "surface": "speaks home",
+      "normalized": "speaks home",
+      "definition": "hits the mark; says exactly what is meant",
+      "pos": "phrase"
+    },
+    {
+      "surface": "speculative and offic'd instruments",
+      "normalized": "speculative and offic'd instruments",
+      "definition": "faculties of sight and judgment in active service",
+      "pos": "noun phrase"
+    },
+    {
+      "surface": "spinster",
+      "normalized": "spinster",
+      "definition": "woman who spins thread; civilian without military skill",
+      "pos": "noun"
+    },
+    {
+      "surface": "spleen",
+      "normalized": "spleen",
+      "definition": "hot temper; passionate rage",
+      "pos": "noun"
+    },
+    {
+      "surface": "splinter",
+      "normalized": "splinter",
+      "definition": "bind with splints; mend; repair (a broken joint)",
+      "pos": "verb"
+    },
+    {
+      "surface": "spoil'd",
+      "normalized": "spoil'd",
+      "definition": "ruined; destroyed; done for",
+      "pos": "verb"
+    },
+    {
+      "surface": "sport",
+      "normalized": "sport",
+      "definition": "sexual pleasure; amorous play or pastime",
+      "pos": "noun"
+    },
+    {
+      "surface": "squire",
+      "normalized": "squire",
+      "definition": "fellow; attendant; also contemptuous: a low rogue",
+      "pos": "noun"
+    },
+    {
+      "surface": "stamp",
+      "normalized": "stamp",
+      "definition": "manufacture; counterfeit; fabricate",
+      "pos": "verb"
+    },
+    {
+      "surface": "stand the putting on",
+      "normalized": "stand the putting on",
+      "definition": "hold up when incited; perform when urged on",
+      "pos": "phrase"
+    },
+    {
+      "surface": "start",
+      "normalized": "start",
+      "definition": "disturb; startle; disrupt",
+      "pos": "verb"
+    },
+    {
+      "surface": "startingly",
+      "normalized": "startingly",
+      "definition": "in sudden jerks; distractedly; without order",
+      "pos": "adverb"
+    },
+    {
+      "surface": "stay the meat",
+      "normalized": "stay the meat",
+      "definition": "wait for the meal; are waiting at supper",
+      "pos": "phrase"
+    },
+    {
+      "surface": "stead",
+      "normalized": "stead",
+      "definition": "serve; help; be of use to",
+      "pos": "verb"
+    },
+    {
+      "surface": "steep-down",
+      "normalized": "steep-down",
+      "definition": "sheer; straight down; vertiginously deep",
+      "pos": "adjective"
+    },
+    {
+      "surface": "steep'd",
+      "normalized": "steep'd",
+      "definition": "soaked; plunged deeply into",
+      "pos": "verb"
+    },
+    {
+      "surface": "stick",
+      "normalized": "stick",
+      "definition": "attach; fasten; lodge a charge or blame upon",
+      "pos": "verb"
+    },
+    {
+      "surface": "still",
+      "normalized": "still",
+      "definition": "always; continually",
+      "pos": "adverb"
+    },
+    {
+      "surface": "stillness",
+      "normalized": "stillness",
+      "definition": "seriousness; gravity; composure",
+      "pos": "noun"
+    },
+    {
+      "surface": "stirring",
+      "normalized": "stirring",
+      "definition": "awake and up; active",
+      "pos": "adjective"
+    },
+    {
+      "surface": "stomach",
+      "normalized": "stomach",
+      "definition": "appetite; desire; capacity for more",
+      "pos": "noun"
+    },
+    {
+      "surface": "stone my heart",
+      "normalized": "stone my heart",
+      "definition": "harden my heart; turn it to stone",
+      "pos": "phrase"
+    },
+    {
+      "surface": "stood in your action",
+      "normalized": "stood in your action",
+      "definition": "were the defendant in your lawsuit",
+      "pos": "idiom"
+    },
+    {
+      "surface": "stop",
+      "normalized": "stop",
+      "definition": "obstruction; resistance; power to halt",
+      "pos": "noun"
+    },
+    {
+      "surface": "stops",
+      "normalized": "stops",
+      "definition": "pauses; hesitations in speech",
+      "pos": "noun"
+    },
+    {
+      "surface": "store",
+      "normalized": "store",
+      "definition": "fill; stock; populate",
+      "pos": "verb"
+    },
+    {
+      "surface": "stoup",
+      "normalized": "stoup",
+      "definition": "a drinking cup or flagon; a large vessel of wine",
+      "pos": "noun"
+    },
+    {
+      "surface": "stoutly",
+      "normalized": "stoutly",
+      "definition": "boldly; firmly; vigorously",
+      "pos": "adverb"
+    },
+    {
+      "surface": "stoutly timber'd",
+      "normalized": "stoutly timber'd",
+      "definition": "strongly built with good timber",
+      "pos": "phrase"
+    },
+    {
+      "surface": "stow'd",
+      "normalized": "stow'd",
+      "definition": "hidden; concealed; put away",
+      "pos": "verb"
+    },
+    {
+      "surface": "straight",
+      "normalized": "straight",
+      "definition": "immediately; right away",
+      "pos": "adverb"
+    },
+    {
+      "surface": "strain",
+      "normalized": "strain",
+      "definition": "stretch; interpret beyond its true meaning",
+      "pos": "verb"
+    },
+    {
+      "surface": "strangeness",
+      "normalized": "strangeness",
+      "definition": "aloofness; keeping a distance from someone",
+      "pos": "noun"
+    },
+    {
+      "surface": "strumpet",
+      "normalized": "strumpet",
+      "definition": "prostitute; sexually loose woman",
+      "pos": "noun"
+    },
+    {
+      "surface": "stubborn",
+      "normalized": "stubborn",
+      "definition": "harsh; rough; difficult and unrelenting",
+      "pos": "adjective"
+    },
+    {
+      "surface": "stubbornness",
+      "normalized": "stubbornness",
+      "definition": "harshness; severe or rough behavior",
+      "pos": "noun"
+    },
+    {
+      "surface": "subdu'd",
+      "normalized": "subdu'd",
+      "definition": "overcome by emotion; softened; brought low",
+      "pos": "verb"
+    },
+    {
+      "surface": "subdue",
+      "normalized": "subdue",
+      "definition": "win over; prevail upon; persuade",
+      "pos": "verb"
+    },
+    {
+      "surface": "suborn'd",
+      "normalized": "suborn'd",
+      "definition": "bribed or induced (a witness) to give false evidence",
+      "pos": "verb"
+    },
+    {
+      "surface": "substitute",
+      "normalized": "substitute",
+      "definition": "deputy; officer left in command in another's absence",
+      "pos": "noun"
+    },
+    {
+      "surface": "succeed on you",
+      "normalized": "succeed on you",
+      "definition": "pass to you by legal succession",
+      "pos": "phrase"
+    },
+    {
+      "surface": "sudden in choler",
+      "normalized": "sudden in choler",
+      "definition": "quick to anger; prone to violent outbursts",
+      "pos": "phrase"
+    },
+    {
+      "surface": "sudden respect",
+      "normalized": "sudden respect",
+      "definition": "immediate regard or favorable attention",
+      "pos": "phrase"
+    },
+    {
+      "surface": "sue",
+      "normalized": "sue",
+      "definition": "plead; petition; beg earnestly",
+      "pos": "verb"
+    },
+    {
+      "surface": "sufferance",
+      "normalized": "sufferance",
+      "definition": "damage; suffering; harm",
+      "pos": "noun"
+    },
+    {
+      "surface": "sufficient",
+      "normalized": "sufficient",
+      "definition": "capable; able; fully competent",
+      "pos": "adjective"
+    },
+    {
+      "surface": "suggest",
+      "normalized": "suggest",
+      "definition": "tempt; prompt to evil; seduce",
+      "pos": "verb"
+    },
+    {
+      "surface": "suit",
+      "normalized": "suit",
+      "definition": "petition; formal request; plea",
+      "pos": "noun"
+    },
+    {
+      "surface": "sulphur",
+      "normalized": "sulphur",
+      "definition": "brimstone; the substance of hellfire",
+      "pos": "noun"
+    },
+    {
+      "surface": "sup",
+      "normalized": "sup",
+      "definition": "eat supper; take the evening meal",
+      "pos": "verb"
+    },
+    {
+      "surface": "supervisor",
+      "normalized": "supervisor",
+      "definition": "an onlooker; one who watches from above",
+      "pos": "noun"
+    },
+    {
+      "surface": "supp'd",
+      "normalized": "supp'd",
+      "definition": "ate supper; had his evening meal",
+      "pos": "verb"
+    },
+    {
+      "surface": "supplied",
+      "normalized": "supplied",
+      "definition": "satisfied (sexually); gratified",
+      "pos": "verb"
+    },
+    {
+      "surface": "surfeited to death",
+      "normalized": "surfeited to death",
+      "definition": "exhausted by excess; sickened to the limit",
+      "pos": "phrase"
+    },
+    {
+      "surface": "surmises",
+      "normalized": "surmises",
+      "definition": "guesses; unproven suppositions",
+      "pos": "noun"
+    },
+    {
+      "surface": "swag-bellied",
+      "normalized": "swag-bellied",
+      "definition": "pot-bellied; with a heavy drooping belly",
+      "pos": "adjective"
+    },
+    {
+      "surface": "swagger",
+      "normalized": "swagger",
+      "definition": "bluster; bully; act with insolent bravado",
+      "pos": "verb"
+    },
+    {
+      "surface": "sweeting",
+      "normalized": "sweeting",
+      "definition": "sweetheart; term of endearment",
+      "pos": "noun"
+    },
+    {
+      "surface": "swelling spirits",
+      "normalized": "swelling spirits",
+      "definition": "proud, high-spirited men; puffed-up tempers",
+      "pos": "phrase"
+    },
+    {
+      "surface": "sympathy",
+      "normalized": "sympathy",
+      "definition": "agreement; likeness; compatibility",
+      "pos": "noun"
+    },
+    {
+      "surface": "ta'en order for't",
+      "normalized": "ta'en order for't",
+      "definition": "taken steps to arrange it; seen to it",
+      "pos": "phrase"
+    },
+    {
+      "surface": "taint",
+      "normalized": "taint",
+      "definition": "corrupt; infect; stain or spoil",
+      "pos": "verb"
+    },
+    {
+      "surface": "tainting",
+      "normalized": "tainting",
+      "definition": "discrediting; undermining; calling into question",
+      "pos": "verb"
+    },
+    {
+      "surface": "taper",
+      "normalized": "taper",
+      "definition": "small candle; narrow candle",
+      "pos": "noun"
+    },
+    {
+      "surface": "task",
+      "normalized": "task",
+      "definition": "burden; strain; put to the test",
+      "pos": "verb"
+    },
+    {
+      "surface": "teem",
+      "normalized": "teem",
+      "definition": "bring forth in abundance; be filled with",
+      "pos": "verb"
+    },
+    {
+      "surface": "tenderly",
+      "normalized": "tenderly",
+      "definition": "easily; gently; with the slightest touch",
+      "pos": "adverb"
+    },
+    {
+      "surface": "tented field",
+      "normalized": "tented field",
+      "definition": "battlefield with tents; military encampment",
+      "pos": "noun phrase"
+    },
+    {
+      "surface": "the rather",
+      "normalized": "the rather",
+      "definition": "the sooner; more quickly; rather than otherwise",
+      "pos": "adverb"
+    },
+    {
+      "surface": "thee",
+      "normalized": "thee",
+      "definition": "you (object form)",
+      "pos": "pronoun"
+    },
+    {
+      "surface": "thence",
+      "normalized": "thence",
+      "definition": "from there; from that place",
+      "pos": "adverb"
+    },
+    {
+      "surface": "theoric",
+      "normalized": "theoric",
+      "definition": "theory; book-learning as opposed to practice",
+      "pos": "noun"
+    },
+    {
+      "surface": "thine",
+      "normalized": "thine",
+      "definition": "yours; your",
+      "pos": "pronoun"
+    },
+    {
+      "surface": "thither",
+      "normalized": "thither",
+      "definition": "to there; to that place",
+      "pos": "adverb"
+    },
+    {
+      "surface": "thou",
+      "normalized": "thou",
+      "definition": "you (singular, informal or intimate)",
+      "pos": "pronoun"
+    },
+    {
+      "surface": "thus forgot",
+      "normalized": "thus forgot",
+      "definition": "so forgetful of yourself; lost to yourself",
+      "pos": "phrase"
+    },
+    {
+      "surface": "thy",
+      "normalized": "thy",
+      "definition": "your",
+      "pos": "pronoun"
+    },
+    {
+      "surface": "thyself",
+      "normalized": "thyself",
+      "definition": "yourself",
+      "pos": "pronoun"
+    },
+    {
+      "surface": "tidings",
+      "normalized": "tidings",
+      "definition": "news; information about events",
+      "pos": "noun"
+    },
+    {
+      "surface": "timorous",
+      "normalized": "timorous",
+      "definition": "fearful; alarmed; panic-stricken",
+      "pos": "adjective"
+    },
+    {
+      "surface": "to the sense",
+      "normalized": "to the sense",
+      "definition": "to the quick; to the raw nerve",
+      "pos": "phrase"
+    },
+    {
+      "surface": "toged",
+      "normalized": "toged",
+      "definition": "toga-wearing; civilian (as opposed to military)",
+      "pos": "adjective"
+    },
+    {
+      "surface": "token",
+      "normalized": "token",
+      "definition": "a love keepsake; a gift that signals affection",
+      "pos": "noun"
+    },
+    {
+      "surface": "told",
+      "normalized": "told",
+      "definition": "counted; struck (of a bell tolling the hour)",
+      "pos": "verb"
+    },
+    {
+      "surface": "told'st",
+      "normalized": "told'st",
+      "definition": "told (second-person singular past)",
+      "pos": "verb"
+    },
+    {
+      "surface": "toy",
+      "normalized": "toy",
+      "definition": "a trifle; a trivial or idle fancy",
+      "pos": "noun"
+    },
+    {
+      "surface": "traduc'd",
+      "normalized": "traduc'd",
+      "definition": "slandered; dishonoured; spoke ill of",
+      "pos": "verb"
+    },
+    {
+      "surface": "trance",
+      "normalized": "trance",
+      "definition": "fit of unconsciousness; stupor; swoon",
+      "pos": "noun"
+    },
+    {
+      "surface": "trash",
+      "normalized": "trash",
+      "definition": "hold back; check; restrain (hunting term)",
+      "pos": "verb"
+    },
+    {
+      "surface": "traverse",
+      "normalized": "traverse",
+      "definition": "march; forward march; be off (a military command)",
+      "pos": "interjection"
+    },
+    {
+      "surface": "tribe",
+      "normalized": "tribe",
+      "definition": "kindred; family; people",
+      "pos": "noun"
+    },
+    {
+      "surface": "trifle",
+      "normalized": "trifle",
+      "definition": "treat lightly; mock; toy with",
+      "pos": "verb"
+    },
+    {
+      "surface": "trimm'd",
+      "normalized": "trimm'd",
+      "definition": "dressed up; adorned outwardly",
+      "pos": "verb"
+    },
+    {
+      "surface": "triumph",
+      "normalized": "triumph",
+      "definition": "public celebration; festivity; rejoicing",
+      "pos": "noun"
+    },
+    {
+      "surface": "trump",
+      "normalized": "trump",
+      "definition": "trumpet; a brass instrument sounding battle calls",
+      "pos": "noun"
+    },
+    {
+      "surface": "truncheon",
+      "normalized": "truncheon",
+      "definition": "short staff or baton carried by an officer",
+      "pos": "noun"
+    },
+    {
+      "surface": "tun'd",
+      "normalized": "tun'd",
+      "definition": "tuned; in harmony; here: in a state of bliss",
+      "pos": "adjective"
+    },
+    {
+      "surface": "tup",
+      "normalized": "tup",
+      "definition": "copulate with (coarse term)",
+      "pos": "verb"
+    },
+    {
+      "surface": "tupp'd",
+      "normalized": "tupp'd",
+      "definition": "sexually mounted (from 'tup', a ram)",
+      "pos": "verb"
+    },
+    {
+      "surface": "tupping",
+      "normalized": "tupping",
+      "definition": "copulating with (of a ram mounting a ewe; crude)",
+      "pos": "verb"
+    },
+    {
+      "surface": "turn",
+      "normalized": "turn",
+      "definition": "desperate act; rash deed",
+      "pos": "noun"
+    },
+    {
+      "surface": "tush",
+      "normalized": "tush",
+      "definition": "exclamation of contempt or impatience; 'nonsense'",
+      "pos": "interjection"
+    },
+    {
+      "surface": "twiggen bottle",
+      "normalized": "twiggen bottle",
+      "definition": "a bottle encased in wickerwork; a wicker-covered flask",
+      "pos": "phrase"
+    },
+    {
+      "surface": "unbitted",
+      "normalized": "unbitted",
+      "definition": "unbridled; without restraint; ungoverned",
+      "pos": "adjective"
+    },
+    {
+      "surface": "unbonneted",
+      "normalized": "unbonneted",
+      "definition": "hat off; uncovered as an equal; without fawning",
+      "pos": "adverb"
+    },
+    {
+      "surface": "unbookish",
+      "normalized": "unbookish",
+      "definition": "uneducated; lacking discernment; unschooled",
+      "pos": "adjective"
+    },
+    {
+      "surface": "uncapable",
+      "normalized": "uncapable",
+      "definition": "incapable; unfit; unable to hold a position",
+      "pos": "adjective"
+    },
+    {
+      "surface": "undertaker",
+      "normalized": "undertaker",
+      "definition": "one who takes a task upon himself; hired agent",
+      "pos": "noun"
+    },
+    {
+      "surface": "undertook",
+      "normalized": "undertook",
+      "definition": "taken on; agreed to carry out",
+      "pos": "verb"
+    },
+    {
+      "surface": "undone",
+      "normalized": "undone",
+      "definition": "ruined; destroyed",
+      "pos": "adjective"
+    },
+    {
+      "surface": "unfold",
+      "normalized": "unfold",
+      "definition": "reveal; expose; disclose",
+      "pos": "verb"
+    },
+    {
+      "surface": "unhandsome",
+      "normalized": "unhandsome",
+      "definition": "unfair; unworthy; not behaving well",
+      "pos": "adjective"
+    },
+    {
+      "surface": "unhatch'd practice",
+      "normalized": "unhatch'd practice",
+      "definition": "a plot not yet fully revealed; a hatching conspiracy",
+      "pos": "noun phrase"
+    },
+    {
+      "surface": "unhoused",
+      "normalized": "unhoused",
+      "definition": "free; unsettled; undomesticated; without a household",
+      "pos": "adjective"
+    },
+    {
+      "surface": "unkind",
+      "normalized": "unkind",
+      "definition": "unnatural; harsh; contrary to kind feeling",
+      "pos": "adjective"
+    },
+    {
+      "surface": "unlace",
+      "normalized": "unlace",
+      "definition": "undo; strip away; dismantle",
+      "pos": "verb"
+    },
+    {
+      "surface": "unlucky",
+      "normalized": "unlucky",
+      "definition": "unfortunate; ill-fated; bringing disaster",
+      "pos": "adjective"
+    },
+    {
+      "surface": "unproper",
+      "normalized": "unproper",
+      "definition": "not exclusively one's own; shared by others",
+      "pos": "adjective"
+    },
+    {
+      "surface": "unprovide",
+      "normalized": "unprovide",
+      "definition": "unsettle; disarm; strip of firm resolution",
+      "pos": "verb"
+    },
+    {
+      "surface": "unreconcil'd",
+      "normalized": "unreconcil'd",
+      "definition": "not made right with God; unabsolved",
+      "pos": "adjective"
+    },
+    {
+      "surface": "unshunnable",
+      "normalized": "unshunnable",
+      "definition": "unavoidable; that cannot be escaped",
+      "pos": "adjective"
+    },
+    {
+      "surface": "unswear",
+      "normalized": "unswear",
+      "definition": "take back under oath; recant",
+      "pos": "verb"
+    },
+    {
+      "surface": "unwitted",
+      "normalized": "unwitted",
+      "definition": "deprived of reason; made mad",
+      "pos": "verb"
+    },
+    {
+      "surface": "upbraids",
+      "normalized": "upbraids",
+      "definition": "reproaches; accuses; scolds",
+      "pos": "verb"
+    },
+    {
+      "surface": "usage",
+      "normalized": "usage",
+      "definition": "treatment; the way one is handled or dealt with",
+      "pos": "noun"
+    },
+    {
+      "surface": "use",
+      "normalized": "use",
+      "definition": "habit; customary behavior; usual practice",
+      "pos": "noun"
+    },
+    {
+      "surface": "usurped",
+      "normalized": "usurped",
+      "definition": "assumed falsely; taken on as a disguise",
+      "pos": "adjective"
+    },
+    {
+      "surface": "vain",
+      "normalized": "vain",
+      "definition": "empty; worthless; futile",
+      "pos": "adjective"
+    },
+    {
+      "surface": "vale of years",
+      "normalized": "vale of years",
+      "definition": "the downward slope of middle age; declining years",
+      "pos": "noun phrase"
+    },
+    {
+      "surface": "vanity",
+      "normalized": "vanity",
+      "definition": "worldly show; vain wealth or empty display",
+      "pos": "noun"
+    },
+    {
+      "surface": "vantage",
+      "normalized": "vantage",
+      "definition": "extra; over and above; in addition to the count",
+      "pos": "noun"
+    },
+    {
+      "surface": "venial",
+      "normalized": "venial",
+      "definition": "minor and pardonable (of a sin or fault)",
+      "pos": "adjective"
+    },
+    {
+      "surface": "venture",
+      "normalized": "venture",
+      "definition": "risk; dare to face a danger or penalty",
+      "pos": "verb"
+    },
+    {
+      "surface": "veritable",
+      "normalized": "veritable",
+      "definition": "true; genuine; absolutely real",
+      "pos": "adjective"
+    },
+    {
+      "surface": "vessel",
+      "normalized": "vessel",
+      "definition": "body; the physical person as a container of the soul",
+      "pos": "noun"
+    },
+    {
+      "surface": "vicious",
+      "normalized": "vicious",
+      "definition": "flawed; mistaken; prone to fault (not only 'evil')",
+      "pos": "adjective"
+    },
+    {
+      "surface": "villainous",
+      "normalized": "villainous",
+      "definition": "expression of disgust or contempt; 'how terrible'",
+      "pos": "interjection"
+    },
+    {
+      "surface": "villany",
+      "normalized": "villany",
+      "definition": "wickedness; treachery; vile conduct",
+      "pos": "noun"
+    },
+    {
+      "surface": "virtue",
+      "normalized": "virtue",
+      "definition": "power; capacity; ability to act",
+      "pos": "noun"
+    },
+    {
+      "surface": "visage",
+      "normalized": "visage",
+      "definition": "face; outward appearance",
+      "pos": "noun"
+    },
+    {
+      "surface": "visages",
+      "normalized": "visages",
+      "definition": "faces; outward appearances",
+      "pos": "noun"
+    },
+    {
+      "surface": "vital",
+      "normalized": "vital",
+      "definition": "life-giving; living",
+      "pos": "adjective"
+    },
+    {
+      "surface": "voices",
+      "normalized": "voices",
+      "definition": "votes; formal consent; approval",
+      "pos": "noun"
+    },
+    {
+      "surface": "voluble",
+      "normalized": "voluble",
+      "definition": "glib; fluent; smooth-talking",
+      "pos": "adjective"
+    },
+    {
+      "surface": "votarist",
+      "normalized": "votarist",
+      "definition": "one under a vow; nun or other person vowed to chastity",
+      "pos": "noun"
+    },
+    {
+      "surface": "vouch",
+      "normalized": "vouch",
+      "definition": "testimony; attestation; guarantee",
+      "pos": "noun"
+    },
+    {
+      "surface": "wait upon",
+      "normalized": "wait upon",
+      "definition": "attend; accompany; follow in attendance",
+      "pos": "verb phrase"
+    },
+    {
+      "surface": "wak'd wrath",
+      "normalized": "wak'd wrath",
+      "definition": "fully aroused anger; fury that has been awakened",
+      "pos": "noun phrase"
+    },
+    {
+      "surface": "want",
+      "normalized": "want",
+      "definition": "lack; be without",
+      "pos": "verb"
+    },
+    {
+      "surface": "wanting",
+      "normalized": "wanting",
+      "definition": "lacking; missing; being without",
+      "pos": "verb"
+    },
+    {
+      "surface": "wanton",
+      "normalized": "wanton",
+      "definition": "sexually loose person; lascivious woman",
+      "pos": "noun"
+    },
+    {
+      "surface": "warrant",
+      "normalized": "warrant",
+      "definition": "guarantee; assurance",
+      "pos": "noun"
+    },
+    {
+      "surface": "warrant thee",
+      "normalized": "warrant thee",
+      "definition": "assure you; guarantee; I promise",
+      "pos": "phrase"
+    },
+    {
+      "surface": "warranty",
+      "normalized": "warranty",
+      "definition": "warrant; sanction; lawful permission",
+      "pos": "noun"
+    },
+    {
+      "surface": "wasted",
+      "normalized": "wasted",
+      "definition": "passed away; elapsed; gone by (of time)",
+      "pos": "verb"
+    },
+    {
+      "surface": "watch him tame",
+      "normalized": "watch him tame",
+      "definition": "keep him awake until he yields, like taming a hawk",
+      "pos": "verb phrase"
+    },
+    {
+      "surface": "watching",
+      "normalized": "watching",
+      "definition": "staying awake; loss of sleep",
+      "pos": "noun"
+    },
+    {
+      "surface": "waterish",
+      "normalized": "waterish",
+      "definition": "thin; watery; lacking substance",
+      "pos": "adjective"
+    },
+    {
+      "surface": "wayward",
+      "normalized": "wayward",
+      "definition": "capricious; wilful; unpredictable",
+      "pos": "adjective"
+    },
+    {
+      "surface": "wench",
+      "normalized": "wench",
+      "definition": "girl; young woman (here a light term of approval)",
+      "pos": "noun"
+    },
+    {
+      "surface": "wert",
+      "normalized": "wert",
+      "definition": "were (second person singular: 'you were')",
+      "pos": "verb"
+    },
+    {
+      "surface": "what an if",
+      "normalized": "what an if",
+      "definition": "what if; even if; used to pose a hypothetical",
+      "pos": "conjunction phrase"
+    },
+    {
+      "surface": "wheeling",
+      "normalized": "wheeling",
+      "definition": "wandering; roving without fixed home",
+      "pos": "adjective"
+    },
+    {
+      "surface": "whence",
+      "normalized": "whence",
+      "definition": "from where",
+      "pos": "adverb"
+    },
+    {
+      "surface": "wherefore",
+      "normalized": "wherefore",
+      "definition": "why; for what reason",
+      "pos": "adverb"
+    },
+    {
+      "surface": "wholesome",
+      "normalized": "wholesome",
+      "definition": "sound; prudent; sensible",
+      "pos": "adjective"
+    },
+    {
+      "surface": "whoring",
+      "normalized": "whoring",
+      "definition": "consorting with prostitutes; sexual immorality",
+      "pos": "noun"
+    },
+    {
+      "surface": "wight",
+      "normalized": "wight",
+      "definition": "person; creature; human being (archaic)",
+      "pos": "noun"
+    },
+    {
+      "surface": "willow",
+      "normalized": "willow",
+      "definition": "symbol of mourning for unrequited or lost love",
+      "pos": "noun"
+    },
+    {
+      "surface": "wilt",
+      "normalized": "wilt",
+      "definition": "will (second-person singular)",
+      "pos": "verb"
+    },
+    {
+      "surface": "winks",
+      "normalized": "winks",
+      "definition": "closes its eyes; turns a blind eye",
+      "pos": "verb"
+    },
+    {
+      "surface": "wit",
+      "normalized": "wit",
+      "definition": "intelligence; mental faculty; mind",
+      "pos": "noun"
+    },
+    {
+      "surface": "withal",
+      "normalized": "withal",
+      "definition": "with; in addition; herewith",
+      "pos": "preposition"
+    },
+    {
+      "surface": "witty",
+      "normalized": "witty",
+      "definition": "clever; sharp-minded",
+      "pos": "adjective"
+    },
+    {
+      "surface": "wiv'd",
+      "normalized": "wiv'd",
+      "definition": "married; taken a wife",
+      "pos": "adjective"
+    },
+    {
+      "surface": "wive",
+      "normalized": "wive",
+      "definition": "take a wife; get married",
+      "pos": "verb"
+    },
+    {
+      "surface": "woman'd",
+      "normalized": "woman'd",
+      "definition": "accompanied by a woman; seen with a female companion",
+      "pos": "adjective"
+    },
+    {
+      "surface": "wont",
+      "normalized": "wont",
+      "definition": "accustomed; used (to be)",
+      "pos": "adjective"
+    },
+    {
+      "surface": "wont be civil",
+      "normalized": "wont be civil",
+      "definition": "accustomed to be courteous; used to be well-mannered",
+      "pos": "phrase"
+    },
+    {
+      "surface": "woo'd",
+      "normalized": "woo'd",
+      "definition": "courted; sought in marriage",
+      "pos": "verb"
+    },
+    {
+      "surface": "work ta'en out",
+      "normalized": "work ta'en out",
+      "definition": "embroidery pattern copied out; needlework reproduced",
+      "pos": "verb phrase"
+    },
+    {
+      "surface": "works",
+      "normalized": "works",
+      "definition": "fortifications; military earthworks or ramparts",
+      "pos": "noun"
+    },
+    {
+      "surface": "wouldst",
+      "normalized": "wouldst",
+      "definition": "would (second person singular: 'you would')",
+      "pos": "verb"
+    },
+    {
+      "surface": "wretch",
+      "normalized": "wretch",
+      "definition": "a person (here used with fond affection)",
+      "pos": "noun"
+    },
+    {
+      "surface": "wronger",
+      "normalized": "wronger",
+      "definition": "the one who wrongs or injures another",
+      "pos": "noun"
+    },
+    {
+      "surface": "wrought",
+      "normalized": "wrought",
+      "definition": "worked upon; manipulated; stirred up",
+      "pos": "verb"
+    },
+    {
+      "surface": "yawn",
+      "normalized": "yawn",
+      "definition": "gape; split open; as an earthquake yawns",
+      "pos": "verb"
+    },
+    {
+      "surface": "ye",
+      "normalized": "ye",
+      "definition": "you (plural)",
+      "pos": "pronoun"
+    },
+    {
+      "surface": "yerk'd",
+      "normalized": "yerk'd",
+      "definition": "stabbed; given a sharp blow",
+      "pos": "verb"
+    },
+    {
+      "surface": "yok'd",
+      "normalized": "yok'd",
+      "definition": "married; bound in wedlock (like oxen under a yoke)",
+      "pos": "adjective"
+    },
+    {
+      "surface": "yonder",
+      "normalized": "yonder",
+      "definition": "over there; at that place",
+      "pos": "adverb"
+    },
+    {
+      "surface": "zounds",
+      "normalized": "zounds",
+      "definition": "oath: 'God's wounds'; strong exclamation of anger",
+      "pos": "interjection"
+    }
+  ]
+}

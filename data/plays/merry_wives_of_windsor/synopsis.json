@@ -1,0 +1,59 @@
+{
+  "play": "The Merry Wives of Windsor",
+  "overview": "In the middle-class English town of Windsor, the fat and broke Sir John Falstaff schemes to mend his finances by seducing two married women, Mistress Ford and Mistress Page — and sends them word-for-word identical love-letters. The wives, comparing notes, decide to lead him on and humiliate him. They gull him three times: bundled into a basket of dirty laundry and tipped into the Thames, beaten while disguised as a fat old woman, and finally lured to Herne's Oak at midnight, pinched and burned by children dressed as fairies. Running alongside is the courtship of the Pages' daughter Anne by three suitors — the foolish Slender (her father's choice), the French Doctor Caius (her mother's), and young Fenton (her own) — which she resolves in her own favour during the fairy masque. Threaded through are the jealous husband Ford (who spies on his wife disguised as 'Brook'), the Welsh parson Evans, the French doctor, and the swaggering Host of the Garter, in Shakespeare's one comedy of contemporary English town life.",
+  "acts": [
+    {
+      "number": 1,
+      "summary": "Falstaff arrives in Windsor and resolves to woo both wives for money; suitors gather for Anne Page.",
+      "scenes": [
+        { "number": 1, "summary": "Justice Shallow, fuming that Falstaff has poached his deer, comes to Windsor with his foolish cousin Slender and the Welsh parson Sir Hugh Evans, who proposes that Slender marry Anne Page. Falstaff brazens out the charges; Slender woos Anne ineptly; Page invites all to dinner.", "themes": ["honor", "courtship", "comedy"] },
+        { "number": 2, "summary": "Evans sends Slender's servant Simple with a letter to Mistress Quickly, asking her to advance Slender's suit with Anne.", "themes": ["courtship", "go_between"] },
+        { "number": 3, "summary": "At the Garter Inn, the cash-strapped Falstaff sets Bardolph up as a tapster and unveils his plan: to woo both Mistress Ford and Mistress Page for access to their husbands' money. Pistol and Nym refuse to carry the love-letters and vow to betray the scheme to the husbands.", "themes": ["money", "seduction", "betrayal"] },
+        { "number": 4, "summary": "In Doctor Caius's house, Mistress Quickly promises to help Slender — until Caius, finding Simple hidden, flies into a rage and sends a written duel-challenge to Evans for meddling. Fenton arrives to ask Quickly's help in winning Anne.", "themes": ["courtship", "dialect", "comedy"] }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "The wives discover the identical letters and plot revenge; jealous Ford disguises himself as 'Brook.'",
+      "scenes": [
+        { "number": 1, "summary": "Mistress Page and Mistress Ford compare Falstaff's word-for-word identical letters and resolve to string him along and shame him. Pistol and Nym warn Ford and Page; the easy-going Page shrugs, but Ford burns with jealousy. The Host promises the rival duellists a meeting.", "themes": ["revenge", "jealousy", "friendship"] },
+        { "number": 2, "summary": "Mistress Quickly brings Falstaff word that Mistress Ford will see him. Then Ford, disguised as a stranger named 'Brook,' pays Falstaff to woo Mistress Ford on his behalf — and hears the knight boast of an assignation with her that very morning, confirming his worst fears.", "themes": ["disguise", "jealousy", "deception"] },
+        { "number": 3, "summary": "In a field, Doctor Caius and his man Rugby wait for Evans to fight; the Host, Shallow, and Page arrive having sent the two combatants to different places, and propose to make sport of both.", "themes": ["duel", "comedy", "trickery"] }
+      ]
+    },
+    {
+      "number": 3,
+      "summary": "The duel defused; Falstaff is dumped in the Thames in the buck-basket.",
+      "scenes": [
+        { "number": 1, "summary": "Near Frogmore, Evans nervously awaits Caius; when the two meet and grasp the Host's prank, they drop their quarrel and join forces to be revenged on him.", "themes": ["duel", "comedy", "reconciliation"] },
+        { "number": 2, "summary": "Ford meets Mistress Page on her way to his house and, certain his wife is betraying him, gathers Page and others to catch Falstaff in the act.", "themes": ["jealousy", "suspicion"] },
+        { "number": 3, "summary": "Falstaff woos Mistress Ford; on cue Mistress Page brings word that Ford is coming. Falstaff is bundled into a great basket of foul laundry, carried out under the searching Ford's nose, and tipped into the Thames.", "themes": ["deception", "comedy", "the_buck_basket"] },
+        { "number": 4, "summary": "Fenton courts Anne, who loves him; her father Page intends her for Slender and her mother for Caius. Mistress Quickly promises to help all sides at once.", "themes": ["courtship", "marriage", "money"] },
+        { "number": 5, "summary": "At the Garter, the dripping Falstaff recovers and tells 'Brook' of his ducking in the basket — and of a fresh assignation with Mistress Ford.", "themes": ["comedy", "disguise"] }
+      ]
+    },
+    {
+      "number": 4,
+      "summary": "The Latin lesson; Falstaff beaten as the witch of Brentford; the wives confess and plan the masque.",
+      "scenes": [
+        { "number": 1, "summary": "Mistress Page has her son William quizzed in his Latin grammar by Parson Evans, while Mistress Quickly mishears the Latin declensions as a stream of bawdy English.", "themes": ["education", "wordplay", "dialect"] },
+        { "number": 2, "summary": "Surprised again at Ford's house, Falstaff is dressed by the wives as the fat woman of Brentford — a supposed witch Ford loathes — and is soundly beaten by Ford as he flees. The wives decide it is time to let their husbands in on the joke.", "themes": ["disguise", "comedy", "revenge"] },
+        { "number": 3, "summary": "The Host agrees to provide horses for a party of Germans — the setup for his own cozening.", "themes": ["trickery"] },
+        { "number": 4, "summary": "The wives tell Ford and Page the whole story; a cured Ford begs pardon. Together they plan the final trick: Falstaff lured to Herne's Oak at midnight in a buck's head, to be pinched by their children dressed as fairies.", "themes": ["reconciliation", "the_masque", "folklore"] },
+        { "number": 5, "summary": "At the Garter, Simple consults Falstaff about the 'wise woman' of Brentford; the Host learns his horses have been stolen by the sham Germans.", "themes": ["trickery", "comedy"] },
+        { "number": 6, "summary": "Fenton enlists the Host's help: amid the masque's confusion he means to slip away and marry Anne.", "themes": ["courtship", "scheming"] }
+      ]
+    },
+    {
+      "number": 5,
+      "summary": "The fairy masque at Herne's Oak: Falstaff shamed, the suitors fooled, Anne wed to Fenton.",
+      "scenes": [
+        { "number": 1, "summary": "Falstaff tells 'Brook' of the Brentford beating and his appointment that night at Herne's Oak.", "themes": ["disguise", "comedy"] },
+        { "number": 2, "summary": "Page tells Shallow and Slender that Anne will be in white, so Slender may steal her away during the masque.", "themes": ["scheming", "marriage"] },
+        { "number": 3, "summary": "Mistress Page arranges for Caius to carry off Anne, who (she says) will be dressed in green.", "themes": ["scheming", "marriage"] },
+        { "number": 4, "summary": "Evans leads the children, disguised as fairies, into the forest to their places.", "themes": ["the_masque"] },
+        { "number": 5, "summary": "At Herne's Oak, the horned Falstaff meets both wives; the 'fairies' (led by Quickly as their Queen) pinch and burn him as they sing, until he is unmasked and repents. In the dark Slender carries off a disguised boy, Caius another, while Fenton slips away and marries Anne for love. Falstaff is forgiven and all go home to laugh it over — and Ford reveals he was 'Brook.'", "themes": ["the_masque", "folklore", "marriage", "reconciliation"] }
+      ]
+    }
+  ]
+}

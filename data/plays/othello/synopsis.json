@@ -1,0 +1,51 @@
+{
+  "play": "The Tragedy of Othello, the Moor of Venice",
+  "overview": "Othello, a Moorish general in the service of Venice, has secretly married Desdemona, daughter of the senator Brabantio. His ensign Iago, enraged at being passed over for the lieutenancy in favour of Michael Cassio, sets out to destroy him. Sent to defend Cyprus against the Turks — a war the sea ends for them by wrecking the enemy fleet — Othello is worked on by Iago with insinuation and a single planted handkerchief until he believes Desdemona unfaithful with Cassio. Demanding 'ocular proof' and given only Iago's fabrications, Othello's love curdles into murderous jealousy. He smothers the innocent Desdemona in her bed; Iago's wife Emilia exposes the plot and is killed for it; and Othello, learning the truth, kills himself. A tragedy of jealousy, manipulation, and the racism of the society around its noble outsider.",
+  "acts": [
+    {
+      "number": 1,
+      "summary": "Venice: the secret marriage exposed, and Othello sent to Cyprus against the Turks.",
+      "scenes": [
+        { "number": 1, "summary": "At night in Venice, Iago tells the gull Roderigo he hates Othello for promoting Cassio over him. To spite the Moor they rouse the senator Brabantio with crude shouts that his daughter Desdemona has eloped with him.", "themes": ["jealousy", "race", "deception"] },
+        { "number": 2, "summary": "Iago feigns loyalty, warning Othello of Brabantio's anger. Brabantio confronts Othello with drawn swords, but an urgent summons to the Senate over the Turkish fleet interrupts the quarrel.", "themes": ["reputation", "marriage", "race"] },
+        { "number": 3, "summary": "The Senate weighs conflicting reports of the Turkish fleet bound for Cyprus. Brabantio accuses Othello of witchcraft; Othello tells how he wooed Desdemona with his life-story, and she confirms her love. He is ordered to Cyprus. Alone, Iago fleeces Roderigo ('Put money in thy purse') and resolves to use Cassio to undo Othello.", "themes": ["love", "race", "manipulation", "war"] }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "Cyprus: a storm wrecks the Turkish fleet; Iago disgraces Cassio and sets his trap.",
+      "scenes": [
+        { "number": 1, "summary": "A tempest scatters the Turkish fleet and the Venetian ships make harbour. Cassio, Desdemona, Iago, and Emilia land safely, and Othello arrives to a joyful reunion. Iago, watching Cassio's courtesy to Desdemona, lays his plan and again strings Roderigo along.", "themes": ["war", "reunion", "manipulation"] },
+        { "number": 2, "summary": "A herald proclaims a night of feasting and bonfires to celebrate the fleet's destruction and Othello's marriage.", "themes": ["celebration"] },
+        { "number": 3, "summary": "Iago plies the weak-headed Cassio with wine and has Roderigo provoke him; Cassio wounds Montano in the brawl. Roused from bed, Othello cashiers Cassio. Iago then counsels the ruined lieutenant to beg Desdemona to plead his case — the bait of the whole plot.", "themes": ["drink", "honor", "manipulation"] }
+      ]
+    },
+    {
+      "number": 3,
+      "summary": "The temptation: Iago kindles Othello's jealousy, and the handkerchief becomes 'proof.'",
+      "scenes": [
+        { "number": 1, "summary": "Cassio brings musicians to greet Othello; the Clown dismisses them. Cassio asks Emilia to win him a private word with Desdemona.", "themes": ["comedy", "intercession"] },
+        { "number": 2, "summary": "Othello sees to the fortifications and dispatches letters — a brief link scene.", "themes": ["duty"] },
+        { "number": 3, "summary": "Desdemona warmly promises to plead for Cassio. Iago drops his poison — hints, hesitations, 'the green-eyed monster' — until Othello demands 'the ocular proof.' Desdemona's handkerchief, dropped and picked up by Emilia, passes to Iago, who invents Cassio's dream and says Cassio wipes his beard with it. Othello kneels with Iago in a vow of revenge ('Like to the Pontic sea') and makes him his lieutenant.", "themes": ["jealousy", "manipulation", "the_handkerchief", "the_ocular_proof"] },
+        { "number": 4, "summary": "Othello demands the handkerchief and tells its uncanny history; Desdemona, unable to produce it, only deepens his fury by pressing Cassio's suit. Cassio gives the found handkerchief to his mistress Bianca to copy.", "themes": ["the_handkerchief", "jealousy", "misunderstanding"] }
+      ]
+    },
+    {
+      "number": 4,
+      "summary": "Iago tightens the snare; Othello, convinced, strikes Desdemona and plans her death.",
+      "scenes": [
+        { "number": 1, "summary": "Iago works Othello into an epileptic fit, then stages a laughing talk with Cassio about Bianca that Othello, out of earshot, takes to be about Desdemona; Bianca flings back the handkerchief as 'proof.' Othello resolves to strangle Desdemona, Iago to kill Cassio. Lodovico arrives from Venice with letters recalling Othello — who strikes Desdemona before them all.", "themes": ["manipulation", "jealousy", "violence"] },
+        { "number": 2, "summary": "Othello questions Emilia, who swears Desdemona honest, then confronts Desdemona herself as a whore in all but name. Roderigo, sure he has been cheated of his jewels, is talked by Iago into murdering Cassio that night.", "themes": ["jealousy", "misogyny", "manipulation"] },
+        { "number": 3, "summary": "Preparing for bed, Desdemona sings the mournful Willow Song and talks with Emilia, who bluntly defends wives driven to faithlessness by their husbands.", "themes": ["foreboding", "marriage", "women"] }
+      ]
+    },
+    {
+      "number": 5,
+      "summary": "The bloody night: Roderigo and Desdemona killed, Iago exposed, Othello's suicide.",
+      "scenes": [
+        { "number": 1, "summary": "In the dark street Roderigo and Cassio wound each other; Iago stabs Cassio from behind in the leg and, to silence him, kills Roderigo, then casts suspicion on Bianca.", "themes": ["murder", "manipulation"] },
+        { "number": 2, "summary": "Othello smothers Desdemona in her bed. Emilia raises the alarm and, recognizing the handkerchief, exposes her husband's plot; Iago kills her and flees. Othello wounds the captured Iago, learns the whole truth, and — recalling his service to Venice — kills himself, falling upon a kiss. Cassio is left to rule Cyprus and Iago to torture.", "themes": ["murder", "suicide", "truth", "tragedy"] }
+      ]
+    }
+  ]
+}
