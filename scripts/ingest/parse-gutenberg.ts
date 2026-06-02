@@ -41,11 +41,17 @@ let allLines = raw.split(/\r?\n/);
 
 // ---- canonicalization map from characters.json (alias -> {id, name}) ----
 const aliasToChar = new Map<string, { id: string; name: string }>();
+// Lookup by proper name OR de-dotted alias, normalized to UPPERCASE. Used only by the
+// gated singer-SD rule below to resolve a singer named in a stage direction ("[Balthasar
+// sings.]") to a character; building it for every play is harmless (read only when gated).
+const nameToChar = new Map<string, { id: string; name: string }>();
 const charPath = resolve(playDir(slug), 'characters.json');
 if (existsSync(charPath)) {
   const chars: { id: string; name: string; aliases?: string[] }[] = JSON.parse(readFileSync(charPath, 'utf8'));
   for (const c of chars) {
     for (const a of c.aliases ?? []) aliasToChar.set(a, { id: c.id, name: c.name });
+    nameToChar.set(c.name.toUpperCase(), { id: c.id, name: c.name });
+    for (const a of c.aliases ?? []) nameToChar.set(a.replace(/\.$/, '').toUpperCase(), { id: c.id, name: c.name });
   }
 }
 
@@ -130,6 +136,26 @@ const INDUCTION_AS_ACT = slug === 'taming_of_the_shrew';
 // header number, so plays with genuine scene gaps are unaffected — and every other play, whose
 // headers are already sequential, is byte-identical.
 const SEQUENTIAL_SCENES = slug === 'loves_labours_lost';
+
+// Much Ado About Nothing's first song, "Sigh no more, ladies," is introduced by the stage
+// direction "[Balthasar sings.]" with NO speaker label on the lyric lines, so the song would
+// otherwise be folded into the prior speaker (Benedick). When a "[<Name> sings]" direction names
+// a known character, set the current speaker to that singer so the unprefixed lyrics that follow
+// are attributed correctly (the play's second song, "Pardon, goddess of the night," has its own
+// "SONG." prefix and is unaffected). GATED on the slug, so every other shipped play — including
+// those with their own "[X sings]" directions whose lyrics ARE prefixed — re-ingests byte-identical.
+const SINGER_SD_SETS_SPEAKER = slug === 'much_ado_about_nothing';
+
+// Twelfth Night prints its closing song's cue (5.1, "When that I was and a little tiny boy")
+// as a title-case "Song." line; its other two song cues (2.3, 2.4) are the all-caps "SONG"
+// that SONG_HEADER already matches. The cue follows the "CLOWN." (Feste) prefix, so unless it
+// is recognized as a header the literal word "Song." is emitted as a spurious line of Feste's
+// dialogue (SONG_HEADER is case-sensitive). Treat a standalone title-case "Song." as a song
+// header for this slug. GATED: Macbeth's title-case "Song." is ALIASED to a song speaker (so
+// its lyrics read as that speaker's, and the alias guard below skips this anyway) and every
+// other play is byte-identical; a lowercase "air." in the as-yet-unbuilt Two Gentlemen — which
+// is dialogue, not a cue — is likewise untouched.
+const TITLE_SONG_CUE = slug === 'twelfth_night';
 
 // Roman numeral -> int via standard subtractive notation. Returns identical values to the
 // prior I..X lookup table for 1-10, so every play whose acts never exceed ten scenes
@@ -512,7 +538,7 @@ for (; i < allLines.length; i++) {
   // render them as stage directions and don't break the speaker. EXCEPTION: if the token
   // is a defined speaker alias, fall through to the speaker path — Henry V / Henry IV
   // Part 2 alias "EPILOGUE." to a Chorus/Dancer so the epilogue reads as speech.
-  if ((SONG_HEADER.test(trimmed) || VERSE_NUMERAL.test(trimmed)) && !aliasToChar.has(trimmed)) {
+  if ((SONG_HEADER.test(trimmed) || (TITLE_SONG_CUE && /^Song\.?$/.test(trimmed)) || VERSE_NUMERAL.test(trimmed)) && !aliasToChar.has(trimmed)) {
     emitSD(trimmed);
     continue;
   }
@@ -588,6 +614,14 @@ function emitDialogue(text: string) {
 
 function emitSD(text: string) {
   if (text.trim() === '') return;
+  // A "[<Name> sings]" direction names the singer of an otherwise unlabeled song; set the
+  // current speaker to that character so the lyric lines that follow are attributed to the
+  // singer rather than the prior speaker. GATED (SINGER_SD_SETS_SPEAKER) to Much Ado.
+  if (SINGER_SD_SETS_SPEAKER) {
+    const sm = text.match(/^(.+?)\s+sings\b/i);
+    const singer = sm && nameToChar.get(sm[1].trim().toUpperCase());
+    if (singer) { curSpeaker = { id: singer.id, name: singer.name }; curSpeakerRaw = singer.name; }
+  }
   // An "Enter Chorus"/"Enter Rumour" direction opens a prologue/chorus passage we buffer and
   // prepend to the next scene of the act it introduces. Pericles' Presenter, Gower, is framed
   // the same way: his act-opening chorus is headed by "[Enter Gower]". In Act I that chorus

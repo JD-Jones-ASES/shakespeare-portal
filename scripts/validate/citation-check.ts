@@ -80,6 +80,8 @@ const CLASSICAL_ALLOWLIST = new Set([
   'Xenophon',        // Greek historian/philosopher; Socrates and the shrewish Xanthippe (Memorabilia/Symposium), cited for The Taming of the Shrew 1.2
   'Diogenes Laertius', // Lives of the Eminent Philosophers; the standard ancient source for Xanthippe and the philosophers
   'Diodorus Siculus', // 1st-c. BCE Greek historian, Bibliotheca historica; the chief ancient source for Semiramis (Titus Andronicus 2.1, 4.1)
+  'Musaeus',         // late-antique Greek poet of Hero and Leander (with Ovid's Heroides and Marlowe's 1598 epyllion, the source for Leander, cited in Much Ado About Nothing 5.2)
+  'Heliodorus',      // 3rd-4th c. Greek romance Aethiopica (Underdowne 1569); the 'Egyptian thief' Thyamis who would kill what he loves (Twelfth Night 5.1)
 ]);
 
 // A classical allusion may instead be grounded in a recognized reference work or

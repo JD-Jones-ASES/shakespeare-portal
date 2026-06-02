@@ -1,0 +1,53 @@
+{
+  "play": "much_ado_about_nothing",
+  "overview": "Returning in triumph from a war, Don Pedro of Aragon and his young officers Claudio and Benedick are welcomed to the Sicilian house of Governor Leonato. Two courtships unfold side by side. Claudio falls for Leonato's modest daughter Hero, and Don Pedro woos her for him at a masked ball, while the confirmed bachelor Benedick and Leonato's quick-tongued niece Beatrice keep up a 'merry war' of insults that everyone but they can see is love. Their friends conspire to trap each into overhearing that the other is secretly pining, and the trick comes true. But Don Pedro's malcontent bastard brother, Don John, sets a darker plot going: he stages a scene at Hero's window, his man Borachio wooing her maid Margaret as 'Hero,' so that Claudio and Don Pedro believe her unfaithful. At the wedding Claudio denounces and abandons her, and Hero faints; on a friar's advice her family lets it be given out that she has died of the shock. Enraged for her cousin, Beatrice binds the newly declared Benedick to her cause with two words: 'Kill Claudio.' Justice arrives by accident, for the constable Dogberry's comically inept night watch has already overheard Borachio bragging of the deception, and the plot is exposed. A penitent Claudio agrees to marry Leonato's veiled 'niece,' who proves to be the living Hero, and Beatrice and Benedick are talked, and written, into the match they both wanted. The title plays on 'nothing' and its near-homophone 'noting', the overhearing, eavesdropping, and misreading that drive both the love-plot and the slander, in one of Shakespeare's wittiest and most-staged comedies.",
+  "acts": [
+    {
+      "number": 1,
+      "summary": "Don Pedro and his officers arrive at Leonato's house in Messina. Claudio confesses his love for Hero, and Don Pedro offers to woo her for him in disguise at that night's masked revels; Beatrice and Benedick resume their war of wit. The bastard Don John, freshly reconciled to his brother, broods on his discontent and looks for a way to do mischief.",
+      "scenes": [
+        { "number": 1, "summary": "A messenger brings Leonato news that Don Pedro has won the war with few losses and great honour to young Claudio. Beatrice asks sarcastically after 'Signior Mountanto' (Benedick). The soldiers arrive; Beatrice and Benedick spar. Claudio tells Benedick, then Don Pedro, that he loves Hero, and Don Pedro promises to woo her for him under cover of the masked ball.", "themes": ["war", "wit", "courtship", "friendship"] },
+        { "number": 2, "summary": "Leonato's brother Antonio reports that a servant overheard Don Pedro confess he loves Hero and means to woo her himself, a garbled version of the real plan that begins the play's chain of misheard 'notings.'", "themes": ["eavesdropping", "deception", "courtship"] },
+        { "number": 3, "summary": "The sullen Don John tells his follower Conrade that he 'cannot hide what I am' and would rather be a 'canker' than a flattering rose. Borachio reports that Claudio, not Don Pedro, is to marry Hero, and Don John resolves to spoil the match: 'any bar, any cross, any impediment will be medicinable to me.'", "themes": ["envy", "deception", "villainy"] }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "At the masked ball Don Pedro wins Hero for Claudio, though Don John briefly makes Claudio fear the Prince has wooed her for himself. With both betrothals settled, Don Pedro launches a benevolent plot to make Beatrice and Benedick fall in love, while Don John and Borachio plan a malicious one to disgrace Hero.",
+      "scenes": [
+        { "number": 1, "summary": "At the masked dance Beatrice mocks Benedick to his disguised face. Don John pretends to mistake Claudio for Benedick and tells him Don Pedro woos Hero for himself; Claudio despairs until the truth clears it. Hero and Claudio are betrothed. Don Pedro proposes a 'labour' to bring Beatrice and Benedick 'into a mountain of affection.'", "themes": ["courtship", "deception", "wit", "marriage"] },
+        { "number": 2, "summary": "Borachio lays out his scheme to Don John: he will woo Hero's maid Margaret at Hero's window, calling her 'Hero,' the night before the wedding, while Don Pedro and Claudio watch from below, so that Claudio will believe Hero false and shame her at the altar.", "themes": ["deception", "slander", "villainy"] },
+        { "number": 3, "summary": "Benedick muses that he will never fall for any woman, then hides as Don Pedro, Claudio, and Leonato stage a loud conversation about how desperately Beatrice loves him. Balthasar sings 'Sigh no more, ladies.' Gulled, Benedick resolves: 'the world must be peopled. When I said I would die a bachelor, I did not think I should live till I were married.'", "themes": ["eavesdropping", "love", "wit", "marriage"] }
+      ]
+    },
+    {
+      "number": 3,
+      "summary": "Beatrice is tricked in turn into believing Benedick loves her, and both lovers are quietly transformed. Don John shows Claudio and Don Pedro the staged scene at Hero's window, and they vow to disgrace her at the wedding. The night watch, briefed by the muddled constable Dogberry, blunders into overhearing Borachio confess the whole plot.",
+      "scenes": [
+        { "number": 1, "summary": "Hero and her woman Ursula stage their own loud talk in the garden, within earshot of the hidden Beatrice, about how much Benedick loves her and how scornful she is. Beatrice steps out transformed: 'Contempt, farewell! and maiden pride, adieu! ... Benedick, love on; I will requite thee.'", "themes": ["eavesdropping", "love", "pride"] },
+        { "number": 2, "summary": "Don Pedro and Claudio tease the suddenly melancholy, clean-shaven, perfumed Benedick, who is plainly in love. Don John arrives and tells them Hero is disloyal, offering to show them proof at her chamber window that very night; Claudio vows that if he sees it he will shame her in the congregation where he meant to wed her.", "themes": ["wit", "slander", "deception", "honor"] },
+        { "number": 3, "summary": "Dogberry and Verges give the Watch their comically garbled orders. Left alone, the watchmen overhear a drunken Borachio boast to Conrade how he wooed Margaret as 'Hero' for a thousand ducats and how Claudio will shame Hero next morning. The Watch arrest the pair for 'the most dangerous piece of lechery that ever was known in the commonwealth.'", "themes": ["eavesdropping", "justice", "comedy"] },
+        { "number": 4, "summary": "On the wedding morning Hero dresses while Margaret jests bawdily about husbands and a heavy heart; Beatrice enters out of sorts and lovesick, and the others tease that she too will soon want 'carduus benedictus.'", "themes": ["marriage", "wit", "love"] },
+        { "number": 5, "summary": "Dogberry and Verges try to tell Leonato that the Watch have caught two suspects, but their long-winded muddle so exhausts him on his daughter's wedding morning that he tells them to examine the men themselves, and hurries off, missing the warning that would have stopped the catastrophe.", "themes": ["comedy", "justice", "dramatic_irony"] }
+      ]
+    },
+    {
+      "number": 4,
+      "summary": "At the altar Claudio repudiates Hero as unchaste and abandons her; she collapses, and her own father at first believes the slander. The friar, sure of her innocence, counsels the family to pretend she has died, so that grief may bring Claudio to repentance. Beatrice and Benedick confess their love, and she charges him to avenge Hero by killing Claudio.",
+      "scenes": [
+        { "number": 1, "summary": "Before the priest, Claudio rejects Hero as a 'rotten orange,' and Don Pedro backs the charge of unchastity; Hero faints, and the shaken Leonato wishes her dead. Friar Francis, reading her face, believes her innocent and proposes to announce she has died, trusting remorse to clear her. Alone, Benedick and Beatrice declare their love, and Beatrice rounds on him: 'Kill Claudio.'", "themes": ["honor", "slander", "chastity", "love"] },
+        { "number": 2, "summary": "Dogberry, Verges, and the Sexton examine Borachio and Conrade. The competent Sexton records the confession, reports that Don John has secretly fled and that the wronged Hero is said to have died, and orders the prisoners bound and brought to Leonato. Affronted at being called an 'ass,' Dogberry insists the loss be remembered.", "themes": ["justice", "comedy", "truth"] }
+      ]
+    },
+    {
+      "number": 5,
+      "summary": "The grieving Leonato and Antonio challenge Claudio and Don Pedro, who shrug them off; Benedick, breaking from his comrades, challenges Claudio in earnest. Then Dogberry's watch delivers Borachio, whose confession exposes the plot and stuns the guilty men with remorse. Claudio agrees to marry Leonato's veiled 'niece,' who is the living Hero, and Beatrice and Benedick are united at last.",
+      "scenes": [
+        { "number": 1, "summary": "Leonato and Antonio confront Claudio and Don Pedro, who decline to fight the old men. Benedick arrives, withdraws from Don Pedro's company, and challenges Claudio for Hero's death. The Watch brings in Borachio, who publicly confesses the slander; Claudio and Don Pedro are struck with grief. Believing Hero dead, Claudio accepts Leonato's terms: to hang an epitaph at her tomb and wed her 'cousin' next morning.", "themes": ["honor", "repentance", "justice", "grief"] },
+        { "number": 2, "summary": "Benedick, attempting love-poetry, trades wit with Beatrice and woos her openly. Ursula brings news that Hero's innocence is now proved, Don John unmasked and fled, and the lovers go in together to learn the outcome.", "themes": ["love", "wit", "courtship"] },
+        { "number": 3, "summary": "At Hero's monument by night, Claudio hangs a scroll of penitent verses and the company sings the solemn dirge 'Pardon, goddess of the night,' vowing to repeat the rite yearly, before leaving to dress for the new wedding at dawn.", "themes": ["grief", "repentance", "ritual"] },
+        { "number": 4, "summary": "Claudio is married to a veiled lady who unmasks as the living Hero, restored with her name cleared. Beatrice and Benedick, each shown the other's secret love-poems, agree to wed, Benedick stopping her mouth with a kiss. Word comes that Don John has been captured, and the play ends in a dance: 'Strike up, pipers!'", "themes": ["marriage", "reconciliation", "joy"] }
+      ]
+    }
+  ]
+}

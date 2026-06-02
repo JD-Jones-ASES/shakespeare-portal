@@ -1,0 +1,207 @@
+[
+  {
+    "id": "viola",
+    "name": "Viola",
+    "aliases": ["VIOLA."],
+    "role": "protagonist",
+    "description": "A young noblewoman shipwrecked on the coast of Illyria and separated from her twin brother Sebastian, whom she believes drowned. For safety she disguises herself as a young man, 'Cesario,' and enters the service of Duke Orsino. Sent to woo the countess Olivia on Orsino's behalf, she falls in love with Orsino herself, while Olivia falls for 'Cesario', tangling the three in a knot only her brother's return can untie.",
+    "relationships": [
+      { "other_id": "sebastian", "relation": "twin sister of" },
+      { "other_id": "orsino", "relation": "serves as 'Cesario'; loves" },
+      { "other_id": "olivia", "relation": "wooed by, while disguised" },
+      { "other_id": "captain", "relation": "rescued by" }
+    ],
+    "color": "#2f8c8c"
+  },
+  {
+    "id": "orsino",
+    "name": "Orsino",
+    "aliases": ["DUKE."],
+    "role": "major",
+    "description": "Duke (or Count) of Illyria, who opens the play languishing in unrequited love for Olivia: 'If music be the food of love, play on.' Self-absorbed and in love with the idea of love, he sends his new page 'Cesario' to court Olivia for him, not seeing that Cesario is a woman who loves him. At the end he turns his affection to the revealed Viola.",
+    "relationships": [
+      { "other_id": "olivia", "relation": "woos, in vain" },
+      { "other_id": "viola", "relation": "served by, then marries" }
+    ],
+    "color": "#7a4f9e"
+  },
+  {
+    "id": "olivia",
+    "name": "Olivia",
+    "aliases": ["OLIVIA."],
+    "role": "major",
+    "description": "A wealthy Illyrian countess in mourning for her dead brother, who has vowed to shun men's company for seven years. She rejects Orsino's suit but falls suddenly and hard for his messenger 'Cesario' (the disguised Viola). Mistaking Viola's twin Sebastian for Cesario, she marries him in haste, and finds her error is also her happiness.",
+    "relationships": [
+      { "other_id": "viola", "relation": "loves, as 'Cesario'" },
+      { "other_id": "sebastian", "relation": "marries by mistake" },
+      { "other_id": "malvolio", "relation": "mistress of" },
+      { "other_id": "sir_toby", "relation": "niece of" }
+    ],
+    "color": "#b0396e"
+  },
+  {
+    "id": "sebastian",
+    "name": "Sebastian",
+    "aliases": ["SEBASTIAN."],
+    "role": "supporting",
+    "description": "Viola's twin brother, saved from the same shipwreck by the sea-captain Antonio and believing his sister drowned. His arrival in Illyria, identical to the disguised Viola, sets off the comedy's final confusions: he is challenged by strangers, embraced by a countess he has never met, and married to her before brother and sister are reunited.",
+    "relationships": [
+      { "other_id": "viola", "relation": "twin brother of" },
+      { "other_id": "antonio", "relation": "rescued and befriended by" },
+      { "other_id": "olivia", "relation": "marries" }
+    ],
+    "color": "#2f6aa0"
+  },
+  {
+    "id": "malvolio",
+    "name": "Malvolio",
+    "aliases": ["MALVOLIO."],
+    "role": "major",
+    "description": "Olivia's humorless, self-loving steward, called 'a kind of Puritan' for his sober disapproval of the household's revels. Maria forges a letter in Olivia's hand that tricks him into believing his mistress loves him; he appears cross-gartered in yellow stockings, smiling absurdly, and is shut up as a madman. His parting vow, 'I'll be revenged on the whole pack of you,' darkens the comedy's close.",
+    "relationships": [
+      { "other_id": "olivia", "relation": "steward to" },
+      { "other_id": "maria", "relation": "gulled by the forged letter of" },
+      { "other_id": "sir_toby", "relation": "enemy of" }
+    ],
+    "color": "#8a7a2a"
+  },
+  {
+    "id": "sir_toby",
+    "name": "Sir Toby Belch",
+    "aliases": ["SIR TOBY."],
+    "role": "major",
+    "description": "Olivia's hard-drinking, riotous uncle, who sponges on the foolish knight Sir Andrew by promising him Olivia's hand. The spirit of misrule in the household, he resents Malvolio's killjoy authority ('Dost thou think, because thou art virtuous, there shall be no more cakes and ale?') and masterminds the gulling of both Malvolio and Sir Andrew. He marries Maria for devising the letter-plot.",
+    "relationships": [
+      { "other_id": "olivia", "relation": "uncle of" },
+      { "other_id": "sir_andrew", "relation": "exploits and eggs on" },
+      { "other_id": "maria", "relation": "ally, then husband of" },
+      { "other_id": "malvolio", "relation": "torments" }
+    ],
+    "color": "#a0562f"
+  },
+  {
+    "id": "sir_andrew",
+    "name": "Sir Andrew Aguecheek",
+    "aliases": ["SIR ANDREW.", "AGUE-CHEEK."],
+    "role": "supporting",
+    "description": "A foolish, cowardly, thin-haired knight brought to Olivia's house by Sir Toby as a gull and a hopeless suitor for Olivia. Vain about his dancing and his (nonexistent) wit, he is goaded into challenging 'Cesario' to a duel and ends up beaten by Sebastian. 'I was adored once too,' he says, in a rare wistful line.",
+    "relationships": [
+      { "other_id": "sir_toby", "relation": "duped companion of" },
+      { "other_id": "olivia", "relation": "hopeless suitor to" }
+    ],
+    "color": "#b0a14a"
+  },
+  {
+    "id": "maria",
+    "name": "Maria",
+    "aliases": ["MARIA."],
+    "role": "supporting",
+    "description": "Olivia's sharp and clever waiting-gentlewoman, the real engineer of the plot against Malvolio: she forges a love-letter in a hand 'very like my lady's' to make him think Olivia loves him. Allied with Sir Toby in the household's misrule, she is rewarded with marriage to him.",
+    "relationships": [
+      { "other_id": "olivia", "relation": "attends" },
+      { "other_id": "sir_toby", "relation": "ally, then wife of" },
+      { "other_id": "malvolio", "relation": "forges the letter that dupes" }
+    ],
+    "color": "#c2569a"
+  },
+  {
+    "id": "feste",
+    "name": "Feste",
+    "aliases": ["CLOWN.", "FESTE."],
+    "role": "supporting",
+    "description": "Olivia's licensed fool (jester), who moves freely between her house and Orsino's court, paid by both for his songs and word-play. Sharper than the people he serves, he proves Olivia a fool for mourning, baits the imprisoned Malvolio in the guise of 'Sir Topas' the curate, and closes the play alone with the song 'When that I was and a little tiny boy ... the rain it raineth every day.'",
+    "relationships": [
+      { "other_id": "olivia", "relation": "jester to" },
+      { "other_id": "malvolio", "relation": "torments as 'Sir Topas'" }
+    ],
+    "color": "#4f8a5a"
+  },
+  {
+    "id": "fabian",
+    "name": "Fabian",
+    "aliases": ["FABIAN."],
+    "role": "supporting",
+    "description": "A member of Olivia's household with his own grudge against Malvolio (who got him into trouble over a bear-baiting). He joins Sir Toby and Maria in spying on the gulled steward and later helps stage-manage the duel, and finally confesses the prank and reads the letter aloud at the unraveling.",
+    "relationships": [
+      { "other_id": "sir_toby", "relation": "fellow conspirator with" },
+      { "other_id": "malvolio", "relation": "torments" }
+    ],
+    "color": "#7a8a4a"
+  },
+  {
+    "id": "antonio",
+    "name": "Antonio",
+    "aliases": ["ANTONIO."],
+    "role": "supporting",
+    "description": "A sea-captain who rescues Sebastian from the wreck and grows devoted to him, following him into hostile Illyria though Antonio has old enemies there. When he mistakes the disguised Viola for Sebastian and she fails to know him, his sense of betrayal gives the comedy a note of real pain. (A different man from the Antonio of Much Ado About Nothing.)",
+    "relationships": [
+      { "other_id": "sebastian", "relation": "rescuer and devoted friend of" },
+      { "other_id": "orsino", "relation": "former sea-enemy of" }
+    ],
+    "color": "#3f6fb0"
+  },
+  {
+    "id": "captain",
+    "name": "Captain",
+    "aliases": ["CAPTAIN."],
+    "role": "minor",
+    "description": "The sea-captain who brings the shipwrecked Viola safe ashore in Illyria, tells her about Orsino and Olivia, and helps her disguise herself as the page Cesario.",
+    "relationships": [
+      { "other_id": "viola", "relation": "rescues and aids" }
+    ],
+    "color": "#5f7f9f"
+  },
+  {
+    "id": "valentine",
+    "name": "Valentine",
+    "aliases": ["VALENTINE."],
+    "role": "minor",
+    "description": "A gentleman attending on Duke Orsino, who reports Olivia's refusal of the Duke's suit and notes how quickly the new page 'Cesario' has won Orsino's favour.",
+    "relationships": [
+      { "other_id": "orsino", "relation": "attends" }
+    ],
+    "color": "#8a6aa0"
+  },
+  {
+    "id": "curio",
+    "name": "Curio",
+    "aliases": ["CURIO."],
+    "role": "minor",
+    "description": "A gentleman attending on Duke Orsino at court, who tries to divert his melancholy master with talk of the hunt.",
+    "relationships": [
+      { "other_id": "orsino", "relation": "attends" }
+    ],
+    "color": "#9a6a8a"
+  },
+  {
+    "id": "first_officer",
+    "name": "First Officer",
+    "aliases": ["FIRST OFFICER."],
+    "role": "minor",
+    "description": "An officer of Illyria who, with a second officer, arrests the sea-captain Antonio at Orsino's suit in the street, precipitating the painful scene in which the disguised Viola seems not to know her friend.",
+    "color": "#7a6a5a"
+  },
+  {
+    "id": "second_officer",
+    "name": "Second Officer",
+    "aliases": ["SECOND OFFICER."],
+    "role": "minor",
+    "description": "The second of the two officers who arrest Antonio and identify him as an old enemy of Orsino's.",
+    "color": "#8a7a6a"
+  },
+  {
+    "id": "priest",
+    "name": "Priest",
+    "aliases": ["PRIEST."],
+    "role": "minor",
+    "description": "The priest who secretly marries Olivia and Sebastian and later, before Orsino, confirms the 'contract of eternal bond of love' between Olivia and the man she took for Cesario.",
+    "color": "#7a7a9a"
+  },
+  {
+    "id": "servant",
+    "name": "Servant",
+    "aliases": ["SERVANT."],
+    "role": "minor",
+    "description": "A servant of Olivia's who summons the disguised Viola back to the house."
+  }
+]

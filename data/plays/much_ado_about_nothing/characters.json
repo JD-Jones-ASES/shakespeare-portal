@@ -1,0 +1,264 @@
+[
+  {
+    "id": "benedick",
+    "name": "Benedick",
+    "aliases": ["BENEDICK."],
+    "role": "protagonist",
+    "description": "A young lord of Padua, a soldier returning from war with Don Pedro, famous for his quick wit and his loud vows never to marry. He and Beatrice keep up a 'merry war' of insults, but their friends trick each into believing the other is secretly in love, and the ruse becomes the truth. When Hero is slandered, Benedick takes Beatrice's side against his own comrades.",
+    "relationships": [
+      { "other_id": "beatrice", "relation": "sparring partner, then beloved of" },
+      { "other_id": "claudio", "relation": "fellow soldier and friend of" },
+      { "other_id": "don_pedro", "relation": "serves under" }
+    ],
+    "color": "#c2562f"
+  },
+  {
+    "id": "beatrice",
+    "name": "Beatrice",
+    "aliases": ["BEATRICE."],
+    "role": "deuteragonist",
+    "description": "Leonato's sharp-tongued niece, who scorns marriage and trades barbs with Benedick in a long-running 'merry war' of wit. Gulled by her cousin and friends into hearing that Benedick loves her, she discovers her own love in return. Fierce in defense of her wronged cousin Hero, she demands that Benedick prove his love by avenging her: 'Kill Claudio.'",
+    "relationships": [
+      { "other_id": "benedick", "relation": "sparring partner, then beloved of" },
+      { "other_id": "hero", "relation": "cousin of" },
+      { "other_id": "leonato", "relation": "niece of" }
+    ],
+    "color": "#b0396e"
+  },
+  {
+    "id": "claudio",
+    "name": "Claudio",
+    "aliases": ["CLAUDIO."],
+    "role": "major",
+    "description": "A young lord of Florence, newly distinguished in war, who falls in love with Hero and is betrothed to her with Don Pedro's help. Quick to believe Don John's slander that Hero is unfaithful, he shames and rejects her at the altar. Believing her dead, he repents and agrees to marry her 'cousin' in recompense, only to find Hero alive.",
+    "relationships": [
+      { "other_id": "hero", "relation": "betrothed to" },
+      { "other_id": "don_pedro", "relation": "serves under; woos through" },
+      { "other_id": "benedick", "relation": "friend of" }
+    ],
+    "color": "#3a6ea5"
+  },
+  {
+    "id": "hero",
+    "name": "Hero",
+    "aliases": ["HERO."],
+    "role": "major",
+    "description": "Leonato's gentle daughter, betrothed to Claudio. Don John's plot makes it appear she has a lover at her window the night before her wedding; Claudio denounces her at the altar and she collapses. On the Friar's advice her family lets the world believe she has died of shame, until her innocence is proven and she is restored to a penitent Claudio.",
+    "relationships": [
+      { "other_id": "claudio", "relation": "betrothed to" },
+      { "other_id": "leonato", "relation": "daughter of" },
+      { "other_id": "beatrice", "relation": "cousin of" }
+    ],
+    "color": "#c99a3a"
+  },
+  {
+    "id": "don_pedro",
+    "name": "Don Pedro",
+    "aliases": ["DON PEDRO."],
+    "role": "major",
+    "description": "The Prince of Arragon, victorious commander and honored guest of Leonato. Good-natured and fond of matchmaking, he woos Hero on Claudio's behalf at the masked ball and devises the scheme to bring Beatrice and Benedick together. His trust in his bastard brother Don John helps the slander against Hero take hold.",
+    "relationships": [
+      { "other_id": "don_john", "relation": "half-brother of" },
+      { "other_id": "claudio", "relation": "patron and friend of" },
+      { "other_id": "benedick", "relation": "companion of" }
+    ],
+    "color": "#4f7a4f"
+  },
+  {
+    "id": "don_john",
+    "name": "Don John",
+    "aliases": ["DON JOHN."],
+    "role": "antagonist",
+    "description": "Don Pedro's illegitimate brother, a sullen malcontent newly reconciled to the Prince after a failed rebellion. 'I cannot hide what I am,' he says; resentful of Claudio's favor, he engineers the plot to disgrace Hero, having Borachio woo her maid Margaret at Hero's window. When the deception unravels he flees, and is captured offstage.",
+    "relationships": [
+      { "other_id": "don_pedro", "relation": "bastard brother of" },
+      { "other_id": "borachio", "relation": "follower of" },
+      { "other_id": "conrade", "relation": "follower of" }
+    ],
+    "color": "#6a4a7a"
+  },
+  {
+    "id": "leonato",
+    "name": "Leonato",
+    "aliases": ["LEONATO."],
+    "role": "major",
+    "description": "Governor of Messina, father of Hero and uncle of Beatrice, the genial host of Don Pedro and his company. At the broken wedding he at first believes the slander and turns on his daughter, wishing her dead; recovering, he follows the Friar's plan to clear her name and bitterly challenges Claudio before the truth comes out.",
+    "relationships": [
+      { "other_id": "hero", "relation": "father of" },
+      { "other_id": "beatrice", "relation": "uncle of" },
+      { "other_id": "antonio", "relation": "brother of" }
+    ],
+    "color": "#8a6d3b"
+  },
+  {
+    "id": "antonio",
+    "name": "Antonio",
+    "aliases": ["ANTONIO."],
+    "role": "supporting",
+    "description": "Leonato's elderly brother, an old man of Messina. He passes on a garbled report of Don Pedro's love-talk early on, helps comfort and counsel his brother, and joins the aged Leonato in furiously challenging Claudio and Don Pedro to a duel over Hero's disgrace.",
+    "relationships": [
+      { "other_id": "leonato", "relation": "brother of" },
+      { "other_id": "hero", "relation": "uncle of" }
+    ],
+    "color": "#a98a4a"
+  },
+  {
+    "id": "borachio",
+    "name": "Borachio",
+    "aliases": ["BORACHIO."],
+    "role": "supporting",
+    "description": "A follower of Don John and lover of Hero's maid Margaret. For a thousand ducats he carries out the scheme that ruins Hero: he woos Margaret at Hero's window while Claudio and Don Pedro watch, mistaking her for Hero. Overheard boasting of it by the Watch, he is arrested and confesses, clearing Hero's name.",
+    "relationships": [
+      { "other_id": "don_john", "relation": "follower of" },
+      { "other_id": "margaret", "relation": "wooer of" },
+      { "other_id": "conrade", "relation": "companion of" }
+    ],
+    "color": "#9a5a4a"
+  },
+  {
+    "id": "conrade",
+    "name": "Conrade",
+    "aliases": ["CONRADE."],
+    "role": "minor",
+    "description": "A follower of Don John and companion to Borachio. He counsels his discontented master and is arrested alongside Borachio by the Watch; his indignant 'Off, coxcomb!' to Dogberry provokes the constable's famous protest, 'I am an ass.'",
+    "relationships": [
+      { "other_id": "don_john", "relation": "follower of" },
+      { "other_id": "borachio", "relation": "companion of" }
+    ],
+    "color": "#8a6a5a"
+  },
+  {
+    "id": "dogberry",
+    "name": "Dogberry",
+    "aliases": ["DOGBERRY."],
+    "role": "supporting",
+    "description": "The self-important constable of Messina, head of the night Watch, whose speech is a tangle of malapropisms (words comically mistaken for their opposites, as when he calls suspects 'auspicious' for suspicious). His bumbling watchmen nonetheless overhear Borachio and uncover the plot against Hero, so that justice arrives by accident.",
+    "relationships": [
+      { "other_id": "verges", "relation": "partnered with" }
+    ],
+    "color": "#2e8b8b"
+  },
+  {
+    "id": "verges",
+    "name": "Verges",
+    "aliases": ["VERGES."],
+    "role": "minor",
+    "description": "The headborough (a petty parish officer), Dogberry's aged deputy and straight man. He helps marshal the Watch and trails after Dogberry trying, with little success, to get a word in.",
+    "relationships": [
+      { "other_id": "dogberry", "relation": "deputy to" }
+    ],
+    "color": "#5aa0a0"
+  },
+  {
+    "id": "margaret",
+    "name": "Margaret",
+    "aliases": ["MARGARET."],
+    "role": "supporting",
+    "description": "One of Hero's waiting-gentlewomen, witty and free-spoken. Unwittingly central to the plot, she stands at Hero's window in Hero's clothes to be wooed by Borachio as 'Hero,' giving the watchers their false proof. The play treats her as a dupe, not a conspirator: she did not know the harm her game would do.",
+    "relationships": [
+      { "other_id": "hero", "relation": "attends" },
+      { "other_id": "borachio", "relation": "courted by" }
+    ],
+    "color": "#c77fae"
+  },
+  {
+    "id": "ursula",
+    "name": "Ursula",
+    "aliases": ["URSULA."],
+    "role": "minor",
+    "description": "One of Hero's waiting-gentlewomen. With Hero she stages the loud garden conversation about Benedick's supposed love that is overheard by the hidden Beatrice, helping to trick her into love.",
+    "relationships": [
+      { "other_id": "hero", "relation": "attends" }
+    ],
+    "color": "#b08fc0"
+  },
+  {
+    "id": "balthasar",
+    "name": "Balthasar",
+    "aliases": ["BALTHAZAR."],
+    "role": "minor",
+    "description": "A musician in Don Pedro's service. He sings the play's most famous song, 'Sigh no more, ladies, sigh no more,' which counsels women to accept men's inconstancy and 'let them go.'",
+    "relationships": [
+      { "other_id": "don_pedro", "relation": "serves" }
+    ],
+    "color": "#6a8ec0"
+  },
+  {
+    "id": "friar_francis",
+    "name": "Friar Francis",
+    "aliases": ["FRIAR."],
+    "role": "supporting",
+    "description": "The friar officiating at Hero and Claudio's wedding. Convinced of Hero's innocence by watching her face as she is accused, he proposes the plan to announce that she has died of shame, trusting that grief and reflection will bring Claudio to repentance and the truth to light.",
+    "relationships": [
+      { "other_id": "hero", "relation": "protector of" }
+    ],
+    "color": "#7a7a9a"
+  },
+  {
+    "id": "sexton",
+    "name": "Sexton",
+    "aliases": ["SEXTON."],
+    "role": "minor",
+    "description": "The parish clerk who serves as recorder at Dogberry's examination of Borachio and Conrade (4.2). The only competent official present, he registers their confession, learns of Don John's flight, and sends word to Leonato.",
+    "color": "#888866"
+  },
+  {
+    "id": "boy",
+    "name": "Boy",
+    "aliases": ["BOY."],
+    "role": "minor",
+    "description": "A boy whom Benedick sends to fetch a book from his chamber window at the start of his orchard soliloquy (2.3).",
+    "color": "#9ab07a"
+  },
+  {
+    "id": "messenger",
+    "name": "Messenger",
+    "aliases": ["MESSENGER."],
+    "role": "minor",
+    "description": "A messenger who opens the play with news of Don Pedro's victory and approach to Messina, and other attendants who carry word through the action."
+  },
+  {
+    "id": "first_watch",
+    "name": "First Watchman",
+    "aliases": ["FIRST WATCH."],
+    "role": "minor",
+    "description": "One of Dogberry's night watchmen. Posted to keep order, he and his fellow overhear Borachio drunkenly boasting of the plot against Hero, recognize 'one Deformed' as a supposed thief, and make the arrest that saves her.",
+    "color": "#b0884a"
+  },
+  {
+    "id": "second_watch",
+    "name": "Second Watchman",
+    "aliases": ["SECOND WATCH."],
+    "role": "minor",
+    "description": "Another of Dogberry's watchmen, who with his fellow overhears and arrests Borachio and Conrade, then stands firm in repeating the charge at the examination.",
+    "color": "#a07a5a"
+  },
+  {
+    "id": "watch",
+    "name": "Watch",
+    "aliases": ["WATCH."],
+    "role": "ensemble",
+    "description": "Members of Dogberry's comic night watch, who blunder into uncovering Don John's plot."
+  },
+  {
+    "id": "both",
+    "name": "Both (Borachio and Conrade)",
+    "aliases": ["BOTH."],
+    "role": "ensemble",
+    "description": "Speech-prefix for the two prisoners, Borachio and Conrade, answering Dogberry in unison ('Yea, sir, we hope') during the examination in 4.2."
+  },
+  {
+    "id": "lord",
+    "name": "Lord",
+    "aliases": ["A LORD."],
+    "role": "minor",
+    "description": "An attendant lord who confirms to Claudio that the monument before them is Leonato's, at the mourning rite in 5.3."
+  },
+  {
+    "id": "song",
+    "name": "Song",
+    "aliases": ["SONG."],
+    "role": "ensemble",
+    "description": "Cue label for the solemn dirge 'Pardon, goddess of the night,' sung at Hero's supposed tomb in 5.3."
+  }
+]
