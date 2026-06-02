@@ -1,0 +1,282 @@
+[
+  {
+    "id": "lear",
+    "name": "King Lear",
+    "aliases": ["Lear."],
+    "role": "protagonist",
+    "description": "The aging King of Britain, who divides his kingdom among his daughters according to who flatters him most, banishing the one who loves him truly. Stripped of power, retinue, and shelter by the two he rewarded, he descends into madness on a storm-swept heath, recovers a hard-won humility, and dies of grief over the body of the daughter he wronged.",
+    "relationships": [
+      { "other_id": "goneril", "relation": "father of" },
+      { "other_id": "regan", "relation": "father of" },
+      { "other_id": "cordelia", "relation": "father of" },
+      { "other_id": "kent", "relation": "served by" },
+      { "other_id": "fool", "relation": "attended by" }
+    ],
+    "color": "#c0982e"
+  },
+  {
+    "id": "cordelia",
+    "name": "Cordelia",
+    "aliases": ["Cor."],
+    "role": "major",
+    "description": "Lear's youngest and dearest daughter, who refuses to flatter him in the love-test — she will love him 'according to my bond, no more nor less' — and is disinherited and banished for her honesty. The King of France marries her dowerless. She returns at the head of a French army to rescue her father, is captured, and is hanged in prison; her death breaks Lear's heart.",
+    "relationships": [
+      { "other_id": "lear", "relation": "daughter of" },
+      { "other_id": "goneril", "relation": "sister of" },
+      { "other_id": "regan", "relation": "sister of" },
+      { "other_id": "france", "relation": "wife of" }
+    ],
+    "color": "#2e8b6f"
+  },
+  {
+    "id": "goneril",
+    "name": "Goneril",
+    "aliases": ["Gon."],
+    "role": "antagonist",
+    "description": "Lear's eldest daughter, married to the Duke of Albany. She wins a third of the kingdom with extravagant professions of love, then strips her father of his knights and turns him out into the storm. Ruthless and lustful, she pursues Edmund, poisons her sister Regan out of jealousy, and kills herself when her treachery is exposed.",
+    "relationships": [
+      { "other_id": "lear", "relation": "daughter of" },
+      { "other_id": "albany", "relation": "wife of" },
+      { "other_id": "regan", "relation": "sister and rival of" },
+      { "other_id": "edmund", "relation": "lover of" }
+    ],
+    "color": "#9c4242"
+  },
+  {
+    "id": "regan",
+    "name": "Regan",
+    "aliases": ["Reg."],
+    "role": "antagonist",
+    "description": "Lear's second daughter, married to the Duke of Cornwall. As cruel as her sister Goneril, she helps cast Lear out and abets the blinding of Gloucester, even running through the servant who protests. Widowed when Cornwall dies, she competes with Goneril for Edmund and is secretly poisoned by her.",
+    "relationships": [
+      { "other_id": "lear", "relation": "daughter of" },
+      { "other_id": "cornwall", "relation": "wife of" },
+      { "other_id": "goneril", "relation": "sister and rival of" },
+      { "other_id": "edmund", "relation": "suitor of" }
+    ],
+    "color": "#b05a34"
+  },
+  {
+    "id": "kent",
+    "name": "Kent",
+    "aliases": ["Kent."],
+    "role": "major",
+    "description": "The Earl of Kent, blunt and fiercely loyal to Lear. Banished for defending Cordelia, he returns in disguise under the name Caius to serve the king he loves, sharing his fall through storm and madness. At the end he reveals himself, and, his master dead, prepares to follow him: 'I have a journey, sir, shortly to go.'",
+    "relationships": [
+      { "other_id": "lear", "relation": "loyal servant of" },
+      { "other_id": "oswald", "relation": "enemy of" }
+    ],
+    "color": "#3f6fb0"
+  },
+  {
+    "id": "gloucester",
+    "name": "Gloucester",
+    "aliases": ["Glou.", "Gloster."],
+    "role": "major",
+    "description": "The Earl of Gloucester, whose family plot mirrors Lear's. Deceived by his bastard son Edmund into believing his legitimate son Edgar a traitor, he is betrayed in turn, accused of helping Lear, and has his eyes put out on stage by Cornwall and Regan. Blind and despairing, he is secretly guided and saved by the disguised Edgar, and dies when his heart bursts 'twixt joy and grief.",
+    "relationships": [
+      { "other_id": "edgar", "relation": "father of" },
+      { "other_id": "edmund", "relation": "father of" },
+      { "other_id": "lear", "relation": "loyal subject of" }
+    ],
+    "color": "#7a6a9e"
+  },
+  {
+    "id": "edgar",
+    "name": "Edgar",
+    "aliases": ["Edg."],
+    "role": "major",
+    "description": "Gloucester's legitimate son, framed by his brother Edmund and forced to flee. He disguises himself as 'Poor Tom,' a mad, near-naked Bedlam beggar babbling of devils, and in that role shelters Lear in the storm and secretly tends his own blinded father, even staging a fake leap from Dover cliff to cure his despair. He survives to defeat Edmund in trial by combat and, in the Folio, to rule.",
+    "relationships": [
+      { "other_id": "gloucester", "relation": "son of" },
+      { "other_id": "edmund", "relation": "brother of, betrayed by" },
+      { "other_id": "lear", "relation": "shelters in disguise" }
+    ],
+    "color": "#2e8b57"
+  },
+  {
+    "id": "edmund",
+    "name": "Edmund",
+    "aliases": ["Edm."],
+    "role": "antagonist",
+    "description": "Gloucester's illegitimate son, a charming, cold-blooded schemer in the mould of the stage Machiavel. Resenting the stigma of bastardy, he forges evidence against his brother Edgar, betrays his father to blinding, and rises to command the British army while playing Goneril and Regan against each other. Defeated by the disguised Edgar, he repents too late to save Cordelia, whose death he had ordered.",
+    "relationships": [
+      { "other_id": "gloucester", "relation": "bastard son of" },
+      { "other_id": "edgar", "relation": "half-brother of, betrays" },
+      { "other_id": "goneril", "relation": "lover of" },
+      { "other_id": "regan", "relation": "courted by" }
+    ],
+    "color": "#8a2f4a"
+  },
+  {
+    "id": "fool",
+    "name": "Fool",
+    "aliases": ["Fool."],
+    "role": "supporting",
+    "description": "Lear's court jester, who alone may speak hard truths to the king, telling him in riddle, song, and bitter joke that he was a fool to give everything away. Devoted to Cordelia, he accompanies Lear into the storm and his wits' collapse, then disappears from the play after Act 3.",
+    "relationships": [
+      { "other_id": "lear", "relation": "jester to" }
+    ],
+    "color": "#c2843d"
+  },
+  {
+    "id": "albany",
+    "name": "Albany",
+    "aliases": ["Alb."],
+    "role": "supporting",
+    "description": "The Duke of Albany, Goneril's husband, who grows from passive complicity into moral revulsion at his wife's cruelty. By the end he condemns Goneril and Edmund, takes the side of justice, and is left — with Edgar and Kent — to govern the ruined kingdom.",
+    "relationships": [
+      { "other_id": "goneril", "relation": "husband of" },
+      { "other_id": "cornwall", "relation": "fellow duke" }
+    ],
+    "color": "#5a7a9a"
+  },
+  {
+    "id": "cornwall",
+    "name": "Cornwall",
+    "aliases": ["Corn.", "Cornwall."],
+    "role": "antagonist",
+    "description": "The Duke of Cornwall, Regan's husband and the play's most openly brutal villain. He sets Kent in the stocks and, in the play's cruelest scene, gouges out Gloucester's eyes — but is fatally wounded by one of his own servants who can bear no more.",
+    "relationships": [
+      { "other_id": "regan", "relation": "husband of" },
+      { "other_id": "albany", "relation": "fellow duke" },
+      { "other_id": "gloucester", "relation": "blinds" }
+    ],
+    "color": "#8a4a3a"
+  },
+  {
+    "id": "oswald",
+    "name": "Oswald",
+    "aliases": ["Osw."],
+    "role": "supporting",
+    "description": "Goneril's steward, a vain, servile courtier who does his mistress's dirty work. Contemptuous of the fallen Lear and an enemy of the disguised Kent, he is killed by Edgar while trying to murder the blind Gloucester, and dies carrying Goneril's incriminating letter to Edmund.",
+    "relationships": [
+      { "other_id": "goneril", "relation": "steward of" },
+      { "other_id": "kent", "relation": "enemy of" }
+    ],
+    "color": "#9a8a4a"
+  },
+  {
+    "id": "france",
+    "name": "King of France",
+    "aliases": ["France."],
+    "role": "minor",
+    "description": "The King of France, who, when Cordelia is disinherited and rejected by Burgundy, marries her without a dowry for her own worth — 'thou art most rich, being poor.' He later sends the army with which she returns to rescue Lear.",
+    "relationships": [
+      { "other_id": "cordelia", "relation": "husband of" }
+    ],
+    "color": "#4a6aa0"
+  },
+  {
+    "id": "burgundy",
+    "name": "Duke of Burgundy",
+    "aliases": ["Bur."],
+    "role": "minor",
+    "description": "A suitor for Cordelia's hand who withdraws his offer the moment Lear strips her of her dowry, exposing the conditional nature of his 'love' — 'Peace be with Burgundy! / Since that respects of fortune are his love, / I shall not be his wife.'",
+    "relationships": [
+      { "other_id": "cordelia", "relation": "rejected suitor of" }
+    ],
+    "color": "#7a6a4a"
+  },
+  {
+    "id": "gentleman",
+    "name": "Gentleman",
+    "aliases": ["Gent."],
+    "role": "minor",
+    "description": "A speech-prefix shared by several unnamed gentlemen and courtiers: the knight who reports to Kent in the storm (3.1), the gentleman attending on Cordelia who describes her grief (4.3), and others who carry news through the play.",
+    "color": "#6a8a7a"
+  },
+  {
+    "id": "knight",
+    "name": "Knight",
+    "aliases": ["Knight."],
+    "role": "minor",
+    "description": "One of the hundred knights of Lear's retinue, who in 1.4 notices the cold neglect Goneril's household now shows the king.",
+    "relationships": [
+      { "other_id": "lear", "relation": "follower of" }
+    ],
+    "color": "#6a7a8a"
+  },
+  {
+    "id": "curan",
+    "name": "Curan",
+    "aliases": ["Cur."],
+    "role": "minor",
+    "description": "A courtier who, in 2.1, brings Edmund word of rumored war between Cornwall and Albany and of Regan and Cornwall's expected arrival, helping Edmund time his plot against Edgar.",
+    "color": "#8a7a6a"
+  },
+  {
+    "id": "old_man",
+    "name": "Old Man",
+    "aliases": ["Old Man."],
+    "role": "minor",
+    "description": "An aged tenant of Gloucester's who leads the newly blinded earl, grieving that he has served Gloucester and his father for eighty years, before Edgar takes over guiding him.",
+    "relationships": [
+      { "other_id": "gloucester", "relation": "tenant of" }
+    ],
+    "color": "#7a7a7a"
+  },
+  {
+    "id": "physician",
+    "name": "Doctor",
+    "aliases": ["Phys.", "Doct."],
+    "role": "minor",
+    "description": "The physician who attends the rescued Lear in the French camp, prescribing rest and the music that accompanies his waking, and judging his madness curable: 'the great rage / ... is kill'd in him.'",
+    "relationships": [
+      { "other_id": "cordelia", "relation": "serves" }
+    ],
+    "color": "#5a8a8a"
+  },
+  {
+    "id": "messenger",
+    "name": "Messenger",
+    "aliases": ["Mess."],
+    "role": "minor",
+    "description": "Various messengers who carry letters and report events, including the news of Cornwall's death and of the advancing armies."
+  },
+  {
+    "id": "captain",
+    "name": "Captain",
+    "aliases": ["Capt."],
+    "role": "minor",
+    "description": "The officer Edmund suborns in 5.3 with a written order to hang the captured Cordelia in prison and report it as suicide — 'know thou this, that men / Are as the time is.'",
+    "relationships": [
+      { "other_id": "edmund", "relation": "hired by" }
+    ]
+  },
+  {
+    "id": "officer",
+    "name": "Officer",
+    "aliases": ["Off.", "Officer."],
+    "role": "minor",
+    "description": "An officer of the British forces in Act 5, attending on Edmund and Albany."
+  },
+  {
+    "id": "first_servant",
+    "name": "First Servant",
+    "aliases": ["First Serv."],
+    "role": "minor",
+    "description": "Cornwall's servant who, unable to watch the blinding of Gloucester, draws his sword against his master and mortally wounds him before being killed from behind by Regan."
+  },
+  {
+    "id": "second_servant",
+    "name": "Second Servant",
+    "aliases": ["Second Serv."],
+    "role": "minor",
+    "description": "One of Cornwall's servants who, after the blinding, resolves to help the maimed Gloucester and fetch Poor Tom to lead him."
+  },
+  {
+    "id": "third_servant",
+    "name": "Third Servant",
+    "aliases": ["Third Serv."],
+    "role": "minor",
+    "description": "Another of Cornwall's servants who joins in tending the blinded Gloucester after their master's cruelty."
+  },
+  {
+    "id": "albany_and_cornwall",
+    "name": "Albany and Cornwall",
+    "aliases": ["Alb. and Corn."],
+    "role": "ensemble",
+    "description": "Speech-prefix for the two dukes speaking together in 1.1, urging the enraged Lear to forbear as he reaches for his sword against Kent."
+  }
+]

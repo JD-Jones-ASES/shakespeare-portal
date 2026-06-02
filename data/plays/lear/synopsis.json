@@ -1,0 +1,62 @@
+{
+  "play": "lear",
+  "overview": "Aging and wanting to 'shake all cares and business' from himself, King Lear stages a public love-test, dividing Britain among his daughters by who professes to love him most. The two elder, Goneril and Regan, flatter him and are rewarded; the youngest, Cordelia, refuses to flatter and is disinherited and banished, married dowerless by the King of France. Kent, who defends her, is banished too. Once Lear has given everything away, his elder daughters strip him of his knights, his dignity, and finally his shelter, and he is driven into a raging storm, where his wits give way. A mirroring plot unfolds in the house of the Earl of Gloucester, whose cunning bastard son Edmund turns him against his loyal son Edgar; Edgar flees disguised as the mad beggar Poor Tom, and Gloucester, betrayed by Edmund and accused of helping Lear, has his eyes torn out on stage. Blind and despairing, he is secretly led by the disguised Edgar; mad and humbled, Lear is rescued by Cordelia's invading French army and reconciled with her. But the rescue fails: the army is defeated, Cordelia is captured and hanged on Edmund's order, and Lear dies of grief over her body. Shakespeare's bleakest and most cosmic tragedy strips a king to 'unaccommodated man' and asks, without answering, whether the heavens are just, indifferent, or empty.",
+  "acts": [
+    {
+      "number": 1,
+      "summary": "King Lear divides his kingdom by a love-test, rewarding the flattery of Goneril and Regan and disinheriting the honest Cordelia, who is married by France and taken away; Kent is banished for defending her. Meanwhile Edmund, Gloucester's bastard, forges evidence to turn his father against his legitimate brother Edgar, and the elder sisters begin to humiliate the father who gave them everything.",
+      "scenes": [
+        { "number": 1, "summary": "Lear stages a public contest of love to apportion Britain. Goneril and Regan lay on extravagant flattery; Cordelia will say only that she loves him 'according to my bond.' Enraged, Lear disinherits and banishes her, and banishes Kent for protesting. Burgundy drops his suit when her dowry vanishes, but France marries her for herself. The elder sisters confer about controlling their unpredictable father.", "themes": ["family", "kingship", "flattery", "love"] },
+        { "number": 2, "summary": "Edmund declares himself a servant of 'Nature' and resentful of his bastardy, and gulls his father Gloucester with a forged letter that paints Edgar as plotting parricide. Gloucester blames the disorder on recent eclipses; Edmund privately scorns such astrology as an excuse for human vice.", "themes": ["bastardy", "deception", "nature", "astrology"] },
+        { "number": 3, "summary": "Goneril, tired of Lear and his hundred knights, instructs her steward Oswald to treat the king and his followers with studied coldness to provoke a confrontation.", "themes": ["ingratitude", "family", "authority"] },
+        { "number": 4, "summary": "The banished Kent, disguised, enters Lear's service. The Fool needles Lear with bitter truths about giving his kingdom away. Goneril demands he halve his retinue; Lear, raging, curses her with sterility and storms off to Regan, beginning to fear for his own sanity.", "themes": ["ingratitude", "folly", "madness", "family"] },
+        { "number": 5, "summary": "Lear sends Kent ahead with letters to Regan. The Fool warns him that Regan will prove no kinder, and Lear, shaken, prays: 'O, let me not be mad, not mad, sweet heaven!'", "themes": ["madness", "folly", "anxiety"] }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "Edmund completes his frame-up, driving Edgar to flee and disguise himself as the mad beggar Poor Tom, while Cornwall takes Edmund into favor. Kent is shamefully set in the stocks, and when Lear arrives he finds his daughters united against him: they bargain his knights down to none, and he rushes out into a rising storm rather than submit.",
+      "scenes": [
+        { "number": 1, "summary": "Warned by Edmund of (invented) danger, Edgar flees; Edmund wounds himself to fake a struggle and convinces Gloucester that Edgar tried to kill him. Cornwall and Regan arrive, praise Edmund's 'loyalty,' and take him into their service.", "themes": ["deception", "betrayal", "family"] },
+        { "number": 2, "summary": "Kent picks a quarrel with the smug Oswald outside Gloucester's castle and beats him. Cornwall, to insult Lear through his messenger, claps the king's man Kent in the stocks despite Gloucester's protest.", "themes": ["honor", "authority", "cruelty"] },
+        { "number": 3, "summary": "Edgar, hunted, resolves to survive by taking 'the basest and most poorest shape' — Poor Tom, a near-naked Bedlam beggar who mortifies his flesh and babbles of devils.", "themes": ["disguise", "survival", "madness"] },
+        { "number": 4, "summary": "Lear, humiliated to find his man in the stocks, confronts Regan and Goneril, who coldly compete to reduce his train — 'What need one?' Stripped of all attendance and dignity, Lear, half-mad with grief and rage, rushes out into the gathering storm.", "themes": ["ingratitude", "need", "madness", "family"] }
+      ]
+    },
+    {
+      "number": 3,
+      "summary": "Lear rages bare-headed in the storm, his reason cracking, attended only by the Fool and the disguised Kent, and meets Edgar as Poor Tom. Edmund betrays his father's secret loyalty to Lear, and Cornwall and Regan punish Gloucester by tearing out his eyes on stage — a cruelty that costs Cornwall his life at the hands of a horrified servant.",
+      "scenes": [
+        { "number": 1, "summary": "In the storm, Kent finds a Gentleman and learns of division between Albany and Cornwall and of a French force landing; he sends word and a token to Cordelia.", "themes": ["loyalty", "war", "intrigue"] },
+        { "number": 2, "summary": "Lear defies the tempest — 'Blow, winds, and crack your cheeks!' — calling on it to flatten an ungrateful world, while the Fool begs him to seek shelter and Kent leads him toward a hovel.", "themes": ["madness", "nature", "suffering"] },
+        { "number": 3, "summary": "Gloucester secretly tells Edmund of a letter about the French invasion and his intention to relieve Lear. Edmund resolves to betray this at once to Cornwall: 'The younger rises when the old doth fall.'", "themes": ["betrayal", "loyalty", "ambition"] },
+        { "number": 4, "summary": "At the hovel, Lear meets Poor Tom and, seeing the near-naked beggar, sees 'unaccommodated man' — 'the thing itself' — and tears at his own clothes. His pity for the poor and his madness deepen together.", "themes": ["madness", "suffering", "nature", "compassion"] },
+        { "number": 5, "summary": "Edmund hands Cornwall the incriminating letter and denounces his father as a traitor; Cornwall makes him Earl of Gloucester and sends him out of the way of what is to come.", "themes": ["betrayal", "ambition"] },
+        { "number": 6, "summary": "Sheltering in a farmhouse, the mad Lear holds an imaginary trial of his daughters, arraigning joint-stools as Goneril and Regan. Gloucester returns to warn that there is a plot on Lear's life and that he must be carried toward Dover.", "themes": ["madness", "justice", "loyalty"] },
+        { "number": 7, "summary": "Cornwall and Regan seize Gloucester, and in the play's cruelest scene gouge out his eyes — 'Out, vile jelly!' One of Cornwall's own servants, sickened, wounds him mortally before being killed; the blinded Gloucester learns it was Edmund who betrayed him.", "themes": ["cruelty", "mutilation", "betrayal"] }
+      ]
+    },
+    {
+      "number": 4,
+      "summary": "The blind Gloucester, led unknowingly by his disguised son Edgar, is talked back from suicide at Dover. Albany recoils from Goneril's monstrousness, Cornwall's death unsettles the sisters' rivalry over Edmund, and Cordelia lands with a French army to seek her father. Lear, found mad and crowned with weeds, is healed by sleep and reconciled with the daughter he wronged.",
+      "scenes": [
+        { "number": 1, "summary": "The blinded Gloucester, led by an old tenant and then by Poor Tom (his own unrecognized son Edgar), bitterly concludes 'As flies to wanton boys are we to the gods,' and asks to be led to the cliff at Dover to end his life.", "themes": ["despair", "suffering", "fate"] },
+        { "number": 2, "summary": "Albany, disgusted by Goneril's cruelty, denounces her — 'Tigers, not daughters' — as news arrives that Cornwall is dead of his servant's wound. Goneril, already drawn to Edmund, fears her widowed sister as a rival.", "themes": ["betrayal", "justice", "marriage"] },
+        { "number": 3, "summary": "Kent and a Gentleman speak of Cordelia's tender grief on reading of her father's sufferings — she shook 'the holy water from her heavenly eyes' — and of Lear's shame that keeps him from seeing her. (This scene appears only in the Quarto text.)", "themes": ["grief", "love", "shame"] },
+        { "number": 4, "summary": "Cordelia, in the French camp, sends soldiers to find her father, who has been seen crowned with wild weeds and singing, and asks the attending Doctor whether his wits can be restored.", "themes": ["love", "healing", "madness"] },
+        { "number": 5, "summary": "Regan presses Oswald about the letters he carries between Goneril and Edmund, betraying her own jealous designs on Edmund now that she is a widow.", "themes": ["jealousy", "intrigue"] },
+        { "number": 6, "summary": "At imagined 'Dover cliff,' Edgar persuades the blind Gloucester he has fallen and miraculously survived, pulling him back from despair. The mad Lear wanders in, raving with terrible insight about justice and authority. Oswald tries to kill Gloucester and is slain by Edgar, who finds on him Goneril's letter plotting Albany's murder.", "themes": ["despair", "madness", "justice"] },
+        { "number": 7, "summary": "Lear wakes to soft music in Cordelia's care, slowly recognizing her and confessing himself 'a very foolish fond old man.' He kneels; she forgives; the long-broken bond is mended.", "themes": ["reconciliation", "love", "recognition"] }
+      ]
+    },
+    {
+      "number": 5,
+      "summary": "The British forces defeat the French; Lear and Cordelia are captured. As the sisters' rivalry over Edmund destroys them both and Edgar at last unmasks and kills his brother in single combat, Edmund's order to hang Cordelia is revoked too late. Lear enters carrying her body, and dies of grief, leaving the survivors to govern a devastated kingdom.",
+      "scenes": [
+        { "number": 1, "summary": "In the British camp the sisters jealously circle Edmund. The disguised Edgar slips Albany the letter proving Goneril's treachery and promises a champion if Albany will sound a trumpet before the battle.", "themes": ["war", "intrigue", "jealousy"] },
+        { "number": 2, "summary": "The battle passes; the French lose, and Lear and Cordelia are taken prisoner. Edgar shields his despairing father with hard comfort: 'Men must endure / Their going hence even as their coming hither: / Ripeness is all.'", "themes": ["war", "fate", "endurance"] },
+        { "number": 3, "summary": "Edmund secretly sends Lear and Cordelia to be hanged. Edgar appears armored, defeats Edmund in trial by combat, and reveals himself. Goneril, exposed, poisons Regan and kills herself; the dying Edmund repents and tries to countermand the order, but too late. Lear enters howling, the hanged Cordelia in his arms — 'Never, never, never, never, never' — and dies over her body, leaving Albany, Kent, and Edgar to carry 'the gored state.'", "themes": ["death", "justice", "grief", "trial_by_combat"] }
+      ]
+    }
+  ]
+}

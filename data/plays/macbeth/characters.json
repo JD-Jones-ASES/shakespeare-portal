@@ -1,0 +1,372 @@
+[
+  {
+    "id": "macbeth",
+    "name": "Macbeth",
+    "aliases": ["MACBETH."],
+    "role": "protagonist",
+    "description": "A Scottish general and Thane of Glamis, kinsman to King Duncan. Hailed by three witches as future king, and goaded by his wife, he murders Duncan in his own castle and seizes the throne, then kills again and again to secure it. Brave but morally undone, he hardens into a tyrant as guilt, paranoia, and the witches' equivocal prophecies drive him to ruin.",
+    "relationships": [
+      { "other_id": "lady_macbeth", "relation": "husband of" },
+      { "other_id": "duncan", "relation": "kinsman and murderer of" },
+      { "other_id": "banquo", "relation": "fellow general, then murderer of" },
+      { "other_id": "macduff", "relation": "antagonist of; slain by" }
+    ],
+    "color": "#b23a48"
+  },
+  {
+    "id": "lady_macbeth",
+    "name": "Lady Macbeth",
+    "aliases": ["LADY MACBETH."],
+    "role": "deuteragonist",
+    "description": "Macbeth's wife, fiercely ambitious and, at first, the more ruthless of the two. She calls on spirits to 'unsex' her, shames her husband into killing Duncan, and steadies him afterward. But guilt corrodes her: she sleepwalks, compulsively washing imagined blood from her hands, and dies, apparently by her own hand, before the play ends.",
+    "relationships": [
+      { "other_id": "macbeth", "relation": "wife of" }
+    ],
+    "color": "#9b3b6a"
+  },
+  {
+    "id": "banquo",
+    "name": "Banquo",
+    "aliases": ["BANQUO."],
+    "role": "major",
+    "description": "A Scottish general who hears the witches with Macbeth: they promise that Banquo, though never king himself, will father a line of kings. Honorable where Macbeth is corruptible, he is murdered on Macbeth's order, but his son Fleance escapes. His Ghost returns silently to haunt Macbeth at the banquet (3.4). The historical Banquo was claimed as ancestor of the Stuart kings.",
+    "relationships": [
+      { "other_id": "macbeth", "relation": "fellow general, murdered by" },
+      { "other_id": "fleance", "relation": "father of" }
+    ],
+    "color": "#3f6fb0"
+  },
+  {
+    "id": "macduff",
+    "name": "Macduff",
+    "aliases": ["MACDUFF."],
+    "role": "major",
+    "description": "Thane of Fife, a Scottish nobleman who distrusts Macbeth and flees to England to join Malcolm. In his absence Macbeth has his wife and children slaughtered. 'Not of woman born' but delivered by caesarean section, Macduff is the man the prophecy did not protect Macbeth against: he kills the tyrant in single combat.",
+    "relationships": [
+      { "other_id": "macbeth", "relation": "enemy of; kills" },
+      { "other_id": "lady_macduff", "relation": "husband of" },
+      { "other_id": "malcolm", "relation": "ally of" }
+    ],
+    "color": "#2e8b57"
+  },
+  {
+    "id": "duncan",
+    "name": "Duncan",
+    "aliases": ["DUNCAN."],
+    "role": "supporting",
+    "description": "The gracious and trusting King of Scotland, who rewards Macbeth's battlefield valor with the title Thane of Cawdor. He is Macbeth's guest and kinsman when Macbeth murders him in his sleep, an act the play frames as the gravest violation of hospitality, kinship, and divinely ordained kingship.",
+    "relationships": [
+      { "other_id": "malcolm", "relation": "father of" },
+      { "other_id": "donalbain", "relation": "father of" },
+      { "other_id": "macbeth", "relation": "murdered by" }
+    ],
+    "color": "#c69a2d"
+  },
+  {
+    "id": "malcolm",
+    "name": "Malcolm",
+    "aliases": ["MALCOLM."],
+    "role": "major",
+    "description": "Duncan's elder son and named heir (Prince of Cumberland). He flees to England after his father's murder, raises an army with Macduff and the English king, and tests Macduff's loyalty by feigning monstrous vices. He leads the force that hides behind Birnam boughs and is hailed King of Scotland at the play's close.",
+    "relationships": [
+      { "other_id": "duncan", "relation": "son and heir of" },
+      { "other_id": "donalbain", "relation": "brother of" },
+      { "other_id": "macduff", "relation": "ally of" }
+    ],
+    "color": "#2a9d8f"
+  },
+  {
+    "id": "donalbain",
+    "name": "Donalbain",
+    "aliases": ["DONALBAIN."],
+    "role": "minor",
+    "description": "Duncan's younger son. Sensing danger after his father's murder, he flees to Ireland while his brother Malcolm flees to England, the brothers parting so that 'where we are there's daggers in men's smiles.'",
+    "relationships": [
+      { "other_id": "duncan", "relation": "son of" },
+      { "other_id": "malcolm", "relation": "brother of" }
+    ],
+    "color": "#4db8aa"
+  },
+  {
+    "id": "fleance",
+    "name": "Fleance",
+    "aliases": ["FLEANCE."],
+    "role": "minor",
+    "description": "Banquo's young son, who escapes the murderers sent to kill him and his father. His survival keeps alive the witches' promise that Banquo's descendants will reign, the line that Shakespeare's audience identified with the Stuart dynasty of King James I.",
+    "relationships": [
+      { "other_id": "banquo", "relation": "son of" }
+    ],
+    "color": "#6a93c4"
+  },
+  {
+    "id": "first_witch",
+    "name": "First Witch",
+    "aliases": ["FIRST WITCH."],
+    "role": "supporting",
+    "description": "One of the three 'weird sisters' (from Old English 'wyrd', fate) who meet Macbeth on the heath and prophesy his rise. Bearded, equivocal, and uncanny, the witches embody the witchcraft beliefs Shakespeare's audience took seriously and King James I wrote about in his 'Daemonologie'.",
+    "color": "#7d6b9e"
+  },
+  {
+    "id": "second_witch",
+    "name": "Second Witch",
+    "aliases": ["SECOND WITCH."],
+    "role": "supporting",
+    "description": "The second of the three weird sisters, who senses by 'the pricking of my thumbs' that 'something wicked this way comes.' With her sisters she conjures the apparitions whose ambiguous prophecies lure Macbeth to his destruction.",
+    "color": "#6b7d9e"
+  },
+  {
+    "id": "third_witch",
+    "name": "Third Witch",
+    "aliases": ["THIRD WITCH."],
+    "role": "supporting",
+    "description": "The third weird sister. With her sisters she greets Macbeth with the titles Thane of Glamis, Thane of Cawdor, and 'king hereafter,' setting the tragedy in motion.",
+    "color": "#9e6b8d"
+  },
+  {
+    "id": "hecate",
+    "name": "Hecate",
+    "aliases": ["HECATE."],
+    "role": "minor",
+    "description": "The classical goddess of witchcraft, moon, and the underworld, here the mistress of the three witches, whom she chides for trafficking with Macbeth without her. Her two scenes (3.5 and part of 4.1), with their songs, are widely judged to be later interpolations by Thomas Middleton rather than Shakespeare's own.",
+    "color": "#5e4b8b"
+  },
+  {
+    "id": "lady_macduff",
+    "name": "Lady Macduff",
+    "aliases": ["LADY MACDUFF."],
+    "role": "supporting",
+    "description": "Macduff's wife, abandoned at the castle of Fife when her husband flees to England. Bitter at being left undefended, she is murdered along with her children on Macbeth's order, an atrocity the play stages to mark how far the tyrant has fallen.",
+    "relationships": [
+      { "other_id": "macduff", "relation": "wife of" },
+      { "other_id": "son", "relation": "mother of" }
+    ],
+    "color": "#5aa97a"
+  },
+  {
+    "id": "son",
+    "name": "Macduff's Son",
+    "aliases": ["SON."],
+    "role": "minor",
+    "description": "Macduff's young son (the 'Boy' of the cast list). Precociously sharp in his exchange with his mother about traitors and honest men, he is stabbed by Macbeth's murderers before her eyes, defending his absent father to the last.",
+    "relationships": [
+      { "other_id": "lady_macduff", "relation": "son of" },
+      { "other_id": "macduff", "relation": "son of" }
+    ],
+    "color": "#7fc4a0"
+  },
+  {
+    "id": "ross",
+    "name": "Ross",
+    "aliases": ["ROSS."],
+    "role": "supporting",
+    "description": "A Scottish nobleman (Thane of Ross) who carries news through the play: he brings Macbeth word of the Cawdor title, reports omens, and bears to Macduff in England the grief-stricken news of his family's slaughter.",
+    "color": "#b07a3f"
+  },
+  {
+    "id": "lennox",
+    "name": "Lennox",
+    "aliases": ["LENNOX."],
+    "role": "supporting",
+    "description": "A Scottish nobleman who attends Macbeth and gradually sees through him. His heavily ironic speech in 3.6 voices the thanes' growing suspicion that Macbeth, not the fled princes, is behind the murders.",
+    "color": "#a9883f"
+  },
+  {
+    "id": "menteith",
+    "name": "Menteith",
+    "aliases": ["MENTEITH."],
+    "role": "minor",
+    "description": "A Scottish nobleman who joins the rebel forces gathering against Macbeth near Dunsinane in Act 5.",
+    "color": "#8a7a4a"
+  },
+  {
+    "id": "angus",
+    "name": "Angus",
+    "aliases": ["ANGUS."],
+    "role": "minor",
+    "description": "A Scottish nobleman who, with Ross, first brings Macbeth the king's thanks, and later joins the revolt, observing that Macbeth now feels 'his title hang loose about him, like a giant's robe upon a dwarfish thief.'",
+    "color": "#7a6a4a"
+  },
+  {
+    "id": "caithness",
+    "name": "Caithness",
+    "aliases": ["CAITHNESS."],
+    "role": "minor",
+    "description": "A Scottish nobleman who joins the army marching on Dunsinane to overthrow Macbeth.",
+    "color": "#9a7a5a"
+  },
+  {
+    "id": "siward",
+    "name": "Siward",
+    "aliases": ["SIWARD."],
+    "role": "supporting",
+    "description": "Earl of Northumberland and general of the English forces that Malcolm and Macduff lead against Macbeth. A blunt old soldier, he receives the news of his son's death with stern stoicism: since the boy died facing his foe, 'why then, God's soldier be he.'",
+    "relationships": [
+      { "other_id": "young_siward", "relation": "father of" }
+    ],
+    "color": "#4a6a8a"
+  },
+  {
+    "id": "young_siward",
+    "name": "Young Siward",
+    "aliases": ["YOUNG SIWARD."],
+    "role": "minor",
+    "description": "Siward's son, an English soldier who confronts Macbeth in the final battle and is killed by him, dying 'like a man.'",
+    "relationships": [
+      { "other_id": "siward", "relation": "son of" }
+    ],
+    "color": "#6a8aaa"
+  },
+  {
+    "id": "seyton",
+    "name": "Seyton",
+    "aliases": ["SEYTON."],
+    "role": "minor",
+    "description": "An officer attending on Macbeth in Act 5, who reports the queen's death and arms his master for the final battle. His name (homophone of 'Satan') is sometimes read as a grim pun.",
+    "color": "#6a6a6a"
+  },
+  {
+    "id": "porter",
+    "name": "Porter",
+    "aliases": ["PORTER."],
+    "role": "minor",
+    "description": "The drunken gatekeeper of Macbeth's castle, who imagines himself the porter of hell-gate in a bawdy comic monologue (2.3) immediately after Duncan's murder. His riff on the 'equivocator' alludes to the Gunpowder Plot trials of 1606.",
+    "color": "#8a6a4a"
+  },
+  {
+    "id": "old_man",
+    "name": "Old Man",
+    "aliases": ["OLD MAN."],
+    "role": "minor",
+    "description": "An aged Scotsman who, in 2.4, exchanges reports of the unnatural portents accompanying Duncan's murder, an eclipse, a falcon killed by an owl, Duncan's horses eating each other, marking how the regicide has disordered nature itself.",
+    "color": "#7a7a7a"
+  },
+  {
+    "id": "doctor",
+    "name": "Doctor",
+    "aliases": ["DOCTOR."],
+    "role": "minor",
+    "description": "Two unnamed physicians share this speech-prefix. The English Doctor (4.3) briefly describes King Edward the Confessor curing scrofula by his royal touch (the 'King's Evil'). The Scottish Doctor of Physic (5.1, 5.3) observes Lady Macbeth sleepwalking and concludes her disease is beyond his art: 'more needs she the divine than the physician.'",
+    "color": "#5a8a8a"
+  },
+  {
+    "id": "gentlewoman",
+    "name": "Gentlewoman",
+    "aliases": ["GENTLEWOMAN."],
+    "role": "minor",
+    "description": "Lady Macbeth's waiting-woman, who in 5.1 has watched her mistress rise and sleepwalk, and summons the Doctor to witness it, but will not repeat the incriminating words she has heard.",
+    "color": "#8a7a8a"
+  },
+  {
+    "id": "soldier",
+    "name": "Soldier",
+    "aliases": ["SOLDIER."],
+    "role": "minor",
+    "description": "A wounded sergeant (the 'bloody man' of 1.2) who reports to Duncan how Macbeth and Banquo turned the battle against the rebel Macdonwald and the Norwegian invaders, introducing Macbeth as a hero before we meet him.",
+    "color": "#8a5a4a"
+  },
+  {
+    "id": "first_murderer",
+    "name": "First Murderer",
+    "aliases": ["FIRST MURDERER."],
+    "role": "minor",
+    "description": "The leader of the hired killers Macbeth sets on Banquo and Fleance (3.1, 3.3). He reports back to Macbeth that Banquo is dead but Fleance has escaped.",
+    "color": "#7a4a4a"
+  },
+  {
+    "id": "second_murderer",
+    "name": "Second Murderer",
+    "aliases": ["SECOND MURDERER."],
+    "role": "minor",
+    "description": "The second of the assassins hired to kill Banquo and Fleance.",
+    "color": "#8a5a5a"
+  },
+  {
+    "id": "third_murderer",
+    "name": "Third Murderer",
+    "aliases": ["THIRD MURDERER."],
+    "role": "minor",
+    "description": "A third killer who joins the ambush of Banquo in 3.3, unexpected by the other two, his identity an old textual puzzle.",
+    "color": "#9a6a6a"
+  },
+  {
+    "id": "murderer",
+    "name": "Murderer",
+    "aliases": ["MURDERER."],
+    "role": "minor",
+    "description": "An unnumbered murderer; the prefix covers the killers Macbeth sends to slaughter Lady Macduff and her children in their castle (4.2).",
+    "color": "#6a4a4a"
+  },
+  {
+    "id": "both_murderers",
+    "name": "Both Murderers",
+    "aliases": ["BOTH MURDERERS."],
+    "role": "ensemble",
+    "description": "Speech-prefix for the first and second murderers speaking in unison as they take Macbeth's commission against Banquo."
+  },
+  {
+    "id": "apparition",
+    "name": "Apparition",
+    "aliases": ["APPARITION.", "APPARITION.--"],
+    "role": "minor",
+    "description": "The three spirits the witches conjure for Macbeth in 4.1: an armed Head ('beware Macduff'), a bloody Child ('none of woman born / shall harm Macbeth'), and a crowned Child with a tree ('Macbeth shall never vanquish'd be until / Great Birnam wood to high Dunsinane hill / shall come against him'). Each prophecy is true but equivocal.",
+    "color": "#7a6e9e"
+  },
+  {
+    "id": "song",
+    "name": "Song",
+    "aliases": ["Song."],
+    "role": "ensemble",
+    "description": "Cue label for the witches' song 'Black spirits' (4.1), one of two song cues (with 'Come away' in 3.5) belonging to the Hecate scenes that scholars generally attribute to Thomas Middleton rather than Shakespeare.",
+    "color": "#6e5e8b"
+  },
+  {
+    "id": "lord",
+    "name": "Lord",
+    "aliases": ["LORD."],
+    "role": "minor",
+    "description": "A Scottish lord who, in 3.6, trades guarded news with Lennox about Macduff's flight to England and the gathering of forces against Macbeth.",
+    "color": "#7a7a5a"
+  },
+  {
+    "id": "lords",
+    "name": "Lords",
+    "aliases": ["LORDS."],
+    "role": "ensemble",
+    "description": "The assembled thanes and nobles attending Macbeth, chiefly at the banquet in 3.4."
+  },
+  {
+    "id": "servant",
+    "name": "Servant",
+    "aliases": ["SERVANT."],
+    "role": "minor",
+    "description": "Various attendants and serving-men who carry messages and announce arrivals through the play."
+  },
+  {
+    "id": "attendant",
+    "name": "Attendant",
+    "aliases": ["ATTENDANT."],
+    "role": "minor",
+    "description": "An attendant who waits on Macbeth and admits visitors."
+  },
+  {
+    "id": "messenger",
+    "name": "Messenger",
+    "aliases": ["MESSENGER."],
+    "role": "minor",
+    "description": "Various messengers who bring news, including the warning to Lady Macduff that comes too late and the report that Birnam wood appears to be moving toward Dunsinane."
+  },
+  {
+    "id": "soldiers",
+    "name": "Soldiers",
+    "aliases": ["SOLDIERS."],
+    "role": "ensemble",
+    "description": "The English and Scottish soldiers of the army that marches on Dunsinane in Act 5."
+  },
+  {
+    "id": "all",
+    "name": "All",
+    "aliases": ["ALL."],
+    "role": "ensemble",
+    "description": "Speech-prefix for characters speaking in unison, most memorably the three witches chanting together ('Fair is foul, and foul is fair'; the 'Double, double, toil and trouble' refrain)."
+  }
+]

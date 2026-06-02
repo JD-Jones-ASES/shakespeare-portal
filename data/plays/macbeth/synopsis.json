@@ -1,0 +1,62 @@
+{
+  "play": "macbeth",
+  "overview": "Returning victorious from battle, the Scottish general Macbeth meets three witches who hail him as Thane of Cawdor and 'king hereafter,' and promise his comrade Banquo a line of kings. When the first prophecy comes true within hours, ambition takes hold; goaded by his wife, Macbeth murders the gracious King Duncan in his own castle and seizes the throne. One crime breeds another — he has Banquo killed, though Banquo's son Fleance escapes, and slaughters the family of the suspicious Macduff — while guilt corrodes them both: Macbeth is haunted by Banquo's ghost, and Lady Macbeth, sleepwalking, cannot wash imagined blood from her hands. A second visit to the witches lulls him with equivocal promises — that none 'of woman born' can harm him, and that he is safe until Birnam Wood comes to Dunsinane. Both come true in ways he never foresaw: an army hidden behind Birnam boughs marches on his castle, his wife dies, and Macduff — 'from his mother's womb / Untimely ripp'd' — kills him and restores Duncan's son Malcolm to the throne. Shakespeare's shortest and darkest tragedy, written around 1606 for a king who claimed descent from Banquo, is a tight study of ambition, conscience, and the way a single murder unmakes a soul and a kingdom.",
+  "acts": [
+    {
+      "number": 1,
+      "summary": "Three witches meet Macbeth and Banquo on the heath and prophesy that Macbeth will be king and Banquo the father of kings. When part of the prophecy comes instantly true, Macbeth writes to his wife; she resolves that King Duncan, coming as their guest that very night, must die, and overrides her husband's doubts.",
+      "scenes": [
+        { "number": 1, "summary": "Three witches meet in thunder and lightning, agree to meet Macbeth 'upon the heath,' and chant their keynote paradox: 'Fair is foul, and foul is fair.'", "themes": ["prophecy", "fate", "appearance_vs_reality", "evil"] },
+        { "number": 2, "summary": "A wounded sergeant and then Ross report to King Duncan how Macbeth and Banquo crushed the rebel Macdonwald and the invading Norwegians. Duncan orders the treacherous Thane of Cawdor executed and gives his title to Macbeth.", "themes": ["war", "loyalty", "kingship", "treason"] },
+        { "number": 3, "summary": "The witches greet Macbeth as Thane of Glamis, Thane of Cawdor, and 'king hereafter,' and tell Banquo he will father kings though never reign himself. When Ross arrives confirming the Cawdor title, Macbeth's thoughts leap at once to murder.", "themes": ["prophecy", "fate", "ambition", "temptation"] },
+        { "number": 4, "summary": "Duncan thanks Macbeth and Banquo for their service, then names his son Malcolm heir to the throne (Prince of Cumberland). Macbeth marks the prince as 'a step / On which I must fall down, or else o'erleap.'", "themes": ["kingship", "ambition", "loyalty", "succession"] },
+        { "number": 5, "summary": "Lady Macbeth reads her husband's letter about the prophecy, fears he is 'too full o' the milk of human kindness,' and calls on spirits to 'unsex' her and fill her with cruelty. Learning Duncan will sleep under their roof, she resolves on his murder.", "themes": ["ambition", "gender", "evil", "persuasion"] },
+        { "number": 6, "summary": "Duncan arrives at Macbeth's castle of Inverness, praising its 'pleasant seat' and sweet air, while Lady Macbeth receives him with elaborate courtesy — a scene heavy with dramatic irony.", "themes": ["appearance_vs_reality", "hospitality", "deception"] },
+        { "number": 7, "summary": "Alone, Macbeth weighs the deed and nearly draws back — Duncan is his kinsman, his guest, and a good king. Lady Macbeth shames his manhood, lays out her plan to drug the grooms and frame them, and steels him to the murder.", "themes": ["ambition", "conscience", "gender", "persuasion"] }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "Macbeth murders Duncan in the night and, unnerved, botches the staging; the drunken Porter's clowning gives way to the discovery of the body, and Duncan's sons flee abroad, drawing suspicion onto themselves. Outside, omens of disordered nature attend the crime, and Macbeth goes to be crowned at Scone.",
+      "scenes": [
+        { "number": 1, "summary": "This long scene runs the heart of the tragedy together (the standard 2.1-2.3). Macbeth sees a phantom dagger and, at the bell, murders the sleeping Duncan, returning horror-struck — 'Macbeth does murder sleep.' Knocking drives a drunken Porter to play the gate of hell; Macduff and Lennox arrive, discover the body, and Macbeth kills the grooms. Sensing daggers in men's smiles, Malcolm and Donalbain flee to England and Ireland.", "themes": ["murder", "regicide", "guilt", "conscience"] },
+        { "number": 2, "summary": "Ross and an Old Man trade reports of unnatural portents — darkness at noon, an owl killing a falcon, Duncan's horses devouring each other. Macduff brings word that the king's sons are suspected of bribing the murderers, and that Macbeth has gone to Scone to be crowned.", "themes": ["nature", "kingship", "appearance_vs_reality", "order"] }
+      ]
+    },
+    {
+      "number": 3,
+      "summary": "Now king, Macbeth turns on Banquo, whose promised royal line threatens him, and has him murdered — but Fleance escapes. Banquo's ghost shatters the coronation banquet, and Macbeth resolves to return to the witches, while the thanes begin to murmur of tyranny and Macduff slips away to England.",
+      "scenes": [
+        { "number": 1, "summary": "Fearing the prophecy that Banquo's heirs will reign, Macbeth probes Banquo's movements, then hires two murderers and works them up to kill Banquo and his son Fleance that night.", "themes": ["ambition", "fear", "prophecy", "murder"] },
+        { "number": 2, "summary": "Macbeth and his wife are both gnawed by insecurity — 'we have scotch'd the snake, not kill'd it.' He hints darkly at 'a deed of dreadful note' to come but keeps her 'innocent of the knowledge.'", "themes": ["guilt", "ambition", "secrecy", "fear"] },
+        { "number": 3, "summary": "The two murderers, joined by a mysterious third, ambush Banquo and Fleance. They kill Banquo, but Fleance escapes into the dark — leaving the royal line of the prophecy alive.", "themes": ["murder", "fate", "prophecy"] },
+        { "number": 4, "summary": "At the state banquet, the Ghost of Banquo, visible only to Macbeth, takes his seat; Macbeth raves at it while Lady Macbeth strains to cover for him, then hurries the guests away. Shaken, he resolves to seek out the witches.", "themes": ["guilt", "madness", "appearance_vs_reality", "conscience"] },
+        { "number": 5, "summary": "Hecate, goddess of witchcraft, scolds the three witches for dealing with Macbeth without her and plans to use illusions to lure him to his ruin. (The scene and its song are widely thought to be a later addition by Thomas Middleton.)", "themes": ["prophecy", "fate", "evil", "deception"] },
+        { "number": 6, "summary": "Lennox and another lord speak in heavy irony of Macbeth's 'tyrant' reign and the suspicious deaths. Macduff has fled to England to join Malcolm and the English king in raising an army against Macbeth.", "themes": ["tyranny", "politics", "resistance", "suspicion"] }
+      ]
+    },
+    {
+      "number": 4,
+      "summary": "The witches show Macbeth apparitions whose riddling promises make him feel invincible, capped by a vision of Banquo's royal descendants. Enraged that Macduff has fled, Macbeth has his wife and children butchered; in England, Macduff learns of the slaughter and joins Malcolm's invasion.",
+      "scenes": [
+        { "number": 1, "summary": "At the cauldron the witches conjure three apparitions: 'beware Macduff'; that 'none of woman born' shall harm Macbeth; and that he is safe till Birnam Wood comes to Dunsinane. A show of eight kings (Banquo's line) follows. Macbeth resolves to seize Macduff's castle and kill his family.", "themes": ["prophecy", "fate", "equivocation", "ambition"] },
+        { "number": 2, "summary": "At Fife, the abandoned Lady Macduff bitterly questions her husband's flight in a tender, sharp exchange with her young son. Murderers burst in, kill the boy before her eyes, and pursue her as she flees.", "themes": ["violence", "infanticide", "loyalty", "tyranny"] },
+        { "number": 3, "summary": "In England, Malcolm tests Macduff's honesty by feigning monstrous vices before revealing his true virtue. An English Doctor tells of King Edward curing the 'King's Evil' by his touch. Ross arrives with the news that Macduff's wife and children are slaughtered; grief turns Macduff to vengeance, and the invasion is set.", "themes": ["loyalty", "kingship", "grief", "tyranny"] }
+      ]
+    },
+    {
+      "number": 5,
+      "summary": "Lady Macbeth, broken by guilt, sleepwalks and dies; Macbeth, deserted and clinging to the witches' promises, fortifies Dunsinane. Malcolm's army hides behind boughs cut from Birnam Wood, the prophecies turn against Macbeth, and Macduff — not born of woman in the ordinary way — kills him, restoring Malcolm to the throne.",
+      "scenes": [
+        { "number": 1, "summary": "A Doctor and Gentlewoman watch Lady Macbeth walk in her sleep, rubbing her hands to wash out a blood-spot that will not go — 'Out, damned spot!' — and muttering of the murders. The Doctor concludes her disease is beyond his cure: 'More needs she the divine than the physician.'", "themes": ["guilt", "madness", "conscience", "remorse"] },
+        { "number": 2, "summary": "Scottish thanes — Menteith, Caithness, Angus, Lennox — march to meet Malcolm's English army near Birnam Wood, noting how Macbeth's followers obey only out of fear and that his title hangs loose 'like a giant's robe / Upon a dwarfish thief.'", "themes": ["war", "resistance", "tyranny", "loyalty"] },
+        { "number": 3, "summary": "Defiant amid desertions, Macbeth clings to the prophecy that none of woman born can harm him, calls for his armour, and rages at the Doctor, who admits he cannot 'minister to a mind diseas'd.'", "themes": ["fate", "despair", "madness", "tyranny"] },
+        { "number": 4, "summary": "Before Birnam Wood, Malcolm orders every soldier to cut a leafy bough and carry it as camouflage, unknowingly beginning to fulfil the prophecy that the wood will come to Dunsinane.", "themes": ["war", "prophecy", "fate"] },
+        { "number": 5, "summary": "Word comes that the queen is dead, prompting Macbeth's bleak meditation on the emptiness of life — 'To-morrow, and to-morrow, and to-morrow.' Then a messenger reports the impossible: Birnam Wood appears to be moving toward the castle.", "themes": ["despair", "death", "fate", "time"] },
+        { "number": 6, "summary": "Reaching the castle, Malcolm's army throws down its leafy screen and the assault begins under Siward and Macduff.", "themes": ["war", "resistance"] },
+        { "number": 7, "summary": "On the field, Macbeth kills the young Siward, still trusting that no man of woman born can defeat him, while Macduff searches the battle for him alone.", "themes": ["war", "fate", "courage"] },
+        { "number": 8, "summary": "Macduff reveals he was 'from his mother's womb / Untimely ripp'd' — not born of woman in the ordinary sense — and the last prophecy collapses. He kills Macbeth and bears in his head; Malcolm is hailed King of Scotland and order is restored.", "themes": ["fate", "kingship", "justice", "order"] }
+      ]
+    }
+  ]
+}

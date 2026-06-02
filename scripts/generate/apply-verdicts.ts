@@ -53,7 +53,15 @@ function downgrade(c: string): string {
 
 function clean(c: any): any {
   const out: any = {};
-  for (const k of Object.keys(c)) if (ALLOWED.has(k)) out[k] = c[k];
+  for (const k of Object.keys(c)) {
+    if (!ALLOWED.has(k)) continue;
+    // Drop a null/undefined optional 'detail': some annotator subagents emit `"detail": null`,
+    // which fails schema-check (detail must be a string). A real detail string (or an empty
+    // string, as some shipped plays carry) is preserved, and a missing detail was never copied —
+    // so this is byte-identical for every prior play (none have a null detail).
+    if (k === 'detail' && c[k] == null) continue;
+    out[k] = c[k];
+  }
   return out;
 }
 

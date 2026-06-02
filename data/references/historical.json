@@ -435,7 +435,7 @@
         "richard_ii",
         "henry_iv_part_2",
         "henry_v",
-        "king_lear"
+        "lear"
       ],
       "see_also": [
         { "kind": "historical", "card_id": "divine-right-of-kings" }
@@ -457,7 +457,7 @@
         "henry_v",
         "troilus_and_cressida",
         "macbeth",
-        "king_lear"
+        "lear"
       ],
       "see_also": [
         { "kind": "historical", "card_id": "divine-right-of-kings" }
@@ -1541,6 +1541,151 @@
       ],
       "see_also": [
         { "kind": "historical", "card_id": "the-second-triumvirate" }
+      ]
+    },
+    {
+      "id": "the-weird-sisters-and-witchcraft",
+      "kind": "historical",
+      "title": "The weird sisters and Jacobean witchcraft",
+      "source": {
+        "name": "Holinshed, Chronicles (Scotland); James VI and I, Daemonologie",
+        "citation": "Holinshed, Chronicles (1587), History of Scotland (the 'weird sisters' who meet Macbeth and Banquo); James VI and I, Daemonologie (1597); the Witchcraft Act of 1604."
+      },
+      "summary_basic": "The three witches are the 'weird sisters' — 'weird' is from the Old English 'wyrd', meaning fate, so they are creatures of destiny, not mere hags. Holinshed, Shakespeare's source, calls them 'the goddesses of destiny.' Witchcraft was taken seriously and feared as real: King James I, before whom the play was likely performed, had written a book on it, Daemonologie (1597), and his statute of 1604 made witchcraft a capital crime. The sisters' bearded, storm-raising, prophesying magic matches the period's beliefs.",
+      "detail_scholar": "James's interest was personal: in 1590 a coven at North Berwick was accused of raising storms to wreck the ship bringing him and his bride home from Denmark, and the king examined the suspects himself. Daemonologie defends the reality of witches and their pact with the Devil. Shakespeare's sisters draw on this lore — familiar spirits (Graymalkin the cat, Paddock the toad), the power to sail in a sieve, to raise winds and fog, and to foretell the future — while remaining teasingly ambiguous: they predict but never clearly compel, leaving open how far Macbeth's fall is fate and how far his own choice. The witchcraft would have read as both a topical compliment to the royal author and a genuine menace.",
+      "related_plays": [
+        "macbeth"
+      ],
+      "see_also": [
+        { "kind": "classical", "card_id": "triple-hecate" }
+      ]
+    },
+    {
+      "id": "equivocation-and-the-gunpowder-plot",
+      "kind": "historical",
+      "title": "Equivocation and the Gunpowder Plot",
+      "source": {
+        "name": "The trial of Henry Garnet (1606); the Gunpowder Plot (1605)",
+        "citation": "The Gunpowder Plot, 5 November 1605; the trial and execution of the Jesuit Henry Garnet (1606) for his part in the plot and his defence of equivocation (mental reservation)."
+      },
+      "summary_basic": "The drunken Porter (2.3) imagines admitting to hell 'an equivocator that could swear in both the scales against either scale.' This is topical: in 1605 a Catholic conspiracy, the Gunpowder Plot, tried to blow up King James and Parliament. The Jesuit Henry Garnet, tried in 1606, was notorious for defending 'equivocation' — answering under oath in a deliberately misleading way while privately reserving the true meaning, so as not, technically, to lie. Macbeth later curses 'the equivocation of the fiend / That lies like truth' (5.5).",
+      "detail_scholar": "Equivocation was a Counter-Reformation doctrine that let persecuted Catholics evade incriminating questions; Garnet had written 'A Treatise of Equivocation,' produced against him at his trial. The technique was infamous by 1606, the year most scholars date the play, making the Porter's joke a sharp contemporary hit. The theme runs through the whole tragedy: the witches are equivocators whose promises 'palter with us in a double sense' (5.8), true to the letter and fatal in the event — 'none of woman born,' a wood that cannot move. Macbeth is destroyed less by lies than by truths he hears wrongly.",
+      "related_plays": [
+        "macbeth"
+      ],
+      "see_also": [
+        { "kind": "historical", "card_id": "the-weird-sisters-and-witchcraft" }
+      ]
+    },
+    {
+      "id": "the-kings-evil",
+      "kind": "historical",
+      "title": "Touching for the King's Evil",
+      "source": {
+        "name": "Holinshed, Chronicles; the royal touch tradition",
+        "citation": "Holinshed, Chronicles (1587); the English royal touch for scrofula ('the King's Evil'), traced to Edward the Confessor (r. 1042-1066) and revived by James I (r. 1603-1625)."
+      },
+      "summary_basic": "In the English scene (4.3), a Doctor describes King Edward the Confessor curing 'the evil' — scrofula, a disfiguring swelling of the lymph nodes long called 'the King's Evil' — by his royal touch, hanging 'a golden stamp' (a coin) about the sufferer's neck. English monarchs were believed to heal scrofula by their touch, taken as a sign of sacred, God-given kingship. The passage flatters King James I, who revived the ceremony, and sets the holy healing king against Macbeth, the murderer who has poisoned his own country.",
+      "detail_scholar": "The detour is dramatically odd — it has no warrant in Holinshed's Macbeth narrative and halts the action — which is why it reads as a deliberate compliment to the reigning monarch, very possibly performed before James himself. Edward also has 'a heavenly gift of prophecy,' another power the play ties to true, as opposed to demonic, knowledge. The contrast is structural: Act 4 sets England, ruled by a saintly king who cures by touch, against Scotland under a tyrant whose touch is murder, preparing for the restoration of rightful order under Malcolm.",
+      "related_plays": [
+        "macbeth"
+      ],
+      "see_also": [
+        { "kind": "historical", "card_id": "divine-right-of-kings" }
+      ]
+    },
+    {
+      "id": "banquo-and-the-stuart-line",
+      "kind": "historical",
+      "title": "Banquo and the Stuart line (the show of kings)",
+      "source": {
+        "name": "Holinshed, Chronicles (Scotland), after Hector Boece",
+        "citation": "Holinshed, Chronicles (1587), History of Scotland, following Hector Boece; the legendary descent of the Stewart (Stuart) kings from Banquo through his son Fleance."
+      },
+      "summary_basic": "The witches promise Banquo that, though never king himself, he shall 'get kings' — father a line of them (1.3). In 4.1 they show Macbeth a procession of eight kings, the last holding a glass (mirror) that reveals many more, with Banquo's ghost following to claim them as his descendants. King James I claimed descent from Banquo and Fleance through the royal house of Stuart, so the show flatters the king watching the play: his dynasty is the prophecy's fulfilment, and Macbeth's crimes against Banquo's line are futile.",
+      "detail_scholar": "The genealogy is legendary, not historical — Banquo and Fleance were probably invented by the chronicler Hector Boece — but the Stuarts embraced the descent, and Shakespeare's audience would have read the eighth king bearing a mirror as James himself, the line stretching past the stage's edge into the present. The 'two-fold balls and treble sceptres' the kings carry (4.1) glance at James's union of crowns: crowned at Scone as King of Scots and at Westminster as King of England, ruler of an enlarged 'Great Britain.' The vision turns Macbeth's tyranny into a doomed assault on the providential founding of the watching king's own dynasty.",
+      "related_plays": [
+        "macbeth"
+      ],
+      "see_also": [
+        { "kind": "historical", "card_id": "the-weird-sisters-and-witchcraft" }
+      ]
+    },
+    {
+      "id": "harsnetts-declaration-and-the-devils",
+      "kind": "historical",
+      "title": "Harsnett's Declaration and Poor Tom's devils",
+      "source": {
+        "name": "Samuel Harsnett, A Declaration of Egregious Popish Impostures (1603)",
+        "citation": "Samuel Harsnett, A Declaration of Egregious Popish Impostures (1603), debunking the fraudulent exorcisms staged by Jesuit priests at Denham, c. 1585-86."
+      },
+      "summary_basic": "When Edgar disguises himself as the mad beggar 'Poor Tom,' he raves of being possessed by fiends with strange names — Flibbertigibbet, Smulkin, Modo, Mahu, Frateretto. Shakespeare took these names straight from a 1603 book by Samuel Harsnett, A Declaration of Egregious Popish Impostures, which exposed a series of fake exorcisms staged by Catholic priests as cynical frauds. The borrowed devils give Tom's madness a topical, sceptical edge: his 'possession' is a performance, like the exorcisms Harsnett unmasked.",
+      "detail_scholar": "Harsnett, a Church of England cleric who rose to be Archbishop of York, was commissioned to discredit the Denham exorcisms (c. 1585-86), in which Jesuits claimed to cast demons out of servants. He printed the devils' supposed names and the theatrical tricks used to fake possession. Shakespeare mined the book for Tom's fiends and much of his demonic vocabulary, and the larger irony reverberates through the play: in a tragedy obsessed with what is genuine and what is staged — real madness and feigned, true love and flattery, a real cliff and a fake one — Edgar's counterfeit possession quietly aligns with Harsnett's argument that the spectacular supernatural is so often a human contrivance.",
+      "related_plays": [
+        "lear"
+      ]
+    },
+    {
+      "id": "king-leir-and-legendary-britain",
+      "kind": "historical",
+      "title": "King Leir and legendary Britain",
+      "source": {
+        "name": "The True Chronicle Historie of King Leir (1605); Geoffrey of Monmouth; Holinshed",
+        "citation": "The True Chronicle Historie of King Leir (anon., printed 1605); Geoffrey of Monmouth, Historia Regum Britanniae (c. 1136); Holinshed, Chronicles (1587); Spenser, The Faerie Queene 2.10."
+      },
+      "summary_basic": "The Lear story comes from Britain's legendary pre-Roman past, first told by Geoffrey of Monmouth (c. 1136) and retold by Holinshed, Spenser, and an older anonymous play, The True Chronicle Historie of King Leir. In every one of these sources the tale ends happily: Leir is restored to his throne and Cordelia's side wins. Shakespeare's devastating ending — Cordelia hanged, Lear dead of grief — is his own dark invention, a deliberate break with the story his audience knew.",
+      "detail_scholar": "Geoffrey of Monmouth placed Leir in the legendary line of British kings descended from Brutus of Troy; Holinshed and Spenser passed the story on, and the old King Leir play (acted by 1594, printed 1605) was Shakespeare's closest model. All keep the comforting restoration. By killing Cordelia, Shakespeare violated the received story so painfully that for a century and a half the English stage preferred Nahum Tate's 1681 adaptation, which let Cordelia live and marry Edgar. Samuel Johnson confessed he could hardly bear to re-read the original's last scene. The change is the measure of the play's refusal of consolation.",
+      "related_plays": [
+        "lear"
+      ],
+      "see_also": [
+        { "kind": "historical", "card_id": "holinshed-chronicles" }
+      ]
+    },
+    {
+      "id": "the-division-of-the-kingdom",
+      "kind": "historical",
+      "title": "The division of the kingdom and the Union",
+      "source": {
+        "name": "The Jacobean debate on the Union of England and Scotland",
+        "citation": "King James I's project to unite England and Scotland as 'Great Britain,' proposed 1604 and debated in Parliament 1604-1607; cf. the doctrine of the unified body politic."
+      },
+      "summary_basic": "The play opens on Lear dividing Britain among his daughters, tracing the borders on a map. To a Jacobean audience this was a self-evident disaster: a divided kingdom invites rivalry, faction, and civil war — exactly what follows. The folly resonated against current events, for King James I was pressing the opposite case, trying to unite England and Scotland into a single 'Great Britain.' Where James sought to make one realm of two, Lear breaks one realm into three, and the play watches the consequences unfold.",
+      "detail_scholar": "James, who became King of England in 1603 while remaining King of Scots, urged Parliament from 1604 to merge the two into one 'Great Britain'; the proposal was fiercely debated and ultimately stalled by 1607. Against that backdrop, Lear's partition of the island reads as a cautionary image of the unmaking of a unified body politic. The play's geography insists on it: this is Britain, not a generic kingdom, and the division sets Albany (the old name for Scotland) against Cornwall, dramatizing the fracturing of the very island James hoped to bind together.",
+      "related_plays": [
+        "lear"
+      ],
+      "see_also": [
+        { "kind": "historical", "card_id": "the-great-chain-of-being" },
+        { "kind": "historical", "card_id": "the-kings-two-bodies" }
+      ]
+    },
+    {
+      "id": "dover-and-the-cliff",
+      "kind": "historical",
+      "title": "Dover and the cliff",
+      "source": {
+        "name": "The geography of Dover and the Strait of Dover",
+        "citation": "Dover, on the Strait of Dover, the narrowest crossing (about 21 miles) of the English Channel to France; its white chalk cliffs. King Lear 4.6."
+      },
+      "summary_basic": "Dover is the play's one named place: the white chalk cliffs on the Strait of Dover, where England comes closest to France. It is where Cordelia's French army lands and where everyone converges in Act 4. The blind Gloucester asks to be led to the edge of its famous cliff to throw himself off; his son Edgar, in disguise, paints a dizzying word-picture of the precipice — fishermen like mice, a ship like its own cock-boat — then lets him 'fall' on the flat stage, a staged miracle that shocks him out of despair.",
+      "detail_scholar": "The choice of Dover is partly strategic — it is the obvious landing-place for a French invasion, and the lords speak of armies converging there — and partly symbolic, the literal edge of the kingdom and of endurance. Edgar's cliff speech (4.6) is a tour de force of theatrical illusion: there is no cliff, only words, and the audience watches a man persuaded to die by description and then saved by the same means. The episode crystallizes the play's preoccupation with seeing and blindness — Gloucester, who 'stumbled when he saw,' must be blind to be led, by a son he cannot recognize, to a fall that is not real.",
+      "related_plays": [
+        "lear"
+      ]
+    },
+    {
+      "id": "astrology-and-the-eclipses",
+      "kind": "historical",
+      "title": "Astrology and the late eclipses",
+      "source": {
+        "name": "Renaissance astrology; the eclipses of 1605",
+        "citation": "The lunar eclipse of September 1605 and solar eclipse of October 1605, widely read as portents; the period's debate over astral influence. King Lear 1.2."
+      },
+      "summary_basic": "Gloucester blames the troubles of the play on 'these late eclipses in the sun and moon,' which 'portend no good to us' (1.2) — astrology was widely believed, and real eclipses in 1605 had stirred just such fears. His bastard son Edmund scornfully rejects it: men blame the stars for vices that are their own choice — 'an admirable evasion of whoremaster man, to lay his goatish disposition to the charge of a star.' The clash sets credulous old belief against a cold new self-reliance, and the play leaves the question of fate and responsibility open.",
+      "detail_scholar": "Astrology was mainstream learning in Shakespeare's England: almanacs forecast by the stars, and eclipses were read as warnings of disorder in the state. A lunar eclipse in September and a solar eclipse in October 1605 were duly accompanied by alarmed prognostications, making Gloucester's lines topical. Edmund's mockery voices a sceptical, self-authorizing modernity — he makes himself, not the heavens, the author of his deeds — yet the play withholds easy endorsement of either view: Edmund's clear-eyed villainy is monstrous, while Gloucester's fatalism is foolish but humane. The tension feeds the play's larger uncertainty about whether the gods are just, indifferent, or simply absent.",
+      "related_plays": [
+        "lear"
       ]
     }
   ]
