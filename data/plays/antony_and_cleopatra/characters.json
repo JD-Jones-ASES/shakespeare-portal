@@ -1,0 +1,534 @@
+[
+  {
+    "id": "antony",
+    "name": "Mark Antony",
+    "aliases": ["ANTONY."],
+    "role": "protagonist",
+    "description": "Mark Antony, one of the three rulers (triumvirs) of the Roman world after Julius Caesar's assassination, and Rome's greatest soldier. Enthralled by Cleopatra in Egypt, he neglects his duties in Rome; torn between love and empire, he loses the sea-battle at Actium, is beaten by Octavius Caesar, and falls on his own sword after a false report of Cleopatra's death.",
+    "relationships": [
+      { "other_id": "cleopatra", "relation": "lover of" },
+      { "other_id": "octavius_caesar", "relation": "fellow triumvir and rival of" },
+      { "other_id": "lepidus", "relation": "fellow triumvir with" },
+      { "other_id": "octavia", "relation": "husband of (his second wife)" },
+      { "other_id": "enobarbus", "relation": "commander and friend of" },
+      { "other_id": "eros", "relation": "master of" }
+    ],
+    "color": "#c1622d"
+  },
+  {
+    "id": "cleopatra",
+    "name": "Cleopatra",
+    "aliases": ["CLEOPATRA."],
+    "role": "protagonist",
+    "description": "Cleopatra, the last queen of Egypt and Antony's lover: dazzling, volatile, theatrical, and politically shrewd. By turns seductive and furious, she captivates Antony and saps his Roman resolve. After his death and her capture by Octavius, she stages a sovereign suicide by the bite of an asp rather than be led as a captive through Rome in triumph.",
+    "relationships": [
+      { "other_id": "antony", "relation": "lover of" },
+      { "other_id": "charmian", "relation": "mistress of" },
+      { "other_id": "iras", "relation": "mistress of" },
+      { "other_id": "octavius_caesar", "relation": "captive and adversary of" }
+    ],
+    "color": "#c2185b"
+  },
+  {
+    "id": "octavius_caesar",
+    "name": "Octavius Caesar",
+    "aliases": ["CAESAR."],
+    "role": "antagonist",
+    "description": "Octavius Caesar, great-nephew and adopted heir of the assassinated Julius Caesar, and Antony's fellow triumvir and chief rival. Cold, disciplined, and calculating where Antony is passionate, he defeats Antony and Cleopatra and becomes sole master of the Roman world (the future emperor Augustus). Not to be confused with the dead Julius Caesar, who is invoked but never appears.",
+    "relationships": [
+      { "other_id": "antony", "relation": "fellow triumvir and rival of" },
+      { "other_id": "octavia", "relation": "brother of" },
+      { "other_id": "lepidus", "relation": "fellow triumvir with, then deposer of" }
+    ],
+    "color": "#3f6fb0"
+  },
+  {
+    "id": "lepidus",
+    "name": "Lepidus",
+    "aliases": ["LEPIDUS."],
+    "role": "supporting",
+    "description": "Marcus Aemilius Lepidus, the third and weakest of the triumvirs. He strains to keep the peace between Antony and Octavius, gets helplessly drunk at the feast on Pompey's galley, and is soon discarded, deposed and imprisoned by Octavius once he is no longer useful.",
+    "relationships": [
+      { "other_id": "antony", "relation": "fellow triumvir with" },
+      { "other_id": "octavius_caesar", "relation": "fellow triumvir with" }
+    ],
+    "color": "#7a8a99"
+  },
+  {
+    "id": "pompey",
+    "name": "Pompey (Sextus Pompeius)",
+    "aliases": ["POMPEY."],
+    "role": "supporting",
+    "description": "Sextus Pompeius, the young Pompey, son of Pompey the Great. Commanding a powerful fleet, he threatens the triumvirs by sea, then makes peace with them at Misenum; he refuses his pirate Menas's offer to murder his guests, and is later destroyed by Octavius. Distinct from his dead father, Pompey the Great, who is also invoked in the play.",
+    "relationships": [
+      { "other_id": "menas", "relation": "served by" },
+      { "other_id": "octavius_caesar", "relation": "enemy of" }
+    ],
+    "color": "#8e6fb0"
+  },
+  {
+    "id": "enobarbus",
+    "name": "Enobarbus",
+    "aliases": ["ENOBARBUS."],
+    "role": "deuteragonist",
+    "description": "Domitius Enobarbus, Antony's blunt, witty, clear-eyed lieutenant and closest friend, and the play's chief commentator. His description of Cleopatra in her barge on the river Cydnus ('The barge she sat in...') is the play's great set-piece. Watching Antony's cause collapse, he deserts to Caesar, then dies of a broken heart, ashamed of his betrayal.",
+    "relationships": [
+      { "other_id": "antony", "relation": "friend and lieutenant of" }
+    ],
+    "color": "#6b8e23"
+  },
+  {
+    "id": "octavia",
+    "name": "Octavia",
+    "aliases": ["OCTAVIA."],
+    "role": "supporting",
+    "description": "Octavius Caesar's gentle, virtuous sister, married to Antony to cement the alliance between the two triumvirs. Caught between her brother and her husband, she is abandoned when Antony returns to Cleopatra, the personal injury that helps trigger the final war.",
+    "relationships": [
+      { "other_id": "octavius_caesar", "relation": "sister of" },
+      { "other_id": "antony", "relation": "wife of" }
+    ],
+    "color": "#b06a8e"
+  },
+  {
+    "id": "eros",
+    "name": "Eros",
+    "aliases": ["EROS."],
+    "role": "supporting",
+    "description": "A freedman and devoted servant-friend of Antony. Bound by an oath to kill his master if Antony ever asked it, he is finally ordered to do so after the defeat, but kills himself instead rather than strike Antony, prompting Antony to fall on his own sword.",
+    "relationships": [
+      { "other_id": "antony", "relation": "servant and friend of" }
+    ],
+    "color": "#b0506f"
+  },
+  {
+    "id": "charmian",
+    "name": "Charmian",
+    "aliases": ["CHARMIAN."],
+    "role": "supporting",
+    "description": "Cleopatra's favourite lady-in-waiting: spirited, teasing, and utterly loyal. She shares the queen's banter and her fate, applying an asp to herself and dying beside her mistress, pausing only to set the dead queen's crown straight.",
+    "relationships": [
+      { "other_id": "cleopatra", "relation": "attendant of" }
+    ],
+    "color": "#cf9b3a"
+  },
+  {
+    "id": "iras",
+    "name": "Iras",
+    "aliases": ["IRAS."],
+    "role": "minor",
+    "description": "One of Cleopatra's attendant ladies, loyal to the end; she falls dead, apparently of grief, just before her mistress takes her own life.",
+    "relationships": [
+      { "other_id": "cleopatra", "relation": "attendant of" }
+    ],
+    "color": "#b08968"
+  },
+  {
+    "id": "agrippa",
+    "name": "Agrippa",
+    "aliases": ["AGRIPPA."],
+    "role": "supporting",
+    "description": "A trusted general and counsellor of Octavius Caesar, who proposes the marriage of Antony to Octavia to bind the rival triumvirs together.",
+    "relationships": [
+      { "other_id": "octavius_caesar", "relation": "general and counsellor of" }
+    ],
+    "color": "#2e8b8b"
+  },
+  {
+    "id": "maecenas",
+    "name": "Maecenas",
+    "aliases": ["MAECENAS."],
+    "role": "minor",
+    "description": "A friend and counsellor of Octavius Caesar.",
+    "relationships": [
+      { "other_id": "octavius_caesar", "relation": "counsellor of" }
+    ],
+    "color": "#5f8a6a"
+  },
+  {
+    "id": "dolabella",
+    "name": "Dolabella",
+    "aliases": ["DOLABELLA."],
+    "role": "supporting",
+    "description": "A friend of Octavius Caesar who, moved by Cleopatra, secretly warns her of Caesar's plan to lead her through Rome in triumph, the warning that hardens her resolve to die.",
+    "relationships": [
+      { "other_id": "octavius_caesar", "relation": "follower of" }
+    ],
+    "color": "#5b9bd5"
+  },
+  {
+    "id": "menas",
+    "name": "Menas",
+    "aliases": ["MENAS."],
+    "role": "supporting",
+    "description": "A pirate captain serving the young Pompey. At the feast on Pompey's galley he offers to cut the cable and murder the three triumvirs to make Pompey lord of the world; when Pompey refuses (wishing only that Menas had done it unasked), Menas resolves to leave his service.",
+    "relationships": [
+      { "other_id": "pompey", "relation": "follower of" }
+    ],
+    "color": "#a07a3f"
+  },
+  {
+    "id": "menecrates",
+    "name": "Menecrates",
+    "aliases": ["MENECRATES."],
+    "role": "minor",
+    "description": "A pirate serving the young Pompey.",
+    "relationships": [
+      { "other_id": "pompey", "relation": "follower of" }
+    ]
+  },
+  {
+    "id": "varrius",
+    "name": "Varrius",
+    "aliases": ["VARRIUS."],
+    "role": "minor",
+    "description": "A follower of the young Pompey, who brings him news of Antony's movements.",
+    "relationships": [
+      { "other_id": "pompey", "relation": "follower of" }
+    ]
+  },
+  {
+    "id": "ventidius",
+    "name": "Ventidius",
+    "aliases": ["VENTIDIUS."],
+    "role": "minor",
+    "description": "An officer under Antony who wins a great victory over the Parthians in Antony's name, then prudently declines to press his success, knowing a subordinate who outshines his absent general courts ruin.",
+    "relationships": [
+      { "other_id": "antony", "relation": "officer of" }
+    ],
+    "color": "#6a8a5a"
+  },
+  {
+    "id": "silius",
+    "name": "Silius",
+    "aliases": ["SILIUS."],
+    "role": "minor",
+    "description": "An officer in Ventidius's army, who urges Ventidius to pursue the fleeing Parthians.",
+    "relationships": [
+      { "other_id": "ventidius", "relation": "officer under" }
+    ]
+  },
+  {
+    "id": "canidius",
+    "name": "Canidius",
+    "aliases": ["CANIDIUS."],
+    "role": "minor",
+    "description": "Antony's lieutenant-general on land, who argues against fighting Octavius by sea at Actium; after the defeat he deserts to Caesar.",
+    "relationships": [
+      { "other_id": "antony", "relation": "lieutenant-general of" }
+    ],
+    "color": "#4f7a6a"
+  },
+  {
+    "id": "scarus",
+    "name": "Scarus",
+    "aliases": ["SCARUS."],
+    "role": "minor",
+    "description": "A brave soldier in Antony's army who fights valiantly at Actium and laments Antony's flight after Cleopatra's retreating ships.",
+    "relationships": [
+      { "other_id": "antony", "relation": "soldier of" }
+    ],
+    "color": "#9c7a2d"
+  },
+  {
+    "id": "dercetas",
+    "name": "Dercetas",
+    "aliases": ["DERCETAS."],
+    "role": "minor",
+    "description": "A soldier of Antony's who, after Antony's suicide, takes his sword to Octavius Caesar to win favour with the victor.",
+    "relationships": [
+      { "other_id": "antony", "relation": "soldier of" }
+    ]
+  },
+  {
+    "id": "demetrius",
+    "name": "Demetrius",
+    "aliases": ["DEMETRIUS."],
+    "role": "minor",
+    "description": "A follower of Antony who, in the opening scene, deplores with Philo how their general has been transformed by his infatuation with Cleopatra.",
+    "relationships": [
+      { "other_id": "antony", "relation": "follower of" }
+    ]
+  },
+  {
+    "id": "philo",
+    "name": "Philo",
+    "aliases": ["PHILO."],
+    "role": "minor",
+    "description": "A follower of Antony who opens the play, lamenting that his great general's 'dotage' on Cleopatra has reduced 'the triple pillar of the world' to 'a strumpet's fool.'",
+    "relationships": [
+      { "other_id": "antony", "relation": "follower of" }
+    ]
+  },
+  {
+    "id": "euphronius",
+    "name": "Euphronius (the Ambassador)",
+    "aliases": ["EUPHRONIUS."],
+    "role": "minor",
+    "description": "A schoolmaster sent as Antony's ambassador to Octavius after the defeat at Actium, a measure of how far Antony has fallen, reduced to using a schoolteacher as his envoy.",
+    "relationships": [
+      { "other_id": "antony", "relation": "ambassador of" }
+    ]
+  },
+  {
+    "id": "proculeius",
+    "name": "Proculeius",
+    "aliases": ["PROCULEIUS."],
+    "role": "minor",
+    "description": "An officer of Octavius Caesar, recommended by the dying Antony to Cleopatra as trustworthy; he surprises and disarms her in her monument to prevent her suicide.",
+    "relationships": [
+      { "other_id": "octavius_caesar", "relation": "officer of" }
+    ],
+    "color": "#5a7aa0"
+  },
+  {
+    "id": "thyreus",
+    "name": "Thyreus",
+    "aliases": ["THYREUS.", "THYMUS."],
+    "role": "minor",
+    "description": "Octavius Caesar's messenger, sent to win Cleopatra away from Antony. When Antony catches him kissing Cleopatra's hand, he has him whipped. (This edition once misprints his speech-prefix as 'THYMUS.')",
+    "relationships": [
+      { "other_id": "octavius_caesar", "relation": "messenger of" }
+    ],
+    "color": "#9a6a5a"
+  },
+  {
+    "id": "gallus",
+    "name": "Gallus",
+    "aliases": ["GALLUS."],
+    "role": "minor",
+    "description": "An officer of Octavius Caesar, present at the taking of Cleopatra's monument.",
+    "relationships": [
+      { "other_id": "octavius_caesar", "relation": "officer of" }
+    ]
+  },
+  {
+    "id": "taurus",
+    "name": "Taurus",
+    "aliases": ["TAURUS."],
+    "role": "minor",
+    "description": "Octavius Caesar's lieutenant-general, commanding his land forces at Actium.",
+    "relationships": [
+      { "other_id": "octavius_caesar", "relation": "lieutenant-general of" }
+    ]
+  },
+  {
+    "id": "alexas",
+    "name": "Alexas",
+    "aliases": ["ALEXAS."],
+    "role": "minor",
+    "description": "An attendant of Cleopatra who carries messages between her and Antony; he later deserts to Caesar and is hanged.",
+    "relationships": [
+      { "other_id": "cleopatra", "relation": "attendant of" }
+    ],
+    "color": "#9a8a4a"
+  },
+  {
+    "id": "mardian",
+    "name": "Mardian",
+    "aliases": ["MARDIAN."],
+    "role": "minor",
+    "description": "A eunuch in Cleopatra's household. It is his false report, sent at the queen's command, that she has killed herself that drives Antony to his own suicide.",
+    "relationships": [
+      { "other_id": "cleopatra", "relation": "eunuch attendant of" }
+    ],
+    "color": "#8a7ab0"
+  },
+  {
+    "id": "seleucus",
+    "name": "Seleucus",
+    "aliases": ["SELEUCUS."],
+    "role": "minor",
+    "description": "Cleopatra's treasurer, who, when she presents Caesar with a list of her wealth, betrays that she has held back half of it, exposing her before the conqueror.",
+    "relationships": [
+      { "other_id": "cleopatra", "relation": "treasurer of" }
+    ]
+  },
+  {
+    "id": "diomedes",
+    "name": "Diomedes",
+    "aliases": ["DIOMEDES."],
+    "role": "minor",
+    "description": "An attendant of Cleopatra, sent too late to tell the dying Antony that the queen is alive after all.",
+    "relationships": [
+      { "other_id": "cleopatra", "relation": "attendant of" }
+    ]
+  },
+  {
+    "id": "soothsayer",
+    "name": "Soothsayer",
+    "aliases": ["SOOTHSAYER."],
+    "role": "minor",
+    "description": "An Egyptian fortune-teller who reads the fates of Cleopatra's women and warns Antony that his guardian spirit is overmatched whenever Octavius Caesar is near.",
+    "color": "#8a6d9a"
+  },
+  {
+    "id": "clown",
+    "name": "Clown",
+    "aliases": ["CLOWN."],
+    "role": "minor",
+    "description": "A rural fellow who, in the final scene, brings Cleopatra the basket of figs concealing the asps, with rambling, bawdy warnings about 'the worm' whose bite is immortal.",
+    "color": "#8a7a5a"
+  },
+  {
+    "id": "messenger",
+    "name": "Messenger",
+    "aliases": ["MESSENGER.", "SECOND MESSENGER."],
+    "role": "ensemble",
+    "description": "Various messengers who carry news across the empire, most memorably the one whom Cleopatra strikes and threatens for reporting Antony's marriage to Octavia.",
+    "color": "#8a8a8a"
+  },
+  {
+    "id": "first_soldier",
+    "name": "First Soldier",
+    "aliases": ["FIRST SOLDIER."],
+    "role": "minor",
+    "description": "A soldier in Antony's army; one of the watch who, on the night before the last battle, hears strange music underground, the sign that the god Hercules is deserting Antony.",
+    "color": "#7a8a6a"
+  },
+  {
+    "id": "second_soldier",
+    "name": "Second Soldier",
+    "aliases": ["SECOND SOLDIER."],
+    "role": "minor",
+    "description": "A soldier in Antony's army; one of the watch who hears the ominous music beneath the earth before the final battle.",
+    "color": "#6a7a8a"
+  },
+  {
+    "id": "third_soldier",
+    "name": "Third Soldier",
+    "aliases": ["THIRD SOLDIER."],
+    "role": "minor",
+    "description": "A soldier in Antony's army; one of the watch who hears the ominous music beneath the earth before the final battle.",
+    "color": "#8a7a6a"
+  },
+  {
+    "id": "fourth_soldier",
+    "name": "Fourth Soldier",
+    "aliases": ["FOURTH SOLDIER."],
+    "role": "minor",
+    "description": "A soldier in Antony's army; one of the watch on the night before the last battle.",
+    "color": "#6a8a7a"
+  },
+  {
+    "id": "soldier",
+    "name": "Soldier",
+    "aliases": ["SOLDIER."],
+    "role": "minor",
+    "description": "An unnamed soldier in Antony's army; one warns Antony to fight by land rather than by sea before Actium."
+  },
+  {
+    "id": "soldiers",
+    "name": "Soldiers",
+    "aliases": ["SOLDIERS."],
+    "role": "ensemble",
+    "description": "Soldiers speaking together."
+  },
+  {
+    "id": "first_guard",
+    "name": "First Guard",
+    "aliases": ["FIRST GUARD."],
+    "role": "minor",
+    "description": "One of the guard. The guards discover the dying Antony, and later find Cleopatra and her women dead in the monument.",
+    "color": "#8a6a6a"
+  },
+  {
+    "id": "second_guard",
+    "name": "Second Guard",
+    "aliases": ["SECOND GUARD."],
+    "role": "minor",
+    "description": "One of the guard at Antony's fall and at Cleopatra's monument.",
+    "color": "#6a6a8a"
+  },
+  {
+    "id": "third_guard",
+    "name": "Third Guard",
+    "aliases": ["THIRD GUARD."],
+    "role": "minor",
+    "description": "One of the guard who refuses to give the despairing Antony the death-blow he begs for.",
+    "color": "#6a8a6a"
+  },
+  {
+    "id": "guard",
+    "name": "Guard",
+    "aliases": ["GUARD."],
+    "role": "minor",
+    "description": "A member of the watch."
+  },
+  {
+    "id": "first_servant",
+    "name": "First Servant",
+    "aliases": ["FIRST SERVANT."],
+    "role": "minor",
+    "description": "A servant at the feast on Pompey's galley, commenting on the drunken triumvirs."
+  },
+  {
+    "id": "second_servant",
+    "name": "Second Servant",
+    "aliases": ["SECOND SERVANT."],
+    "role": "minor",
+    "description": "A servant at the feast on Pompey's galley, commenting on the drunken triumvirs."
+  },
+  {
+    "id": "servant",
+    "name": "Servant",
+    "aliases": ["SERVANT."],
+    "role": "minor",
+    "description": "A serving-man."
+  },
+  {
+    "id": "attendant",
+    "name": "Attendant",
+    "aliases": ["ATTENDANT."],
+    "role": "minor",
+    "description": "An attendant who brings news to Antony."
+  },
+  {
+    "id": "first_attendant",
+    "name": "First Attendant",
+    "aliases": ["FIRST ATTENDANT."],
+    "role": "minor",
+    "description": "An attendant in Cleopatra's palace."
+  },
+  {
+    "id": "second_attendant",
+    "name": "Second Attendant",
+    "aliases": ["SECOND ATTENDANT."],
+    "role": "minor",
+    "description": "An attendant in Cleopatra's palace."
+  },
+  {
+    "id": "officer",
+    "name": "Officer",
+    "aliases": ["OFFICER."],
+    "role": "minor",
+    "description": "An officer in attendance."
+  },
+  {
+    "id": "second_officer",
+    "name": "Second Officer",
+    "aliases": ["SECOND OFFICER."],
+    "role": "minor",
+    "description": "An officer in attendance."
+  },
+  {
+    "id": "all",
+    "name": "All",
+    "aliases": ["ALL."],
+    "role": "ensemble",
+    "description": "Several characters speaking together."
+  },
+  {
+    "id": "both",
+    "name": "Both",
+    "aliases": ["BOTH."],
+    "role": "ensemble",
+    "description": "Two characters speaking together."
+  },
+  {
+    "id": "song",
+    "name": "Song",
+    "aliases": ["SONG."],
+    "role": "ensemble",
+    "description": "The Bacchanal sung aboard Pompey's galley ('Come, thou monarch of the vine'), led by a boy and taken up by the company."
+  }
+]

@@ -131,7 +131,23 @@ const INDUCTION_AS_ACT = slug === 'taming_of_the_shrew';
 // headers are already sequential, is byte-identical.
 const SEQUENTIAL_SCENES = slug === 'loves_labours_lost';
 
-const ROMAN: Record<string, number> = { I: 1, II: 2, III: 3, IV: 4, V: 5, VI: 6, VII: 7, VIII: 8, IX: 9, X: 10 };
+// Roman numeral -> int via standard subtractive notation. Returns identical values to the
+// prior I..X lookup table for 1-10, so every play whose acts never exceed ten scenes
+// re-ingests byte-identical; it additionally handles XI+ (Antony and Cleopatra is the first
+// play in the canon with an act of more than ten scenes — Act 3 has 13, Act 4 has 15 — so
+// "SCENE XI."..."SCENE XV." were previously unrecognized and merged into scene X). Returns 0
+// on any non-Roman character, matching the old `?? 0` fallthrough.
+const ROMAN_VALUE: Record<string, number> = { I: 1, V: 5, X: 10, L: 50, C: 100, D: 500, M: 1000 };
+function romanToInt(s: string): number {
+  let total = 0;
+  for (let k = 0; k < s.length; k++) {
+    const cur = ROMAN_VALUE[s[k]];
+    if (cur === undefined) return 0;
+    const next = k + 1 < s.length ? ROMAN_VALUE[s[k + 1]] : 0;
+    total += next > cur ? -cur : cur;
+  }
+  return total;
+}
 const ORDINAL_WORDS: Record<string, number> = {
   FIRST: 1, SECOND: 2, THIRD: 3, FOURTH: 4, FIFTH: 5,
   SIXTH: 6, SEVENTH: 7, EIGHTH: 8, NINTH: 9, TENTH: 10,
@@ -139,7 +155,7 @@ const ORDINAL_WORDS: Record<string, number> = {
 function toInt(s: string): number {
   if (/^\d+$/.test(s)) return Number(s);
   const up = s.toUpperCase();
-  return ORDINAL_WORDS[up] ?? ROMAN[up] ?? 0;
+  return ORDINAL_WORDS[up] ?? romanToInt(up);
 }
 
 const STOPWORDS = new Set([
@@ -367,6 +383,20 @@ function normalizeHenryVIEdition(src: string[]): string[] {
 }
 
 if (HENRY_VI_SLUGS.has(slug)) allLines = normalizeHenryVIEdition(allLines);
+
+// Some editions print the first scene of an act on the SAME physical line as the act header,
+// e.g. Antony and Cleopatra's "ACT IV. SCENE I. Caesar's Camp at Alexandria." (its other four
+// acts use a separate "ACT n." line). Such a line matches neither ACT_HEADER (text follows the
+// act number) nor SCENE_HEADER (it begins with ACT), so the scene would be lost. Split it into
+// its two canonical lines and let the generic ACT/SCENE paths handle each (including the
+// scene-setting wrap). General (not slug-gated); every shipped play has its act and first-scene
+// headers on separate lines, so this matches nothing and they re-ingest byte-identical (the
+// re-ingest regression diff confirms it).
+const ACT_SCENE_COMBINED = /^(\s*ACT\s+(?:[IVXLC]+|\d+|FIRST|SECOND|THIRD|FOURTH|FIFTH|SIXTH|SEVENTH|EIGHTH|NINTH|TENTH)\.)\s+(SCENE\s+(?:[IVXLC]+|\d+)\b.*)$/i;
+allLines = allLines.flatMap((l) => {
+  const m = l.match(ACT_SCENE_COMBINED);
+  return m ? [m[1].trim(), m[2]] : [l];
+});
 
 // find content start: the first ACT header, or an earlier framing header (a Chorus
 // prologue or an Induction) if one precedes it. Plays with no leading framing speech
