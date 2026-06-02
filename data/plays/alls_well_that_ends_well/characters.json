@@ -1,0 +1,277 @@
+[
+  {
+    "id": "helena",
+    "name": "Helena",
+    "aliases": ["HELENA."],
+    "role": "protagonist",
+    "description": "A poor physician's daughter, orphaned and raised under the protection of the Countess of Rousillon, who loves the Countess's son Bertram far above her station. With the medical secrets her late father left her she cures the dying King of France and, as her reward, claims Bertram in marriage; when he flees the match and sets her two 'impossible' conditions, she fulfils them by the bed-trick and a feigned death to win him at last. Resourceful, single-minded, and morally ambiguous, she drives the whole plot. (A different character from the Helena of A Midsummer Night's Dream.)",
+    "relationships": [
+      { "other_id": "bertram", "relation": "loves and pursues into marriage" },
+      { "other_id": "countess", "relation": "ward of, who loves her as a daughter" },
+      { "other_id": "king", "relation": "cures, and is rewarded with a husband" },
+      { "other_id": "diana", "relation": "enlists for the bed-trick" }
+    ],
+    "color": "#2f6aa0"
+  },
+  {
+    "id": "bertram",
+    "name": "Bertram",
+    "aliases": ["BERTRAM.", "Young Bertram."],
+    "role": "deuteragonist",
+    "description": "The young Count of Rousillon, made a royal ward at his father's death. Handsome, proud, and class-conscious, he is forced by the King to marry Helena and recoils — fleeing to the Florentine wars rather than consummate the match and setting her conditions he believes impossible. In Florence he tries to seduce the chaste Diana, is gulled by the bed-trick, and is exposed and shamed in the final scene before grudgingly accepting Helena. Critics debate whether his closing 'I'll love her dearly' redeems him.",
+    "relationships": [
+      { "other_id": "helena", "relation": "unwillingly married to" },
+      { "other_id": "countess", "relation": "son of" },
+      { "other_id": "parolles", "relation": "led astray by his follower" },
+      { "other_id": "diana", "relation": "tries to seduce" }
+    ],
+    "color": "#8a4a2f"
+  },
+  {
+    "id": "parolles",
+    "name": "Parolles",
+    "aliases": ["PAROLLES.", "Monsieur Parolles."],
+    "role": "major",
+    "description": "Bertram's swaggering follower, a braggart soldier and coward whose name means 'words' in French — all talk and no substance, a descendant of the Plautine miles gloriosus. He eggs Bertram on in folly. The French lords expose him in a mock ambush: blindfolded and convinced he is a prisoner, he betrays every secret and slanders his own friends. Unmasked, he resolves to live on as the thing he is: 'Simply the thing I am shall make me live.'",
+    "relationships": [
+      { "other_id": "bertram", "relation": "follower and bad counsellor of" },
+      { "other_id": "lafew", "relation": "scorned and seen through by" },
+      { "other_id": "first_lord", "relation": "exposed by the lords' drum plot" }
+    ],
+    "color": "#c8862a"
+  },
+  {
+    "id": "king",
+    "name": "King of France",
+    "aliases": ["KING."],
+    "role": "major",
+    "description": "The ailing King of France, dying of a fistula his physicians have given up on, until Helena cures him with her father's remedy. In gratitude he grants her the husband of her choice and compels the reluctant Bertram to wed her, defending her worth against Bertram's snobbery with a famous speech on virtue as the only true nobility ('From lowest place when virtuous things proceed, / The place is dignified by the doer's deed'). He presides over the reckoning of the final scene.",
+    "relationships": [
+      { "other_id": "helena", "relation": "cured by, and rewards with a husband" },
+      { "other_id": "bertram", "relation": "guardian who compels his marriage" },
+      { "other_id": "lafew", "relation": "counselled by his old lord" }
+    ],
+    "color": "#7a3f8a"
+  },
+  {
+    "id": "countess",
+    "name": "Countess of Rousillon",
+    "aliases": ["COUNTESS."],
+    "role": "major",
+    "description": "Bertram's widowed mother, an aging noblewoman of great warmth and wisdom (a part Shaw praised as 'the most beautiful old woman's part ever written'). She loves Helena as her own child, blesses her love for Bertram, and is ashamed of her son's cruelty to his wife. She anchors the play's older, gentler generation against the rashness of the young.",
+    "relationships": [
+      { "other_id": "bertram", "relation": "mother of" },
+      { "other_id": "helena", "relation": "guardian who loves her as a daughter" },
+      { "other_id": "lavatch", "relation": "mistress of the household clown" },
+      { "other_id": "steward", "relation": "served by Rinaldo her steward" }
+    ],
+    "color": "#2f8a5a"
+  },
+  {
+    "id": "lafew",
+    "name": "Lafew",
+    "aliases": ["LAFEU."],
+    "role": "supporting",
+    "description": "An old French lord and royal counsellor (spelled 'Lafeu' in this text), shrewd, blunt, and humane. He introduces Helena's cure to the King, sees through the braggart Parolles from the first, and at the close offers his own daughter Maudlin to Bertram. A voice of seasoned good sense.",
+    "relationships": [
+      { "other_id": "king", "relation": "old counsellor to" },
+      { "other_id": "parolles", "relation": "despises and unmasks" },
+      { "other_id": "bertram", "relation": "would marry to his daughter" }
+    ],
+    "color": "#4f7a8a"
+  },
+  {
+    "id": "lavatch",
+    "name": "Lavatch the Clown",
+    "aliases": ["CLOWN."],
+    "role": "supporting",
+    "description": "The Countess's household clown (his speeches are prefixed CLOWN.), a bitter, bawdy fool who jests about marriage, cuckoldry, and court manners. He sings the snatch 'Was this fair face the cause' on Helen of Troy, begs leave to marry Isbel, and carries messages between Rousillon and the court. His sour wit colours the play's darker comedy.",
+    "relationships": [
+      { "other_id": "countess", "relation": "servant and licensed fool of" }
+    ],
+    "color": "#b06a2a"
+  },
+  {
+    "id": "diana",
+    "name": "Diana",
+    "aliases": ["DIANA."],
+    "role": "supporting",
+    "description": "The chaste daughter of a Florentine widow, courted by Bertram while he is at the wars. She agrees to Helena's plan: she leads Bertram on, extracts his ancestral ring as a love-pledge, and then yields her assignation to Helena, who takes her place in the dark. In the final scene she confronts Bertram with riddling testimony that breaks his lies open. Her name (the virgin goddess) marks her as the play's emblem of guarded chastity.",
+    "relationships": [
+      { "other_id": "bertram", "relation": "courted by, whom she gulls" },
+      { "other_id": "helena", "relation": "aids the bed-trick for" },
+      { "other_id": "widow", "relation": "daughter of" }
+    ],
+    "color": "#b0567a"
+  },
+  {
+    "id": "widow",
+    "name": "The Widow",
+    "aliases": ["WIDOW."],
+    "role": "supporting",
+    "description": "A poor but honest widow of Florence, Diana's mother, who takes in Helena (disguised as a pilgrim) as a lodger. For a dowry promise she consents to the bed-trick that will secure Diana's honour and Helena's marriage, and travels to France to see justice done.",
+    "relationships": [
+      { "other_id": "diana", "relation": "mother of" },
+      { "other_id": "helena", "relation": "shelters and aids the disguised pilgrim" }
+    ],
+    "color": "#9a4a6a"
+  },
+  {
+    "id": "first_lord",
+    "name": "First Lord (Dumaine)",
+    "aliases": ["FIRST LORD."],
+    "role": "supporting",
+    "description": "One of the two French lords (the brothers Dumaine) who serve with Bertram in the Florentine war and devise the mock-capture that exposes Parolles as a coward. The prefix FIRST LORD. also covers one of the eligible bachelors the King parades before Helena in 2.3. (Editions differ on whether the war-lords and the court-bachelors are the same men.)",
+    "relationships": [
+      { "other_id": "second_lord", "relation": "brother and fellow officer" },
+      { "other_id": "bertram", "relation": "fellow soldier of" },
+      { "other_id": "parolles", "relation": "stages the drum-plot that unmasks" }
+    ],
+    "color": "#5a7a6a"
+  },
+  {
+    "id": "second_lord",
+    "name": "Second Lord (Dumaine)",
+    "aliases": ["SECOND LORD."],
+    "role": "supporting",
+    "description": "The other French lord (the second of the brothers Dumaine), Bertram's companion in the Florentine wars and co-author of the plot to unmask Parolles. The prefix SECOND LORD. also covers a court bachelor in 2.3. He brings the Countess word of her son's flight and conduct.",
+    "relationships": [
+      { "other_id": "first_lord", "relation": "brother and fellow officer" },
+      { "other_id": "bertram", "relation": "fellow soldier of" },
+      { "other_id": "parolles", "relation": "helps unmask" }
+    ],
+    "color": "#6a6a8a"
+  },
+  {
+    "id": "fourth_lord",
+    "name": "Fourth Lord",
+    "aliases": ["FOURTH LORD."],
+    "role": "minor",
+    "description": "One of the eligible young lords the King presents to Helena in 2.3 so that she may choose a husband; he speaks a single line as she passes him over for Bertram.",
+    "relationships": [
+      { "other_id": "helena", "relation": "passed over as a suitor by" }
+    ],
+    "color": "#7a6a8a"
+  },
+  {
+    "id": "duke_of_florence",
+    "name": "Duke of Florence",
+    "aliases": ["DUKE."],
+    "role": "minor",
+    "description": "The Duke of Florence, in whose war against Siena Bertram and the French lords win honour. He welcomes the French volunteers and makes Bertram general of his horse.",
+    "relationships": [
+      { "other_id": "bertram", "relation": "makes general of his horse" }
+    ],
+    "color": "#8a8a3a"
+  },
+  {
+    "id": "steward",
+    "name": "Rinaldo the Steward",
+    "aliases": ["STEWARD."],
+    "role": "minor",
+    "description": "Rinaldo, the Countess's steward, who overhears Helena confessing her love for Bertram and reports it to his mistress, setting the Countess's blessing in motion; later he reads aloud Helena's farewell sonnet.",
+    "relationships": [
+      { "other_id": "countess", "relation": "steward to" },
+      { "other_id": "helena", "relation": "reports her secret love" }
+    ],
+    "color": "#5f7f6f"
+  },
+  {
+    "id": "mariana",
+    "name": "Mariana",
+    "aliases": ["MARIANA."],
+    "role": "minor",
+    "description": "A neighbour and friend of the Florentine widow who warns Diana against the wiles of Bertram and Parolles. (A different character from the Mariana of Measure for Measure.)",
+    "relationships": [
+      { "other_id": "diana", "relation": "neighbour who warns" },
+      { "other_id": "widow", "relation": "friend of" }
+    ],
+    "color": "#c2569a"
+  },
+  {
+    "id": "first_soldier",
+    "name": "First Soldier",
+    "aliases": ["FIRST SOLDIER."],
+    "role": "minor",
+    "description": "A French soldier who, in the drum-plot, plays the 'interpreter' speaking nonsense to the blindfolded Parolles and reading out his treacherous confessions, driving the unmasking of the coward.",
+    "relationships": [
+      { "other_id": "parolles", "relation": "interrogates as the mock interpreter" },
+      { "other_id": "first_lord", "relation": "serves in the drum-plot" }
+    ],
+    "color": "#6a7a7a"
+  },
+  {
+    "id": "second_soldier",
+    "name": "Second Soldier",
+    "aliases": ["SECOND SOLDIER."],
+    "role": "minor",
+    "description": "A French soldier who assists in the ambush and interrogation of Parolles.",
+    "color": "#7a7a6a"
+  },
+  {
+    "id": "first_gentleman",
+    "name": "First Gentleman",
+    "aliases": ["FIRST GENTLEMAN."],
+    "role": "minor",
+    "description": "One of two French gentlemen who, in 3.2, bring the Countess and Helena word of Bertram's flight to the wars and his refusal of his wife. (Often identified with the French lords.)",
+    "relationships": [
+      { "other_id": "countess", "relation": "brings news to" }
+    ],
+    "color": "#6a7a8a"
+  },
+  {
+    "id": "second_gentleman",
+    "name": "Second Gentleman",
+    "aliases": ["SECOND GENTLEMAN."],
+    "role": "minor",
+    "description": "The second of the two French gentlemen who report Bertram's conduct to the household at Rousillon in 3.2.",
+    "relationships": [
+      { "other_id": "countess", "relation": "brings news to" }
+    ],
+    "color": "#5a6a7a"
+  },
+  {
+    "id": "gentleman",
+    "name": "Gentleman (Astringer)",
+    "aliases": ["GENTLEMAN."],
+    "role": "minor",
+    "description": "A gentleman of the French court (a 'gentle astringer,' or keeper of goshawks) whom Helena meets at Marseilles and who carries her petition to the King, helping her reach him for the final reckoning.",
+    "relationships": [
+      { "other_id": "helena", "relation": "carries her suit to the King" },
+      { "other_id": "king", "relation": "petitions on Helena's behalf" }
+    ],
+    "color": "#7a8a6a"
+  },
+  {
+    "id": "page",
+    "name": "Page",
+    "aliases": ["PAGE."],
+    "role": "minor",
+    "description": "A page in the Countess's household who summons Parolles.",
+    "color": "#8a7a6a"
+  },
+  {
+    "id": "servant",
+    "name": "Servant",
+    "aliases": ["SERVANT."],
+    "role": "minor",
+    "description": "A serving-man who attends the action and carries word among the principals.",
+    "color": "#7a7a7a"
+  },
+  {
+    "id": "all",
+    "name": "All",
+    "aliases": ["ALL."],
+    "role": "ensemble",
+    "description": "A unison speech-prefix for the assembled lords and courtiers speaking together.",
+    "color": "#6a6a6a"
+  },
+  {
+    "id": "both",
+    "name": "Both",
+    "aliases": ["BOTH."],
+    "role": "ensemble",
+    "description": "A unison speech-prefix for two lords answering the King together.",
+    "color": "#787878"
+  }
+]

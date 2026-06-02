@@ -1,0 +1,361 @@
+[
+  {
+    "id": "troilus",
+    "name": "Troilus",
+    "aliases": ["TROILUS."],
+    "role": "protagonist",
+    "description": "The youngest of King Priam's warrior sons, in love with Cressida. Idealistic and absolute in feeling, he swears eternal truth when Pandarus brings them together, then is forced to give her up to the Greeks in a prisoner exchange. Hidden, he watches her transfer her love to the Greek Diomedes, and his faith collapses ('This is, and is not, Cressid'). He turns to bitter revenge as Troy slides toward ruin. His name became, through this story, the very type of the faithful lover betrayed.",
+    "relationships": [
+      { "other_id": "cressida", "relation": "loves and is betrayed by" },
+      { "other_id": "pandarus", "relation": "served by the go-between" },
+      { "other_id": "hector", "relation": "younger brother of" },
+      { "other_id": "diomedes", "relation": "rival for Cressida" }
+    ],
+    "color": "#b0563f"
+  },
+  {
+    "id": "cressida",
+    "name": "Cressida",
+    "aliases": ["CRESSIDA."],
+    "role": "deuteragonist",
+    "description": "Daughter of the Trojan priest Calchas, who has defected to the Greeks. Witty, guarded, and clear-eyed about how men value what they cannot have, she loves Troilus but holds off until her uncle Pandarus brings them together. Traded to the Greek camp for the prisoner Antenor, friendless among enemies, she swiftly takes the protection of Diomedes — fulfilling the 'false Cressid' tradition the play both stages and interrogates. (Present her 'falseness' as a critical problem, not a settled verdict: she is bartered between men who escape the blame.)",
+    "relationships": [
+      { "other_id": "troilus", "relation": "loves, then forsakes" },
+      { "other_id": "pandarus", "relation": "niece of" },
+      { "other_id": "calchas", "relation": "daughter of" },
+      { "other_id": "diomedes", "relation": "turns to in the Greek camp" }
+    ],
+    "color": "#b0567a"
+  },
+  {
+    "id": "pandarus",
+    "name": "Pandarus",
+    "aliases": ["PANDARUS.", "ANDARUS."],
+    "role": "major",
+    "description": "Cressida's uncle, who busily brings the two lovers together — and from his name English gets the word 'pander' (a go-between for illicit sex). Bawdy, gossiping, and self-pitying, he reduces love to brokerage as Thersites reduces war to lechery. He ends the play diseased and rejected, speaking a sour Epilogue that bequeaths his 'diseases' to the audience.",
+    "relationships": [
+      { "other_id": "troilus", "relation": "go-between for" },
+      { "other_id": "cressida", "relation": "uncle and procurer of" }
+    ],
+    "color": "#b07a2a"
+  },
+  {
+    "id": "hector",
+    "name": "Hector",
+    "aliases": ["HECTOR."],
+    "role": "major",
+    "description": "Priam's eldest son and Troy's greatest warrior, the one figure of genuine chivalry in the play. In the council he argues by reason that Helen is not worth the war, then yields to 'honour' and keeps fighting. Magnanimous to a fault — he spares the weary Achilles in battle — he is caught unarmed and butchered by Achilles's Myrmidons, a murder that destroys the play's last image of heroic honour.",
+    "relationships": [
+      { "other_id": "troilus", "relation": "elder brother of" },
+      { "other_id": "achilles", "relation": "killed by, through ambush" },
+      { "other_id": "ajax", "relation": "cousin and single-combat opponent" },
+      { "other_id": "andromache", "relation": "husband of" }
+    ],
+    "color": "#9a4a2a"
+  },
+  {
+    "id": "ulysses",
+    "name": "Ulysses",
+    "aliases": ["ULYSSES."],
+    "role": "major",
+    "description": "The cleverest of the Greek leaders (Homer's Odysseus). He delivers the play's great speech on 'degree' — the cosmic hierarchy whose collapse, he argues, is why the seven-year siege has stalled — and schemes to humble the sulking Achilles by promoting the dull Ajax and by lecturing him that fame must be ceaselessly renewed ('Time hath a wallet at his back'). His eloquence is matched by a cold, manipulative politics.",
+    "relationships": [
+      { "other_id": "agamemnon", "relation": "chief counsellor to" },
+      { "other_id": "achilles", "relation": "schemes to rouse" },
+      { "other_id": "nestor", "relation": "allied strategist" }
+    ],
+    "color": "#3f7a8a"
+  },
+  {
+    "id": "achilles",
+    "name": "Achilles",
+    "aliases": ["ACHILLES."],
+    "role": "major",
+    "description": "The greatest Greek warrior, who sulks in his tent with his companion Patroclus and refuses to fight, out of pride and a secret love for the Trojan princess Polyxena. Roused at last by Patroclus's death, he does not meet Hector in fair combat but has his Myrmidons surround and kill the unarmed Trojan, then drags the body — the play's harshest deflation of epic heroism.",
+    "relationships": [
+      { "other_id": "patroclus", "relation": "companion and intimate of" },
+      { "other_id": "hector", "relation": "murders by ambush" },
+      { "other_id": "ulysses", "relation": "manipulated by" }
+    ],
+    "color": "#4a5a9a"
+  },
+  {
+    "id": "thersites",
+    "name": "Thersites",
+    "aliases": ["THERSITES."],
+    "role": "major",
+    "description": "A 'deformed and scurrilous' Greek (from Homer's Iliad, the one common soldier who rails at the chiefs), here the play's foul-mouthed chorus. He attaches himself to Ajax and then Achilles, abusing everyone and summing up the whole war as 'nothing but wars and lechery.' His scurrility is the play's nastiest voice — report it as such, not as endorsement.",
+    "relationships": [
+      { "other_id": "ajax", "relation": "abused servant of" },
+      { "other_id": "achilles", "relation": "railing fool to" }
+    ],
+    "color": "#5a7a55"
+  },
+  {
+    "id": "agamemnon",
+    "name": "Agamemnon",
+    "aliases": ["AGAMEMNON.", "AGAME"],
+    "role": "supporting",
+    "description": "The Greek general and commander-in-chief, brother of Menelaus, presiding over a council that cannot make the great Achilles obey. Dignified but ineffectual, he leans on Ulysses's and Nestor's counsel.",
+    "relationships": [
+      { "other_id": "menelaus", "relation": "brother of" },
+      { "other_id": "ulysses", "relation": "advised by" }
+    ],
+    "color": "#2f6aa0"
+  },
+  {
+    "id": "nestor",
+    "name": "Nestor",
+    "aliases": ["NESTOR."],
+    "role": "supporting",
+    "description": "The aged, long-winded Greek counsellor, famous for his years and his proverbs, who seconds Ulysses's schemes against Achilles.",
+    "relationships": [
+      { "other_id": "ulysses", "relation": "fellow strategist" },
+      { "other_id": "agamemnon", "relation": "counsellor to" }
+    ],
+    "color": "#6a7a8a"
+  },
+  {
+    "id": "ajax",
+    "name": "Ajax",
+    "aliases": ["AJAX."],
+    "role": "supporting",
+    "description": "A massive, slow-witted Greek warrior, part Trojan by blood (cousin to Hector), whom the leaders flatter into serving as their champion to spite the absent Achilles. Vain and easily gulled, he is the butt of Thersites's abuse.",
+    "relationships": [
+      { "other_id": "hector", "relation": "cousin and single-combat opponent" },
+      { "other_id": "thersites", "relation": "master abused by" },
+      { "other_id": "achilles", "relation": "set up as a rival to" }
+    ],
+    "color": "#5a6a8a"
+  },
+  {
+    "id": "diomedes",
+    "name": "Diomedes",
+    "aliases": ["DIOMEDES."],
+    "role": "supporting",
+    "description": "A blunt, hard Greek commander who fetches Cressida from Troy and quickly becomes her protector and lover in the Greek camp, winning from her the love-token Troilus gave her. He embodies the cynical appetite the play sets against Troilus's idealism.",
+    "relationships": [
+      { "other_id": "cressida", "relation": "wins in the Greek camp" },
+      { "other_id": "troilus", "relation": "rival who supplants" }
+    ],
+    "color": "#4a7a7a"
+  },
+  {
+    "id": "priam",
+    "name": "Priam",
+    "aliases": ["PRIAM."],
+    "role": "supporting",
+    "description": "The aged King of Troy, father of Hector, Troilus, Paris, and many more, who presides over the council that decides to keep Helen and pleads in vain with Hector not to fight on his last day.",
+    "relationships": [
+      { "other_id": "hector", "relation": "father of" },
+      { "other_id": "troilus", "relation": "father of" },
+      { "other_id": "paris", "relation": "father of" }
+    ],
+    "color": "#8a6a3a"
+  },
+  {
+    "id": "paris",
+    "name": "Paris",
+    "aliases": ["PARIS."],
+    "role": "supporting",
+    "description": "Priam's son whose abduction of Helen began the war. He lives with Helen amid bawdy ease and argues, with Troilus, that honour requires they keep her — making his private appetite the public cause.",
+    "relationships": [
+      { "other_id": "helen", "relation": "lover of" },
+      { "other_id": "priam", "relation": "son of" },
+      { "other_id": "troilus", "relation": "brother and ally in council" }
+    ],
+    "color": "#c2568a"
+  },
+  {
+    "id": "aeneas",
+    "name": "Aeneas",
+    "aliases": ["AENEAS."],
+    "role": "supporting",
+    "description": "A Trojan commander who carries Hector's challenge to the Greeks and arranges the exchange of Cressida. Courteous and chivalric, he moves easily between the two camps under the war's strange etiquette.",
+    "relationships": [
+      { "other_id": "hector", "relation": "carries his challenge" },
+      { "other_id": "diomedes", "relation": "exchanges courtesies and threats with" }
+    ],
+    "color": "#a05a3a"
+  },
+  {
+    "id": "patroclus",
+    "name": "Patroclus",
+    "aliases": ["PATROCLUS."],
+    "role": "supporting",
+    "description": "Achilles's close companion, who keeps him idle and amused in his tent (the camp jeers at their intimacy). His death in battle is what finally drives Achilles back to the field to kill Hector.",
+    "relationships": [
+      { "other_id": "achilles", "relation": "companion and intimate of" }
+    ],
+    "color": "#5a8a8a"
+  },
+  {
+    "id": "menelaus",
+    "name": "Menelaus",
+    "aliases": ["MENELAUS."],
+    "role": "minor",
+    "description": "Agamemnon's brother and Helen's wronged husband, the man for whose sake the war is nominally fought; he is mostly mocked as a cuckold.",
+    "relationships": [
+      { "other_id": "agamemnon", "relation": "brother of" },
+      { "other_id": "helen", "relation": "deserted husband of" }
+    ],
+    "color": "#6a6a9a"
+  },
+  {
+    "id": "calchas",
+    "name": "Calchas",
+    "aliases": ["CALCHAS."],
+    "role": "minor",
+    "description": "A Trojan priest who has foreseen Troy's fall and defected to the Greeks; he persuades them to trade the prisoner Antenor for his daughter Cressida, setting the lovers' separation in motion.",
+    "relationships": [
+      { "other_id": "cressida", "relation": "father of" }
+    ],
+    "color": "#8a7a4a"
+  },
+  {
+    "id": "cassandra",
+    "name": "Cassandra",
+    "aliases": ["CASSANDRA."],
+    "role": "minor",
+    "description": "Priam's daughter, a prophetess fated never to be believed, who breaks into the council and into Hector's last morning crying that Troy will burn and Hector will die.",
+    "relationships": [
+      { "other_id": "priam", "relation": "daughter of" },
+      { "other_id": "hector", "relation": "warns of his death" }
+    ],
+    "color": "#9a4a6a"
+  },
+  {
+    "id": "andromache",
+    "name": "Andromache",
+    "aliases": ["ANDROMACHE."],
+    "role": "minor",
+    "description": "Hector's wife, who, warned by dreams and Cassandra's prophecy, begs him in vain not to go to battle on the day he is killed.",
+    "relationships": [
+      { "other_id": "hector", "relation": "wife of" }
+    ],
+    "color": "#b06a8a"
+  },
+  {
+    "id": "helen",
+    "name": "Helen",
+    "aliases": ["HELEN."],
+    "role": "minor",
+    "description": "Helen of Troy, wife of Menelaus, now living with Paris in Troy — the war's cause, shown not as a tragic beauty but as an idle, flirtatious figure trading bawdy talk with Pandarus.",
+    "relationships": [
+      { "other_id": "paris", "relation": "lives with in Troy" },
+      { "other_id": "menelaus", "relation": "deserted wife of" }
+    ],
+    "color": "#c25a7a"
+  },
+  {
+    "id": "deiphobus",
+    "name": "Deiphobus",
+    "aliases": ["DEIPHOBUS."],
+    "role": "minor",
+    "description": "One of Priam's sons, a Trojan prince who takes part in the council and the war.",
+    "relationships": [
+      { "other_id": "priam", "relation": "son of" }
+    ],
+    "color": "#8a5a4a"
+  },
+  {
+    "id": "helenus",
+    "name": "Helenus",
+    "aliases": ["HELENUS."],
+    "role": "minor",
+    "description": "A son of Priam and a priest, who urges restraint in the Trojan council and is taunted by Troilus for preferring reason to valour.",
+    "relationships": [
+      { "other_id": "priam", "relation": "son of" },
+      { "other_id": "troilus", "relation": "rebuked by" }
+    ],
+    "color": "#9a6a5a"
+  },
+  {
+    "id": "antenor",
+    "name": "Antenor",
+    "aliases": ["ANTENOR."],
+    "role": "minor",
+    "description": "A Trojan commander captured by the Greeks; the exchange of him for Cressida is what tears the lovers apart. He is a near-silent presence whose value to Troy drives the plot.",
+    "relationships": [
+      { "other_id": "cressida", "relation": "exchanged for" }
+    ],
+    "color": "#8a7a5a"
+  },
+  {
+    "id": "margarelon",
+    "name": "Margarelon",
+    "aliases": ["MARGARELON."],
+    "role": "minor",
+    "description": "A bastard son of Priam who appears in the final battle, challenging and scorned by the coward Thersites.",
+    "relationships": [
+      { "other_id": "priam", "relation": "bastard son of" },
+      { "other_id": "thersites", "relation": "challenges in battle" }
+    ],
+    "color": "#7a4a3a"
+  },
+  {
+    "id": "alexander",
+    "name": "Alexander",
+    "aliases": ["ALEXANDER."],
+    "role": "minor",
+    "description": "Cressida's servant, who in 1.2 describes the Trojan and Greek warriors to her as they pass.",
+    "relationships": [
+      { "other_id": "cressida", "relation": "servant of" }
+    ],
+    "color": "#9a8a6a"
+  },
+  {
+    "id": "servant",
+    "name": "Servant",
+    "aliases": ["SERVANT."],
+    "role": "minor",
+    "description": "The shared speech-prefix for several serving-men (of Pandarus, Paris, and Diomedes) who carry messages and exchange wit with their masters.",
+    "color": "#8a8a7a"
+  },
+  {
+    "id": "boy",
+    "name": "Boy",
+    "aliases": ["BOY."],
+    "role": "minor",
+    "description": "Troilus's page, who brings his master word in 1.2 and fetches Pandarus to him.",
+    "relationships": [
+      { "other_id": "troilus", "relation": "page to" }
+    ],
+    "color": "#9a8a7a"
+  },
+  {
+    "id": "myrmidon",
+    "name": "Myrmidon",
+    "aliases": ["MYRMIDON."],
+    "role": "minor",
+    "description": "One of Achilles's followers, the Myrmidons, who in the final battle surround and kill the unarmed Hector at their leader's command.",
+    "relationships": [
+      { "other_id": "achilles", "relation": "follower of" }
+    ],
+    "color": "#5a6a7a"
+  },
+  {
+    "id": "soldiers",
+    "name": "Soldiers",
+    "aliases": ["SOLDIERS."],
+    "role": "ensemble",
+    "description": "Greek soldiers who cry out together within, spreading the news that Hector is slain.",
+    "color": "#6a7a7a"
+  },
+  {
+    "id": "prologue",
+    "name": "Prologue",
+    "aliases": ["PROLOGUE."],
+    "role": "chorus",
+    "description": "The 'armed Prologue' who opens the play, setting the scene before Troy in the war's seventh year and announcing that the action 'leaps o'er the vaunt and firstlings of those broils, beginning in the middle.'",
+    "color": "#6a6a6a"
+  },
+  {
+    "id": "all",
+    "name": "All",
+    "aliases": ["ALL."],
+    "role": "ensemble",
+    "description": "A unison speech-prefix for several characters speaking together.",
+    "color": "#787878"
+  }
+]

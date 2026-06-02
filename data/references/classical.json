@@ -710,7 +710,8 @@
       "summary_basic": "The Comedy of Errors is Shakespeare's most classical play, closely modelled on the Roman comedies of Plautus. Its plot of long-separated identical twins comes from Plautus's Menaechmi; Shakespeare heightens the farce by adding a second set of twins — the servants both named Dromio — borrowed from another Plautus play, the Amphitruo, the source too of the locked-out-husband scene.",
       "detail_scholar": "Plautus (c. 254-184 BC) wrote boisterous Latin comedies adapted from Greek New Comedy, full of mistaken identity, clever slaves, and farcical reversals; they were standard texts in Tudor grammar schools, so Shakespeare knew the Menaechmi in Latin (William Warner's English version appeared in 1595, just after the play). Doubling the twins multiplies the confusions: there are now four men who can be mistaken, not two. Shakespeare also frames the Roman farce with the romance of Aegeon and Emilia — a separated family lost and found, drawn from the Apollonius of Tyre tradition — giving the slapstick a tender, redemptive ending the originals lack.",
       "related_plays": [
-        "comedy_of_errors"
+        "comedy_of_errors",
+        "alls_well_that_ends_well"
       ],
       "see_also": [
         { "kind": "historical", "card_id": "apollonius-of-tyre" }
@@ -913,6 +914,74 @@
       "detail_scholar": "The myth (Homer, Odyssey 4; Virgil, Georgics 4) made 'Protean' a synonym for the shifting and unreliable. The naming is one of Shakespeare's clearest uses of a classical name as a character-emblem: Proteus betrays friend (Valentine) and beloved (Julia) alike, changing shape with circumstance, while the constant Valentine ('strong,' from Latin valens) and the faithful Julia keep their form. The contrast of the steadfast and the Protean runs through the play's debate of love against friendship.",
       "related_plays": [
         "two_gentlemen_of_verona"
+      ]
+    },
+    {
+      "id": "the-miles-gloriosus",
+      "kind": "classical",
+      "title": "The miles gloriosus (the braggart soldier)",
+      "source": {
+        "name": "Plautus, Miles Gloriosus",
+        "citation": "Plautus, Miles Gloriosus ('The Braggart Soldier'), c. 205 BC — the Roman comedy whose vainglorious, cowardly captain Pyrgopolynices gave the stock type its name. The type passed through Terence's swaggerer Thraso (Eunuchus) and the Capitano of the Italian commedia dell'arte to the Elizabethan stage."
+      },
+      "summary_basic": "Parolles is a version of the 'miles gloriosus' — the boastful, cowardly soldier of classical comedy, all swagger, fine clothes, and invented exploits, who is publicly exposed as a fraud. The type is named for the strutting captain of Plautus's comedy. Shakespeare gives the figure several faces: Parolles here, Pistol, Falstaff's wartime bluster, and the fantastical Don Armado of Love's Labour's Lost. The drum-plot, in which the blindfolded Parolles betrays everything to save his skin, is the type's classic unmasking.",
+      "detail_scholar": "The braggart soldier — empty valour, gorgeous dress, tall tales of battles never fought, cowardice revealed under pressure — was a fixture of Roman New Comedy and of the commedia's Capitano, and was well known to a grammar-school-educated playwright. Parolles ('words,' from French paroles) is the type distilled to pure verbal inflation: his courage, like his name, is only talk. Yet Shakespeare gives him an inwardness the Roman original lacks. Stripped of his disguise and his honour, Parolles does not simply slink off but turns to the audience to accept himself — 'Simply the thing I am / Shall make me live' — a moment of rueful self-knowledge that complicates the easy laughter at his fall.",
+      "related_plays": [
+        "alls_well_that_ends_well"
+      ],
+      "see_also": [
+        { "kind": "classical", "card_id": "plautus-and-roman-comedy" }
+      ]
+    },
+    {
+      "id": "the-greek-and-trojan-heroes",
+      "kind": "classical",
+      "title": "The Greek and Trojan heroes",
+      "source": {
+        "name": "Homer, Iliad",
+        "citation": "Homer, Iliad (esp. the combats and councils of Books 1-9): the Greek general Agamemnon and his brother Menelaus; the runner Achilles; the lumbering Ajax; the wily Ulysses (Odysseus); aged Nestor; Diomedes; against them the Trojans Hector, Paris, Aeneas, and old King Priam. Compare Chapman's English Iliad (1598)."
+      },
+      "summary_basic": "The cast is the roll-call of legendary warriors from Homer's Iliad — but Shakespeare deflates them. Achilles sulks in his tent and has an unarmed Hector murdered; Ajax is a slow-witted bruiser; the leaders' grand strategy talk goes nowhere. Knowing the heroic reputations these names carried — Achilles the greatest fighter, Ulysses the cleverest, Hector the most honourable — lets a reader feel how sourly the play undercuts every one of them.",
+      "detail_scholar": "Each warrior arrives weighted with epic fame, which the play then punctures: Ulysses preaches cosmic 'degree' yet schemes pettily to lure Achilles back to war; Ajax is gulled by flattery; Achilles is vain and treacherous. The mode is satiric and disillusioned — scholars link it to the turn-of-the-century 'war of the theatres' and to a possible Inns-of-Court audience who would relish the mockery of martial honour. On the Greek side the choric voice of this debunking is Thersites (Homer, Iliad 2.211-277, the one common soldier who dares rail at the chiefs), here a 'deformed and scurrilous' railer who calls the whole war 'wars and lechery.'",
+      "related_plays": [
+        "troilus_and_cressida"
+      ],
+      "see_also": [
+        { "kind": "historical", "card_id": "the-matter-of-troy" }
+      ]
+    },
+    {
+      "id": "achilles-and-patroclus",
+      "kind": "classical",
+      "title": "Achilles, Patroclus, and the wrath of Achilles",
+      "source": {
+        "name": "Homer, Iliad",
+        "citation": "Homer, Iliad 1 and 9 (Achilles, in anger, withdraws from the fighting and will not be moved) and 16-18 (the death of his companion Patroclus finally drives him back to the field to kill Hector). Compare Chapman's Iliad (1598)."
+      },
+      "summary_basic": "Homer's whole Iliad turns on 'the wrath of Achilles': the greatest Greek warrior sulks in his tent and refuses to fight, and only the killing of his beloved companion Patroclus brings him roaring back to slay Hector. Shakespeare keeps the withdrawal but makes it petty and spiteful, and has Achilles butcher an unarmed Hector by setting his men on him — turning the epic's tragic hero into a vainglorious thug.",
+      "detail_scholar": "The poem opens by naming its subject, the menis ('wrath') of Achilles. Shakespeare's play foregrounds the intimacy of Achilles and Patroclus that the Iliad leaves more implicit: the camp gossips that Achilles stays abed 'with his masculine whore' (Thersites, 5.1). The ambush-killing of Hector (5.8), ordered while Hector has disarmed, is the play's ugliest deflation of heroic honour. Content-care: Thersites's slurs are the play's nastiest voice, not its endorsement; the nature of the Achilles-Patroclus bond has been debated since antiquity (Plato's Symposium already argues over it), and the note should report that, not settle it.",
+      "related_plays": [
+        "troilus_and_cressida"
+      ],
+      "see_also": [
+        { "kind": "classical", "card_id": "the-greek-and-trojan-heroes" }
+      ]
+    },
+    {
+      "id": "the-judgement-of-paris",
+      "kind": "classical",
+      "title": "The Judgement of Paris",
+      "source": {
+        "name": "Ovid, Heroides; Lucian, Dialogues of the Gods",
+        "citation": "Ovid, Heroides 16.71-88 (Paris recounts the choice); Lucian, Dialogues of the Gods 20. The goddess of strife's golden apple inscribed 'to the fairest' set Juno, Pallas (Athena), and Venus to be judged by the Trojan prince Paris, who awarded it to Venus for the bribe of Helen — the act that caused the war."
+      },
+      "summary_basic": "The Trojan War began with a beauty contest. At a wedding the goddess of strife threw down a golden apple marked 'to the fairest'; Paris, prince of Troy, was made to judge between Juno, Pallas (Athena), and Venus, and chose Venus because she promised him the most beautiful woman alive — Helen, another man's wife. When the Trojans debate whether to keep Helen, this ruinous original bargain lies behind the whole argument.",
+      "detail_scholar": "The 'apple of discord' and Paris's choice of Venus (love) over Juno (power) and Pallas (wisdom) were a Renaissance commonplace, staged in pageant and painted in emblem. The play's Trojan council (2.2) weighs Helen's 'worth' against the cost of the war: Hector argues by reason that she is not worth one more life, then yields to 'honour' and resolves to keep her — exposing how a single prince's private appetite is dressed up as the public good. The irony deepens the play's anatomy of value: is anything 'worth' what men will pay for it?",
+      "related_plays": [
+        "troilus_and_cressida"
+      ],
+      "see_also": [
+        { "kind": "classical", "card_id": "helen-of-troy" }
       ]
     }
   ]

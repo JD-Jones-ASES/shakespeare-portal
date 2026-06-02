@@ -1,0 +1,60 @@
+{
+  "play": "Troilus and Cressida",
+  "overview": "Set in the seventh year of the Trojan War, the play braids two stories and sours both. In Troy, the young prince Troilus pines for Cressida, daughter of the priest Calchas, who has defected to the Greeks; her bawdy uncle Pandarus brings the two together, and they vow eternal love — Troilus swearing truth, Cressida accepting that her name will stand for falsehood if she breaks faith. No sooner are they joined than a prisoner exchange forces Cressida to the Greek camp, where, frightened and alone, she quickly transfers her favours to the Greek Diomedes while a hidden Troilus watches, heartbroken. Meanwhile, in the Greek camp, the war has stalled: the great Achilles sulks in his tent with his companion Patroclus while Ulysses preaches that the army's failure springs from broken 'degree,' and the leaders scheme to prick Achilles's pride by promoting the dull Ajax. The Trojans debate whether Helen is worth the war and, against Hector's own reasoning, decide to keep her for honour's sake. The two plots end in disillusion and slaughter: Hector, the one figure of true chivalry, is caught unarmed and butchered by Achilles's followers, and Pandarus closes the play by bequeathing his diseases to the audience. A bitter 'problem play,' it anatomizes honour, value, and faith and finds them all hollow.",
+  "acts": [
+    {
+      "number": 1,
+      "summary": "An armed Prologue sets the scene; Troilus pines for Cressida as Pandarus stalls; in the Greek camp Ulysses diagnoses the stalled siege as a failure of 'degree' and plots to rouse the sulking Achilles.",
+      "scenes": [
+        { "number": 1, "summary": "After the armed Prologue announces the war 'begun in the middle,' Troilus tells Pandarus he is too sick with love for Cressida to fight. Pandarus, Cressida's uncle and the lovers' go-between, frets that his efforts go unthanked. News of the day's battle calls Troilus to arms.", "themes": ["love", "war", "the_go_between"] },
+        { "number": 2, "summary": "Cressida and her man Alexander watch as the Trojan lords return from the field; Pandarus praises Troilus to her extravagantly. Alone, Cressida admits she loves Troilus but will hold off, knowing 'men prize the thing ungained more than it is.'", "themes": ["love", "desire", "value"] },
+        { "number": 3, "summary": "In the Greek camp Agamemnon, Nestor, and Ulysses ask why seven years' siege has failed. Ulysses answers with the great speech on 'degree' — order itself has come untuned, for Achilles lies idle in his tent mocking the generals with Patroclus. When Hector sends a challenge to single combat, Ulysses and Nestor plot to rig the choice so that blockish Ajax, not Achilles, is the Greek champion, to sting Achilles's pride.", "themes": ["order_and_degree", "honor", "stratagem"] }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "Ajax and Thersites brawl; the Trojans debate and decide to keep Helen; the Greeks flatter Ajax to spite Achilles.",
+      "scenes": [
+        { "number": 1, "summary": "The scurrilous Thersites trades insults with and is beaten by the dull-witted Ajax, railing at the stupidity of both Ajax and Achilles and at the whole war as 'nothing but wars and lechery.'", "themes": ["satire", "war", "folly"] },
+        { "number": 2, "summary": "In Priam's council the Trojans debate whether to end the war by returning Helen. Hector argues by reason that she is not worth the lives she costs; Troilus and Paris answer that honour and 'worth' lie in what men will pay. Cassandra runs in prophesying Troy's destruction. Hector, persuaded against his own argument, agrees to keep Helen.", "themes": ["honor", "value", "prophecy"] },
+        { "number": 3, "summary": "Achilles refuses to leave his tent. Ulysses has the generals lavish praise on Ajax as their champion and pointedly ignore Achilles, baiting his vanity. Ajax swells with self-importance.", "themes": ["pride", "flattery", "stratagem"] }
+      ]
+    },
+    {
+      "number": 3,
+      "summary": "Pandarus sings of love at Paris's; he brings Troilus and Cressida together to vow love and go to bed; the Greeks arrange to exchange Cressida for a prisoner, and Ulysses lectures Achilles on the decay of fame.",
+      "scenes": [
+        { "number": 1, "summary": "At Paris's, Pandarus exchanges bawdy courtesies with Helen and Paris and sings a wanton song, 'Love, love, nothing but love.' The talk of Helen reduces the war's cause to idle dalliance.", "themes": ["love", "bawdy", "music"] },
+        { "number": 2, "summary": "Pandarus brings the lovers together in his orchard. Troilus and Cressida confess their love and pledge faith: Troilus swears to be the very pattern of truth, Cressida that her name shall be the byword for falsehood if she proves untrue, and Pandarus that go-betweens shall be called 'pandars' after him. They go to bed.", "themes": ["love", "vows", "truth_and_falsehood"] },
+        { "number": 3, "summary": "Calchas asks the Greeks to trade the captured Trojan Antenor for his daughter Cressida, and it is granted. To humble Achilles, Ulysses has the generals snub him, then tells him that reputation must be ceaselessly renewed — 'Time hath a wallet at his back' — and reveals that the Greeks know of his secret love for the Trojan princess Polyxena.", "themes": ["exchange", "fame", "time"] }
+      ]
+    },
+    {
+      "number": 4,
+      "summary": "Cressida is exchanged to the Greeks and parts from Troilus with vows and tokens; in the Greek camp she is kissed by the generals, and Hector and Ajax fight a courteous, inconclusive duel.",
+      "scenes": [
+        { "number": 1, "summary": "In Troy, Aeneas meets the Greek Diomedes, who has come to fetch Cressida; they exchange chivalric threats. The exchange of Cressida for Antenor is confirmed.", "themes": ["exchange", "rivalry"] },
+        { "number": 2, "summary": "After their first night together, Troilus and Cressida part at dawn amid Pandarus's leering jests, until word arrives that she must be handed over to the Greeks.", "themes": ["love", "parting", "fortune"] },
+        { "number": 3, "summary": "Troilus is briefly summoned to deliver Cressida to Diomedes for the exchange.", "themes": ["exchange", "duty"] },
+        { "number": 4, "summary": "Troilus and Cressida take a grief-stricken leave. They exchange love-tokens — his sleeve, her glove — and vow constancy; Troilus, uneasy, begs her to be true among the 'merry Greeks,' and Diomedes leads her away.", "themes": ["parting", "vows", "jealousy"] },
+        { "number": 5, "summary": "Cressida reaches the Greek camp and is kissed in turn by the generals, Ulysses scorning her as 'a daughter of the game.' Hector and Ajax (who are cousins) fight their single combat, but Hector breaks it off for kinship's sake. Hector is feasted in the Greek camp amid courtesies and veiled menace, and Achilles studies him, marking where he will strike.", "themes": ["objectification", "honor", "single_combat"] }
+      ]
+    },
+    {
+      "number": 5,
+      "summary": "Troilus secretly watches Cressida give his token to Diomedes; against omens Hector goes to battle; in the fighting Patroclus is killed and Achilles has the unarmed Hector slaughtered, leaving Troy in grief and Pandarus to a diseased farewell.",
+      "scenes": [
+        { "number": 1, "summary": "Thersites rails as Achilles receives a letter from Troy — from Queen Hecuba and his love Polyxena — binding him by an oath to keep out of the next day's battle.", "themes": ["satire", "oath", "love"] },
+        { "number": 2, "summary": "Hidden and guided by Ulysses, Troilus watches Cressida flirt with Diomedes and give him the very sleeve Troilus gave her. His faith shatters — 'This is, and is not, Cressid' — while Thersites jeers that it is all 'lechery.'", "themes": ["betrayal", "disillusion", "the_false_woman"] },
+        { "number": 3, "summary": "In Troy, Andromache and the prophetess Cassandra beg Hector not to fight, warning of his death; Priam too urges him to stay. Hector insists on honour and goes. Troilus, bent on revenge for Cressida, tears up Pandarus's letter from her.", "themes": ["prophecy", "honor", "revenge"] },
+        { "number": 4, "summary": "On the field Thersites dodges the fighting and gloats over the carnage, summing up the war as knaves and fools destroying one another.", "themes": ["war", "satire", "cowardice"] },
+        { "number": 5, "summary": "Diomedes sends Troilus's captured horse to Cressida as a trophy. Agamemnon reports the day's losses; word comes that the enraged Achilles is now seeking Hector after Patroclus's death.", "themes": ["war", "loss", "revenge"] },
+        { "number": 6, "summary": "Troilus fights furiously, battling both Diomedes and Ajax; Hector meets and spares the weary Achilles.", "themes": ["battle", "revenge", "honor"] },
+        { "number": 7, "summary": "Achilles charges his Myrmidons to surround Hector when he finds him; Thersites evades a fight with Priam's bastard son Margarelon.", "themes": ["stratagem", "cowardice"] },
+        { "number": 8, "summary": "Achilles finds Hector unarmed and resting and has his Myrmidons cut him down, then drags the body — a murder, not a duel, that destroys the play's last image of heroic honour.", "themes": ["murder", "dishonor", "war_atrocity"] },
+        { "number": 9, "summary": "Achilles proclaims his 'victory,' ordering Hector's corpse tied to his horse's tail to be dragged about the field.", "themes": ["dishonor", "cruelty"] },
+        { "number": 10, "summary": "Troilus brings word of Hector's death and Troy's coming ruin, cursing Achilles and the 'traitor' Pandarus. Pandarus is left to speak a bitter Epilogue, bequeathing his diseases to the audience.", "themes": ["grief", "ruin", "disease"] }
+      ]
+    }
+  ]
+}

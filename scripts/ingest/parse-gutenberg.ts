@@ -115,6 +115,13 @@ const INDUCTION_HEADER = /^\s*INDUCTION\.?\s*$/i;
 function isFramingHeader(t: string): boolean {
   if (PROLOGUE_HEADER.test(t)) return true; // "THE PROLOGUE" (Romeo and Juliet)
   if (hasUpperChorus && BARE_PROLOGUE_HEADER.test(t)) return true; // "PROLOGUE." before every act (Henry V)
+  // Troilus and Cressida opens with an "armed Prologue" whose header is the bare word
+  // "PROLOGUE" (no leading "THE"), and the play defines no uppercase CHORUS. speaker, so neither
+  // rule above matches. SLUG-GATED (not on hasPrologueSpeaker) because A Midsummer Night's Dream
+  // also defines a "PROLOGUE." alias for Quince's play-within prologue: an alias-only gate would
+  // make Midsummer's bare "PROLOGUE" a framing header in the content-start scan. The slug gate
+  // keeps all 32 shipped plays byte-identical (confirmed by the re-ingest diff).
+  if (slug === 'troilus_and_cressida' && BARE_PROLOGUE_HEADER.test(t)) return true;
   if (hasRumour && INDUCTION_HEADER.test(t)) return true; // "INDUCTION" (Henry IV Part 2)
   return false;
 }
@@ -536,6 +543,13 @@ for (; i < allLines.length; i++) {
   }
   if ((m = trimmed.match(ACT_HEADER))) {
     const n = toInt(m.groups!.num);
+    // Troilus and Cressida's vendored edition REPRINTS "ACT n." before every scene (e.g. "ACT I."
+    // appears again before 1.2 and 1.3). A repeated act header whose number equals the already-open
+    // act must not start a duplicate act — skip it and let the following "SCENE m." add its scene to
+    // the current act. GENERAL (not slug-gated): every other shipped play prints each act header once
+    // in ascending order, so n === currentAct.number never holds for them and they re-ingest
+    // byte-identical (confirmed by the re-ingest diff).
+    if (n > 0 && currentAct && n === currentAct.number) { continue; }
     if (n > 0) { pushAct(n, trimmed); continue; }
   }
   if ((m = trimmed.match(SCENE_HEADER))) {
@@ -574,11 +588,17 @@ for (; i < allLines.length; i++) {
     // attribute the buffered verse to the Prologue speaker here. Gated on the PROLOGUE.
     // alias (only Henry VIII) so Romeo and Juliet / Henry V / Henry IV Part 2 stay
     // byte-identical — their own Chorus/Rumour label sets the speaker as before.
-    if (hasPrologueSpeaker && PROLOGUE_HEADER.test(trimmed)) {
+    if (hasPrologueSpeaker && (PROLOGUE_HEADER.test(trimmed) || (slug === 'troilus_and_cressida' && BARE_PROLOGUE_HEADER.test(trimmed)))) {
       curSpeakerRaw = trimmed;
       curSpeaker = canonical('PROLOGUE.');
       expectSpeaker = false;
     }
+    continue;
+  }
+  // Troilus' vendored edition prints the play title "TROILUS AND CRESSIDA" on its own line between
+  // the bare "PROLOGUE" header and the prologue verse; skip it while the Prologue buffer is open so
+  // it is not captured as the Prologue's first line. Gated on the slug -> other plays byte-identical.
+  if (slug === 'troilus_and_cressida' && inPrologue && trimmed === 'TROILUS AND CRESSIDA') {
     continue;
   }
   if (trimmed === '') {

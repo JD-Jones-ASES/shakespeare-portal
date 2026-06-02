@@ -1,0 +1,59 @@
+{
+  "play": "All's Well That Ends Well",
+  "overview": "Helena, the orphaned daughter of a famous physician, is raised in the household of the Countess of Rousillon and secretly loves the Countess's son Bertram, a young nobleman far above her in rank. When Bertram leaves for the court of the ailing King of France, Helena follows with a remedy left by her father and cures the King of a fistula the royal doctors had given up on. As her reward she asks to choose a husband, and chooses Bertram. The King compels the marriage, but Bertram, scorning Helena's low birth, refuses to consummate it and flees to the wars in Florence, sending word that he will be her husband in deed only when she can get the ancestral ring from his finger and show him a child she has conceived by him — things he believes can never happen. Helena, reported to have died on a pilgrimage, instead goes secretly to Florence, where Bertram is courting the chaste Diana. With Diana and her mother she arranges the 'bed-trick': Diana wins Bertram's ring and his promise to come to her bed in the dark, and Helena takes Diana's place. Meanwhile Bertram's boastful follower Parolles is exposed as a coward in a mock ambush. Returning to France, Helena lets the deception unwind in a public reckoning at Rousillon: confronted with his own ring, Diana's riddling testimony, and Helena alive and pregnant, Bertram submits and accepts her. A 'problem play,' its bright folktale shape — the clever, faithful wife who performs impossible tasks — sits uneasily against Bertram's coldness and the moral murk of how Helena wins him.",
+  "acts": [
+    {
+      "number": 1,
+      "summary": "Bertram leaves Rousillon for the King's court; Helena's hopeless love for him is revealed, and she resolves to follow with her father's cure for the dying King.",
+      "scenes": [
+        { "number": 1, "summary": "At Rousillon the widowed Countess sends her son Bertram to the court of the sick King of France, commending him to the old lord Lafew. Left alone, Helena confesses she loves Bertram and despairs of one so far above her — then, prompted by talk of the King's incurable illness, conceives the idea of curing him with a remedy her late physician father left her. The braggart Parolles trades a long, cynical debate on virginity with her.", "themes": ["class", "love", "grief", "virginity"] },
+        { "number": 2, "summary": "In Paris the King welcomes Bertram, praising his dead father, and grants leave to those young French lords who wish to fight in the war between Florence and Siena.", "themes": ["honor", "war", "nobility"] },
+        { "number": 3, "summary": "At Rousillon the Countess learns from her steward, Rinaldo, that Helena loves Bertram, and questions Helena gently, drawing out the confession. When Helena reveals her plan to go to Paris and cure the King, the Countess blesses the attempt.", "themes": ["love", "class", "maternal_love"] }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "Helena cures the King and is granted her choice of husband; she chooses Bertram, who is forced to marry her but secretly resolves to flee to the wars unconsummated.",
+      "scenes": [
+        { "number": 1, "summary": "As the young lords depart for Florence, Lafew brings the despairing King word of a physician who can cure him. Helena offers her father's remedy, staking her life on it; in return the King promises that, if she succeeds, she may name any husband in his gift. He agrees.", "themes": ["healing", "faith", "bargain"] },
+        { "number": 2, "summary": "At Rousillon the Countess sends the Clown, Lavatch, to court with a message, bantering with him about a courtier's all-purpose answer.", "themes": ["comedy", "court_satire"] },
+        { "number": 3, "summary": "The King, miraculously cured, makes good his promise: Helena passes over several lords and chooses Bertram. He protests against marrying 'a poor physician's daughter,' but the King, defending virtue over birth, compels the match. Apart, Lafew and the unmasked braggart Parolles quarrel.", "themes": ["merit", "class", "marriage", "compulsion"] },
+        { "number": 4, "summary": "Parolles brings Helena word that Bertram, pleading urgent business, will not take her to bed but sends her home to Rousillon. The Clown jests with her.", "themes": ["deception", "marriage"] },
+        { "number": 5, "summary": "Bertram, confirmed in his contempt for Parolles by Lafew's warnings, sends Helena home with a sealed letter for his mother and departs for the Florentine wars without a husband's farewell.", "themes": ["rejection", "marriage", "flight"] }
+      ]
+    },
+    {
+      "number": 3,
+      "summary": "Bertram wins honor at Florence and sends Helena his impossible conditions; she leaves Rousillon as a pilgrim, and in Florence devises the bed-trick with Diana and her mother.",
+      "scenes": [
+        { "number": 1, "summary": "At Florence the Duke receives the French lords who have come to fight for him.", "themes": ["war", "honor"] },
+        { "number": 2, "summary": "At Rousillon the Countess reads Bertram's letter announcing he has fled his marriage, and is ashamed of him. Helena reads his crueller message — that he will be her husband only when she wins the ring from his finger and shows a child of his body, 'which never shall be' — and resolves to leave so that he may safely come home.", "themes": ["rejection", "shame", "self_sacrifice"] },
+        { "number": 3, "summary": "At Florence the Duke makes Bertram general of his cavalry.", "themes": ["war", "honor"] },
+        { "number": 4, "summary": "At Rousillon the steward reads aloud Helena's farewell sonnet: she has gone as a barefoot pilgrim to Saint Jaques le Grand, blaming herself for driving Bertram into danger. The grieving Countess sends word recalling her son.", "themes": ["pilgrimage", "penitence", "love"] },
+        { "number": 5, "summary": "Outside the walls of Florence, Helena, in pilgrim's dress, lodges with a widow and her daughter Diana. She learns that Bertram is wooing the chaste Diana, who (warned by the neighbour Mariana) means to resist him.", "themes": ["chastity", "pilgrimage", "seduction"] },
+        { "number": 6, "summary": "In the camp the two French lords persuade Bertram to test his follower Parolles by letting him try to recover a lost drum, planning to ambush and unmask him as a coward.", "themes": ["honor", "cowardice", "plot"] },
+        { "number": 7, "summary": "Helena reveals to the Widow that she is Bertram's abandoned wife and proposes a plan: Diana shall agree to Bertram's suit, demand his ancestral ring, and appoint a midnight meeting — at which Helena will secretly take her place.", "themes": ["the_bed_trick", "marriage", "deception"] }
+      ]
+    },
+    {
+      "number": 4,
+      "summary": "Parolles is exposed in a mock ambush; the bed-trick is accomplished; word comes that Helena has died, and the principals make for France.",
+      "scenes": [
+        { "number": 1, "summary": "The French lords ambush Parolles as he ventures out for the drum; blindfolded and convinced he has been taken by the enemy, he babbles for his life.", "themes": ["cowardice", "deception", "comedy"] },
+        { "number": 2, "summary": "Bertram woos Diana, who extracts his ancestral ring as a pledge and appoints a silent midnight assignation — the meeting Helena will keep in her place.", "themes": ["seduction", "chastity", "the_bed_trick"] },
+        { "number": 3, "summary": "The lords discuss Bertram's conduct and report that Helena is said to have died on her pilgrimage. The blindfolded Parolles, interrogated by a mock 'interpreter,' betrays every military secret and slanders the very lords questioning him; unmasked, he resolves to live on shamelessly as the thing he is.", "themes": ["cowardice", "honor", "self_knowledge"] },
+        { "number": 4, "summary": "Helena, with the Widow and Diana, prepares to travel to Marseilles and on to the King, confident the deception will be vindicated.", "themes": ["journey", "vindication"] },
+        { "number": 5, "summary": "At Rousillon, Lafew, the Countess, and the Clown mourn Helena; Lafew proposes that Bertram, now a widower in all men's eyes, marry his own daughter, and they await the King's coming.", "themes": ["mourning", "marriage", "reconciliation"] }
+      ]
+    },
+    {
+      "number": 5,
+      "summary": "At Rousillon the King's reckoning exposes Bertram's lies through the rings and Diana's riddles, until Helena appears alive and pregnant, fulfilling the impossible conditions.",
+      "scenes": [
+        { "number": 1, "summary": "At Marseilles Helena meets a gentleman of the court (a falconer) and sends by him her petition to the King, who has gone on to Rousillon.", "themes": ["petition", "journey"] },
+        { "number": 2, "summary": "The ruined Parolles, reduced to beggary, begs Lafew's help and is taken into his service as a fool.", "themes": ["downfall", "mercy", "comedy"] },
+        { "number": 3, "summary": "At Rousillon the King pardons Bertram and betroths him to Lafew's daughter — until a ring Bertram gives is recognized as the one the King gave Helena. Diana then appears and, with riddling testimony, accuses Bertram of seduction, snaring him in his own lies, before Helena enters alive and pregnant: she has won his ring and conceived his child, and Bertram submits and accepts her. The King offers Diana her own choice of husband, and 'all's well that ends well.'", "themes": ["reckoning", "the_bed_trick", "forgiveness", "marriage"] }
+      ]
+    }
+  ]
+}
