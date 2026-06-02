@@ -1,0 +1,50 @@
+{
+  "play": "titus_andronicus",
+  "overview": "Shakespeare's earliest and bloodiest tragedy. The Roman general Titus Andronicus returns victorious from war against the Goths and, over the queen Tamora's pleas, sacrifices her eldest son to the spirits of his own dead. That cruelty unleashes a cycle of revenge: Tamora, made empress, and her lover Aaron the Moor engineer the murder of Titus's son-in-law and the rape and mutilation of his daughter Lavinia, and trick Titus into mutilating himself. Driven to feigned (and perhaps real) madness, Titus answers atrocity with atrocity, butchering Tamora's sons and serving them to her in a pie before the killings consume nearly everyone on stage. Modelled on Seneca and saturated with Ovid, the play is a study of revenge, of grief past the reach of language, and of who gets called 'barbarous' — the conquered Goths, the demonized Moor, or civilized Rome itself.",
+  "acts": [
+    {
+      "number": 1,
+      "summary": "Rome chooses a new emperor as Titus returns in triumph with Gothic captives. His ritual sacrifice of Tamora's son, and his own killing of a son who defies him, plant the seeds of catastrophe; the new emperor Saturninus spurns Titus's daughter and weds the captive queen, who vows vengeance.",
+      "scenes": [
+        { "number": 1, "summary": "The late emperor's sons Saturninus and Bassianus contend for the throne. Titus returns victorious with the captive Tamora and her sons and, despite her pleas, sacrifices her eldest son Alarbus to appease his own slain sons. Offered the crown, Titus yields it to the elder Saturninus, who claims Titus's daughter Lavinia — already betrothed to Bassianus. When Bassianus carries her off and Titus's son Mutius helps, Titus kills Mutius in fury. Spurning Lavinia, Saturninus instead marries Tamora, who secretly swears to destroy the whole house of Andronicus while pretending to reconcile them.", "themes": ["honor", "sacrifice", "political_legitimacy", "revenge"] }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "In the forest during a royal hunt, Tamora's revenge begins: her lover Aaron plots the murder of Bassianus and the rape of Lavinia. Bassianus is killed, Titus's sons are framed for it, and Lavinia is ravished and mutilated so she cannot name her attackers.",
+      "scenes": [
+        { "number": 1, "summary": "Aaron, raised high as the new empress's secret lover, exults in his fortune. Tamora's sons Chiron and Demetrius draw swords over their shared lust for Lavinia; Aaron stops the quarrel and counsels them to rape her together during the next day's hunt, where her cries will not be heard.", "themes": ["race", "gender", "deception"] },
+        { "number": 2, "summary": "At dawn the emperor's hunting party sets out into the forest with horns and hounds.", "themes": ["foreboding"] },
+        { "number": 3, "summary": "Aaron buries gold to plant false evidence. Tamora joins him; Bassianus and Lavinia come upon them and taunt the empress, and her sons stab Bassianus and drag Lavinia away to rape her, deaf to her pleas. Aaron then lures Titus's sons Quintus and Martius to the pit where Bassianus's body lies and produces a forged letter, so Saturninus condemns the two innocent brothers for the murder.", "themes": ["revenge", "deception", "gender", "justice"] },
+        { "number": 4, "summary": "Chiron and Demetrius abandon the ravished Lavinia in the forest, her tongue cut out and her hands cut off so she can neither speak nor write her attackers' names, and mock her as they go. Her uncle Marcus finds her and pours out his grief.", "themes": ["gender", "grief", "violence"] }
+      ]
+    },
+    {
+      "number": 3,
+      "summary": "Titus pleads in vain for his condemned sons, is tricked into cutting off his own hand, and receives in return their severed heads. Grief tips toward madness, and he turns wholly to revenge as his banished son Lucius goes to raise an army of Goths.",
+      "scenes": [
+        { "number": 1, "summary": "Titus begs the indifferent tribunes for his sons' lives. Aaron brings false word that the emperor will spare them if Titus, Marcus, or Lucius sends a severed hand; Titus lets Aaron strike off his own hand — and a messenger soon returns it with the heads of both sons. Past tears, Titus laughs and swears revenge, sending the banished Lucius to gather the Goths against Rome.", "themes": ["grief", "revenge", "deception", "justice"] },
+        { "number": 2, "summary": "At a meagre family meal the half-mad Titus reads sorrow into every gesture and strikes at a fly Marcus has killed — then stabs at it again because it is black, 'like to the empress' Moor.' (This 'fly scene' appears only in the 1623 Folio text.)", "themes": ["grief", "madness", "race"] }
+      ]
+    },
+    {
+      "number": 4,
+      "summary": "Lavinia names her attackers, and the Andronici learn the truth. Aaron's child by Tamora is born and betrays the affair; Aaron flees to protect it. Titus, in apparent madness, pelts the heavens and the court with petitions, while Lucius's Gothic army nears Rome.",
+      "scenes": [
+        { "number": 1, "summary": "Helped by her stumps and a staff guided in her mouth, Lavinia turns to the tale of Philomela in Ovid's Metamorphoses and writes her rapists' names — Chiron and Demetrius — in the sand. The family kneels and swears revenge.", "themes": ["revenge", "gender", "classical_allusion"] },
+        { "number": 2, "summary": "Titus sends Chiron and Demetrius weapons wrapped in a mocking Latin tag they fail to understand. A nurse brings out the baby Tamora has just borne — unmistakably Aaron's by its dark skin — with orders to kill it; Aaron instead kills the nurse, defends his son fiercely, and flees with him to the Goths.", "themes": ["race", "deception", "loyalty"] },
+        { "number": 3, "summary": "The grief-crazed Titus has his kinsmen shoot arrows carrying petitions to the gods over the palace walls, and sends a clown with a letter to the emperor.", "themes": ["madness", "grief", "justice"] },
+        { "number": 4, "summary": "Saturninus, enraged by the arrows and Titus's message, hangs the clown — then learns that Lucius is marching on Rome at the head of a Gothic army, beloved by the people. Tamora, confident in her cunning, promises to lull Titus and persuade him to call off his son.", "themes": ["political_legitimacy", "revenge", "deception"] }
+      ]
+    },
+    {
+      "number": 5,
+      "summary": "Aaron, captured, confesses everything to save his child. Tamora's scheme to manage the mad Titus backfires: he traps and kills her sons, and at a banquet feeds them to her before the final bloodbath. Lucius is left to refound a shattered Rome.",
+      "scenes": [
+        { "number": 1, "summary": "Lucius and the Goths capture Aaron and his infant son. To save the child's life Aaron coldly recounts the whole conspiracy — the rape, the framing, the severed hand — glorying in his villainy and regretting only the good he failed to do.", "themes": ["race", "revenge", "confession"] },
+        { "number": 2, "summary": "Tamora, with her sons, comes disguised to the supposedly mad Titus as the allegorical figures 'Revenge,' 'Rape,' and 'Murder,' meaning to lure Lucius to a parley. Titus pretends to be deceived, persuades 'Revenge' to leave her two attendants with him, and has Chiron and Demetrius bound. He cuts their throats as Lavinia catches their blood, to grind their bones and bake them in a pie.", "themes": ["revenge", "madness", "deception"] },
+        { "number": 3, "summary": "At the banquet Titus, dressed as a cook, first kills Lavinia to end her shame, then reveals that Tamora has eaten her own sons and stabs her. Saturninus kills Titus; Lucius kills Saturninus. Order returns with the survivors: Lucius is proclaimed emperor, sentences Aaron to be buried chest-deep and starved, casts Tamora's corpse to the beasts, and calls Rome to heal its self-inflicted wounds.", "themes": ["revenge", "justice", "barbarism_vs_civilization", "political_legitimacy"] }
+      ]
+    }
+  ]
+}

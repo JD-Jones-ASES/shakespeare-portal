@@ -16,7 +16,11 @@ const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..', '..');
 const slug = process.argv[2];
 if (!slug) { console.error('usage: node scripts/pipeline/extract-speakers.mjs <slug>'); process.exit(2); }
 
-const file = resolve(ROOT, 'shakespeare-material-master', 'texts', 'gutenberg', `${slug}_gut.txt`);
+// A few vendored modern-spelling files are named differently from the play slug;
+// mirror scripts/lib/paths.ts MODERN_SOURCE_ALIAS so this helper resolves them too.
+const MODERN_SOURCE_ALIAS = { titus_andronicus: 'tragedy_of_titus_andronicus' };
+const base = MODERN_SOURCE_ALIAS[slug] ?? slug;
+const file = resolve(ROOT, 'shakespeare-material-master', 'texts', 'gutenberg', `${base}_gut.txt`);
 const lines = readFileSync(file, 'utf8').split(/\r?\n/);
 
 const STOP = new Set(['the', 'a', 'an', 'and', 'to', 'of', 'my', 'is', 'in', 'it', 'that', 'you',

@@ -1,0 +1,308 @@
+[
+  {
+    "id": "titus",
+    "name": "Titus Andronicus",
+    "aliases": ["TITUS."],
+    "role": "protagonist",
+    "description": "A victorious Roman general, rigid in honour and piety, who returns from ten years of war against the Goths having lost twenty-one sons. His ritual sacrifice of Tamora's eldest son sets a chain of revenge in motion that destroys his family; driven to apparent madness by the rape and mutilation of his daughter Lavinia, he repays Tamora with a monstrous banquet of her own children.",
+    "relationships": [
+      { "other_id": "marcus", "relation": "brother of" },
+      { "other_id": "lucius", "relation": "father of" },
+      { "other_id": "lavinia", "relation": "father of" },
+      { "other_id": "tamora", "relation": "enemy of" }
+    ],
+    "color": "#b5483a"
+  },
+  {
+    "id": "tamora",
+    "name": "Tamora",
+    "aliases": ["TAMORA."],
+    "role": "antagonist",
+    "description": "Queen of the Goths, taken captive by Titus, who sacrifices her eldest son before her eyes. Married almost at once to the new Emperor Saturninus, she uses her place to revenge herself on the Andronici, abetting the rape of Lavinia and the framing of Titus's sons, while carrying on a secret affair with the Moor Aaron.",
+    "relationships": [
+      { "other_id": "saturninus", "relation": "wife and empress of" },
+      { "other_id": "aaron", "relation": "lover of" },
+      { "other_id": "demetrius", "relation": "mother of" },
+      { "other_id": "chiron", "relation": "mother of" },
+      { "other_id": "titus", "relation": "enemy of" }
+    ],
+    "color": "#a8456f"
+  },
+  {
+    "id": "aaron",
+    "name": "Aaron",
+    "aliases": ["AARON."],
+    "role": "antagonist",
+    "description": "A Moor, Tamora's lover and the play's chief schemer, who devises the rape and mutilation of Lavinia and the destruction of Titus's sons, and exults in his own villainy. The other characters heap racist contempt on him — language the play voices and Aaron defies; his one human bond is fierce devotion to his infant son, whom he refuses to let die.",
+    "relationships": [
+      { "other_id": "tamora", "relation": "lover of" },
+      { "other_id": "child", "relation": "father of" }
+    ],
+    "color": "#7d5ba6"
+  },
+  {
+    "id": "marcus",
+    "name": "Marcus Andronicus",
+    "aliases": ["MARCUS."],
+    "role": "major",
+    "description": "Titus's brother and a tribune of the people, the family's voice of grief and restraint. He finds the ravished, mutilated Lavinia and helps her name her attackers, and at the close calls on Rome to knit itself back together.",
+    "relationships": [
+      { "other_id": "titus", "relation": "brother of" },
+      { "other_id": "publius", "relation": "father of" }
+    ],
+    "color": "#3f7cac"
+  },
+  {
+    "id": "lucius",
+    "name": "Lucius",
+    "aliases": ["LUCIUS."],
+    "role": "major",
+    "description": "Titus's eldest surviving son, who demands the sacrifice that begins the feud and is later banished. He raises an army among Rome's enemies the Goths, marches on the city, and is proclaimed emperor at the play's end.",
+    "relationships": [
+      { "other_id": "titus", "relation": "son of" },
+      { "other_id": "young_lucius", "relation": "father of" }
+    ],
+    "color": "#2e8b74"
+  },
+  {
+    "id": "saturninus",
+    "name": "Saturninus",
+    "aliases": ["SATURNINUS."],
+    "role": "major",
+    "description": "Elder son of the late emperor, made emperor with Titus's backing. Petty, suspicious, and ruled by appetite, he takes the captive Tamora to wife when Lavinia is claimed by his brother, and becomes the instrument of her revenge.",
+    "relationships": [
+      { "other_id": "bassianus", "relation": "brother of" },
+      { "other_id": "tamora", "relation": "husband of" }
+    ],
+    "color": "#b08a2e"
+  },
+  {
+    "id": "lavinia",
+    "name": "Lavinia",
+    "aliases": ["LAVINIA."],
+    "role": "major",
+    "description": "Titus's daughter, betrothed to Bassianus. After Bassianus is murdered she is raped by Chiron and Demetrius, who cut out her tongue and cut off her hands so she cannot name them; she at last reveals her attackers by writing their names in the sand with a staff held in her mouth.",
+    "relationships": [
+      { "other_id": "titus", "relation": "daughter of" },
+      { "other_id": "bassianus", "relation": "betrothed of" }
+    ],
+    "color": "#c2557a"
+  },
+  {
+    "id": "bassianus",
+    "name": "Bassianus",
+    "aliases": ["BASSIANUS."],
+    "role": "supporting",
+    "description": "Saturninus's younger brother, betrothed to Lavinia, whom he carries off when Titus offers her to the new emperor. He is murdered by Tamora's sons in the forest, and his body used to frame Titus's sons.",
+    "relationships": [
+      { "other_id": "saturninus", "relation": "brother of" },
+      { "other_id": "lavinia", "relation": "betrothed of" }
+    ],
+    "color": "#5f8a5a"
+  },
+  {
+    "id": "demetrius",
+    "name": "Demetrius",
+    "aliases": ["DEMETRIUS."],
+    "role": "supporting",
+    "description": "One of Tamora's two surviving sons. With his brother Chiron he murders Bassianus and rapes and mutilates Lavinia; Titus at last cuts both their throats and bakes them into the pie he serves their mother.",
+    "relationships": [
+      { "other_id": "tamora", "relation": "son of" },
+      { "other_id": "chiron", "relation": "brother of" }
+    ],
+    "color": "#8a5a5a"
+  },
+  {
+    "id": "chiron",
+    "name": "Chiron",
+    "aliases": ["CHIRON."],
+    "role": "supporting",
+    "description": "One of Tamora's two surviving sons, who with his brother Demetrius rapes and mutilates Lavinia. He is killed by Titus and baked into the banquet served to Tamora.",
+    "relationships": [
+      { "other_id": "tamora", "relation": "son of" },
+      { "other_id": "demetrius", "relation": "brother of" }
+    ],
+    "color": "#8a6a4a"
+  },
+  {
+    "id": "quintus",
+    "name": "Quintus",
+    "aliases": ["QUINTUS."],
+    "role": "minor",
+    "description": "A son of Titus, framed with his brother Martius for the murder of Bassianus and executed on Saturninus's order.",
+    "relationships": [
+      { "other_id": "titus", "relation": "son of" }
+    ],
+    "color": "#5a7a8a"
+  },
+  {
+    "id": "martius",
+    "name": "Martius",
+    "aliases": ["MARTIUS."],
+    "role": "minor",
+    "description": "A son of Titus, framed with his brother Quintus for Bassianus's murder and beheaded. (Not to be confused with Caius Marcius of Coriolanus.)",
+    "relationships": [
+      { "other_id": "titus", "relation": "son of" }
+    ],
+    "color": "#5a8a7a"
+  },
+  {
+    "id": "mutius",
+    "name": "Mutius",
+    "aliases": ["MUTIUS."],
+    "role": "minor",
+    "description": "A son of Titus, killed by his own father in the opening scene for helping Bassianus carry off Lavinia.",
+    "relationships": [
+      { "other_id": "titus", "relation": "son of" }
+    ],
+    "color": "#7a6a5a"
+  },
+  {
+    "id": "young_lucius",
+    "name": "Young Lucius",
+    "aliases": ["YOUNG LUCIUS.", "BOY."],
+    "role": "minor",
+    "description": "Lucius's young son and Titus's grandson, a frightened, loving boy who carries weapons and messages for his grandfather and recoils from the maimed Lavinia before she comforts him with Ovid.",
+    "relationships": [
+      { "other_id": "lucius", "relation": "son of" },
+      { "other_id": "titus", "relation": "grandson of" }
+    ],
+    "color": "#c98a4b"
+  },
+  {
+    "id": "publius",
+    "name": "Publius",
+    "aliases": ["PUBLIUS."],
+    "role": "minor",
+    "description": "Marcus's son and Titus's nephew, who helps seize Chiron and Demetrius for the final revenge.",
+    "relationships": [
+      { "other_id": "marcus", "relation": "son of" }
+    ],
+    "color": "#6b5b95"
+  },
+  {
+    "id": "aemilius",
+    "name": "Aemilius",
+    "aliases": ["AEMILIUS."],
+    "role": "minor",
+    "description": "A noble Roman who carries messages between Saturninus and the advancing Goths and proclaims Lucius emperor at the close.",
+    "color": "#5a6f8a"
+  },
+  {
+    "id": "nurse",
+    "name": "Nurse",
+    "aliases": ["NURSE."],
+    "role": "minor",
+    "description": "The nurse who brings out Tamora's newborn child by Aaron and is killed by Aaron to keep the birth secret.",
+    "color": "#9a6b8a"
+  },
+  {
+    "id": "clown",
+    "name": "Clown",
+    "aliases": ["CLOWN."],
+    "role": "minor",
+    "description": "A rustic countryman with a basket of pigeons whom Titus uses to carry a defiant message to the emperor; Saturninus has him hanged for it.",
+    "color": "#9a8c4a"
+  },
+  {
+    "id": "captain",
+    "name": "Captain",
+    "aliases": ["CAPTAIN."],
+    "role": "minor",
+    "description": "A Roman captain who announces the triumphant return of Titus in the opening scene.",
+    "color": "#6a8a8a"
+  },
+  {
+    "id": "messenger",
+    "name": "Messenger",
+    "aliases": ["MESSENGER."],
+    "role": "minor",
+    "description": "A messenger who brings Titus the severed heads of his sons and his own hand.",
+    "color": "#9a8a7a"
+  },
+  {
+    "id": "alarbus",
+    "name": "Alarbus",
+    "role": "minor",
+    "description": "Tamora's eldest son (a silent role), sacrificed by the Andronici to appease the spirits of Titus's dead sons — the atrocity that sets Tamora's revenge in motion.",
+    "relationships": [
+      { "other_id": "tamora", "relation": "son of" }
+    ],
+    "color": "#8a7a6a"
+  },
+  {
+    "id": "child",
+    "name": "Aaron's Child",
+    "role": "minor",
+    "description": "The infant born to Tamora and Aaron (a silent role), whose dark skin betrays the affair; Aaron kills to protect it and surrenders to save its life.",
+    "relationships": [
+      { "other_id": "aaron", "relation": "child of" },
+      { "other_id": "tamora", "relation": "child of" }
+    ],
+    "color": "#b58a6a"
+  },
+  {
+    "id": "first_goth",
+    "name": "First Goth",
+    "aliases": ["FIRST GOTH."],
+    "role": "minor",
+    "description": "One of the Goth soldiers who join Lucius's march on Rome.",
+    "color": "#4a6a7a"
+  },
+  {
+    "id": "second_goth",
+    "name": "Second Goth",
+    "aliases": ["SECOND GOTH."],
+    "role": "minor",
+    "description": "One of the Goth soldiers in Lucius's army.",
+    "color": "#4a7a6a"
+  },
+  {
+    "id": "third_goth",
+    "name": "Third Goth",
+    "aliases": ["THIRD GOTH."],
+    "role": "minor",
+    "description": "One of the Goth soldiers in Lucius's army.",
+    "color": "#5a6a7a"
+  },
+  {
+    "id": "goth",
+    "name": "A Goth",
+    "aliases": ["GOTH."],
+    "role": "minor",
+    "description": "A Goth soldier who discovers Aaron and the child hiding in a ruined monastery and brings them to Lucius.",
+    "color": "#6a7a7a"
+  },
+  {
+    "id": "goths",
+    "name": "Goths",
+    "aliases": ["GOTHS."],
+    "role": "ensemble",
+    "description": "The army of Goths who follow the banished Lucius against Rome, speaking as one.",
+    "color": "#708070"
+  },
+  {
+    "id": "tribunes",
+    "name": "Tribunes",
+    "aliases": ["TRIBUNES."],
+    "role": "ensemble",
+    "description": "The tribunes and senators of Rome speaking together.",
+    "color": "#6a6a8a"
+  },
+  {
+    "id": "romans",
+    "name": "Romans",
+    "aliases": ["ROMANS."],
+    "role": "ensemble",
+    "description": "The Roman people speaking as one, who at the close acclaim Lucius emperor.",
+    "color": "#808080"
+  },
+  {
+    "id": "all",
+    "name": "All",
+    "aliases": ["ALL."],
+    "role": "ensemble",
+    "description": "The company on stage answering in unison.",
+    "color": "#888888"
+  }
+]

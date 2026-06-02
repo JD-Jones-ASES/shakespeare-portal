@@ -1,0 +1,459 @@
+[
+  {
+    "id": "coriolanus",
+    "name": "Caius Marcius Coriolanus",
+    "aliases": ["CORIOLANUS.", "MARCIUS."],
+    "role": "protagonist",
+    "description": "Rome's greatest soldier, surnamed Coriolanus for single-handedly storming the Volscian city of Corioli. Magnificent in battle but contemptuous of the common people, he cannot bend his pride to beg the citizens for the consulship; banished from Rome, he turns traitor and leads his old enemy's army against his own city, until his mother's pleading stops him and costs him his life. (Labelled MARCIUS until Act 1 ends and he is given the name Coriolanus.)",
+    "relationships": [
+      { "other_id": "volumnia", "relation": "son of" },
+      { "other_id": "virgilia", "relation": "husband of" },
+      { "other_id": "aufidius", "relation": "rival of, later ally and victim of" },
+      { "other_id": "menenius", "relation": "protege and friend of" },
+      { "other_id": "cominius", "relation": "serves under" }
+    ],
+    "color": "#b5483a"
+  },
+  {
+    "id": "menenius",
+    "name": "Menenius Agrippa",
+    "aliases": ["MENENIUS."],
+    "role": "major",
+    "description": "An old patrician, witty and genial, a fatherly friend and champion of Coriolanus. He pacifies the mutinous citizens with his fable of the belly and the members, mediates between the patricians and the tribunes, and is heartbroken when the banished Coriolanus turns him away from the Volscian camp.",
+    "relationships": [
+      { "other_id": "coriolanus", "relation": "mentor and advocate of" },
+      { "other_id": "sicinius", "relation": "adversary of" },
+      { "other_id": "brutus", "relation": "adversary of" }
+    ],
+    "color": "#b08a2e"
+  },
+  {
+    "id": "volumnia",
+    "name": "Volumnia",
+    "aliases": ["VOLUMNIA."],
+    "role": "major",
+    "description": "Coriolanus's formidable mother, who raised him to prize honour and wounds above life itself. Fiercely ambitious for him, she at last kneels before him in the Volscian camp and, in the play's turning point, persuades him to spare Rome, knowing the mercy may doom him.",
+    "relationships": [
+      { "other_id": "coriolanus", "relation": "mother of" },
+      { "other_id": "virgilia", "relation": "mother-in-law of" }
+    ],
+    "color": "#a8456f"
+  },
+  {
+    "id": "aufidius",
+    "name": "Tullus Aufidius",
+    "aliases": ["AUFIDIUS."],
+    "role": "antagonist",
+    "description": "General of the Volscians and Coriolanus's great rival, who has fought and lost to him many times. When the banished Coriolanus comes to him in disguise, Aufidius embraces him as a brother-in-arms; then, eclipsed and resentful in his own city, he brands him a traitor and engineers his murder.",
+    "relationships": [
+      { "other_id": "coriolanus", "relation": "rival of, then host and killer of" }
+    ],
+    "color": "#2e8b74"
+  },
+  {
+    "id": "sicinius",
+    "name": "Sicinius Velutus",
+    "aliases": ["SICINIUS."],
+    "role": "major",
+    "description": "One of the two newly created tribunes of the people. Shrewd and demagogic, he and Brutus turn the citizens against Coriolanus and engineer his banishment, then quail when news comes that his vengeance is marching on Rome.",
+    "relationships": [
+      { "other_id": "brutus", "relation": "fellow tribune with" },
+      { "other_id": "coriolanus", "relation": "adversary of" }
+    ],
+    "color": "#5a6f8a"
+  },
+  {
+    "id": "brutus",
+    "name": "Junius Brutus",
+    "aliases": ["BRUTUS."],
+    "role": "major",
+    "description": "One of the two tribunes of the people (a namesake, not the Brutus of Julius Caesar). With Sicinius he speaks for the plebeians, goading Coriolanus into the contemptuous outburst that gets him banished.",
+    "relationships": [
+      { "other_id": "sicinius", "relation": "fellow tribune with" },
+      { "other_id": "coriolanus", "relation": "adversary of" }
+    ],
+    "color": "#6a8a5a"
+  },
+  {
+    "id": "cominius",
+    "name": "Cominius",
+    "aliases": ["COMINIUS."],
+    "role": "supporting",
+    "description": "The Roman general and consul under whom Coriolanus serves at Corioli. A steady, admiring patron, he reports Coriolanus's valour to the Senate and later pleads with him, in vain, to spare Rome.",
+    "relationships": [
+      { "other_id": "coriolanus", "relation": "commander and friend of" }
+    ],
+    "color": "#3f7cac"
+  },
+  {
+    "id": "virgilia",
+    "name": "Virgilia",
+    "aliases": ["VIRGILIA."],
+    "role": "supporting",
+    "description": "Coriolanus's quiet, loving wife, his 'gracious silence,' who dreads the wars that her husband and mother-in-law glory in. Her tears in the Volscian camp help move him to mercy.",
+    "relationships": [
+      { "other_id": "coriolanus", "relation": "wife of" },
+      { "other_id": "volumnia", "relation": "daughter-in-law of" }
+    ],
+    "color": "#c2557a"
+  },
+  {
+    "id": "lartius",
+    "name": "Titus Lartius",
+    "aliases": ["TITUS LARTIUS.", "LARTIUS."],
+    "role": "minor",
+    "description": "A Roman general who fights beside Coriolanus at Corioli and is left to govern the captured city.",
+    "relationships": [
+      { "other_id": "coriolanus", "relation": "comrade-in-arms of" }
+    ],
+    "color": "#5f8a5a"
+  },
+  {
+    "id": "valeria",
+    "name": "Valeria",
+    "aliases": ["VALERIA."],
+    "role": "minor",
+    "description": "A noble Roman lady, friend to Virgilia and Volumnia, who joins them in the embassy that begs Coriolanus to spare Rome. Coriolanus calls her 'the moon of Rome.'",
+    "relationships": [
+      { "other_id": "virgilia", "relation": "friend of" }
+    ],
+    "color": "#b5689a"
+  },
+  {
+    "id": "young_marcius",
+    "name": "Young Marcius",
+    "aliases": ["YOUNG MARCIUS.", "BOY."],
+    "role": "minor",
+    "description": "Coriolanus and Virgilia's young son, who already shares his father's fierce temper. He comes with the women to the Volscian camp.",
+    "relationships": [
+      { "other_id": "coriolanus", "relation": "son of" }
+    ],
+    "color": "#c98a4b"
+  },
+  {
+    "id": "gentlewoman",
+    "name": "Gentlewoman",
+    "aliases": ["GENTLEWOMAN."],
+    "role": "minor",
+    "description": "A waiting-woman who attends Virgilia.",
+    "color": "#9a8c5a"
+  },
+  {
+    "id": "first_citizen",
+    "name": "First Citizen",
+    "aliases": ["FIRST CITIZEN."],
+    "role": "minor",
+    "description": "A leader of the mutinous Roman commoners in the opening scene, and one of the plebeians whose 'voices' Coriolanus must beg for the consulship.",
+    "color": "#8a6a5a"
+  },
+  {
+    "id": "second_citizen",
+    "name": "Second Citizen",
+    "aliases": ["SECOND CITIZEN."],
+    "role": "minor",
+    "description": "One of the Roman commoners; in the opening riot more mindful of Coriolanus's past services than the First Citizen.",
+    "color": "#6a8a7a"
+  },
+  {
+    "id": "third_citizen",
+    "name": "Third Citizen",
+    "aliases": ["THIRD CITIZEN."],
+    "role": "minor",
+    "description": "One of the Roman citizens in the marketplace who grant, then withdraw, their voices for Coriolanus's consulship.",
+    "color": "#6a7a8a"
+  },
+  {
+    "id": "fourth_citizen",
+    "name": "Fourth Citizen",
+    "aliases": ["FOURTH CITIZEN."],
+    "role": "minor",
+    "description": "One of the Roman citizens debating Coriolanus's bid for the consulship in the marketplace.",
+    "color": "#8a6a7a"
+  },
+  {
+    "id": "fifth_citizen",
+    "name": "Fifth Citizen",
+    "aliases": ["FIFTH CITIZEN."],
+    "role": "minor",
+    "description": "One of the Roman citizens debating Coriolanus's bid for the consulship in the marketplace.",
+    "color": "#5a7a6a"
+  },
+  {
+    "id": "sixth_citizen",
+    "name": "Sixth Citizen",
+    "aliases": ["SIXTH CITIZEN."],
+    "role": "minor",
+    "description": "One of the Roman citizens debating Coriolanus's bid for the consulship in the marketplace.",
+    "color": "#7a665a"
+  },
+  {
+    "id": "citizens",
+    "name": "Citizens",
+    "aliases": ["CITIZENS.", "PLEBEIANS.", "CITIZEN.", "BOTH CITIZENS.", "ALL THREE CITIZENS."],
+    "role": "ensemble",
+    "description": "The Roman plebeians speaking as one, the 'many-headed multitude' whose votes and anger Coriolanus despises.",
+    "color": "#808080"
+  },
+  {
+    "id": "all",
+    "name": "All",
+    "aliases": ["ALL."],
+    "role": "ensemble",
+    "description": "The full company on stage answering in unison, by turns the mutinous citizens, the acclaiming soldiers, or the assembled people.",
+    "color": "#888888"
+  },
+  {
+    "id": "first_senator",
+    "name": "First Senator",
+    "aliases": ["FIRST SENATOR."],
+    "role": "minor",
+    "description": "A presiding senator (Roman, and at Corioli and Antium a senator of the Volscians) who speaks for the council and welcomes the victorious army.",
+    "color": "#4e7a8b"
+  },
+  {
+    "id": "second_senator",
+    "name": "Second Senator",
+    "aliases": ["SECOND SENATOR."],
+    "role": "minor",
+    "description": "A senator who speaks in the Roman or Volscian council.",
+    "color": "#5a8a8a"
+  },
+  {
+    "id": "senators",
+    "name": "Senators",
+    "aliases": ["SENATORS."],
+    "role": "ensemble",
+    "description": "The assembled senators speaking together.",
+    "color": "#7a8a8a"
+  },
+  {
+    "id": "first_patrician",
+    "name": "First Patrician",
+    "aliases": ["FIRST PATRICIAN."],
+    "role": "minor",
+    "description": "A Roman patrician supporting Coriolanus against the tribunes and the crowd.",
+    "color": "#6b5b95"
+  },
+  {
+    "id": "second_patrician",
+    "name": "Second Patrician",
+    "aliases": ["SECOND PATRICIAN."],
+    "role": "minor",
+    "description": "A Roman patrician supporting Coriolanus against the tribunes and the crowd.",
+    "color": "#7a6a8a"
+  },
+  {
+    "id": "herald",
+    "name": "Herald",
+    "aliases": ["HERALD."],
+    "role": "minor",
+    "description": "The Roman herald who proclaims Coriolanus's triumphant return and his new name before the people.",
+    "color": "#9a6b3a"
+  },
+  {
+    "id": "aedile",
+    "name": "Aedile",
+    "aliases": ["AEDILE.", "AEDILES."],
+    "role": "minor",
+    "description": "An officer attending the tribunes, sent to summon the people and, at their command, to arrest Coriolanus.",
+    "color": "#7a8a4a"
+  },
+  {
+    "id": "first_officer",
+    "name": "First Officer",
+    "aliases": ["FIRST OFFICER.", "OFFICER."],
+    "role": "minor",
+    "description": "One of two officers laying cushions in the Capitol, who discuss Coriolanus's worth and his open contempt for the people.",
+    "color": "#8a7a6a"
+  },
+  {
+    "id": "second_officer",
+    "name": "Second Officer",
+    "aliases": ["SECOND OFFICER."],
+    "role": "minor",
+    "description": "The second of the two officers in the Capitol who weigh Coriolanus's merits against his pride.",
+    "color": "#7a8a6a"
+  },
+  {
+    "id": "first_soldier",
+    "name": "First Soldier",
+    "aliases": ["FIRST SOLDIER."],
+    "role": "minor",
+    "description": "A soldier in the Roman army before Corioli.",
+    "color": "#7a8a7a"
+  },
+  {
+    "id": "second_soldier",
+    "name": "Second Soldier",
+    "aliases": ["SECOND SOLDIER."],
+    "role": "minor",
+    "description": "A soldier in the Roman army before Corioli.",
+    "color": "#6a7a7a"
+  },
+  {
+    "id": "lieutenant",
+    "name": "Lieutenant",
+    "aliases": ["LIEUTENANT."],
+    "role": "minor",
+    "description": "Aufidius's lieutenant, who warns him that Coriolanus is eclipsing him in the soldiers' and the people's affection.",
+    "relationships": [
+      { "other_id": "aufidius", "relation": "lieutenant of" }
+    ],
+    "color": "#5f7a8a"
+  },
+  {
+    "id": "messenger",
+    "name": "Messenger",
+    "aliases": ["MESSENGER."],
+    "role": "minor",
+    "description": "A messenger bearing news between Rome, the camp, and the cities of the war.",
+    "color": "#9a8a7a"
+  },
+  {
+    "id": "second_messenger",
+    "name": "Second Messenger",
+    "aliases": ["SECOND MESSENGER."],
+    "role": "minor",
+    "description": "A second messenger bringing battlefield or city news.",
+    "color": "#8a9a7a"
+  },
+  {
+    "id": "roman",
+    "name": "Roman (Nicanor)",
+    "aliases": ["ROMAN."],
+    "role": "minor",
+    "description": "Nicanor, a Roman in the pay of the Volscians, who meets the Volscian agent on the highway and reports that Rome, having banished Coriolanus, is ripe for attack.",
+    "color": "#8a5f5a"
+  },
+  {
+    "id": "volsce",
+    "name": "Volsce (Adrian)",
+    "aliases": ["VOLSCE."],
+    "role": "minor",
+    "description": "Adrian, a Volscian intelligencer who meets the Roman traitor on the road and brings him to Aufidius.",
+    "color": "#2e7a64"
+  },
+  {
+    "id": "romans",
+    "name": "Romans",
+    "aliases": ["FIRST ROMAN.", "SECOND ROMAN.", "THIRD ROMAN."],
+    "role": "ensemble",
+    "description": "Roman soldiers carrying off plunder from the sack of Corioli while Marcius scorns their greed.",
+    "color": "#807068"
+  },
+  {
+    "id": "first_servingman",
+    "name": "First Servingman",
+    "aliases": ["FIRST SERVANT."],
+    "role": "minor",
+    "description": "One of Aufidius's serving-men, who first scorn the ragged stranger Coriolanus, then boast of him once he is honoured.",
+    "color": "#8a7a5a"
+  },
+  {
+    "id": "second_servingman",
+    "name": "Second Servingman",
+    "aliases": ["SECOND SERVANT."],
+    "role": "minor",
+    "description": "One of Aufidius's serving-men in his house at Antium.",
+    "color": "#7a6a4a"
+  },
+  {
+    "id": "third_servingman",
+    "name": "Third Servingman",
+    "aliases": ["THIRD SERVANT."],
+    "role": "minor",
+    "description": "One of Aufidius's serving-men, who delivers the comic praise of war over peace once Coriolanus is welcomed.",
+    "color": "#6a5a4a"
+  },
+  {
+    "id": "first_guard",
+    "name": "First Guard",
+    "aliases": ["FIRST GUARD."],
+    "role": "minor",
+    "description": "One of the Volscian watchmen at the camp before Rome who refuse the disgraced Menenius entry to Coriolanus.",
+    "color": "#5a6a7a"
+  },
+  {
+    "id": "second_guard",
+    "name": "Second Guard",
+    "aliases": ["SECOND GUARD."],
+    "role": "minor",
+    "description": "One of the Volscian watchmen who turn Menenius away from Coriolanus's tent.",
+    "color": "#6a5a7a"
+  },
+  {
+    "id": "first_conspirator",
+    "name": "First Conspirator",
+    "aliases": ["FIRST CONSPIRATOR."],
+    "role": "minor",
+    "description": "One of Aufidius's fellow conspirators who help him cut down Coriolanus at Corioli.",
+    "relationships": [
+      { "other_id": "aufidius", "relation": "conspirator with" }
+    ],
+    "color": "#7a4a4a"
+  },
+  {
+    "id": "second_conspirator",
+    "name": "Second Conspirator",
+    "aliases": ["SECOND CONSPIRATOR."],
+    "role": "minor",
+    "description": "One of Aufidius's fellow conspirators against Coriolanus.",
+    "color": "#6a4a5a"
+  },
+  {
+    "id": "third_conspirator",
+    "name": "Third Conspirator",
+    "aliases": ["THIRD CONSPIRATOR."],
+    "role": "minor",
+    "description": "One of Aufidius's fellow conspirators against Coriolanus.",
+    "color": "#5a4a6a"
+  },
+  {
+    "id": "conspirators",
+    "name": "Conspirators",
+    "aliases": ["CONSPIRATORS."],
+    "role": "ensemble",
+    "description": "Aufidius's conspirators speaking together.",
+    "color": "#7a5a5a"
+  },
+  {
+    "id": "first_lord",
+    "name": "First Lord",
+    "aliases": ["FIRST LORD."],
+    "role": "minor",
+    "description": "One of the lords of the Volscian city who try to protect Coriolanus and mourn his murder.",
+    "color": "#4a6a7a"
+  },
+  {
+    "id": "second_lord",
+    "name": "Second Lord",
+    "aliases": ["SECOND LORD."],
+    "role": "minor",
+    "description": "One of the Volscian lords who decry Aufidius's murder of Coriolanus.",
+    "color": "#4a7a6a"
+  },
+  {
+    "id": "third_lord",
+    "name": "Third Lord",
+    "aliases": ["THIRD LORD."],
+    "role": "minor",
+    "description": "One of the Volscian lords who call for Aufidius to answer for the killing.",
+    "color": "#4a5a7a"
+  },
+  {
+    "id": "lords",
+    "name": "Lords",
+    "aliases": ["LORDS."],
+    "role": "ensemble",
+    "description": "The Volscian lords speaking together.",
+    "color": "#5a6a7a"
+  },
+  {
+    "id": "both_tribunes",
+    "name": "Both Tribunes",
+    "aliases": ["BOTH TRIBUNES."],
+    "role": "ensemble",
+    "description": "Sicinius and Brutus speaking together.",
+    "color": "#6a6a8a"
+  }
+]

@@ -1,0 +1,65 @@
+{
+  "play": "coriolanus",
+  "overview": "In the early Roman Republic, the patrician warrior Caius Marcius wins undying glory — and the surname Coriolanus — by single-handedly storming the Volscian city of Corioli. But he despises the common people, and when he stands for consul he cannot bring himself to flatter them for their votes. The newly empowered tribunes of the people goad him into a treasonous-sounding rage and have him banished. Burning for revenge, Coriolanus allies with his lifelong enemy, the Volscian general Aufidius, and leads an army to the gates of Rome. Only his mother Volumnia, kneeling before him with his wife and son, can turn him back — and the mercy she wins from him is the act that destroys him, cut down by Aufidius and his conspirators. The play is Shakespeare's coldest, most political tragedy: a study of pride, class hatred, the manipulability of crowds, and a son who was never allowed to be anything but his mother's instrument.",
+  "acts": [
+    {
+      "number": 1,
+      "summary": "Famine sets the Roman plebeians rioting against the patricians and against Caius Marcius above all. War with the Volscians breaks out, and at Corioli Marcius performs prodigies of valour, earning the surname Coriolanus. His rival Aufidius, twice beaten, vows to destroy him by any means.",
+      "scenes": [
+        { "number": 1, "summary": "Mutinous, starving citizens arm themselves against the patricians, naming Caius Marcius their chief enemy. Menenius calms them with the fable of the belly and the members; Marcius enters and pours scorn on them. News comes that the Volscians are in arms and that the people have been granted five tribunes — among them Sicinius and Brutus, who already resent Marcius's pride.", "themes": ["class", "pride", "rhetoric", "political_legitimacy"] },
+        { "number": 2, "summary": "At Corioli the Volscian general Aufidius and the senators learn that Rome has discovered their war plans. Aufidius longs to meet Marcius in the field.", "themes": ["war", "honor"] },
+        { "number": 3, "summary": "In Marcius's house his mother Volumnia glories in the wounds and danger of war, while his gentle wife Virgilia sits in dread. Valeria visits and describes Marcius's small son tearing a butterfly apart — already his father's child.", "themes": ["motherhood", "masculinity", "family"] },
+        { "number": 4, "summary": "Before Corioli, Marcius curses the retreating Roman soldiers, chases the Volscians through the gates, and is shut inside the city alone, given up for lost.", "themes": ["war", "masculinity"] },
+        { "number": 5, "summary": "Roman soldiers plunder Corioli for trash while Marcius, emerging bloodied and alive, scorns their greed and hurries to reinforce Cominius against Aufidius.", "themes": ["war", "honor", "class"] },
+        { "number": 6, "summary": "Marcius, covered in blood, rejoins Cominius's army, is embraced, and begs to be set straight against Aufidius's best troops.", "themes": ["war", "honor"] },
+        { "number": 7, "summary": "Titus Lartius leaves a garrison to hold the captured Corioli and marches to join Cominius.", "themes": ["war"] },
+        { "number": 8, "summary": "Marcius and Aufidius meet at last and fight; Aufidius is rescued by his own soldiers, to his shame.", "themes": ["war", "honor", "masculinity"] },
+        { "number": 9, "summary": "In the Roman camp Cominius and the army hail Marcius's deeds; he is given the honorific surname Coriolanus. Embarrassed by praise, he refuses any special share of the spoils and asks only that a poor Volscian host of his be freed — then forgets the man's name.", "themes": ["honor", "identity", "masculinity"] },
+        { "number": 10, "summary": "Beaten and humiliated, Aufidius swears to ruin Coriolanus by whatever means — open valour having failed, he will use wrath, fraud, or guile.", "themes": ["revenge", "betrayal", "honor"] }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "Coriolanus returns to Rome in triumph and is put forward for consul. The office requires him to stand humbly in the marketplace and beg the citizens for their 'voices' — a custom his pride can barely endure. The tribunes, watching, prepare to use it against him.",
+      "scenes": [
+        { "number": 1, "summary": "Menenius trades insults with the tribunes Sicinius and Brutus, exposing their malice. Volumnia and Virgilia greet the wounded, garlanded Coriolanus on his return. Left alone, the tribunes resolve that his certain contempt for the people will be the tool of his undoing.", "themes": ["class", "pride", "rhetoric", "political_legitimacy"] },
+        { "number": 2, "summary": "In the Capitol two officers debate Coriolanus's worth and his open scorn for the commons. Cominius formally recounts his heroism; the Senate names him their choice for consul. Coriolanus shrinks from the ritual of showing his wounds and begging the people's voices.", "themes": ["honor", "class", "political_legitimacy"] },
+        { "number": 3, "summary": "In the gown of humility Coriolanus grudgingly solicits the citizens one by one; they grant their voices. But the tribunes work on the crowd afterward, persuading them they were mocked, and the people revoke their approval.", "themes": ["class", "pride", "rhetoric", "political_legitimacy"] }
+      ]
+    },
+    {
+      "number": 3,
+      "summary": "Provoked by the tribunes, Coriolanus erupts in public against the very idea of giving the people power, and is denounced as a traitor. Volumnia persuades him to go through the motions of repentance, but the tribunes bait him into rage again, and he is sentenced to banishment.",
+      "scenes": [
+        { "number": 1, "summary": "Hearing his voices are revoked, Coriolanus rails against sharing authority with the rabble. The tribunes pronounce him a traitor and call for his death; the scene erupts into near-riot, and only Menenius's pleading gets him offstage.", "themes": ["class", "pride", "political_legitimacy", "order_vs_chaos"] },
+        { "number": 2, "summary": "Volumnia, putting policy above her son's nature, urges Coriolanus to return to the marketplace and beg pardon — to dissemble, flatter, and humble himself for once. Against everything in him, he agrees to try.", "themes": ["motherhood", "pride", "deception", "identity"] },
+        { "number": 3, "summary": "The tribunes stage-manage the confrontation, deliberately calling him 'traitor' until his temper breaks. Sentenced to perpetual banishment, he turns on the city: 'I banish you,' and leaves declaring 'There is a world elsewhere.'", "themes": ["banishment", "pride", "rhetoric", "class"] }
+      ]
+    },
+    {
+      "number": 4,
+      "summary": "Coriolanus parts from his family and goes, disguised, to his enemy Aufidius in Antium, offering either his throat or his sword. Aufidius joyfully takes him as partner against Rome. As the two march on the city, the complacent tribunes are seized with panic — and Aufidius privately resolves to be rid of Coriolanus once he has served his turn.",
+      "scenes": [
+        { "number": 1, "summary": "At the city gate Coriolanus takes a stoic farewell of his weeping mother, wife, and friends, promising to be seen no more 'or' to be heard from in greatness.", "themes": ["banishment", "family", "masculinity"] },
+        { "number": 2, "summary": "Volumnia, raging and grief-stricken, curses the tribunes in the street as the authors of her son's exile.", "themes": ["motherhood", "class", "revenge"] },
+        { "number": 3, "summary": "On the road between Rome and Antium, a Roman traitor (Nicanor) meets a Volscian agent (Adrian) and reports that Coriolanus's banishment has left Rome ripe for attack.", "themes": ["betrayal", "war"] },
+        { "number": 4, "summary": "Disguised and alone before Aufidius's house in Antium, Coriolanus muses bitterly on how slight a thing turns friends to enemies and enemies to friends, and steels himself to join his greatest foe.", "themes": ["identity", "revenge", "betrayal"] },
+        { "number": 5, "summary": "Aufidius's servants scorn the ragged stranger until Coriolanus unmuffles and names himself, offering his life or his service against Rome. Aufidius embraces him with a lover's rapture and gives him half the command; the servants marvel at the great man now in their house.", "themes": ["revenge", "honor", "identity"] },
+        { "number": 6, "summary": "The tribunes congratulate themselves on a quiet, prosperous Rome — until messengers bring word that Coriolanus and Aufidius are leading the Volscian army on the city. The people who banished him now wish him back, and turn on the tribunes.", "themes": ["class", "political_legitimacy", "order_vs_chaos"] },
+        { "number": 7, "summary": "Aufidius, watching Coriolanus eclipse him in the soldiers' affection, confides to his lieutenant that he will let his ally take Rome and then break him.", "themes": ["betrayal", "revenge", "honor"] }
+      ]
+    },
+    {
+      "number": 5,
+      "summary": "Rome sends Coriolanus's old friends and at last his family to plead for mercy. He rebuffs Cominius and Menenius, but cannot resist his mother. Volumnia's great appeal turns him from the city — saving Rome and dooming himself. Returning to the Volscians, he is denounced by Aufidius as a traitor and murdered.",
+      "scenes": [
+        { "number": 1, "summary": "With the city in terror, Cominius reports that Coriolanus would not hear him. The tribunes beg Menenius to go; reluctantly, for Rome's sake, he agrees to try his old friend.", "themes": ["mercy", "loyalty", "rhetoric"] },
+        { "number": 2, "summary": "The Volscian guards turn Menenius away from the camp, and Coriolanus coldly rebuffs him before them, giving him a letter and refusing to listen — to Menenius's heartbreak.", "themes": ["loyalty", "pride", "banishment"] },
+        { "number": 3, "summary": "Volumnia, Virgilia, Valeria, and young Marcius kneel before Coriolanus. In a long, overwhelming appeal his mother shames and implores him to make peace. He yields — 'O mother, mother! ... you have won a happy victory to Rome, but for your son, believe it, most dangerously you have with him prevailed' — and turns the army back.", "themes": ["motherhood", "mercy", "family", "identity"] },
+        { "number": 4, "summary": "In Rome, Menenius and Sicinius despair of mercy — until a messenger brings word that the women have prevailed. The city erupts in joy and prepares to welcome its saviours.", "themes": ["mercy", "rhetoric"] },
+        { "number": 5, "summary": "The Roman matrons are welcomed home in triumph, the senators decreeing public honours for the women who saved the city.", "themes": ["motherhood", "honor"] },
+        { "number": 6, "summary": "Back in Corioli, Aufidius primes the lords and a band of conspirators against Coriolanus, denouncing him as a traitor who sold their victory for a few womanish tears. Goaded past endurance, Coriolanus boasts of having beaten the Volscians at Corioli; the conspirators stab him down. Aufidius, his fury spent, repents and orders his great enemy a noble funeral.", "themes": ["betrayal", "revenge", "honor", "pride"] }
+      ]
+    }
+  ]
+}

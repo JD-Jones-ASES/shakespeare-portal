@@ -729,6 +729,24 @@
       "related_plays": [
         "comedy_of_errors"
       ]
+    },
+    {
+      "id": "ovids-metamorphoses",
+      "kind": "classical",
+      "title": "Ovid's Metamorphoses",
+      "source": {
+        "name": "Ovid, Metamorphoses (Golding 1567)",
+        "citation": "Ovid, Metamorphoses (c. 8 CE); Arthur Golding's English translation, 1567 — the version Shakespeare knew. In Titus Andronicus 4.1 a copy of the book is carried on stage, and the mutilated Lavinia turns its pages to the tale of Philomela to reveal what was done to her."
+      },
+      "summary_basic": "Ovid's Metamorphoses is a Latin epic stringing together myths of transformation — people changed into trees, birds, stones, and stars. Arthur Golding's 1567 English translation was Shakespeare's mythological sourcebook, and its stories run all through his work. In Titus Andronicus the book is literally a stage property: the tongueless, handless Lavinia turns its pages to the story of Philomela's rape to name her own attackers.",
+      "detail_scholar": "More than any other classical text, the Metamorphoses shaped Shakespeare's imagination — Pyramus and Thisbe, Venus and Adonis, Philomela, Actaeon, Arachne, the Golden Age, Pygmalion, and the four ages of the world all derive from it. Titus is his most thoroughly Ovidian play: the rape and silencing of Lavinia rewrites Tereus and Philomela (Met. 6.412-674), and Titus's revenge banquet rewrites Procne's feeding of Itys to Tereus. The same source-bank feeds the narrative poems Venus and Adonis and (with Ovid's Fasti) The Rape of Lucrece. Golding's archaic 'fourteener' couplets are the texture beneath much of Shakespeare's mythology.",
+      "related_plays": [
+        "titus_andronicus",
+        "midsummer_nights_dream"
+      ],
+      "see_also": [
+        { "kind": "classical", "card_id": "philomela" }
+      ]
     }
   ]
 }
