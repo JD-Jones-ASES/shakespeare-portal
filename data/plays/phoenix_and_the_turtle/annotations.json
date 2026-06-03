@@ -1,0 +1,383 @@
+[
+  {
+    "id": "phoenix_and_the_turtle-1-sole-arabian-tree",
+    "play": "phoenix_and_the_turtle",
+    "tln_start": 2,
+    "tln_end": 2,
+    "word_start": 2,
+    "word_end": 4,
+    "anchor_text": "sole Arabian tree",
+    "type": "classical_allusion",
+    "depth": "basic",
+    "summary": "The phoenix was said to live on a single, unique tree in Arabia — fitting for a bird of which only one ever exists at a time. 'Sole' means both 'only' and 'solitary.' The opening stanza summons mourning birds to gather at this legendary tree as if to a funeral.",
+    "detail": "Classical sources agree the phoenix inhabits a nest of aromatic spices in Arabia: Ovid describes the bird building its nest of cinnamon and spikenard at the close of the Metamorphoses; Pliny says its nest contains cassia and frankincense. The 'sole' tree anchors the poem's central paradox: a creature defined by absolute singularity will shortly be shown sharing its very self with another. The tree also signals the poem's occasion — a ceremonial gathering, like a state funeral, called to order at the phoenix's ancestral site.",
+    "sources": [
+      {
+        "name": "Ovid, Metamorphoses",
+        "citation": "Ovid, Metamorphoses 15.391–407 (Golding 1567 translation); the phoenix builds its nest in Arabia before self-immolation."
+      },
+      {
+        "name": "Pliny, Natural History",
+        "citation": "Pliny, Natural History 10.2; the phoenix's Arabian nest of spices."
+      }
+    ],
+    "references": [
+      {
+        "kind": "classical",
+        "card_id": "the-phoenix"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-02",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 2"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Ovid Met. 15.391–407 explicitly names spikenard and cinnamon in the phoenix's Arabian nest, and Pliny NH 10.2 confirms the Arabian phoenix with aromatic spices — both citations are accurate and directly support the claim."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The phoenix-Arabia-spiced-nest tradition is firmly attested in Ovid and Pliny; the gloss on 'sole' as both 'only' and 'solitary' is lexically sound, and the funeral-gathering reading of the opening stanza follows directly from the text."
+      }
+    ]
+  },
+  {
+    "id": "phoenix_and_the_turtle-5-shrieking-harbinger",
+    "play": "phoenix_and_the_turtle",
+    "tln_start": 5,
+    "tln_end": 6,
+    "word_start": 2,
+    "word_end": 4,
+    "anchor_text": "shrieking harbinger, Foul pre-currer of the fiend",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "The 'shrieking harbinger' is the screech owl, widely believed in Elizabethan England to be an omen of death and a servant of the devil. 'Pre-currer' means forerunner or herald. 'Augur of the fever's end' (line 7) means a prophet of death by sickness. This bird of ill-omen is explicitly barred from the funeral rites.",
+    "detail": "The screech owl's cry was a classical and medieval death-omen: Ovid describes it as foretelling the death of Julius Caesar (Metamorphoses 15.791), and Pliny calls it a 'direful' sign. In Elizabethan popular belief owls screamed before deaths in a household. The poem excludes such ominous birds and 'every fowl of tyrant wing' (birds of prey), admitting only those associated with dignity and fidelity: the eagle, swan, crow, and the mourning birds who obey the herald.",
+    "sources": [
+      {
+        "name": "Ovid, Metamorphoses",
+        "citation": "Ovid, Metamorphoses 15.791 (Golding 1567); the screech owl as portent before Caesar's death."
+      },
+      {
+        "name": "Schmidt, Shakespeare-Lexicon",
+        "citation": "Schmidt, Shakespeare-Lexicon, s.v. 'harbinger' (forerunner, one who goes before to prepare) and s.v. 'pre-currer' (forerunner)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-02",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 5"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Ovid Met. 15.791 does describe a screech owl shrieking as an omen among the portents before Caesar's death, and Schmidt's Shakespeare-Lexicon is a standard reference for 'harbinger' and 'pre-currer' — both citations are real and supportive."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Identifying the 'shrieking harbinger' as the screech owl is the standard, well-supported reading (the shrieking cry and death-omen association are consistent with Elizabethan usage throughout Shakespeare), and 'augur of the fever's end' as a herald of death by sickness is a defensible plain reading of the line."
+      }
+    ]
+  },
+  {
+    "id": "phoenix_and_the_turtle-9-session-interdict",
+    "play": "phoenix_and_the_turtle",
+    "tln_start": 9,
+    "tln_end": 10,
+    "word_start": 0,
+    "word_end": 4,
+    "anchor_text": "From this session interdict Every fowl of tyrant wing",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Session' here means a formal assembly or court proceeding — the funeral rites are being conducted as a solemn official gathering. 'Interdict' means to forbid or ban from participation. 'Obsequy' (line 12) means funeral rites or mourning ceremony. The stanza sets strict rules about who may attend, like a presiding officer excluding the unworthy from a court.",
+    "detail": "Shakespeare uses legal and ecclesiastical register throughout the poem's opening section: 'session' was the technical word for a sitting of a court (as in Sonnet 30, 'When to the sessions of sweet silent thought'); 'interdict' is an ecclesiastical term for the formal exclusion of a person or place from sacred rites (an 'interdict' was a papal ban). 'Obsequy' (from Latin obsequiae) means the formal observances due to the dead. The cluster of formal, ritualistic vocabulary establishes the poem's tone as ceremonial elegy, not private lament.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'session' n. 3 (a sitting of a court or formal assembly); s.v. 'interdict' v. (to forbid, prohibit, esp. by ecclesiastical authority); s.v. 'obsequy' n. (funeral rites)."
+      },
+      {
+        "name": "Schmidt, Shakespeare-Lexicon",
+        "citation": "Schmidt, Shakespeare-Lexicon, s.v. 'obsequy' (funeral rites, last offices); s.v. 'session' (sitting of a court)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-02",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 9"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "OED entries for 'session,' 'interdict,' and 'obsequy' and Schmidt's lexicon entries are all standard, verifiable references that accurately support the archaic-vocabulary glosses provided."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The legal/ecclesiastical register of 'session,' 'interdict,' and 'obsequy' is well-attested in OED and the Sonnet 30 parallel for 'sessions' is exact; the ceremonial-elegy reading of the tone is mainstream and well-supported."
+      }
+    ]
+  },
+  {
+    "id": "phoenix_and_the_turtle-25-number-love-was-slain",
+    "play": "phoenix_and_the_turtle",
+    "tln_start": 27,
+    "tln_end": 28,
+    "word_start": 0,
+    "word_end": 5,
+    "anchor_text": "Two distincts, division none: Number there in love was slain",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "The poem claims that the Phoenix and the Turtledove, though two separate beings, shared a single essence — so completely that 'number' (the mathematical concept of counting one versus two) was destroyed. This is the poem's central Neoplatonic paradox: perfect love merges two souls into one, making arithmetic inapplicable.",
+    "detail": "The stanza draws on Neoplatonic philosophy as transmitted through Marsilio Ficino's Commentary on Plato's Symposium (1484, printed in England by the 1590s) and through popular Renaissance love poetry. Ficino argued that in true love each soul 'becomes' the other — the lovers exchange souls and inhabit each other's bodies, so that two people are numerically one. Shakespeare pushes the paradox to its logical extreme: if two are one, then two-ness itself ('Number') has been killed. The next stanza continues the logic: 'Hearts remote, yet not asunder' — distance exists but no space; they are together despite separation, a deliberate contradiction. The poem tests whether human reason can follow love this far, and concludes that it cannot.",
+    "sources": [
+      {
+        "name": "Marsilio Ficino, Commentary on Plato's Symposium",
+        "citation": "Marsilio Ficino, Commentary on Plato's Symposium on Love (Commentarium in Convivium Platonis, 1484), Speech 2, ch. 8 (the mutual indwelling of lovers, each becoming the other)."
+      },
+      {
+        "name": "Arden Shakespeare, The Poems",
+        "citation": "F. T. Prince, ed., The Poems (Arden Shakespeare, 1960), pp. 179–182 (Neoplatonic sources for the poem's metaphysics)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-02",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 27"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Ficino's Commentary on Plato's Symposium (1484) is a real work with a recognized Speech 2 / chapter 8 on mutual indwelling of lovers, and F. T. Prince's 1960 Arden edition of The Poems is a standard scholarly source that discusses Neoplatonic sources for this poem — both citations are real and germane."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The Neoplatonic mutual-indwelling reading for this stanza is the mainstream scholarly consensus (Ficino's Commentary is the standard source invoked by editors including Arden, Riverside, and Oxford), and the text's own language of 'Two distincts, division none' straightforwardly enacts the paradox the annotation describes."
+      }
+    ]
+  },
+  {
+    "id": "phoenix_and_the_turtle-37-property-appalled",
+    "play": "phoenix_and_the_turtle",
+    "tln_start": 37,
+    "tln_end": 40,
+    "word_start": 0,
+    "word_end": 5,
+    "anchor_text": "Property was thus appall'd, That the self was not the same; Single nature's double name Neither two nor one was call'd",
+    "type": "rhetorical_device",
+    "depth": "scholar",
+    "summary": "'Property' in Renaissance philosophy means the defining characteristic that makes a thing what it is — its 'selfhood.' The stanza says that their love so merged the Phoenix and the Turtle that even 'property' (the logical principle that each thing has its own distinct identity) was horrified ('appalled'). 'Single nature's double name' means a single entity that simultaneously carries two names — Phoenix and Turtle — yet is neither two nor one.",
+    "detail": "The three stanzas on 'Property,' 'Reason,' and 'Number' (lines 37–48) form the philosophical core of the poem, structured as a series of paradoxes that defeat Aristotelian logic. 'Property' is a technical term from Aristotle's Categories and the Scholastic tradition: each substance has properties that distinguish it from everything else, constituting its identity. If the two lovers share a single property (essence), then the logical principle of individuation collapses — 'the self was not the same.' Shakespeare is using the vocabulary of university logic-disputations to show that love exceeds reason. The climactic couplet of this section ('Love hath reason, reason none / If what parts can so remain') states the conclusion: love operates by its own rationality, which is opaque to ordinary reason.",
+    "sources": [
+      {
+        "name": "Aristotle, Categories",
+        "citation": "Aristotle, Categories 5 (substance and its properties as the foundation of identity); transmitted through Scholastic philosophy to Renaissance university curricula."
+      },
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'property' n. 5 (a quality or attribute belonging specially to a thing; its essential characteristic); s.v. 'appalled' ppl. adj. (struck with horror or dismay)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-02",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 37"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Aristotle Categories chapter 5 genuinely addresses substance, property, and individual identity, and the OED entries cited for 'property' and 'appalled' are standard — both sources accurately support the philosophical-vocabulary gloss."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Reading 'Property' as the Scholastic/Aristotelian term for an entity's defining characteristic is the standard gloss in all major editions, and the annotation's framing of the three stanzas (Property, Reason, Number) as a sequence defeating Aristotelian logic is mainstream and well-evidenced by the poem's own logical structure."
+      }
+    ]
+  },
+  {
+    "id": "phoenix_and_the_turtle-49-threnos",
+    "play": "phoenix_and_the_turtle",
+    "tln_start": 49,
+    "tln_end": 50,
+    "word_start": 1,
+    "word_end": 5,
+    "anchor_text": "it made this threne To the phoenix and the dove",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "'Threne' (also spelled 'threnos') is a Greek word for a formal lament or funeral dirge. The stage direction 'THRENOS' that follows names the poem's final section. Reason, having been defeated by the lovers' paradox, composes this closing lament — making the poem a lament authored by logic itself in the face of what logic cannot explain.",
+    "detail": "The word 'threnos' (Greek: threnos, lamentation) was used in ancient Greece for choral songs of mourning, and in the New Testament (Matthew 11:17, LXX) for a funeral wail. It was a recognized literary term in Renaissance poetics; Ben Jonson uses it in his contribution to the same 1601 volume. The structure of the poem — an invocation of mourning birds, a central 'anthem,' and a closing 'Threnos' — mirrors the formal divisions of a classical funeral ode. 'Defunctive music' (line 14), meaning funeral music (from Latin defunctus, dead), and 'requiem' (a mass for the dead, line 16) belong to the same ecclesiastical/ceremonial register as 'Threnos': this is not private grief but a public, ritual act of mourning.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'threnody' n. (a song of lamentation; from Greek threnos); s.v. 'defunctive' adj. (pertaining to the dead, funeral; from Latin defunctus)."
+      },
+      {
+        "name": "Robert Chester, Love's Martyr",
+        "citation": "Robert Chester, 'Love's Martyr' (London, 1601): the 'Threnos' is the heading of the poem's final five stanzas in the original printing."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "loves-martyr"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-02",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 49"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Robert Chester's Love's Martyr (London, 1601) is the confirmed original printing and does carry 'Threnos' as the heading of the poem's final section, and OED entries for 'threnody' and 'defunctive' are real and supportive."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The identification of 'threne' with Greek threnos (formal lament) is linguistically exact, the description of the poem's tripartite structure as mirroring a classical funeral ode is defensible and widely noted by editors, and the claim that Reason composes the Threnos after being defeated follows directly from lines 41–49."
+      }
+    ]
+  },
+  {
+    "id": "phoenix_and_the_turtle-56-married-chastity",
+    "play": "phoenix_and_the_turtle",
+    "tln_start": 59,
+    "tln_end": 61,
+    "word_start": 0,
+    "word_end": 3,
+    "anchor_text": "Leaving no posterity:-- 'Twas not their infirmity, It was married chastity",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "The poem insists that the Phoenix and the Turtle left no offspring not because they were barren ('infirmity') but because their love was 'married chastity' — a love so spiritually perfect that it transcended physical reproduction. This is paradoxical: they were married yet chaste, united yet childless.",
+    "detail": "The paradox of 'married chastity' reaches back through the Neoplatonic tradition and Christian mysticism: the highest form of married love was sometimes described as a spiritual union that surpassed or replaced sexual union. Paul's letter to the Corinthians praised celibacy as a higher state than marriage (1 Corinthians 7:1), and the Virgin Mary's marriage to Joseph was the standard model of a marriage that was holy without consummation. Shakespeare leaves the allegory deliberately ambiguous: the pair are married (the Turtle calls the Phoenix 'his queen'), yet their union is 'chaste.' The Threnos closes by mourning not just two birds but the death of the very qualities — Truth, Beauty, constancy — that they embodied, which will not be reborn from their ashes.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'chastity' n. 1 (abstinence from unlawful sexual intercourse; in a wider sense, purity); s.v. 'posterity' n. (offspring, descendants)."
+      },
+      {
+        "name": "Arden Shakespeare, The Poems",
+        "citation": "F. T. Prince, ed., The Poems (Arden Shakespeare, 1960), pp. 183–184 ('married chastity' as the poem's governing moral paradox)."
+      }
+    ],
+    "references": [],
+    "confidence": "medium",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-02",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 59"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "OED entries for 'chastity' and 'posterity' are standard and accurate, and F. T. Prince's 1960 Arden edition is a real scholarly source that addresses 'married chastity' as the poem's governing paradox — both citations support the claim."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "uncertain",
+        "note": "The Mary-and-Joseph 'marriage without consummation' analogy is plausible context but is the annotation's own inference — the poem gives no explicit Christian-marriage cue — and invoking 1 Corinthians 7:1 as background for 'married chastity' is a reach when the phrase is best read as a simple oxymoron denoting spiritual rather than physical union; the allegory is also left deliberately indeterminate by Shakespeare, which the annotation acknowledges but then partially foreclose"
+      }
+    ]
+  }
+]

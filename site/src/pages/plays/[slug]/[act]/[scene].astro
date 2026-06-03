@@ -39,6 +39,21 @@ if (!act || !scene) return Astro.redirect(`/plays/${slug}/`);
 // Act 0 is the pre-Act-1 INDUCTION pseudo-act (e.g. The Taming of the Shrew's Sly frame);
 // label it "Induction" rather than "Act 0".
 const actLabel = act.number === 0 ? 'Induction' : `Act ${actNum}`;
+
+// Poems are modeled as degenerate plays; present them as poems, not "Act X, Scene Y".
+const genre = bundle.catalog?.genre;
+const isPoem = genre === 'Poem' || genre === 'Sonnet_Sequence';
+const isSonnets = genre === 'Sonnet_Sequence';
+// Heading: the scene's own title ("Sonnet 18", "Part 1") or the work title for a one-scene poem.
+const headingMain = scene.title ?? (isPoem ? (bundle.catalog?.title_short ?? (slug as string)) : `${actLabel}, Scene ${sceneNum}`);
+// Subtitle: the thematic chapter (act title) for the Sonnets; otherwise the scene setting.
+const subTitle = isSonnets ? act.title : scene.setting;
+const navLabel = isPoem
+  ? (isSonnets && act.title ? `${act.title} · ${scene.title ?? headingMain}` : headingMain)
+  : `${actLabel} · Scene ${sceneNum}`;
+// Sonnets restart displayed line numbers per sonnet (1-14); narrative poems keep continuous numbers.
+const lineNumberOffset = isSonnets ? ((scene.tln_start ?? 1) - 1) : 0;
+
 const annotations = annotationsForScene(slug as string, actNum, sceneNum);
 
 // characters who actually speak in this scene (for the filter)
@@ -55,22 +70,22 @@ const allScenes = bundle.text.acts.flatMap((a) =>
 const idx = allScenes.findIndex((p) => p.act === actNum && p.scene === sceneNum);
 const prev = idx > 0 ? allScenes[idx - 1] : undefined;
 const next = idx < allScenes.length - 1 ? allScenes[idx + 1] : undefined;
-const title = `${bundle.catalog?.title_short ?? bundle.slug} — ${actLabel} Scene ${sceneNum}`;
+const title = `${bundle.catalog?.title_short ?? bundle.slug} — ${isPoem ? headingMain : `${actLabel} Scene ${sceneNum}`}`;
 ---
 <ReadingLayout title={title}>
   <nav class="scene-nav">
     <a href={withBase(`/plays/${slug}/`)}>&larr; {bundle.catalog?.title_short ?? slug}</a>
-    <span class="scene-label">{actLabel} · Scene {sceneNum}</span>
+    <span class="scene-label">{navLabel}</span>
     <DepthToggle client:idle initial="read" />
   </nav>
 
   <div class="reading-grid">
     <article class="scene-column">
       <header class="scene-header">
-        <h1>{actLabel}, Scene {sceneNum}</h1>
-        {scene.setting && <p class="setting">{scene.setting}</p>}
+        <h1>{headingMain}</h1>
+        {subTitle && <p class="setting">{subTitle}</p>}
       </header>
-      <SceneReader scene={scene} annotations={annotations} speakerColors={speakerColors} glossary={bundle.glossary?.entries ?? []} />
+      <SceneReader scene={scene} annotations={annotations} speakerColors={speakerColors} glossary={bundle.glossary?.entries ?? []} lineNumberOffset={lineNumberOffset} />
       <nav class="scene-nav scene-nav-bottom">
         {prev ? <a href={withBase(`/plays/${slug}/${prev.act}/${prev.scene}/`)}>&larr; Previous scene</a> : <span />}
         {next ? <a href={withBase(`/plays/${slug}/${next.act}/${next.scene}/`)}>Next scene &rarr;</a> : <span />}

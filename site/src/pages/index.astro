@@ -51,7 +51,7 @@ const stats = [
   { n: nf(totalLines), label: 'lines, line-numbered' },
 ];
 ---
-<Base title="Read Shakespeare with the context built in" description={`Every play and poem of Shakespeare, annotated for first-time readers. ${nLive} fully annotated and open to read now; the rest of the canon is on the way.`}>
+<Base title="Read Shakespeare with the context built in" description={`Every play and the poems of Shakespeare, annotated for first-time readers — all ${nLive} works fully annotated and open to read.`}>
   <section class="hero">
     <p class="kicker">A reading edition for first-timers</p>
     <h1>Every line of Shakespeare, explained.</h1>
@@ -68,7 +68,7 @@ const stats = [
         <span class="progress-pct">{pct}%</span>
       </div>
       <div class="progress-bar"><span class="progress-fill" style={`width:${pct}%`}></span></div>
-      <p class="progress-note">We&rsquo;re working straight through the complete canon &mdash; new plays land as they clear fact-checking.</p>
+      <p class="progress-note">The complete works are here &mdash; all 37 plays, the Sonnets, and the four narrative poems, annotated and open. The one remaining catalog entry, <em>The Passionate Pilgrim</em>, is held back as a largely non-Shakespearean miscellany (see below).</p>
     </div>
 
     <dl class="stat-band">
@@ -81,7 +81,7 @@ const stats = [
   <section class="shelf">
     <div class="section-head">
       <h2>Now open</h2>
-      <p>{nLive} plays, fully annotated and ready to read.</p>
+      <p>{nLive} works &mdash; every play, the Sonnets, and the narrative poems &mdash; fully annotated and ready to read.</p>
     </div>
     <ul class="play-grid shelf-grid">
       {liveSorted.map((p) => {
@@ -120,8 +120,8 @@ const stats = [
 
   <section class="coming">
     <div class="section-head">
-      <h2>In the wings</h2>
-      <p>The rest of the canon &mdash; in the catalog now, annotation on the way. {comingSoon.length} works.</p>
+      <h2>Outside the reader</h2>
+      <p>The reader covers Shakespeare&rsquo;s complete works. {comingSoon.length === 1 ? 'One catalog entry is' : `${comingSoon.length} catalog entries are`} kept out on scholarly grounds.</p>
     </div>
     {GENRE_ORDER.map((genre) => {
       const items = byGenre.get(genre);
@@ -136,7 +136,7 @@ const stats = [
                   <h3>{p.catalog!.title_short}</h3>
                   {p.catalog!.date_written && <p class="meta">{p.catalog!.date_written}</p>}
                   {p.catalog!.synopsis_short && <p class="synopsis">{p.catalog!.synopsis_short}</p>}
-                  <span class="status">Annotation coming soon</span>
+                  <span class="status">Catalog only &mdash; not in the reader</span>
                 </a>
               </li>
             ))}

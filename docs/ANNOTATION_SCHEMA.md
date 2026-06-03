@@ -16,6 +16,11 @@ For a single word: `tln_start == tln_end` and `word_start == word_end`.
 
 For a multi-line annotation, `word_start` indexes into `tln_start` and `word_end` into `tln_end`.
 
+**Poems (Phase B)** use the same anchoring: a poem is ingested as a "degenerate play" where every
+verse line is a `spoken` line with a continuous TLN and an empty `speaker`, so `tln_start`/`anchor_text`
+work identically. (The reader displays a Sonnet's lines as 1–14 via a display-only offset, but the
+stored TLN stays globally unique for anchoring.) See [BUILD_A_POEM.md](BUILD_A_POEM.md).
+
 ## Annotation types (taxonomy)
 
 | Type | What it covers | Example |

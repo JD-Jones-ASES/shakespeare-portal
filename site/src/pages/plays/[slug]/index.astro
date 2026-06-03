@@ -65,7 +65,7 @@ for (const a of syn?.acts ?? []) actSummary.set(a.number, a.summary);
                 {act.scenes.map((scene) => (
                   <li>
                     <a href={withBase(`/plays/${bundle.slug}/${act.number}/${scene.number}/`)}>
-                      <span class="scene-name">Scene {scene.number}{scene.setting ? ` — ${scene.setting}` : ''}</span>
+                      <span class="scene-name">{scene.title ?? `Scene ${scene.number}`}{scene.setting ? ` — ${scene.setting}` : ''}</span>
                     </a>
                     {sceneSummary.get(`${act.number}-${scene.number}`) && (
                       <p class="scene-summary">{sceneSummary.get(`${act.number}-${scene.number}`)}</p>

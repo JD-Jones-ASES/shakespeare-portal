@@ -1,0 +1,26 @@
+[
+  {
+    "id": "the_poet",
+    "name": "The Poet",
+    "role": "protagonist",
+    "description": "The first-person voice of the sequence, conventionally called 'the poet.' The 'I' is a literary persona — not necessarily Shakespeare himself. He addresses the Fair Youth (1-126) and the Dark Lady (127-152), and broods on a Rival Poet (78-86). The sonnets have no spoken-dialogue structure; this is the speaking voice, not a stage role."
+  },
+  {
+    "id": "fair_youth",
+    "name": "The Fair Youth",
+    "role": "major",
+    "description": "The beautiful young man addressed in sonnets 1-126 — first urged to marry and have children (1-17), then loved, praised, idealized, and quarreled with. Never named; his identity (Southampton? Pembroke?) is debated."
+  },
+  {
+    "id": "dark_lady",
+    "name": "The Dark Lady",
+    "role": "major",
+    "description": "The dark-haired, dark-complexioned, married woman of sonnets 127-152, whom the poet desires, distrusts, and shares with the Fair Youth. Her 'blackness' overturns the fair-beauty ideal of Petrarchan convention."
+  },
+  {
+    "id": "rival_poet",
+    "name": "The Rival Poet",
+    "role": "supporting",
+    "description": "A competing poet (or poets) courting the Fair Youth's patronage and praise in sonnets 78-86, provoking the speaker's self-doubt and wounded pride. Candidates proposed include Marlowe and Chapman; the identification is speculative."
+  }
+]

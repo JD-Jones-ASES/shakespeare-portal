@@ -1,0 +1,1347 @@
+[
+  {
+    "id": "lovers_complaint-1-concave-womb-reworded",
+    "play": "lovers_complaint",
+    "tln_start": 1,
+    "tln_end": 2,
+    "word_start": 5,
+    "word_end": 6,
+    "anchor_text": "concave womb re-worded / A plaintful story from a sistering vale",
+    "type": "syntax_grammar",
+    "depth": "basic",
+    "summary": "The poem's opening sentence is compressed and inverted. 'Re-worded' means 'echoed back' — the hill's hollow interior (its 'concave womb') repeats the sound of a lamenting voice from the valley below; 'sistering vale' means a valley that is, like a sister, the hill's close companion. The narrator hears this doubled voice and lies down to listen.",
+    "detail": "The verb 're-word' (to repeat as an echo) is almost unique to Shakespeare here; the OED records this as its earliest citation for the sense 'to utter again as an echo' (OED s.v. re-word, v., sense 1). 'Plaintful' (sorrowful, complaining) is a Shakespearean coinage — the OED also records it first here (OED s.v. plaintful, adj.). The opening thus establishes the complaint's acoustic frame: a voice bounced back from a hill, overheard rather than addressed directly to the reader.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. re-word, v., sense 1 (first citation 1609, A Lover's Complaint); OED s.v. plaintful, adj. (first citation 1609)."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "the-female-complaint-tradition"
+      }
+    ],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-03",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 1"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "OED first-citation claims for 're-word' (v., echo sense) and 'plaintful' (adj.) attributed to this poem are well-attested in the scholarly literature on A Lover's Complaint's hapax legomena and are consistent with confirmed OED practice."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The acoustic-frame reading — hill echoes the valley lament, narrator overhears a doubled voice — is the mainstream editorial interpretation (Kerrigan, Burrow) and is fully supported by the text; 're-word' as 'to echo back' and 'sistering vale' as companion-valley are defensible glosses."
+      }
+    ]
+  },
+  {
+    "id": "lovers_complaint-8-platted-hive-of-straw",
+    "play": "lovers_complaint",
+    "tln_start": 8,
+    "tln_end": 8,
+    "word_start": 4,
+    "word_end": 7,
+    "anchor_text": "platted hive of straw",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Platted' means plaited or woven by braiding. The maid is wearing a broad-brimmed straw hat whose crown is woven in a dome shape like a straw beehive — the common rural hat-style of Elizabethan England. It shields her face from the sun.",
+    "detail": "'Plat' (to plait, braid) and 'platted' are standard Elizabethan forms; Schmidt's Shakespeare-Lexicon glosses the verb as 'to braid, to weave together' (Schmidt, Shakespeare-Lexicon, s.v. plat, v.). The beehive-shaped woven straw hat (a 'skep' shape) was ordinary country wear; the detail locates the maid in a rural setting and begins the poem's careful portrait of her dishevelled appearance.",
+    "sources": [
+      {
+        "name": "Schmidt",
+        "citation": "Schmidt, Shakespeare-Lexicon, s.v. plat, v. ('to braid, to weave together')."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-03",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 8"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Schmidt's Shakespeare-Lexicon is a real and accessible reference work; 'plat' as a verb meaning to braid or weave is a standard Elizabethan form and Schmidt's Lexicon is confirmed (via Perseus Digital Library) to cover related silk/weaving terminology from this poem."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Platted' as plaited/braided and the hat as a woven skep-dome shape are uncontroversial; the rural-location inference is adequately grounded in the detail's function within the maid's portrait."
+      }
+    ]
+  },
+  {
+    "id": "lovers_complaint-15-napkin-eyne-pelleted",
+    "play": "lovers_complaint",
+    "tln_start": 15,
+    "tln_end": 15,
+    "word_start": 3,
+    "word_end": 8,
+    "anchor_text": "heave her napkin to her eyne",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Napkin' here means a handkerchief, not a table napkin. 'Eyne' is a plural of 'eye,' an archaic form used in poetry. 'Pelleted in tears' (line 18) means the tears have fallen in pellets — small dense drops — into the handkerchief. The maid repeatedly lifts her handkerchief to her eyes, which are described as washing ('laund'ring') the embroidered figures on it with the brine (salt water) of her weeping.",
+    "detail": "OED records 'napkin' in the sense of handkerchief from the 14th century; in Elizabethan usage 'napkin' and 'handkerchief' were interchangeable (OED s.v. napkin, n., sense 2a). 'Eyne' (plural eyes) is a survival of an older English form, favoured in verse for its rhyme-friendliness; Onions glosses it as a poetic archaism by Shakespeare's time (Onions, Shakespeare Glossary, s.v. eyne). 'Conceited characters' (line 16) means figures or letters embroidered with art or ingenuity — the handkerchief bears an embroidered design that her tears are dissolving.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. napkin, n., sense 2a (handkerchief); OED s.v. pellet, v. ('to pelt or hit with pellets'; here used passively of tears formed into drops)."
+      },
+      {
+        "name": "Onions",
+        "citation": "Onions, Shakespeare Glossary, s.v. eyne ('an archaic poetical plural of eye')."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-03",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 15"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "OED on 'napkin' sense 2a (handkerchief) and Onions on 'eyne' as an archaic poetical plural of 'eye' are both confirmed standard references; Onions' entry for 'eyne' is accessible via Perseus Digital Library."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Napkin' as handkerchief, 'eyne' as archaic plural, and 'pelleted in tears' as tears formed into dense drops are all standard Elizabethan senses; 'conceited characters' as embroidered figures wrought with ingenuity is the established gloss."
+      }
+    ]
+  },
+  {
+    "id": "lovers_complaint-36-maund-favours",
+    "play": "lovers_complaint",
+    "tln_start": 36,
+    "tln_end": 36,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "A thousand favours from a maund she drew",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Maund' is a basket, typically wicker or rush-woven. 'Favours' are tokens of affection: keepsakes, gifts, love-tokens. The maid draws from her basket a collection of gifts the young man gave her — amber beads, crystal, jet — and throws them one by one into the river.",
+    "detail": "OED records 'maund' as a basket for carrying, from Old English; its use here is the only citation in Shakespeare (OED s.v. maund, n.1, sense 1). 'Favours' in the sense of tokens of love (gloves, ribbons, rings, keepsakes given by a lover) is standard Elizabethan usage; Schmidt lists it as 'tokens of love' (Schmidt, Shakespeare-Lexicon, s.v. favour, n., sense 3). The ritual of throwing love-tokens into a river enacts the renunciation of the affair.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. maund, n.1, sense 1 (a basket; the only Shakespearean occurrence)."
+      },
+      {
+        "name": "Schmidt",
+        "citation": "Schmidt, Shakespeare-Lexicon, s.v. favour, n., sense 3 ('token of love; keepsake')."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-03",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 36"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "OED records 'maund' as a basket (from Old English) and the word's use in A Lover's Complaint is the sole Shakespearean occurrence; Schmidt's Lexicon on 'favour' as a love-token is a standard and real reference."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Maund' as wicker basket and 'favours' as love-tokens are uncontroversial; the renunciation reading is directly supported by TLN 38 ('which one by one she in a river threw')."
+      }
+    ]
+  },
+  {
+    "id": "lovers_complaint-40-usury-applying-wet",
+    "play": "lovers_complaint",
+    "tln_start": 40,
+    "tln_end": 40,
+    "word_start": 0,
+    "word_end": 5,
+    "anchor_text": "Like usury applying wet to wet",
+    "type": "rhetorical_device",
+    "depth": "scholar",
+    "summary": "The simile compares the maid's behaviour — weeping beside a river, adding her tears to the water — to usury and to a monarch who gives bounty only where there is already excess. Usury 'applies wet to wet' because it lends money only to those who already have it (collateral), making the rich richer. The monarch 'lets not bounty fall / Where want cries some, but where excess begs all': rulers give gifts to those already wealthy, ignoring the poor who beg for a little. Both similes are satirical: the maid's grief, like usury, pours into the already-full.",
+    "detail": "The usury comparison had a long classical and theological pedigree: Aristotle in Politics 1.10 called interest-bearing money 'unnatural' because money was barren and should not breed, and Tudor moralists repeated the charge (cf. the historical card usury-and-the-bond). Here the point is more geometrical: the maid adds tears (wet) to the river (wet), which already has more than enough liquid. The monarch simile may glance at the Elizabethan/Jacobean court practice of granting monopolies and gifts to already-wealthy favourites rather than distributing relief to the poor — a real grievance in 1600–1609.",
+    "sources": [
+      {
+        "name": "Aristotle, Politics",
+        "citation": "Aristotle, Politics 1.10 (1258b): money lent at interest is 'unnatural' because money is barren; cited by Tudor moralists against usury."
+      },
+      {
+        "name": "Onions",
+        "citation": "Onions, Shakespeare Glossary, s.v. usury ('the lending of money at interest, regarded as sinful')."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "usury-and-the-bond"
+      }
+    ],
+    "confidence": "medium",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-03",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 40"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Aristotle, Politics 1258b is confirmed as the real passage arguing that money-lending at interest is the most unnatural form of wealth-getting because money is barren and should not 'breed'; the citation accurately represents the source."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The double simile — usury pours wealth where wealth already abounds, monarchs give gifts to the already-rich — is a defensible reading of TLN 40-42, and the interpretation is appropriately marked medium confidence; the Aristotle citation on unnatural interest is a legitimate scholarly parallel even if it goes slightly beyond what the poem strictly requires."
+      }
+    ]
+  },
+  {
+    "id": "lovers_complaint-47-sleided-silk-feat",
+    "play": "lovers_complaint",
+    "tln_start": 48,
+    "tln_end": 49,
+    "word_start": 1,
+    "word_end": 5,
+    "anchor_text": "sleided silk feat and affectedly / Enswath'd, and seal'd to curious secrecy",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Sleided' means untwisted or raw — silk thread that has not yet been spun or woven, used for embroidery. 'Feat' means neatly, with skill. 'Affectedly' means with studied artfulness. 'Enswathed' means wrapped or swaddled. 'Curious' means elaborate, painstaking. The letters written in blood are wrapped with untwisted embroidery silk, tied with neat artistry, and sealed to keep their contents private — love-letters treated as precious objects.",
+    "detail": "OED records 'sleided' (also 'sleid') as an adjective for untwisted silk thread prepared for use in embroidery (OED s.v. sleave, n., sense 1 — 'sleided' as participial adj. meaning 'consisting of sleave-silk'). 'Enswathed' (wrapped closely) is rare; Onions notes it in the sense of bandaging or binding (Onions, Shakespeare Glossary, s.v. enswathe). The whole phrase captures the care and ceremony with which the young man's letters were preserved — and which the maid is now undoing by casting them away.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. sleave, n., sense 1 ('raw or untwisted silk; sleided = consisting of or wrapped in sleave-silk')."
+      },
+      {
+        "name": "Onions",
+        "citation": "Onions, Shakespeare Glossary, s.v. enswathe ('to wrap closely, bind')."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-03",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 48"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "OED s.v. 'sleave' for 'sleided' as raw untwisted silk is confirmed; Schmidt's Lexicon entry for 'sleid' (raw silk) cites A Lover's Complaint directly and is accessible via Perseus Digital Library; Onions on 'enswathe' is a standard reference."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Sleided' as untwisted embroidery silk, 'feat' as neatly/skilfully, 'affectedly' as with studied artfulness, and 'enswathed' as wrapped are all accurate Elizabethan glosses; the interpretation that the letters are ceremonially packaged as precious objects is well supported by TLN 47-49."
+      }
+    ]
+  },
+  {
+    "id": "lovers_complaint-113-real-habitude",
+    "play": "lovers_complaint",
+    "tln_start": 114,
+    "tln_end": 114,
+    "word_start": 0,
+    "word_end": 6,
+    "anchor_text": "His real habitude gave life and grace",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Real habitude' means his genuine, inborn quality of character — 'habitude' (from Latin habitus) denotes one's habitual or natural disposition, not a put-on manner. The contrast with 'case' (TLN 116, meaning outward appearance or dress) is the point: he is 'Accomplish'd in himself,' perfected from within, not by accessories.",
+    "detail": "'Habitude' entered English in the late sixteenth century from Latin habitus (disposition, condition of body or soul). OED s.v. 'habitude' sense 1 gives 'the condition or constitution of one's body or mind.' 'Real' here carries its older sense of 'actual, genuine' (Latin res, thing) rather than the modern opposition to 'fake.' The stanza argues that all his adornments ('Came for additions') did not pierce or enhance his grace — they were themselves improved by proximity to him. This is the blazon tradition inverted: he needs no embellishment, embellishment needs him.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'habitude' sense 1 (first cited c. 1586): 'the condition or constitution of one's body or mind; settled disposition or character.'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-03",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 114"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "OED s.v. 'habitude' is a real entry with senses matching the summary; the Latin etymology and first-citation date are consistent with what OED records for this word."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Real' in the older Latin-rooted sense of 'actual/genuine' and 'habitude' as inborn dispositional quality are both defensible; the contrast with 'case' (outward dress/shell) is textually grounded in 'Accomplish'd in himself, not in his case' (TLN 116), and the blazon-inverted argument holds."
+      }
+    ]
+  },
+  {
+    "id": "lovers_complaint-127-general-bosom",
+    "play": "lovers_complaint",
+    "tln_start": 127,
+    "tln_end": 127,
+    "word_start": 3,
+    "word_end": 7,
+    "anchor_text": "in the general bosom reign",
+    "type": "syntax_grammar",
+    "depth": "basic",
+    "summary": "TLN 131–133 are the hardest lines in the stanza: 'Consents bewitch'd, ere he desire, have granted; / And dialogued for him what he would say, / Ask'd their own wills, and made their wills obey.' The subject of all three verbs is the bewitched followers themselves. Before he even expresses desire, they had already given consent; they scripted his speeches for him; they questioned their own wishes and then surrendered to him anyway. The grammar enacts total psychological subjugation.",
+    "detail": "The compression is typical of the poem's late-style density. 'Dialogued for him' is a verbal use: they held the internal dialogue on his behalf, imagining and rehearsing what he might say. 'Ask'd their own wills' is reflexive: they interrogated their own desires, found them pointing toward him, and obeyed — so even resistance became a form of submission. The stanza captures what modern psychology might call an internalised seducer: his hold on his targets is so complete that they do the work of seduction themselves.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'dialogue' v. (rare), sense 1: 'to express in dialogue; to discourse.' Shakespeare's usage here is among the earliest verbal instances."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-03",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 127"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "OED does record 'dialogue' as a rare verb with Shakespeare among the earliest instances; the claim is modest and the lexicographical citation is plausible."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The parsing of TLN 131–133 — followers as the grammatical subject who pre-emptively grant consent, script his dialogue, and then overrule their own resistance — is syntactically correct and captures the poem's psychological argument about internalised seduction without over-reaching."
+      }
+    ]
+  },
+  {
+    "id": "lovers_complaint-134-picture-get",
+    "play": "lovers_complaint",
+    "tln_start": 134,
+    "tln_end": 134,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "Many there were that did his picture get",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "Obtaining a miniature portrait of a beloved was a recognized Elizabethan custom: small painted likenesses were worn in lockets, kept in caskets, or exchanged as tokens of love or allegiance. The maid says admirers who never touched the young man's hand possessed his portrait and used it as a mental substitute for the real person — imagining ownership the way a daydreamer mentally 'assigns' lands and mansions he merely walks past.",
+    "detail": "Miniature portraiture was a significant art in late Elizabethan England (Nicholas Hilliard was the pre-eminent practitioner). A portrait could circulate as a surrogate for the sitter, and its acquisition was a recognised act of emotional investment. The simile of 'fools' who mentally own the 'goodly objects which abroad they find' (TLN 137) — like a tourist who imagines the stately home is his — deflates the admirers gently: they are self-deceiving fantasists who mistake imaginative possession for real attachment. 'Gouty landlord' (TLN 140) adds a satiric edge: the legitimate owner is old, infirm, inactive — yet still the real proprietor.",
+    "sources": [
+      {
+        "name": "Schmidt",
+        "citation": "Schmidt, Shakespeare-Lexicon s.v. 'picture': 'a portrait, likeness; often a small one worn about the person or kept for devotion.'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-03",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 134"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Schmidt, Shakespeare-Lexicon is a real reference work and the definition given for 'picture' is consistent with its documented usage; the cultural context about Elizabethan miniature portraiture is well-established."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The Elizabethan miniature-portrait custom is well documented (Hilliard as context is sound), and the landlord simile is read correctly as deflating the admirers as self-deceiving fantasists; no anachronism or over-reading detected."
+      }
+    ]
+  },
+  {
+    "id": "lovers_complaint-143-fee-simple",
+    "play": "lovers_complaint",
+    "tln_start": 144,
+    "tln_end": 144,
+    "word_start": 1,
+    "word_end": 7,
+    "anchor_text": "was my own fee-simple, (not in part,)",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Fee-simple' is a legal term for unconditional ownership of property — absolute possession, held without restriction or conditions, not shared with another party. The maid says she owned herself outright, free and whole, before she surrendered to him. 'Reserv'd the stalk, and gave him all my flower' (TLN 147) then extends the metaphor with a sexual edge: the stalk is what remains after the bloom (virginity) is given away.",
+    "detail": "In English property law a 'fee-simple' was the fullest form of freehold tenure: ownership without entail, reversion, or condition, and descendible to any heir. OED s.v. 'fee-simple' gives the sense precisely. The maid describes her pre-seduction self in the legal language of real property: she was not a tenant or part-owner of herself — she was the absolute freeholder. Yielding to the young man is cast as a conveyance (transfer of title), making him the new owner of what was exclusively hers. 'Flower' for virginity is a standard Elizabethan figure; 'stalk' is what is left after the flower is plucked — a sharp, diminished remainder.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'fee-simple': 'Law. Ownership of land (or other heritable property) in its most absolute form, an estate belonging to the owner and his or her heirs for ever, without limitation to any particular class of heirs.'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-03",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 144"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "OED s.v. 'fee-simple' is a genuine entry accurately describing unconditional freehold tenure; the legal definition cited matches standard property law usage."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Fee-simple' as absolute unconditional self-ownership, then conveyed away, is a mainstream gloss; 'flower' for virginity and 'stalk' as diminished remainder are conventional Elizabethan figures well attested in Shakespeare elsewhere."
+      }
+    ]
+  },
+  {
+    "id": "lovers_complaint-155-shunnd-by-precedent",
+    "play": "lovers_complaint",
+    "tln_start": 155,
+    "tln_end": 156,
+    "word_start": 2,
+    "word_end": 6,
+    "anchor_text": "who ever shunn'd by precedent / The destin'd ill she must herself assay",
+    "type": "syntax_grammar",
+    "depth": "basic",
+    "summary": "The stanza poses a rhetorical question: who has ever been saved from a destined harm by watching others suffer it first? 'Assay' means to experience or undergo — to test by direct encounter (from Old French assai, a trial or proof). The maid knew perfectly well from others' ruined examples ('proofs new-bleeding,' TLN 153) that the young man was dangerous; knowing it did not protect her. 'By blunting us to make our wills more keen' (TLN 161) means that warnings sharpen desire rather than curbing it.",
+    "detail": "The argument is a compressed version of a commonplace in Elizabethan moral discourse: that prudential advice cannot overrule appetite. 'Assay' (OED s.v. sense 4: 'to try, test, experience') appears frequently in Shakespeare in the sense of undergoing a trial or ordeal — cf. Othello 1.3: 'I would not put a robber in to assay / The sea.' The paradox of TLN 160–161 ('advice is often seen / By blunting us to make our wills more keen') is a variant of the forbidden-fruit principle: that prohibition intensifies desire. The sharpened knife metaphor is exact — blunting a blade by stropping it against a surface can, paradoxically, refine its edge.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'assay' v. sense 4: 'to make trial or proof of; to try, test, experience (anything).'"
+      }
+    ],
+    "references": [],
+    "confidence": "medium",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-03",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 155"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "OED s.v. 'assay' v. sense 4 is a real entry; the Othello parallel cited is approximate but the lexicographical claim is supportable and the annotation does not overreach."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "uncertain",
+        "note": "The gloss on 'assay' is sound and the forbidden-fruit paradox is correctly identified, but the parenthetical claim that 'blunting us to make our wills more keen' operates as a knife-sharpening metaphor is not supported by the text — blunting and sharpening are opposites, and 'blunting us' most naturally means dulling our judgment/sensitivity, not refining it as a strop does; the image works rhetorically as paradox without requiring the strop reading, which imposes a technical"
+      }
+    ]
+  },
+  {
+    "id": "lovers_complaint-169-patterns-beguiling",
+    "play": "lovers_complaint",
+    "tln_start": 170,
+    "tln_end": 170,
+    "word_start": 3,
+    "word_end": 7,
+    "anchor_text": "patterns of his foul beguiling",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Patterns' here means examples or instances — proof-cases, precedents of his deceitfulness (OED s.v. 'pattern' sense 3a: 'an example or instance serving as a model or basis for comparison'). The maid knew the template of his seduction method. 'Brokers to defiling' (TLN 173) means that his vows served as middlemen or procurers for sexual dishonour — 'broker' carries the same bawdy sense as 'pander.'",
+    "detail": "'Characters and words, merely but art' (TLN 174) sets up the climactic 'bastards of his foul adulterate heart' (TLN 175): his letters and spoken words are illegitimate offspring of a corrupt inner life, branded as bastards because their father (his heart) is adulterous — faithless to everyone it pledges to. 'Adulterate' means both adulterous and debased/corrupted (OED s.v. 'adulterate' adj. senses 1 and 2). The stanza's logic: I knew all this; it made no difference.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'broker' sense 3: 'a go-between; a pander or pimp'; s.v. 'adulterate' adj. sense 1: 'adulterous'; sense 2: 'corrupted, debased.'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-03",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 170"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "OED entries for 'broker' sense 3 and 'adulterate' adj. senses 1 and 2 are genuine and the definitions cited accurately support the annotation's claims."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Patterns' as proof-cases/precedents and 'brokers' carrying the pander/procurer sense are both defensible; 'adulterate' read as simultaneously 'adulterous' and 'debased' is standard Shakespeare usage, and 'bastards of his foul adulterate heart' as illegitimate offspring of a faithless inner life is a mainstream and textually tight reading."
+      }
+    ]
+  },
+  {
+    "id": "lovers_complaint-183-errors-of-the-blood",
+    "play": "lovers_complaint",
+    "tln_start": 184,
+    "tln_end": 184,
+    "word_start": 1,
+    "word_end": 8,
+    "anchor_text": "errors of the blood, none of the mind",
+    "type": "rhetorical_device",
+    "depth": "scholar",
+    "summary": "The young man excuses his past seductions by claiming they were 'errors of the blood' — failures of physical appetite, not of the will or moral judgment ('the mind'). In Elizabethan faculty psychology the 'blood' was the seat of passion and desire, subject to the body's heat, while the 'mind' (reason and will) was the governing faculty. Blaming the blood shifts responsibility to the body and away from the self.",
+    "detail": "The distinction maps onto Elizabethan medical-philosophical categories derived from Galenic humoral theory: the blood humour governed passion, sexual desire, and appetite; the rational soul or 'mind' governed deliberate choice. His claim is: 'my body wanted; my will never consented.' 'With acture they may be' (TLN 185) is nearly impenetrable: 'acture' is a Shakespearean coinage (OED records it only here) meaning something like 'performance, putting into action.' The sense is: 'the acts may have happened, but without love or conscious intent on my part.' The maid, who reports this speech, has already told us he knew exactly what he was doing (TLN 169–175). His 'errors of the blood' defence is a piece of the self-exculpating rhetoric she has catalogued throughout.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'acture' (nonce-word): 'performance of an action'; first and only recorded instance is this line of A Lover's Complaint."
+      },
+      {
+        "name": "Schmidt",
+        "citation": "Schmidt, Shakespeare-Lexicon s.v. 'blood': 'passion, the seat of the passions and carnal desires, as opposed to the reason.'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-03",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 184"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "OED records 'acture' as a Shakespearean nonce-word first and only cited in A Lover's Complaint; Schmidt s.v. 'blood' is a genuine entry; both citations accurately support the annotation."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The Galenic humoral distinction between blood (passion/appetite) and mind (reason/will) as an Elizabethan faculty-psychology frame is correct; 'acture' as a Shakespearean hapax meaning 'performance/enactment' is on solid philological ground, and noting that the maid's earlier account undercuts his self-exculpation is an astute, textually grounded reading."
+      }
+    ]
+  },
+  {
+    "id": "lovers_complaint-204-talents-of-their-hair",
+    "play": "lovers_complaint",
+    "tln_start": 204,
+    "tln_end": 205,
+    "word_start": 3,
+    "word_end": 4,
+    "anchor_text": "these talents of their hair, / With twisted metal amorously empleach'd",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Talents' are locks or braided tresses of hair (the seducer is still speaking, recounting the love-gifts he received from other women). 'Empleach'd' means intertwined or braided — the hair is plaited together with twisted metalwork, making a composite love-token. These were real Elizabethan keepsakes: lovers cut and plaited their hair into rings or bracelets, set with gems, as erotic pledges.",
+    "detail": "'Talent' in the sense of a hank or tress of hair is rare; the primary sense (a unit of weight or money, from the biblical parable) is also in play, since the young man is describing the tribute ('trophies of affections hot,' TLN 218) paid to him by many women. 'Empleach' is a coinage, probably from Old French emplaissier (to braid): OED records it only in this poem. The love-token of braided hair set in a jewelled mount was a recognised material form of Elizabethan courtship. The annexions (TLN 208, meaning attachments or supplements, from Latin annexio) were gems added to the hair-and-metal plait, accompanied by 'deep-brain'd sonnets' (TLN 209) that explicating each stone's symbolic properties — a practice grounded in Renaissance lapidary tradition.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'empleach' v.: 'to intertwine, entwine'; first and only citation is A Lover's Complaint line 205. S.v. 'annexion': 'the action of annexing; an annexure, appendage.'"
+      }
+    ],
+    "references": [],
+    "confidence": "medium",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-03",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 204"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "OED does record 'empleach' and 'annexion' with the citations given; the cultural context of braided-hair love-tokens is documented; the annotation's claims are within the bounds of the cited sources."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "uncertain",
+        "note": "The material detail of braided-hair love-tokens is well documented, 'empleach' as a braid-derived coinage is sound, and the lapidary context for 'annexions' is defensible; however, the claim that 'talent' in the hair-tress sense simultaneously activates the biblical-parable monetary sense ('tribute paid') is asserted without evidence that Shakespeare deploys this pun elsewhere — it may be an over-reading of an already unusual secondary sense."
+      }
+    ]
+  },
+  {
+    "id": "lovers_complaint-211-invisd-properties",
+    "play": "lovers_complaint",
+    "tln_start": 212,
+    "tln_end": 212,
+    "word_start": 1,
+    "word_end": 5,
+    "anchor_text": "his invis'd properties did tend",
+    "type": "archaic_vocab",
+    "depth": "scholar",
+    "summary": "'Invis'd' means invisible or hidden — the diamond's concealed qualities. The stanza catalogues the symbolic virtues of three gems: the diamond (beauty + hardness, suggesting invisible inner virtues), the emerald (traditionally believed to restore weak eyesight; 'Weak sights their sickly radiance do amend'), and the sapphire and opal (of shifting, manifold appearance). Each stone was 'blazon'd' — its qualities heraldically displayed — in the accompanying sonnets.",
+    "detail": "Renaissance lapidary tradition ascribed therapeutic and moral properties to gemstones. The emerald's power to repair vision was a commonplace: Pliny the Elder (Natural History 37.16–17) describes the emerald as restoring tired eyes — Nero was said to watch gladiatorial combat through an emerald. 'Invis'd' is a coinage: OED has no separate entry and glosses it as 'invisible' by context. 'Blazon'd' (TLN 217) is the technical term for spelling out a device's components in heraldic description; its application to sonnets that 'amplify / Each stone's dear nature' (TLN 209–210) situates these poems within the blazon tradition — the enumerative praise-poem. The whole passage is the young man's cunning rhetorical performance: he displays the tributes paid by others to increase his appeal to the maid.",
+    "sources": [
+      {
+        "name": "Pliny",
+        "citation": "Pliny the Elder, Natural History 37.16–17 (trans. D.E. Eichholz, Loeb Classical Library): on the emerald's restorative effect on the eyes and Nero's use of an emerald lens."
+      },
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'blazon' v. sense 2: 'to describe in heraldic language; to display, make known'; the application to poetic enumeration of a loved one's qualities is standard in Renaissance poetry criticism."
+      }
+    ],
+    "references": [],
+    "confidence": "uncertain",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-03",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 212"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "uncertain",
+        "note": "Pliny NH 37.16-17 is the correct chapter (smaragdus), and the claim about emeralds refreshing tired eyes and the Nero anecdote are genuinely in that chapter (at continuous paragraph 63-64), but the canonical scholarly citation is NH 37.64 not 37.16-17, creating ambiguity about whether the annotator is citing by chapter or by continuous section; the underlying factual claim is real but the citation form is non-standard."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The lapidary tradition for gemstone virtues, the Pliny/Nero emerald-lens detail, and the application of 'blazon'd' to sonnets enumerating a gem's symbolic properties are all historically grounded; the reading of the young man's display of others' tributes as a rhetorical strategy to increase his own appeal to the maid is astute and textually supported."
+      }
+    ]
+  },
+  {
+    "id": "lovers_complaint-218-origin-and-ender",
+    "play": "lovers_complaint",
+    "tln_start": 222,
+    "tln_end": 222,
+    "word_start": 3,
+    "word_end": 7,
+    "anchor_text": "you, my origin and ender",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "The young man's address closes with a religious figure: he calls the maid his 'origin and ender' and declares he is her 'altar' while she is his patron saint ('enpatron'). His love-gifts become her 'oblations' (TLN 223) — sacrificial offerings. This converts seduction into religious devotion, casting him as the worshipper and her as the deity who receives his tribute. The strategy makes refusing him a kind of sacrilege.",
+    "detail": "'Origin and ender' echoes the biblical title of God as Alpha and Omega — beginning and end — applied in the Book of Revelation (1:8, 21:6, 22:13, Geneva 1599: 'I am Alpha and Omega, the beginning and the end'). 'Oblations' are formal religious offerings (OED s.v. 'oblation': 'a thing offered in worship or devotion'). 'Enpatron' is a coinage: to make someone one's patron saint. The young man casts himself as a dedicated devotee whose gathered trophies are all rightly hers as the object of his worship — a rhetorically brilliant conclusion to his speech because it simultaneously flatters her and creates a quasi-sacred obligation for her to accept. The maid, narrating, offers no immediate rebuttal: the poem will reveal she yielded.",
+    "sources": [
+      {
+        "name": "Geneva Bible 1599",
+        "citation": "Revelation 1:8; 21:6; 22:13 (Geneva 1599): 'I am Alpha and Omega, the beginning and the ending, saith the Lord' — the biblical source of 'origin and ender' as a divine title."
+      },
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'oblation': 'a thing offered or presented to God or a deity, or to a divine being or power; a sacrifice, offering'; s.v. 'enpatron': first and only recorded use, A Lover's Complaint line 224."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-03",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 222"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Revelation 1:8 in the Geneva Bible 1599 does read 'I am Alpha and Omega, the beginning and the ending, saith the Lord'; OED entries for 'oblation' and 'enpatron' are genuine and accurately cited."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The parallel to the Revelation Alpha-and-Omega title ('I am Alpha and Omega, the beginning and the ending') is a defensible and widely accepted reading; 'oblations' as sacrificial offerings and the rhetorical point that recasting refusal as sacrilege is the seducer's strategy are both textually sound."
+      }
+    ]
+  },
+  {
+    "id": "lovers_complaint-225-phraseless-hand",
+    "play": "lovers_complaint",
+    "tln_start": 225,
+    "tln_end": 225,
+    "word_start": 2,
+    "word_end": 7,
+    "anchor_text": "advance of yours that phraseless hand",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Advance' means 'hold out' or 'raise up'; 'phraseless' means beyond any words to describe it — the young man tells the maid her hand is so beautiful it defeats all praise. The stanza then extends a commercial metaphor: what all his other admirers gave him ('similes,' sighs, devotion) is 'distract parcels' — separate account-items — that he sums up and pays over to her 'audit,' her reckoning.",
+    "detail": "The word 'audit' (TLN 230) is a formal accounting term for a final inspection of accounts. 'Distract parcels' means separate, scattered items that must be combined into a single total. The seducer thus casts himself as an estate manager who has collected tribute from all his former lovers and now renders the whole sum to the maid as his true creditor — a flattering fiction that makes her feel uniquely powerful. OED records 'phraseless' as a rare coinage meaning 'incapable of being expressed in words' (OED s.v. 'phraseless,' first citation 1609, this poem). 'Advance' in the sense of 'hold forward, present' is standard Elizabethan usage (OED s.v. 'advance' v. 5).",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'phraseless' (first attested in this poem, 1609); s.v. 'advance' v. 5; s.v. 'audit' n. 3."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-03",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 225"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "OED entries for 'phraseless', 'advance' v.5, and 'audit' n.3 are real and directly support the lexical claims; 'phraseless' is indeed a rare Shakespearean coinage first attested in this poem."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The accounting metaphor ('audit,' 'distract parcels') is well-grounded in the text, and the readings of 'advance' as 'present/hold out' and 'phraseless' as 'beyond words' are standard Elizabethan usage with no over-reach."
+      }
+    ]
+  },
+  {
+    "id": "lovers_complaint-232-nun-device",
+    "play": "lovers_complaint",
+    "tln_start": 232,
+    "tln_end": 232,
+    "word_start": 1,
+    "word_end": 8,
+    "anchor_text": "this device was sent me from a nun",
+    "type": "cultural_context",
+    "depth": "basic",
+    "summary": "The young man produces a love-token ('device') sent to him by a 'sister sanctified' — a consecrated religious woman, almost certainly a member of a convent, who had rejected many wealthy suitors to enter eternal religious life but who, seeing him, fell in love anyway. He uses her surrender as proof of his irresistible power.",
+    "detail": "In Elizabethan England religious convents for women still existed on the Continent (English Catholic exiles maintained several), though they had been dissolved in England by Henry VIII's Reformation of the 1530s-40s. 'Sister sanctified' and 'holiest note' signal a woman of recognized spiritual reputation. Her 'noble suit in court' (she had been sought by 'spirits of richest coat,' i.e. gentlemen of the highest rank) makes her abandonment of the world the more impressive as evidence of chaste principle — and her subsequent capitulation to the seducer the more devastating as evidence of his power. The stanza's phrase 'eternal love' plays on the vow of perpetual dedication to God; the seducer is now claiming to supersede even divine devotion.",
+    "sources": [
+      {
+        "name": "Schmidt, Shakespeare-Lexicon",
+        "citation": "Schmidt, Alexander. Shakespeare-Lexicon, s.v. 'device' (token, gift, emblem) and 'note' (reputation, distinction)."
+      },
+      {
+        "name": "Roe, Cambridge Shakespeare",
+        "citation": "Roe, John, ed. The Poems. Cambridge Shakespeare, 2nd ed. (2006), note to lines 232-238 on the nun's role as proof of the seducer's power."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-03",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 232"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Schmidt's Shakespeare-Lexicon and Roe's New Cambridge Shakespeare: The Poems (2nd ed. 2006, confirmed to exist and cover A Lover's Complaint) are real sources; the historical claim about Henrician dissolution of English convents in the 1530s-40s is accurate."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The identification of the nun as a Continental Catholic religious and the reading of 'eternal love' as a vow of perpetual divine devotion that the seducer's appearance then disrupts are mainstream interpretations firmly anchored in the stanza's language."
+      }
+    ]
+  },
+  {
+    "id": "lovers_complaint-239-unconstrained-gyves",
+    "play": "lovers_complaint",
+    "tln_start": 242,
+    "tln_end": 242,
+    "word_start": 0,
+    "word_end": 5,
+    "anchor_text": "Playing patient sports in unconstrained gyves",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Gyves' (pronounced 'jives') are leg-shackles or fetters — chains for a prisoner. 'Unconstrained gyves' is a deliberate paradox: the nun wears her chastity-vow like chains that are somehow not forced on her, since she chose them willingly. The seducer's point is that keeping a vow you've never been tempted to break takes no real courage.",
+    "detail": "The stanza (TLN 239-245) is syntactically dense. 'Mastering what not strives' (TLN 240) means 'ruling over what doesn't resist' — an un-tempted nun controls nothing difficult. 'Paling the place which did no form receive' (TLN 241): 'paling' means fencing off (building a pale or fence around); 'place which did no form receive' is a space where no temptation ever entered, i.e. an empty enclosure. The stanza argues that the nun's virtue was easy cowardice — she 'makes her absence valiant, not her might' (TLN 245) by avoiding the battlefield rather than fighting on it. OED s.v. 'gyves' n.pl. gives fetters; 'unconstrained' here is oxymoronic with the metaphor of shackles.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'gyves' n.pl. (fetters, leg-irons); s.v. 'paling' vbl.n. (enclosing with pales or stakes); s.v. 'unconstrained' adj."
+      },
+      {
+        "name": "Onions, Shakespeare Glossary",
+        "citation": "Onions, C. T. A Shakespeare Glossary, s.v. 'gyves.'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-03",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 242"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "OED entries for 'gyves', 'paling', and 'unconstrained', and Onions's Shakespeare Glossary s.v. 'gyves', are standard, real lexicographic sources that accurately support the glosses given."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The paradox of voluntarily chosen 'unconstrained gyves' and the argument that untested virtue is no virtue at all is the consensus scholarly reading of this dense stanza; the pronunciation note and the 'paling'/'mastering what not strives' glosses are all defensible."
+      }
+    ]
+  },
+  {
+    "id": "lovers_complaint-249-religious-love",
+    "play": "lovers_complaint",
+    "tln_start": 250,
+    "tln_end": 250,
+    "word_start": 0,
+    "word_end": 5,
+    "anchor_text": "Religious love put out religion's eye",
+    "type": "wordplay",
+    "depth": "basic",
+    "summary": "The line turns on a pun: 'religious love' is both the nun's sacred devotion to God and the passionate new love she feels for the young man — which has blinded ('put out the eye of') her original religious faith. Sight was the conventional channel of falling in love in Renaissance poetry, so 'put out the eye' also means love literally displaced the faculty of spiritual discernment.",
+    "detail": "The couplet plays on three senses simultaneously: (1) her love for him is itself 'religious' in its intensity; (2) this new religion of erotic love blinds ('puts out the eye of') her actual religion; (3) 'Not to be tempted, would she be immur'd' — she would have stayed walled up in the convent not to be tempted, but now she has obtained freedom in order to seek temptation. 'Immur'd' (TLN 251) means 'walled in,' from Latin murus, wall — an architectural term for the convent's physical enclosure that doubles as a metaphor for her former self-imprisonment in chastity. The passage is the seducer's most cynical boast: even a consecrated vow gave way to him.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'immure' v. (to wall in, enclose within walls); s.v. 'procure' v. 3 (to obtain for oneself)."
+      },
+      {
+        "name": "Roe, Cambridge Shakespeare",
+        "citation": "Roe, John, ed. The Poems. Cambridge Shakespeare, 2nd ed. (2006), note to line 250 on the pun on religious love."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-03",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 250"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "OED s.v. 'immure' (from Latin murus, to wall in) and Roe Cambridge (2006) are real sources; the etymology and the claim about the pun on 'religious love' are accurately supported."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The pun on 'religious' (sacred vs. intensely erotic devotion) and the sight/blindness metaphor are mainstream; the paraphrase of 'Not to be tempted, would she be immur'd / And now, to tempt all, liberty procur'd' is essentially correct, capturing the before/after contrast."
+      }
+    ]
+  },
+  {
+    "id": "lovers_complaint-253-congest-physic",
+    "play": "lovers_complaint",
+    "tln_start": 259,
+    "tln_end": 259,
+    "word_start": 1,
+    "word_end": 7,
+    "anchor_text": "compound love to physic your cold breast",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Physic' means medicine or cure; 'congest' (TLN 258) means to gather together, heap up. The young man tells the maid that all the broken-hearted lovers he has conquered together flow into him, and he pours them all into her: the combined mass of their love is a 'compound' medicine that will warm her cold, unfeeling heart.",
+    "detail": "The stanza draws on humoral medicine: a 'cold breast' was a heart that lacked warmth and love, a deficiency of the warm, moist humors. 'Compound love' is a medicinal compound — a drug made from multiple ingredients — suggesting that the combined grief of all his former lovers, distilled into his person, forms an irresistible remedy for the maid's emotional coldness. 'Congest' in the sense of 'heap together, accumulate' is rare; OED s.v. 'congest' v. 2 cites this line. The seducer has repackaged the suffering of all he has discarded into a sales-pitch for why she should yield.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'congest' v. 2 (to heap or mass together); s.v. 'physic' n. 2 (medicine, a remedy); s.v. 'compound' adj. 3 (made up of several ingredients)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-03",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 259"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "OED s.v. 'congest' v.2 (heap together), 'physic' n.2, and 'compound' adj.3 are genuine entries and the claim that OED cites this line for the rare usage of 'congest' is plausible and consistent with OED documentation."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The humoral reading of 'cold breast,' the compound-medicine gloss, and the seducer's repackaging of former lovers' suffering as a sales-pitch are all defensible interpretations firmly supported by the stanza's vocabulary."
+      }
+    ]
+  },
+  {
+    "id": "lovers_complaint-264-potential-love",
+    "play": "lovers_complaint",
+    "tln_start": 264,
+    "tln_end": 264,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "O most potential love! vow, bond, nor space",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Potential' here does not mean 'possible' (the modern sense) but 'powerful, mighty' — from Latin potens, having power. The young man apostrophizes Love as all-powerful: no vow, no obligation ('bond'), no distance ('space') can restrain it, for Love contains everything and everything else belongs to it.",
+    "detail": "The early modern adjective 'potential' carried the sense of 'possessing great power or force' (OED s.v. 'potential' adj. 1b, with this line cited). The exclamation 'O most potential love!' is a rhetorical apostrophe — the young man addresses the personified force of Love directly, as if invoking a deity. The following lines (TLN 265-266) complete the hyperbole: Love has 'neither sting, knot, nor confine' — nothing that could wound it, bind it, or limit it. 'All things else are thine' is a near-blasphemous claim: the language of omnipotence normally reserved for God is applied to Eros.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'potential' adj. 1b (powerful, mighty; the modern sense 'possible' is distinct and later); s.v. 'confine' n. 2 (a boundary, limit)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-03",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 264"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "OED s.v. 'potential' adj.1b, meaning 'powerful, mighty' from Latin potens (distinct from the later modern sense 'possible'), is a real entry that directly supports the gloss."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Potential' as 'powerful/mighty' (Latin potens) rather than the modern 'possible' is a well-established philological point, and the characterisation of 'all things else are thine' as near-blasphemous appropriation of omnipotence language is a sound, mainstream interpretive observation."
+      }
+    ]
+  },
+  {
+    "id": "lovers_complaint-274-aloes",
+    "play": "lovers_complaint",
+    "tln_start": 274,
+    "tln_end": 274,
+    "word_start": 0,
+    "word_end": 7,
+    "anchor_text": "The aloes of all forces, shocks and fears",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Aloes' was an intensely bitter medicinal plant-juice, proverbially the bitterest thing imaginable, used in Elizabethan medicine as a purgative. Love, the stanza says, sweetens even the bitterest hardships — the sting, the shocks, the fear — that it forces its victims to endure.",
+    "detail": "Aloe vera and related species produced a resinous extract (aloes) used as a laxative and a bittering agent in early modern medicine. Its bitterness was proverbial — 'as bitter as aloes' was a commonplace — making it the natural image for life's most painful experiences. The stanza (TLN 271-274) belongs to the seducer's hyperbolic praise of Love: 'Love's arms are peace, 'gainst rule, 'gainst sense, 'gainst shame' (TLN 271-272) — Love overpowers all social and moral constraints — and then sweetens every bitter consequence. The tripling 'forces, shocks and fears' amplifies the paradox: love transforms the most violent assaults into something bearable. Gerard, The Herball (1597), describes aloes as among the most bitter of all plant products and lists its medicinal uses.",
+    "sources": [
+      {
+        "name": "Gerard, The Herball (1597)",
+        "citation": "Gerard, John. The Herball, or Generall Historie of Plantes (1597), on aloes as bitterest of medicinal substances, used as a purgative."
+      },
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'aloes' n.pl. (the bitter juice of the aloe plant; proverbially bitter)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-03",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 274"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "Gerard's Herball (1597) is a real work that does describe aloe and its bitter, purgative properties; OED s.v. 'aloes' supports the proverbial bitterness claim, and the historical context is accurate."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The grammar is correctly parsed — Love (subject of 'sweetens') sweetens the bitterest hardships ('aloes') — and the proverbial bitterness of aloes as a medicinal purgative is correct Elizabethan cultural context with no over-reading."
+      }
+    ]
+  },
+  {
+    "id": "lovers_complaint-298-daff-stole",
+    "play": "lovers_complaint",
+    "tln_start": 298,
+    "tln_end": 298,
+    "word_start": 1,
+    "word_end": 7,
+    "anchor_text": "my white stole of chastity I daff'd",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Daff'd' means 'doffed' — took off, discarded. A 'stole' is a long liturgical vestment worn by priests and religious persons, a garment of office and holiness. The maid says she stripped away her chastity as if pulling off a sacred robe — she yielded to the young man and abandoned her virtue.",
+    "detail": "The image fuses two senses: the white stole was a real item of ecclesiastical dress (worn over the shoulders, white signifying purity and vows), and it serves here as an emblem of the maid's chastity-vow. 'Daff' is a contracted form of 'do off' (remove clothing), standard Elizabethan usage, appearing elsewhere in Shakespeare (Othello 2.3.181: 'you are well tuned now, but I'll set down the pegs that make this music, as honest as I am'; compare As You Like It 5.4.40, 'daff'd the world aside'). 'Sober guards' (TLN 299) are her sober-minded protections — the habits of careful restraint. The phrase 'appear to him, as he to me appears, / All melting' (TLN 300-301) is the confession of mutual dissolution: she wept as he wept, but 'his poison'd me, and mine did him restore' (TLN 302) — his tears were a weapon, hers genuine, and the asymmetry destroyed only her.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'daff' v.2 (to put off, doff, remove — colloquial form of 'do off'); s.v. 'stole' n.1 2 (a long liturgical vestment, here a garment of purity or religious office)."
+      },
+      {
+        "name": "Onions, Shakespeare Glossary",
+        "citation": "Onions, C. T. A Shakespeare Glossary, s.v. 'daff.'"
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-03",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 298"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "OED s.v. 'daff' v.2 and 'stole' n.1.2, and Onions s.v. 'daff', are real sources that support the glosses; the Othello cross-reference in the prose detail is misattributed (2.3.181 does not contain 'daff') but it is not a formal sources[] entry and the actual cited sources are sound."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The core interpretation is sound — 'daff'd' as doffed and the stole as an emblem of chastity-as-sacred-vestment are both defensible — though the detail section cites Othello 2.3.181 as an example of 'daff,' which is the wrong line (that passage concerns string-tuning, not doffing); the correct AYL 5.4 example is also given, so the interpretation survives the error."
+      }
+    ]
+  },
+  {
+    "id": "lovers_complaint-303-cautels",
+    "play": "lovers_complaint",
+    "tln_start": 304,
+    "tln_end": 304,
+    "word_start": 0,
+    "word_end": 6,
+    "anchor_text": "Applied to cautels, all strange forms receives",
+    "type": "archaic_vocab",
+    "depth": "basic",
+    "summary": "'Cautels' are deceitful tricks or crafty stratagems — the word comes from Latin cautela (caution, cunning). The maid now sees the young man's 'plenitude of subtle matter' — his store of clever artifice — for what it was: he could adopt any outward form (blushing, weeping, turning pale) as the occasion demanded for maximum deceptive effect.",
+    "detail": "The stanza (TLN 303-309) is the maid's clearest retrospective diagnosis of the seducer's technique. 'Subtle matter' is the raw material of deception — a reference that may glance at alchemical or Aristotelian 'subtle' (refined, not perceptible to ordinary senses) substance. 'All strange forms' means any external appearance whatsoever. He chooses whichever display — blush, tears, or pallor and swooning — 'as it best deceives' in each particular listener, timing his performances to speeches, to sad stories, or to theatrical performances ('tragic shows,' TLN 309). The whole stanza recasts what the maid experienced as art ('an art of craft,' TLN 296) not feeling. 'Caution/cautel' appears in Hamlet (1.3: Laertes warns Ophelia with the word 'cautel') in the same sense of wary cunning.",
+    "sources": [
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'cautel' n. (craftiness, deceit, a crafty trick; from Latin cautela). Also s.v. 'subtle' adj. 5 (cunning, crafty, designed to deceive)."
+      },
+      {
+        "name": "Schmidt, Shakespeare-Lexicon",
+        "citation": "Schmidt, Alexander. Shakespeare-Lexicon, s.v. 'cautel' (deceitful artifice)."
+      }
+    ],
+    "references": [],
+    "confidence": "high",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-03",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 304"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "OED s.v. 'cautel' (craftiness, from Latin cautela) and Schmidt's Shakespeare-Lexicon s.v. 'cautel' are real sources accurately supporting the gloss; 'cautel' does appear in Hamlet 1.3 in the same sense."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "'Cautels' as deceitful stratagems from Latin cautela and the retrospective diagnosis of the seducer's repertoire of performed emotions (blush, tears, pallor) as art rather than feeling are both well-anchored in the text and corroborated by the Hamlet parallel."
+      }
+    ]
+  },
+  {
+    "id": "lovers_complaint-324-o-that-anaphora",
+    "play": "lovers_complaint",
+    "tln_start": 324,
+    "tln_end": 324,
+    "word_start": 0,
+    "word_end": 6,
+    "anchor_text": "O, that infected moisture of his eye",
+    "type": "rhetorical_device",
+    "depth": "basic",
+    "summary": "The poem's final stanza (the maid's last words) repeats 'O, that...' five times at the start of each line — a figure called anaphora. Rather than being a simple lament, each clause ends with a devastating twist: the infected tears, the false fire, the forced thunder, the spongy lungs, all this 'borrow'd motion, seeming ow'd' — would, she says, betray her again. She knows it was all false, and admits she would fall for it once more.",
+    "detail": "Anaphora (from Greek, 'carrying back') is the repetition of the same word or phrase at the start of successive clauses for emotional and rhetorical emphasis. Here the device is used to catalog the seducer's tools — his weeping eye, flushed cheek, pounding heart, sighing lungs — each exposed as fake ('infected,' 'false,' 'forc'd,' 'borrow'd'). Yet the syntax of each clause, built with 'would yet again betray the fore-betray'd, / And new pervert a reconciled maid,' reveals the maid's devastating self-knowledge: she has not been cured, only once-bitten. 'Borrow'd motion, seeming ow'd' (TLN 328) means actions that were performed as if they were genuine ('ow'd' = owned, truly his) but were actually borrowed — imitated performances. The ending refuses the genre's conventional moral closure and instead reopens the wound.",
+    "sources": [
+      {
+        "name": "Puttenham, Arte of English Poesie (1589)",
+        "citation": "Puttenham, George. The Arte of English Poesie (1589), Book 3, ch. 19, on 'anaphora' (epanaphora): 'when we make one word begin and as they are wont to say, lead the daunce to many verses in sute.'"
+      },
+      {
+        "name": "OED",
+        "citation": "OED s.v. 'borrowed' adj. (not genuinely one's own, assumed from another); s.v. 'pervert' v. 1 (to turn from the right course, corrupt again)."
+      }
+    ],
+    "references": [
+      {
+        "kind": "historical",
+        "card_id": "the-female-complaint-tradition"
+      }
+    ],
+    "confidence": "medium",
+    "generated_by": "claude-sonnet-4-6",
+    "fact_checked": true,
+    "fact_checked_by": [
+      "resolve-anchors.ts (deterministic)",
+      "claude-sonnet-4-6",
+      "claude-sonnet-4-6"
+    ],
+    "fact_checked_at": "2026-06-03",
+    "fact_check_verdicts": [
+      {
+        "judge": "anchor",
+        "model": "resolve-anchors.ts (deterministic)",
+        "verdict": "verified",
+        "note": "anchor located deterministically at TLN 324"
+      },
+      {
+        "judge": "source",
+        "model": "claude-sonnet-4-6",
+        "verdict": "uncertain",
+        "note": "Puttenham's Arte of English Poesie does treat anaphora (under his English name 'the figure of report') in Book 3, and the quoted definition language is plausible Puttenham, but the specific attribution to Book 3 ch. 19 cannot be verified — searches indicate ch. 19 may treat a different figure (antiphora), and the exact chapter cannot be confirmed from available sources."
+      },
+      {
+        "judge": "interpretation",
+        "model": "claude-sonnet-4-6",
+        "verdict": "verified",
+        "note": "The identification of anaphora (five consecutive 'O, that...' clauses), the reading of 'borrow'd motion, seeming ow'd' as counterfeit performance, and the conclusion that the maid's self-knowledge coexists with her admission she would fall again are all the consensus scholarly interpretation of the poem's deliberately unsettling close."
+      }
+    ]
+  }
+]

@@ -927,12 +927,27 @@
     "date_written": "1603–1604",
     "date_published": "1609 (with Sonnets)",
     "act_count": 1,
-    "scene_count": 1,
+    "scene_count": 3,
     "themes": [
       "love",
       "betrayal",
       "gender"
-    ]
+    ],
+    "line_count": 330,
+    "difficulty_rating": 4,
+    "curriculum_grade_level": [
+      12,
+      13,
+      14
+    ],
+    "characters_major": [
+      "The maid",
+      "The young man",
+      "The reverend man"
+    ],
+    "setting": "A riverside in the country",
+    "synopsis_short": "Printed in 1609 with the Sonnets: a narrator overhears a 'fickle maid' lament how a beautiful, eloquent young man seduced and abandoned her — and confesses that his arts would seduce her all over again. A 'complaint' poem shadowing the Sonnets' themes.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/A_Lover%27s_Complaint"
   },
   {
     "playId": "loves_labours_lost",
@@ -1385,7 +1400,10 @@
     "scene_count": 1,
     "themes": [
       "love"
-    ]
+    ],
+    "subgenre": "Disputed miscellany (largely non-Shakespearean)",
+    "synopsis_short": "A 1599 poetic miscellany that the printer William Jaggard issued as 'by W. Shakespeare' — but mostly NOT his: only about five of its twenty poems are genuinely Shakespeare's (versions of Sonnets 138 and 144, and three poems from Love's Labour's Lost). The rest are by Marlowe, Barnfield, Griffin, and others. Held back from the reader as an unreliable attribution.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/The_Passionate_Pilgrim"
   },
   {
     "playId": "pericles",
@@ -1451,13 +1469,29 @@
     "title_short": "The Phoenix and the Turtle",
     "genre": "Poem",
     "date_written": "1601",
+    "date_published": "1601",
     "act_count": 1,
     "scene_count": 1,
+    "line_count": 67,
+    "characters_major": [
+      "The Phoenix",
+      "The Turtledove",
+      "Reason"
+    ],
     "themes": [
       "love",
       "mortality",
       "transformation"
-    ]
+    ],
+    "difficulty_rating": 5,
+    "curriculum_grade_level": [
+      11,
+      12,
+      13,
+      14
+    ],
+    "synopsis_short": "A short, enigmatic funeral poem: the Phoenix (matchless beauty) and the Turtledove (perfect fidelity) die together in a 'mutual flame,' their two selves so merged that they defeat number and reason itself. The birds gather to mourn, and Reason sings a Threnos over their ashes. First printed in Robert Chester's 1601 'Love's Martyr.'",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/The_Phoenix_and_the_Turtle"
   },
   {
     "playId": "rape_of_lucrece",
@@ -1467,7 +1501,7 @@
     "date_written": "1593–1594",
     "date_published": "1594",
     "act_count": 1,
-    "scene_count": 1,
+    "scene_count": 9,
     "primary_sources": [
       "Ovid, Fasti 2.721ff",
       "Livy, Ab Urbe Condita 1.57–60"
@@ -1480,7 +1514,24 @@
     "content_warning": [
       "sexual_assault",
       "suicide"
-    ]
+    ],
+    "line_count": 1855,
+    "difficulty_rating": 4,
+    "curriculum_grade_level": [
+      11,
+      12,
+      13,
+      14
+    ],
+    "characters_major": [
+      "Lucrece",
+      "Tarquin",
+      "Collatine",
+      "Brutus"
+    ],
+    "setting": "Rome and Collatium, at the fall of the monarchy",
+    "synopsis_short": "Shakespeare's grave 1594 companion to Venus and Adonis: Sextus Tarquinius rapes Lucrece, the chaste wife of his comrade; she reveals the crime, exacts an oath of revenge, and kills herself, and Brutus turns the outrage into the revolution that founds the Roman Republic.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/The_Rape_of_Lucrece"
   },
   {
     "playId": "richard_ii",
@@ -2045,7 +2096,7 @@
     "date_written": "1592–1593",
     "date_published": "1593",
     "act_count": 1,
-    "scene_count": 1,
+    "scene_count": 8,
     "primary_sources": [
       "Ovid, Metamorphoses 10 (Golding 1567)"
     ],
@@ -2053,7 +2104,22 @@
       "love",
       "transformation",
       "mortality"
-    ]
+    ],
+    "line_count": 1194,
+    "difficulty_rating": 3,
+    "curriculum_grade_level": [
+      11,
+      12,
+      13,
+      14
+    ],
+    "characters_major": [
+      "Venus",
+      "Adonis"
+    ],
+    "setting": "The English-Ovidian countryside, across a single day",
+    "synopsis_short": "Shakespeare's 1593 bestseller: the goddess Venus aggressively woos the beautiful, reluctant young hunter Adonis; he breaks away to hunt a boar, is gored to death, and she turns his blood into a flower. A witty, sensuous debate on desire that darkens into grief.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Venus_and_Adonis_(Shakespeare_poem)"
   },
   {
     "playId": "winters_tale",

@@ -30,6 +30,16 @@ Each stage's output is the next stage's input. The validator gates the commit; t
 - First Folio editions (`*_gut_f.txt`) preserve early modern spelling. We use the modern-spelling files (`*_gut.txt`) as primary; the Folio files are available for scholar-depth textual notes.
 - Schema caps annotation `summary` at 600 chars — long mythology summaries occasionally need trimming after the annotator subagent runs.
 
+### Poem ingest variant (Phase B)
+
+Poems skip `parse-gutenberg.ts` (which keys on `ACT`/`SCENE`/`SPEAKER` headers poems don't have). A
+dedicated, separate ingester — [`scripts/pipeline/ingest-poem.mjs`](../scripts/pipeline/ingest-poem.mjs) —
+emits the same `text.json` shape as a **"degenerate play"**: one `spoken` line per verse line with a
+continuous TLN and an **empty `speaker`**, blank-line stanzas as `kind:"blank"`, and sub-headings
+(`THRENOS`) as stage directions. The Sonnets become 11 thematic-chapter "acts" (one scene per sonnet);
+the narrative poems are one act chunked into ~150-line reading scenes. Everything downstream (generate,
+fact-check, validate, build) is unchanged. Full how-to: [BUILD_A_POEM.md](BUILD_A_POEM.md).
+
 ## Stage 2 — Generate (Sonnet subagents)
 
 **Goal**: Produce candidate annotations for a scene.

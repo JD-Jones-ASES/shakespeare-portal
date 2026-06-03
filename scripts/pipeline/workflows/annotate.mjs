@@ -29,13 +29,14 @@ const input = typeof args === 'string' ? JSON.parse(args) : args
 const slug = input && input.slug
 const scenes = input && input.scenes
 const guidance = input && input.guidance // optional play-specific instruction appended to every annotator prompt
+const seedDir = input && input.seedDir // optional dir holding per-scene draft-note files seed-<a>-<s>.txt (e.g. the Sonnets companion) — the annotator reads them as leads to verify + re-cite, never cite
 if (!slug || !Array.isArray(scenes) || !scenes.length) {
   throw new Error('Workflow args must be { slug: string, scenes: [[act,scene,target], ...] }')
 }
 const D = `data/plays/${slug}/_candidates`
 const PLAY = slug.replace(/_/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase())
 
-function annotatePrompt(a, s, n, guidance) {
+function annotatePrompt(a, s, n, guidance, seedDir) {
   return [
     `You are a Shakespeare scholar-annotator for a student study portal. Annotate ${PLAY}, Act ${a} Scene ${s}.`,
     '',
@@ -48,6 +49,9 @@ function annotatePrompt(a, s, n, guidance) {
     '',
     `TARGET about ${n} strong annotations (fewer is fine on a thin scene; quality over quantity).`,
     ...(guidance ? ['', `PLAY-SPECIFIC GUIDANCE: ${guidance}`] : []),
+    ...(seedDir ? ['',
+      `DRAFT NOTES: first READ the file ${seedDir}/seed-${a}-${s}.txt — draft notes from our own study companion (NOT a citable source). Use them only as leads: VERIFY each claim against primary/lexical sources and attach a REAL falsifiable citation (OED / Geneva 1599 / an allowlisted ancient author), refine the wording into the project voice, and NEVER cite these notes. Discard anything you cannot independently support. If the file is absent, annotate from scratch.`,
+    ] : []),
     '',
     `OUTPUT: use the Write tool to write a JSON array to ${D}/${a}-${s}.json. Each element:`,
     '{',
@@ -106,7 +110,7 @@ function judgePrompt(kind, a, s) {
 log(`${PLAY}: annotating + fact-checking ${scenes.length} scene(s)`)
 const results = await pipeline(
   scenes,
-  ([a, s, n]) => agent(annotatePrompt(a, s, n, guidance), { label: `annotate ${a}.${s}`, phase: 'Annotate', model: 'sonnet' }),
+  ([a, s, n]) => agent(annotatePrompt(a, s, n, guidance, seedDir), { label: `annotate ${a}.${s}`, phase: 'Annotate', model: 'sonnet' }),
   (_r, [a, s]) => parallel([
     () => agent(judgePrompt('source', a, s), { label: `source ${a}.${s}`, phase: 'Fact-check', model: 'sonnet' }),
     () => agent(judgePrompt('interp', a, s), { label: `interp ${a}.${s}`, phase: 'Fact-check', model: 'sonnet' }),

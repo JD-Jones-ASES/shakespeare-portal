@@ -21,8 +21,8 @@ The catalog drives:
 | `date_written` | string | yes | `"1600–1601"` | Year or year-range. Use en-dash. |
 | `date_first_performed` | string | no | `"1601 (probable)"` | Annotate uncertainty inline. |
 | `date_published` | string | no | `"Q1 1603, Q2 1604, F1 1623"` | Edition history. |
-| `act_count` | integer | yes | `5` | Standard division. Sonnets and short poems = 1. |
-| `scene_count` | integer | yes | `20` | Total scenes (Folger lineation). |
+| `act_count` | integer | yes | `5` | Plays: 1–5. Poems: 1; the **Sonnets use 11** (one act per thematic chapter — see [BUILD_A_POEM.md](BUILD_A_POEM.md)). Cap raised 5→20 to allow this. |
+| `scene_count` | integer | yes | `20` | Total scenes (Folger lineation). Poems: reading chunks; the **Sonnets = 154** (one scene per sonnet). |
 | `line_count` | integer | no | `3987` | TLN total; fill in after ingest. |
 | `characters_major` | string[] | no | `["Hamlet", "Claudius", "Gertrude", "Ophelia", "Polonius", "Horatio", "Laertes"]` | Top ~10 speaking roles. |
 | `primary_sources` | string[] | no | `["Saxo Grammaticus, Gesta Danorum", "Belleforest, Histoires Tragiques"]` | Where Shakespeare got it. |

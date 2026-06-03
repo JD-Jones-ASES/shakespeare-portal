@@ -6,8 +6,11 @@ interface Props {
   annotations: Annotation[];
   speakerColors?: Record<string, string>;
   glossary?: GlossaryEntry[];
+  // Subtract from the displayed line number only (not the TLN used for anchoring/ids). Lets a
+  // Sonnet scene show lines 1-14 while its TLN stays globally unique. 0 = show the raw TLN.
+  lineNumberOffset?: number;
 }
-const { scene, annotations, speakerColors = {}, glossary = [] } = Astro.props;
+const { scene, annotations, speakerColors = {}, glossary = [], lineNumberOffset = 0 } = Astro.props;
 const glossLookup = buildGlossary(glossary);
 
 const annsByTln = new Map<number, Annotation[]>();
@@ -21,7 +24,8 @@ for (const a of annotations) {
 let _prevSpeaker: string | null = null;
 const showSpeaker = scene.lines.map((line) => {
   if (line.kind === 'spoken') {
-    const show = line.speaker !== _prevSpeaker;
+    // Poems have no speaker (speaker === ''): never render a speaker stripe for them.
+    const show = !!line.speaker && line.speaker !== _prevSpeaker;
     _prevSpeaker = line.speaker ?? null;
     return show;
   }
@@ -29,7 +33,7 @@ const showSpeaker = scene.lines.map((line) => {
   return false;
 });
 ---
-<ol class="scene-text" start={scene.lines.find((l) => l.kind === 'spoken')?.tln ?? 1}>
+<ol class="scene-text" start={(scene.lines.find((l) => l.kind === 'spoken')?.tln ?? 1) - lineNumberOffset}>
   {scene.lines.map((line, i) => {
     if (line.kind === 'stage_direction') {
       return (
@@ -68,7 +72,7 @@ const showSpeaker = scene.lines.map((line) => {
           data-ann-basic={hasReadNote ? 'true' : 'false'}
           style={speakerVar}
         >
-          <span class="line-number">{line.tln}</span>
+          <span class="line-number">{line.tln - lineNumberOffset}</span>
           <span class="line-text">{glossarize(tidyText(line.text ?? ''), glossLookup).map((seg) => (seg.t === 'g' ? <span class="gloss-term" tabindex="0" data-def={seg.d}>{seg.v}</span> : seg.v))}</span>
           {anns.length > 0 && (
             <span class="annotation-markers">
