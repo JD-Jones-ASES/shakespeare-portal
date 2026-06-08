@@ -75,9 +75,9 @@ These can be quoted, paraphrased, and excerpted freely. The Geneva Bible in part
 
 The [Folger Digital Texts](https://www.folgerdigitaltexts.org/) project releases all of Shakespeare in TEI-Simple XML under CC-BY-NC 3.0. It's the highest-quality, most-structured, scholarly-validated machine-readable Shakespeare available for free.
 
-We would ingest it as a v2 quality upgrade *as long as we remain non-commercial*. The license is incompatible with charging tuition, embedding in a paid textbook, or running ads. If the project ever pivots to commercial, we fall back to Gutenberg + Moby (both public domain).
+It would be a future quality upgrade, but only *as long as the project stays non-commercial*. The license is incompatible with charging tuition, embedding in a paid textbook, or running ads. If the project ever pivots to commercial, we fall back to Gutenberg + Moby (both public domain).
 
-**Decision for v1**: Use Gutenberg (already vendored). Treat Folger TEI as a future upgrade, not a v1 dependency.
+**Decision**: Use Gutenberg (already vendored). Treat Folger TEI as a future upgrade, not a dependency.
 
 ## Trademark notes
 

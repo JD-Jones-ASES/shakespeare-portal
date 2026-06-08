@@ -17,7 +17,7 @@ shakespeare-material-master/  (READ-ONLY, vendored)
             │                              │
             ▼                              │ (read for context)
    scripts/generate/annotate-scene.ts      │
-            │   spawns Sonnet subagent     │
+            │   LLM annotator, one per scene│
             ▼                              │
    data/plays/<slug>/_candidates/<a>-<s>.json
             │                              │
@@ -37,10 +37,21 @@ shakespeare-material-master/  (READ-ONLY, vendored)
             │   Content Collections load data/**/*.json
             │   Static HTML per scene + interactive islands
             ▼
-   Public free educational site (e.g. Cloudflare Pages)
+   Public free educational site (GitHub Pages)
 ```
 
-**Data flows downstream only.** The site never writes back to `data/`. If a reader wants to leave a note, that's a future feature (out of scope for v1).
+**Data flows downstream only.** The site never writes back to `data/`. If a reader wants to leave a note, that's a possible future feature, out of scope here.
+
+The generation stages (annotate, fact-check) are LLM-driven; the rest is deterministic. See [PIPELINE.md](PIPELINE.md).
+
+## The parser
+
+Editions vary wildly in structure — choruses, inductions, epilogues, dumb-shows, songs,
+play-within-a-play prologues, unison speech-prefixes, sprawling minor casts. `parse-gutenberg.ts`
+absorbs these with small, **gated, per-edition normalizers**, each verified **byte-identical** against
+the already-shipped plays via a re-ingest diff, so a fix for one edition can't silently change another.
+In practice most structural quirks need no parser change at all — they are handled purely as
+`characters.json` alias data.
 
 ## Why static
 
@@ -50,7 +61,7 @@ shakespeare-material-master/  (READ-ONLY, vendored)
 - **No API key shipped** — On-demand annotation would require either an embedded key (insecure) or a paid relay (operational burden).
 - **Speed** — Pre-rendered HTML beats every SPA's first-paint, especially on the cheap Chromebooks most US public schools run.
 
-The trade-off: the catalog of annotations is fixed at build time. A new reader question doesn't get a live answer. We accept this; it's the right call for v1. A "hybrid" with an ask-button is a deliberate v2 decision, not a default.
+The trade-off: the catalog of annotations is fixed at build time. A new reader question doesn't get a live answer. That's the right call here; a "hybrid" with an ask-button would be a deliberate future addition, not a default.
 
 ## Why Astro
 
@@ -73,12 +84,12 @@ These hold at all times:
 
 - **Node 20+** for scripts and the Astro site.
 - **TypeScript** throughout. The `scripts/*.ts` pipeline runs via `tsx` — invoke **from inside `scripts/`** (`node --import tsx <x>.ts`), or use the `scripts/pipeline/*.mjs` build kit (plain Node ESM, runnable from the repo root with bare `node`).
-- **Package managers** — `npm` is the default. The user may prefer `pnpm`; both work. Don't commit a `pnpm-lock.yaml` and a `package-lock.json` at the same time.
-- **OS** — primary development on Windows + PowerShell. Scripts must run on Windows (no `find | xargs`, no POSIX-only paths). PowerShell caveats: no `&&` (use `;`); never pipe a native command to `Select-Object`/`head` (broken pipe → exit 255). Don't spawn `.bin/tsx.cmd` from Node's `execFileSync` (EINVAL) — spawn `node --import tsx` with `cwd: scripts/`. See [BUILD_A_PLAY.md](BUILD_A_PLAY.md) for the full list.
+- **Package managers** — `npm` is the default. You may prefer `pnpm`; both work. Don't commit a `pnpm-lock.yaml` and a `package-lock.json` at the same time.
+- **OS** — primary development was on Windows + PowerShell, and the scripts are cross-platform (no `find | xargs`, no POSIX-only paths). On PowerShell, chain commands with `;` (not `&&`), and run `node --import tsx` with `cwd: scripts/` rather than spawning `node_modules/.bin/tsx.cmd` directly (`EINVAL`).
 
-## Deferred decisions
+## Possible future enhancements
 
-- **Hosting** — Cloudflare Pages, Netlify, and GitHub Pages all work. Pick when ready to publish.
-- **Analytics** — Only privacy-respecting (Plausible, Cloudflare Web Analytics). Not in v1.
-- **Search** — v1 uses a pre-built lunr or MiniSearch index loaded as an island. Server-backed search (Algolia, Pagefind) deferred unless lunr struggles with the corpus.
-- **TEI ingest** — Folger Digital Texts (CC-BY-NC) is the long-term canonical source. Gutenberg suffices for v1 to ship.
+- **Analytics** — only privacy-respecting (Plausible, Cloudflare Web Analytics) if added at all.
+- **Search** — currently a pre-built MiniSearch index loaded as an island. A server-backed search (Algolia, Pagefind) would only be worth it if the in-browser index struggled with the corpus.
+- **TEI ingest** — Folger Digital Texts (CC-BY-NC) would be a richer canonical source than Gutenberg; the modern-spelling Gutenberg texts were sufficient to ship.
+- **On-demand annotation, reader notes, accessibility toolbar, modern-English paraphrase** — all deliberately out of scope for the static, free, offline-friendly edition.

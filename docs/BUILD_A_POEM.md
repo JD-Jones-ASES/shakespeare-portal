@@ -1,4 +1,4 @@
-# Build a Poem — Runbook (Phase B)
+# Build a Poem — Runbook
 
 Sibling to **[BUILD_A_PLAY.md](BUILD_A_PLAY.md)**, for Shakespeare's **poetry** (the Sonnets + the
 narrative poems). A poem is modeled as a **"degenerate play"**: `acts → scenes → spoken lines`, each
@@ -13,8 +13,8 @@ merge/audit pipeline are **reused unchanged** — only the ingest step differs.
   the whole poem (the TLN convention applied literally).
 - Stanza breaks are `{ "kind":"blank" }`. Sub-headings (`THRENOS`, the Lucrece `Argument`) are
   `stage_direction` lines.
-- **Sonnets** — 11 acts = the companion textbook's thematic chapters; one scene per sonnet
-  (`scene.number` = sonnet number, `title` = `"Sonnet N"`). TLN 1–2155.
+- **Sonnets** — 11 acts = thematic chapters; one scene per sonnet (`scene.number` = sonnet number,
+  `title` = `"Sonnet N"`). TLN 1–2155.
 - **Narrative poems** — 1 act, scenes = neutral reading chunks (~150 lines) so the per-scene annotate
   fan-out and reader pages stay a sane size.
 - **Two accommodations:** `SceneReader.astro` suppresses the speaker stripe when `speaker === ""` (the
@@ -34,31 +34,31 @@ merge/audit pipeline are **reused unchanged** — only the ingest step differs.
    figures; poems have no speakers, so this is context only).
 3. **Reference cards FIRST** (`data/references/{classical,historical,biblical}.json`) — a small
    per-poem delta atop the existing banks (the Ovid bank, the Roman/Plutarch bank, the classical-myth
-   bank). Ground new cards in public-domain sources; **never cite the Sonnets companion textbook.**
+   bank). Ground new cards in public-domain sources.
    Validate: `cd scripts ; node --import tsx validate/schema-check.ts` and `… citation-check.ts`.
 4. **Sonnets only — extract the companion.** `node scripts/pipeline/extract-sonnet-companion.mjs`
    reads the 154 `sonnet_NNN_companion.tex` and writes annotate **seeds**, `synopsis.json`, and
-   **glossary candidates**. The companion is **our own work** — used as drafting aid and fact-checked,
-   never cited. (`reflect` discussion prompts are dropped — out of v1 scope.)
+   **glossary candidates**. The companion is internal reference material — a drafting aid whose readings
+   are fact-checked and re-cited from primary sources, and never cited itself. (`reflect` discussion
+   prompts are dropped — out of scope.)
 5. **Render scenes.** `node scripts/pipeline/render-scenes.mjs <slug>` → copy the printed `scenes` arg.
-6. **Annotate (Workflow tool).** `annotate.mjs` with `{ slug, scenes }`. The Sonnets also pass
+6. **Annotate (LLM agent).** Run `annotate.mjs` with `{ slug, scenes }`. The Sonnets also pass
    `{ seeds }` (the annotator verifies + re-cites them). Narrative poems are cold generation (optional
-   `guidance` for content-care, e.g. Lucrece). **Batch the Sonnets one chapter per run, machine
-   quiet** — the hard-won concurrency rule (one heavy annotate at a time, no heavy local node beside it).
+   `guidance` for content-care, e.g. Lucrece). Process the Sonnets a chapter at a time to keep each
+   annotate run a sane size.
 7. **Merge.** `node scripts/pipeline/postprocess.mjs <slug> --reset` (resolve-anchors + 2-of-3 gate).
 8. **Glossary.** Sonnets = the deterministic merge from step 4 → `merge-glossary.ts`. Narrative poems
-   = the `glossary.mjs` Workflow → `merge-glossary.ts`.
+   = the `glossary.mjs` agent run → `merge-glossary.ts`.
 9. **Index + audit.** `cd scripts ; node --import tsx build-index.ts`, then
    `node scripts/pipeline/audit.mjs <slug>` (must exit 0).
-10. **Clear the review queue** with the Opus rescue Workflow, as for plays.
-11. **Browser-verify** (preview tools): no blank speaker stripe; glossary underlines; Notes sidebar
-    with cited annotations + working reference-card badges. Update `docs/BUILD_LOG.md`, the README
-    count, and memory.
+10. **Clear the review queue** with a rescue pass (an agent re-cites split-decision items), as for plays.
+11. **Browser-verify**: no blank speaker stripe; glossary underlines; Notes sidebar with cited
+    annotations + working reference-card badges. Update the README count and `CLAUDE.md`.
 
 ## Notes / gotchas
 
-- **The Passionate Pilgrim is DEFERRED** to catalog-only with a disputed-attribution note: the 1599
-  octavo was printed "by W. Shakespeare" but only ~5 of its 20 poems are his.
+- **The Passionate Pilgrim is catalog-only** with a disputed-attribution note: the 1599 octavo was
+  printed "by W. Shakespeare" but only ~5 of its 20 poems are his.
 - `ingest-poem.mjs` numbers sonnets **positionally** — the Gutenberg source mislabels sonnet 128's
   header as `CXXXIII`; trusting the roman value desyncs the rest.
 - Sonnets 99 (15 lines) and 126 (12 lines) are deliberate exceptions; the parser does not force 14.

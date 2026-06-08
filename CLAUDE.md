@@ -2,6 +2,8 @@
 
 You are working on a Shakespeare reading portal for students. The defining feature is **explaining what students don't already know**: archaic vocabulary, biblical allusions, classical mythology, historical context for the history plays, sexual puns, rhetorical devices, and topical Elizabethan references. Plain reading apps already exist (MIT, OSS, Folger); this product's differentiator is *layered, source-cited, depth-adjustable annotation*.
 
+This file is the entry point for any coding agent or developer working in the repo. The project is complete; this guide explains how it is built so you can read it, extend it, or build something similar.
+
 ## Audience
 
 - **Primary**: High-school students (grades 9–12) and early-college undergraduates encountering Shakespeare in a class.
@@ -13,9 +15,8 @@ You are working on a Shakespeare reading portal for students. The defining featu
 
 | Path | Read this when… |
 |---|---|
-| **[docs/BUILD_A_PLAY.md](docs/BUILD_A_PLAY.md)** | **You're building a play end-to-end — the autonomous runbook. START HERE.** |
-| **[docs/BUILD_A_POEM.md](docs/BUILD_A_POEM.md)** | **You're building a poem (Sonnets or a narrative poem) — Phase B's runbook.** |
-| [docs/BUILD_LOG.md](docs/BUILD_LOG.md) | You want the per-play changelog, the reference-card ledger, or the parser-quirk history |
+| **[docs/BUILD_A_PLAY.md](docs/BUILD_A_PLAY.md)** | **You're building a play end-to-end — the step-by-step runbook. START HERE.** |
+| **[docs/BUILD_A_POEM.md](docs/BUILD_A_POEM.md)** | **You're building a poem (Sonnets or a narrative poem) — the poetry runbook.** |
 | [README.md](README.md) | You want the human-facing overview |
 | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | You need to understand how pieces connect |
 | [docs/CONTENT_STANDARDS.md](docs/CONTENT_STANDARDS.md) | You're writing or reviewing annotation prose |
@@ -26,7 +27,7 @@ You are working on a Shakespeare reading portal for students. The defining featu
 | [docs/LICENSING.md](docs/LICENSING.md) | You're adding a new source or releasing content |
 | [schemas/](schemas/) | You need the authoritative JSON Schema for any data file |
 | [data/](data/) | The source of truth for all content — read but don't hand-edit annotations |
-| [scripts/pipeline/](scripts/pipeline/) | The build kit: `extract-speakers`, `render-scenes`, `postprocess`, `audit` (`.mjs`, run from repo root with bare `node`) + Workflow templates in `workflows/` |
+| [scripts/pipeline/](scripts/pipeline/) | The build kit: `extract-speakers`, `render-scenes`, `postprocess`, `audit` (`.mjs`, run from repo root with bare `node`) + the LLM annotate/glossary templates in `workflows/` |
 | [scripts/](scripts/) | The lower-level pipeline (TypeScript via tsx — run from inside `scripts/`: `node --import tsx <x>.ts`) |
 | [site/](site/) | The Astro app that renders the portal (100% data-driven; no edits needed to add a play) |
 | [shakespeare-material-master/](shakespeare-material-master/) | Vendored "Open Shakespeare" source repo — **READ-ONLY** |
@@ -44,8 +45,8 @@ You are working on a Shakespeare reading portal for students. The defining featu
 ## Building a play (the one workflow that matters)
 
 **To build a whole play, follow [docs/BUILD_A_PLAY.md](docs/BUILD_A_PLAY.md) step by step.** It is the
-autonomous runbook — written so this session can start from "Read CLAUDE.md. Let's build `<play>`." and
-run to a shipping, validated reader with minimal intervention. The 11 steps in brief:
+end-to-end runbook — written so an agent can take a play from raw vendored text to a shipping, validated
+reader. The 11 steps in brief:
 
 1. Confirm the vendored source + catalog stub exist (Step 0).
 2. **Author `data/plays/<slug>/characters.json` first** (`node scripts/pipeline/extract-speakers.mjs <slug>` to discover labels) — the parser canonicalizes speakers against its aliases.
@@ -53,13 +54,18 @@ run to a shipping, validated reader with minimal intervention. The 11 steps in b
 4. Upgrade the `data/catalog/works.json` stub to shipping form; author `synopsis.json`.
 5. **Author reference cards first** (append to `data/references/{classical,historical,biblical}.json`) — a link to a missing card fails citation-check.
 6. `node scripts/pipeline/render-scenes.mjs <slug>` (writes per-scene text, prints the `scenes` arg).
-7. Generate + fact-check via the **Workflow tool**: `scripts/pipeline/workflows/annotate.mjs`.
+7. Generate + fact-check by running the annotation template through an LLM agent (`scripts/pipeline/workflows/annotate.mjs`): one annotator per scene, then source + interpretation judges per scene.
 8. Merge deterministically: `node scripts/pipeline/postprocess.mjs <slug> --reset` (resolve-anchors + 2-of-3 gate → `annotations.json` / `_review_queue/`).
-9. Glossary via Workflow `scripts/pipeline/workflows/glossary.mjs`, then `cd scripts ; node --import tsx generate/merge-glossary.ts <slug> <actCount>`.
+9. Glossary via the same agent pattern (`scripts/pipeline/workflows/glossary.mjs`), then `cd scripts ; node --import tsx generate/merge-glossary.ts <slug> <actCount>`.
 10. `cd scripts ; node --import tsx build-index.ts`, then `node scripts/pipeline/audit.mjs <slug>` (stats + all 3 validators; must exit 0).
-11. Browser-verify with the preview tools; then update this file's Project Status, the README count, and memory.
+11. Browser-verify the reader; then update this file's Project Status and the README count.
 
-**Critical environment facts** (full list in the runbook): the OS is **Windows** — in PowerShell use `;` not `&&`, and never pipe `node`/`git`/`npm` to `Select-Object` (broken pipe → exit 255 → cancels parallel sibling calls). The build-kit `.mjs` scripts run from the **repo root** with bare `node`; the `.ts` scripts run **only from inside `scripts/`** via `node --import tsx`. `annotate-scene.ts`/`fact-check.ts` are stubs — generation goes through the Workflow templates. Adding a play needs **zero `site/` code changes**.
+**Critical facts** (full list in the runbook): the build-kit `.mjs` scripts run from the **repo root**
+with bare `node`; the lower-level `.ts` scripts run **only from inside `scripts/`** via
+`node --import tsx`. `annotate-scene.ts`/`fact-check.ts` are stubs — the LLM generation runs through the
+workflow templates driven by an agent. Adding a play needs **zero `site/` code changes**. (This repo was
+developed on Windows/PowerShell; the scripts are cross-platform, but the runbook notes a couple of Windows
+shell caveats.)
 
 ### Add a reusable reference card (standalone)
 1. Decide kind: biblical, classical, or historical.
@@ -72,52 +78,68 @@ cd site
 npm install
 npm run dev
 ```
-Visit `http://localhost:4321`. (When driving via the preview tools, `.claude/launch.json` defines a `site` config — `preview_start({ name: "site" })`.) On Windows, after adding a play, kill stray node processes so Astro re-scans `import.meta.glob`.
+Visit `http://localhost:4321`. (If you use Claude Code, `.claude/launch.json` defines a `site` preview config.) On Windows, after adding a play, kill stray node processes so Astro re-scans `import.meta.glob`.
 
 ## Hard Rules
 
 1. **Never edit anything inside [shakespeare-material-master/](shakespeare-material-master/).** It is vendored, read-only, and may be re-pulled.
 2. **Never bypass schema validation in commits.** If a schema rejects valid data, the schema is wrong — fix it explicitly, don't `--no-verify`.
 3. **Never publish an annotation without at least one source citation.** Unsourced glosses get `confidence: "uncertain"` and are excluded from the default depth.
-4. **Every fact-check session must record verifier model IDs + the three verdicts in the annotation object.** Auditing requires this.
+4. **Every fact-check must record verifier model IDs + the three verdicts in the annotation object.** Auditing requires this.
 5. **`data/` is the source of truth.** The site reads from `data/`; it never writes back. If you want to change content, change the JSON.
 6. **All scholarly claims must be falsifiable.** A biblical reference cites book:chapter:verse (Geneva Bible 1599). A classical reference cites the source work and book/line. A historical claim cites a date and a primary or canonical secondary source.
 7. **When uncertain, route to the review queue.** `data/plays/<slug>/_review_queue/` (gitignored) is where the fact-checker drops candidates that need human eyes. Don't merge guesses into `annotations.json`.
 
-## Out of Scope (v1)
+## Out of Scope
+
+The portal deliberately does not include:
 
 - User accounts, login, persistent reader state
 - Social or shared annotation
 - Audio narration, video performance footage
 - Quizzes, assessments, grade-tracking
 - Translation to non-English languages
-- Mobile apps (we are mobile-responsive but not native)
-
-These may come later. Don't build for them now.
+- Mobile apps (the site is mobile-responsive but not native)
 
 ## Project Status
 
-**Phase A (all 37 plays) and Phase B (the poetry) are complete**, and the portal is **live on GitHub
-Pages**. All five canonical poetry works now ship — *The Phoenix and the Turtle*, the **Sonnets** (all
-154, under 11 thematic-chapter acts), *Venus and Adonis*, *The Rape of Lucrece*, and *A Lover's
-Complaint* — leaving only *The Passionate Pilgrim* catalog-only (a deferred, largely non-Shakespearean
-miscellany). **42 of 43 works ship: 11,273 annotations, 222 reference cards.** (Poem review queues —
-~205 split-decision items — are deferred for a rescue pass, as several play queues were across
-sessions.) The per-play/poem changelog, the reference-card ledger, and the pipeline/parser history live
-in **[docs/BUILD_LOG.md](docs/BUILD_LOG.md)**; the poem data model and the Phase-B runbook are in
-**[docs/BUILD_A_POEM.md](docs/BUILD_A_POEM.md)**. This section stays high-level.
+**The project is complete.** All 37 plays and all five canonical poetry works are annotated, validated,
+and live on GitHub Pages; the content pipeline is proven and repeatable. What remains is optional polish,
+not core work.
 
-- **Shipped (37 of 43)** — **10,371 annotations**, **210 reference cards**, per-play glossaries (~720–1,170 entries each), all `_review_queue/`s clear corpus-wide. The 4 pilots (Hamlet, A Midsummer Night's Dream, Julius Caesar, Romeo and Juliet); all 10 English histories (Richard II, Henry IV Parts 1–2, Henry V, Henry VI Parts 1–3, Richard III, King John, Henry VIII); the 4 romances (The Tempest, Pericles, Cymbeline, The Winter's Tale); 3 framing/pageant comedies (The Taming of the Shrew, Love's Labour's Lost, The Comedy of Errors); the 3 Roman tragedies (Coriolanus, Titus Andronicus, Antony and Cleopatra); the 2 Holinshed tragedies (Macbeth, King Lear); the 4 festive comedies (Much Ado About Nothing, Twelfth Night, As You Like It, The Two Gentlemen of Verona); the 4 problem plays (The Merchant of Venice, Measure for Measure, All's Well That Ends Well, Troilus and Cressida); and the mop-up trio (Othello, The Merry Wives of Windsor, Timon of Athens). **With these the entire dramatic canon ships — Phase A is complete; the 6 remaining catalog-only works are all Phase-B poetry.** **Per-play detail (TLN counts, annotation/glossary tallies, card deltas, speaker quirks) → [docs/BUILD_LOG.md](docs/BUILD_LOG.md).**
-- **Reference cards: 210 total.** Corpus-wide infrastructure: the history "spine" (`edward-iii-and-his-sons`, `the-kings-two-bodies`, `the-great-chain-of-being`, `de-casibus-tragedy`, `trial-by-combat`, `holinshed-chronicles`, `pilate-washing-hands`) + `divine-right-of-kings`/`the-vice`/`fortunes-wheel`/`cain-and-abel`; the Roman/Plutarch bank (Julius Caesar + Coriolanus — `plutarchs-lives`, `the-roman-triumph`, `the-antique-roman`, `pompey-the-great`, `the-tribunes-of-the-people`, `the-roman-consulship`…); the **Ovid bank** (Titus — `ovids-metamorphoses`, `philomela`, `tarquin-and-lucrece`, `seneca-and-revenge-tragedy`; forward-reusable for the Phase-B poems); the **Antony and Cleopatra delta** (Egyptian/battle/triumvirate — `cleopatra-as-isis`, `the-barge-on-the-cydnus`, `the-battle-of-actium`, `the-asp`, `the-ptolemies-and-egypt`, `the-second-triumvirate`, `augustus-and-the-pax-romana`); the **Holinshed-tragedy delta** (Macbeth — the weird sisters/`Daemonologie`, equivocation/Gunpowder Plot, the King's-Evil, Banquo's Stuart line; King Lear — Harsnett's devils, the King Leir legend, the division of Britain, Dover cliff, the eclipses); the **festive-comedy delta** (Much Ado — `the-cuckolds-horns`, `nothing-and-noting`, `chastity-and-the-double-standard`, `the-constable-and-the-watch`, `hero-and-leander`; Twelfth Night — `twelfth-night-and-the-lord-of-misrule`, `puritanism-and-revelry`, `illyria`, `arion-and-the-dolphin`, `elysium`, `pythagoras-and-the-transmigration-of-souls`); the **second festive-comedy delta** (As You Like It — `ganymede`, `hymen-god-of-marriage`, `the-golden-age`, `the-pastoral-and-the-forest-of-arden`, `robin-hood-and-the-greenwood`, `the-seven-ages-of-man`, `melancholy-and-the-malcontent`; Two Gentlemen — `proteus-the-shape-changer`, `the-renaissance-friendship-ideal`); the **problem-play delta** (Merchant — `the-jew-on-the-english-stage` [parallel to `the-moor`], `usury-and-the-bond`, `the-three-caskets`, `the-quality-of-mercy`, `jacob-and-laban`; Measure — `the-disguised-ruler`, `the-precise-puritan`, `the-bawdy-houses-of-vienna`, `the-bed-trick`, `measure-for-measure-sermon-on-the-mount`); the **second problem-play delta** (All's Well — `giletta-of-narbonne`, `the-kings-fistula-and-the-healer`, `the-miles-gloriosus`; Troilus — `the-matter-of-troy`, `cressida-and-the-false-woman` [the content-care anchor], `pandarus-and-the-pander`, `the-greek-and-trojan-heroes`, `achilles-and-patroclus`, `the-judgement-of-paris`); the **mop-up delta** (Othello — `the-handkerchief`, `cyprus-and-the-ottoman-threat`, `the-green-eyed-monster`, `the-pontic-sea`; Merry Wives — `herne-the-hunter`, `the-latin-lesson`; Timon — `timon-the-misanthrope`, `alcibiades-and-athens`, `the-banquet-of-stones`); and the classical-myth banks. The **targeted-delta** thesis — author a small per-play card delta, reuse the rest — has held every session (a 15th time with All's Well That Ends Well and Troilus and Cressida, reusing forward-seeded cards — `the-bed-trick` for Helena's substitution, `chastity-and-the-double-standard`, `palmers-and-pilgrims` for Helena's pilgrimage — plus the Troy bank (`helen-of-troy`/`fall-of-troy`/`hecuba`) and `the-great-chain-of-being` for Ulysses's degree speech; one new citation-allowlist author, `Publilius Syrus`); and a **16th time** with the Session-16 mop-up trio (Othello reusing the forward-seeded content-care anchor `the-moor-on-the-english-stage` + `the-stage-machiavel`/`falconry-and-the-haggard`; Merry Wives reusing `the-cuckolds-horns`/`the-order-of-the-garter`/`robin-goodfellow`; Timon reusing `de-casibus-tragedy`/`fortunes-wheel`/`plutarchs-lives`), with **no new citation-allowlist author**. Per-session card ledger → [docs/BUILD_LOG.md](docs/BUILD_LOG.md).
-- **Live on GitHub Pages**: <https://jd-jones-ases.github.io/shakespeare-portal/> — public repo `JD-Jones-ASES/shakespeare-portal`, deployed by `.github/workflows/deploy.yml` (CI builds the search index, then `astro build`, then `deploy-pages`). Astro `base: '/shakespeare-portal/'`; every internal link routes through `site/src/utils/url.ts` `withBase()` (add it to any new link or `public/` fetch). The landing page (`pages/index.astro`) is a **reader-first portal** (redesigned 2026-06-08, replacing the old status-aware launch): a fast-find hero (a vanilla-JS keyword filter over all 43 works, by title/genre/theme/character, plus genre/theme chips), the complete works grouped by genre (histories in **regnal/setting order**, all others alphabetical; The Passionate Pilgrim a muted catalog-only card), a **"See how it reads"** showcase of three famous lines whose real, sourced annotations pop on hover/tap — one each for archaic vocabulary (Hamlet's "bourn"), a rhetorical device (Richard III's "winter of our discontent"), and a historical note with a classical source (Julius Caesar's "the Ides of March", from Plutarch), pulled by id from the shipped data — and a small **stats band** low on the page (content counts only — no progress bar, no X-of-Y). All build-time computed from `data/`.
-- **Accuracy**: a 2026-05-31 sweep verified every reference card and audited all `medium`/`uncertain` annotations; it cleared the then-open review queues by fixing citations honestly, not cutting glosses (per memory `review-queue-citation-policy`). Detail in [docs/BUILD_LOG.md](docs/BUILD_LOG.md).
-- **Reader features (all live & verified in-browser)**:
-  - **Warm-literary design system** with light/dark/auto **theme toggle** (`components/ThemeToggle.tsx`, no-flash inline script in `Base.astro`, tokens under `:root[data-theme]`); serif play text (EB Garamond).
-  - **Read / Study depth tiers** (`DepthToggle.tsx`): Read = clean plain-English glosses only; Study = full apparatus (detail, source citations, full reference cards, plus `bawdy_pun`/`textual_variant`/scholar notes). Markers for Study-only notes are hidden in Read.
-  - **Character reading system** (`components/ReadingControls.tsx`): per-character colors (`color` field in `characters.json`); modes Normal / Color-speakers / Highlight / **Focus** (with Prev/Next-line cue jumps for reading a part aloud) for classroom reading. Speaker name printed **once per speech** with a colored stripe (Folger style).
-  - **Instant hover/tap word glossary** (`components/SceneReader.astro` + `site/src/data/glossary.ts`): archaic words get a subtle underline + tooltip (`.gloss-term` + `data-def`); "word help" on/off toggle.
-  - Two-way gloss↔line linking (`ReaderInteractions.astro`); marginal gloss sidebar with reference cards; **full-play search** (header `SearchBar.tsx` + `build-index.ts`); per-act/scene **synopsis** on the landing page. Manual test script: [docs/PROTOTYPE_TEST.md](docs/PROTOTYPE_TEST.md).
-- **Pipeline** (proven on all 37): ingest → annotator subagents via the **Workflow** tool → adversarial 3-judge fact-check (source + interpretation Sonnet judges + a deterministic anchor judge) → deterministic 2-of-3 merge (`postprocess.mjs` = resolve-anchors + apply-verdicts) → validators → Astro reader; the glossary uses the same generate→fact-check pattern (`merge-glossary.ts`). `reanchor.ts` re-resolves shipped annotations after a re-ingest. **Process rules (hard-won):** run **at most one heavy annotate Workflow at a time, and keep heavy local node work (postprocess/build-index/audit) off the machine while it runs** — concurrent heavy load silently drops candidate files (the workflow still reports "completed"; Session 11's Lear annotate lost 23/26 scenes to local-node contention, recovered by re-running with the machine quiet) — a light ~5-agent glossary alongside is fine. `apply-verdicts.ts` now drops a null/undefined `detail` (some annotators emit `detail: null`, which fails schema-check; the fix is byte-identical for prior plays, which carry no null detail). Clear review queues with the Opus rescue Workflow (`workflows/_rescue-queues.mjs`; update its `PLAYS` array + `meta.description`) → `_merge-rescued.mjs <slug>` → `_sort-annotations.mjs <slug>` (the merge appends rescued items, so audit flags a non-failing `tln_order`). The deterministic `.ts` steps must run from inside `scripts/` via `node --import tsx` (Windows can't spawn `.bin/tsx.cmd` from Node). The classical-citation allowlist has gained `Herodotus`, `Pindar`, `Pausanias`, `Xenophon`, `Diogenes Laertius`, `Diodorus Siculus`, `Musaeus`, `Heliodorus`, `Publilius Syrus` across sessions. **Session-by-session history → [docs/BUILD_LOG.md](docs/BUILD_LOG.md).**
-- **The parser handles every structural device in the canon** (feature-complete after Session 8). It carries gated, per-play normalizers — each verified **byte-identical for prior shipped plays** via the re-ingest regression diff — for Chorus/Induction/Epilogue devices (Romeo and Juliet, Henry V, Henry IV Part 2, Henry VIII), the Henry VI edition (unbracketed SDs + separate-line settings), inline stage directions (Henry VI), Pericles' per-act Gower presenter + dumb-shows, and the Taming of the Shrew's Sly Induction-as-pseudo-act (act 0). Session 10 added two **general (non-gated)** header fixes for Antony and Cleopatra — proper Roman-numeral parsing for scenes above X (its Act 3 has 13 scenes, Act 4 has 15) and splitting a combined `ACT n. SCENE m.` header line — both proven **byte-identical for all 23 prior plays** by an original-vs-patched re-ingest hash diff. Session 11 (Macbeth + King Lear) needed **no parser change** — both are standard structure (Lear's title-case `Scene I.` headers and abbreviated speaker prefixes parse like Hamlet, via the case-insensitive `SCENE_HEADER` regex + complete `characters.json` aliases). Session 12 (Much Ado About Nothing + Twelfth Night) added two **gated, byte-identical-verified** song-attribution fixes: Much Ado attributes an unprefixed song to the singer named in its `[X sings.]` stage direction (so 'Sigh no more' is Balthasar's, not Benedick's), and Twelfth Night reads its closing title-case `Song.` cue as a header (so the song stays Feste's, with no stray 'Song.' line) — plus a pure-`characters.json` alias for Sir Andrew's hyphenated `AGUE-CHEEK.` speech-prefix (the shape heuristic rejects the hyphen). Session 13 (As You Like It + The Two Gentlemen of Verona) added three more **gated, byte-identical-verified** fixes: As You Like It widens the `[X sings]` singer-rule (`SINGER_SD_SETS_SPEAKER`) to attribute 'Blow, blow, thou winter wind' to Amiens, and routes its two bare-`SONG.` songs (the 4.2 horn song, the 5.3 pages' song) to a `song` ensemble; The Two Gentlemen of Verona routes its bracketed `[SONG]` serenade 'Who is Silvia?' to a `Musicians` ensemble (`SONG_SD_SETS_SINGER`) and splits the early text's inline/bracketed speech-prefixes (`[SPEED] Ay.` / `PROTEUS. Nod, ay?...`) onto their own lines so the 1.1 patter attributes to Speed/Proteus, not a phantom 'Ay' speaker. Session 14 (The Merchant of Venice + Measure for Measure) added two more **gated, byte-identical-verified** fixes: Merchant routes its descriptive `[A Song, whilst BASSANIO comments...]` cue (3.2 'Tell me where is fancy bred') to a `musicians` ensemble (`SONG_SD_DESC_SETS_SINGER`), and Measure accepts the undotted-first unison `ANGELO and ESCALUS.` (5.1) as a joined speaker (`UNISON_AND_UNDOTTED`) — while Measure's 4.1 Boy-sung 'Take, O take those lips away' needed no parser change (the Boy is a `SONG`/`SONG.`-aliased character, attributed via the existing aliased-header path). Session 15 (All's Well That Ends Well + Troilus and Cressida) added two more **byte-identical-verified** fixes, both for Troilus: a **slug-gated** armed bare-`PROLOGUE` (no leading 'THE') with a skip of the redundant `TROILUS AND CRESSIDA` title line — gated on the slug, not on the `PROLOGUE.` alias, because A Midsummer Night's Dream also defines one — so the Prologue reads at TLN 1; and a **general** skip of a repeated `ACT n.` header (this edition reprints the act header before every scene). All's Well needed none. Session 16 (Othello + The Merry Wives of Windsor + Timon of Athens — the Phase-A mop-up) needed **no parser change** for any of the three: Timon's sprawling minor cast (apostrophe-label creditors' servants `LUCIUS'`/`VARRO'S`/`ISIDORE'S SERVANT.`, the X-and-Y unison cues `PHRYNIA AND TIMANDRA.`/`BOTH VARRO'S SERVANTS.`, the 3.6 mock-banquet crowd cues `SOME SPEAK.`/`SOME OTHER.`) and Othello's `DUKE and SENATORS.` are all exact `characters.json` aliases (the `aliasToChar.has` short-circuit bypasses the length cap and the undotted-unison gate — the Comedy-of-Errors / Merchant precedent), and the only adjustments were two per-play post-ingest text.json cleanups (Othello's absorbed Gutenberg 'THE END' footer line removed; Timon's 5.4 epitaph + closing speech reassigned Soldier→Alcibiades, the source using an `[ALCIBIADES reads the Epitaph.]` SD with no speech-prefix — the Richard II `DUCHESS` pattern). **Any new parser behavior must stay byte-identical for shipped plays — run the re-ingest diff.** Each normalizer is documented in [docs/BUILD_LOG.md](docs/BUILD_LOG.md#known-limitations--parser-history-per-play-gated-normalizers).
-- **Next**: **Phase B (poetry) is essentially COMPLETE** — plan `C:\Users\jdj32\.claude\plans\iridescent-dancing-quill.md`; runbook [docs/BUILD_A_POEM.md](docs/BUILD_A_POEM.md); memory `poetry-phase-b-build-notes`. All five canonical poetry works ship, built on the poem infrastructure (`scripts/pipeline/ingest-poem.mjs`, `scripts/pipeline/extract-sonnet-companion.mjs`, the `seedDir` annotate arg, the poem-aware reader, the `act_count` cap 5→20): **The Phoenix and the Turtle** (7 annotations), the **Sonnets** (590; all 154 under 11 thematic-chapter acts, seeded from the user's companion textbook and re-cited), **Venus and Adonis** (119), **The Rape of Lucrece** (160), **A Lover's Complaint** (26). **The Passionate Pilgrim** stays catalog-only with a disputed-attribution note (mostly not Shakespeare). **Remaining:** rescue the deferred poem review queues (~205 split-decision items, esp. the Sonnets' 173) per [docs/BUILD_LOG.md](docs/BUILD_LOG.md); then commit/push (GitHub Pages deploys from `main`). Deferred infrastructure: accessibility toolbar, modern-English paraphrase, wiring `@anthropic-ai/sdk` into the stubbed `annotate-scene.ts`/`fact-check.ts` for headless/CI; the `_*.mjs` helper tidy (Phase-C).
-- **Known limitations (cross-cutting)**: (1) anchor highlighting is word-granular, so at a source's glued `;--`/`,--` token a highlight may over-cover by the adjacent word; (2) annotator/glossary subagents occasionally emit JSON with unescaped inner double-quotes in citations — prompts include "use single quotes inside strings"; (3) `_review_queue/`, `_candidates/`, and `_*` files are gitignored — they exist on disk but not in version control; (4) on Windows, Astro's dev-server caches `import.meta.glob`; after adding a play's `text.json`, kill stray `node` processes before restarting; (5) some Gutenberg editions have an unclosed `[` stage-direction bracket that could make the bracket-chaser swallow the rest of the file — `parse-gutenberg.ts` now stops chasing at a blank line or ACT/SCENE header. The per-play **gated parser normalizers** (Henry VI edition, inline-SD, Gower presenter, Sly Induction pseudo-act, etc.) are documented in [docs/BUILD_LOG.md](docs/BUILD_LOG.md#known-limitations--parser-history-per-play-gated-normalizers).
+- **Shipped: 42 of 43 works** — every play, the **Sonnets** (all 154, grouped under 11 thematic-chapter
+  "acts"), and the four narrative poems (*Venus and Adonis*, *The Rape of Lucrece*, *A Lover's Complaint*,
+  *The Phoenix and the Turtle*). **11,273 annotations**, **222 source-cited reference cards**, and a
+  per-work archaic-vocabulary glossary for each text. Only *The Passionate Pilgrim* is catalog-only — a
+  largely non-Shakespearean miscellany held back on scholarly grounds.
+- **Live on GitHub Pages**: <https://jd-jones-ases.github.io/shakespeare-portal/>, deployed from `main`
+  by `.github/workflows/deploy.yml` (build the search index → `astro build` → deploy). Astro is configured
+  with `base: '/shakespeare-portal/'`, so every internal link and `public/` fetch routes through
+  `site/src/utils/url.ts` `withBase()` — add it to any new link.
+- **Reader features** (all data-driven; adding a work needs no `site/` code): a warm-literary design with a
+  light/dark/auto **theme toggle**; **Read / Study depth tiers** (Read = plain-English glosses only; Study
+  = full apparatus — source citations, reference cards, bawdy and textual notes); a **character reading
+  system** (per-character colors, plus Highlight and Focus modes for reading a part aloud); an instant
+  hover/tap **word glossary**; two-way gloss↔line linking; a marginal notes sidebar with reference cards;
+  full-corpus **search**; per-act/scene **synopsis**; and a fast-find landing portal.
+- **Pipeline** (see [docs/PIPELINE.md](docs/PIPELINE.md) and [docs/BUILD_A_PLAY.md](docs/BUILD_A_PLAY.md)):
+  ingest → LLM annotator (one agent per scene) → adversarial **3-judge fact-check** (source +
+  interpretation judges + a deterministic anchor judge) → deterministic **2-of-3 merge**
+  (`postprocess.mjs` = resolve-anchors + apply-verdicts) → validators → Astro reader. The glossary uses the
+  same generate→fact-check pattern. The LLM stages were run by an agent against the prompt templates in
+  `scripts/pipeline/workflows/`; the deterministic steps and all validators are real and runnable with bare
+  Node. (`scripts/generate/annotate-scene.ts` and `fact-check.ts` are stubs — an SDK was never wired in;
+  doing so for a fully headless/CI run is an optional follow-up.)
+- **The parser handles every structural device in the canon.** Editions vary wildly — choruses,
+  inductions, epilogues, dumb-shows, songs, play-within-a-play prologues, unison speech-prefixes, and
+  sprawling minor casts. `scripts/ingest/parse-gutenberg.ts` absorbs these with small, **gated,
+  per-edition normalizers**, each verified **byte-identical** against the already-shipped plays via a
+  re-ingest diff. Any new parser behavior must preserve that invariant. Many structural quirks need no
+  parser change at all — they are handled purely as `characters.json` alias data.
+- **Known limitations**: (1) anchor highlighting is word-granular, so at a source's glued `;--`/`,--`
+  token a highlight may over-cover by the adjacent word; (2) `_review_queue/`, `_candidates/`, and other
+  `_*` files under `data/plays/` are gitignored intermediates — they exist on disk, not in version control;
+  a small number of split-decision review-queue items are left for an optional rescue pass.
+- **Optional follow-ups** (none required to ship): an accessibility toolbar (dyslexia font, adjustable
+  line-height and font-size), a modern-English paraphrase layer, wiring `@anthropic-ai/sdk` into the
+  stubbed drivers for a headless pipeline, and clearing the remaining review-queue items.

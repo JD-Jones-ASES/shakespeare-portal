@@ -1,44 +1,40 @@
-# Build a Play — Autonomous Runbook
+# Build a Play — Runbook
 
 End-to-end recipe for taking one Shakespeare play from raw vendored text to a fully-annotated,
-validated, shipping reader. Written so a session can begin with:
-
-> **"Read CLAUDE.md. Let's build `<play name>`."**
-
-…and run to completion with minimal human intervention. Work in order; each step's output gates the
-next. Slugs are lowercase underscore (e.g. `romeo_and_juliet`) and must match
-`shakespeare-material-master/texts/works.json` and `data/catalog/works.json` (`playId`).
+validated, shipping reader. Work in order; each step's output gates the next. Slugs are lowercase
+underscore (e.g. `romeo_and_juliet`) and must match `shakespeare-material-master/texts/works.json` and
+`data/catalog/works.json` (`playId`).
 
 Adding a play is **100% data-driven** — no `site/` code changes. The Astro reader discovers
 `data/plays/<slug>/text.json` via `import.meta.glob`. Your job is to produce the JSON.
+
+The deterministic steps (ingest, merge, validate, build) run with bare Node and need no LLM. The two
+generation steps (annotate, glossary) are LLM-driven — this repo's corpus was produced by an agent
+running the prompt templates in `scripts/pipeline/workflows/`. You can drive them with any capable LLM
+agent that can search the web to verify citations.
 
 ---
 
 ## Environment & tooling (read once)
 
-- **OS is Windows.** PowerShell 5.1: no `&&` (parser error) — use `;` or separate lines. **Never pipe
-  a native command (`node`, `git`, `npm`) to `Select-Object`/`head`** — it closes the pipe early and
-  the command reports **exit 255**, which (when batched in parallel) cancels sibling tool calls. To
-  truncate, redirect to a file (`node x.mjs > out.txt 2>&1`) and Read it, or just let it print.
-- **Don't batch many independent shell calls in one parallel turn.** One non-zero exit cancels the
-  whole batch. Run mutating/independent commands sequentially, or chain with `;`.
 - **The build kit** lives in `scripts/pipeline/` and is the path of least resistance. Plain Node ESM,
-  runnable **from the repo root** with bare `node` (no `cd`, no tsx juggling):
+  runnable **from the repo root** with bare `node`:
   - `node scripts/pipeline/extract-speakers.mjs <slug>` — list speech-prefixes to seed characters.
   - `node scripts/pipeline/render-scenes.mjs <slug>` — write per-scene text + print the `scenes` arg.
   - `node scripts/pipeline/postprocess.mjs <slug> [--reset]` — resolve anchors + apply verdicts.
   - `node scripts/pipeline/audit.mjs <slug>` — distribution stats + all 3 validators (exit 1 on fail).
-- **The original pipeline `.ts` scripts** (`scripts/generate/*.ts`, `scripts/validate/*.ts`,
+- **The lower-level `.ts` scripts** (`scripts/generate/*.ts`, `scripts/validate/*.ts`,
   `scripts/ingest/*.ts`, `scripts/build-index.ts`) run via tsx and must be invoked **from inside
-  `scripts/`**: `cd scripts ; node --import tsx generate/<x>.ts …`. Do **not** spawn
-  `.bin/tsx.cmd` from Node — Windows can't spawn a `.cmd` shim that way (EINVAL). The build-kit
-  `.mjs` wrappers already spawn `node --import tsx` with the right cwd; prefer them.
-- **`annotate-scene.ts` / `fact-check.ts` are stubs.** Generation runs via the **Workflow tool** using
-  the templates in `scripts/pipeline/workflows/`. The deterministic steps (resolve-anchors,
-  apply-verdicts, merge-glossary, build-index) are real and runnable.
-- You may use **WebSearch / WebFetch** to verify citations and fetch primary sources.
+  `scripts/`**: `cd scripts ; node --import tsx generate/<x>.ts …`. The build-kit `.mjs` wrappers run
+  them with the right working directory; prefer the wrappers.
+- **`annotate-scene.ts` / `fact-check.ts` are stubs.** Generation runs an LLM agent against the templates
+  in `scripts/pipeline/workflows/` (prompts in `scripts/generate/prompts/`). The deterministic steps
+  (resolve-anchors, apply-verdicts, merge-glossary, build-index) are real and runnable.
+- Use **web search** to verify citations and fetch primary sources during annotation.
 - `_candidates/`, `_review_queue/`, and `_*` files under `data/plays/` are gitignored intermediates.
-- `.claude/settings.json` grants broad permissions in this project so the run needs no click-through.
+- **Platform note:** this repo was developed on Windows + PowerShell; the scripts are cross-platform. On
+  PowerShell, chain commands with `;` (not `&&`), and don't spawn `node_modules/.bin/tsx.cmd` directly from
+  Node (`EINVAL`) — run `node --import tsx` with the working directory set to `scripts/`.
 
 ---
 
@@ -103,8 +99,8 @@ file), `title`, `source:{name,citation}`, `summary_basic` (≤600); optional `de
 `related_plays`, `see_also`.
 
 - **Reuse** existing cards where apt (read all three files first).
-- Ground new cards in **public-domain** sources via WebSearch (Plutarch/North 1579, Ovid/Golding 1567,
-  Virgil, Livy, Cicero, Suetonius, Geneva Bible 1599, Holinshed). Cite — never quote — modern editions.
+- Ground new cards in **public-domain** sources (Plutarch/North 1579, Ovid/Golding 1567, Virgil, Livy,
+  Cicero, Suetonius, Geneva Bible 1599, Holinshed). Cite — never quote — modern editions.
 - Single quotes inside JSON strings, never unescaped `"`.
 - Validate now: `cd scripts ; node --import tsx validate/schema-check.ts` and `… validate/citation-check.ts`.
 
@@ -113,16 +109,14 @@ file), `title`, `source:{name,citation}`, `summary_basic` (≤600); optional `de
 `node scripts/pipeline/render-scenes.mjs <slug>` — copy the printed **`scenes` array** (includes a
 suggested annotation target per scene).
 
-## Step 6 — Generate + fact-check (Workflow tool)
+## Step 6 — Generate + fact-check (LLM agent)
 
-```
-Workflow({
-  scriptPath: "scripts/pipeline/workflows/annotate.mjs",
-  args: { slug: "<slug>", scenes: <the array from Step 5> }
-})
-```
-Fans out one annotator per scene, then source + interpretation judges per scene (~3 agents/scene).
-Writes `_candidates/<a>-<s>.json`, `.source.json`, `.interp.json`.
+Run an LLM agent over the `scenes` array from Step 5, using the template
+`scripts/pipeline/workflows/annotate.mjs` (prompts: `scripts/generate/prompts/annotator.md` and
+`verifier.md`). It fans out **one annotator per scene**, then **source + interpretation judges** per
+scene (~3 agents/scene). The annotator emits candidates conforming to `annotation.schema.json` (minus the
+`fact_checked*` fields); the judges return verdicts. Results land in
+`data/plays/<slug>/_candidates/<a>-<s>.json` (+ `.source.json`, `.interp.json`).
 
 ## Step 7 — Deterministic merge
 
@@ -136,16 +130,14 @@ needed. Idempotent. Expect **~80-95% ship rate**.
 
 ## Step 8 — Glossary
 
+Run the glossary template (`scripts/pipeline/workflows/glossary.mjs`) per act → archaic-vocabulary
+candidates, then:
 ```
-Workflow({
-  scriptPath: "scripts/pipeline/workflows/glossary.mjs",
-  args: { slug: "<slug>", acts: [[1,[1,2,3]], [2,[1,2,3,4]], ...] }   // act -> its scene numbers
-})
 cd scripts ; node --import tsx generate/merge-glossary.ts <slug> <actCount>
 ```
 Merge dedupes by normalized surface, keeps the shorter definition, caps at 140 chars → `glossary.json`.
-Spot-check for garbage surfaces before shipping. Optional rigor: `_candidates/glossary-verify-*.json`
-(`{delete:[…],fix:[…]}`) + `apply-glossary-verdicts.ts <slug>`.
+Spot-check for garbage surfaces before shipping. Optional rigor: a glossary-verify pass
+(`_candidates/glossary-verify-*.json` as `{delete:[…],fix:[…]}`) + `apply-glossary-verdicts.ts <slug>`.
 
 ## Step 9 — Build index, audit, fix
 
@@ -162,19 +154,16 @@ Must end green. Common fixes:
 
 ## Step 10 — Verify in the browser
 
-```
-powershell: Get-Process node | Stop-Process -Force   # so Astro re-scans import.meta.glob
-```
-`preview_start({ name: "site" })` (config already in `.claude/launch.json`), then confirm:
+Run the dev server (`cd site ; npm run dev`) and open the play. On Windows, kill stray `node` processes
+first so Astro re-scans `import.meta.glob`. Confirm:
 - `/plays/<slug>/` — title, metadata, synopsis, one scene link per scene.
 - a dense scene (a famous speech) — TLN-numbered colored speeches, glossary underlines, Notes sidebar
   with real annotations + working reference-card badges.
-- `preview_console_logs` clean; `preview_screenshot` as proof; then `preview_stop`.
+- the browser console is clean.
 
-## Step 11 — Update docs + memory
+## Step 11 — Update docs
 
-Update **Project Status** in `CLAUDE.md` (counts, scenes, cards, glossary), bump the README play count,
-and update memory if anything non-obvious was learned.
+Update **Project Status** in `CLAUDE.md` (counts, cards, glossary) and bump the README work count.
 
 ---
 
@@ -188,7 +177,7 @@ and update memory if anything non-obvious was learned.
 | Reference-card links | every classical/historical/biblical allusion that has a card |
 | Validators | all three green; **non-negotiable** |
 
-Reference plays: Hamlet (324 / 813 gloss), Midsummer (183 / 724), Julius Caesar (168 / 1030).
+Reference plays: Hamlet (~356 annotations / 813 gloss), Midsummer (~189 / 724), Julius Caesar (~202 / 1030).
 
 ## Data contract cheat-sheet (what the annotator emits)
 
@@ -206,40 +195,30 @@ Reference plays: Hamlet (324 / 813 gloss), Midsummer (183 / 724), Julius Caesar 
 - Caps: `summary` ≤600, `detail` ≤2000, glossary `definition` ≤140, card `summary_basic` ≤600,
   `detail_scholar` ≤1500.
 - `sources` ≥1 (non-empty name+citation). **biblical_allusion** needs a `Book C:V` citation;
-  **classical_allusion** needs an allowlisted ancient author or recognized lexicon/edition token.
+  **classical_allusion** needs an allowlisted ancient author or recognized lexicon/edition token (see
+  `scripts/validate/citation-check.ts` for the allowlist).
 
-## Gotchas (hard-won)
+## Gotchas
 
-1. **Unclosed `[` in source** → the bracket-chaser used to swallow the rest of the file (collapsed a
+1. **Unclosed `[` in source** → the bracket-chaser used to swallow the rest of the file (collapsing a
    whole play into "Act 2 Scene 1"). `parse-gutenberg.ts` now stops chasing at a blank line or
    ACT/SCENE header. If a future edition still misbehaves, look for a giant stage direction in text.json.
-2. **`node --import tsx` must run from `scripts/`**; from repo root tsx won't resolve. Build-kit
-   `.mjs` wrappers handle this — prefer them.
-3. **Don't spawn `.bin/tsx.cmd` from Node** (`execFileSync` → EINVAL on Windows). Spawn `node` with
-   `--import tsx` and `cwd: scripts/`.
-4. **apply-verdicts mutates the shared `annotations.json`** — post-process serially, never in parallel.
-5. **Subagent JSON** occasionally has unescaped inner `"` in citations — prompts say "single quotes
-   inside strings"; if a candidate won't parse, that's almost always why.
-6. **Windows + Astro** caches `import.meta.glob`; kill all node processes before restarting the dev
+2. **`node --import tsx` must run from `scripts/`**; from the repo root tsx won't resolve. The build-kit
+   `.mjs` wrappers handle this — prefer them. Don't spawn `.bin/tsx.cmd` from Node (`EINVAL` on Windows).
+3. **`apply-verdicts` mutates the shared `annotations.json`** — post-process serially, never in parallel.
+4. **LLM-generated JSON** occasionally has unescaped inner `"` in citations — the prompts say "single
+   quotes inside strings"; if a candidate won't parse, that's almost always why.
+5. **Windows + Astro** caches `import.meta.glob`; kill all node processes before restarting the dev
    server after adding a play.
-7. **Reference-card kind must match its file** or citation-check fails on the link.
-8. **PowerShell native-command + `Select-Object` pipe = exit 255** (broken pipe), and **parallel tool
-   batches cancel on one failure.** Redirect to a file and Read it; run independent commands serially.
-9. The tool harness sometimes **batches/delays output**; if a call looks empty, it likely still ran —
-   re-check state with a Read rather than blindly re-running a mutating command.
-10. **`node --check` on the workflow templates reports "Illegal return statement" — ignore it.** That's
-    a false positive; workflow scripts run inside an async wrapper the Workflow tool supplies (top-level
-    `return`/`await` and the injected `agent`/`pipeline`/`parallel`/`log`/`args` globals are all legal).
-    Run them only via the Workflow tool, never standalone.
-11. **Chorus / sonnet prologues are handled (added for Romeo and Juliet).** A `THE PROLOGUE` header that
-    precedes the first `ACT`, or an `Enter Chorus` stage direction, opens a buffer that `parse-gutenberg.ts`
-    prepends as TLN-numbered Chorus speech to the head of the act it introduces (so R&J's Act 1 prologue is
-    TLN 1-14 at the top of 1.1, and the Act 2 prologue heads 2.1). Requires a `chorus` character in
-    `characters.json` with aliases for the printed labels (R&J: `Chor.`, `Chorus.`). This also covers a
-    play with a Chorus before every act (**Henry V**). The header match requires the word "THE" so a
-    play-within-a-play's bare `PROLOGUE` speaker (Midsummer's mechanicals, Hamlet's Mousetrap) is not
-    hijacked. Separately, a scene setting that wraps onto a second physical line (ending on a dangling
-    word like "the"/"of") is rejoined — verify `setting` fields look complete after ingest.
-12. **The Workflow tool may deliver `args` as a JSON string, not an object.** The `annotate.mjs` /
-    `glossary.mjs` templates now `JSON.parse` a string arg, so just pass `args` as an object. If a future
-    template throws "Workflow args must be…" with 0 agents run, it skipped that normalization.
+6. **Reference-card kind must match its file** or citation-check fails on the link.
+7. **Editions vary structurally** — and the parser already handles every device in the shipped canon
+   (choruses, inductions, epilogues, dumb-shows, songs, play-within-a-play prologues, unison prefixes)
+   through small, **gated, per-edition normalizers**. A `THE PROLOGUE` header before the first `ACT`, or
+   an `Enter Chorus` stage direction, opens a buffer prepended as TLN-numbered Chorus speech to the head
+   of the act it introduces (requires a `chorus` character with aliases for the printed labels). Most
+   structural quirks, though, need no parser change — they are pure `characters.json` alias data. **Any
+   new parser behavior must stay byte-identical for the already-shipped plays — run a re-ingest diff.**
+8. **The `workflows/*.mjs` templates are agent-orchestration specs, not standalone Node scripts.** They
+   use injected `agent`/`parallel`/`log` helpers and top-level `await`, so `node` won't run them directly
+   (`node --check` even reports a false "Illegal return statement"). Treat them as the prompt + fan-out
+   plan an LLM agent executes.

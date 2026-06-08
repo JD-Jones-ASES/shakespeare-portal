@@ -30,7 +30,7 @@ Each stage's output is the next stage's input. The validator gates the commit; t
 - First Folio editions (`*_gut_f.txt`) preserve early modern spelling. We use the modern-spelling files (`*_gut.txt`) as primary; the Folio files are available for scholar-depth textual notes.
 - Schema caps annotation `summary` at 600 chars — long mythology summaries occasionally need trimming after the annotator subagent runs.
 
-### Poem ingest variant (Phase B)
+### Poem ingest variant
 
 Poems skip `parse-gutenberg.ts` (which keys on `ACT`/`SCENE`/`SPEAKER` headers poems don't have). A
 dedicated, separate ingester — [`scripts/pipeline/ingest-poem.mjs`](../scripts/pipeline/ingest-poem.mjs) —
@@ -119,8 +119,8 @@ Every annotation persists all three verdicts in `fact_check_verdicts[]`, with th
 - Reference-card cross-references resolve to an existing card.
 - Source `name` is non-empty; `citation` is non-empty.
 
-### CI integration (future)
-A GitHub Actions workflow runs `npm run validate` on every PR. Failures block merge.
+### CI / deployment
+On every push to `main`, `.github/workflows/deploy.yml` builds the search index, runs `astro build`, and deploys to GitHub Pages. Run the validators locally (`npm run validate` from `scripts/`, or `node scripts/pipeline/audit.mjs <slug>`) before pushing — the site is data-driven, so malformed data surfaces at build time.
 
 ## Stage 5 — Build (Astro)
 
@@ -159,17 +159,15 @@ npx tsx scripts/validate/citation-check.ts
 cd site && npm run dev
 ```
 
-## How this actually runs today
+## How the generation stages run
 
-This document is the **conceptual** five-stage model. For the **operational** step-by-step (exact
-commands, Windows gotchas, the build kit, and the Workflow templates), follow
-[BUILD_A_PLAY.md](BUILD_A_PLAY.md) — it is the source of truth for *how* to build a play.
+Stages 1, 4, and 5 (ingest, validate, build) are fully deterministic and runnable with bare Node. Stages
+2 and 3 (generate, fact-check) are LLM-driven: this corpus was produced by an agent running the prompt
+templates in `scripts/pipeline/workflows/{annotate,glossary}.mjs` — one annotator per scene, then the
+source and interpretation judges — with the deterministic merge handled by
+`scripts/pipeline/postprocess.mjs` (which calls the real `resolve-anchors.ts` + `apply-verdicts.ts`).
 
-- `annotate-scene.ts` and `fact-check.ts` (the Stage 2/3 drivers shown above) are **stubs** — they were
-  never wired to an SDK. In practice, generation runs through the **Workflow tool** using
-  `scripts/pipeline/workflows/{annotate,glossary}.mjs` (one Sonnet subagent per scene + per-scene
-  source/interpretation judges), and the deterministic merge runs via `scripts/pipeline/postprocess.mjs`
-  (which calls the real `resolve-anchors.ts` + `apply-verdicts.ts`).
-- The validators and all `scripts/generate/*.ts` deterministic steps are real and runnable now (no SDK
-  dependency). The `scripts/pipeline/*.mjs` build kit wraps them with the correct Windows-safe invocation.
-- Wiring `@anthropic-ai/sdk` into the stubs for a fully headless/CI run remains the one deferred item.
+The `scripts/generate/annotate-scene.ts` and `fact-check.ts` drivers shown above are **stubs** — they were
+never wired to an LLM SDK. To run the generation stages headlessly (e.g. in CI), wire an SDK such as
+`@anthropic-ai/sdk` into those drivers, using `scripts/generate/prompts/{annotator,verifier}.md` as the
+prompts. The operational step-by-step for building one play is in [BUILD_A_PLAY.md](BUILD_A_PLAY.md).

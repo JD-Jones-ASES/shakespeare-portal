@@ -44,7 +44,7 @@ A persistent **search bar** spans the corpus (every line, every annotation) and 
 
 **Implementation**: MiniSearch or lunr index, pre-built at site build time, hydrated as a client island on first interaction.
 
-## Principle 6 — Accessibility from v1, not bolted on
+## Principle 6 — Accessibility from the start, not bolted on
 
 - **OpenDyslexic** toggle (typeface specifically designed to reduce common dyslexic confusions)
 - **Configurable line height** (1.4 / 1.7 / 2.0)
@@ -73,7 +73,7 @@ Mobile is a real device but a poor environment for deep reading of long plays. W
 3. **Over-annotation.** Every line annotated = no annotation. Annotate where a smart 10th-grader stumbles, not where you can imagine someone might.
 4. **Auto-playing audio or video.** Even when we add audio (deferred), it's opt-in.
 5. **Chrome-heavy reading view.** No sticky nav bar covering 15% of the viewport. Reading time wants minimal chrome.
-6. **Required login.** Reading is anonymous in v1; no login wall, no email-gate.
+6. **Required login.** Reading is anonymous; no login wall, no email-gate.
 
 ## Open UX questions
 
@@ -92,4 +92,4 @@ Mobile is a real device but a poor environment for deep reading of long plays. W
 - Progressive-disclosure literature (UXmatters, Interaction Design Foundation)
 - Bionic Reading and OpenDyslexic accessibility research
 
-Specific URLs are tracked in the planning notes (see plan file in your home directory) and should be added to a "Further Reading" page if/when we publish design docs externally.
+These are the research touchstones behind the design choices above, listed for reference rather than as a formal bibliography.

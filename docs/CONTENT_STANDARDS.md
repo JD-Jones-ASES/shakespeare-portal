@@ -1,6 +1,6 @@
 # Content Standards
 
-This document governs every piece of original prose that ships in the portal: annotations, reference cards, synopses, character descriptions, and editorial copy.
+This document governs every piece of original prose that ships in the portal: annotations, reference cards, synopses, character descriptions, and editorial copy. If you fork the project or add new works, follow these standards so new prose stays consistent with the released corpus.
 
 ## Voice
 
