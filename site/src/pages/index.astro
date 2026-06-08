@@ -1,148 +1,298 @@
 ---
 import Base from '../layouts/Base.astro';
-import { listPlays, referenceCards } from '../data/loader.ts';
+import { listPlays, referenceCards, getPlay } from '../data/loader.ts';
 import { withBase } from '../utils/url.ts';
 
 const plays = listPlays();
-const live = plays.filter((p) => p.text && p.annotations.length > 0);
-const comingSoon = plays.filter((p) => !(p.text && p.annotations.length > 0));
+type Bundle = (typeof plays)[number];
+const readable = (p: Bundle) => !!(p.text && p.annotations.length > 0);
+const nf = (n: number) => n.toLocaleString('en-US');
 
-// Build-time aggregate stats (no runtime work).
-const totalWorks = plays.length;
-const nLive = live.length;
-const pct = Math.round((nLive / totalWorks) * 100);
+// ---- Build-time aggregate stats (content quality only — no progress framing) ----
+const live = plays.filter(readable);
+const isPoetry = (p: Bundle) =>
+  p.catalog?.genre === 'Poem' || p.catalog?.genre === 'Sonnet_Sequence';
 const totalAnnotations = live.reduce((s, p) => s + p.annotations.length, 0);
 const totalGlossary = live.reduce((s, p) => s + (p.glossary?.entries.length ?? 0), 0);
 const totalLines = live.reduce((s, p) => s + (p.text?.tln_count ?? p.catalog?.line_count ?? 0), 0);
 const totalRefCards = referenceCards.length;
-const nf = (n: number) => n.toLocaleString('en-US');
+const nPlays = live.filter((p) => p.catalog && !isPoetry(p)).length;
+const nPoetic = live.filter((p) => p.catalog && isPoetry(p)).length;
+const stats = [
+  { n: nf(totalAnnotations), label: 'annotations' },
+  { n: nf(totalGlossary), label: 'glossary entries' },
+  { n: nf(totalRefCards), label: 'source cards' },
+  { n: nf(totalLines), label: 'lines, numbered' },
+];
 
-// Live plays, easiest first (a gentle on-ramp for new readers).
-const liveSorted = [...live].sort((a, b) => {
-  const da = a.catalog?.difficulty_rating ?? 3;
-  const db = b.catalog?.difficulty_rating ?? 3;
-  if (da !== db) return da - db;
-  return (a.catalog?.title_short ?? a.slug).localeCompare(b.catalog?.title_short ?? b.slug);
-});
+// ---- Genre grouping ----
+// Histories read in the order of the reigns they dramatise, not the order written.
+const HISTORY_ORDER = [
+  'john', 'richard_ii', 'henry_iv_part_1', 'henry_iv_part_2', 'henry_v',
+  'henry_vi_part_1', 'henry_vi_part_2', 'henry_vi_part_3', 'richard_iii', 'henry_viii',
+];
+const groupKey = (p: Bundle) => (isPoetry(p) ? 'poetry' : (p.catalog?.genre ?? '').toLowerCase());
+
+const GENRES = [
+  { key: 'tragedy', label: 'Tragedies', blurb: 'The great tragedies, with the Roman and revenge plays.' },
+  { key: 'comedy', label: 'Comedies', blurb: 'Festive comedies, romances of disguise, and farce.' },
+  { key: 'history', label: 'Histories', blurb: 'The English chronicle plays, in the order of the reigns they dramatise.' },
+  { key: 'romance', label: 'Romances', blurb: 'The late plays of loss, wonder, and reunion.' },
+  { key: 'tragicomedy', label: 'Tragicomedies & problem plays', blurb: 'Plays that mix the comic and the bitter.' },
+  { key: 'poetry', label: 'Poetry', blurb: 'The Sonnets and the narrative and occasional poems.' },
+];
+
+function sortGroup(key: string, items: Bundle[]): Bundle[] {
+  if (key === 'history') {
+    return [...items].sort((a, b) => HISTORY_ORDER.indexOf(a.slug) - HISTORY_ORDER.indexOf(b.slug));
+  }
+  // Readable first (so the one catalog-only poem sinks to the end), then alphabetical.
+  return [...items].sort((a, b) => {
+    const ra = readable(a), rb = readable(b);
+    if (ra !== rb) return ra ? -1 : 1;
+    return (a.catalog?.title_short ?? a.slug).localeCompare(b.catalog?.title_short ?? b.slug);
+  });
+}
+
+const groups = GENRES.map((g) => ({
+  ...g,
+  items: sortGroup(g.key, plays.filter((p) => p.catalog && groupKey(p) === g.key)),
+})).filter((g) => g.items.length > 0);
+
+// Keyword string per card powers the instant filter (title, genre, themes, characters).
+function keywordsFor(p: Bundle): string {
+  const c = p.catalog;
+  return [
+    c?.title_short, c?.title, groupKey(p), c?.genre?.replace('_', ' '), c?.subgenre,
+    ...(c?.themes ?? []).map((t) => t.replace(/_/g, ' ')),
+    ...(c?.characters_major ?? []),
+  ].filter(Boolean).join(' ').toLowerCase();
+}
 
 function gradeBand(grades?: number[]): string | null {
   if (!grades || grades.length === 0) return null;
   const school = grades.filter((g) => g <= 12);
   const src = school.length ? school : grades;
-  const lo = Math.min(...src);
-  const hi = Math.max(...src);
+  const lo = Math.min(...src), hi = Math.max(...src);
   const tail = grades.some((g) => g > 12) ? '+' : '';
   return lo === hi ? `Grade ${lo}` : `Grades ${lo}–${hi}${tail}`;
 }
 
-const GENRE_ORDER = ['Tragedy', 'History', 'Comedy', 'Romance', 'Tragicomedy', 'Poem', 'Sonnet_Sequence'] as const;
-const byGenre = new Map<string, typeof comingSoon>();
-for (const p of comingSoon) {
-  if (!p.catalog) continue;
-  const g = p.catalog.genre;
-  if (!byGenre.has(g)) byGenre.set(g, []);
-  byGenre.get(g)!.push(p);
-}
-
-const stats = [
-  { n: nf(totalAnnotations), label: 'annotations' },
-  { n: nf(totalGlossary), label: 'glossary entries' },
-  { n: nf(totalRefCards), label: 'source cards' },
-  { n: nf(totalLines), label: 'lines, line-numbered' },
+const genreChips = [
+  { filter: 'tragedy', label: 'Tragedies' },
+  { filter: 'comedy', label: 'Comedies' },
+  { filter: 'history', label: 'Histories' },
+  { filter: 'romance', label: 'Romances' },
+  { filter: 'poetry', label: 'Poetry' },
 ];
+const themeChips = ['love', 'power', 'revenge', 'ambition', 'justice', 'gender'];
+
+// ---- "See how it reads" showcase: three real, sourced notes from famous passages, each
+// demonstrating a different kind of help (vocabulary / rhetoric / a historical note with a
+// classical source). Pulled by id from the shipped data so the showcase stays authentic. ----
+const TYPE_LABEL: Record<string, string> = {
+  archaic_vocab: 'Archaic word', rhetorical_device: 'Rhetorical device', historical_topical: 'Historical note',
+  classical_allusion: 'Classical allusion', biblical_allusion: 'Biblical allusion', cultural_context: 'Context',
+  wordplay: 'Wordplay', bawdy_pun: 'Bawdy pun',
+};
+type Seg = string | { mark: string };
+const showcaseDefs: { id: string; slug: string; act: number; scene: number; cite: string; tag: string; lines: Seg[][] }[] = [
+  {
+    id: 'hamlet-1716-undiscoverd-country', slug: 'hamlet', act: 3, scene: 1,
+    cite: 'Hamlet · Act 3, Scene 1', tag: 'Archaic vocabulary',
+    lines: [['The undiscover’d country, from whose ', { mark: 'bourn' }], ['No traveller returns…']],
+  },
+  {
+    id: 'richard_iii-1-winter-discontent', slug: 'richard_iii', act: 1, scene: 1,
+    cite: 'Richard III · Act 1, Scene 1', tag: 'Rhetorical device',
+    lines: [['Now is the ', { mark: 'winter of our discontent' }], ['Made glorious summer by this sun of York…']],
+  },
+  {
+    id: 'julius_caesar-95-ides-warning', slug: 'julius_caesar', act: 1, scene: 2,
+    cite: 'Julius Caesar · Act 1, Scene 2', tag: 'Historical note + classical source',
+    lines: [['Beware ', { mark: 'the Ides of March' }, '.']],
+  },
+];
+const showcaseAnn = new Map<string, any>();
+for (const s of [...new Set(showcaseDefs.map((d) => d.slug))]) {
+  for (const a of getPlay(s)?.annotations ?? []) showcaseAnn.set(a.id, a);
+}
+const showcase = showcaseDefs.map((d) => {
+  const ann = showcaseAnn.get(d.id);
+  if (!ann) throw new Error(`Landing showcase: missing annotation "${d.id}". Re-check ids after any re-ingest.`);
+  return { ...d, ann };
+});
 ---
-<Base title="Read Shakespeare with the context built in" description={`Every play and the poems of Shakespeare, annotated for first-time readers — all ${nLive} works fully annotated and open to read.`}>
+<Base
+  title="Read Shakespeare with the context built in"
+  description={`The complete works of Shakespeare — every play and poem annotated for first-time readers, with ${nf(totalAnnotations)} sourced, fact-checked notes.`}
+>
   <section class="hero">
     <p class="kicker">A reading edition for first-timers</p>
     <h1>Every line of Shakespeare, explained.</h1>
     <p class="lede">
-      Most editions hand you the text and wish you luck. This one fills in what the plays quietly
-      assume you already know &mdash; the archaic words, the Bible and the myth, the Tudor politics,
-      the jokes &mdash; in margins you can turn up or switch off. Sourced, fact-checked, and built for
-      students meeting Shakespeare for the first time.
+      The complete works &mdash; every play and poem &mdash; with the archaic words, the Bible and the
+      myth, the Tudor politics, and the jokes filled in beside the line. Sourced, fact-checked, and built
+      for students meeting Shakespeare for the first time.
     </p>
 
-    <div class="progress" role="group" aria-label="Project progress">
-      <div class="progress-head">
-        <span><strong>{nLive}</strong> of {totalWorks} works fully annotated &amp; open to read</span>
-        <span class="progress-pct">{pct}%</span>
+    <div class="finder">
+      <label class="finder-label" for="work-filter">Find a play or poem</label>
+      <input
+        id="work-filter"
+        class="finder-input"
+        type="search"
+        autocomplete="off"
+        placeholder="Try &ldquo;Macbeth&rdquo;, &ldquo;revenge&rdquo;, or &ldquo;a comedy&rdquo;&hellip;"
+      />
+      <div class="chips" role="group" aria-label="Jump to a genre or theme">
+        {genreChips.map((c) => <button type="button" class="chip" data-filter={c.filter}>{c.label}</button>)}
+        <span class="chip-sep" aria-hidden="true"></span>
+        {themeChips.map((t) => <button type="button" class="chip chip-theme" data-filter={t}>{t}</button>)}
       </div>
-      <div class="progress-bar"><span class="progress-fill" style={`width:${pct}%`}></span></div>
-      <p class="progress-note">The complete works are here &mdash; all 37 plays, the Sonnets, and the four narrative poems, annotated and open. The one remaining catalog entry, <em>The Passionate Pilgrim</em>, is held back as a largely non-Shakespearean miscellany (see below).</p>
+      <p class="finder-hint">Looking for a specific line or speech? Use the search box at the top of the page.</p>
+      <p id="filter-status" class="filter-status" aria-live="polite"></p>
     </div>
+  </section>
 
+  <section class="catalog" id="catalog" aria-label="The complete works">
+    {groups.map((g) => (
+      <div class="genre-section" data-genre={g.key}>
+        <div class="genre-head">
+          <h2>{g.label}</h2>
+          <p>{g.blurb}</p>
+        </div>
+        <ul class="play-grid">
+          {g.items.map((p) => {
+            const c = p.catalog!;
+            const can = readable(p);
+            const lines = p.text?.tln_count ?? c.line_count ?? 0;
+            const band = gradeBand(c.curriculum_grade_level);
+            return (
+              <li class={`play-card${can ? ' live' : ' is-catalog'}`} data-keywords={keywordsFor(p)}>
+                <a href={withBase(`/plays/${p.slug}/`)}>
+                  <div class="card-top">
+                    <h3>{c.title_short}</h3>
+                    {can ? <span class="badge">Read</span> : <span class="badge badge-soft">Catalog</span>}
+                  </div>
+                  <p class="meta">{c.genre.replace('_', ' ')}{c.date_written ? ` · ${c.date_written}` : ''}</p>
+                  {c.synopsis_short && <p class="synopsis">{c.synopsis_short}</p>}
+                  {can ? (
+                    <>
+                      <dl class="card-stats">
+                        <div><dt>lines</dt><dd>{nf(lines)}</dd></div>
+                        <div><dt>notes</dt><dd>{nf(p.annotations.length)}</dd></div>
+                        <div><dt>glossary</dt><dd>{nf(p.glossary?.entries.length ?? 0)}</dd></div>
+                      </dl>
+                      <div class="card-tags">
+                        {c.difficulty_rating && <span class="tag">Difficulty {c.difficulty_rating}/5</span>}
+                        {band && <span class="tag">{band}</span>}
+                        {c.common_in_curriculum && <span class="tag tag-soft">Commonly taught</span>}
+                      </div>
+                      {c.content_warning?.length ? (
+                        <p class="card-cw">Content notes: {c.content_warning.map((w) => w.replace(/_/g, ' ')).join(', ')}</p>
+                      ) : null}
+                      <span class="read-cta">Read now &rarr;</span>
+                    </>
+                  ) : (
+                    <span class="status">Catalogued &mdash; not in the reader</span>
+                  )}
+                </a>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+    ))}
+    <p id="no-results" class="no-results" hidden>No works match &mdash; try a title, a genre, or a theme like &ldquo;love&rdquo; or &ldquo;power&rdquo;.</p>
+  </section>
+
+  <section class="showcase" aria-label="How it reads">
+    <div class="showcase-head">
+      <h2>See how it reads</h2>
+      <p>Hover or tap an underlined phrase for a plain-English, sourced note. Three famous lines &mdash; three of the kinds of help built into every text:</p>
+    </div>
+    <div class="showcase-grid">
+      {showcase.map((d) => (
+        <div class="showcase-card">
+          <div class="showcase-card-head">
+            <a class="showcase-cite" href={withBase(`/plays/${d.slug}/${d.act}/${d.scene}/`)}>{d.cite}</a>
+            <span class="showcase-tag">{d.tag}</span>
+          </div>
+          <div class="demo-verse">
+            {d.lines.map((segs) => (
+              <p class="demo-line">
+                {segs.map((seg) => (typeof seg === 'string' ? seg : (
+                  <span class="demo-term" tabindex="0">{seg.mark}<span class="demo-pop" role="tooltip">
+                    <span class="demo-pop-kind">{TYPE_LABEL[d.ann.type] ?? 'Note'}</span>
+                    <span class="demo-pop-text">{d.ann.summary}</span>
+                    <span class="demo-pop-src">Source: {d.ann.sources?.[0]?.name}</span>
+                  </span></span>
+                )))}
+              </p>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+    <p class="showcase-foot">
+      Every note cites its source and is checked by independent passes. Keep <strong>Read</strong> for clean
+      plain-English help, or switch to <strong>Study</strong> for textual variants, deep wordplay, and bawdy
+      puns &mdash; all live inside the reader.
+    </p>
+  </section>
+
+  <section class="trust" aria-label="About the edition">
+    <div class="trust-head">
+      <h2>The complete works, annotated</h2>
+      <p>{nPlays} plays &middot; {nPoetic} poetic works &mdash; sourced, fact-checked, and free to read.</p>
+    </div>
     <dl class="stat-band">
       {stats.map((s) => (
         <div class="stat"><dt>{s.label}</dt><dd>{s.n}</dd></div>
       ))}
     </dl>
   </section>
-
-  <section class="shelf">
-    <div class="section-head">
-      <h2>Now open</h2>
-      <p>{nLive} works &mdash; every play, the Sonnets, and the narrative poems &mdash; fully annotated and ready to read.</p>
-    </div>
-    <ul class="play-grid shelf-grid">
-      {liveSorted.map((p) => {
-        const c = p.catalog;
-        const lines = p.text?.tln_count ?? c?.line_count ?? 0;
-        const band = gradeBand(c?.curriculum_grade_level);
-        return (
-          <li class="play-card live">
-            <a href={withBase(`/plays/${p.slug}/`)}>
-              <div class="card-top">
-                <h3>{c?.title_short ?? p.slug}</h3>
-                <span class="badge">Open</span>
-              </div>
-              <p class="meta">{c?.genre.replace('_', ' ')}{c?.date_written ? ` · ${c.date_written}` : ''}</p>
-              {c?.synopsis_short && <p class="synopsis">{c.synopsis_short}</p>}
-              <dl class="card-stats">
-                <div><dt>lines</dt><dd>{nf(lines)}</dd></div>
-                <div><dt>notes</dt><dd>{nf(p.annotations.length)}</dd></div>
-                <div><dt>glossary</dt><dd>{nf(p.glossary?.entries.length ?? 0)}</dd></div>
-              </dl>
-              <div class="card-tags">
-                {c?.difficulty_rating && <span class="tag">Difficulty {c.difficulty_rating}/5</span>}
-                {band && <span class="tag">{band}</span>}
-                {c?.common_in_curriculum && <span class="tag tag-soft">Commonly taught</span>}
-              </div>
-              {c?.content_warning?.length ? (
-                <p class="card-cw">Content notes: {c.content_warning.map((w) => w.replace(/_/g, ' ')).join(', ')}</p>
-              ) : null}
-              <span class="read-cta">Read now &rarr;</span>
-            </a>
-          </li>
-        );
-      })}
-    </ul>
-  </section>
-
-  <section class="coming">
-    <div class="section-head">
-      <h2>Outside the reader</h2>
-      <p>The reader covers Shakespeare&rsquo;s complete works. {comingSoon.length === 1 ? 'One catalog entry is' : `${comingSoon.length} catalog entries are`} kept out on scholarly grounds.</p>
-    </div>
-    {GENRE_ORDER.map((genre) => {
-      const items = byGenre.get(genre);
-      if (!items || items.length === 0) return null;
-      return (
-        <div class="genre-section">
-          <h3>{genre.replace('_', ' ')}</h3>
-          <ul class="play-grid">
-            {items.map((p) => (
-              <li class="play-card is-coming">
-                <a href={withBase(`/plays/${p.slug}/`)}>
-                  <h3>{p.catalog!.title_short}</h3>
-                  {p.catalog!.date_written && <p class="meta">{p.catalog!.date_written}</p>}
-                  {p.catalog!.synopsis_short && <p class="synopsis">{p.catalog!.synopsis_short}</p>}
-                  <span class="status">Catalog only &mdash; not in the reader</span>
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-      );
-    })}
-  </section>
 </Base>
+
+<script>
+  const input = document.getElementById('work-filter') as HTMLInputElement | null;
+  if (input) {
+    const cards = Array.from(document.querySelectorAll<HTMLElement>('.catalog .play-card'));
+    const sections = Array.from(document.querySelectorAll<HTMLElement>('.catalog .genre-section'));
+    const chips = Array.from(document.querySelectorAll<HTMLElement>('.chips .chip'));
+    const status = document.getElementById('filter-status');
+    const noResults = document.getElementById('no-results');
+
+    const apply = (raw: string) => {
+      const q = raw.trim().toLowerCase();
+      const tokens = q.split(/\s+/).filter(Boolean);
+      let visible = 0;
+      for (const card of cards) {
+        const hay = card.getAttribute('data-keywords') || '';
+        const show = tokens.every((t) => hay.includes(t));
+        card.toggleAttribute('hidden', !show);
+        if (show) visible++;
+      }
+      for (const sec of sections) {
+        sec.toggleAttribute('hidden', !sec.querySelector('.play-card:not([hidden])'));
+      }
+      if (noResults) noResults.toggleAttribute('hidden', visible !== 0);
+      if (status) status.textContent = tokens.length === 0 ? '' : `${visible} ${visible === 1 ? 'work' : 'works'} match`;
+      for (const chip of chips) chip.classList.toggle('is-active', (chip.getAttribute('data-filter') || '') === q);
+    };
+
+    input.addEventListener('input', () => apply(input.value));
+    input.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') { input.value = ''; apply(''); }
+    });
+    for (const chip of chips) {
+      chip.addEventListener('click', () => {
+        const f = chip.getAttribute('data-filter') || '';
+        input.value = input.value.trim().toLowerCase() === f ? '' : f;
+        apply(input.value);
+        input.focus();
+      });
+    }
+  }
+</script>
