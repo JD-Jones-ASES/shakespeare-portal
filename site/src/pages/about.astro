@@ -1,5 +1,18 @@
 ---
 import Base from '../layouts/Base.astro';
+import { listPlays, referenceCards } from '../data/loader.ts';
+
+// Build-time counts so this page never goes stale (same source as the landing page).
+const plays = listPlays();
+const live = plays.filter((p) => p.text && p.annotations.length > 0);
+const isPoetry = (p: (typeof plays)[number]) =>
+  p.catalog?.genre === 'Poem' || p.catalog?.genre === 'Sonnet_Sequence';
+const nLive = live.length;
+const nPlays = live.filter((p) => p.catalog && !isPoetry(p)).length;
+const totalAnnotations = live.reduce((s, p) => s + p.annotations.length, 0);
+const totalGlossary = live.reduce((s, p) => s + (p.glossary?.entries.length ?? 0), 0);
+const totalRefCards = referenceCards.length;
+const nf = (n: number) => n.toLocaleString('en-US');
 ---
 <Base title="About" description="What Shakespeare Portal is and how it's built.">
   <article class="prose">
@@ -44,12 +57,12 @@ import Base from '../layouts/Base.astro';
 
     <h2>Status</h2>
     <p>
-      Four plays are fully annotated and open to read &mdash; <em>A Midsummer Night's Dream</em>,
-      <em>Romeo and Juliet</em>, <em>Julius Caesar</em>, and <em>Hamlet</em> &mdash; together carrying
-      more than 1,000 annotations, a 3,500-entry glossary, and 55 cross-referenced source cards. The
-      rest of the canon is in the catalog and being annotated play by play; a work marked
-      &ldquo;Annotation coming soon&rdquo; already has its catalog entry, and its reading text follows
-      as each play is ingested.
+      Shakespeare&rsquo;s complete works are annotated and open to read &mdash; all {nPlays} plays, the
+      154 Sonnets, and the four narrative poems ({nLive} works in all) &mdash; together carrying
+      {nf(totalAnnotations)} annotations, a {nf(totalGlossary)}-entry glossary, and {nf(totalRefCards)}
+      cross-referenced source cards. The one work kept out of the reader, <em>The Passionate Pilgrim</em>,
+      is a 1599 miscellany whose attribution to Shakespeare is mostly spurious &mdash; only a handful of
+      its twenty poems are genuinely his.
     </p>
 
     <h2>License</h2>
