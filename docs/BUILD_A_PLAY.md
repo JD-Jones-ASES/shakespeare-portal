@@ -163,7 +163,7 @@ first so Astro re-scans `import.meta.glob`. Confirm:
 
 ## Step 11 — Update docs
 
-Update **Project Status** in `CLAUDE.md` (counts, cards, glossary) and bump the README work count.
+Update **Project Status** in `AGENTS.md` (counts, cards, glossary) and bump the README work count.
 
 ---
 

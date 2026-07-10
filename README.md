@@ -45,7 +45,7 @@ npm run validate
 
 ## Repo layout
 
-See [CLAUDE.md](CLAUDE.md#repo-map) for the directory tour.
+See [AGENTS.md](AGENTS.md#repo-map) for the directory tour.
 
 ## Contribute
 

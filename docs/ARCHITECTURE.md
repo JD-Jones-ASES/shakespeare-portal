@@ -31,10 +31,10 @@ shakespeare-material-master/  (READ-ONLY, vendored)
             │
             ▼
    scripts/validate/{schema,anchor,citation}-check.ts
-            │   gates every commit
+            │   run locally before every push (no CI gates)
             ▼
    site/  (Astro)
-            │   Content Collections load data/**/*.json
+            │   glob loaders (site/src/data/loader.ts) read data/**/*.json
             │   Static HTML per scene + interactive islands
             ▼
    Public free educational site (GitHub Pages)
@@ -67,7 +67,10 @@ The trade-off: the catalog of annotations is fixed at build time. A new reader q
 
 - **MDX-friendly** — Reference cards and synopses are mostly prose with the occasional embed; MDX is a comfortable middle ground.
 - **Islands** — Only the gloss sidebar, depth toggle, search bar, and character filter need JavaScript. Everything else is static HTML. Lighthouse loves this.
-- **Content Collections** — Type-safe loading of `data/**/*.json` against the JSON Schemas in `schemas/`.
+- **Data-driven loading** — `site/src/data/loader.ts` glob-imports `data/**/*.json`
+  (`import.meta.glob` + `getStaticPaths`), so adding a work needs zero site code. (Astro Content
+  Collections were considered but never adopted; correctness comes from the pipeline validators
+  against `schemas/`, not from collection types.)
 - **Routing** — File-system routing makes `plays/[slug]/[act]/[scene].astro` trivial.
 
 ## Repository invariants
@@ -77,7 +80,10 @@ These hold at all times:
 1. **`data/` is canonical.** Generated artifacts (search index, sitemap, bundled HTML) live in `site/dist/` and are derived.
 2. **One slug per work.** Slugs match `shakespeare-material-master/texts/works.json` exactly. Never alias.
 3. **TLN is the only line citation.** No annotation references "Act 3 Scene 1 line 56." The TLN is unambiguous; lineation conventions vary across editions.
-4. **Schemas gate everything.** No JSON file lands in `data/` without passing `scripts/validate/schema-check.ts`.
+4. **Schemas gate everything — as protocol, enforced locally.** No JSON file lands in `data/` without
+   passing `scripts/validate/schema-check.ts` (run it, or `audit.mjs`, before committing data). There are
+   no CI gates or git hooks: CI is index + `astro build` only, so an unvalidated push can deploy — the
+   discipline is the runbook's, not the machine's.
 5. **Provenance is required.** Every annotation declares `generated_by`, `fact_checked`, `fact_checked_by` (model IDs), and `fact_check_verdicts` (the three judge results).
 
 ## Build environment

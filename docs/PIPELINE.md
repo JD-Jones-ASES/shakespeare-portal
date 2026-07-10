@@ -126,8 +126,8 @@ On every push to `main`, `.github/workflows/deploy.yml` builds the search index,
 
 **Site root**: [`site/`](../site/)
 
-- Astro Content Collections load `data/catalog/works.json`, `data/plays/<slug>/*.json`, `data/references/*.json`, `data/glossary/shared.json`.
-- Type-safe queries: the collection schemas import directly from `schemas/`.
+- The site glob-imports its data (`import.meta.glob` in `site/src/data/loader.ts`): `data/catalog/works.json`, `data/plays/<slug>/*.json`, `data/references/*.json`, `data/glossary/shared.json`. (Not Astro Content Collections — no `defineCollection` anywhere.)
+- Data correctness comes from the Stage-4 validators against `schemas/`; the loader trusts validated JSON.
 - Static site generation: one HTML file per scene, plus the catalog, play landings, about, and search.
 - Interactive islands:
   - **Gloss sidebar** (React) — receives the current scene's annotations and renders the gloss column.

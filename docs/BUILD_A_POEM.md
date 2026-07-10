@@ -53,7 +53,7 @@ merge/audit pipeline are **reused unchanged** — only the ingest step differs.
    `node scripts/pipeline/audit.mjs <slug>` (must exit 0).
 10. **Clear the review queue** with a rescue pass (an agent re-cites split-decision items), as for plays.
 11. **Browser-verify**: no blank speaker stripe; glossary underlines; Notes sidebar with cited
-    annotations + working reference-card badges. Update the README count and `CLAUDE.md`.
+    annotations + working reference-card badges. Update the README count and `AGENTS.md`.
 
 ## Notes / gotchas
 
