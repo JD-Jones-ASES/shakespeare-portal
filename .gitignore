@@ -44,6 +44,11 @@ Thumbs.db
 # Annotation pipeline intermediates (regenerable) — match these dirs anywhere
 _candidates/
 _review_queue/
+# ...except admitgate's committed review queue (M2): unlike the old
+# pipeline's local-only queues, an unresolved entry here is repo surface
+# that blocks the deploy until a human resolves it.
+!audit/verdicts/_review_queue/
+!audit/verdicts/_review_queue/**
 _seeds.json
 data/_drafts/
 scripts/.cache/
