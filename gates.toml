@@ -7,10 +7,10 @@
 #
 # The reference cards (data/references/*.json) are the panel's items: the
 # fleet's real risk is fabricated or misquoted citations, which only an
-# LLM judge can argue about. `require` starts empty — the M1 glassbox
-# pattern: gates enter the deploy path first; it flips to ["ship-review"]
-# in the PR that lands the first panel-earned records. First panel run
-# (needs ANTHROPIC_API_KEY):
+# LLM judge can argue about. `require` names ["ship-review"]: the deploy
+# refuses any item lacking a fresh green ship-review record — the M1
+# glassbox flip is done, not pending. Refresh those records when items
+# change by re-running the panel (needs ANTHROPIC_API_KEY):
 #
 #   uvx --from git+https://github.com/JD-Jones-ASES/admitgate admitgate panel --budget-max-items 3
 #
@@ -18,7 +18,7 @@
 
 [policy]
 ledger       = "audit/verdicts"
-require      = []
+require      = ["ship-review"]
 orphan_items = "fail"
 
 [[items]]
