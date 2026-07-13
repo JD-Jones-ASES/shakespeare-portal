@@ -1,0 +1,25 @@
+{
+  "item": "data/references/biblical.json",
+  "sha256": "c646958df6b4e83393a1dae7edfceccb9efe1f42a1d3629fa1caec1cee70e9f7",
+  "earned": "asserted",
+  "verdicts": [
+    {
+      "judge": "schema-honesty",
+      "verdict": "admitted",
+      "model_id": "npm --prefix scripts run validate:schema (deterministic)",
+      "note": "admitted by exit 0"
+    },
+    {
+      "judge": "anchor-honesty",
+      "verdict": "admitted",
+      "model_id": "npm --prefix scripts run validate:anchors (deterministic)",
+      "note": "admitted by exit 0"
+    },
+    {
+      "judge": "citation-honesty",
+      "verdict": "admitted",
+      "model_id": "npm --prefix scripts run validate:citations (deterministic)",
+      "note": "admitted by exit 0"
+    }
+  ]
+}
