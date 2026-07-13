@@ -12,7 +12,7 @@
 # in the PR that lands the first panel-earned records. First panel run
 # (needs ANTHROPIC_API_KEY):
 #
-#   admitgate panel --budget-max-items 3
+#   uvx --from git+https://github.com/JD-Jones-ASES/admitgate admitgate panel --budget-max-items 3
 #
 # and land what it writes through a reviewable PR.
 
@@ -47,10 +47,10 @@ veto = "schema-honesty"
 
 [[gates.judges]]
 judge  = "source"
-model  = "claude-opus-4-8"
+model  = "claude-haiku-4-5"
 prompt = "audit/panel/source-judge.md"
 
 [[gates.judges]]
 judge  = "interpretation"
-model  = "claude-opus-4-8"
+model  = "claude-haiku-4-5"
 prompt = "audit/panel/interpretation-judge.md"
