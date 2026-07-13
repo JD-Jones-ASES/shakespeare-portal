@@ -1,0 +1,56 @@
+# admitgate — deploy-blocking admission gates (M2 dogfood wiring).
+#
+# The three validators (the audit.mjs chain) wired by exit code: the seal
+# runs them in CI, so committed-but-unvalidated data can no longer ship.
+# audit.mjs itself stays the per-play authoring tool — its VALIDATORS
+# section runs exactly these three commands, and its stats are advisory.
+#
+# The reference cards (data/references/*.json) are the panel's items: the
+# fleet's real risk is fabricated or misquoted citations, which only an
+# LLM judge can argue about. `require` starts empty — the M1 glassbox
+# pattern: gates enter the deploy path first; it flips to ["ship-review"]
+# in the PR that lands the first panel-earned records. First panel run
+# (needs ANTHROPIC_API_KEY):
+#
+#   admitgate panel --budget-max-items 3
+#
+# and land what it writes through a reviewable PR.
+
+[policy]
+ledger       = "audit/verdicts"
+require      = []
+orphan_items = "fail"
+
+[[items]]
+match      = "data/references/*.json"
+derivation = "asserted"
+
+[[gates]]
+name = "schema-honesty"
+run  = "npm --prefix scripts run validate:schema"
+
+[[gates]]
+name = "anchor-honesty"
+run  = "npm --prefix scripts run validate:anchors"
+
+[[gates]]
+name = "citation-honesty"
+run  = "npm --prefix scripts run validate:citations"
+
+# The panel: a deterministic veto (schema shape) plus two LLM lenses,
+# merged 2-of-3. Never in the deploy path — the seal only verifies its
+# committed records.
+[[gates]]
+name = "ship-review"
+kind = "panel"
+veto = "schema-honesty"
+
+[[gates.judges]]
+judge  = "source"
+model  = "claude-opus-4-8"
+prompt = "audit/panel/source-judge.md"
+
+[[gates.judges]]
+judge  = "interpretation"
+model  = "claude-opus-4-8"
+prompt = "audit/panel/interpretation-judge.md"

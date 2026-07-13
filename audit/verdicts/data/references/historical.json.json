@@ -1,0 +1,25 @@
+{
+  "item": "data/references/historical.json",
+  "sha256": "d186862be091bedf2f68c5dfe245310039251caf92cfc3d9958ff071c1c9cad3",
+  "earned": "asserted",
+  "verdicts": [
+    {
+      "judge": "schema-honesty",
+      "verdict": "admitted",
+      "model_id": "npm --prefix scripts run validate:schema (deterministic)",
+      "note": "admitted by exit 0"
+    },
+    {
+      "judge": "anchor-honesty",
+      "verdict": "admitted",
+      "model_id": "npm --prefix scripts run validate:anchors (deterministic)",
+      "note": "admitted by exit 0"
+    },
+    {
+      "judge": "citation-honesty",
+      "verdict": "admitted",
+      "model_id": "npm --prefix scripts run validate:citations (deterministic)",
+      "note": "admitted by exit 0"
+    }
+  ]
+}
