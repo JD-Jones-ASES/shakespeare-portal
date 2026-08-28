@@ -38,13 +38,13 @@ jobs:
           npm ci
           npm run build:index
 
-      # The admitgate seal: audit (ledger <-> item consistency, staleness,
-      # the review queue) + the gates registered in gates.toml — the three
-      # validators CI never ran before M2. Refused data cannot ship:
-      # generate-then-gate, never generate-then-ship. The LLM panel never
-      # runs here; the seal only verifies its committed records.
-      - name: admitgate seal
-        uses: JD-Jones-ASES/admitgate@cfff8eb390d4d8ac8366e066c3f3edfeacec4720 # M2 pre-1.0 SHA pin
+      # The repo's own validators — the same three the admitgate seal ran
+      # before the action went private (admitgate ADR-021; unwired per OD-7,
+      # owner-ruled 2026-08-28). Deploys stay gate-blocked: bad data cannot
+      # ship. gates.toml remains for the local panel workflow.
+      - name: Validate corpus (schema, anchors, citations)
+        working-directory: scripts
+        run: npm run validate
 
       - name: Build the Astro site
         working-directory: site
