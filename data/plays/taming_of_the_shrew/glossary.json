@@ -286,8 +286,8 @@
     {
       "surface": "an",
       "normalized": "an",
-      "definition": "if (conditional conjunction)",
-      "pos": "conjunction"
+      "definition": "ordinary article 'a/an' ('budge an inch'); also archaic 'an' = if ('an she knew why', 'an you'll not knock')",
+      "pos": "article; conjunction"
     },
     {
       "surface": "an it",
@@ -448,7 +448,7 @@
     {
       "surface": "assure",
       "normalized": "assure",
-      "definition": "settle legally upon; guarantee by deed",
+      "definition": "to promise, tell confidently ('I dare assure you'); in dowry talk: to settle property legally on someone by deed",
       "pos": "verb"
     },
     {
@@ -604,7 +604,7 @@
     {
       "surface": "beat",
       "normalized": "beat",
-      "definition": "flap wings frantically; flutter restlessly",
+      "definition": "to strike, thrash ('how he beat me'); of a hawk: to flap the wings wildly ('that bate and beat')",
       "pos": "verb"
     },
     {
@@ -796,7 +796,7 @@
     {
       "surface": "books",
       "normalized": "books",
-      "definition": "heraldic register (put me in thy books = record my arms)",
+      "definition": "books to read ('All books of love'); in 'put me in thy books': enrol me in your favour, punning on a herald's roll of arms",
       "pos": "noun"
     },
     {
@@ -850,8 +850,8 @@
     {
       "surface": "brave",
       "normalized": "brave",
-      "definition": "finely dressed, splendid",
-      "pos": "adjective"
+      "definition": "finely dressed, splendid ('brave attendants'); as a verb: to defy, challenge ('brave not me')",
+      "pos": "adjective; verb"
     },
     {
       "surface": "bravely",
@@ -976,8 +976,8 @@
     {
       "surface": "burden",
       "normalized": "burden",
-      "definition": "theme; chief subject; refrain",
-      "pos": "noun"
+      "definition": "refrain, chief theme of a song ('burden of my wooing dance'); as a verb: to weigh down ('I will not burden thee')",
+      "pos": "noun; verb"
     },
     {
       "surface": "burst",
@@ -1102,7 +1102,7 @@
     {
       "surface": "carry",
       "normalized": "carry",
-      "definition": "take away (by force); escort to prison",
+      "definition": "to carry, bear ('Carry him gently to my chamber'); to haul off by force ('Carry this mad knave to the gaol')",
       "pos": "verb"
     },
     {
@@ -1474,14 +1474,14 @@
     {
       "surface": "couple",
       "normalized": "couple",
-      "definition": "leash together in pairs",
-      "pos": "verb"
+      "definition": "a pair ('a couple of quiet ones'); as a verb in hunting: to leash hounds together in pairs ('couple Clowder')",
+      "pos": "noun; verb"
     },
     {
       "surface": "course",
       "normalized": "course",
-      "definition": "hunt with greyhounds by sight rather than scent",
-      "pos": "verb"
+      "definition": "a course of study or action ('a course of learning'); as a verb in hunting: to chase game with greyhounds by sight",
+      "pos": "noun; verb"
     },
     {
       "surface": "covenants",
@@ -2116,7 +2116,7 @@
     {
       "surface": "fashions",
       "normalized": "fashions",
-      "definition": "farcy; a skin disease in horses causing lumpy swellings",
+      "definition": "customs, styles ('Old fashions please me best'); 'the fashions': farcy, a disease of horses causing lumpy swellings",
       "pos": "noun"
     },
     {
@@ -2128,7 +2128,7 @@
     {
       "surface": "fault",
       "normalized": "fault",
-      "definition": "a break in the scent trail that hounds cannot follow",
+      "definition": "a fault, offence ('a fault unwilling'); in hunting, 'the coldest fault': a break where the hounds lose the scent",
       "pos": "noun"
     },
     {
@@ -2428,7 +2428,7 @@
     {
       "surface": "get",
       "normalized": "get",
-      "definition": "beget; father; produce (a child)",
+      "definition": "to obtain, win ('get a husband for her sister'); with a reflexive pronoun: to go, take yourself off ('get you hence')",
       "pos": "verb"
     },
     {
@@ -2894,12 +2894,6 @@
       "pos": "noun"
     },
     {
-      "surface": "husband",
-      "normalized": "husband",
-      "definition": "thrifty manager of resources; good steward",
-      "pos": "noun"
-    },
-    {
       "surface": "husbanded",
       "normalized": "husbanded",
       "definition": "managed carefully, handled with economy",
@@ -3358,8 +3352,8 @@
     {
       "surface": "light",
       "normalized": "light",
-      "definition": "wanton; of loose morals; unchaste",
-      "pos": "adjective"
+      "definition": "not heavy; also wanton, unchaste ('young and light'); as a noun in 'by this light': daylight, used as an oath",
+      "pos": "adjective; noun"
     },
     {
       "surface": "light on",
@@ -3496,14 +3490,14 @@
     {
       "surface": "man",
       "normalized": "man",
-      "definition": "to tame (a hawk) to accept a human handler",
-      "pos": "verb"
+      "definition": "a man; a manservant ('a man of mine'); as a verb in falconry: to tame a hawk to the hand ('to man my haggard')",
+      "pos": "noun; verb"
     },
     {
       "surface": "mark",
       "normalized": "mark",
-      "definition": "coin worth 13 shillings and 4 pence",
-      "pos": "noun"
+      "definition": "to notice, observe, pay attention to ('mark the manner of his teaching')",
+      "pos": "verb"
     },
     {
       "surface": "marks",
@@ -3550,7 +3544,7 @@
     {
       "surface": "mates",
       "normalized": "mates",
-      "definition": "low fellows; ruffians (contemptuous)",
+      "definition": "fellows, companions ('carousing to his mates'); contemptuously: low fellows; with a play on 'mates' = husbands, suitors",
       "pos": "noun"
     },
     {
@@ -4084,8 +4078,8 @@
     {
       "surface": "pass",
       "normalized": "pass",
-      "definition": "plight; state; sorry condition",
-      "pos": "noun"
+      "definition": "to go by, pass ('ere three days pass'); to exceed ('pass your patience'); to convey by law ('pass my daughter a dower'); noun: a plight",
+      "pos": "verb; noun"
     },
     {
       "surface": "pass assurance",
@@ -4342,8 +4336,8 @@
     {
       "surface": "present",
       "normalized": "present",
-      "definition": "report, bring a formal complaint against",
-      "pos": "verb"
+      "definition": "to offer, give ('I do present you with a man'); as an adjective: immediate ('present death'); 'present her at the leet': formally accuse",
+      "pos": "verb; adjective"
     },
     {
       "surface": "presently",
@@ -5188,7 +5182,7 @@
     {
       "surface": "strange",
       "normalized": "strange",
-      "definition": "severe; harsh; unkind",
+      "definition": "odd, unfamiliar ('it would seem strange'); distant, unfriendly, standoffish ('will you be so strange?')",
       "pos": "adjective"
     },
     {
@@ -5398,8 +5392,8 @@
     {
       "surface": "the base",
       "normalized": "the base",
-      "definition": "the lowest part in a musical composition; bass",
-      "pos": "noun"
+      "definition": "in music, the bass, the lowest part ('All but the base'); elsewhere base = low, vile ('the base knave that jars')",
+      "pos": "noun; adjective"
     },
     {
       "surface": "the whiles",
@@ -5890,7 +5884,7 @@
     {
       "surface": "watch",
       "normalized": "watch",
-      "definition": "keep a hawk awake to break its wildness",
+      "definition": "to watch, keep an eye on ('watch Bianca's steps'); in falconry: to keep a hawk awake to tame it ('watch all night')",
       "pos": "verb"
     },
     {
@@ -5944,8 +5938,8 @@
     {
       "surface": "white",
       "normalized": "white",
-      "definition": "the white centre of an archery target; the bull's-eye",
-      "pos": "noun"
+      "definition": "the colour white ('their white stockings'); in 'hit the white': the bull's-eye of an archery target, punning on Bianca",
+      "pos": "adjective; noun"
     },
     {
       "surface": "whoreson",

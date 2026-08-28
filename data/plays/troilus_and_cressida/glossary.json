@@ -292,8 +292,8 @@
     {
       "surface": "an",
       "normalized": "an",
-      "definition": "if",
-      "pos": "conjunction"
+      "definition": "usually just the ordinary article 'an'; before a clause it means 'if' ('an she be not, she has the mends in her own hands')",
+      "pos": "article; conjunction"
     },
     {
       "surface": "an 'twere",
@@ -388,7 +388,7 @@
     {
       "surface": "argument",
       "normalized": "argument",
-      "definition": "subject; theme; the person or thing one talks about",
+      "definition": "subject, theme ('all the argument is a whore and a cuckold'); also the ordinary reason, grounds ('good argument for kissing')",
       "pos": "noun"
     },
     {
@@ -760,8 +760,8 @@
     {
       "surface": "boot",
       "normalized": "boot",
-      "definition": "extra payment; something added to make up a difference",
-      "pos": "noun"
+      "definition": "to boot: in addition, besides ('an eye to boot'); as a noun, something extra given to even a bargain ('I'll give you boot')",
+      "pos": "noun; phrase"
     },
     {
       "surface": "borne",
@@ -2272,8 +2272,8 @@
     {
       "surface": "favour",
       "normalized": "favour",
-      "definition": "face; appearance; complexion",
-      "pos": "noun"
+      "definition": "face, looks ('I know your favour'); goodwill, partiality ('place, riches, and favour'); as a verb, to look kindly on",
+      "pos": "noun; verb"
     },
     {
       "surface": "fee-farm",
@@ -2668,7 +2668,7 @@
     {
       "surface": "go to",
       "normalized": "go to",
-      "definition": "come now; enough of that (exclamation of impatience)",
+      "definition": "literally to go to a place or person ('let Ajax go to him'); as an exclamation, 'come now!', 'enough of that!'",
       "pos": "phrase"
     },
     {
@@ -2854,7 +2854,7 @@
     {
       "surface": "hence",
       "normalized": "hence",
-      "definition": "from here; away",
+      "definition": "from here, away; of time, from now ('some two months hence')",
       "pos": "adverb"
     },
     {
@@ -2896,7 +2896,7 @@
     {
       "surface": "honest",
       "normalized": "honest",
-      "definition": "chaste; virtuous; honorable",
+      "definition": "honourable; decent; respectable ('an honest fellow enough')",
       "pos": "adjective"
     },
     {
@@ -3430,7 +3430,7 @@
     {
       "surface": "lover",
       "normalized": "lover",
-      "definition": "devoted friend; one who wishes you well (not just romantic)",
+      "definition": "sweetheart ('had she no lover there'); also a devoted friend or well-wisher ('I as your lover speak')",
       "pos": "noun"
     },
     {
@@ -3574,8 +3574,8 @@
     {
       "surface": "meanest",
       "normalized": "meanest",
-      "definition": "intend; have in mind",
-      "pos": "adjective"
+      "definition": "lowliest, humblest ('the meanest spirit on our party'); as a verb, 'what meanest thou' = what do you intend",
+      "pos": "adjective; verb"
     },
     {
       "surface": "med'cinable",
@@ -3784,7 +3784,7 @@
     {
       "surface": "numbers",
       "normalized": "numbers",
-      "definition": "verse; metrical lines; poetry",
+      "definition": "our numbers = our forces, the army ('appals our numbers'); of poetry, verse or metrical lines ('sanctify the numbers')",
       "pos": "noun"
     },
     {
@@ -3982,7 +3982,7 @@
     {
       "surface": "palm",
       "normalized": "palm",
-      "definition": "prize; honor; superiority; victor's palm branch",
+      "definition": "the palm of the hand ('hard as the palm of ploughman'); the victor's palm: prize, honour ('stale his palm')",
       "pos": "noun"
     },
     {
@@ -4456,7 +4456,7 @@
     {
       "surface": "proper",
       "normalized": "proper",
-      "definition": "handsome; fine-looking; excellent",
+      "definition": "handsome, fine ('a proper man of person'); one's own ('the issue of your proper wisdoms')",
       "pos": "adjective"
     },
     {
@@ -4486,8 +4486,8 @@
     {
       "surface": "protest",
       "normalized": "protest",
-      "definition": "solemn declaration; vow; proclamation",
-      "pos": "noun"
+      "definition": "as a verb, to declare solemnly ('yet, I protest'); as a noun, a solemn vow or declaration ('full of protest, of oath')",
+      "pos": "noun; verb"
     },
     {
       "surface": "protestation",
@@ -4810,7 +4810,7 @@
     {
       "surface": "respect",
       "normalized": "respect",
-      "definition": "cautious calculation; timid consideration of consequences",
+      "definition": "regard, consideration, deference ('let me not shame respect'); in 'reason and respect', over-cautious calculation",
       "pos": "noun"
     },
     {
@@ -4949,12 +4949,6 @@
       "surface": "ruthful",
       "normalized": "ruthful",
       "definition": "pitiless; causing pity and grief (used ironically)",
-      "pos": "adjective"
-    },
-    {
-      "surface": "sad",
-      "normalized": "sad",
-      "definition": "serious; grave; earnest",
       "pos": "adjective"
     },
     {
@@ -5368,7 +5362,7 @@
     {
       "surface": "sort",
       "normalized": "sort",
-      "definition": "lot; chance draw; fate determined by lottery",
+      "definition": "manner, way ('in beastly sort', 'in such a sort'); also the drawing of lots ('the sort to fight with Hector')",
       "pos": "noun"
     },
     {
@@ -5512,8 +5506,8 @@
     {
       "surface": "still",
       "normalized": "still",
-      "definition": "always; continually",
-      "pos": "adverb"
+      "definition": "always, continually ('keep Helen still'); also the ordinary sense quiet, motionless ('the still and mental parts')",
+      "pos": "adverb; adjective"
     },
     {
       "surface": "stints",
@@ -5830,7 +5824,7 @@
     {
       "surface": "tent",
       "normalized": "tent",
-      "definition": "probe; surgical instrument for searching a wound's depth",
+      "definition": "a soldier's tent, as throughout the Greek camp; rarely, a probe for searching a wound ('the tent that searches')",
       "pos": "noun"
     },
     {
@@ -6376,8 +6370,8 @@
     {
       "surface": "wide",
       "normalized": "wide",
-      "definition": "far off the mark; mistaken; wrong",
-      "pos": "adjective"
+      "definition": "ordinary wide, broad ('the wide world', 'wide unclasp'); of a guess, off the mark, mistaken ('you are wide')",
+      "pos": "adjective; adverb"
     },
     {
       "surface": "wights",

@@ -574,7 +574,7 @@
     {
       "surface": "blood",
       "normalized": "blood",
-      "definition": "passion; sexual desire; temper",
+      "definition": "passion, sexual desire ('prompture of the blood'); temperament; also literal blood; family, lineage ('issued from his blood')",
       "pos": "noun"
     },
     {
@@ -748,7 +748,7 @@
     {
       "surface": "character",
       "normalized": "character",
-      "definition": "handwriting style; written hand",
+      "definition": "writing, letters, inscription ('character too gross, is writ on Juliet'); a person's distinctive handwriting",
       "pos": "noun"
     },
     {
@@ -820,8 +820,8 @@
     {
       "surface": "colour",
       "normalized": "colour",
-      "definition": "disguise; conceal under a plausible excuse",
-      "pos": "verb"
+      "definition": "as a verb: to disguise, gloss over ('howsoever you colour it'); as a noun: colour, complexion ('just of his colour')",
+      "pos": "verb; noun"
     },
     {
       "surface": "combinate",
@@ -844,7 +844,7 @@
     {
       "surface": "committed",
       "normalized": "committed",
-      "definition": "imprisoned; formally remanded to custody",
+      "definition": "done, perpetrated ('there's many have committed it'); sent to prison ('where I am committed')",
       "pos": "verb"
     },
     {
@@ -1666,7 +1666,7 @@
     {
       "surface": "favour",
       "normalized": "favour",
-      "definition": "face; appearance; features",
+      "definition": "face, looks ('a good favour you have'); also 'by your good favour' = with your leave",
       "pos": "noun"
     },
     {
@@ -2170,7 +2170,7 @@
     {
       "surface": "hence",
       "normalized": "hence",
-      "definition": "away from here; from this place",
+      "definition": "away from here ('take him hence'); from this, therefore ('hence shall we see'; 'hence hath offence his quick celerity')",
       "pos": "adverb"
     },
     {
@@ -2578,8 +2578,8 @@
     {
       "surface": "light",
       "normalized": "light",
-      "definition": "loose in morals; wanton; unchaste",
-      "pos": "adjective"
+      "definition": "ordinary senses: light; to kindle ('light them for themselves'); cheerful ('a light heart'); also unchaste, wanton ('women are light')",
+      "pos": "adjective; noun; verb"
     },
     {
       "surface": "lightness",
@@ -2596,7 +2596,7 @@
     {
       "surface": "lists",
       "normalized": "lists",
-      "definition": "limits; boundaries",
+      "definition": "limits, bounds ('the lists of all advice'); the selvage, edge-strip of cloth ('between the lists and the velvet')",
       "pos": "noun"
     },
     {
@@ -2616,12 +2616,6 @@
       "normalized": "loins",
       "definition": "the seat of generative power; the body below the waist",
       "pos": "noun"
-    },
-    {
-      "surface": "long",
-      "normalized": "long",
-      "definition": "belong; pertain (here as 'longs = belongs)",
-      "pos": "verb"
     },
     {
       "surface": "loss of question",
@@ -2740,7 +2734,7 @@
     {
       "surface": "metal",
       "normalized": "metal",
-      "definition": "mettle; character; worth (pun on the ore sense)",
+      "definition": "metal, esp. coin-metal ('put metal in restrained means'); punning on 'mettle' = character, quality ('test made of my metal')",
       "pos": "noun"
     },
     {
@@ -2818,13 +2812,13 @@
     {
       "surface": "mortality",
       "normalized": "mortality",
-      "definition": "the death penalty; power to execute",
+      "definition": "human life, being mortal ('no might nor greatness in mortality'); power of life and death ('mortality and mercy in Vienna')",
       "pos": "noun"
     },
     {
       "surface": "motion",
       "normalized": "motion",
-      "definition": "living creature; animate being",
+      "definition": "a proposal, proposition ('a motion much imports your good'); a living, moving creature ('this sensible warm motion')",
       "pos": "noun"
     },
     {
@@ -3034,7 +3028,7 @@
     {
       "surface": "order",
       "normalized": "order",
-      "definition": "religious rule; monastic vows and community",
+      "definition": "a religious order ('the vow of mine order'); a command or arrangement ('there shall be order for it'); 'take order for' = deal with",
       "pos": "noun"
     },
     {
@@ -3280,7 +3274,7 @@
     {
       "surface": "pleasant",
       "normalized": "pleasant",
-      "definition": "jesting; witty; given to jokes",
+      "definition": "merry, jesting ('you are pleasant, sir'); also the ordinary sense: agreeable, giving pleasure",
       "pos": "adjective"
     },
     {
@@ -3358,7 +3352,7 @@
     {
       "surface": "practice",
       "normalized": "practice",
-      "definition": "scheme; plot; conspiracy",
+      "definition": "a plot, scheme, trickery ('this needs must be a practice'); also the ordinary sense: practice, experience ('art and practice')",
       "pos": "noun"
     },
     {
@@ -3376,7 +3370,7 @@
     {
       "surface": "precise",
       "normalized": "precise",
-      "definition": "puritanically strict; overly righteous",
+      "definition": "strict, exact ('ever precise in promise-keeping'); puritanically strict, morally rigid ('Lord Angelo is precise')",
       "pos": "adjective"
     },
     {
@@ -3394,7 +3388,7 @@
     {
       "surface": "pregnant",
       "normalized": "pregnant",
-      "definition": "obvious; clear; self-evident",
+      "definition": "obvious, evident ('tis very pregnant'); well-versed, resourceful ('as pregnant in... common justice')",
       "pos": "adjective"
     },
     {
@@ -3616,7 +3610,7 @@
     {
       "surface": "quit",
       "normalized": "quit",
-      "definition": "forgive; remit; let go free",
+      "definition": "acquit, forgive ('I quit them all'); requite, repay ('like doth quit like'); leave, give up ('quit their own part')",
       "pos": "verb"
     },
     {
@@ -3754,8 +3748,8 @@
     {
       "surface": "remov'd",
       "normalized": "remov'd",
-      "definition": "retired; withdrawn from public life",
-      "pos": "adjective"
+      "definition": "taken away ('see the fornicatress be remov'd'); secluded, withdrawn from the world ('the life remov'd')",
+      "pos": "verb; adjective"
     },
     {
       "surface": "remove",
@@ -4006,8 +4000,8 @@
     {
       "surface": "see",
       "normalized": "see",
-      "definition": "the seat of a bishop or the pope; a diocese",
-      "pos": "noun"
+      "definition": "usually the ordinary verb: to see; as a noun in 'late come from the see': a bishop's seat, a diocese",
+      "pos": "verb; noun"
     },
     {
       "surface": "seedness",
@@ -4066,7 +4060,7 @@
     {
       "surface": "set on",
       "normalized": "set on",
-      "definition": "depart; set out on a journey",
+      "definition": "set out on a journey ('to-morrow you set on'); urge on, incite ('to set on this wretched woman')",
       "pos": "phrase"
     },
     {
@@ -4444,7 +4438,7 @@
     {
       "surface": "suit",
       "normalized": "suit",
-      "definition": "petition; formal plea or request",
+      "definition": "a petition or request ('what's your suit?'); a lawsuit ('at the suit of Master Three-pile')",
       "pos": "noun"
     },
     {
@@ -4714,7 +4708,7 @@
     {
       "surface": "touch'd",
       "normalized": "touch'd",
-      "definition": "tainted; affected (with madness here)",
+      "definition": "finely wrought ('spirits are not finely touch'd'); moved, stirred; tried ('my patience is touch'd'); tainted with madness",
       "pos": "adjective"
     },
     {
@@ -4750,7 +4744,7 @@
     {
       "surface": "trick",
       "normalized": "trick",
-      "definition": "habit; customary way; fashion of speaking",
+      "definition": "a prank, trifling act ('a mad fantastical trick of him'); a habit or fashion ('I spoke it but according to the trick')",
       "pos": "noun"
     },
     {
@@ -4936,8 +4930,8 @@
     {
       "surface": "use",
       "normalized": "use",
-      "definition": "interest on a loan; profit from investment",
-      "pos": "noun"
+      "definition": "the ordinary sense: to use, usage; habit, custom ('his use was to'); interest on a loan ('both thanks and use')",
+      "pos": "noun; verb"
     },
     {
       "surface": "usuries",
@@ -5086,7 +5080,7 @@
     {
       "surface": "ward",
       "normalized": "ward",
-      "definition": "prison cell; room in the jail",
+      "definition": "a district under a constable's watch ('men in your ward'); a room or cell in the prison ('come to my ward')",
       "pos": "noun"
     },
     {
@@ -5122,8 +5116,8 @@
     {
       "surface": "wear",
       "normalized": "wear",
-      "definition": "the fashion; what is customary",
-      "pos": "noun"
+      "definition": "as a verb: to wear ('I'd wear as rubies'); as a noun: the fashion, what is customary ('it is not the wear')",
+      "pos": "verb; noun"
     },
     {
       "surface": "weigh equally",

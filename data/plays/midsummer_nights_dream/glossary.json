@@ -118,8 +118,8 @@
     {
       "surface": "against",
       "normalized": "against",
-      "definition": "in preparation for; by the time that (archaic temporal)",
-      "pos": "conj"
+      "definition": "opposed to; up against ('against her lips I bob'); in preparation for, in time for ('against our nuptial')",
+      "pos": "prep; conj"
     },
     {
       "surface": "aggravate",
@@ -160,8 +160,8 @@
     {
       "surface": "an",
       "normalized": "an",
-      "definition": "if",
-      "pos": "conjunction"
+      "definition": "the ordinary article a/an; before a clause, 'if' ('An I may hide my face'); \"an 'twere\" = as if it were",
+      "pos": "article; conjunction"
     },
     {
       "surface": "an if",
@@ -472,7 +472,7 @@
     {
       "surface": "blood",
       "normalized": "blood",
-      "definition": "passions; desires; temperament",
+      "definition": "the ordinary sense: blood ('no blood, no wound'); passions, desires ('examine well your blood'); family rank ('different in blood')",
       "pos": "noun"
     },
     {
@@ -928,7 +928,7 @@
     {
       "surface": "counsel",
       "normalized": "counsel",
-      "definition": "secrets; private thoughts",
+      "definition": "advice ('the ill counsel of a desert place'); secrets, private confidences ('emptying our bosoms of their counsel sweet')",
       "pos": "noun"
     },
     {
@@ -994,8 +994,8 @@
     {
       "surface": "cross",
       "normalized": "cross",
-      "definition": "obstacle; affliction; thwarting",
-      "pos": "noun"
+      "definition": "as a noun: obstacle, affliction ('a customary cross'); as a verb: to thwart, oppose ('should Titania cross her Oberon')",
+      "pos": "noun; verb"
     },
     {
       "surface": "cross-ways",
@@ -1012,8 +1012,8 @@
     {
       "surface": "cry",
       "normalized": "cry",
-      "definition": "a pack of hounds; their combined baying",
-      "pos": "noun"
+      "definition": "as a verb: to call out ('though he cry \"cuckoo\"'); as a noun: the baying of a pack of hounds ('a cry more tuneable')",
+      "pos": "noun; verb"
     },
     {
       "surface": "cry your worships mercy",
@@ -1468,8 +1468,8 @@
     {
       "surface": "faith",
       "normalized": "faith",
-      "definition": "truly; in faith (mild oath)",
-      "pos": "interjection"
+      "definition": "faithfulness, loyalty, a promise kept ('break his faith'); as an exclamation: truly, indeed ('Nay, faith, let not me play a woman')",
+      "pos": "noun; interjection"
     },
     {
       "surface": "fancy",
@@ -1726,7 +1726,7 @@
     {
       "surface": "gate",
       "normalized": "gate",
-      "definition": "way; path; road",
+      "definition": "the ordinary sense: gate, gateway ('the eastern gate'); way, path ('every fairy take his gate')",
       "pos": "noun"
     },
     {
@@ -1918,7 +1918,7 @@
     {
       "surface": "hearts",
       "normalized": "hearts",
-      "definition": "good fellows; dear companions (address)",
+      "definition": "the ordinary sense: hearts; in direct address: good fellows, lads ('where are these lads? where are these hearts?')",
       "pos": "noun"
     },
     {
@@ -1990,7 +1990,7 @@
     {
       "surface": "honest",
       "normalized": "honest",
-      "definition": "chaste; virtuous (of a woman)",
+      "definition": "honourable, decent, truthful ('as I am an honest Puck'); in polite address: worthy, good ('your name, honest gentleman')",
       "pos": "adjective"
     },
     {
@@ -2098,7 +2098,7 @@
     {
       "surface": "intend",
       "normalized": "intend",
-      "definition": "show; display; direct toward (archaic sense)",
+      "definition": "the ordinary sense: to mean, plan ('intend you stay'); to show, offer ('if thou dost intend... show of love')",
       "pos": "verb"
     },
     {
@@ -2614,7 +2614,7 @@
     {
       "surface": "never so",
       "normalized": "never so",
-      "definition": "however much; no matter how often",
+      "definition": "however much, ever so ('though he cry \"cuckoo\" never so'); but 'never so weary, never so in woe' is the ordinary 'never so... as now'",
       "pos": "phrase"
     },
     {
@@ -2836,8 +2836,8 @@
     {
       "surface": "pale",
       "normalized": "pale",
-      "definition": "a fenced enclosure; an enclosed park",
-      "pos": "n"
+      "definition": "the ordinary adjective: pale, whitish ('hands as pale as milk'); as a noun: a fenced enclosure, park ('over park, over pale')",
+      "pos": "adj; noun"
     },
     {
       "surface": "palpable-gross",
@@ -3334,8 +3334,8 @@
     {
       "surface": "round",
       "normalized": "round",
-      "definition": "a circular dance; a roundel",
-      "pos": "n"
+      "definition": "a circular dance ('dance in our round'); otherwise ordinary: around ('a girdle round about the earth'), circular ('round pearls')",
+      "pos": "noun; adv; adj"
     },
     {
       "surface": "roundel",
@@ -3364,7 +3364,7 @@
     {
       "surface": "sad",
       "normalized": "sad",
-      "definition": "serious; grave; earnest",
+      "definition": "usually the ordinary sense: sorrowful ('make a man look sad'); sometimes serious, grave ('in silence sad')",
       "pos": "adj"
     },
     {
@@ -3580,8 +3580,8 @@
     {
       "surface": "something",
       "normalized": "something",
-      "definition": "somewhat; rather; to some degree",
-      "pos": "adverb"
+      "definition": "the ordinary pronoun: something ('something of great constancy'); as an adverb: somewhat, rather ('something lower than myself')",
+      "pos": "pronoun; adverb"
     },
     {
       "surface": "sometime",
@@ -3598,8 +3598,8 @@
     {
       "surface": "sort",
       "normalized": "sort",
-      "definition": "turn out; fall out; result (archaic verb)",
-      "pos": "verb"
+      "definition": "as a noun: kind, class, rank ('spirits of another sort'); as a verb: to turn out, fall out ('I am glad it so did sort')",
+      "pos": "noun; verb"
     },
     {
       "surface": "sorting with",
@@ -3802,7 +3802,7 @@
     {
       "surface": "tall",
       "normalized": "tall",
-      "definition": "brave; bold; valiant (not about height)",
+      "definition": "usually the ordinary sense: tall in height ('her tall personage'); sometimes brave, fine ('sweet youth, and tall')",
       "pos": "adjective"
     },
     {
@@ -3838,8 +3838,8 @@
     {
       "surface": "tender",
       "normalized": "tender",
-      "definition": "offer; present; hold out",
-      "pos": "noun"
+      "definition": "to offer, present ('tender me... affection'); as a noun: an offer ('for his tender'); as an adjective: delicate ('a tender ass')",
+      "pos": "verb; noun; adjective"
     },
     {
       "surface": "testy",
@@ -3862,7 +3862,7 @@
     {
       "surface": "therefore",
       "normalized": "therefore",
-      "definition": "in return for that; for it (archaic sense of exchange)",
+      "definition": "the ordinary sense: for that reason, so; in 'what should I get therefore?': in return for that, for it",
       "pos": "adv"
     },
     {
@@ -3922,7 +3922,7 @@
     {
       "surface": "told",
       "normalized": "told",
-      "definition": "counted; struck (of a bell tolling the hour)",
+      "definition": "the ordinary sense: told, related, said; counted, struck ('the iron tongue of midnight hath told twelve')",
       "pos": "verb"
     },
     {
@@ -4120,7 +4120,7 @@
     {
       "surface": "voice",
       "normalized": "voice",
-      "definition": "approval; formal consent",
+      "definition": "the ordinary sense: voice, sound of speaking; vote, approval, formal consent ('wanting your father's voice')",
       "pos": "noun"
     },
     {

@@ -310,14 +310,14 @@
     {
       "surface": "attempt",
       "normalized": "attempt",
-      "definition": "press; urge; try to persuade",
+      "definition": "to try, undertake ('not attempt to choose at all'); to urge, press, try to persuade ('I must attempt you further')",
       "pos": "verb"
     },
     {
       "surface": "attended",
       "normalized": "attended",
-      "definition": "listened to; given an audience",
-      "pos": "adjective"
+      "definition": "accompanied, waited on ('only attended by Nerissa'); listened to, given attention ('when neither is attended')",
+      "pos": "verb; adjective"
     },
     {
       "surface": "aught",
@@ -592,7 +592,7 @@
     {
       "surface": "break",
       "normalized": "break",
-      "definition": "default on a loan; fail to repay on the due date",
+      "definition": "to break in the ordinary senses ('break of day'; 'break faith'); of a debtor: to default, fail to repay ('if he break')",
       "pos": "verb"
     },
     {
@@ -616,7 +616,7 @@
     {
       "surface": "breath",
       "normalized": "breath",
-      "definition": "speech; words; spoken message",
+      "definition": "the air breathed, breath itself ('draws breath in Italy'); speech, words ('commends and courteous breath')",
       "pos": "noun"
     },
     {
@@ -1000,7 +1000,7 @@
     {
       "surface": "cover",
       "normalized": "cover",
-      "definition": "wear a hat; be entitled to keep their hat on (a mark of rank)",
+      "definition": "to lay the cloth, set the table ('bid them cover the table'); to put on one's hat, a mark of rank ('should cover that stand bare')",
       "pos": "verb"
     },
     {
@@ -1228,7 +1228,7 @@
     {
       "surface": "difference",
       "normalized": "difference",
-      "definition": "a dispute; a matter of disagreement",
+      "definition": "unlikeness, ordinary difference ('the difference of our spirits'); a legal dispute, the matter at issue ('this present question')",
       "pos": "noun"
     },
     {
@@ -1588,7 +1588,7 @@
     {
       "surface": "excess",
       "normalized": "excess",
-      "definition": "interest on a loan; profit above the principal",
+      "definition": "too much, overabundance ('scant this excess'); in money-lending: interest charged above the principal",
       "pos": "noun"
     },
     {
@@ -1708,8 +1708,8 @@
     {
       "surface": "fell",
       "normalized": "fell",
-      "definition": "fierce; savage; cruel",
-      "pos": "adjective"
+      "definition": "past tense of fall ('the curse never fell upon our nation'); as an adjective: fierce, cruel ('his fell soul')",
+      "pos": "verb; adjective"
     },
     {
       "surface": "fellow",
@@ -1726,8 +1726,8 @@
     {
       "surface": "fine",
       "normalized": "fine",
-      "definition": "a monetary penalty; a financial punishment",
-      "pos": "noun"
+      "definition": "excellent, splendid ('a fine bragging youth'); a money penalty imposed by a court ('to quit the fine')",
+      "pos": "adjective; noun"
     },
     {
       "surface": "flat",
@@ -1756,7 +1756,7 @@
     {
       "surface": "flight",
       "normalized": "flight",
-      "definition": "a type of light arrow for long-distance shooting",
+      "definition": "running away, escape ('my daughter's flight'); an arrow of a given weight for long shooting ('the self-same flight')",
       "pos": "noun"
     },
     {
@@ -2206,7 +2206,7 @@
     {
       "surface": "hence",
       "normalized": "hence",
-      "definition": "from here; away from this place",
+      "definition": "from here, away from this place ('go from hence'); of time: from now ('some hour hence')",
       "pos": "adverb"
     },
     {
@@ -2638,8 +2638,8 @@
     {
       "surface": "light",
       "normalized": "light",
-      "definition": "wanton; sexually loose (pun on light=bright)",
-      "pos": "adjective"
+      "definition": "brightness, a lamp ('come to light'); not heavy in weight; of a woman: unchaste ('a light wife'); as a verb: to fall upon",
+      "pos": "adjective; noun; verb"
     },
     {
       "surface": "likest",
@@ -2830,7 +2830,7 @@
     {
       "surface": "match",
       "normalized": "match",
-      "definition": "business deal; financial arrangement; contract",
+      "definition": "a bargain, business deal ('another bad match'); a contest or game ('play some heavenly match')",
       "pos": "noun"
     },
     {
@@ -3094,7 +3094,7 @@
     {
       "surface": "offices",
       "normalized": "offices",
-      "definition": "duties; acts; practices",
+      "definition": "duties, functions, acts ('offices of tender courtesy'); official posts or positions ('estates, degrees, and offices')",
       "pos": "noun"
     },
     {
@@ -3118,7 +3118,7 @@
     {
       "surface": "opinion",
       "normalized": "opinion",
-      "definition": "reputation; public esteem",
+      "definition": "a view, judgment ('say thy opinion'); belief; reputation, public esteem ('dress'd in an opinion')",
       "pos": "noun"
     },
     {
@@ -3238,8 +3238,8 @@
     {
       "surface": "parts",
       "normalized": "parts",
-      "definition": "roles; duties; tasks assigned",
-      "pos": "noun"
+      "definition": "portions, pieces ('in six parts'); personal qualities, talents ('his good parts'); roles, duties; as a verb: departs, leaves",
+      "pos": "noun; verb"
     },
     {
       "surface": "passion",
@@ -3346,8 +3346,8 @@
     {
       "surface": "pleasure",
       "normalized": "pleasure",
-      "definition": "oblige; do a favour for; gratify the wishes of",
-      "pos": "verb"
+      "definition": "as a verb: to oblige, do a favour for ('will you pleasure me?'); as a noun: one's will or wish ('use your pleasure')",
+      "pos": "verb; noun"
     },
     {
       "surface": "plies",
@@ -3382,7 +3382,7 @@
     {
       "surface": "possess'd",
       "normalized": "possess'd",
-      "definition": "fully informed; made aware of (by Shylock)",
+      "definition": "informed, told ('is he yet possess'd'); owning, in possession of ('all he dies possess'd')",
       "pos": "verb"
     },
     {
@@ -3454,7 +3454,7 @@
     {
       "surface": "presence",
       "normalized": "presence",
-      "definition": "dignified bearing; noble appearance; stately manner",
+      "definition": "being present, someone's company ('in your presence'); dignified bearing, stately appearance ('with no less presence')",
       "pos": "noun"
     },
     {
@@ -3514,7 +3514,7 @@
     {
       "surface": "prize",
       "normalized": "prize",
-      "definition": "contest; competition; tournament",
+      "definition": "the reward won ('is that my prize?'); a contest or match ('two contending in a prize')",
       "pos": "noun"
     },
     {
@@ -3550,7 +3550,7 @@
     {
       "surface": "proper",
       "normalized": "proper",
-      "definition": "handsome; good-looking; fine in appearance",
+      "definition": "fitting, apt ('that the comparison may stand more proper'); handsome, fine-looking ('a proper man's picture')",
       "pos": "adjective"
     },
     {
@@ -3610,8 +3610,8 @@
     {
       "surface": "question",
       "normalized": "question",
-      "definition": "debate; argument; engage in discussion with",
-      "pos": "verb"
+      "definition": "to argue or discuss ('question with the wolf'); as a noun: doubt ('I no question make'); the case at issue in court",
+      "pos": "verb; noun"
     },
     {
       "surface": "questionless",
@@ -3664,8 +3664,8 @@
     {
       "surface": "rank",
       "normalized": "rank",
-      "definition": "in heat; ready to conceive; sexually receptive",
-      "pos": "adjective"
+      "definition": "as a verb: to class, place ('rank me with the barbarous multitudes'); of animals: in heat, ready to breed",
+      "pos": "adjective; verb"
     },
     {
       "surface": "rasher",
@@ -3790,7 +3790,7 @@
     {
       "surface": "respect",
       "normalized": "respect",
-      "definition": "context; comparison; relation to surroundings",
+      "definition": "regard, courtesy ('talk with respect'); relation to circumstances, context ('nothing is good without respect')",
       "pos": "noun"
     },
     {
@@ -3898,7 +3898,7 @@
     {
       "surface": "sad",
       "normalized": "sad",
-      "definition": "serious; grave; sober",
+      "definition": "sorrowful, low-spirited ('I know not why I am so sad'); sometimes serious, grave in manner",
       "pos": "adjective"
     },
     {
@@ -3916,7 +3916,7 @@
     {
       "surface": "satisfied",
       "normalized": "satisfied",
-      "definition": "fully informed; with all questions answered",
+      "definition": "contented, paid ('he is well paid that is well satisfied'); also fully informed, with your questions answered",
       "pos": "adjective"
     },
     {
@@ -4204,8 +4204,8 @@
     {
       "surface": "soft",
       "normalized": "soft",
-      "definition": "wait; hold on; not so fast",
-      "pos": "interjection"
+      "definition": "soft in the ordinary sense ('as soft as yours'); as an exclamation: wait!, hold on, not so fast ('But soft!')",
+      "pos": "adjective; interjection"
     },
     {
       "surface": "soft stillness",
@@ -4306,7 +4306,7 @@
     {
       "surface": "state",
       "normalized": "state",
-      "definition": "glory; splendour; kingly dignity",
+      "definition": "the government or commonwealth ('the state of Venice'); one's condition or fortune ('my state was nothing'); pomp, splendour",
       "pos": "noun"
     },
     {
@@ -4432,7 +4432,7 @@
     {
       "surface": "suit",
       "normalized": "suit",
-      "definition": "petition; request; also courtship",
+      "definition": "a petition or request; courtship ('obtain'd thy suit'); a set of clothes ('what page's suit she hath in readiness')",
       "pos": "noun"
     },
     {
@@ -4492,7 +4492,7 @@
     {
       "surface": "table",
       "normalized": "table",
-      "definition": "flat surface of the palm used in palm-reading",
+      "definition": "a dinner table ('bid them cover the table'); in palmistry: the flat of the palm ('a fairer table')",
       "pos": "noun"
     },
     {
@@ -4546,8 +4546,8 @@
     {
       "surface": "tender",
       "normalized": "tender",
-      "definition": "formally offer (money) in payment",
-      "pos": "verb"
+      "definition": "as a verb: to offer formally in payment ('here I tender it'); as an adjective: gentle, kind ('tender courtesy')",
+      "pos": "verb; adjective"
     },
     {
       "surface": "tenour",
@@ -4912,7 +4912,7 @@
     {
       "surface": "virtue",
       "normalized": "virtue",
-      "definition": "worth; special power or quality; significance",
+      "definition": "moral goodness ('some mark of virtue'); power, special quality, significance ('the virtue of the ring')",
       "pos": "noun"
     },
     {
@@ -5008,7 +5008,7 @@
     {
       "surface": "wealth",
       "normalized": "wealth",
-      "definition": "welfare; well-being; life (archaic sense)",
+      "definition": "riches, money ('thy wealth being forfeit to the state'); welfare, well-being ('lend my body for his wealth')",
       "pos": "noun"
     },
     {
@@ -5116,7 +5116,7 @@
     {
       "surface": "wit",
       "normalized": "wit",
-      "definition": "intelligence; wisdom; clever judgment",
+      "definition": "intelligence, good sense; cleverness in speech; in 'to wit': that is to say, namely",
       "pos": "noun"
     },
     {

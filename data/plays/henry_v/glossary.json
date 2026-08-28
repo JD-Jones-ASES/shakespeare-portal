@@ -214,7 +214,7 @@
     {
       "surface": "advantage",
       "normalized": "advantage",
-      "definition": "the right moment; opportunity; the favourable time",
+      "definition": "benefit, gain ('death is to him advantage'); the favourable moment, opportunity ('advantage is a better soldier')",
       "pos": "noun"
     },
     {
@@ -304,8 +304,8 @@
     {
       "surface": "ancient",
       "normalized": "ancient",
-      "definition": "ensign; lowest officer rank (here a military title)",
-      "pos": "noun"
+      "definition": "old, long-established ('an ancient tradition'); as a military title: ensign, lowest officer rank ('Ancient Pistol')",
+      "pos": "adjective; noun"
     },
     {
       "surface": "annoy",
@@ -586,7 +586,7 @@
     {
       "surface": "battles",
       "normalized": "battles",
-      "definition": "battle-formations; arrays of troops",
+      "definition": "battles, fighting ('O God of battles!'); battle-formations, troops drawn up ('bravely in their battles set')",
       "pos": "noun"
     },
     {
@@ -838,7 +838,7 @@
     {
       "surface": "breath",
       "normalized": "breath",
-      "definition": "brief time; a moment's space",
+      "definition": "breathing, the breath of life; speech, talk ('subject to the breath of every fool'); a brief space of time ('small breath')",
       "pos": "noun"
     },
     {
@@ -964,7 +964,7 @@
     {
       "surface": "capital",
       "normalized": "capital",
-      "definition": "punishable by death",
+      "definition": "chief, principal ('she is our capital demand'); of crimes: punishable by death",
       "pos": "adjective"
     },
     {
@@ -1198,8 +1198,8 @@
     {
       "surface": "close",
       "normalized": "close",
-      "definition": "a musical resolution; cadence",
-      "pos": "noun"
+      "definition": "as a verb: to shut, fill up ('close the wall up'), to converge ('lines close in the dial's centre'); as a noun: musical cadence",
+      "pos": "verb; noun"
     },
     {
       "surface": "closet",
@@ -1246,8 +1246,8 @@
     {
       "surface": "committed",
       "normalized": "committed",
-      "definition": "imprisoned; confined",
-      "pos": "adjective"
+      "definition": "done, performed ('murder committed'; 'services committed'); sent to prison ('the man committed yesterday')",
+      "pos": "verb"
     },
     {
       "surface": "commons",
@@ -1276,7 +1276,7 @@
     {
       "surface": "compound",
       "normalized": "compound",
-      "definition": "settle; come to terms; reach an agreement",
+      "definition": "come to terms, settle ('for thy ransom... compound'); put together, make ('compound a boy, half French, half English')",
       "pos": "verb"
     },
     {
@@ -1690,7 +1690,7 @@
     {
       "surface": "dear",
       "normalized": "dear",
-      "definition": "grievous; heavy; costly (archaic sense)",
+      "definition": "beloved, precious ('dear friends'); also grievous, costly ('all your dear offences')",
       "pos": "adjective"
     },
     {
@@ -2134,8 +2134,8 @@
     {
       "surface": "even",
       "normalized": "even",
-      "definition": "evening",
-      "pos": "noun"
+      "definition": "level, smooth; as an adverb: exactly, indeed; in 'the even of it': the plain truth; in 'from morn till even': evening",
+      "pos": "adverb; adjective; noun"
     },
     {
       "surface": "even-pleach'd",
@@ -2272,8 +2272,8 @@
     {
       "surface": "fashion",
       "normalized": "fashion",
-      "definition": "distort; shape dishonestly",
-      "pos": "verb"
+      "definition": "custom, way of doing things ('the fashion of your country'); as a verb: to shape, twist ('fashion, wrest, or bow your reading')",
+      "pos": "noun; verb"
     },
     {
       "surface": "fatally",
@@ -2680,8 +2680,8 @@
     {
       "surface": "go to",
       "normalized": "go to",
-      "definition": "enough; come on (expression of dismissal)",
-      "pos": "phrase"
+      "definition": "the ordinary sense: to go to a place; alone, 'Go to.' is an exclamation: come now!, enough!",
+      "pos": "verb phrase; interjection"
     },
     {
       "surface": "god before",
@@ -2716,7 +2716,7 @@
     {
       "surface": "got",
       "normalized": "got",
-      "definition": "begot; fathered; conceived",
+      "definition": "obtained, acquired ('riches I got'); begot, fathered ('when he got me'); in Fluellen's accent 'Got' = God",
       "pos": "verb"
     },
     {
@@ -2764,7 +2764,7 @@
     {
       "surface": "gross",
       "normalized": "gross",
-      "definition": "obvious; plain; blatant",
+      "definition": "obvious, plain ('stands off as gross'); coarse, unrefined, dull ('gross passion'; 'in gross brain')",
       "pos": "adjective"
     },
     {
@@ -3364,8 +3364,8 @@
     {
       "surface": "issue",
       "normalized": "issue",
-      "definition": "flow out; spill forth (of tears)",
-      "pos": "verb"
+      "definition": "as a noun: outcome, result ('happy be the issue'); offspring, children ('Issue to me'); as a verb: to flow out",
+      "pos": "noun; verb"
     },
     {
       "surface": "jack-an-apes",
@@ -3554,12 +3554,6 @@
       "pos": "noun"
     },
     {
-      "surface": "let",
-      "normalized": "let",
-      "definition": "hindrance; obstacle; impediment",
-      "pos": "noun"
-    },
-    {
       "surface": "let thine eye be thy cook",
       "normalized": "let thine eye be thy cook",
       "definition": "let your eyes season what you see (make it appealing)",
@@ -3622,8 +3616,8 @@
     {
       "surface": "like",
       "normalized": "like",
-      "definition": "likely; probable",
-      "pos": "adjective"
+      "definition": "the ordinary senses: similar to, as, such as; also likely, probable ('Was like, and had indeed against us pass'd')",
+      "pos": "preposition; adjective"
     },
     {
       "surface": "likes me better",
@@ -3652,8 +3646,8 @@
     {
       "surface": "list",
       "normalized": "list",
-      "definition": "listen to",
-      "pos": "verb"
+      "definition": "as a verb: to listen to ('List his discourse'); as a noun: boundary, limit ('the weak list of a country's fashion')",
+      "pos": "verb; noun"
     },
     {
       "surface": "lob",
@@ -3664,7 +3658,7 @@
     {
       "surface": "lodging",
       "normalized": "lodging",
-      "definition": "going to rest; settling for the night",
+      "definition": "a place to stay or sleep ('this lodging likes me better'); an animal's resting-place ('the lodging of the lamb')",
       "pos": "noun"
     },
     {
@@ -3772,7 +3766,7 @@
     {
       "surface": "marches",
       "normalized": "marches",
-      "definition": "border regions; frontier territories",
+      "definition": "the army's marching, its progress ('in our marches through the country'); border lands ('they of those marches')",
       "pos": "noun"
     },
     {
@@ -3808,8 +3802,8 @@
     {
       "surface": "mean",
       "normalized": "mean",
-      "definition": "of low rank; humble; ignoble",
-      "pos": "adjective"
+      "definition": "to intend, signify; as an adjective: low-born, base ('so mean and base'); in 'the mean time': the interval",
+      "pos": "verb; adjective"
     },
     {
       "surface": "mean and gentle",
@@ -3820,7 +3814,7 @@
     {
       "surface": "measure",
       "normalized": "measure",
-      "definition": "a dance step or dancing generally; also metrical verse",
+      "definition": "dancing, a dance ('no strength in measure'); the ordinary sense: amount, degree ('a reasonable measure in strength')",
       "pos": "noun"
     },
     {
@@ -3832,8 +3826,8 @@
     {
       "surface": "meet",
       "normalized": "meet",
-      "definition": "fitting; proper; appropriate",
-      "pos": "adjective"
+      "definition": "to come together, encounter ('ways meet in one town'); as an adjective: fitting, proper ('tis meet we all go forth')",
+      "pos": "verb; adjective"
     },
     {
       "surface": "meeter",
@@ -4042,8 +4036,8 @@
     {
       "surface": "needs",
       "normalized": "needs",
-      "definition": "necessarily; of necessity",
-      "pos": "adverb"
+      "definition": "in 'must needs': necessarily, unavoidably; elsewhere the ordinary verb: requires, has need of",
+      "pos": "adverb; verb"
     },
     {
       "surface": "neighbourhood",
@@ -4072,8 +4066,8 @@
     {
       "surface": "noble",
       "normalized": "noble",
-      "definition": "a gold coin worth six shillings and eightpence",
-      "pos": "noun"
+      "definition": "high-born, admirable; as a noun: a gold coin worth 6s 8d ('A noble shalt thou have, and present pay')",
+      "pos": "adjective; noun"
     },
     {
       "surface": "nook-shotten",
@@ -4156,8 +4150,8 @@
     {
       "surface": "offer",
       "normalized": "offer",
-      "definition": "attempt; try (archaic sense)",
-      "pos": "verb"
+      "definition": "the ordinary senses: to present, propose; a proposal; also to attempt, venture ('offer nothing here')",
+      "pos": "verb; noun"
     },
     {
       "surface": "office",
@@ -4198,7 +4192,7 @@
     {
       "surface": "ordinance",
       "normalized": "ordinance",
-      "definition": "cannon; artillery; ordnance",
+      "definition": "established order, decree ('the ordinance of times'); artillery, cannon ('second accent of his ordinance')",
       "pos": "noun"
     },
     {
@@ -4324,8 +4318,8 @@
     {
       "surface": "parts",
       "normalized": "parts",
-      "definition": "qualities; personal characteristics; attributes",
-      "pos": "noun"
+      "definition": "portions, pieces; regions, districts ('these parts'); sides ('on both our parts'); as a verb: to divide, separate",
+      "pos": "noun; verb"
     },
     {
       "surface": "pashful",
@@ -4336,8 +4330,8 @@
     {
       "surface": "pass",
       "normalized": "pass",
-      "definition": "safe passage",
-      "pos": "noun"
+      "definition": "the ordinary verb: to go, go by, be approved ('if it pass against us'); as a noun: passage, leave to go through",
+      "pos": "verb; noun"
     },
     {
       "surface": "passing",
@@ -4360,7 +4354,7 @@
     {
       "surface": "patches",
       "normalized": "patches",
-      "definition": "plasters; cloth patches worn over wounds or scars",
+      "definition": "pieces of cloth; outward trappings ('patches, colours, and... forms'); plasters worn over scars",
       "pos": "noun"
     },
     {
@@ -4780,7 +4774,7 @@
     {
       "surface": "presence",
       "normalized": "presence",
-      "definition": "the royal presence chamber; court",
+      "definition": "'in presence': present, here in person; also the royal presence-chamber, the court",
       "pos": "noun"
     },
     {
@@ -4846,8 +4840,8 @@
     {
       "surface": "proportion",
       "normalized": "proportion",
-      "definition": "be proportionate to; match; correspond to",
-      "pos": "noun"
+      "definition": "due measure, what is fitting ('gainst all proportion'); as a verb: to weigh up, match ('proportion the losses')",
+      "pos": "noun; verb"
     },
     {
       "surface": "proportion of subjection",
@@ -4888,13 +4882,13 @@
     {
       "surface": "purchase",
       "normalized": "purchase",
-      "definition": "earn; bring about; obtain",
-      "pos": "noun"
+      "definition": "to gain, get ('purchase him a box o' the ear'); as a noun: gains, plunder ('call it purchase')",
+      "pos": "verb; noun"
     },
     {
       "surface": "quality",
       "normalized": "quality",
-      "definition": "rank; occupation; official function",
+      "definition": "rank, station; occupation ('I know thy quality'); kind, nature ('fruit of baser quality')",
       "pos": "noun"
     },
     {
@@ -4906,7 +4900,7 @@
     {
       "surface": "quick",
       "normalized": "quick",
-      "definition": "alive; living; active",
+      "definition": "alive, living ('mercy that was quick in us'); lively, active; also swift, fast ('cutpurse of quick hand')",
       "pos": "adjective"
     },
     {
@@ -4966,8 +4960,8 @@
     {
       "surface": "rank",
       "normalized": "rank",
-      "definition": "overgrown; excessively lush; coarse",
-      "pos": "adjective"
+      "definition": "overgrown, coarsely lush ('rank fumitory'); as a verb: to be placed with, count among ('rank with the rest')",
+      "pos": "adjective; verb"
     },
     {
       "surface": "rapier",
@@ -5134,7 +5128,7 @@
     {
       "surface": "rest",
       "normalized": "rest",
-      "definition": "settled resolve; final decision (gambling term)",
+      "definition": "the remainder, the others ('the rest are princes'); sleep, repose; in 'that is my rest': my settled resolve",
       "pos": "noun"
     },
     {
@@ -5374,8 +5368,8 @@
     {
       "surface": "seat",
       "normalized": "seat",
-      "definition": "position of authority; throne",
-      "pos": "noun"
+      "definition": "throne, seat of power; a place, site ('whose low vassal seat'); as a verb: to settle, establish",
+      "pos": "noun; verb"
     },
     {
       "surface": "secure",
@@ -5398,8 +5392,8 @@
     {
       "surface": "self",
       "normalized": "self",
-      "definition": "same; very same",
-      "pos": "adjective"
+      "definition": "the ordinary noun: one's own person; as an adjective: same, very same ('that self bill is urg'd')",
+      "pos": "adjective; noun"
     },
     {
       "surface": "self-glorious",
@@ -5602,8 +5596,8 @@
     {
       "surface": "sort",
       "normalized": "sort",
-      "definition": "rank; quality; grade",
-      "pos": "noun"
+      "definition": "rank, class ('prisoners of good sort'); in 'in some sort': in a way; as a verb: to separate out",
+      "pos": "noun; verb"
     },
     {
       "surface": "sorts well",
@@ -5728,8 +5722,8 @@
     {
       "surface": "still",
       "normalized": "still",
-      "definition": "always; constantly",
-      "pos": "adverb"
+      "definition": "always, continually ('he will still be doing'); also the ordinary sense: motionless, silent ('stand still')",
+      "pos": "adverb; adjective"
     },
     {
       "surface": "stilly",
@@ -5752,7 +5746,7 @@
     {
       "surface": "stomach",
       "normalized": "stomach",
-      "definition": "appetite; inclination; desire to fight",
+      "definition": "the literal stomach ('goes against my weak stomach'); appetite; inclination, courage ('no stomach to this fight')",
       "pos": "noun"
     },
     {
@@ -5764,8 +5758,8 @@
     {
       "surface": "straight",
       "normalized": "straight",
-      "definition": "immediately; at once",
-      "pos": "adverb"
+      "definition": "at once, immediately ('straight to horse!'); also the ordinary sense: not bent ('a straight back will stoop')",
+      "pos": "adverb; adjective"
     },
     {
       "surface": "strain",
@@ -6034,8 +6028,8 @@
     {
       "surface": "tender",
       "normalized": "tender",
-      "definition": "hold dear; guard carefully; protect",
-      "pos": "verb"
+      "definition": "as a verb: to hold dear, care for ('our kingdom's safety must so tender'); as an adjective: careful, solicitous",
+      "pos": "verb; adjective"
     },
     {
       "surface": "tenours",
@@ -6628,7 +6622,7 @@
     {
       "surface": "wit",
       "normalized": "wit",
-      "definition": "intelligence; cleverness",
+      "definition": "intelligence, cleverness ('shallow wit'); in 'to wit': that is to say, namely",
       "pos": "noun"
     },
     {

@@ -256,7 +256,7 @@
     {
       "surface": "angel",
       "normalized": "angel",
-      "definition": "evil spirit; fallen angel (used here of a devil)",
+      "definition": "a good angel, holy spirit ('some holy angel'); in 'the angel whom thou still hast serv'd': an evil spirit, a fallen angel",
       "pos": "noun"
     },
     {
@@ -724,7 +724,7 @@
     {
       "surface": "breath",
       "normalized": "breath",
-      "definition": "mere words; empty speech",
+      "definition": "breathing, air ('almost dead for breath'); life; mere words, empty speech ('mouth-honour, breath')",
       "pos": "noun"
     },
     {
@@ -1012,8 +1012,8 @@
     {
       "surface": "close",
       "normalized": "close",
-      "definition": "hidden; out of sight",
-      "pos": "verb"
+      "definition": "hidden, concealed ('stand close'); secret ('the close contriver'); as a verb: to close up, heal ('she'll close, and be herself')",
+      "pos": "adjective; adverb; verb"
     },
     {
       "surface": "closet",
@@ -1032,12 +1032,6 @@
       "normalized": "coigne of vantage",
       "definition": "convenient projecting corner for a bird to nest",
       "pos": "noun phrase"
-    },
-    {
-      "surface": "colours",
-      "normalized": "colours",
-      "definition": "battle flags; regimental standards carried in the field",
-      "pos": "noun"
     },
     {
       "surface": "combin'd",
@@ -1576,8 +1570,8 @@
     {
       "surface": "doubt",
       "normalized": "doubt",
-      "definition": "fear; suspect; dread",
-      "pos": "verb"
+      "definition": "fear, suspect ('I doubt some danger does approach'); be uncertain about; as a noun: uncertainty ('sag with doubt')",
+      "pos": "verb; noun"
     },
     {
       "surface": "drab",
@@ -1792,8 +1786,8 @@
     {
       "surface": "faith",
       "normalized": "faith",
-      "definition": "in faith; indeed (mild oath)",
-      "pos": "interjection"
+      "definition": "loyalty, fidelity ('at no time broke my faith'); as an exclamation, 'Faith!' = indeed, truly (mild oath)",
+      "pos": "noun; interjection"
     },
     {
       "surface": "faith-breach",
@@ -1828,7 +1822,7 @@
     {
       "surface": "favor",
       "normalized": "favor",
-      "definition": "expression; look on one's face",
+      "definition": "face, look, expression ('to alter favour ever is to fear'); indulgence, pardon ('give me your favour')",
       "pos": "noun"
     },
     {
@@ -1846,8 +1840,8 @@
     {
       "surface": "fell",
       "normalized": "fell",
-      "definition": "fierce; savagely cruel",
-      "pos": "adjective"
+      "definition": "past tense of 'fall' ('the victory fell on us'); as an adjective: fierce, savagely cruel ('fell purpose')",
+      "pos": "verb; adjective"
     },
     {
       "surface": "fell of hair",
@@ -2020,7 +2014,7 @@
     {
       "surface": "front",
       "normalized": "front",
-      "definition": "face to face; directly opposing; forehead to forehead",
+      "definition": "forehead, front of the body ('Ay, on the front'); 'front to front': face to face, directly opposing",
       "pos": "noun"
     },
     {
@@ -2350,8 +2344,8 @@
     {
       "surface": "home",
       "normalized": "home",
-      "definition": "fully; all the way; without holding back",
-      "pos": "adverb"
+      "definition": "home, one's house ('to his home before us'); homeward; as an adverb: fully, all the way ('that, trusted home')",
+      "pos": "noun; adverb"
     },
     {
       "surface": "homely",
@@ -2812,8 +2806,8 @@
     {
       "surface": "line",
       "normalized": "line",
-      "definition": "to reinforce; to strengthen (the rebel's cause)",
-      "pos": "verb"
+      "definition": "line of descent, family line ('a line of kings'); as a verb: to strengthen, support ('did line the rebel')",
+      "pos": "noun; verb"
     },
     {
       "surface": "linen cheeks",
@@ -2836,7 +2830,7 @@
     {
       "surface": "lodg'd",
       "normalized": "lodg'd",
-      "definition": "beaten flat; laid down by wind or rain (of crops)",
+      "definition": "lodged, housed, sleeping ('two lodg'd together'); of crops: beaten flat by wind or rain ('bladed corn be lodg'd')",
       "pos": "verb"
     },
     {
@@ -3004,8 +2998,8 @@
     {
       "surface": "meet",
       "normalized": "meet",
-      "definition": "fitting; proper; appropriate",
-      "pos": "adjective"
+      "definition": "to meet, encounter ('when shall we three meet again?'); as an adjective: fitting, proper ('tis most meet you should')",
+      "pos": "verb; adjective"
     },
     {
       "surface": "metaphysical",
@@ -3322,7 +3316,7 @@
     {
       "surface": "old",
       "normalized": "old",
-      "definition": "plenty of; a great deal of (colloquial intensifier)",
+      "definition": "old, aged, former ('our old robes'; 'Old Siward'); in 'should have old turning the key': plenty of, a great deal of",
       "pos": "adjective"
     },
     {
@@ -3340,8 +3334,8 @@
     {
       "surface": "out",
       "normalized": "out",
-      "definition": "in arms; in rebellion; risen against authority",
-      "pos": "adjective"
+      "definition": "out in the ordinary modern senses (extinguished, outward); in 'worthy fellows that were out': up in arms, in rebellion",
+      "pos": "adverb; adjective"
     },
     {
       "surface": "over-credulous",
@@ -3438,12 +3432,6 @@
       "normalized": "parted well",
       "definition": "died well; departed life in a worthy manner",
       "pos": "verb phrase"
-    },
-    {
-      "surface": "passage",
-      "normalized": "passage",
-      "definition": "path cut through the enemy",
-      "pos": "noun"
     },
     {
       "surface": "patch",
@@ -3778,8 +3766,8 @@
     {
       "surface": "push",
       "normalized": "push",
-      "definition": "crisis; decisive effort; critical assault",
-      "pos": "noun"
+      "definition": "to shove, thrust ('push us from our stools'); as a noun: crisis, decisive effort ('this push')",
+      "pos": "verb; noun"
     },
     {
       "surface": "quarrel",
@@ -4012,8 +4000,8 @@
     {
       "surface": "round",
       "normalized": "round",
-      "definition": "crown; the circular royal crown",
-      "pos": "noun"
+      "definition": "around, in a circle ('round about the cauldron'; 'the table round'); 'the golden round': the crown",
+      "pos": "adverb; noun"
     },
     {
       "surface": "rouse",
@@ -4120,7 +4108,7 @@
     {
       "surface": "seat",
       "normalized": "seat",
-      "definition": "situation; position; site",
+      "definition": "seat, chair ('pray you, keep seat'); site, situation ('this castle hath a pleasant seat')",
       "pos": "noun"
     },
     {
@@ -4228,8 +4216,8 @@
     {
       "surface": "shadow",
       "normalized": "shadow",
-      "definition": "conceal; hide from view; screen",
-      "pos": "verb"
+      "definition": "shadow; an unreal image, phantom ('a walking shadow'; 'horrible shadow'); as a verb: to conceal, screen",
+      "pos": "noun; verb"
     },
     {
       "surface": "shag-haar'd",

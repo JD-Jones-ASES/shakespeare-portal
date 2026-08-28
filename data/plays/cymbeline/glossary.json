@@ -411,7 +411,7 @@
     {
       "surface": "attended",
       "normalized": "attended",
-      "definition": "listened to; given ear to; paid heed to",
+      "definition": "accompanied, escorted ('attended by my men'); of the ears: listened to ('so long attended thee')",
       "pos": "verb"
     },
     {
@@ -633,7 +633,7 @@
     {
       "surface": "big",
       "normalized": "big",
-      "definition": "pregnant; great with child",
+      "definition": "large in size ('an arm as big as thine'); in 'big of this gentleman': pregnant with, great with child",
       "pos": "adjective"
     },
     {
@@ -651,7 +651,7 @@
     {
       "surface": "bolt",
       "normalized": "bolt",
-      "definition": "arrow; shot from a crossbow",
+      "definition": "arrow ('a bolt of nothing'); the bolt of a lock ('to pick that bolt'); thunderbolt ('the thunderer, whose bolt')",
       "pos": "noun"
     },
     {
@@ -728,7 +728,7 @@
     {
       "surface": "bravely",
       "normalized": "bravely",
-      "definition": "splendidly; beautifully; finely",
+      "definition": "splendidly, finely ('how bravely thou becomest thy bed'); also valiantly, courageously ('fell bravely and were slain')",
       "pos": "adverb"
     },
     {
@@ -1062,7 +1062,7 @@
     {
       "surface": "colour",
       "normalized": "colour",
-      "definition": "justification; legal right or pretext",
+      "definition": "colour, complexion ('give colour to my pale cheek'); pretext, justification ('against all colour here')",
       "pos": "noun"
     },
     {
@@ -1133,7 +1133,7 @@
     {
       "surface": "companion",
       "normalized": "companion",
-      "definition": "here: a low fellow; rascal (contemptuous)",
+      "definition": "companion, comrade; as an insult: fellow, rascal ('every companion that you give offence to')",
       "pos": "noun"
     },
     {
@@ -1187,7 +1187,7 @@
     {
       "surface": "conduct",
       "normalized": "conduct",
-      "definition": "leadership; command in battle",
+      "definition": "leadership, command ('under the conduct of bold Iachimo'); escort, safe-conduct ('a conduct over-land to Milford-Haven')",
       "pos": "noun"
     },
     {
@@ -1379,7 +1379,7 @@
     {
       "surface": "courtesy",
       "normalized": "courtesy",
-      "definition": "refinement; civilization; the benefits of court life",
+      "definition": "politeness, courteous manner ('dissembling courtesy'); courtly breeding, gentle upbringing ('the courtesy your cradle promised')",
       "pos": "noun"
     },
     {
@@ -1481,7 +1481,7 @@
     {
       "surface": "curious",
       "normalized": "curious",
-      "definition": "anxious; concerned; careful about security",
+      "definition": "cautious, careful ('something curious, being strange'); of workmanship: exquisite, elaborate ('a most curious mantle')",
       "pos": "adjective"
     },
     {
@@ -1500,12 +1500,6 @@
       "surface": "dainty trims",
       "normalized": "dainty trims",
       "definition": "elaborate personal adornments; fine cosmetic arts"
-    },
-    {
-      "surface": "damn'd",
-      "normalized": "damn'd",
-      "definition": "blocked; stopped up; clogged",
-      "pos": "verb"
     },
     {
       "surface": "dearly",
@@ -1570,7 +1564,7 @@
     {
       "surface": "depend",
       "normalized": "depend",
-      "definition": "hang undecided; remain unresolved; be pending",
+      "definition": "rely on, be subject to ('wretches that depend on greatness' favour'); hang undecided, be still pending ('does yet depend')",
       "pos": "verb"
     },
     {
@@ -1654,7 +1648,7 @@
     {
       "surface": "difference",
       "normalized": "difference",
-      "definition": "quarrel; dispute; point of disagreement",
+      "definition": "difference, distinction ('the wide difference'); a quarrel, dispute ('what was the difference?')",
       "pos": "noun"
     },
     {
@@ -1784,7 +1778,7 @@
     {
       "surface": "distinction",
       "normalized": "distinction",
-      "definition": "detailed treatment; full elaboration",
+      "definition": "difference, distinguishing ('doth make distinction'); detailed setting-out, full elaboration ('distinction should be rich in')",
       "pos": "noun"
     },
     {
@@ -1796,8 +1790,8 @@
     {
       "surface": "divine",
       "normalized": "divine",
-      "definition": "interpret; discern by inspired insight; prophesy",
-      "pos": "verb"
+      "definition": "heavenly, godlike ('thou divine Imogen'); as a verb: to interpret, guess out ('which mulier I divine')",
+      "pos": "adjective; verb"
     },
     {
       "surface": "dolours",
@@ -1932,8 +1926,8 @@
     {
       "surface": "elder",
       "normalized": "elder",
-      "definition": "elder tree (associated with grief and decay)",
-      "pos": "noun"
+      "definition": "older ('no elder than a boy'); the elder tree, emblem of grief ('the stinking elder, grief')",
+      "pos": "noun; adjective"
     },
     {
       "surface": "elected deer",
@@ -2111,7 +2105,7 @@
     {
       "surface": "favour",
       "normalized": "favour",
-      "definition": "face; look; appearance",
+      "definition": "goodwill, kindly regard ('his favour with the radiant Cymbeline'); face, features, appearance ('his favour is familiar to me')",
       "pos": "noun"
     },
     {
@@ -2135,8 +2129,8 @@
     {
       "surface": "fell",
       "normalized": "fell",
-      "definition": "fierce; cruel; savage",
-      "pos": "adjective"
+      "definition": "past tense of 'fall' ('mine enemy fell'; 'fell out last night'); as an adjective: fierce, cruel ('he is so fell')",
+      "pos": "verb; adjective"
     },
     {
       "surface": "feodary",
@@ -2165,7 +2159,7 @@
     {
       "surface": "fine",
       "normalized": "fine",
-      "definition": "clever; cunningly skilled (ironic sense)",
+      "definition": "splendid, finely dressed ('makes 'em fine'); crafty, subtly skilful ('how fine this tyrant')",
       "pos": "adjective"
     },
     {
@@ -2206,8 +2200,8 @@
     {
       "surface": "foot",
       "normalized": "foot",
-      "definition": "seize in talons; strike with claws (falconry)",
-      "pos": "verb"
+      "definition": "the foot ('from head to foot'); as a verb: to kick ('foot her home again'); of a hawk: to seize in the talons ('stoop'd as to foot us')",
+      "pos": "noun; verb"
     },
     {
       "surface": "for all",
@@ -2457,7 +2451,7 @@
     {
       "surface": "gentle",
       "normalized": "gentle",
-      "definition": "well-born; of good family; noble",
+      "definition": "well-born, noble ('he said he was gentle, but unfortunate'); also the ordinary sense: mild, kind ('as gentle as zephyrs')",
       "pos": "adjective"
     },
     {
@@ -2564,7 +2558,7 @@
     {
       "surface": "ground",
       "normalized": "ground",
-      "definition": "territory yielded; advantage given up; also punning on the field",
+      "definition": "the earth ('made the ground my bed'); basis, reason ('on good ground we fear'); ground given up in a fight ('gave you some ground')",
       "pos": "noun"
     },
     {
@@ -3109,8 +3103,8 @@
     {
       "surface": "knowing",
       "normalized": "knowing",
-      "definition": "sophistication; acquaintance with the world; social rank",
-      "pos": "noun"
+      "definition": "knowing, being aware ('not knowing why'); as a noun: knowledge, experience of the world ('one of your great knowing')",
+      "pos": "verb; noun"
     },
     {
       "surface": "label",
@@ -3175,8 +3169,8 @@
     {
       "surface": "lay",
       "normalized": "lay",
-      "definition": "wager; bet; stake",
-      "pos": "noun"
+      "definition": "to lay, place, put down ('where shall's lay him'); to stake, bet ('I will lay you ten thousand ducats'); as a noun: a wager",
+      "pos": "verb; noun"
     },
     {
       "surface": "laying out pains",
@@ -3361,8 +3355,8 @@
     {
       "surface": "mean",
       "normalized": "mean",
-      "definition": "lowly; of low rank; humble",
-      "pos": "adjective"
+      "definition": "to mean, intend ('I mean, that married her'); as an adjective: lowly, of low rank ('how mean soe'er')",
+      "pos": "verb; adjective"
     },
     {
       "surface": "mean affairs",
@@ -3534,7 +3528,7 @@
     {
       "surface": "motion",
       "normalized": "motion",
-      "definition": "impulse; tendency; inclination",
+      "definition": "movement, motion ('motion and breath left out'); inward impulse, prompting ('there's no motion that tends to vice')",
       "pos": "noun"
     },
     {
@@ -3647,8 +3641,8 @@
     {
       "surface": "note",
       "normalized": "note",
-      "definition": "reputation; good name; distinction",
-      "pos": "noun"
+      "definition": "to observe, mark ('to note the chamber'); reputation, distinction ('of the noblest note'); a list ('who has the note of them'); a tune",
+      "pos": "noun; verb"
     },
     {
       "surface": "nought",
@@ -3929,8 +3923,8 @@
     {
       "surface": "pen",
       "normalized": "pen",
-      "definition": "shut up; confine; enclose like an animal",
-      "pos": "verb"
+      "definition": "to shut up, confine ('pen her up'); the ordinary noun: a writing pen ('your neck, sir, is pen, book and counters')",
+      "pos": "verb; noun"
     },
     {
       "surface": "penetrate",
@@ -3953,7 +3947,7 @@
     {
       "surface": "perfect",
       "normalized": "perfect",
-      "definition": "certain; fully informed; sure",
+      "definition": "perfect, flawless ('thy most perfect goodness'); certain, fully informed ('I am perfect what')",
       "pos": "adjective"
     },
     {
@@ -4118,7 +4112,7 @@
     {
       "surface": "prefer",
       "normalized": "prefer",
-      "definition": "recommend; advance; promote",
+      "definition": "rank above others, prefer ('not so far prefer her 'fore ours of Italy'); recommend, promote ('prefer you to his daughter')",
       "pos": "verb"
     },
     {
@@ -4225,7 +4219,7 @@
     {
       "surface": "proper",
       "normalized": "proper",
-      "definition": "honest; decent; of good standing",
+      "definition": "own ('with my proper hand' = my own hand); handsome, worthy, respectable ('all proper men')",
       "pos": "adjective"
     },
     {
@@ -4332,8 +4326,8 @@
     {
       "surface": "rank",
       "normalized": "rank",
-      "definition": "coarse; lustful; grossly indecent",
-      "pos": "adjective"
+      "definition": "social rank, degree ('one of my rank'); as an adjective: gross, lustful ('lust and rank thoughts')",
+      "pos": "noun; adjective"
     },
     {
       "surface": "raps",
@@ -4446,8 +4440,8 @@
     {
       "surface": "remain",
       "normalized": "remain",
-      "definition": "remainder; what is left",
-      "pos": "noun"
+      "definition": "to remain, stay ('I will remain'); as a noun: the remainder, what is left ('all the remain is Welcome!')",
+      "pos": "verb; noun"
     },
     {
       "surface": "remainders",
@@ -4464,8 +4458,8 @@
     {
       "surface": "render",
       "normalized": "render",
-      "definition": "account; submission; what one gives up or owes",
-      "pos": "noun"
+      "definition": "to give, deliver, report ('render to me some corporal sign'); as a noun: an account, surrender ('a stricter render of me')",
+      "pos": "verb; noun"
     },
     {
       "surface": "renowned",
@@ -4482,7 +4476,7 @@
     {
       "surface": "report",
       "normalized": "report",
-      "definition": "reputation; what is reported of one",
+      "definition": "an account, rumour, what is told ('a false report'); reputation, good name ('sell me your good report')",
       "pos": "noun"
     },
     {
@@ -4809,8 +4803,8 @@
     {
       "surface": "shot",
       "normalized": "shot",
-      "definition": "bill; reckoning; tavern tab",
-      "pos": "noun"
+      "definition": "shooting, a volley ('the hourly shot of angry eyes'); past tense of shoot; the bill, reckoning ('the dish pays the shot')",
+      "pos": "noun; verb"
     },
     {
       "surface": "shouldst",
@@ -4934,8 +4928,8 @@
     {
       "surface": "soft",
       "normalized": "soft",
-      "definition": "hold on; wait a moment",
-      "pos": "interjection"
+      "definition": "as an exclamation: wait a moment, hold on ('but, soft! no bedfellow!'); otherwise the ordinary sense: soft ('soft beds')",
+      "pos": "interjection; adjective"
     },
     {
       "surface": "sojourn",
@@ -5030,8 +5024,8 @@
     {
       "surface": "speed",
       "normalized": "speed",
-      "definition": "fare; prosper; get on",
-      "pos": "verb"
+      "definition": "to fare, prosper ('you shall speed in your journey's end'); as a noun: haste, success ('this fool's speed')",
+      "pos": "verb; noun"
     },
     {
       "surface": "spite",
@@ -5054,7 +5048,7 @@
     {
       "surface": "spring",
       "normalized": "spring",
-      "definition": "a catch or latch on a trunk or box",
+      "definition": "springtime, early youth ('in's spring became a harvest'); the catch or latch of a chest ('shut the spring of it')",
       "pos": "noun"
     },
     {
@@ -5120,8 +5114,8 @@
     {
       "surface": "stand",
       "normalized": "stand",
-      "definition": "stand ground and fight; not flee; hold one's position",
-      "pos": "verb"
+      "definition": "to stand, remain firm; halt!, stop!; to withstand, face ('would not stand me'); a hunter's post ('ta'en thy stand')",
+      "pos": "verb; noun"
     },
     {
       "surface": "stand o' the stealer",
@@ -5232,8 +5226,8 @@
     {
       "surface": "story",
       "normalized": "story",
-      "definition": "tell the story of; give an account of",
-      "pos": "verb"
+      "definition": "a story, tale (the ordinary sense); as a verb: to tell the story of, recount ('story him in his own hearing')",
+      "pos": "noun; verb"
     },
     {
       "surface": "stowage",
@@ -5244,8 +5238,8 @@
     {
       "surface": "straight",
       "normalized": "straight",
-      "definition": "immediately; straightway; at once",
-      "pos": "adverb"
+      "definition": "narrow ('a straight lane', 'the straight pass' = strait); straight, not crooked; as an adverb: at once, straightway",
+      "pos": "adverb; adjective"
     },
     {
       "surface": "straight-pight",
@@ -5314,7 +5308,7 @@
     {
       "surface": "suffer",
       "normalized": "suffer",
-      "definition": "allow; permit; let",
+      "definition": "to allow, permit ('he would not suffer me'); to endure, bear pain ('a Roman with a Roman's heart can suffer')",
       "pos": "verb"
     },
     {
@@ -5332,14 +5326,14 @@
     {
       "surface": "suit",
       "normalized": "suit",
-      "definition": "petition; formal plea; request",
-      "pos": "noun"
+      "definition": "a suit of clothes ('fetch that suit'); as a verb: to dress oneself ('suit myself'); a petition, plea ('have made suit')",
+      "pos": "noun; verb"
     },
     {
       "surface": "suits",
       "normalized": "suits",
-      "definition": "courtship; proposals; formal petitions",
-      "pos": "noun"
+      "definition": "befits, is fitting for ('as suits, with gentlemen of your knowing'); as a noun: courtships, petitions ('the suits of princely fellows')",
+      "pos": "verb; noun"
     },
     {
       "surface": "sulphurous",
@@ -5470,7 +5464,7 @@
     {
       "surface": "temple",
       "normalized": "temple",
-      "definition": "the body regarded as a holy dwelling-place",
+      "definition": "a temple, place of worship ('the temple of great Jupiter'); figuratively, the body or mind as a holy place ('that temple, thy fair mind')",
       "pos": "noun"
     },
     {
@@ -5547,8 +5541,8 @@
     {
       "surface": "thick",
       "normalized": "thick",
-      "definition": "fast; rapidly; in quick succession",
-      "pos": "adverb"
+      "definition": "thick, dense, crowded ('confusion thick'); as an adverb: fast, in quick succession ('speak thick')",
+      "pos": "adjective; adverb"
     },
     {
       "surface": "thine",
@@ -5655,8 +5649,8 @@
     {
       "surface": "tongue",
       "normalized": "tongue",
-      "definition": "utter; speak (here: 'tongue and brain not' = cannot articulate)",
-      "pos": "verb"
+      "definition": "the tongue; speech, language (the ordinary senses); as a verb: to speak, utter ('tongue and brain not')",
+      "pos": "noun; verb"
     },
     {
       "surface": "toys",
@@ -5970,7 +5964,7 @@
     {
       "surface": "virtues",
       "normalized": "virtues",
-      "definition": "powers; properties; medicinal qualities",
+      "definition": "moral virtues, good qualities; of plants and drugs: powers, medicinal properties ('their several virtues and effects')",
       "pos": "noun"
     },
     {
@@ -6071,7 +6065,7 @@
     {
       "surface": "weeds",
       "normalized": "weeds",
-      "definition": "garments; clothing",
+      "definition": "garments, clothing ('these Italian weeds'); also the ordinary sense: wild plants ('wild wood-leaves and weeds')",
       "pos": "noun"
     },
     {

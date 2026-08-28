@@ -178,7 +178,7 @@
     {
       "surface": "aim",
       "normalized": "aim",
-      "definition": "a guess; an idea; a sense of what is meant",
+      "definition": "a guess, an inkling ('I have some aim'); the line of aim, the target itself ('even in the aim and very flash of it')",
       "pos": "noun"
     },
     {
@@ -238,7 +238,7 @@
     {
       "surface": "angel",
       "normalized": "angel",
-      "definition": "most beloved one; dearest companion",
+      "definition": "an angel, a spirit ('some god, some angel, or some devil'); dearest one, favourite ('Caesar's angel')",
       "pos": "noun"
     },
     {
@@ -274,7 +274,7 @@
     {
       "surface": "answer'd",
       "normalized": "answer'd",
-      "definition": "paid for; been punished for",
+      "definition": "replied, gave answer ('yet you answer'd not'); paid the penalty for ('grievously hath Caesar answer'd it')",
       "pos": "verb"
     },
     {
@@ -652,8 +652,8 @@
     {
       "surface": "bend",
       "normalized": "bend",
-      "definition": "kneel; bow down in supplication",
-      "pos": "noun"
+      "definition": "to bow, kneel in supplication ('if thou dost bend, and pray'); as a noun, the glance of the eye ('whose bend doth awe the world')",
+      "pos": "verb; noun"
     },
     {
       "surface": "bequeathing",
@@ -1120,8 +1120,8 @@
     {
       "surface": "close",
       "normalized": "close",
-      "definition": "hidden; concealed; out of sight",
-      "pos": "adjective"
+      "definition": "hidden, out of sight ('stand close awhile'); near together ('sit we close about this taper'); as a verb, to come to agreement",
+      "pos": "adjective; verb"
     },
     {
       "surface": "closet",
@@ -1174,7 +1174,7 @@
     {
       "surface": "color",
       "normalized": "color",
-      "definition": "justification; plausible excuse",
+      "definition": "color, complexion ('his coward lips did from their color fly'); a pretext, plausible excuse ('bear no color for the thing he is')",
       "pos": "noun"
     },
     {
@@ -1366,7 +1366,7 @@
     {
       "surface": "content",
       "normalized": "content",
-      "definition": "calm; restrain yourself",
+      "definition": "satisfied, willing ('they could be content'); in 'be content': calm yourself, be patient",
       "pos": "adjective"
     },
     {
@@ -1444,7 +1444,7 @@
     {
       "surface": "course",
       "normalized": "course",
-      "definition": "a ritual race run at the Lupercal festival",
+      "definition": "a course of action, a way to go ('take thou what course thou wilt'); the Lupercal foot-race ('when he doth run his course')",
       "pos": "noun"
     },
     {
@@ -1474,8 +1474,8 @@
     {
       "surface": "credit",
       "normalized": "credit",
-      "definition": "believe; give credence to",
-      "pos": "noun"
+      "definition": "reputation, standing ('my credit now stands on slippery ground'); as a verb, to believe ('partly credit things that do presage')",
+      "pos": "noun; verb"
     },
     {
       "surface": "crimson'd",
@@ -1636,7 +1636,7 @@
     {
       "surface": "directly",
       "normalized": "directly",
-      "definition": "plainly; straightforwardly",
+      "definition": "straight, exactly ('stands, as the Capitol, directly here'); plainly, without evasion ('answer me directly')",
       "pos": "adverb"
     },
     {
@@ -2032,7 +2032,7 @@
     {
       "surface": "false",
       "normalized": "false",
-      "definition": "out of tune; not in proper pitch",
+      "definition": "untrue, lying ('cannot, is false'); of a musical instrument, out of tune ('the strings, my lord, are false')",
       "pos": "adjective"
     },
     {
@@ -2130,12 +2130,6 @@
       "normalized": "fearfulness",
       "definition": "a state of being afraid; timidity",
       "pos": "noun"
-    },
-    {
-      "surface": "fell",
-      "normalized": "fell",
-      "definition": "fierce; savage; cruel",
-      "pos": "adjective"
     },
     {
       "surface": "fell a-shouting",
@@ -2392,7 +2386,7 @@
     {
       "surface": "gentle",
       "normalized": "gentle",
-      "definition": "noble; of good birth and breeding",
+      "definition": "noble, well-born; in address, courteous, kind ('gentle Brutus'); mild, not harsh ('meek and gentle with these butchers')",
       "pos": "adjective"
     },
     {
@@ -2470,8 +2464,8 @@
     {
       "surface": "go to",
       "normalized": "go to",
-      "definition": "come now; an expression of impatience",
-      "pos": "interjection"
+      "definition": "the ordinary 'go to' (a place); alone as an exclamation: come now!, enough! ('Go to; you are not, Cassius')",
+      "pos": "interjection; phrase"
     },
     {
       "surface": "goes up",
@@ -2728,7 +2722,7 @@
     {
       "surface": "ho",
       "normalized": "ho",
-      "definition": "halt; stop (a military command)",
+      "definition": "a call for attention: hey!, hello there! ('Peace, ho!'; 'What, Lucius, ho!'; 'Help, ho!')",
       "pos": "interjection"
     },
     {
@@ -2770,8 +2764,8 @@
     {
       "surface": "humor",
       "normalized": "humor",
-      "definition": "mood; whim; passing inclination",
-      "pos": "verb"
+      "definition": "mood, whim, disposition ('for thy humor, I will stay at home'); as a verb, to work on, cajole ('he should not humor me')",
+      "pos": "noun; verb"
     },
     {
       "surface": "humour",
@@ -3028,7 +3022,7 @@
     {
       "surface": "issue",
       "normalized": "issue",
-      "definition": "outcome; result; consequence",
+      "definition": "outcome, result ('the cruel issue of these bloody men'); children, offspring ('bequeathing it unto their issue')",
       "pos": "noun"
     },
     {
@@ -3406,8 +3400,8 @@
     {
       "surface": "meet",
       "normalized": "meet",
-      "definition": "fitting; proper; appropriate",
-      "pos": "adjective"
+      "definition": "to meet, come together; as an adjective, fitting, proper ('it is not meet you know how Caesar loved you')",
+      "pos": "verb; adjective"
     },
     {
       "surface": "melting",
@@ -3844,7 +3838,7 @@
     {
       "surface": "order",
       "normalized": "order",
-      "definition": "formal ceremony; proper rites",
+      "definition": "the ceremony, the way a thing is conducted ('the order of the course'); a decree, official command ('that order of proscription')",
       "pos": "noun"
     },
     {
@@ -3862,8 +3856,8 @@
     {
       "surface": "out",
       "normalized": "out",
-      "definition": "worn out (of shoes); also angry",
-      "pos": "adjective"
+      "definition": "the ordinary 'out'; in the cobbler's joke, 'if you be out' = out at heel (worn shoes) and also out of temper",
+      "pos": "adverb; adjective"
     },
     {
       "surface": "over-earnest",
@@ -4090,7 +4084,7 @@
     {
       "surface": "powers",
       "normalized": "powers",
-      "definition": "troops; armed forces; military strength",
+      "definition": "supernatural or ruling powers ('the providence of some high powers'); elsewhere, troops, armed forces ('levying powers')",
       "pos": "noun"
     },
     {
@@ -4168,8 +4162,8 @@
     {
       "surface": "press",
       "normalized": "press",
-      "definition": "a crowd; a throng of people",
-      "pos": "noun"
+      "definition": "to push forward, crowd in ('press near and second him'); as a noun, a crowd ('who is it in the press that calls on me?')",
+      "pos": "verb; noun"
     },
     {
       "surface": "presume too much upon my love",
@@ -4270,7 +4264,7 @@
     {
       "surface": "proper",
       "normalized": "proper",
-      "definition": "own; one's very own",
+      "definition": "one's own ('our own proper entrails'); of a man, handsome, fine ('as proper men as ever trod')",
       "pos": "adjective"
     },
     {
@@ -4360,8 +4354,8 @@
     {
       "surface": "push",
       "normalized": "push",
-      "definition": "sudden thrust or attack; vigorous assault",
-      "pos": "noun"
+      "definition": "a thrust, an assault ('sudden push gives them the overthrow'); as a verb, to drive or thrust at ('till they push us')",
+      "pos": "noun; verb"
     },
     {
       "surface": "put it by",
@@ -4714,7 +4708,7 @@
     {
       "surface": "rule",
       "normalized": "rule",
-      "definition": "a measuring stick used by a carpenter",
+      "definition": "a carpenter's measuring stick ('thy leather apron and thy rule'); a principle, precept ('the rule of that philosophy')",
       "pos": "noun"
     },
     {
@@ -4732,7 +4726,7 @@
     {
       "surface": "sad",
       "normalized": "sad",
-      "definition": "serious; grave; solemn (not weeping)",
+      "definition": "sorrowful, heavy-hearted ('that visit my sad heart'); also serious, grave in look ('Caesar looks so sad')",
       "pos": "adjective"
     },
     {
@@ -4984,7 +4978,7 @@
     {
       "surface": "softly",
       "normalized": "softly",
-      "definition": "slowly; cautiously",
+      "definition": "quietly, in a low voice ('speak your griefs softly'); slowly, without haste ('lead your battle softly on')",
       "pos": "adverb"
     },
     {
@@ -5056,7 +5050,7 @@
     {
       "surface": "spirit",
       "normalized": "spirit",
-      "definition": "will; mind; controlling intelligence",
+      "definition": "the soul or ghost of a dead person ('Caesar's spirit, ranging for revenge'); the mind, will, or vital force in a living person",
       "pos": "noun"
     },
     {
@@ -5134,7 +5128,7 @@
     {
       "surface": "stay",
       "normalized": "stay",
-      "definition": "wait for; await",
+      "definition": "to remain ('stay at home to-day'); to wait, linger ('why dost thou stay?'); to stop or check ('stay the providence')",
       "pos": "verb"
     },
     {
@@ -5158,8 +5152,8 @@
     {
       "surface": "steel",
       "normalized": "steel",
-      "definition": "strengthen; harden with resolve",
-      "pos": "verb"
+      "definition": "steel, a blade or weapon ('piercing steel and darts envenomed'); as a verb, to harden, strengthen ('steel with valour')",
+      "pos": "noun; verb"
     },
     {
       "surface": "stemming",
@@ -5182,8 +5176,8 @@
     {
       "surface": "still",
       "normalized": "still",
-      "definition": "always; continually",
-      "pos": "adverb"
+      "definition": "motionless, silent ('bid every noise be still'; 'Caesar, now be still'); always, continually ('still, as he refused it')",
+      "pos": "adjective; adverb"
     },
     {
       "surface": "stir",
@@ -5248,7 +5242,7 @@
     {
       "surface": "strange",
       "normalized": "strange",
-      "definition": "distant; cold; aloof (toward a friend)",
+      "definition": "unusual, extraordinary ('strange sights'; 'these strange eruptions'); of a friend, distant, cold ('too strange a hand')",
       "pos": "adjective"
     },
     {
@@ -5278,7 +5272,7 @@
     {
       "surface": "sudden",
       "normalized": "sudden",
-      "definition": "quick; act immediately without hesitation",
+      "definition": "sudden, happening all at once ('a sudden flood of mutiny'); of a person, quick to act ('Casca, be sudden')",
       "pos": "adjective"
     },
     {
@@ -5500,7 +5494,7 @@
     {
       "surface": "thick",
       "normalized": "thick",
-      "definition": "dim; weak (of eyesight)",
+      "definition": "thickly clustered, numerous ('where you perceive them thick'); of eyesight, dim, weak ('my sight was ever thick')",
       "pos": "adjective"
     },
     {
@@ -5920,7 +5914,7 @@
     {
       "surface": "voice",
       "normalized": "voice",
-      "definition": "vote; expressed opinion",
+      "definition": "the voice one speaks with ('Casca, by your voice'); a vote, say in a decision ('your voice shall be as strong as any man's')",
       "pos": "noun"
     },
     {
@@ -6034,8 +6028,8 @@
     {
       "surface": "will",
       "normalized": "will",
-      "definition": "willing wish; desire",
-      "pos": "noun"
+      "definition": "usually the ordinary verb 'will'; as a noun, desire, wish; also a written testament ('Caesar's will')",
+      "pos": "verb; noun"
     },
     {
       "surface": "willing bondman",
@@ -6046,8 +6040,8 @@
     {
       "surface": "wind",
       "normalized": "wind",
-      "definition": "turn; wheel (a horse)",
-      "pos": "verb"
+      "definition": "the wind that blows ('the wind brings it from the Capitol'); as a verb, to turn or wheel a horse ('to wind, to stop')",
+      "pos": "noun; verb"
     },
     {
       "surface": "wit",

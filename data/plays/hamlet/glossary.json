@@ -76,7 +76,7 @@
     {
       "surface": "addition",
       "normalized": "addition",
-      "definition": "title; honorific; form of address",
+      "definition": "title, form of address ('soil our addition'); in 'with no addition': exaggeration, embellishment",
       "pos": "noun"
     },
     {
@@ -232,7 +232,7 @@
     {
       "surface": "argument",
       "normalized": "argument",
-      "definition": "plot; subject matter of a play",
+      "definition": "plot, subject matter of a play ('the argument of the play'); reason, cause ('without great argument')",
       "pos": "noun"
     },
     {
@@ -292,7 +292,7 @@
     {
       "surface": "assurance",
       "normalized": "assurance",
-      "definition": "legal guarantee of title to property (not emotional reassurance)",
+      "definition": "guarantee, proof ('give the world assurance of a man'); legal security of title to land ('seek out assurance')",
       "pos": "noun"
     },
     {
@@ -418,8 +418,8 @@
     {
       "surface": "bent",
       "normalized": "bent",
-      "definition": "full capacity; utmost degree; stretched to the limit",
-      "pos": "noun"
+      "definition": "full capacity, utmost stretch ('the top of my bent'); as a participle: directed, made ready ('everything is bent')",
+      "pos": "noun; adjective"
     },
     {
       "surface": "berattle",
@@ -502,8 +502,8 @@
     {
       "surface": "blank",
       "normalized": "blank",
-      "definition": "white centre of a target; point aimed at",
-      "pos": "noun"
+      "definition": "the white centre of a target ('as level as the cannon to his blank'); in 'blank verse': unrhymed verse",
+      "pos": "noun; adjective"
     },
     {
       "surface": "blast in proof",
@@ -760,8 +760,8 @@
     {
       "surface": "cast",
       "normalized": "cast",
-      "definition": "tinge; shade; coloring",
-      "pos": "noun"
+      "definition": "verb: throw, throw off ('cast thy nighted colour off'); founding of metal ('cast of brazen cannon'); noun: tinge, shade",
+      "pos": "verb; noun"
     },
     {
       "surface": "casual",
@@ -838,8 +838,8 @@
     {
       "surface": "character",
       "normalized": "character",
-      "definition": "here a verb: to write, engrave, or inscribe",
-      "pos": "verb"
+      "definition": "as a verb: write, inscribe ('look thou character'); as a noun: handwriting (\"'Tis Hamlet's character\")",
+      "pos": "verb; noun"
     },
     {
       "surface": "charge",
@@ -928,8 +928,8 @@
     {
       "surface": "close",
       "normalized": "close",
-      "definition": "secret; kept hidden",
-      "pos": "adjective"
+      "definition": "secret, hidden ('being kept close'); also the ordinary sense: near, closely ('follow her close')",
+      "pos": "adjective; adverb"
     },
     {
       "surface": "closely",
@@ -964,7 +964,7 @@
     {
       "surface": "cock",
       "normalized": "cock",
-      "definition": "corruption of 'God' in oaths; also sexual double meaning",
+      "definition": "the bird, a rooster ('the cock crew'); in the oath 'by cock': a corruption of 'God'",
       "pos": "noun"
     },
     {
@@ -976,8 +976,8 @@
     {
       "surface": "colour",
       "normalized": "colour",
-      "definition": "give a plausible disguise to — not a hue or tint",
-      "pos": "verb"
+      "definition": "hue, complexion (\"turn'd his colour\"); mourning black ('thy nighted colour'); as a verb: to disguise, give a pretext for",
+      "pos": "noun; verb"
     },
     {
       "surface": "columbines",
@@ -1144,7 +1144,7 @@
     {
       "surface": "counsel",
       "normalized": "counsel",
-      "definition": "secret; confidential information; plans",
+      "definition": "advice ('I thank you for your good counsel'); a secret, confidence ('the players cannot keep counsel')",
       "pos": "noun"
     },
     {
@@ -1270,7 +1270,7 @@
     {
       "surface": "dearest",
       "normalized": "dearest",
-      "definition": "direst; most intense (of enemies, not loved ones)",
+      "definition": "most loving ('that which dearest father bears his son'); of an enemy: bitterest, most intense ('my dearest foe')",
       "pos": "adjective"
     },
     {
@@ -1426,7 +1426,7 @@
     {
       "surface": "doubt",
       "normalized": "doubt",
-      "definition": "suspect; fear (not merely 'be uncertain')",
+      "definition": "the ordinary sense: question, be uncertain of; also suspect, fear ('I doubt some foul play')",
       "pos": "verb"
     },
     {
@@ -1528,7 +1528,7 @@
     {
       "surface": "effects",
       "normalized": "effects",
-      "definition": "possessions, material goods — not consequences or results",
+      "definition": "things gained, possessions ('those effects for which I did the murder'); deeds, intended actions ('my stern effects')",
       "pos": "noun"
     },
     {
@@ -1678,8 +1678,8 @@
     {
       "surface": "fair",
       "normalized": "fair",
-      "definition": "clearly; in a clear hand; legibly (of writing)",
-      "pos": "adverb"
+      "definition": "beautiful ('the fair Ophelia'); just, honourable ('a fair reply'); of handwriting: in a clear hand ('wrote it fair')",
+      "pos": "adjective; adverb"
     },
     {
       "surface": "faith",
@@ -1708,13 +1708,13 @@
     {
       "surface": "fast",
       "normalized": "fast",
-      "definition": "fasting, going without food — not 'quick' or 'rapid'",
-      "pos": "noun"
+      "definition": "the ordinary sense: quickly (\"work i' the earth so fast\"); fasting, going without food ('then into a fast')",
+      "pos": "adverb; noun; verb"
     },
     {
       "surface": "favour",
       "normalized": "favour",
-      "definition": "face; appearance; looks",
+      "definition": "goodwill, kind permission ('your leave and favour'); face, looks ('to this favour she must come')",
       "pos": "noun"
     },
     {
@@ -1726,7 +1726,7 @@
     {
       "surface": "fee",
       "normalized": "fee",
-      "definition": "absolute freehold ownership",
+      "definition": "payment ('three thousand crowns in annual fee'); value (\"a pin's fee\"); 'in fee': in outright ownership",
       "pos": "noun"
     },
     {
@@ -1744,8 +1744,8 @@
     {
       "surface": "fell",
       "normalized": "fell",
-      "definition": "fierce; cruel; deadly",
-      "pos": "adjective"
+      "definition": "past tense of 'fall' ('the mightiest Julius fell'); as an adjective: fierce, cruel, deadly ('his fell sword')",
+      "pos": "verb; adjective"
     },
     {
       "surface": "fellies",
@@ -1774,7 +1774,7 @@
     {
       "surface": "figure",
       "normalized": "figure",
-      "definition": "rhetorical figure; turn of speech",
+      "definition": "shape, form, apparition ('a figure like your father'); a figure of speech ('a foolish figure')",
       "pos": "noun"
     },
     {
@@ -1900,7 +1900,7 @@
     {
       "surface": "free",
       "normalized": "free",
-      "definition": "innocent, guiltless — not necessarily 'at liberty'",
+      "definition": "the ordinary sense: at liberty; also innocent, guiltless ('appal the free'); generous, willing ('free and bounteous')",
       "pos": "adjective"
     },
     {
@@ -1912,7 +1912,7 @@
     {
       "surface": "fruit",
       "normalized": "fruit",
-      "definition": "dessert course; last course of a feast",
+      "definition": "the ordinary sense: fruit ('like fruit unripe'); the dessert course of a feast ('the fruit to that great feast')",
       "pos": "noun"
     },
     {
@@ -2002,7 +2002,7 @@
     {
       "surface": "go to",
       "normalized": "go to",
-      "definition": "expression of impatience or dismissal; 'come on'",
+      "definition": "usually literal: go ('go to bed'); as an exclamation: come now, enough of that ('go to, go to')",
       "pos": "phrase"
     },
     {
@@ -2638,8 +2638,8 @@
     {
       "surface": "list",
       "normalized": "list",
-      "definition": "listen; pay heed",
-      "pos": "verb"
+      "definition": "listen ('List, list, O, list!'); a roll, catalogue ('a list of lawless resolutes'); a boundary ('overpeering of his list')",
+      "pos": "verb; noun"
     },
     {
       "surface": "livery",
@@ -2686,7 +2686,7 @@
     {
       "surface": "make you",
       "normalized": "make you",
-      "definition": "what brings you; what are you doing",
+      "definition": "in 'what make you from Wittenberg?': what are you doing there; elsewhere ordinary: make ('make you ready')",
       "pos": "phrase"
     },
     {
@@ -2962,7 +2962,7 @@
     {
       "surface": "numbers",
       "normalized": "numbers",
-      "definition": "metrical verse; lines of poetry",
+      "definition": "verses, lines of poetry ('ill at these numbers'); numbers of men ('whereon the numbers cannot try the cause')",
       "pos": "noun"
     },
     {
@@ -3076,7 +3076,7 @@
     {
       "surface": "organ",
       "normalized": "organ",
-      "definition": "instrument, means, agent — not a body part or musical instrument",
+      "definition": "instrument, means, agent ('that I might be the organ'); a musical pipe ('this little organ')",
       "pos": "noun"
     },
     {
@@ -3142,8 +3142,8 @@
     {
       "surface": "pass",
       "normalized": "pass",
-      "definition": "thrust; sword-stroke; lunge in fencing",
-      "pos": "noun"
+      "definition": "a fencing thrust ('the pass and fell incensed points'); passage, leave to go ('give quiet pass'); as a verb: the ordinary sense",
+      "pos": "noun; verb"
     },
     {
       "surface": "pass of practice",
@@ -3220,8 +3220,8 @@
     {
       "surface": "picked",
       "normalized": "picked",
-      "definition": "refined; fastidiously precise; over-cultivated",
-      "pos": "adjective"
+      "definition": "chosen, selected ('picked out of ten thousand'); refined, over-fastidious ('the age is grown so picked')",
+      "pos": "adjective; verb"
     },
     {
       "surface": "pigeon-liver'd",
@@ -3250,8 +3250,8 @@
     {
       "surface": "play",
       "normalized": "play",
-      "definition": "fence; fight in a practice bout",
-      "pos": "verb"
+      "definition": "a drama, and to act or perform ('an excellent play'); to fence (\"I'll play this bout\"); in 'foul play': wrongdoing",
+      "pos": "noun; verb"
     },
     {
       "surface": "plot",
@@ -3316,7 +3316,7 @@
     {
       "surface": "practice",
       "normalized": "practice",
-      "definition": "treacherous plot; deceitful scheme (not 'rehearsal')",
+      "definition": "treacherous plot, trickery ('the foul practice'); the ordinary sense: training, exercise ('continual practice')",
       "pos": "noun"
     },
     {
@@ -3340,7 +3340,7 @@
     {
       "surface": "pregnant",
       "normalized": "pregnant",
-      "definition": "full of meaning, apt, quick-witted — not necessarily with child",
+      "definition": "full of meaning, apt ('how pregnant sometimes his replies are'); ready, quick to bend ('the pregnant hinges of the knee')",
       "pos": "adjective"
     },
     {
@@ -3418,13 +3418,13 @@
     {
       "surface": "proof",
       "normalized": "proof",
-      "definition": "impenetrable; tested armor; resistant to weapons",
-      "pos": "noun/adjective"
+      "definition": "the ordinary sense: evidence, experience ('the time gives it proof'); impenetrable armour (\"forg'd for proof eterne\")",
+      "pos": "noun; adjective"
     },
     {
       "surface": "proper",
       "normalized": "proper",
-      "definition": "one's own ('my proper life') — not merely 'correct' or 'appropriate'",
+      "definition": "one's own ('my proper life'); natural or characteristic to ('as proper to our age')",
       "pos": "adjective"
     },
     {
@@ -3436,7 +3436,7 @@
     {
       "surface": "providence",
       "normalized": "providence",
-      "definition": "foresight; prudent management",
+      "definition": "foresight, prudent management ('whose providence'); divine care ('a special providence in the fall of a sparrow')",
       "pos": "noun"
     },
     {
@@ -3472,7 +3472,7 @@
     {
       "surface": "quality",
       "normalized": "quality",
-      "definition": "acting profession; the craft of being a player",
+      "definition": "nature, character ('so airy and light a quality'); skill, and the acting profession ('pursue the quality')",
       "pos": "noun"
     },
     {
@@ -3490,8 +3490,8 @@
     {
       "surface": "quick",
       "normalized": "quick",
-      "definition": "the living (opposite of the dead)",
-      "pos": "noun/adjective"
+      "definition": "the ordinary sense: swift ('his quick sail'); living, alive ('the quick and dead'); the tender flesh ('to the quick')",
+      "pos": "adjective; noun"
     },
     {
       "surface": "quiddits",
@@ -3544,8 +3544,8 @@
     {
       "surface": "rank",
       "normalized": "rank",
-      "definition": "gross, foul, extreme — not a position or social standing",
-      "pos": "adjective"
+      "definition": "foul, festering, gross ('my offence is rank'); the ordinary sense: social standing ('the best rank and station')",
+      "pos": "adjective; noun"
     },
     {
       "surface": "ranker",
@@ -3742,8 +3742,8 @@
     {
       "surface": "round",
       "normalized": "round",
-      "definition": "blunt; direct; plain-spoken; frank",
-      "pos": "adverb"
+      "definition": "blunt, plain-spoken ('be round with him'); ordinary senses: circular ('the round nave'), around ('benetted round')",
+      "pos": "adjective; adverb"
     },
     {
       "surface": "rouse",
@@ -3880,8 +3880,8 @@
     {
       "surface": "secure",
       "normalized": "secure",
-      "definition": "unsuspecting, carelessly off-guard — not 'safe' or 'firmly fixed'",
-      "pos": "adjective"
+      "definition": "unsuspecting, off guard ('my secure hour'); as a verb: keep safe, protect ('Heaven secure him!')",
+      "pos": "adjective; verb"
     },
     {
       "surface": "semblable",
@@ -4000,7 +4000,7 @@
     {
       "surface": "slave",
       "normalized": "slave",
-      "definition": "wretch; scoundrel (term of contempt, not literal)",
+      "definition": "one in bondage (\"passion's slave\"); as an insult: wretch, scoundrel ('a rogue and peasant slave')",
       "pos": "noun"
     },
     {
@@ -4012,8 +4012,8 @@
     {
       "surface": "soft",
       "normalized": "soft",
-      "definition": "an interjection: wait, stop, hush — not a texture",
-      "pos": "interjection"
+      "definition": "as an interjection: wait, hold ('But soft! behold'); the ordinary sense: soft, gentle ('soft as sinews of the new-born babe')",
+      "pos": "interjection; adjective"
     },
     {
       "surface": "softly",
@@ -4048,8 +4048,8 @@
     {
       "surface": "sort",
       "normalized": "sort",
-      "definition": "fit, be fitting, turn out — not to categorize or arrange by type",
-      "pos": "verb"
+      "definition": "fit, be fitting ('well may it sort'); a class or kind of people ('the younger sort'); to class ('sort you with the rest')",
+      "pos": "verb; noun"
     },
     {
       "surface": "sounded",
@@ -4060,7 +4060,7 @@
     {
       "surface": "sphere",
       "normalized": "sphere",
-      "definition": "social rank; station in life",
+      "definition": "the orbit of a star, its crystal sphere ('moves not but in his sphere'); one's rank in life ('out of thy sphere')",
       "pos": "noun"
     },
     {
@@ -4114,7 +4114,7 @@
     {
       "surface": "still",
       "normalized": "still",
-      "definition": "often 'always, continually' — not merely 'motionless' or 'yet'",
+      "definition": "always, continually ('preceding still the fates'); also the ordinary senses: motionless ('sit still'), even now",
       "pos": "adverb"
     },
     {
@@ -4210,7 +4210,7 @@
     {
       "surface": "table",
       "normalized": "table",
-      "definition": "a writing tablet or memorandum book — not furniture",
+      "definition": "the ordinary sense: a table ('stoups of wine upon that table'); a writing tablet ('the table of my memory')",
       "pos": "noun"
     },
     {
@@ -4246,7 +4246,7 @@
     {
       "surface": "tell",
       "normalized": "tell",
-      "definition": "count, number off — not merely 'to say' or 'communicate'",
+      "definition": "the ordinary sense: say, relate; also to count ('might tell a hundred')",
       "pos": "verb"
     },
     {
@@ -4276,8 +4276,8 @@
     {
       "surface": "tender",
       "normalized": "tender",
-      "definition": "here a verb: regard, hold dear, care for — not 'soft'",
-      "pos": "verb"
+      "definition": "as a verb: value, hold dear ('tender yourself more dearly'); offer; as an adjective, the ordinary sense: young, delicate",
+      "pos": "verb; adjective"
     },
     {
       "surface": "tenders",
@@ -4354,8 +4354,8 @@
     {
       "surface": "toward",
       "normalized": "toward",
-      "definition": "about to happen; impending",
-      "pos": "adjective"
+      "definition": "the ordinary preposition: in the direction of; as an adjective: about to happen, in preparation ('what might be toward?')",
+      "pos": "preposition; adjective"
     },
     {
       "surface": "toy",
@@ -4378,7 +4378,7 @@
     {
       "surface": "trick",
       "normalized": "trick",
-      "definition": "trifle; mere bauble; trivial thing",
+      "definition": "a habit, natural way ('it is our trick'); a knack (\"the trick to see't\"); a trifle ('a fantasy and trick of fame')",
       "pos": "noun"
     },
     {
@@ -4672,8 +4672,8 @@
     {
       "surface": "wax",
       "normalized": "wax",
-      "definition": "grow, become, increase — not a candle-making substance",
-      "pos": "verb"
+      "definition": "grow, become ('rich gifts wax poor'); the substance wax, easily melted ('let virtue be as wax')",
+      "pos": "verb; noun"
     },
     {
       "surface": "waxes",
@@ -4690,7 +4690,7 @@
     {
       "surface": "weeds",
       "normalized": "weeds",
-      "definition": "garments; clothing (archaic)",
+      "definition": "the ordinary sense: wild plants ('midnight weeds'); garments, mourning dress ('his sables and his weeds')",
       "pos": "noun"
     },
     {
@@ -4780,8 +4780,8 @@
     {
       "surface": "without",
       "normalized": "without",
-      "definition": "outside, out of doors — not merely 'lacking' or 'in the absence of'",
-      "pos": "adverb"
+      "definition": "the ordinary sense: lacking, in the absence of; outside ('Without, my lord; guarded')",
+      "pos": "preposition; adverb"
     },
     {
       "surface": "wittingly",

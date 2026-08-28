@@ -154,8 +154,8 @@
     {
       "surface": "an",
       "normalized": "an",
-      "definition": "if (conditional)",
-      "pos": "conjunction"
+      "definition": "usually the article 'a/an'; also a conjunction meaning if ('an I do not, call me a villain')",
+      "pos": "article; conjunction"
     },
     {
       "surface": "an 'twere",
@@ -352,8 +352,8 @@
     {
       "surface": "back",
       "normalized": "back",
-      "definition": "to mount; to ride (a horse)",
-      "pos": "verb"
+      "definition": "the ordinary senses (the back; backwards; to support); in 'I will back him straight': to mount, ride (a horse)",
+      "pos": "noun; adverb; verb"
     },
     {
       "surface": "baffle",
@@ -364,7 +364,7 @@
     {
       "surface": "bald",
       "normalized": "bald",
-      "definition": "bare; trivial; without substance",
+      "definition": "hairless ('a pitiful bald crown'); of talk: bare, trivial, without substance ('this bald unjointed chat')",
       "pos": "adjective"
     },
     {
@@ -436,7 +436,7 @@
     {
       "surface": "battle",
       "normalized": "battle",
-      "definition": "army; the whole body of forces",
+      "definition": "a fight, battle; also the main body of an army ('the King's whole battle')",
       "pos": "noun"
     },
     {
@@ -706,7 +706,7 @@
     {
       "surface": "brave",
       "normalized": "brave",
-      "definition": "fine; splendid; excellent",
+      "definition": "splendid, fine, excellent ('Rare words! brave world!'); also the ordinary sense, valiant, courageous ('brave Percy')",
       "pos": "adjective"
     },
     {
@@ -1114,8 +1114,8 @@
     {
       "surface": "close",
       "normalized": "close",
-      "definition": "hand-to-hand grappling; clash",
-      "pos": "noun"
+      "definition": "near; closely; hidden, out of sight ('Stand close'); secret ('keep close'); as a noun: a grapple, clash",
+      "pos": "adjective; adverb; noun"
     },
     {
       "surface": "closer",
@@ -1156,8 +1156,8 @@
     {
       "surface": "colour",
       "normalized": "colour",
-      "definition": "disguise; cover up; give false appearance to",
-      "pos": "verb"
+      "definition": "to disguise, give a false appearance to ('Colour her working'); as a noun: a pretext, plausible appearance",
+      "pos": "verb; noun"
     },
     {
       "surface": "colour like to right",
@@ -1354,7 +1354,7 @@
     {
       "surface": "courtesy",
       "normalized": "courtesy",
-      "definition": "embrace; formal act of respect (ironic: a fatal grip)",
+      "definition": "politeness, courteous behaviour; a bow; in 'shrink under my courtesy': a crushing embrace",
       "pos": "noun"
     },
     {
@@ -1540,7 +1540,7 @@
     {
       "surface": "defend",
       "normalized": "defend",
-      "definition": "forbid (used in oaths: 'God defend')",
+      "definition": "the ordinary sense, to protect ('defend thyself'); in oaths, 'God defend' = God forbid",
       "pos": "verb"
     },
     {
@@ -1756,7 +1756,7 @@
     {
       "surface": "doubt",
       "normalized": "doubt",
-      "definition": "fear; suspect; worry that",
+      "definition": "the ordinary sense, to be uncertain ('doubt not'); also to fear, suspect ('I doubt they will be too hard for us')",
       "pos": "verb"
     },
     {
@@ -2062,8 +2062,8 @@
     {
       "surface": "face",
       "normalized": "face",
-      "definition": "trim; adorn; give a false appearance to",
-      "pos": "verb"
+      "definition": "the ordinary sense, the face; as a verb: to confront, brave out ('them that will face me'); also to trim, adorn",
+      "pos": "noun; verb"
     },
     {
       "surface": "faced",
@@ -2086,8 +2086,8 @@
     {
       "surface": "faith",
       "normalized": "faith",
-      "definition": "in faith; truly (mild oath)",
-      "pos": "interjection"
+      "definition": "belief, loyalty ('puts me from my faith'); as an exclamation, 'faith'/'by my faith' = truly, indeed (mild oath)",
+      "pos": "noun; interjection"
     },
     {
       "surface": "fall off",
@@ -2320,8 +2320,8 @@
     {
       "surface": "front",
       "normalized": "front",
-      "definition": "confront; face directly; meet head-on",
-      "pos": "verb"
+      "definition": "as a verb: to confront, meet head-on ('shall front them'); as a noun: the face, forehead ('the front of heaven')",
+      "pos": "verb; noun"
     },
     {
       "surface": "frontiers",
@@ -2392,7 +2392,7 @@
     {
       "surface": "gentle",
       "normalized": "gentle",
-      "definition": "noble; well-born; of good breeding",
+      "definition": "noble, well-born ('gentle cousin'); also the ordinary sense, mild, kind ('the gentle Severn's sedgy bank')",
       "pos": "adjective"
     },
     {
@@ -2440,8 +2440,8 @@
     {
       "surface": "go to",
       "normalized": "go to",
-      "definition": "come now; an expression of impatience or dismissal",
-      "pos": "phrase"
+      "definition": "literally, go to (a place); on its own, 'Go to!' = come now!, enough! (impatience or dismissal)",
+      "pos": "phrase; interjection"
     },
     {
       "surface": "go to buffets",
@@ -2566,7 +2566,7 @@
     {
       "surface": "hair",
       "normalized": "hair",
-      "definition": "nature; character; grain (of a plan)",
+      "definition": "the ordinary sense, hair; in 'the quality and hair of our attempt': nature, character, grain",
       "pos": "noun"
     },
     {
@@ -2668,7 +2668,7 @@
     {
       "surface": "head",
       "normalized": "head",
-      "definition": "armed force; army raised for battle",
+      "definition": "the ordinary sense, the head; also an armed force ('to save our heads by raising of a head')",
       "pos": "noun"
     },
     {
@@ -3136,8 +3136,8 @@
     {
       "surface": "jack",
       "normalized": "jack",
-      "definition": "a rogue; a knave; a disreputable fellow",
-      "pos": "noun"
+      "definition": "Falstaff's given name, Jack; as a common noun, a rogue, knave ('I am no proud Jack, like Falstaff')",
+      "pos": "proper noun; noun"
     },
     {
       "surface": "jade",
@@ -3190,7 +3190,7 @@
     {
       "surface": "kept",
       "normalized": "kept",
-      "definition": "resided; had his household; lived",
+      "definition": "the ordinary senses of 'keep' (held, maintained); in 'where the madcap Duke his uncle kept': dwelt, lived",
       "pos": "verb"
     },
     {
@@ -3262,8 +3262,8 @@
     {
       "surface": "leading",
       "normalized": "leading",
-      "definition": "experience in command; military skill",
-      "pos": "noun"
+      "definition": "the ordinary sense, leading, conducting; in 'men of such great leading': experience in command, generalship",
+      "pos": "verb; noun"
     },
     {
       "surface": "leash",
@@ -3346,8 +3346,8 @@
     {
       "surface": "line",
       "normalized": "line",
-      "definition": "reinforce; support; strengthen (a military enterprise)",
-      "pos": "verb"
+      "definition": "as a noun, a line, position, category; as a verb, to reinforce, strengthen ('To line his enterprise')",
+      "pos": "noun; verb"
     },
     {
       "surface": "links",
@@ -3490,8 +3490,8 @@
     {
       "surface": "manage",
       "normalized": "manage",
-      "definition": "the training and control of a horse; horsemanship",
-      "pos": "noun"
+      "definition": "the ordinary verb, to handle, carry out; as a noun, horsemanship, control of a horse ('terms of manage')",
+      "pos": "verb; noun"
     },
     {
       "surface": "manifold",
@@ -3538,8 +3538,8 @@
     {
       "surface": "mean",
       "normalized": "mean",
-      "definition": "agent; go-between; instrument",
-      "pos": "noun"
+      "definition": "the ordinary verb, to intend, signify; as an adjective, base, lowly ('such mean attempts'); as a noun, a means",
+      "pos": "verb; adjective; noun"
     },
     {
       "surface": "meet",
@@ -3568,7 +3568,7 @@
     {
       "surface": "metal",
       "normalized": "metal",
-      "definition": "spirit; courage; inherent quality (pun on 'mettle')",
+      "definition": "the metal itself ('bright metal on a sullen ground'); also spirit, courage — the same word as 'mettle'",
       "pos": "noun"
     },
     {
@@ -3910,7 +3910,7 @@
     {
       "surface": "opinion",
       "normalized": "opinion",
-      "definition": "reputation; public esteem",
+      "definition": "the ordinary sense, a view; reputation, public esteem ('thy lost opinion'); arrogance ('Pride, haughtiness, opinion')",
       "pos": "noun"
     },
     {
@@ -4006,7 +4006,7 @@
     {
       "surface": "paid",
       "normalized": "paid",
-      "definition": "dealt with; finished; settled accounts with",
+      "definition": "paid (money) — the ordinary sense; also dealt with, finished off, killed ('I have paid Percy')",
       "pos": "verb"
     },
     {
@@ -4342,7 +4342,7 @@
     {
       "surface": "pride",
       "normalized": "pride",
-      "definition": "height; fiercest moment (of a contest)",
+      "definition": "the ordinary sense, arrogance; also high spirit, mettle ('their pride and mettle'); the height ('pride of their contention')",
       "pos": "noun"
     },
     {
@@ -4606,8 +4606,8 @@
     {
       "surface": "removed",
       "normalized": "removed",
-      "definition": "distant; removed from one's own circle",
-      "pos": "adjective"
+      "definition": "the ordinary verb, moved away ('removed my horse'); as an adjective, distant, unconnected ('any soul removed')",
+      "pos": "verb; adjective"
     },
     {
       "surface": "render",
@@ -4786,7 +4786,7 @@
     {
       "surface": "sad",
       "normalized": "sad",
-      "definition": "serious; grave; earnest",
+      "definition": "serious, grave ('or sad or merrily'); also the ordinary sense, sorrowful ('thou makest me sad')",
       "pos": "adjective"
     },
     {
@@ -5038,8 +5038,8 @@
     {
       "surface": "soft",
       "normalized": "soft",
-      "definition": "wait; hold on; not so fast",
-      "pos": "interjection"
+      "definition": "the ordinary adjective ('soft as young down'); as an exclamation, 'soft!' = wait, hold on, not so fast",
+      "pos": "adjective; interjection"
     },
     {
       "surface": "soldest",
@@ -5206,7 +5206,7 @@
     {
       "surface": "state",
       "normalized": "state",
-      "definition": "a throne or chair of state; a royal seat",
+      "definition": "condition; the realm, government ('task'd the whole State'); a throne, chair of state ('this chair shall be my state')",
       "pos": "noun"
     },
     {
@@ -5236,8 +5236,8 @@
     {
       "surface": "still",
       "normalized": "still",
-      "definition": "always; constantly",
-      "pos": "adverb"
+      "definition": "always, continually ('still he smiled'); also motionless, quiet ('Lie still'); and the modern sense, yet",
+      "pos": "adverb; adjective"
     },
     {
       "surface": "still lett'st slip",
@@ -5254,7 +5254,7 @@
     {
       "surface": "stomach",
       "normalized": "stomach",
-      "definition": "appetite; desire; inclination; courage",
+      "definition": "the stomach itself; appetite; desire, inclination; courage",
       "pos": "noun"
     },
     {
@@ -5266,8 +5266,8 @@
     {
       "surface": "straight",
       "normalized": "straight",
-      "definition": "straightway; at once; immediately",
-      "pos": "adverb"
+      "definition": "at once, straightway ('I'll to Clifton straight'); also the ordinary sense, not crooked ('runneth straight and evenly')",
+      "pos": "adverb; adjective"
     },
     {
       "surface": "strait",
@@ -5620,7 +5620,7 @@
     {
       "surface": "title",
       "normalized": "title",
-      "definition": "legal claim to the throne; right to rule",
+      "definition": "a name or rank, the ordinary sense ('military title capital'); a legal claim, right to rule ('About his title')",
       "pos": "noun"
     },
     {
@@ -5710,8 +5710,8 @@
     {
       "surface": "triumph",
       "normalized": "triumph",
-      "definition": "a triumphal procession; a display with torches and lights",
-      "pos": "noun"
+      "definition": "as a verb, the ordinary sense, to exult, prevail; as a noun, a triumphal torchlit procession ('a perpetual triumph')",
+      "pos": "noun; verb"
     },
     {
       "surface": "trojans",
@@ -6166,8 +6166,8 @@
     {
       "surface": "wind",
       "normalized": "wind",
-      "definition": "wheel about; manoeuvre (a horse)",
-      "pos": "verb"
+      "definition": "the ordinary noun: wind, air, breath; as a verb: to curve, turn ('shall not wind'); to wheel a horse ('turn and wind')",
+      "pos": "noun; verb"
     },
     {
       "surface": "winged haste",
@@ -6226,7 +6226,7 @@
     {
       "surface": "ye",
       "normalized": "ye",
-      "definition": "you (plural, subject)",
+      "definition": "you — used for singular as well as plural, and as object as well as subject ('I pray ye'; 'Hang ye')",
       "pos": "pronoun"
     },
     {

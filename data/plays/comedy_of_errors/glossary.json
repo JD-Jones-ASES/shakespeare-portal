@@ -154,8 +154,8 @@
     {
       "surface": "an",
       "normalized": "an",
-      "definition": "if (conditional conjunction)",
-      "pos": "conjunction"
+      "definition": "the ordinary article 'a' used before a vowel; also, as a conjunction: if ('an you will not, sir')",
+      "pos": "article; conjunction"
     },
     {
       "surface": "an if",
@@ -195,7 +195,7 @@
     {
       "surface": "answer",
       "normalized": "answer",
-      "definition": "match up to, prove equal to",
+      "definition": "reply, respond (the usual sense); also to match, be equal to ('answer my good will'); to be accountable for, satisfy (a debt)",
       "pos": "verb"
     },
     {
@@ -879,8 +879,8 @@
     {
       "surface": "charge",
       "normalized": "charge",
-      "definition": "sum entrusted; responsibility; burden",
-      "pos": "noun"
+      "definition": "as a noun: what is entrusted, a task; expense ('beside the charge'); as a verb: to order, command ('I charge thee, Satan')",
+      "pos": "noun; verb"
     },
     {
       "surface": "chargeful",
@@ -951,8 +951,8 @@
     {
       "surface": "common",
       "normalized": "common",
-      "definition": "commonplace thing; public ground (here: treating seriously as trivial)",
-      "pos": "noun"
+      "definition": "ordinary, widespread ('good meat is common'); the common rout = the crowd; as a noun: public land ('make a common of my serious hours')",
+      "pos": "adjective; noun"
     },
     {
       "surface": "compact",
@@ -1279,7 +1279,7 @@
     {
       "surface": "deadly",
       "normalized": "deadly",
-      "definition": "deathly pale; death-like in appearance",
+      "definition": "deathly, death-like in appearance ('their pale and deadly looks'); also lethal, fatal ('more deadly than a mad dog's tooth')",
       "pos": "adjective"
     },
     {
@@ -1786,7 +1786,7 @@
     {
       "surface": "elsewhere",
       "normalized": "elsewhere",
-      "definition": "on another woman; outside the marriage",
+      "definition": "somewhere else ('I'll knock elsewhere'); in 'if you like elsewhere': with another woman, outside the marriage",
       "pos": "adverb"
     },
     {
@@ -1935,8 +1935,8 @@
     {
       "surface": "fair",
       "normalized": "fair",
-      "definition": "beauty",
-      "pos": "noun"
+      "definition": "beautiful, lovely (the usual sense: 'fair dame'); 'speak fair' = speak courteously; as a noun in 'my decayed fair': beauty",
+      "pos": "adjective; noun"
     },
     {
       "surface": "fair quarter",
@@ -1953,8 +1953,8 @@
     {
       "surface": "faith",
       "normalized": "faith",
-      "definition": "mild oath: 'truly', 'in truth'",
-      "pos": "interjection"
+      "definition": "as an exclamation: truly, indeed ('Faith, no, he comes too late'); as a noun: faithfulness, loyalty ('made of faith')",
+      "pos": "interjection; noun"
     },
     {
       "surface": "fallacy",
@@ -2287,7 +2287,7 @@
     {
       "surface": "grows",
       "normalized": "grows",
-      "definition": "accrues; comes to be owed",
+      "definition": "the ordinary sense, to grow ('grows bald by nature'); of a debt: to accrue, become due ('how the debt grows')",
       "pos": "verb"
     },
     {
@@ -2439,7 +2439,7 @@
     {
       "surface": "heavy",
       "normalized": "heavy",
-      "definition": "sad; sorrowful; downcast",
+      "definition": "sad, sorrowful, downcast ('heavy, sour, sad'); also the ordinary sense: weighty, hard to bear ('my heavy burdens')",
       "pos": "adjective"
     },
     {
@@ -2553,8 +2553,8 @@
     {
       "surface": "host",
       "normalized": "host",
-      "definition": "lodge; stay as a guest; put up at an inn",
-      "pos": "verb"
+      "definition": "as a verb: to lodge, stay at an inn ('the Centaur, where we host'); as a noun: one who entertains guests, innkeeper",
+      "pos": "verb; noun"
     },
     {
       "surface": "hostess",
@@ -2860,8 +2860,8 @@
     {
       "surface": "kind",
       "normalized": "kind",
-      "definition": "natural; tender; affectionate",
-      "pos": "adjective"
+      "definition": "affectionate, tender; natural ('kind embracements'); as a noun, in 'in a kind [of jollity]': a sort, type",
+      "pos": "adjective; noun"
     },
     {
       "surface": "kitchen-vestal",
@@ -3068,7 +3068,7 @@
     {
       "surface": "marks",
       "normalized": "marks",
-      "definition": "unit of money worth two-thirds of a pound",
+      "definition": "a coin worth two-thirds of a pound ('a thousand marks'); punning on marks = blows, bruises ('marks of yours upon my pate')",
       "pos": "noun"
     },
     {
@@ -3116,8 +3116,8 @@
     {
       "surface": "mean",
       "normalized": "mean",
-      "definition": "lowly; of humble or common birth",
-      "pos": "adjective"
+      "definition": "as a verb: to intend, signify ('what mean you, sir?'); as an adjective: poor, humble ('my cates be mean'); as a noun: a means, opportunity",
+      "pos": "verb; adjective; noun"
     },
     {
       "surface": "meanly",
@@ -3478,8 +3478,8 @@
     {
       "surface": "pale",
       "normalized": "pale",
-      "definition": "fence; enclosure",
-      "pos": "noun"
+      "definition": "the ordinary adjective: pale in colour, wan; as a noun in 'he breaks the pale': a fence or enclosure",
+      "pos": "adjective; noun"
     },
     {
       "surface": "parcel",
@@ -3496,8 +3496,8 @@
     {
       "surface": "pass",
       "normalized": "pass",
-      "definition": "state, predicament, straits",
-      "pos": "noun"
+      "definition": "as a noun: a state, predicament ('being at that pass'); as a verb: to go past ('before he pass the abbey')",
+      "pos": "noun; verb"
     },
     {
       "surface": "passed",
@@ -3656,13 +3656,13 @@
     {
       "surface": "possess'd",
       "normalized": "possess'd",
-      "definition": "under demonic possession; bewitched",
+      "definition": "endowed with, filled with ('possess'd with such a gentle sovereign grace'); elsewhere: taken over by an evil spirit, mad",
       "pos": "adjective"
     },
     {
       "surface": "possession",
       "normalized": "possession",
-      "definition": "demonic possession; being controlled by evil spirits",
+      "definition": "a hold, taking over ('for ever hous'd where it gets possession'); usually: control by an evil spirit ('this possession held the man')",
       "pos": "noun"
     },
     {
@@ -3997,7 +3997,7 @@
     {
       "surface": "sad",
       "normalized": "sad",
-      "definition": "serious, grave, sober (not sorrowful)",
+      "definition": "sorrowful ('sad stories of my own mishaps'); also serious, grave, sober ('you are sad, Signior Balthazar')",
       "pos": "adjective"
     },
     {
@@ -4263,7 +4263,7 @@
     {
       "surface": "sleeve",
       "normalized": "sleeve",
-      "definition": "the visible outer show; the outward form",
+      "definition": "the ordinary sense: the sleeve of a garment; in 'others have the arm, show us the sleeve': the outward show",
       "pos": "noun"
     },
     {
@@ -4411,7 +4411,7 @@
     {
       "surface": "spread",
       "normalized": "spread",
-      "definition": "lay the table; set out dinner",
+      "definition": "the ordinary sense, to spread out ('spread o'er the silver waves'); 'spread for dinner' = lay the table",
       "pos": "verb"
     },
     {
@@ -4501,7 +4501,7 @@
     {
       "surface": "still",
       "normalized": "still",
-      "definition": "always; constantly",
+      "definition": "always, constantly ('still did I tell him'); in 'hold you still': quiet, motionless",
       "pos": "adverb"
     },
     {
@@ -5181,7 +5181,7 @@
     {
       "surface": "wind",
       "normalized": "wind",
-      "definition": "breath; speech; words",
+      "definition": "the ordinary sense: the wind, especially for sailing; in 'stop in your wind' and 'words are but wind': breath, mere talk",
       "pos": "noun"
     },
     {

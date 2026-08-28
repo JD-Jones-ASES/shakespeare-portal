@@ -190,8 +190,8 @@
     {
       "surface": "an",
       "normalized": "an",
-      "definition": "if",
-      "pos": "conjunction"
+      "definition": "the ordinary article 'an'; as a conjunction: if ('An you will not be answered with reason')",
+      "pos": "article; conjunction"
     },
     {
       "surface": "anatomiz'd",
@@ -256,7 +256,7 @@
     {
       "surface": "argument",
       "normalized": "argument",
-      "definition": "subject; object; target of an action",
+      "definition": "subject, theme ('the argument?'); reason, grounds ('no other argument'); object of one's search ('an absent argument')",
       "pos": "noun"
     },
     {
@@ -520,13 +520,13 @@
     {
       "surface": "black",
       "normalized": "black",
-      "definition": "ugly; dark; inferior in comparison (archaic sense)",
+      "definition": "the colour black ('your black silk hair'); dark, plain, ugly by comparison ('but black to Rosalind')",
       "pos": "adjective"
     },
     {
       "surface": "blood",
       "normalized": "blood",
-      "definition": "passion; physical desire; sexual impulse",
+      "definition": "the blood in the body ('look on blood'); family, birth ('the gentle condition of blood'); passion, sexual appetite",
       "pos": "noun"
     },
     {
@@ -604,7 +604,7 @@
     {
       "surface": "bow",
       "normalized": "bow",
-      "definition": "yoke; curved collar placed on an ox",
+      "definition": "a weapon for shooting arrows ('his bow and arrows'); in 'the ox hath his bow': the curved yoke on an ox's neck",
       "pos": "noun"
     },
     {
@@ -664,8 +664,8 @@
     {
       "surface": "brook",
       "normalized": "brook",
-      "definition": "endure; put up with; tolerate",
-      "pos": "verb"
+      "definition": "a small stream ('the swift brook'); as a verb: to endure, put up with ('brook such disgrace')",
+      "pos": "noun; verb"
     },
     {
       "surface": "brotherly",
@@ -694,7 +694,7 @@
     {
       "surface": "burden",
       "normalized": "burden",
-      "definition": "refrain or bass accompaniment of a song",
+      "definition": "a load, something carried ('set down your venerable burden'); the refrain or bass part of a song ('a song without a burden')",
       "pos": "noun"
     },
     {
@@ -712,7 +712,7 @@
     {
       "surface": "bush",
       "normalized": "bush",
-      "definition": "ivy branch hung as a tavern sign; an advertisement",
+      "definition": "an ordinary bush or shrub; in 'good wine needs no bush': the ivy branch hung outside a tavern as its sign",
       "pos": "noun"
     },
     {
@@ -844,8 +844,8 @@
     {
       "surface": "cast away",
       "normalized": "cast away",
-      "definition": "a rejected person; someone thrown aside; a castoff",
-      "pos": "noun phrase"
+      "definition": "as a verb: to throw away, waste ('cast away honesty'); as a noun: a person ruined or discarded ('but one cast away')",
+      "pos": "verb phrase; noun phrase"
     },
     {
       "surface": "cat-like watch",
@@ -886,8 +886,8 @@
     {
       "surface": "charge",
       "normalized": "charge",
-      "definition": "command; order; instruct with authority",
-      "pos": "verb"
+      "definition": "as a verb: to command, order ('I charge thee'); as a noun: a responsibility, burden; an accusation ('the charge of women')",
+      "pos": "verb; noun"
     },
     {
       "surface": "charged",
@@ -1000,7 +1000,7 @@
     {
       "surface": "colour",
       "normalized": "colour",
-      "definition": "kind; nature; character (figurative)",
+      "definition": "colour, hue ('his hair is of a good colour'); complexion ('change you colour?'); kind, sort ('cattle of this colour')",
       "pos": "noun"
     },
     {
@@ -1108,14 +1108,14 @@
     {
       "surface": "condition",
       "normalized": "condition",
-      "definition": "temper; disposition; mood",
+      "definition": "state, situation ('the condition of my estate'); rank, birth ('the gentle condition of blood'); temper, disposition",
       "pos": "noun"
     },
     {
       "surface": "conduct",
       "normalized": "conduct",
-      "definition": "personal command; leadership in the field",
-      "pos": "noun"
+      "definition": "as a verb: to lead, escort ('I shall conduct you'); as a noun: personal command, leadership ('in his own conduct')",
+      "pos": "verb; noun"
     },
     {
       "surface": "coney",
@@ -1330,13 +1330,13 @@
     {
       "surface": "cross",
       "normalized": "cross",
-      "definition": "obstacle; adversity; thing that divides or harms",
+      "definition": "trouble, affliction ('no cross shall part'); punning in 'bear no cross': a coin stamped with a cross",
       "pos": "noun"
     },
     {
       "surface": "crown",
       "normalized": "crown",
-      "definition": "a gold coin (five shillings in the period)",
+      "definition": "a king's crown; royal power ('his crown bequeathing'); crowning glory ('wedding is great Juno's crown')",
       "pos": "noun"
     },
     {
@@ -1996,8 +1996,8 @@
     {
       "surface": "faith",
       "normalized": "faith",
-      "definition": "in truth; truly (mild oath, 'by my faith')",
-      "pos": "interjection"
+      "definition": "as an exclamation: truly, indeed ('no, faith'); as a noun: loyalty, fidelity ('all made of faith and service')",
+      "pos": "interjection; noun"
     },
     {
       "surface": "fall to",
@@ -2122,7 +2122,7 @@
     {
       "surface": "figure",
       "normalized": "figure",
-      "definition": "rhetorical figure; a device of logic or speech",
+      "definition": "shape, image, reflection ('see mine own figure'); a figure of speech ('a figure in rhetoric')",
       "pos": "noun"
     },
     {
@@ -2200,7 +2200,7 @@
     {
       "surface": "fools",
       "normalized": "fools",
-      "definition": "here: innocent creatures; harmless animals",
+      "definition": "foolish people; jesters ('gross fools as he'); in 'the poor dappled fools': the deer, poor innocent creatures",
       "pos": "noun"
     },
     {
@@ -2272,7 +2272,7 @@
     {
       "surface": "foul",
       "normalized": "foul",
-      "definition": "plain; ugly; unbeautiful",
+      "definition": "dirty; morally vile ('most mischievous foul sin'); of looks: plain, ugly ('I thank the gods I am foul')",
       "pos": "adjective"
     },
     {
@@ -2374,7 +2374,7 @@
     {
       "surface": "glass",
       "normalized": "glass",
-      "definition": "mirror",
+      "definition": "a drinking glass ('poured out of cup into a glass'); a looking-glass, mirror ('tis not her glass that flatters her')",
       "pos": "noun"
     },
     {
@@ -2452,8 +2452,8 @@
     {
       "surface": "grace",
       "normalized": "grace",
-      "definition": "honour; do credit to (me)",
-      "pos": "noun"
+      "definition": "'your grace': title for a duke; divine grace, virtue; as a verb: to honour, do credit to ('mightily grace himself')",
+      "pos": "noun; verb"
     },
     {
       "surface": "graces",
@@ -2488,7 +2488,7 @@
     {
       "surface": "gross",
       "normalized": "gross",
-      "definition": "whole; entire; large undivided",
+      "definition": "coarse, stupid ('gross fools as he'); whole, entire ('the gross band of the unfaithful')",
       "pos": "adjective"
     },
     {
@@ -3034,7 +3034,7 @@
     {
       "surface": "kindly",
       "normalized": "kindly",
-      "definition": "in accord with its kind; natural; mild in nature",
+      "definition": "warmly, generously ('most kindly requite'); naturally, according to one's nature ('frosty, but kindly')",
       "pos": "adverb"
     },
     {
@@ -3278,12 +3278,6 @@
       "pos": "adjective"
     },
     {
-      "surface": "make",
-      "normalized": "make",
-      "definition": "possess; own; have to offer",
-      "pos": "verb"
-    },
-    {
       "surface": "make the doors upon",
       "normalized": "make the doors upon",
       "definition": "shut the doors against; confine; lock up",
@@ -3352,8 +3346,8 @@
     {
       "surface": "measure",
       "normalized": "measure",
-      "definition": "a stately formal dance (noun); also moderation, due proportion",
-      "pos": "noun"
+      "definition": "amount, due proportion ('the measure of their states'); as a verb: to measure out; 'measures': stately court dances",
+      "pos": "noun; verb"
     },
     {
       "surface": "measured swords",
@@ -3400,7 +3394,7 @@
     {
       "surface": "mercy",
       "normalized": "mercy",
-      "definition": "beg pardon of; ask forgiveness from",
+      "definition": "pity, forgiveness ('Cupid have mercy'); in 'cry the man mercy': beg his pardon",
       "pos": "noun"
     },
     {
@@ -3568,8 +3562,8 @@
     {
       "surface": "natural",
       "normalized": "natural",
-      "definition": "born fool; person with mental disability",
-      "pos": "noun"
+      "definition": "natural, inborn ('the natural bond of sisters'); as a noun: a born simpleton ('sent this natural for our whetstone')",
+      "pos": "adjective; noun"
     },
     {
       "surface": "natural brother",
@@ -3802,8 +3796,8 @@
     {
       "surface": "out",
       "normalized": "out",
-      "definition": "at a loss for words; having dried up",
-      "pos": "adjective"
+      "definition": "the ordinary 'out'; of a speaker: at a loss, put off the thread ('you bring me out')",
+      "pos": "adverb; adjective"
     },
     {
       "surface": "out of all whooping",
@@ -4150,7 +4144,7 @@
     {
       "surface": "pretty",
       "normalized": "pretty",
-      "definition": "considerable; decent (not just attractive)",
+      "definition": "attractive, pleasing ('a pretty youth'); of talk or verse: clever, ingenious ('full of pretty answers')",
       "pos": "adjective"
     },
     {
@@ -4192,8 +4186,8 @@
     {
       "surface": "profit",
       "normalized": "profit",
-      "definition": "academic progress; advancement in learning",
-      "pos": "noun"
+      "definition": "gain, income ('the soil, the profit'); as a verb: to benefit; progress in learning ('speaks goldenly of his profit')",
+      "pos": "noun; verb"
     },
     {
       "surface": "profound",
@@ -4222,7 +4216,7 @@
     {
       "surface": "proper",
       "normalized": "proper",
-      "definition": "fine; handsome; good-looking",
+      "definition": "fitting, suitable ('had not that been as proper?'); handsome, fine-looking ('he'll make a proper man')",
       "pos": "adjective"
     },
     {
@@ -4318,8 +4312,8 @@
     {
       "surface": "question",
       "normalized": "question",
-      "definition": "conversation; discussion",
-      "pos": "noun"
+      "definition": "talk, conversation ('much question with him'); as a verb: to ask, enquire of ('question yond man'); 'in question': in doubt",
+      "pos": "noun; verb"
     },
     {
       "surface": "quintain",
@@ -4768,8 +4762,8 @@
     {
       "surface": "seeming",
       "normalized": "seeming",
-      "definition": "proper bearing; decorous appearance",
-      "pos": "noun"
+      "definition": "appearing, looking ('every one fault seeming monstrous'); in 'bear your body more seeming': becomingly, decorously",
+      "pos": "verb; adverb"
     },
     {
       "surface": "seizure",
@@ -5092,7 +5086,7 @@
     {
       "surface": "still",
       "normalized": "still",
-      "definition": "always; continually",
+      "definition": "always, continually ('still mine enemy'); the ordinary 'still' = motionless ('who he stands still withal')",
       "pos": "adverb"
     },
     {
@@ -5248,7 +5242,7 @@
     {
       "surface": "swift",
       "normalized": "swift",
-      "definition": "quick-witted; sharp in repartee",
+      "definition": "fast-moving ('the swift brook'); of wit: quick, ready in reply ('very swift and sententious')",
       "pos": "adjective"
     },
     {
@@ -5350,8 +5344,8 @@
     {
       "surface": "tender",
       "normalized": "tender",
-      "definition": "value; hold dear; prize highly",
-      "pos": "verb"
+      "definition": "young, delicate ('but young and tender'); as a verb: to value, hold dear ('which I tender dearly')",
+      "pos": "adjective; verb"
     },
     {
       "surface": "tenor",
@@ -5464,14 +5458,14 @@
     {
       "surface": "touches",
       "normalized": "touches",
-      "definition": "features; distinguishing traits or qualities",
-      "pos": "noun"
+      "definition": "as a verb: to touch ('he dies that touches any of this fruit'); as a noun: traits, features ('lively touches of my daughter's favour')",
+      "pos": "verb; noun"
     },
     {
       "surface": "toward",
       "normalized": "toward",
-      "definition": "on the way; approaching; imminent",
-      "pos": "adverb"
+      "definition": "the ordinary preposition 'toward'; after a noun: coming, at hand ('another flood toward')",
+      "pos": "preposition; adjective"
     },
     {
       "surface": "toy",

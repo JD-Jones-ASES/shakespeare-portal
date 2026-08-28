@@ -238,8 +238,8 @@
     {
       "surface": "appeal",
       "normalized": "appeal",
-      "definition": "formal accusation; charge against another",
-      "pos": "noun"
+      "definition": "formal accusation of treason ('my true appeal'); as a verb, to accuse formally ('to appeal each other of high treason')",
+      "pos": "noun; verb"
     },
     {
       "surface": "appeals",
@@ -694,8 +694,8 @@
     {
       "surface": "boots",
       "normalized": "boots",
-      "definition": "profits; avails; is of any use ('it boots thee not' = it helps you not)",
-      "pos": "verb"
+      "definition": "footwear ('give me my boots'); as a verb: to profit, avail ('it boots thee not' = it is no use to you)",
+      "pos": "noun; verb"
     },
     {
       "surface": "boots not",
@@ -1114,7 +1114,7 @@
     {
       "surface": "courtesy",
       "normalized": "courtesy",
-      "definition": "a bow; a formal gesture of respect",
+      "definition": "courteous behaviour, politeness ('humble and familiar courtesy'); also a bow or kneeling ('see your courtesy')",
       "pos": "noun"
     },
     {
@@ -1180,7 +1180,7 @@
     {
       "surface": "crown",
       "normalized": "crown",
-      "definition": "gold coin worth five shillings (monetary sense here)",
+      "definition": "the royal crown; kingship and sovereign power ('within the hollow crown')",
       "pos": "noun"
     },
     {
@@ -1198,8 +1198,8 @@
     {
       "surface": "current",
       "normalized": "current",
-      "definition": "valid; accepted as legal tender; in circulation",
-      "pos": "adjective"
+      "definition": "valid, passing as good coin ('thy word is current'); as a noun, a stream or its course ('hath held his current')",
+      "pos": "adjective; noun"
     },
     {
       "surface": "daintiest",
@@ -1504,8 +1504,8 @@
     {
       "surface": "divine",
       "normalized": "divine",
-      "definition": "foretell; prophesy; guess",
-      "pos": "verb"
+      "definition": "of God, holy ('my divine soul'; 'things divine'); as a verb, to foretell or guess ('divine his downfall')",
+      "pos": "adjective; verb"
     },
     {
       "surface": "divorc'd",
@@ -1624,8 +1624,8 @@
     {
       "surface": "ear",
       "normalized": "ear",
-      "definition": "plough; till the land",
-      "pos": "verb"
+      "definition": "the ear; hearing ('mine ear is open'); as a verb, to plough or till ('to ear the land')",
+      "pos": "noun; verb"
     },
     {
       "surface": "effeminate",
@@ -1828,7 +1828,7 @@
     {
       "surface": "fall to",
       "normalized": "fall to",
-      "definition": "begin eating; start on the food",
+      "definition": "fall down to ('fall to the base earth'); at table, to begin eating ('will't please you to fall to?')",
       "pos": "phrase"
     },
     {
@@ -1846,8 +1846,8 @@
     {
       "surface": "farm",
       "normalized": "farm",
-      "definition": "lease out for revenue; sell rights to collect taxes from",
-      "pos": "verb"
+      "definition": "a farm, rented land ('a tenement or pelting farm'); as a verb, to lease out for revenue ('farm our royal realm')",
+      "pos": "noun; verb"
     },
     {
       "surface": "fashion'd",
@@ -1858,13 +1858,13 @@
     {
       "surface": "favour",
       "normalized": "favour",
-      "definition": "token worn in honour of a lady; keepsake",
+      "definition": "goodwill, kindness ('princely favour'); a token worn in someone's honour ('wear it as a favour')",
       "pos": "noun"
     },
     {
       "surface": "favours",
       "normalized": "favours",
-      "definition": "faces; features (here: 'the faces of these men')",
+      "definition": "kind acts, good turns ('do thee favours'); faces, features ('the favours of these men')",
       "pos": "noun"
     },
     {
@@ -1888,8 +1888,8 @@
     {
       "surface": "fell",
       "normalized": "fell",
-      "definition": "fierce; cruel; ruthless",
-      "pos": "adjective"
+      "definition": "fierce, cruel ('fell Mowbray'; 'fell sorrow's tooth'); also the past tense of fall ('that ever fell upon this cursed earth')",
+      "pos": "adjective; verb"
     },
     {
       "surface": "fester'd",
@@ -2044,8 +2044,8 @@
     {
       "surface": "forward",
       "normalized": "forward",
-      "definition": "eager; already willing (not needing urging)",
-      "pos": "adjective"
+      "definition": "onward, ahead ('set forward, combatants'); eager, needing no urging ('spur a forward horse')",
+      "pos": "adverb; adjective"
     },
     {
       "surface": "foul weather",
@@ -2122,7 +2122,7 @@
     {
       "surface": "gentle",
       "normalized": "gentle",
-      "definition": "noble; well-born; courteous",
+      "definition": "kind, mild, soft ('gentle sleep'; 'gentle lamb'); noble, well-born; in address, courteous ('gentle Percy')",
       "pos": "adjective"
     },
     {
@@ -2362,8 +2362,8 @@
     {
       "surface": "hold",
       "normalized": "hold",
-      "definition": "a stronghold; a place of confinement",
-      "pos": "noun"
+      "definition": "to hold, keep, grasp; 'hold!' = stop, wait; as a noun, a stronghold ('the mighty hold')",
+      "pos": "verb; noun"
     },
     {
       "surface": "hollow",
@@ -2674,7 +2674,7 @@
     {
       "surface": "league",
       "normalized": "league",
-      "definition": "a distance of about three miles",
+      "definition": "an alliance, treaty, or compact ('will keep a league till death')",
       "pos": "noun"
     },
     {
@@ -2818,8 +2818,8 @@
     {
       "surface": "lower",
       "normalized": "lower",
-      "definition": "frown; look dark and threatening; scowl",
-      "pos": "verb"
+      "definition": "lower down, further beneath ('the lower world'); as a verb (lour), to frown or scowl ('seem'st thou then to lower')",
+      "pos": "adjective; verb"
     },
     {
       "surface": "lustiest",
@@ -2908,14 +2908,14 @@
     {
       "surface": "mean",
       "normalized": "mean",
-      "definition": "of low rank or birth; common; humble",
-      "pos": "adjective"
+      "definition": "to mean, intend ('I mean to see'); as an adjective, of low rank, humble ('in mean men')",
+      "pos": "verb; adjective"
     },
     {
       "surface": "measure",
       "normalized": "measure",
-      "definition": "traverse; walk across",
-      "pos": "noun"
+      "definition": "extent, degree; moderation ('keep no measure'); a stately dance; as a verb, to traverse ('measure our confines')",
+      "pos": "noun; verb"
     },
     {
       "surface": "meet",
@@ -2968,7 +2968,7 @@
     {
       "surface": "model",
       "normalized": "model",
-      "definition": "ruin; ground plan; shell of what once was",
+      "definition": "an image or copy ('the model of thy father's life'); a plan or outline; the ground plan or ruin left of a building",
       "pos": "noun"
     },
     {
@@ -3082,7 +3082,7 @@
     {
       "surface": "nobles",
       "normalized": "nobles",
-      "definition": "gold coins worth six shillings and eight pence each",
+      "definition": "noblemen ('the nobles they are fled'); also gold coins worth 6s 8d each ('eight thousand nobles')",
       "pos": "noun"
     },
     {
@@ -3156,12 +3156,6 @@
       "normalized": "oppression",
       "definition": "pressing weight; crushing burden; outward show of grief",
       "pos": "noun"
-    },
-    {
-      "surface": "or",
-      "normalized": "or",
-      "definition": "before (archaic temporal use)",
-      "pos": "conjunction"
     },
     {
       "surface": "order several powers",
@@ -3238,8 +3232,8 @@
     {
       "surface": "pale",
       "normalized": "pale",
-      "definition": "a fence; an enclosure; a bounded area",
-      "pos": "noun"
+      "definition": "pale, white with fear or grief ('look pale and dead'); as a noun, a fence or enclosure ('the compass of a pale')",
+      "pos": "adjective; noun"
     },
     {
       "surface": "palmer's walking-staff",
@@ -3286,7 +3280,7 @@
     {
       "surface": "pass'd",
       "normalized": "pass'd",
-      "definition": "given; pledged; made (of a promise)",
+      "definition": "passed, went along ('thus he pass'd along'); of a promise: given, pledged ('thy promise pass'd')",
       "pos": "verb"
     },
     {
@@ -3952,7 +3946,7 @@
     {
       "surface": "sad",
       "normalized": "sad",
-      "definition": "serious; grave; heavy",
+      "definition": "sorrowful, unhappy (the ordinary sense); sometimes serious, grave, heavy ('so heavy sad')",
       "pos": "adjective"
     },
     {
@@ -4192,8 +4186,8 @@
     {
       "surface": "sometimes",
       "normalized": "sometimes",
-      "definition": "formerly; once (archaic sense)",
-      "pos": "adjective"
+      "definition": "formerly, once ('my sometimes royal master'); also at times, now and then ('sometimes am I king')",
+      "pos": "adjective; adverb"
     },
     {
       "surface": "soon-believing",
@@ -4396,8 +4390,8 @@
     {
       "surface": "stranger",
       "normalized": "stranger",
-      "definition": "foreign; of a foreign land (not merely unfamiliar)",
-      "pos": "adjective"
+      "definition": "a person unknown, a newcomer ('I am a stranger here'); as an adjective, foreign ('the stranger paths of banishment')",
+      "pos": "noun; adjective"
     },
     {
       "surface": "strew'd",
@@ -4756,7 +4750,7 @@
     {
       "surface": "title",
       "normalized": "title",
-      "definition": "one letter or mark; a jot (here: a single letter of a title)",
+      "definition": "a name or rank ('I have no name, no title'); in 'raze one title out': a tittle, the smallest written mark",
       "pos": "noun"
     },
     {
@@ -5284,8 +5278,8 @@
     {
       "surface": "worst",
       "normalized": "worst",
-      "definition": "make worst; invent the most damaging charge against",
-      "pos": "verb"
+      "definition": "the worst, most evil (ordinary sense); 'worst in this royal presence' = lowest in rank; 'canst worst devise' = most damagingly",
+      "pos": "adjective; adverb"
     },
     {
       "surface": "worthily",
